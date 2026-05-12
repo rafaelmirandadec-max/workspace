@@ -1,0 +1,39 @@
+pack:
+  name: squad-jhuridico
+  version: 1.0.0
+  description: "Squad Jhuridico — 6 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial e análise processual."
+  icon: "⚖️"
+  entry_agent: juridico-chief
+  created: "2026-05-12"
+
+agents:
+  - juridico-chief       # Tier 0 — Orquestrador, triagem e roteamento
+  - pesquisador-juridico # Tier 1 — Jurisprudência, legislação e doutrina
+  - redator-peticoes     # Tier 2 — Petições iniciais e recursos
+  - analista-contratos   # Tier 2 — Contratos imobiliários, civis e empresariais
+  - redator-pareceres    # Tier 2 — Pareceres jurídicos e respostas ao cliente
+  - analista-processual  # Tier 2 — Análise de processos e estratégia
+
+skills:
+  - direito-imobiliario       # Base legislativa imobiliária (CC, Lei 8.245, Lei 9.514, etc.)
+  - pesquisa-jurisprudencial  # Metodologia de pesquisa STJ, STF, TJ
+  - formatacao-peticoes       # Padrões de formatação, prazos e estrutura CPC/2015
+
+areas_atuacao:
+  - Direito Civil
+  - Direito Imobiliário
+  - Direito Empresarial
+
+pipeline_tipico:
+  pesquisa_e_peticao:
+    - "@pesquisador-juridico → relatório de jurisprudência"
+    - "@analista-processual → estratégia"
+    - "@redator-peticoes → minuta da peça"
+  contrato:
+    - "@pesquisador-juridico → legislação aplicável"
+    - "@analista-contratos → minuta ou revisão"
+    - "@redator-pareceres → parecer de risco"
+  consulta_cliente:
+    - "@pesquisador-juridico → base legal"
+    - "@analista-processual → risco processual"
+    - "@redator-pareceres → resposta ao cliente"
