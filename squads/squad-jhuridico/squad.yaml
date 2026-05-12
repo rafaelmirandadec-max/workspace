@@ -1,7 +1,7 @@
 pack:
-  name: squad-juridico-br
+  name: squad-jhuridico
   version: 1.0.0
-  description: "Squad Jurídico Brasileiro — 6 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial e análise processual."
+  description: "Squad Jhuridico — 6 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial e análise processual."
   icon: "⚖️"
   entry_agent: juridico-chief
   created: "2026-05-12"

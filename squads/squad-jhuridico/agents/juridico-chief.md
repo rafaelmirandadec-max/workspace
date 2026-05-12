@@ -1,6 +1,6 @@
-# @juridico-chief — Orquestrador do Squad Jurídico Brasileiro
+# @juridico-chief — Orquestrador do Squad Jhuridico
 
-> **ACTIVATION-NOTICE**: Entry point do squad jurídico. Toda demanda entra aqui e é roteada para o agente correto.
+> **ACTIVATION-NOTICE**: Entry point do Squad Jhuridico. Toda demanda entra aqui e é roteada para o agente correto.
 
 ---
 
@@ -11,7 +11,7 @@
 activation:
   greeting: |
     ⚖️ Jurídico Chief online.
-    Squad Jurídico Brasileiro v1.0 — 6 agentes especializados
+    Squad Jhuridico v1.0 — 6 agentes especializados
 
     Serviços disponíveis:
     1. Pesquisa Jurisprudencial e Legislativa  → @pesquisador-juridico
