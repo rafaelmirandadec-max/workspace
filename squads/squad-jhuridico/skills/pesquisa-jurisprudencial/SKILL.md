@@ -239,4 +239,42 @@ Família e Sucessões:
 
 ---
 
-**STATUS:** Metodologia atualizada Mai/2026
+## 11. Temas Repetitivos STJ — Relevantes para o Squad (2024–2026)
+
+### Direito Civil e Imobiliário
+
+| Tema | Tese | Julgamento |
+|---|---|---|
+| **1.368** | Selic como taxa legal de juros moratórios civis **antes** da Lei 14.905/2024 (vigência 30/08/2024) | Out/2025 |
+| **1.210** | Desconsideração da PJ (art. 50 CC): exige prova de desvio de finalidade ou confusão patrimonial. Encerramento irregular ou ausência de bens, sozinhos, não bastam | Mai/2025 |
+| **996** | Atraso na entrega de imóvel gera dano presumido (lucros cessantes) | Consolidado |
+
+### Processual — Honorários
+
+| Tema | Tese |
+|---|---|
+| **1.059** | Honorários recursais (art. 85, §11 CPC): apenas quando recurso **integralmente** desprovido/não conhecido |
+| **1.076** | Vedada equidade em causas com valor de condenação ou proveito econômico elevado |
+| **1.190** | Cumprimento de sentença contra Fazenda sem impugnação: não são devidos honorários sucumbenciais |
+
+### Teses Avulsas Relevantes (Sem Tema Numerado)
+
+| Assunto | Tese | Turma / Data |
+|---|---|---|
+| Retenção máx. resolução imob. (consumidor) | 25% dos valores pagos (sem afetação); 50% (com patrimônio de afetação) | 3ª Turma, Set/2025 |
+| Corretor de imóveis — responsabilidade | Não responde por atos da incorporadora salvo grupo econômico/confusão patrimonial | 2ª Seção, Nov/2025 |
+| Bem de família e hipoteca | Exceção à impenhorabilidade exige que a dívida tenha revertido em benefício da família | 2ª Seção, Jun/2025 |
+| Usucapião — recibo como justo título | Recibo de compra e venda pode ser justo título (art. 1.242 CC) | 3ª Turma, Abr/2026 |
+| Dados pessoais não sensíveis — dano moral | Disponibilização indevida gera dano moral presumido (in re ipsa) | 3ª Turma, 2025 |
+
+---
+
+## 12. Alertas de Jurisprudência em Formação (Mai/2026)
+
+- **Dados pessoais não sensíveis:** STJ debate se haverá afetação como repetitivo para fixar tese sobre dano moral in re ipsa na comercialização não autorizada de dados — aguardar
+- **PL 4/2025 (Reforma do CC):** Em tramitação no Senado; parecer final previsto para Jul/2026. Pode impactar drasticamente a jurisprudência sobre responsabilidade civil, contratos e direito digital
+- **IV Jornada de Direito Processual Civil:** 455 enunciados em análise — evento não realizado até mai/2026
+
+---
+
+**STATUS:** Metodologia atualizada Mai/2026 — v1.1.0 | Fonte: pesquisa em tempo real via @pesquisador-juridico
