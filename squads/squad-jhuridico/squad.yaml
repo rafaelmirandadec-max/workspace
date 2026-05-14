@@ -1,7 +1,7 @@
 pack:
   name: squad-jhuridico
-  version: 1.0.0
-  description: "Squad Jhuridico — 6 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial e análise processual."
+  version: 1.1.0
+  description: "Squad Jhuridico — 7 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial, análise processual e jurimetria."
   icon: "⚖️"
   entry_agent: juridico-chief
   created: "2026-05-12"
@@ -13,11 +13,13 @@ agents:
   - analista-contratos   # Tier 2 — Contratos imobiliários, civis e empresariais
   - redator-pareceres    # Tier 2 — Pareceres jurídicos e respostas ao cliente
   - analista-processual  # Tier 2 — Análise de processos e estratégia
+  - analista-jurimetrico # Tier 2 — Jurimetria, probabilidade e dados processuais (DataJud/CNJ)
 
 skills:
   - direito-imobiliario       # Base legislativa imobiliária (CC, Lei 8.245, Lei 9.514, etc.)
   - pesquisa-jurisprudencial  # Metodologia de pesquisa STJ, STF, TJ
   - formatacao-peticoes       # Padrões de formatação, prazos e estrutura CPC/2015
+  - jurimetria                # Metodologia jurimetrica, DataJud, CNJ, fórmulas e fontes
 
 areas_atuacao:
   - Direito Civil
