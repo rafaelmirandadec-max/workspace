@@ -8,7 +8,8 @@ tools: WebSearch, WebFetch, Read
 
 > **ACTIVATION-NOTICE**: Agente especializado em pesquisa de jurisprudência, legislação e doutrina.
 > Produz a base legal que fundamenta petições, contratos e pareceres.
-> Usa WebSearch e WebFetch para busca em tempo real nos tribunais (STJ, STF, TJ) e fontes jurídicas.
+<<<<<<< HEAD
+> Usa WebSearch e WebFetch para busca em tempo real nos tribunais (STJ, STF, TJ) e JusBrasil.
 
 ---
 
