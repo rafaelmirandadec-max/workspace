@@ -3,11 +3,11 @@
 ```yaml
 skill:
   id: direito-imobiliario
-  version: "1.0.0"
-  updated: "2026-05-12"
+  version: "1.1.0"
+  updated: "2026-05-14"
   category: direito-civil-imobiliario
   agents: ["analista-contratos", "pesquisador-juridico", "redator-peticoes", "redator-pareceres"]
-  description: "Base legislativa completa de Direito Imobiliário brasileiro — contratos, locação, incorporação, alienação fiduciária, registro, usucapião"
+  description: "Base legislativa completa de Direito Imobiliário brasileiro — contratos, locação, incorporação, alienação fiduciária, registro, usucapião. Atualizada com Lei 14.711/2023 (Marco Legal das Garantias), Lei 14.905/2024 (juros) e jurisprudência STJ 2023–2026"
 ```
 
 ---
@@ -212,4 +212,57 @@ O devedor (fiduciante) transfere ao credor (fiduciário) a propriedade resolúve
 
 ---
 
-**STATUS:** Base atualizada Mai/2026 | Próxima revisão: Nov/2026
+## 11. Jurisprudência STJ — Teses Recentes (2023–2026) ⭐
+
+### Lei 14.711/2023 — Marco Legal das Garantias (impacto direto)
+- **Alienação fiduciária da propriedade superveniente:** O fiduciante pode constituir alienação fiduciária sobre propriedade que ainda não lhe pertence — eficaz a partir do cancelamento da propriedade fiduciária anterior
+- **Execução extrajudicial de hipoteca (art. 699-A CPC):** A hipoteca passou a admitir execução extrajudicial pelo mesmo rito da Lei 9.514/97
+- **Art. 784, XI-A CPC:** Créditos com alienação fiduciária de imóveis são títulos executivos extrajudiciais
+- **Múltiplas garantias:** Encargos fiduciários sucessivos sobre o mesmo bem são permitidos
+
+### Usucapião Ordinária — Recibo como Justo Título (abr/2026)
+**STJ, 3ª Turma, REsp (abr/2026):**
+"O recibo de compra e venda de imóvel pode ser considerado justo título para fins de usucapião ordinária (art. 1.242 CC), desde que demonstre inequivocamente a intenção das partes de transmitir a propriedade."
+- Justo título **não exige** instrumento público nem registro
+- Interpretação teleológica — protege o adquirente de boa-fé sem registro
+
+### Resolução de Contrato Imobiliário — Retenção Máxima (set/2025)
+**STJ, 3ª Turma, REsp 2.106.548/SP (set/2025):**
+"É abusiva a perda substancial dos valores pagos na hipótese de resolução do contrato de compra e venda de imóvel por culpa do consumidor, não podendo a retenção ultrapassar **25% dos valores pagos**."
+- Fundamento: arts. 51, IV, e 53 CDC + proibição de enriquecimento sem causa
+- Se houver patrimônio de afetação (Lei 4.591/64 + Lei 13.786/2018): até 50%
+
+### Responsabilidade do Corretor de Imóveis (nov/2025)
+**STJ, 2ª Seção (nov/2025):**
+"O corretor de imóveis **não é** responsável por danos causados ao consumidor em razão do descumprimento, pela construtora ou incorporadora, de obrigações relativas ao empreendimento — salvo se demonstrado:
+(i) envolvimento do corretor nas atividades de incorporação e construção;
+(ii) que integra o mesmo grupo econômico da incorporadora; ou
+(iii) confusão ou desvio patrimonial das responsáveis em benefício do corretor."
+
+### Bem de Família e Hipoteca (jun/2025)
+**STJ, 2ª Seção (jun/2025):**
+"A exceção à impenhorabilidade do bem de família (art. 3º, V, Lei 8.009/1990) restringe-se às hipóteses em que a dívida foi constituída **em benefício da entidade familiar**."
+- Não basta o imóvel ter sido dado em hipoteca
+- É necessário demonstrar que a dívida garantida reverteu em benefício da família
+
+### Atraso na Entrega do Imóvel — Tema 996 (consolidado)
+**STJ — REsp 1.729.593/SP:**
+"Na aquisição de unidades autônomas em construção, o contrato deverá estabelecer prazo certo para entrega. No descumprimento, o prejuízo do comprador é **presumido**, consistente na privação do uso do bem, a ensejar indenização por lucros cessantes."
+
+### Usucapião em APP
+**Tese consolidada:** A ocupação irregular de imóvel situado em Área de Preservação Permanente (APP) **não gera direito a usucapião**, independentemente do tempo de posse.
+
+---
+
+## 12. Juros e Correção Monetária em Contratos Imobiliários (pós-Lei 14.905/2024)
+
+| Período do Inadimplemento | Correção Monetária | Juros de Mora | Base Legal |
+|---|---|---|---|
+| Antes de 30/08/2024 | Selic (engloba tudo) | — | Tema 1.368 STJ |
+| A partir de 30/08/2024 | IPCA | Taxa Legal (Selic − IPCA) | Lei 14.905/2024 |
+
+**Atenção:** Contratos imobiliários frequentemente têm cláusula de correção pelo INCC (na fase de construção) ou IGPM/IPCA (na fase de locação). Verificar sempre se há índice convencionado — a Lei 14.905/2024 só aplica o IPCA como correção quando **não houver índice convencionado ou previsto em lei especial**.
+
+---
+
+**STATUS:** Base atualizada Mai/2026 — v1.1.0 | Fonte: pesquisa em tempo real via @pesquisador-juridico

@@ -1,7 +1,7 @@
 pack:
   name: squad-jhuridico
-  version: 1.1.0
-  description: "Squad Jhuridico — 7 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial, análise processual e jurimetria."
+  version: 1.2.0
+  description: "Squad Jhuridico — 7 agentes para advocacia civil, imobiliária e empresarial. Petições, contratos, pareceres, pesquisa jurisprudencial, análise processual e jurimetria. Inclui base atualizada CC 2020–2026 e CPC/2015."
   icon: "⚖️"
   entry_agent: juridico-chief
   created: "2026-05-12"
@@ -20,6 +20,8 @@ skills:
   - pesquisa-jurisprudencial  # Metodologia de pesquisa STJ, STF, TJ
   - formatacao-peticoes       # Padrões de formatação, prazos e estrutura CPC/2015
   - jurimetria                # Metodologia jurimetrica, DataJud, CNJ, fórmulas e fontes
+  - direito-civil-brasileiro  # CC atualizado 2020–2026: contratos, responsabilidade civil, direitos reais, PL 4/2025
+  - codigo-processo-civil     # CPC/2015 atualizado 2020–2026: tutelas, recursos, honorários, precedentes
 
 areas_atuacao:
   - Direito Civil
