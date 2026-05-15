@@ -1,0 +1,112 @@
+pack:
+  name: squad-escritorio-inteligente
+  version: 1.0.0
+  description: "Escritório Inteligente — 8 agentes para automação completa do escritório de advocacia. Gestão & Atendimento (triagem, audiências, publicações), Produção Jurídica (petições, PJE, liquidação, gestão de processos) e Marketing & Criativos (vídeos, Reels, landing pages). Regra 80/20 aplicada."
+  icon: "🏛️"
+  entry_agent: escritorio-chief
+  created: "2026-05-15"
+
+agents:
+  # Tier 0 — Orquestrador central
+  - escritorio-chief        # Entry point, roteamento 80/20
+
+  # Tier 1 — Pilar 1: Gestão & Atendimento
+  - triagem-ia              # Atendimento inicial e triagem de clientes
+  - assistente-audiencias   # Preparação de audiências e revisão de contratos
+  - monitor-publicacoes     # Tratamento automatizado de publicações DJe/PJE
+
+  # Tier 1 — Pilar 2: Produção Jurídica
+  - padronizador-peticoes   # Petições padronizadas, PJE e liquidação de sentença
+  - gestor-demandas         # Cadastro e andamento de processos
+
+  # Tier 1 — Pilar 3: Marketing & Criativos
+  - roteirizador-videos     # Roteiros para vídeos jurídicos (Reels, YouTube, Stories)
+  - criativo-digital        # Criativos, landing pages e calendário de conteúdo
+
+  # Integração com Squad Jhuridico (Produção Jurídica avançada)
+  - juridico-chief          # Orquestrador jurídico especializado
+  - pesquisador-juridico    # Pesquisa de jurisprudência e legislação
+  - redator-peticoes        # Petições complexas e recursos
+  - analista-contratos      # Contratos imobiliários e empresariais
+  - redator-pareceres       # Pareceres jurídicos
+  - analista-processual     # Análise de processos e estratégia
+  - analista-jurimetrico    # Jurimetria e dados processuais
+
+skills:
+  # Skills do Squad Escritório Inteligente
+  - triagem-juridica          # Classificação de urgência e metodologia de triagem
+  - calculo-liquidacao-pje    # Liquidação de sentença, índices e protocolo PJE
+  - marketing-juridico        # Regras OAB 205/2021 e estratégia de conteúdo
+  - gestao-escritorio         # Regra 80/20, produtividade e checklists
+
+  # Skills do Squad Jhuridico (integradas)
+  - direito-imobiliario       # Base legislativa imobiliária
+  - pesquisa-jurisprudencial  # Metodologia de pesquisa STJ, STF, TJ
+  - formatacao-peticoes       # Padrões de formatação CPC/2015
+  - jurimetria                # Metodologia jurimetrica e DataJud/CNJ
+  - direito-civil-brasileiro  # CC atualizado 2020–2026
+  - codigo-processo-civil     # CPC/2015 atualizado 2020–2026
+
+areas_atuacao:
+  - Gestão & Atendimento
+  - Produção Jurídica
+  - Marketing & Criativos
+  - Direito Civil
+  - Direito Imobiliário
+  - Direito Empresarial
+
+pilares:
+  pilar_1_gestao_atendimento:
+    descricao: "Automação do atendimento, triagem, audiências e controle de prazos"
+    agentes: ["triagem-ia", "assistente-audiencias", "monitor-publicacoes"]
+    skills: ["triagem-juridica", "gestao-escritorio", "codigo-processo-civil"]
+    automacao_alvo: "Triagem de clientes, preparação de audiências, publicações DJe/PJE"
+
+  pilar_2_producao_juridica:
+    descricao: "Automação da produção de peças, cálculos e gestão processual"
+    agentes: ["padronizador-peticoes", "gestor-demandas", "juridico-chief", "pesquisador-juridico",
+              "redator-peticoes", "analista-contratos", "redator-pareceres", "analista-processual"]
+    skills: ["calculo-liquidacao-pje", "formatacao-peticoes", "codigo-processo-civil",
+             "direito-civil-brasileiro", "direito-imobiliario", "pesquisa-jurisprudencial"]
+    automacao_alvo: "Petições padronizadas, cálculos PJE, gestão de carteira processual"
+
+  pilar_3_marketing:
+    descricao: "Automação de conteúdo, vídeos e captação digital"
+    agentes: ["roteirizador-videos", "criativo-digital"]
+    skills: ["marketing-juridico"]
+    automacao_alvo: "Roteiros de Reels, criativos, landing pages, calendário de conteúdo"
+
+regra_80_20:
+  principio: "Automatizar as 3 atividades que mais consomem tempo do advogado"
+  atividade_1: "Triagem e atendimento inicial → @triagem-ia"
+  atividade_2: "Produção de peças e gestão processual → @padronizador-peticoes + @gestor-demandas"
+  atividade_3: "Conteúdo e marketing → @roteirizador-videos + @criativo-digital"
+  resultado_esperado: "8–13 horas semanais liberadas para atividades de alto valor"
+
+pipelines_tipicos:
+  novo_cliente:
+    - "@triagem-ia → dossiê de triagem"
+    - "@analista-processual → estratégia processual"
+    - "@redator-peticoes → petição inicial"
+    - "@gestor-demandas → cadastro do processo"
+
+  publicacao_prazo:
+    - "@monitor-publicacoes → alerta de prazo"
+    - "@padronizador-peticoes → peça de resposta"
+    - "@gestor-demandas → registro da movimentação"
+
+  preparar_audiencia:
+    - "@assistente-audiencias → checklist + roteiro"
+    - "@pesquisador-juridico → base legal (se necessário)"
+    - "@analista-processual → estratégia de conciliação"
+
+  producao_conteudo:
+    - "@roteirizador-videos → roteiro do vídeo"
+    - "@criativo-digital → arte/thumbnail + legenda"
+    - "[publicar → engajamento → novas consultas]"
+
+  contrato_cliente:
+    - "@triagem-ia → dossiê inicial"
+    - "@pesquisador-juridico → legislação aplicável"
+    - "@analista-contratos → minuta ou revisão"
+    - "@redator-pareceres → parecer de risco ao cliente"
