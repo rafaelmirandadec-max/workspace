@@ -7,7 +7,7 @@
 
 **AÇÃO DE COBRANÇA DE INDENIZAÇÃO SECURITÁRIA C/C DECLARAÇÃO DE ABUSIVIDADE DE NEGATIVA DE COBERTURA, INDENIZAÇÃO POR DANOS MORAIS, EXIBIÇÃO DE DOCUMENTOS E PEDIDO DE TUTELA DE URGÊNCIA**
 
-em face de **ZURICH SANTANDER BRASIL SEGUROS E PREVIDÊNCIA S.A.**, pessoa jurídica de direito privado, inscrita no CNPJ nº 87.376.109/0001-06, com sede na Avenida Jornalista Roberto Marinho, nº 85, Cidade Monções, São Paulo/SP, CEP 04576-010, endereço eletrônico a ser identificado no cadastro processual, pelos fatos e fundamentos a seguir expostos.
+em face de **ZURICH SANTANDER BRASIL SEGUROS S.A.**, pessoa jurídica de direito privado, inscrita no CNPJ nº 06.136.920/0001-18, com sede na Avenida Presidente Juscelino Kubitschek, nº 2041 e 2235, 16º andar, Vila Olímpia, São Paulo/SP, CEP 04543-011 (seguradora), e em face de **BANCO SANTANDER (BRASIL) S.A.**, pessoa jurídica de direito privado, inscrita no CNPJ nº 90.400.888/0001-42, com sede na Avenida Presidente Juscelino Kubitschek, nº 2041 e 2235, Vila Olímpia, São Paulo/SP (estipulante e responsável pela cobrança do prêmio), pelos fatos e fundamentos a seguir expostos.
 
 ---
 
@@ -21,11 +21,37 @@ Requer, ainda, a concessão dos benefícios da justiça gratuita, por não possu
 
 ## 2. DOS FATOS
 
-A autora contratou junto à ré seguro residencial denominado **Seguro Residencial Premiado Digital**, vinculado à apólice nº 1490320 e certificado nº 545949, destinado à proteção de seu imóvel residencial situado na Rua Presidente Getúlio Vargas, Jardim Eldorado, Palhoça/SC.
+### 2.1. Da contratação do seguro
 
-O contrato previa, dentre outras garantias, cobertura para incêndio, raio e explosão de qualquer natureza, justamente o risco que, posteriormente, atingiu o imóvel segurado.
+A autora contratou, por intermédio do Banco Santander (Brasil) S.A., na qualidade de estipulante e cobrador do prêmio, e da Santander Corretora de Seguros, o produto denominado **Seguro Residencial Premiado Digital** (apólice nº 1490320, certificado nº 545949), tendo como seguradora a corré Zurich Santander Brasil Seguros S.A.
 
-Em **11 de janeiro de 2025**, o imóvel da autora foi acometido por severo incêndio, que causou danos expressivos à residência, comprometendo sua estrutura, sua habitabilidade e o patrimônio doméstico da segurada.
+O imóvel segurado é a residência situada na Rua Presidente Getúlio Vargas, Jardim Eldorado, Palhoça/SC, classificado pela própria proposta — em campo preenchido pela seguradora — como **"CASA – HABITUAL (NÃO COBRE COMÉRCIO) – CONCRETO E/OU ALVENARIA"**. A própria seguradora, portanto, registrou no ato da contratação a natureza residencial do bem.
+
+O prêmio do seguro, no valor de R$ 2.054,84, parcelado em 12 vezes, era debitado automaticamente em conta corrente do Banco Santander mantida pela autora. A apólice era objeto de **renovação simplificada** automática, autorizada na proposta, mediante atuação do próprio Banco Santander como estipulante. A vigência da apólice no momento do sinistro era de 18/03/2024 a 18/03/2025.
+
+### 2.2. Das coberturas contratadas
+
+Dentre as coberturas contratadas e regularmente pagas, destacam-se, para os fins desta ação:
+
+a) **INCÊNDIO, RAIO E EXPLOSÃO (QUALQUER CAUSA)** — limite máximo de indenização de **R$ 456.622,94**;
+
+b) **DESPESAS DE ALUGUEL (PERDA E PGTOS)** — limite máximo de indenização de **R$ 45.663,05**;
+
+c) DANOS ELÉTRICOS — R$ 34.245,88;
+
+d) RESPONSABILIDADE CIVIL FAMILIAR — R$ 228.311,47;
+
+e) DESMORONAMENTO — R$ 45.663,05;
+
+f) VENDAVAL ATÉ FUMAÇA — R$ 45.663,05;
+
+g) QUEBRA DE VIDROS — R$ 4.566,11;
+
+h) demais coberturas acessórias.
+
+### 2.3. Do sinistro
+
+Em **11 de janeiro de 2025**, durante a vigência da apólice, o imóvel da autora foi acometido por severo incêndio, que causou danos expressivos à residência, comprometendo sua estrutura, sua habitabilidade e o patrimônio doméstico da segurada.
 
 Diante do sinistro, a autora comunicou o ocorrido à seguradora, dando origem ao processo administrativo de sinistro nº SIN-1589559.
 
@@ -79,11 +105,19 @@ O art. 765 do Código Civil impõe às partes o dever de guardar, na conclusão 
 
 A ré não pode, depois de aceitar a contratação e receber o prêmio, ampliar unilateralmente hipóteses de exclusão para afastar o pagamento da indenização no momento em que o risco contratado se concretiza.
 
-### 3.4. DA INEXISTÊNCIA DE ATIVIDADE COMERCIAL NO IMÓVEL SEGURADO
+### 3.4. DA INEXISTÊNCIA DE ATIVIDADE COMERCIAL NO IMÓVEL SEGURADO E DOS LIMITES LITERAIS DA CLÁUSULA DE EXCLUSÃO
 
-A principal justificativa da ré foi a suposta descaracterização do uso exclusivamente habitacional do imóvel. A tese não se sustenta.
+A principal justificativa da ré foi a suposta descaracterização do uso exclusivamente habitacional do imóvel. A tese não se sustenta sequer pela literalidade da cláusula de exclusão constante da proposta, que dispõe:
 
-Acúmulo de materiais não é sinônimo de comércio. Para que se pudesse falar em atividade comercial, seria indispensável a demonstração de exploração econômica organizada, habitualidade lucrativa, circulação mercantil, clientela, emissão de notas, estoque empresarial, empregados, inscrição fiscal ou qualquer outro elemento objetivo. Nada disso foi apontado pela seguradora.
+> *"Declaro estar ciente que este seguro (...) não cobre imóveis de uso misto (**escritório, comércio, serviços, indústria** em conjunto com a residência), e não cobre imóveis que estejam desocupados a mais de 180 (cento e oitenta) dias."*
+
+A cláusula é taxativa: a exclusão alcança apenas hipóteses de uso **empresarial organizado** — escritório, comércio, serviços ou indústria. Acúmulo de materiais decorrente de transtorno familiar **não se enquadra em nenhuma dessas categorias**, todas pressupondo atividade econômica habitual e lucrativa.
+
+Aplica-se aqui, com força, o art. 22 da Circular SUSEP nº 621/2021, segundo o qual cada risco excluído deve referir-se a "evento definido e preciso, sendo proibidas generalidades". A ré, ao estender a hipótese de exclusão de "comércio" para "armazenamento de recicláveis", interpretou ampliativamente a cláusula restritiva, em frontal violação à norma regulatória e ao art. 47 do CDC.
+
+Acresce que a própria seguradora, no campo "Características do imóvel" da proposta, classificou o bem como **"CASA – HABITUAL (NÃO COBRE COMÉRCIO) – CONCRETO E/OU ALVENARIA"** — registro feito **no ato da contratação**, sem qualquer vistoria prévia ou questionamento sobre o uso do imóvel. A seguradora aceitou o risco como residencial habitual e, no momento do sinistro, tentou reclassificá-lo retroativamente.
+
+Acúmulo de materiais não é sinônimo de comércio. Para que se pudesse falar em atividade comercial, seria indispensável a demonstração de exploração econômica organizada, habitualidade lucrativa, circulação mercantil, clientela, emissão de notas, estoque empresarial, empregados, inscrição fiscal ou qualquer outro elemento objetivo. Nada disso foi apontado pela seguradora. A profissão registrada da autora é **Técnica de Contabilidade** — não há empresa, alvará, CNPJ ou atividade autônoma a ela vinculada.
 
 A prova documental relacionada aos autos nº 5022800-79.2025.8.24.0045 demonstra que o acúmulo de materiais decorre de quadro de vulnerabilidade da filha da autora, envolvendo dependência química e transtorno de acumulação. Trata-se de residência inserida em grave contexto familiar e sanitário — circunstância que atrai intervenção assistencial e de saúde pública, não enquadramento como atividade empresarial.
 
@@ -170,7 +204,15 @@ A autora pretende utilizar, como prova emprestada (art. 372 do CPC), documentos 
 
 Tais documentos demonstram que o acúmulo não decorria de atividade comercial, mas de situação familiar complexa, envolvendo vulnerabilidade social, transtorno de acumulação e necessidade de intervenção assistencial — desconstituindo a premissa adotada pela seguradora.
 
-### 3.13. DO FORO COMPETENTE
+### 3.13. DA RESPONSABILIDADE DO BANCO SANTANDER COMO ESTIPULANTE
+
+O Banco Santander figura na relação contratual como **estipulante** e responsável pela cobrança do prêmio, recebendo, conforme consta da proposta, pró-labore de 42,99% sobre o prêmio pago (R$ 822,66). Foi o Banco quem mediou a contratação, captou a proposta, efetuou o débito automático em conta corrente da autora e operou a renovação simplificada da apólice.
+
+Nos termos da Resolução CNSP nº 107/2004 (vigente à época da contratação) e jurisprudência consolidada sobre o tema, o estipulante atua como mandatário do segurado perante a seguradora e responde solidariamente pelos atos praticados nessa qualidade, especialmente quando recebe remuneração proporcional ao prêmio.
+
+Requer-se, portanto, a inclusão do Banco Santander no polo passivo, em litisconsórcio com a seguradora, para que responda solidariamente pelas consequências da negativa indevida, bem como para garantia da efetividade da tutela jurisdicional.
+
+### 3.14. DO FORO COMPETENTE
 
 A presente demanda é proposta no foro do domicílio da autora, conforme exigido pelo art. 101, I, do CDC e expressamente reiterado pelo **art. 55 da Circular SUSEP nº 621/2021**, segundo o qual "as questões judiciais entre o segurado e a sociedade seguradora serão processadas no foro do domicílio do segurado ou beneficiário". Eventual cláusula de eleição de foro em sentido diverso é nula.
 
@@ -186,11 +228,11 @@ O **perigo de dano** é evidente. A autora é pessoa idosa, teve sua residência
 
 Requer-se, assim, a concessão de tutela de urgência para determinar que a ré, no prazo a ser fixado por este Juízo:
 
-a) custeie moradia provisória à autora, mediante pagamento mensal de valor compatível com aluguel residencial na região, observados os limites contratuais aplicáveis; ou
+a) **dê imediato cumprimento à cobertura de "DESPESAS DE ALUGUEL (PERDA E PGTOS)"** expressamente contratada na apólice, no limite de **R$ 45.663,05**, mediante pagamento mensal à autora de valor compatível com aluguel residencial na região, até a efetiva indenização da cobertura principal de incêndio ou ulterior deliberação judicial; ou
 
-b) subsidiariamente, deposite judicialmente quantia inicial suficiente para custeio de moradia provisória e despesas emergenciais decorrentes do sinistro, em valor a ser arbitrado por Vossa Excelência; ou
+b) subsidiariamente, deposite judicialmente quantia inicial suficiente para custeio de moradia provisória e despesas emergenciais decorrentes do sinistro, em valor a ser arbitrado por Vossa Excelência, observado o limite contratual de R$ 45.663,05; ou
 
-c) sucessivamente, deposite judicialmente o valor correspondente à cobertura de despesas de aluguel/perda de uso eventualmente prevista na apólice, ou a parcela incontroversa, sem prejuízo da posterior apuração da indenização integral.
+c) sucessivamente, deposite judicialmente a parcela incontroversa, sem prejuízo da posterior apuração da indenização integral.
 
 Requer-se a imposição de **multa diária por descumprimento**, com fundamento no art. 537 do CPC, em valor a ser arbitrado por Vossa Excelência, sem prejuízo de majoração em caso de descumprimento reiterado.
 
@@ -210,11 +252,11 @@ b) a concessão da prioridade de tramitação, por se tratar de autora pessoa id
 
 c) a concessão dos benefícios da justiça gratuita, nos termos do art. 98 e seguintes do CPC;
 
-d) a **concessão da tutela de urgência** para determinar que a ré custeie moradia provisória à autora, mediante pagamento mensal de valor compatível com aluguel residencial na região, observados os limites contratuais; ou, subsidiariamente, deposite judicialmente valor suficiente para despesas emergenciais de moradia e reparação mínima; ou, sucessivamente, deposite o valor correspondente à cobertura de aluguel/perda de uso prevista na apólice, sob pena de **multa diária a ser arbitrada por este Juízo**, nos termos do art. 537 do CPC;
+d) a **concessão da tutela de urgência** para determinar que a corré Zurich Santander dê imediato cumprimento à **cobertura contratual de "DESPESAS DE ALUGUEL (PERDA E PGTOS)"** (limite de R$ 45.663,05), mediante pagamento mensal à autora de valor compatível com aluguel residencial na região, até a indenização integral ou ulterior deliberação judicial; subsidiariamente, deposite judicialmente quantia suficiente para despesas emergenciais de moradia, observado o limite contratual; sucessivamente, deposite a parcela incontroversa — tudo sob pena de **multa diária a ser arbitrada por este Juízo**, nos termos do art. 537 do CPC;
 
-e) a intimação da ré para exibir, em 15 dias, a íntegra do processo administrativo do sinistro nº SIN-1589559 e do histórico contratual (apólice, certificado, condições gerais e especiais, aviso de sinistro, laudo de vistoria, fotografias, vídeos, parecer técnico, relatórios internos, comunicações, comprovantes de pagamento de prêmios), sob pena de incidência do art. 400 do CPC;
+e) a intimação da corré Zurich Santander para exibir, em 15 dias, a íntegra do processo administrativo do sinistro nº SIN-1589559 e do histórico contratual (apólice, certificado, condições gerais e especiais, aviso de sinistro, laudo de vistoria, fotografias, vídeos, parecer técnico, relatórios internos, comunicações, comprovantes de pagamento de prêmios), sob pena de incidência do art. 400 do CPC;
 
-f) a citação da ré, no endereço indicado, para que compareça à audiência de conciliação — para a qual a autora manifesta expresso interesse, nos termos do art. 319, VII, do CPC — e, querendo, apresente contestação, sob pena de revelia e confissão quanto à matéria de fato;
+f) a citação **de ambas as rés** — Zurich Santander Brasil Seguros S.A. (CNPJ 06.136.920/0001-18) e Banco Santander (Brasil) S.A. (CNPJ 90.400.888/0001-42), nos endereços indicados — para que compareçam à audiência de conciliação, para a qual a autora manifesta expresso interesse (art. 319, VII, do CPC), e, querendo, apresentem contestação, sob pena de revelia e confissão quanto à matéria de fato;
 
 g) o reconhecimento da incidência do Código de Defesa do Consumidor e da Circular SUSEP nº 621/2021 à relação jurídica discutida;
 
@@ -224,17 +266,17 @@ i) a admissão da **prova emprestada** oriunda dos autos nº 5022800-79.2025.8.2
 
 j) no mérito, a **total procedência da ação** para declarar nula e abusiva a negativa de cobertura emitida em 02 de julho de 2025, referente ao sinistro nº SIN-1589559, por violação aos arts. 757, 765, 768 e 422 do Código Civil, aos arts. 6º, VIII, 47, 51, IV, e 54, § 4º, do CDC, e aos arts. 11, 22, 43, 46, 49 e 51 da Circular SUSEP nº 621/2021;
 
-k) a **condenação da ré ao pagamento da indenização securitária** pelos danos materiais decorrentes do incêndio, até o limite máximo contratado de **R$ 456.622,94**, ou, subsidiariamente, no valor que vier a ser apurado por prova pericial, prova documental complementar ou liquidação de sentença, observado o limite da cobertura contratual, **incluídas as despesas de salvamento e providências de mitigação previstas no art. 39 da Circular SUSEP nº 621/2021**, na medida em que comprovadas;
+k) a **condenação solidária das rés** ao pagamento da **indenização securitária** pelos danos materiais decorrentes do incêndio, até o limite máximo contratado de **R$ 456.622,94** para a cobertura "INCÊNDIO, RAIO E EXPLOSÃO (QUALQUER CAUSA)", e ao pagamento da cobertura de **"DESPESAS DE ALUGUEL (PERDA E PGTOS)" até o limite de R$ 45.663,05**, ou, subsidiariamente, nos valores que vierem a ser apurados por prova pericial, prova documental complementar ou liquidação de sentença, observados os limites contratuais, **incluídas as despesas de salvamento e providências de mitigação previstas no art. 39 da Circular SUSEP nº 621/2021**, na medida em que comprovadas;
 
-l) a condenação da ré ao pagamento de **indenização por danos morais**, considerada a teoria do desvio produtivo do consumidor, no valor de **R$ 15.000,00**, ou outro montante a ser arbitrado por Vossa Excelência;
+l) a condenação solidária das rés ao pagamento de **indenização por danos morais**, considerada a teoria do desvio produtivo do consumidor, no valor de **R$ 15.000,00**, ou outro montante a ser arbitrado por Vossa Excelência;
 
 m) a incidência de **correção monetária** sobre a indenização securitária desde a data do sinistro, bem como **juros de mora desde o esgotamento do prazo regulatório de 30 dias** previsto no art. 43 da Circular SUSEP nº 621/2021, ou, subsidiariamente, desde a negativa administrativa (02/07/2025), ou, sucessivamente, desde a citação;
 
 n) a incidência de **correção monetária** sobre a indenização moral desde o arbitramento e **juros de mora desde a citação**;
 
-o) **subsidiariamente**, em caso de improcedência do pedido principal de indenização securitária, a condenação da ré à **restituição dos valores pagos a título de prêmio** durante a vigência da apólice, com fundamento no art. 884 do Código Civil (vedação ao enriquecimento sem causa), corrigidos monetariamente desde cada desembolso e acrescidos de juros desde a citação;
+o) **subsidiariamente**, em caso de improcedência do pedido principal de indenização securitária, a condenação solidária das rés à **restituição dos valores pagos a título de prêmio** durante a vigência da apólice (R$ 2.054,84 ou outro valor que se apurar), com fundamento no art. 884 do Código Civil (vedação ao enriquecimento sem causa), corrigidos monetariamente desde cada desembolso e acrescidos de juros desde a citação;
 
-p) a condenação da ré ao pagamento das **custas processuais e honorários advocatícios** de sucumbência, nos termos do art. 85, § 2º, do CPC;
+p) a condenação solidária das rés ao pagamento das **custas processuais e honorários advocatícios** de sucumbência, nos termos do art. 85, § 2º, do CPC;
 
 q) a produção de todos os meios de prova em direito admitidos, especialmente prova documental suplementar, prova emprestada, exibição de documentos, depoimento pessoal do representante legal da ré, oitiva de testemunhas e prova pericial de engenharia e/ou regulação securitária, caso necessária.
 
