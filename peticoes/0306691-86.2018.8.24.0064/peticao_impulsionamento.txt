@@ -120,27 +120,40 @@ conforme cálculo atualizado acostado;
 nome dos Executados:
            - ARTHUR HENRIQUE MENEGUELLO FUENTEFRIA (CPF nº 607.613.420-87)
            - LUCIANA ANGELICA DONADUZZI (CPF nº 529.374.100-49)
-        até o limite do saldo devedor remanescente, ora devidamente atualizado;
+        com bloqueio de valores até o limite do saldo devedor remanescente, ora devidamente
+        atualizado, em quaisquer contas bancárias, de investimento ou poupança mantidas nas
+        instituições financeiras conveniadas;
 
         c) Seja determinada pesquisa junto ao sistema INFOJUD (convênio Poder
-Judiciário/Receita Federal do Brasil), visando à obtenção de informações patrimoniais sobre
-rendimentos, bens declarados e endereços atualizados dos Executados, para embasar novas
-medidas constritivas;
+Judiciário/Receita Federal do Brasil), especificamente para:
+           c.1) Obtenção das Declarações de Imposto de Renda – DIRPF dos Executados,
+                relativas aos exercícios de 2022, 2023, 2024 e 2025, para identificação de bens,
+                rendimentos, direitos e participações societárias declarados;
+           c.2) Verificação de endereço fiscal atualizado dos Executados, para fins de
+                localização e citação, caso necessário;
+           c.3) Identificação de eventuais atividades empresariais dos Executados junto à
+                Receita Federal, para apuração de bens passíveis de constrição;
 
-        d) Seja determinada pesquisa junto ao SREI – Sistema de Registro de Imóveis
+        d) Seja determinada pesquisa pelo sistema SNIPER (Sistema Nacional de Investigação
+e Pesquisa de Execuções – CNJ), para cruzamento de dados patrimoniais dos Executados em
+múltiplas bases públicas, incluindo registros de imóveis, veículos, participações societárias,
+aeronaves, embarcações e demais ativos, expedindo-se os mandados de penhora pertinentes
+sobre os bens localizados;
+
+        e) Seja determinada pesquisa junto ao SREI – Sistema de Registro de Imóveis
 Eletrônico –, com abrangência nacional, visando à localização de bens imóveis de qualquer
 natureza em nome dos Executados e, uma vez identificados, seja expedido o competente
 mandado de penhora, avaliação e depósito, com a devida averbação nas respectivas matrículas;
 
-        e) Seja determinada a inclusão dos Executados no sistema SERASAJUD, para
-negativação nos cadastros de proteção ao crédito (SPC/Serasa), permanecendo até o integral
-pagamento do débito exequendo;
+        f) Seja determinada a inclusão dos Executados no sistema SERASAJUD, para
+negativação nos cadastros de proteção ao crédito (SPC/Serasa), permanecendo a restrição até
+o integral pagamento do débito exequendo;
 
-        f) Sejam bloqueadas quaisquer transferências de bens que venham a ser penhorados,
+        g) Sejam bloqueadas quaisquer transferências de bens que venham a ser penhorados,
 com averbação da constrição nos respectivos registros e matrículas, a fim de resguardar o
 patrimônio constrito e proteger eventuais terceiros de boa-fé;
 
-        g) Sejam todas as intimações e notificações realizadas exclusivamente em nome da
+        h) Sejam todas as intimações e notificações realizadas exclusivamente em nome da
 advogada ALINE JUNCKES, OAB/SC 23.131, sob pena de nulidade.
 
 
