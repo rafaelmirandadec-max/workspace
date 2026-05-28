@@ -1,0 +1,110 @@
+
+════════════════════════════════════════════════════════════════════════
+              PLANILHA DE CÁLCULO ATUALIZADO DO DÉBITO
+                 (Documento 01 – acostado à petição)
+════════════════════════════════════════════════════════════════════════
+ Processo:    0306691-86.2018.8.24.0064
+ Juízo:       1ª Vara Cível da Comarca de São José – SC
+ Exequente:   OK Construções e Empreendimentos Imobiliários Ltda.
+ Executados:  Arthur Henrique Meneguello Fuentefria
+              Luciana Angelica Donaduzzi
+ Data-base:   28/05/2026
+════════════════════════════════════════════════════════════════════════
+
+PARTE 1 – APURAÇÃO DO SUBTOTAL COM ENCARGOS PROCESSUAIS
+────────────────────────────────────────────────────────────────────────
+  Débito apurado na petição inicial do cumprimento (jun/2024):
+
+  Valor principal                                    R$  103.499,87
+  Multa processual 10% (art. 523, §1º, CPC)          R$   10.349,99
+  Honorários advocatícios 10% (art. 523, §1º, CPC)   R$   10.349,99
+                                                    ─────────────────
+  SUBTOTAL                                           R$  124.199,85
+────────────────────────────────────────────────────────────────────────
+
+
+PARTE 2 – JUROS DE MORA (1% A.M. – CAPITALIZAÇÃO COMPOSTA)
+────────────────────────────────────────────────────────────────────────
+  Base de incidência: R$ 124.199,85
+  Período: junho/2024 a maio/2026 = 24 meses
+  Fórmula: Subtotal × [(1,01)^24 – 1]
+  Fator de juros: (1,01)^24 = 1,26973464
+  Coeficiente de juros: 0,26973464
+
+  Cálculo dos juros mês a mês:
+
+  ┌───────────────┬─────────────────────┬──────────────────┐
+  │ Competência   │ Saldo do período    │ Juros do mês     │
+  ├───────────────┼─────────────────────┼──────────────────┤
+  │ Jul/2024      │    124.199,85       │      1.242,00    │
+  │ Ago/2024      │    125.441,85       │      1.254,42    │
+  │ Set/2024      │    126.696,27       │      1.266,96    │
+  │ Out/2024      │    127.963,23       │      1.279,63    │
+  │ Nov/2024      │    129.242,86       │      1.292,43    │
+  │ Dez/2024      │    130.535,29       │      1.305,35    │
+  │ Jan/2025      │    131.840,64       │      1.318,41    │
+  │ Fev/2025      │    133.159,05       │      1.331,59    │
+  │ Mar/2025      │    134.490,64       │      1.344,91    │
+  │ Abr/2025      │    135.835,55       │      1.358,36    │
+  │ Mai/2025      │    137.193,91       │      1.371,94    │
+  │ Jun/2025      │    138.565,85       │      1.385,66    │
+  │ Jul/2025      │    139.951,51       │      1.399,52    │
+  │ Ago/2025      │    141.351,03       │      1.413,51    │
+  │ Set/2025      │    142.764,54       │      1.427,65    │
+  │ Out/2025      │    144.192,19       │      1.441,92    │
+  │ Nov/2025      │    145.634,11       │      1.456,34    │
+  │ Dez/2025      │    147.090,45       │      1.470,90    │
+  │ Jan/2026      │    148.561,35       │      1.485,61    │
+  │ Fev/2026      │    150.046,96       │      1.500,47    │
+  │ Mar/2026      │    151.547,43       │      1.515,47    │
+  │ Abr/2026      │    153.062,90       │      1.530,63    │
+  │ Mai/2026      │    154.593,53       │      1.545,94    │
+  ├───────────────┼─────────────────────┼──────────────────┤
+  │ TOTAL JUROS   │                     │     33.521,17    │
+  └───────────────┴─────────────────────┴──────────────────┘
+
+  Subtotal + Juros de mora:                         R$  157.721,02
+────────────────────────────────────────────────────────────────────────
+
+
+PARTE 3 – CORREÇÃO MONETÁRIA (INPC/IBGE – TABELA TJSC)
+────────────────────────────────────────────────────────────────────────
+  ATENÇÃO: Preencher com os índices oficiais disponíveis no portal
+  do TJSC (https://www.tjsc.jus.br > Cálculos Judiciais).
+
+  Base de incidência: R$ 124.199,85
+  Período: junho/2024 a maio/2026
+
+  ┌──────────────────────────────────────────────────────────┐
+  │ Índice INPC acumulado (jun/2024 a mai/2026): _____%      │
+  │ Valor da correção monetária:             R$ __________   │
+  └──────────────────────────────────────────────────────────┘
+────────────────────────────────────────────────────────────────────────
+
+
+PARTE 4 – APURAÇÃO DO TOTAL BRUTO ATUALIZADO
+────────────────────────────────────────────────────────────────────────
+  Subtotal (principal + multa + honorários)          R$  124.199,85
+  (+) Juros de mora (24 meses a 1% a.m.)             R$   33.521,17
+  (+) Correção monetária INPC                        R$  __________
+                                                    ─────────────────
+  TOTAL BRUTO ATUALIZADO                             R$  __________
+────────────────────────────────────────────────────────────────────────
+
+
+PARTE 5 – DEDUÇÃO DO VALOR LEVANTADO VIA ALVARÁ
+────────────────────────────────────────────────────────────────────────
+  Total bruto atualizado                             R$  __________
+  (-) Valor levantado por meio do alvará             R$ (__________)
+                                                    ─────────────────
+  SALDO DEVEDOR REMANESCENTE                         R$  __________
+════════════════════════════════════════════════════════════════════════
+
+
+MEMÓRIA DE CÁLCULO – REFERÊNCIAS LEGAIS
+────────────────────────────────────────────────────────────────────────
+  • Multa e honorários: art. 523, §1º, CPC/2015
+  • Juros de mora: art. 406, CC c/c art. 161, §1º, CTN (1% a.m.)
+  • Correção monetária: INPC/IBGE, tabela oficial TJSC/SC
+  • Fator de juros compostos: (1 + i)^n − 1, onde i = 0,01 e n = 24
+════════════════════════════════════════════════════════════════════════
