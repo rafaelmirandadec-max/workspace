@@ -133,7 +133,7 @@ O contrato escolhe a comarca do **Estreito/Florianópolis** para resolver eventu
 
 **Em termos simples:** se houver um processo, o senhor teria de litigar numa comarca que não é a sua, o que dá vantagem à imobiliária.
 
-O CPC permite o foro de eleição (art. 63), mas, em relação de consumo, o consumidor tem o direito de demandar e ser demandado **no seu próprio domicílio**, e a cláusula que dificulta isso é considerada abusiva (art. 51, IV, do CDC; e o próprio juiz pode reconhecer a abusividade do foro, art. 63, §3º, do CPC).
+O CPC permite o foro de eleição (art. 63), mas, em relação de consumo, o consumidor tem o direito de demandar e ser demandado **no seu próprio domicílio** (art. 101, I, do CDC), e a cláusula que dificulta isso é considerada abusiva (art. 51, IV, do CDC). Tratando-se de contrato de adesão, o próprio juiz pode reconhecer de ofício a abusividade do foro e remeter o processo ao foro do domicílio do consumidor (art. 63, §3º, do CPC).
 
 ### 4.9. AS DUAS PROCURAÇÕES — poderes amplíssimos e conflito de interesses — RISCO ALTO (o mais perigoso)
 
