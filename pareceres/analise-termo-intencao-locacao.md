@@ -1,135 +1,146 @@
 # ANÁLISE CRÍTICA — TERMO DE COMPROMISSO DE INTENÇÃO DE LOCAÇÃO
 
-**Cliente:** Lado LOCADOR / PROPRIETÁRIO (Tomaz Pereira Aquino — promitente locador)
-**Contraparte:** MVC Indústria de Alimentos EIRELI (promitente locatário)
+> **VERSÃO CORRIGIDA — ÓTICA DA LOCATÁRIA.** Esta análise SUBSTITUI integralmente a versão anterior, que fora redigida pela ótica do locador. O cliente é o **INQUILINO**.
+
+**Cliente:** MVC Indústria de Alimentos (PROMITENTE LOCATÁRIA / inquilina), representada por Maria Eduarda Gonçalves Souza
+**Contraparte:** Tomaz Pereira Aquino (proprietário / promitente locador)
 **Imóvel:** Rua Francisco Nappi, 755, bairro Ipiranga, São José/SC, CEP 88111-600
 **Data do termo:** 05/05/2026
 **Data da análise:** 11/06/2026
-**Nível de risco global:** ALTO — ajustar antes de assinar
+**Objetivo do cliente:** ESTABILIDADE e GARANTIA de permanência de longo prazo — assegurar que, ao fim do contrato vigente de 2 anos (intermediado pela Crédito Real), o proprietário se obrigue a locar o imóvel DIRETAMENTE à MVC por mais de 8 anos.
+**Nível de risco global para a MVC:** ALTO — ajustar antes de assinar.
 
 ---
 
-## 1. RESUMO — NATUREZA JURÍDICA DO DOCUMENTO
+## 1. NATUREZA JURÍDICA — O TERMO NÃO GARANTE O QUE A MVC QUER
 
-O documento se intitula "Termo de Compromisso de Intenção de Locação" e qualifica as partes como "promitente locador" e "promitente locatário", sugerindo a intenção de constituir um **contrato preliminar** (pré-contrato / pactum de contrahendo — CC, arts. 462 a 466).
+O documento se intitula "Termo de Compromisso" e qualifica as partes como "promitente locador" e "promitente locatário", sugerindo a intenção de constituir um **contrato preliminar** (pré-contrato / pactum de contrahendo — CC, arts. 462 a 466), que seria o instrumento idôneo para travar a permanência de 8 anos pretendida pela MVC.
 
-Contudo, **na prática, o documento NÃO atinge a eficácia de um contrato preliminar exigível**. O art. 462 do CC exige que o contrato preliminar contenha todos os requisitos essenciais ao contrato a ser celebrado (exceto a forma). Na locação, o **preço (aluguel) é elemento essencial**. Como a Cláusula Quarta deixa preço e reajuste integralmente em aberto ("serão pactuados à época"), falta requisito essencial.
+Contudo, **na sua redação atual o documento NÃO atinge a eficácia de contrato preliminar exequível**. O art. 462 do CC exige que o contrato preliminar contenha todos os requisitos essenciais ao contrato a ser celebrado (exceto a forma). Na locação, o **preço (aluguel) é elemento essencial**. Como a **Cláusula Quarta** deixa preço e índice de reajuste integralmente em aberto ("serão pactuados à época, observando-se os valores de mercado"), **falta requisito essencial** e o instrumento não pode ter sua execução específica imposta (CC, arts. 463 e 464).
 
-**Conclusão sobre a natureza:** apesar da expressão "comprometem-se a assinar" (Cláusula Segunda), o documento funciona como **mera declaração/carta de intenções não vinculante** — não permite, hoje, exigir judicialmente a celebração do contrato definitivo (CC, arts. 463 e 464) nem suprir a vontade da parte recalcitrante por sentença. Seu único efeito jurídico relevante é, eventualmente, a **responsabilidade pré-contratual** por ruptura desleal das tratativas (CC, arts. 421, 422 — boa-fé objetiva), o que gera apenas indenização por interesse negativo, não a obrigação de contratar.
+**Consequência prática — e este é o ponto crítico para a MVC:** apesar do verbo "comprometem-se a assinar" (Cláusula Segunda), **a MVC NÃO conseguirá obrigar o proprietário a assinar o contrato definitivo de 8 anos nem a respeitar esse prazo**. Ao término dos 2 anos, Tomaz poderá simplesmente recusar-se a contratar (ou exigir aluguel inviável), e à MVC restará, no máximo, pleitear **indenização por ruptura desleal das tratativas** (responsabilidade pré-contratual — boa-fé objetiva, CC, arts. 421, 422 e 427), que repara o interesse negativo, mas **NÃO entrega o imóvel nem a permanência de longo prazo**.
 
-Há, portanto, **descompasso entre a aparência (pré-contrato vinculante) e o efeito real (intenção não exigível)**. É preciso decidir, com o cliente, qual dos dois se quer.
-
----
-
-## 2. ERROS E INCONSISTÊNCIAS DO MODELO
-
-### 2.1. Bloco de assinaturas — papéis TROCADOS e campo em branco (ERRO GRAVE)
-- No **preâmbulo**, Tomaz Pereira Aquino é o **PROMITENTE LOCADOR**.
-- No **bloco de assinaturas**, ele aparece como **"Promitente Locatário"** — papel invertido.
-- Surge ainda **"[NOME DO LOCADOR] — Promitente Locador"**, campo de modelo **não preenchido**, criando uma "terceira parte" inexistente.
-- **Efeito:** contradição interna grave. O documento qualifica Tomaz como locador no início e como locatário no fim, e atribui a posição de locador a pessoa não identificada. Isso, por si só, compromete a validade e a clareza do instrumento (CC, art. 422). **Correção obrigatória.**
-
-### 2.2. Qualificação das partes incompleta
-- **Tomaz (locador):** "solteiro" genérico (verificar união estável — relevante para futura vênia, ver 3.3); falta **RG/órgão expedidor, nacionalidade detalhada, profissão consistente** ("estudante" — confirmar), e **endereço completo** (apenas "Florianópolis", sem rua, número, bairro, CEP).
-- **MVC (locatária):** falta **endereço completo da sede**; a representante Maria Eduarda deve ter comprovados os **poderes de representação** (ato constitutivo/EIRELI hoje convertida em sociedade limitada unipessoal por força da Lei 14.195/2021 — verificar a atual forma societária e quem tem poderes).
-- Endereços apenas como "Florianópolis" são insuficientes para qualquer instrumento contratual.
-
-### 2.3. Locação "RESIDENCIAL" com locatário pessoa jurídica (INCOERÊNCIA)
-- A Cláusula Primeira fala em locação **RESIDENCIAL**, mas a locatária é **pessoa jurídica** (MVC Indústria de Alimentos). Uma indústria de alimentos não "reside".
-- É preciso **esclarecer a destinação real**:
-  - (a) moradia de funcionário/preposto (locação residencial de PJ é admitida, mas deve constar a finalidade e o ocupante); ou
-  - (b) uso **não residencial/comercial/industrial** — hipótese mais provável dado o objeto social.
-- **Impacto na Lei 8.245/91:** o regime difere conforme a destinação. Se for **não residencial**, abre-se a possibilidade de **ação renovatória** (art. 51) quando preenchidos os requisitos (contrato escrito por prazo determinado, soma de prazos ≥ 5 anos, exploração do mesmo ramo por ≥ 3 anos). Para o **locador**, a renovatória é um ônus relevante: o inquilino pode impor a renovação compulsória. Definir a destinação correta é decisivo para a estratégia do cliente.
+**Para a MVC, o termo como está é uma falsa garantia.** O objetivo de estabilidade não é alcançado. É indispensável **torná-lo VINCULANTE**: inserir preço/baliza objetiva, prazo certo e cláusula penal/arras contra o descumprimento pelo LOCADOR (ver itens 4 e 5).
 
 ---
 
-## 3. RISCOS JURÍDICOS
+## 2. RISCOS JURÍDICOS PARA A MVC (classificados)
 
-### 3.1. RISCO CENTRAL — Conflito com o contrato de administração da Crédito Real — **ALTO**
-A Cláusula Terceira afirma independência da imobiliária, **mas insere a ressalva "salvo se houver disposição legal ou contratual em contrário que as obrigue"** — ressalva que pode **esvaziar todo o objetivo do termo**.
+### 2.1. ALTO — Termo não vinculante (não assegura os 8 anos)
+Como exposto no item 1, a abertura total de preço/reajuste na Cláusula Quarta torna o termo **inexigível** como pré-contrato. O proprietário pode recusar-se a assinar o contrato de 8 anos ao fim dos 2 anos, e a MVC nada poderá exigir além de eventual indenização por ruptura desleal (CC, arts. 422 e 427). É o **oposto** da segurança que a MVC busca.
 
-Contratos de administração imobiliária frequentemente preveem:
-- **comissão/corretagem na renovação** ou nas locações subsequentes ao mesmo inquilino aproximado pela imobiliária;
-- **cláusula de não-aliciamento**, com multa caso o proprietário negocie diretamente com o inquilino captado;
-- **prazo de carência pós-contrato** em que o locador deve à administradora a remuneração mesmo locando "por fora".
+**Solução:** converter o termo em pré-contrato exigível, inserindo:
+- **preço de partida e critério objetivo de reajuste** (ex.: valor do aluguel atual + correção por índice predefinido);
+- **prazo determinado e certo** (ex.: exatos 8 ou 10 anos, e não "superior a 8 anos");
+- **cláusula penal e/ou arras (CC, arts. 417 a 420)** que onere o LOCADOR em caso de recusa injustificada, prefixando perdas e danos e desestimulando o descumprimento.
 
-Além disso, há risco de a imobiliária **pleitear corretagem por "aproximação útil"** das partes, sob o argumento de que o resultado (a nova locação) decorre de sua atividade originária de aproximação (analogamente à lógica da corretagem — CC, arts. 722 e ss.).
+### 2.2. MÉDIO/ALTO — Destinação "residencial" com locatária pessoa jurídica (perda potencial da renovatória)
+A Cláusula Primeira classifica a locação como **RESIDENCIAL**, mas a locatária é a **MVC Indústria de Alimentos** — pessoa jurídica cuja ocupação é, presumivelmente, **não residencial** (comercial/industrial/escritório). Uma indústria de alimentos não "reside".
 
-**Recomendação enfática:** o **PASSO Nº 1** é obter e analisar integralmente o contrato de administração/intermediação firmado com a Crédito Real **ANTES de assinar este termo**, verificando cláusulas de exclusividade, comissão na renovação, não-aliciamento e penalidades. Assinar este termo sem essa verificação pode expor o cliente a **dever de comissão, honorários ou multa** à imobiliária, com fundamento, inclusive, na boa-fé objetiva (CC, art. 422).
+**Por que isso importa muito para a MVC:** se a ocupação for de fato não residencial e o contrato escrito tiver prazo determinado **≥ 5 anos**, a MVC fará jus à **AÇÃO RENOVATÓRIA** (art. 51 da Lei 8.245/91) — direito de impor judicialmente a renovação compulsória da locação, explorando o mesmo ramo há ≥ 3 anos. **Trata-se de uma das mais valiosas proteções de permanência que a lei confere ao inquilino empresarial** — exatamente o objetivo da MVC.
 
-### 3.2. Inexequibilidade como pré-contrato — **MÉDIO/ALTO**
-A Cláusula Quarta deixa **preço e reajuste totalmente em aberto**. Faltando elemento essencial (preço), o termo **não autoriza a execução específica** da obrigação de contratar (CC, arts. 463 e 464) — não se pode exigir judicialmente a assinatura do contrato definitivo nem obter sentença que o supra. Apesar do verbo "comprometem-se a assinar", o efeito real é de **carta de intenções**. Avaliar com o cliente se isso atende ao seu interesse:
-- Se o cliente quer **liberdade** (não ficar preso a uma locação longa em condições futuras incertas), a falta de vinculação **favorece-o**.
-- Se o cliente quer **garantir** que o inquilino permanecerá por 8 anos, o termo **não entrega isso** e precisa ser reforçado (preço/baliza + arras — ver item 4).
+Classificar a locação como "residencial" pode **fazer a MVC PERDER esse direito**, pois a renovatória do art. 51 só socorre a locação **não residencial**. 
 
-### 3.3. Prazo superior a 8 anos — **MÉDIO**
-- **Vênia conjugal:** sob a Lei 8.245/91, **art. 3º**, a locação por prazo **igual ou superior a 10 anos** depende de vênia do cônjuge; sem ela, o cônjuge não fica obrigado a observar o prazo excedente. Oito anos está **abaixo** desse limite — porém, "superior a 8 anos" é redação aberta que pode resvalar para perto de 10. **Atenção:** definir prazo certo (ex.: exatamente 8 anos) e, se o locador vier a casar/estar em união estável, observar o art. 3º.
-- **Conveniência para o locador:** prazo tão longo **engessa** o locador (dificulta retomada, atualização de aluguel a mercado, eventual venda). Avaliar criticamente o interesse do cliente em se vincular por 8+ anos com reajuste apenas anual.
+**Recomendação enfática:** definir a destinação REAL do imóvel. Se o uso é empresarial (o mais provável), **enquadrar expressamente como locação NÃO RESIDENCIAL**, garantindo o acesso à renovatória, e estruturar o prazo (≥ 5 anos, satisfeito de sobra pelos 8 anos) de modo a preencher os requisitos do art. 51.
 
-### 3.4. Foro — **BAIXO (OK)**
-Foro da Comarca de São José/SC é **coerente** com a localização do imóvel. Sem ressalvas relevantes.
+### 2.3. MÉDIO — Prazo "superior a 8 anos" indeterminado + vênia conjugal do locador
+A Cláusula Segunda fala em prazo "superior a 08 (oito) anos" — **redação vaga**, que não fixa termo certo e gera insegurança quanto à própria duração da permanência pretendida.
 
----
+- **Fixar prazo CERTO** (ex.: exatamente 8 ou 10 anos), tanto para a exigibilidade do pré-contrato quanto para o cômputo dos requisitos da renovatória.
+- **Vênia conjugal do LOCADOR (art. 3º, Lei 8.245/91):** locação por prazo **igual ou superior a 10 anos** depende de anuência do cônjuge; sem ela, o cônjuge **não fica obrigado a observar o prazo excedente** — o que **expõe a MVC**, pois, em caso de retomada pelo cônjuge não anuente, a inquilina pode perder a estabilidade contratada. Como "superior a 8 anos" pode resvalar para ≥ 10 anos, o ponto é sensível. **Conferir o estado civil REAL de Tomaz** (qualificado como "solteiro" — verificar união estável) e, se casado/companheiro e o prazo for ≥ 10 anos, **exigir a anuência do cônjuge** no instrumento.
 
-## 4. CLÁUSULAS FALTANTES / CONDIÇÕES MÍNIMAS RECOMENDÁVEIS
+### 2.4. MÉDIO — Conflito com a imobiliária Crédito Real (risco de a MVC ser arrastada à disputa de corretagem)
+A Cláusula Terceira afirma a independência de intermediação, mas insere a ressalva "salvo se houver disposição legal ou contratual em contrário que as obrigue". Contratos de administração frequentemente preveem comissão na renovação, não-aliciamento e penalidades, e a imobiliária pode pleitear corretagem por "aproximação útil" das partes (CC, arts. 722 e ss.).
 
-1. **Critério/baliza de preço** — ainda que sem valor fechado, estabelecer parâmetro objetivo (ex.: valor do último aluguel vigente corrigido por índice; ou laudo de avaliação; ou faixa percentual). Sem isso, não há pré-contrato exigível.
-2. **Índice de reajuste** — definir desde já (IGP-M, IPCA ou outro) e periodicidade (anual, art. 18 da Lei 8.245/91).
-3. **Destinação do imóvel** — residencial x não residencial, com indicação do uso e, se residencial por PJ, do ocupante.
-4. **Garantia locatícia futura** — modalidade pretendida (caução, fiança, seguro-fiança, cessão fiduciária) — apenas uma, vedada a cumulação (art. 37, parágrafo único, Lei 8.245/91).
-5. **Prazo de validade do próprio termo** — até quando a intenção vigora (ex.: válido enquanto vigente o contrato atual e por X dias após o término).
-6. **Consequência do descumprimento** — se a intenção é tornar o termo vinculante: **multa** ou **arras** (CC, arts. 417 a 420), prefixando perdas e danos pela ruptura. Sem isso, há apenas responsabilidade pré-contratual genérica.
-7. **Identificação completa do imóvel** — número de **matrícula** e Cartório de Registro de Imóveis, área e demais elementos da matrícula.
-8. **Regularização do conflito com a imobiliária** — declaração/cláusula tratando expressamente da situação com a Crédito Real (ver item 5.2).
+Em regra, **esse ônus recai sobre o PROPRIETÁRIO**, pois é dele o contrato de administração com a Crédito Real. Ainda assim, a MVC **deve assegurar-se de não assumir essa responsabilidade nem ser arrastada a disputa de corretagem**.
+
+**Recomendação:** inserir cláusula em que o **LOCADOR declara** que a negociação direta não viola seu contrato de administração e **assume exclusivamente** eventual ônus (comissão/multa/honorários) perante a imobiliária, **isentando expressamente a MVC** (ver redação no item 5).
+
+### 2.5. BAIXO — Foro (São José/SC)
+Foro da Comarca de São José/SC é **coerente** com a localização do imóvel. Sem ressalvas relevantes para a MVC.
 
 ---
 
-## 5. SUGESTÕES DE REDAÇÃO PARA OS PONTOS CRÍTICOS
+## 3. ERROS FORMAIS DO MODELO (corrigir independentemente da ótica)
 
-### 5.1. Bloco de assinaturas (corrigido)
+### 3.1. Bloco de assinaturas TROCADO (erro grave)
+- No **preâmbulo**, Tomaz é o **PROMITENTE LOCADOR**; no **bloco de assinaturas**, aparece como **"Promitente Locatário"** — papel invertido.
+- Surge **"[NOME DO LOCADOR] — Promitente Locador"**, campo de modelo **não preenchido**, criando uma "parte" inexistente.
+- A **MVC** (representada por Maria Eduarda) **sequer aparece assinando**.
+- **Correção:** Tomaz = Promitente Locador; **MVC = Promitente Locatária** (por sua representante Maria Eduarda); **incluir testemunhas** (conferindo, com objeto líquido, eficácia de título executivo extrajudicial — CPC, art. 784, III).
+
+### 3.2. Qualificação incompleta das partes
+- **Tomaz (locador):** "solteiro/estudante" — confirmar; falta **RG/órgão expedidor** e **endereço completo** (consta apenas "Florianópolis"). **Verificar estado civil real / união estável** (relevante para a vênia conjugal, item 2.3).
+- **MVC (locatária):** falta **endereço completo da sede**; comprovar os **poderes de representação** de Maria Eduarda (ato constitutivo/contrato social atualizado). **Atenção:** a **EIRELI foi extinta pela Lei 14.195/2021** — verificar se a MVC foi transformada em **sociedade limitada unipessoal** ou **empresário individual** e ajustar a denominação e a forma de representação no termo.
+- Endereços lançados apenas como "Florianópolis" são insuficientes.
+
+### 3.3. Falta a identificação do imóvel pela matrícula
+- Indicar **número de matrícula e Cartório de Registro de Imóveis**, área e demais elementos da matrícula, além do endereço.
+
+---
+
+## 4. CLÁUSULAS QUE A MVC DEVE EXIGIR PARA SE PROTEGER
+
+1. **Definição do aluguel ou critério objetivo** — valor de partida (ex.: aluguel atual) + critério de reajuste; sem isso não há pré-contrato exigível (CC, art. 462).
+2. **Índice e periodicidade de reajuste** — IGP-M, IPCA ou outro, com reajuste anual (art. 18, Lei 8.245/91).
+3. **Prazo determinado e certo** — ex.: exatos 8 ou 10 anos (não "superior a 8 anos").
+4. **Destinação clara** — preferencialmente **não residencial**, para garantir a renovatória (art. 51, Lei 8.245/91).
+5. **Vênia conjugal do locador** — se Tomaz for casado/companheiro e o prazo for ≥ 10 anos (art. 3º, Lei 8.245/91).
+6. **Cláusula penal e/ou arras pelo descumprimento do LOCADOR** (CC, arts. 417 a 420) — desestimular a recusa do proprietário e prefixar perdas e danos a favor da MVC.
+7. **Direito de preferência em caso de venda** (art. 27, Lei 8.245/91) — assegurar à MVC a prioridade na aquisição em igualdade de condições, protegendo a permanência caso o imóvel seja alienado.
+8. **Isenção da MVC quanto a comissões/multas da imobiliária** — declaração de assunção exclusiva pelo locador (CC, arts. 722 e ss.).
+9. **Prazo de validade do próprio termo** — até quando a intenção vigora (ex.: enquanto vigente o contrato atual e por X dias após o término).
+10. **Identificação completa do imóvel** (matrícula/cartório) e qualificação completa das partes.
+
+---
+
+## 5. SUGESTÕES DE REDAÇÃO (voltadas a dar segurança à LOCATÁRIA)
+
+### 5.1. Cláusula de vinculação, baliza de preço e arras (nova / substitui a Cláusula Quarta aberta)
+> **DA VINCULAÇÃO E DAS CONDIÇÕES DA FUTURA LOCAÇÃO.** As partes obrigam-se, em caráter **irretratável e irrevogável**, a celebrar o contrato definitivo de locação imediatamente após o término do contrato vigente, pelo prazo certo e determinado de **[8 (oito) / 10 (dez)] anos**, sendo o aluguel inicial equivalente ao **último aluguel vigente** sob o contrato atual, reajustado anualmente pelo **[IPCA / IGP-M]** (art. 18 da Lei 8.245/91). A **recusa injustificada do PROMITENTE LOCADOR** em celebrar o contrato definitivo nas condições aqui pactuadas sujeitá-lo-á, a título de **arras/cláusula penal** (CC, arts. 417 a 420), ao pagamento de **R$ [____]** em favor da PROMITENTE LOCATÁRIA, sem prejuízo das perdas e danos que excederem e da tutela específica cabível (CC, arts. 463 a 466).
+
+### 5.2. Cláusula de destinação / renovatória
+> **DA DESTINAÇÃO.** O imóvel destina-se ao uso **NÃO RESIDENCIAL** da PROMITENTE LOCATÁRIA, no exercício de sua atividade empresarial de indústria de alimentos, ficando-lhe assegurados, preenchidos os requisitos legais, os direitos próprios da locação não residencial, em especial a **ação renovatória** prevista no art. 51 da Lei 8.245/91.
+
+### 5.3. Cláusula de isenção quanto à corretagem
+> **DA INTERMEDIAÇÃO.** A futura locação será celebrada de forma direta entre as partes. O **PROMITENTE LOCADOR declara** que a negociação direta não viola o contrato de administração firmado com a imobiliária Crédito Real e **assume, com exclusividade**, qualquer comissão, honorário, multa ou verba devida àquela imobiliária em razão da locação direta, **nada podendo ser exigido a tal título da PROMITENTE LOCATÁRIA**, que fica desde já isenta e indene quanto a tais valores (CC, arts. 722 e ss.).
+
+### 5.4. Cláusula de preferência
+> **DO DIREITO DE PREFERÊNCIA.** Em caso de alienação do imóvel durante a vigência da futura locação, fica assegurado à PROMITENTE LOCATÁRIA o **direito de preferência** na aquisição, em igualdade de condições com terceiros, nos termos dos arts. 27 e seguintes da Lei 8.245/91.
+
+### 5.5. Bloco de assinaturas (corrigido)
 > Por estarem assim justos e acertados, assinam o presente em 02 (duas) vias de igual teor e forma.
 > São José/SC, 05 de maio de 2026.
 >
 > ______________________________________
-> **TOMAZ PEREIRA AQUINO**
-> Promitente Locador
+> **TOMAZ PEREIRA AQUINO** — Promitente Locador
+> (com anuência do(a) cônjuge, se aplicável: ____________________)
 >
 > ______________________________________
-> **MVC INDÚSTRIA DE ALIMENTOS LTDA. (ou EIRELI, conforme atual registro)**
-> Promitente Locatária
-> p.p. Maria Eduarda Gonçalves Souza
+> **MVC INDÚSTRIA DE ALIMENTOS LTDA.** (ou forma societária atual, pós Lei 14.195/2021) — Promitente Locatária
+> p.p. Maria Eduarda Gonçalves Souza (CPF 076.750.649-92)
 >
 > Testemunhas:
 > 1. Nome / CPF: ______________________
 > 2. Nome / CPF: ______________________
 
-(Eliminar o campo "[NOME DO LOCADOR]" e a inversão de papéis. Recomenda-se incluir testemunhas, conferindo eficácia de título executivo extrajudicial — CPC, art. 784, III.)
-
-### 5.2. Cláusula de ressalva à imobiliária (reescrita)
-> **CLÁUSULA TERCEIRA – DA INTERMEDIAÇÃO.** As partes declaram a intenção de celebrar a futura locação de forma direta. O Promitente Locador declara que verificou os termos do contrato de administração/intermediação atualmente firmado com a imobiliária Crédito Real e que **assume, perante o Promitente Locatário, a responsabilidade exclusiva por eventuais comissões, honorários, multas ou verbas devidas àquela imobiliária** em razão da locação direta ora pretendida, nada podendo ser exigido a tal título do Promitente Locatário.
-
-(Como o cliente é o LOCADOR, o objetivo é alocar/conhecer esse risco e não ser surpreendido. A redação acima protege a contraparte, mas, do ponto de vista do locador, o ponto essencial é a verificação prévia: NÃO assinar antes de checar o contrato da Crédito Real. Se o contrato de administração impuser comissão/multa, renegociá-lo ou aguardar o decurso de eventual carência.)
-
-### 5.3. Cláusula de vinculação/validade (nova)
-> **CLÁUSULA SÉTIMA – DA VINCULAÇÃO E VALIDADE.** O presente Termo vigora desde a assinatura até [30] dias após o término do contrato de locação atualmente vigente, período no qual as partes se obrigam a celebrar o contrato definitivo nas condições mínimas aqui estabelecidas (preço de partida equivalente a [critério/baliza], reajustado por [índice], prazo de [8] anos, garantia na modalidade [____]). A recusa injustificada de qualquer das partes em celebrar o contrato definitivo nessas condições sujeitará a parte inadimplente ao pagamento de **arras/multa** no valor de R$ [____], sem prejuízo das perdas e danos que excederem (CC, arts. 417 a 420 e 462 a 466). Decorrido o prazo sem celebração, o Termo perde automaticamente a eficácia.
-
-(Esta cláusula é o que efetivamente converte o documento de carta de intenções em pré-contrato exigível. Inseri-la SOMENTE se o cliente realmente quiser se vincular ao prazo longo — caso contrário, manter o caráter não vinculante e dizê-lo expressamente.)
+(Eliminar o campo "[NOME DO LOCADOR]" e a inversão de papéis; incluir a assinatura da MVC e testemunhas.)
 
 ---
 
 ## 6. CONCLUSÃO
 
-**O modelo NÃO está correto.** Apresenta erro grave no bloco de assinaturas (papéis trocados e campo em branco), qualificação incompleta das partes, incoerência entre destinação "residencial" e locatário pessoa jurídica, e cláusulas que ou esvaziam o objetivo (ressalva da imobiliária) ou impedem a exigibilidade do pré-contrato (preço em aberto).
+**O modelo NÃO está correto e, para a MVC, é frágil: como redigido, NÃO garante a permanência de 8 anos pretendida.** A abertura total de preço/reajuste (Cláusula Quarta) impede que o termo funcione como contrato preliminar exigível (CC, art. 462), de modo que o proprietário pode recusar-se a contratar ao fim dos 2 anos sem que a MVC possa impor a celebração — restando-lhe apenas indenização por ruptura desleal (CC, arts. 422 e 427). Somam-se a isso a classificação equivocada como "residencial" (risco de perda da renovatória), a vagueza do prazo, o risco de exposição a corretagem e erros formais graves (assinaturas trocadas, MVC sem assinar, qualificação e matrícula incompletas).
 
-**Recomendação:** **AJUSTAR ANTES DE ASSINAR.** Não assinar na forma atual.
+**Recomendação: AJUSTAR ANTES DE ASSINAR.** Não assinar na forma atual.
 
-**Nível de risco global: ALTO.**
+**Nível de risco global para a MVC: ALTO.**
 
-**Ordem de prioridade dos ajustes:**
-1. **PASSO Nº 1 — VERIFICAR O CONTRATO COM A CRÉDITO REAL** (cláusulas de comissão na renovação, exclusividade, não-aliciamento e multa). Este é o risco financeiro mais imediato e concreto para o cliente-locador.
-2. Corrigir o bloco de assinaturas (papéis e campo em branco).
-3. Definir a destinação real do imóvel (residencial x não residencial) e os impactos da renovatória (art. 51, Lei 8.245/91).
-4. Decidir, com o cliente, se o termo deve ser vinculante (inserir baliza de preço, índice, garantia, prazo de validade e arras) ou permanecer como carta de intenções não vinculante — e redigi-lo de forma coerente com a escolha.
-5. Completar a qualificação das partes e a identificação do imóvel (matrícula).
+**Ordem de prioridade dos ajustes (na ótica da MVC):**
+1. **Tornar o termo VINCULANTE** — inserir baliza de preço, índice de reajuste, prazo certo e **arras/cláusula penal contra o descumprimento do LOCADOR** (CC, arts. 417 a 420 e 462 a 466). Sem isso, a estabilidade pretendida não existe.
+2. **Definir a destinação como NÃO RESIDENCIAL** para assegurar a **renovatória** (art. 51, Lei 8.245/91).
+3. **Fixar prazo certo** e, se Tomaz for casado/companheiro e o prazo ≥ 10 anos, exigir **vênia conjugal** (art. 3º, Lei 8.245/91); conferir o estado civil real.
+4. **Isentar a MVC** de comissões/multas da Crédito Real e inserir **direito de preferência** (art. 27).
+5. **Corrigir os erros formais** — bloco de assinaturas, qualificação completa das partes (inclusive forma societária atual da MVC, pós Lei 14.195/2021) e identificação do imóvel pela matrícula.
 
-**Fundamentos:** CC, arts. 421, 422 (boa-fé objetiva e responsabilidade pré-contratual), 425, 427 e ss. (proposta), 462 a 466 (contrato preliminar), 417 a 420 (arras); Lei 8.245/91, arts. 3º (vênia conjugal em locação ≥ 10 anos), 18 (reajuste), 37 (garantias), 51 (ação renovatória, se não residencial).
+**Fundamentos:** CC, arts. 421 e 422 (função social e boa-fé objetiva), 425 (contratos atípicos), 427 (força vinculante da proposta / responsabilidade pré-contratual), 462 a 466 (contrato preliminar), 417 a 420 (arras e cláusula penal), 722 e ss. (corretagem); Lei 8.245/91, arts. 3º (vênia conjugal em locação ≥ 10 anos), 18 (reajuste), 27 (direito de preferência) e 51 (ação renovatória na locação não residencial); doutrina da boa-fé objetiva e da responsabilidade pré-contratual.
