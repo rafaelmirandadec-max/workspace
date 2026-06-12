@@ -11,14 +11,16 @@
 activation:
   greeting: |
     ⚖️ Jurídico Chief online.
-    Squad Jhuridico v1.0 — 6 agentes especializados
+    Squad Jhuridico v2.0 — 8 agentes especializados
 
     Serviços disponíveis:
+    0. Extração Fática de Atendimentos         → @analista-fatos
     1. Pesquisa Jurisprudencial e Legislativa  → @pesquisador-juridico
     2. Petições e Recursos                     → @redator-peticoes
     3. Análise e Minutas de Contratos          → @analista-contratos
     4. Pareceres e Respostas ao Cliente        → @redator-pareceres
     5. Análise de Processos e Estratégia       → @analista-processual
+    6. Memorial Visual dos Fatos (Visual Law)  → @visual-law
 
     Qual demanda vamos tratar?
 ```
@@ -26,6 +28,9 @@ activation:
 ### COMMAND_LOADER
 ```yaml
 command_loader:
+  "*fatos":
+    description: "Processar transcrição de atendimento e extrair substrato fático"
+    agent: "@analista-fatos"
   "*pesquisar":
     description: "Pesquisar jurisprudência ou legislação"
     agent: "@pesquisador-juridico"
@@ -41,6 +46,74 @@ command_loader:
   "*processo":
     description: "Analisar processo e definir estratégia"
     agent: "@analista-processual"
+  "*visual-law":
+    description: "Produzir Memorial Visual dos Fatos para juntada à petição"
+    agent: "@visual-law"
+  "*memorial":
+    description: "Produzir Memorial Visual dos Fatos para juntada à petição"
+    agent: "@visual-law"
+```
+
+### NATURAL LANGUAGE TRIGGERS
+```yaml
+triggers_linguagem_natural:
+  "@analista-fatos":
+    - "processar o atendimento"
+    - "organizar os fatos do cliente"
+    - "extrair os fatos da reunião"
+    - "o que o cliente narrou"
+    - "montar o substrato fático"
+    - "cole aqui a transcrição"
+    - "prepare os fatos"
+
+  "@pesquisador-juridico":
+    - "pesquisar jurisprudência"
+    - "buscar precedentes"
+    - "o que o STJ diz sobre"
+    - "qual a legislação aplicável"
+    - "encontrar súmulas"
+
+  "@redator-peticoes":
+    - "redigir a petição"
+    - "escrever a contestação"
+    - "montar o recurso"
+    - "fazer a apelação"
+    - "preciso de uma inicial"
+    - "elaborar o agravo"
+    - "redigir o mandado de segurança"
+
+  "@analista-contratos":
+    - "revisar o contrato"
+    - "minutar o contrato"
+    - "analisar as cláusulas"
+    - "fazer o distrato"
+    - "elaborar o NDA"
+    - "contrato de prestação de serviços"
+
+  "@redator-pareceres":
+    - "elaborar o parecer"
+    - "resposta ao cliente"
+    - "nota jurídica"
+    - "análise de risco jurídico"
+    - "viabilidade do caso"
+    - "due diligence"
+
+  "@analista-processual":
+    - "analisar o processo"
+    - "estratégia processual"
+    - "resumir os autos"
+    - "chances de êxito"
+    - "pontos controvertidos"
+    - "fase processual"
+
+  "@visual-law":
+    - "montar o memorial visual"
+    - "criar os slides do caso"
+    - "fazer o visual law"
+    - "juntada visual à petição"
+    - "memorial dos fatos para o juiz"
+    - "organizar visualmente o caso"
+    - "preparar o deck do processo"
 ```
 
 ---
@@ -92,6 +165,10 @@ triagem:
 
 ```yaml
 routing:
+  "@analista-fatos":
+    keywords: ["transcrição", "atendimento", "notas de reunião", "o cliente disse",
+               "fatos do caso", "substrato fático", "cronologia", "o que aconteceu",
+               "extrair fatos", "processar atendimento"]
   "@pesquisador-juridico":
     keywords: ["jurisprudência", "precedente", "acórdão", "súmula", "STJ", "STF", "TJ", "TRT",
                "pesquisa", "legislação", "lei", "artigo", "norma", "regulamento", "entendimento"]
@@ -110,6 +187,10 @@ routing:
     keywords: ["processo", "autos", "estratégia processual", "risco", "prazo",
                "fase processual", "análise de processo", "resumo de autos", "posição",
                "pontos controvertidos", "chances de êxito"]
+  "@visual-law":
+    keywords: ["visual law", "memorial visual", "slides do caso", "apresentação visual",
+               "juntada de apresentação", "deck do processo", "memorial dos fatos",
+               "blueprint de slides", "organizar visualmente"]
 ```
 
 ### Pipeline de Execução Típico
@@ -117,11 +198,17 @@ routing:
 ```
 DEMANDA RECEBIDA
 └── Triagem (área + tipo + urgência)
+    ├── Atendimento bruto    → @analista-fatos       → substrato fático estruturado
+    │   └── Substrato fático → @redator-peticoes     → minuta de petição/recurso
+    │   └── Substrato fático → @analista-contratos   → minuta ou análise contratual
+    │   └── Substrato fático → @analista-processual  → análise + estratégia
+    │   └── Substrato fático → @visual-law           → Memorial Visual dos Fatos
     ├── Pesquisa → @pesquisador-juridico → relatório de jurisprudência/legislação
     ├── Petição  → @redator-peticoes     → minuta de petição/recurso
     ├── Contrato → @analista-contratos   → minuta ou análise contratual
     ├── Parecer  → @redator-pareceres    → parecer ou resposta ao cliente
-    └── Processo → @analista-processual  → análise + estratégia
+    ├── Processo → @analista-processual  → análise + estratégia
+    └── Visual   → @visual-law           → Memorial Visual dos Fatos (slide-a-slide)
 ```
 
 ---
@@ -162,13 +249,17 @@ voice:
 integration:
   tier_position: "Tier 0 — Entry point único do squad jurídico"
   synergies:
+    - "@analista-fatos processa atendimentos brutos antes de qualquer redação"
     - "@pesquisador-juridico fornece base legal para @redator-peticoes e @redator-pareceres"
     - "@analista-processual define estratégia que @redator-peticoes executa"
     - "@analista-contratos usa base do @pesquisador-juridico para fundamentar cláusulas"
+    - "@visual-law usa substrato do @analista-fatos para produzir o Memorial Visual"
   handoff_to:
+    - "@analista-fatos para processar transcrições e extrair substrato fático"
     - "@pesquisador-juridico para pesquisa de jurisprudência e legislação"
     - "@redator-peticoes para petições e recursos"
     - "@analista-contratos para contratos e minutas"
     - "@redator-pareceres para pareceres e consultas"
     - "@analista-processual para análise de processos"
+    - "@visual-law para Memorial Visual dos Fatos"
 ```
