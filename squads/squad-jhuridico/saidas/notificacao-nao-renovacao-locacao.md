@@ -1,72 +1,63 @@
+**São José, [dia] de [mês] de [ano].**
+
 # NOTIFICAÇÃO EXTRAJUDICIAL
 
-> **MODELO PARA PREENCHIMENTO** — substitua os campos entre colchetes `[ ]`. Antes de finalizar, escolha **um** dos parágrafos de fundamentação (residencial ≥ 30 meses / residencial < 30 meses / comercial) e leia as **Notas de uso** ao final.
+**Comunicação de não interesse na renovação/prorrogação do contrato de locação**
 
 ---
 
-**[Cidade/UF], [dia] de [mês] de [ano].**
+**NOTIFICANTE/LOCADOR:** [NOME DO LOCADOR], [nacionalidade], [estado civil], [profissão], inscrito no CPF sob nº [●], residente e domiciliado em [endereço completo].
 
-**Ao(À) Sr.(a) [NOME COMPLETO DO LOCATÁRIO]**
-[Endereço do imóvel locado / endereço para correspondência]
-[Bairro] — [Cidade/UF] — CEP [____]
+**NOTIFICADO/LOCATÁRIO:** [NOME DO LOCATÁRIO], [nacionalidade], [estado civil], [profissão], inscrito no CPF sob nº [●], residente e domiciliado em [endereço completo].
 
-**Ref.: Comunicação de não renovação do Contrato de Locação do imóvel situado em [endereço completo do imóvel], firmado em [data], com término em [data de término].**
+**IMÓVEL LOCADO:** [endereço completo do imóvel].
+
+**CONTRATO DE LOCAÇÃO:** firmado em [data], com prazo de vigência de [●] meses, tendo como termo final a data de **[data de encerramento]**.
 
 ---
 
 Prezado(a) Senhor(a),
 
-Eu, **[NOME COMPLETO / RAZÃO SOCIAL DO LOCADOR]**, [nacionalidade], [estado civil], [profissão], inscrito(a) no CPF/CNPJ sob o nº [____], na qualidade de **LOCADOR(A)** do imóvel acima identificado, venho, por meio desta **NOTIFICAÇÃO EXTRAJUDICIAL**, comunicar a V.Sa. o que segue.
+Na qualidade de **locador** do imóvel acima identificado, venho, por meio da presente, **NOTIFICAR** Vossa Senhoria de que **não tenho interesse na renovação ou na prorrogação** da locação após o término do prazo contratual vigente.
 
-Conforme é de seu conhecimento, celebramos o Contrato de Locação do referido imóvel, com prazo de vigência de **[____] meses**, iniciado em **[data de início]** e com **término previsto para [data de término]**.
+Esclareço que o contrato atualmente em vigor **será integralmente respeitado até o seu termo final**, previsto para **[data de encerramento]**, permanecendo hígidas todas as obrigações assumidas pelas partes até referida data.
 
-Pela presente, comunico, de forma **expressa e inequívoca**, que **NÃO TENHO INTERESSE NA RENOVAÇÃO NEM NA PRORROGAÇÃO** da locação. **O prazo de vigência contratual será integralmente respeitado**, de modo que o contrato **se encerrará na data de seu término, [data de término], sem renovação e sem prorrogação automática ou tácita.**
+Contudo, desde já fica **expressamente registrada a oposição do locador à continuidade da ocupação** do imóvel após o encerramento da vigência contratual, razão pela qual o(a) locatário(a) deverá providenciar a **desocupação voluntária do bem até [data]**, entregando-o livre de pessoas e bens, mediante restituição das chaves, controles, documentos e demais acessórios eventualmente recebidos.
 
-> **▸ Escolha UM parágrafo de fundamentação (ver Notas de uso) e exclua os demais:**
->
-> **(A) Residencial — prazo de 30 meses ou mais:** Nos termos do **art. 46 da Lei nº 8.245/91**, findo o prazo a locação cessa de pleno direito, independentemente de aviso. Manifesto, desde já e em caráter preventivo, minha **oposição à permanência** no imóvel após o término, afastando a prorrogação por prazo indeterminado prevista no §1º do mesmo artigo.
->
-> **(B) Residencial — prazo inferior a 30 meses:** Diante do disposto nos **arts. 46, §1º, e 47 da Lei nº 8.245/91**, manifesto minha intenção de **não dar continuidade à locação**, concedendo o prazo de **[____] dias** para a desocupação voluntária do imóvel.
->
-> **(C) Não residencial / comercial:** Manifesto minha **oposição expressa à renovação** da locação. Fica V.Sa. ciente de que eventual **ação renovatória** somente é admissível se proposta no interregno de **1 (um) ano a 6 (seis) meses anteriores ao término** do contrato (**art. 51, §5º, da Lei nº 8.245/91**), sob pena de decadência do direito.
+A entrega do imóvel deverá observar as condições previstas no contrato de locação, especialmente quanto à **quitação dos aluguéis e encargos locatícios incidentes até a efetiva restituição das chaves**, incluindo, se aplicável, condomínio, IPTU, água, energia elétrica, gás e demais despesas vinculadas ao imóvel.
 
-Em razão do exposto, solicito a **desocupação e a entrega do imóvel até [data de término / data-limite]**, livre de pessoas e bens e em bom estado de conservação, ressalvado o desgaste natural pelo uso regular, mediante **devolução das chaves** e lavratura do respectivo termo de entrega.
+O imóvel deverá ser restituído **no estado em que foi recebido**, ressalvado o desgaste natural decorrente do uso regular, ficando desde já solicitado que o(a) locatário(a) entre em contato com **antecedência mínima de [●] dias** do término contratual, a fim de agendar a vistoria final e formalizar a entrega das chaves.
 
-Esclareço que os **aluguéis e demais encargos** (condomínio, IPTU, água, luz, gás e afins) permanecerão sob sua responsabilidade **até a efetiva entrega das chaves**, ainda que esta ocorra após o término do contrato, hipótese em que poderão incidir as penalidades contratuais e legais cabíveis.
+A presente notificação tem por finalidade formalizar a **ciência inequívoca** do(a) locatário(a) e registrar a **expressa oposição do locador à permanência** no imóvel após o termo final da locação, para todos os fins legais, inclusive para **afastar eventual alegação de prorrogação tácita** do contrato, nos termos da **Lei nº 8.245/91 (Lei do Inquilinato)**.
 
-Por fim, solicito a gentileza de **confirmar o recebimento** desta e de **informar a data prevista para a desocupação**, a fim de viabilizarmos a vistoria final do imóvel. O eventual silêncio não obstará os efeitos desta notificação nem a adoção das medidas judiciais cabíveis.
+Ressalto, por fim, que esta comunicação **não altera as condições do contrato vigente, tampouco antecipa o seu encerramento**, servindo exclusivamente para informar que, ao término do prazo contratual, o locador não tem interesse na continuidade da relação locatícia.
 
-Sendo o que se apresenta para o momento, renovo protestos de estima e consideração.
+Sem mais para o momento.
 
-Atenciosamente,
+**[Local], [dia] de [mês] de [ano].**
 
 \
 \
-_________________________________________
-**[NOME DO LOCADOR(A)]**
-LOCADOR(A) — CPF/CNPJ nº [____]
+________________________________________
+**[NOME DO LOCADOR]**
+CPF nº [●]
 
 ---
 
-**CIENTE / RECEBIDO**
-
-Declaro ter recebido a presente notificação e dou-me por ciente de seu inteiro teor.
-
-[Cidade/UF], _____ de ______________ de _______.
+**Recebido em:** _____ / _____ / __________.
 
 \
-_________________________________________
-**[NOME DO LOCATÁRIO(A)]** — CPF/CNPJ nº [____]
+________________________________________
+**[NOME DO LOCATÁRIO]**
+CPF nº [●]
 
 ---
 
 ## ⚠️ Notas de uso e prazos
 
-- **Escolha o parágrafo de fundamentação** conforme o tipo de locação: **(A)** residencial ≥ 30 meses (art. 46); **(B)** residencial < 30 meses (arts. 46, §1º, e 47); **(C)** não residencial/comercial (art. 51). Exclua os outros dois antes de enviar.
-- **Aviso prévio contratual:** verifique se o contrato exige antecedência mínima (ex.: 30/60/90 dias) para comunicar o desinteresse na renovação e respeite o maior prazo aplicável.
-- **Residencial ≥ 30 meses:** envie de preferência **antes do término** e, em todo caso, dentro dos **30 dias** seguintes ao término, para evitar a prorrogação tácita (art. 46, §1º).
-- **Comercial (renovatória):** a ação renovatória do locatário deve ser proposta no interregno de **1 ano a 6 meses** anteriores ao término (art. 51, §5º); fora disso, decai o direito. Atente também aos requisitos do art. 51 (contrato escrito, prazo mínimo de 5 anos, mesmo ramo por 3 anos ininterruptos).
+- **Antecedência do envio:** verifique no contrato a existência de cláusula de aviso prévio (ex.: 30/60/90 dias) e comunique com antecedência suficiente. Em locação residencial por prazo igual ou superior a 30 meses, envie de preferência **antes do término** e, em qualquer caso, dentro dos **30 dias** seguintes ao termo, para evitar a prorrogação tácita (**art. 46, §1º**).
+- **Locação comercial / não residencial:** se o caso envolver direito à **ação renovatória**, lembre que ela só pode ser ajuizada pelo locatário no interregno de **1 (um) ano a 6 (seis) meses** anteriores ao término (**art. 51, §5º**); convém que esta notificação seja enviada em tempo hábil para reforçar a oposição à renovação.
 - **Meios de envio (do mais robusto ao complementar):** (1) **Cartório de Registro de Títulos e Documentos (RTD)** — maior força probatória; (2) **carta registrada com AR**; (3) **e-mail/WhatsApp** apenas como reforço, nunca como meio único (guarde prints e confirmações).
-- **Boas práticas:** emita em **2 vias**, colha o "ciente/recebido" em uma delas, confira a qualificação das partes e a descrição do imóvel, e agende a **vistoria final** com termo de entrega de chaves.
+- **Boas práticas:** emita em **2 vias**, colha o "recebido" em uma delas; confira a qualificação completa das partes e a descrição do imóvel; e agende a **vistoria final** com termo de entrega de chaves.
 
 > Modelo de uso geral; adapte ao caso concreto e ao teor do contrato. Recomenda-se revisão por advogado(a) antes do envio.
