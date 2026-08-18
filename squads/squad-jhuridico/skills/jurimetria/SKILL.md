@@ -1,3 +1,8 @@
+---
+name: jurimetria
+description: Metodologia de jurimetria brasileira — fontes de dados (DataJud, CNJ), fórmulas de probabilidade, análise de custo-benefício e padrões decisórios
+---
+
 # Skill: Jurimetria — Estatística e Dados Aplicados ao Direito Brasileiro
 
 ```yaml

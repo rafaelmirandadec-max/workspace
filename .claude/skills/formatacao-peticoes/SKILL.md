@@ -1,3 +1,8 @@
+---
+name: formatacao-peticoes
+description: Padrões de formatação, endereçamento, qualificação e estrutura de petições e recursos no processo civil brasileiro (CPC/2015)
+---
+
 # Skill: Formatação de Petições — Padrões Processuais Brasileiros
 
 ```yaml

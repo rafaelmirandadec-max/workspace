@@ -1,3 +1,8 @@
+---
+name: direito-civil-brasileiro
+description: Base atualizada do Código Civil brasileiro com todas as alterações legislativas de 2020 a 2026, temas repetitivos do STJ, enunciados das Jornadas de Direito Civil e PL 4/2025 (reforma em andamento)
+---
+
 # Skill: Direito Civil Brasileiro — Código Civil Atualizado (2020–2026)
 
 ```yaml

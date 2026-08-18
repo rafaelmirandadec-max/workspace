@@ -1,3 +1,8 @@
+---
+name: codigo-processo-civil
+description: CPC/2015 (Lei 13.105/2015) com todas as alterações legislativas de 2020 a 2026, institutos estruturantes, honorários advocatícios, temas repetitivos do STJ e enunciados da III Jornada de Direito Processual Civil
+---
+
 # Skill: Código de Processo Civil — CPC/2015 Atualizado (2020–2026)
 
 ```yaml

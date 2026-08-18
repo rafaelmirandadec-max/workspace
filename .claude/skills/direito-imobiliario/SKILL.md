@@ -1,3 +1,8 @@
+---
+name: direito-imobiliario
+description: Base legislativa completa de Direito Imobiliário brasileiro — contratos, locação, incorporação, alienação fiduciária, registro, usucapião. Atualizada com Lei 14.711/2023 (Marco Legal das Garantias), Lei 14.905/2024 (juros) e jurisprudência STJ 2023–2026
+---
+
 # Skill: Direito Imobiliário Brasileiro — Base Legislativa e Operacional
 
 ```yaml
