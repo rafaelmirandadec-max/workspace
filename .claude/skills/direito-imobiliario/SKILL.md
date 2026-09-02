@@ -1,3 +1,8 @@
+---
+name: direito-imobiliario
+description: Base legislativa de Direito Imobiliário brasileiro — compra e venda, locação (Lei 8.245/91), incorporação (Lei 4.591/64), alienação fiduciária (Lei 9.514/97), distrato (Lei 13.786/2018), Marco Legal das Garantias (Lei 14.711/2023), registro e usucapião. Use em contratos e litígios imobiliários.
+---
+
 # Skill: Direito Imobiliário Brasileiro — Base Legislativa e Operacional
 
 ```yaml

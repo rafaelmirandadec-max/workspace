@@ -1,3 +1,8 @@
+---
+name: pesquisa-jurisprudencial
+description: Metodologia e fontes de pesquisa jurisprudencial nos tribunais brasileiros (STF, STJ, TJ, TRT) — termos de busca, hierarquia normativa, filtros por tribunal e estrutura de citação de acórdãos e súmulas. Use ao pesquisar precedentes.
+---
+
 # Skill: Pesquisa Jurisprudencial — Metodologia e Fontes para Tribunais Brasileiros
 
 ```yaml

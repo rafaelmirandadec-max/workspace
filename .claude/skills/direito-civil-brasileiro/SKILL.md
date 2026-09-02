@@ -1,3 +1,8 @@
+---
+name: direito-civil-brasileiro
+description: Código Civil brasileiro atualizado de 2020 a 2026 — contratos, responsabilidade civil, direitos reais, prescrição e decadência, juros e correção (Lei 14.905/2024), Lei 14.382/2022 e PL 4/2025. Use em qualquer questão de direito civil material.
+---
+
 # Skill: Direito Civil Brasileiro — Código Civil Atualizado (2020–2026)
 
 ```yaml

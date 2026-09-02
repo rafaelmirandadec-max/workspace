@@ -1,3 +1,8 @@
+---
+name: formatacao-peticoes
+description: Padrões de formatação, endereçamento, qualificação das partes e estrutura de petições e recursos no processo civil brasileiro (art. 319 do CPC/2015). Use ao redigir ou revisar a forma de qualquer peça processual.
+---
+
 # Skill: Formatação de Petições — Padrões Processuais Brasileiros
 
 ```yaml

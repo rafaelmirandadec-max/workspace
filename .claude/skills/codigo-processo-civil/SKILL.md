@@ -1,3 +1,8 @@
+---
+name: codigo-processo-civil
+description: CPC/2015 (Lei 13.105/2015) atualizado de 2020 a 2026 — tutelas provisórias, sistema recursal, honorários advocatícios, contagem de prazos, precedentes vinculantes e temas repetitivos do STJ. Use ao redigir peças processuais, calcular prazos ou fundamentar qualquer questão de processo civil brasileiro.
+---
+
 # Skill: Código de Processo Civil — CPC/2015 Atualizado (2020–2026)
 
 ```yaml
