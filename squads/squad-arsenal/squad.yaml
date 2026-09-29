@@ -1,0 +1,59 @@
+pack:
+  name: squad-arsenal
+  version: 4.1.0
+  description: "Arsenal de Funis — 10 agentes para construir funis de venda completos: pesquisa de mercado, avatar, oferta, escada de valor, marca, copy de resposta direta, tráfego e métricas. Metodologia Arsenal de Funis com IA."
+  icon: "🎯"
+  entry_agent: arsenal-chief
+  created: "2026-09-02"
+
+agents:
+  - arsenal-chief        # Tier 0 — Orquestrador, triagem e roteamento
+  - researcher           # Tier 1 — Pesquisa multi-fonte paralela (mercado, concorrentes, anúncios)
+  - avatar-strategist    # Tier 1 — Avatar, dores, desejos, estágios de consciência e objeções
+  - offer-architect      # Tier 2 — Oferta irresistível, mecanismo único e stack de valor
+  - funnel-architect     # Tier 2 — Escada de valor e arquitetura do funil
+  - immersion-architect  # Tier 2 — Funil de imersão paga (evento → oferta)
+  - brand-architect      # Tier 3 — Brandbook, identidade verbal e visual
+  - copywriter           # Tier 3 — Copy de resposta direta (VSL, página, e-mail, anúncio)
+  - traffic-strategist   # Tier 4 — Meta Ads, Google Ads, criativos e ângulos
+  - metrics-analyst      # Tier 4 — KPIs, diagnóstico de gargalo e projeção
+
+skills:
+  - pesquisa-mercado             # Metodologia de pesquisa multi-fonte e checklist do Arsenal
+  - briefing-arsenal             # Briefing completo do projeto, preenchido a partir da pesquisa
+  - escada-de-valor              # Escada de valor, tipos de funil e personagem atraente
+  - oferta-irresistivel          # Mecanismo único, stack de valor, preço, garantia e bônus
+  - copywriting-resposta-direta  # Big idea, consciência, sofisticação, headlines e estruturas
+  - extracao-comunicacao         # Protocolo de extração de voz (Manual do Arsenal de Funis)
+  - trafego-e-anuncios           # Estrutura de campanha, criativos, ângulos e bibliotecas
+  - metricas-de-funil            # KPIs, benchmarks, diagnóstico e projeção de faturamento
+
+fases_do_metodo:
+  1_pesquisa:   "@researcher → dossiê de mercado, concorrentes, público e anúncios"
+  2_briefing:   "@researcher → briefing preenchido com dados reais"
+  3_avatar:     "@avatar-strategist → avatar, dores, desejos, consciência e objeções"
+  4_oferta:     "@offer-architect → mecanismo único, stack de valor e preço"
+  5_escada:     "@funnel-architect → escada de valor e arquitetura do funil"
+  6_marca:      "@brand-architect → brandbook e perfil de comunicação"
+  7_copy:       "@copywriter → VSL, página de vendas, e-mails e anúncios"
+  8_trafego:    "@traffic-strategist → campanhas, criativos e ângulos"
+  9_metricas:   "@metrics-analyst → KPIs, gargalos e projeção"
+
+pipeline_tipico:
+  funil_completo:
+    - "@researcher → dossiê de pesquisa"
+    - "@avatar-strategist → avatar e mapa de objeções"
+    - "@offer-architect → oferta e mecanismo único"
+    - "@funnel-architect → escada de valor e arquitetura"
+    - "@copywriter → copy de todas as etapas"
+    - "@traffic-strategist → plano de mídia"
+    - "@metrics-analyst → painel de métricas e metas"
+  imersao_paga:
+    - "@researcher → pesquisa do nicho"
+    - "@immersion-architect → arquitetura da imersão"
+    - "@offer-architect → oferta do palco"
+    - "@copywriter → convite, e-mails e página"
+  diagnostico:
+    - "@metrics-analyst → onde o funil vaza"
+    - "@funnel-architect → correção de arquitetura"
+    - "@copywriter → reescrita da etapa com gargalo"
