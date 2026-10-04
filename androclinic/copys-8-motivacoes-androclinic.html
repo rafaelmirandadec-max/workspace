@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Copys das 8 motivações · AndroClinic</title>
+<style>
+  :root{
+    --bg:#F4F1EA;
+    --surface:#FBF9F4;
+    --surface-2:#ECE6DA;
+    --ink:#1A1714;
+    --ink-soft:#4A4339;
+    --line:#C9BDA7;
+    --accent:#1D4F5A;
+    --accent-ink:#FBF9F4;
+    --ok:#1F5A31;
+    --ok-ink:#DDEEDC;
+    --ph-bg:#F8E3BF;
+    --ph-ink:#5A3300;
+    --shadow:0 1px 0 rgba(70,52,28,.06),0 10px 26px -18px rgba(70,52,28,.35);
+    --serif:"Iowan Old Style","Charter","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  }
+  :root[data-tema="escuro"]{
+    --bg:#14120F;
+    --surface:#1C1916;
+    --surface-2:#26221D;
+    --ink:#F0EADF;
+    --ink-soft:#C4BBAC;
+    --line:#40392F;
+    --accent:#8EC5CF;
+    --accent-ink:#14120F;
+    --ok:#A7D7B1;
+    --ok-ink:#1B2C20;
+    --ph-bg:#33270F;
+    --ph-ink:#F0C77E;
+    --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-tema="claro"]){
+      --bg:#14120F;
+      --surface:#1C1916;
+      --surface-2:#26221D;
+      --ink:#F0EADF;
+      --ink-soft:#C4BBAC;
+      --line:#40392F;
+      --accent:#8EC5CF;
+      --accent-ink:#14120F;
+      --ok:#A7D7B1;
+      --ok-ink:#1B2C20;
+      --ph-bg:#33270F;
+      --ph-ink:#F0C77E;
+      --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+    }
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font:1.2rem/1.7 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:960px;margin:0 auto;padding:0 clamp(16px,4vw,32px)}
+  a{color:var(--accent)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  mark.ph{background:var(--ph-bg);color:var(--ph-ink);padding:0 5px;border-radius:4px;font-weight:600}
+
+  /* topo */
+  .top{padding:clamp(32px,6vw,72px) 0 8px}
+  .barra{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  .kicker{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;color:var(--accent)}
+  .tema{font:700 1rem/1 var(--sans);min-height:48px;padding:0 20px;border:2px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;cursor:pointer}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(3.6rem,12vw,6rem);line-height:.98;letter-spacing:-.02em;margin:16px 0 18px;overflow-wrap:break-word}
+  .sub{font-size:clamp(1.25rem,2.4vw,1.4rem);line-height:1.5;color:var(--ink-soft);max-width:56ch}
+  .sumario-t{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;color:var(--accent);margin:30px 0 10px}
+  .nav{display:flex;flex-wrap:wrap;gap:10px}
+  .nav a{display:inline-block;min-height:50px;line-height:50px;padding:0 18px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);text-decoration:none;font-weight:700;font-size:1.05rem}
+  .nav a b{color:var(--accent);margin-right:8px}
+
+  /* motivação */
+  .mot{margin:clamp(56px,8vw,96px) 0 0;padding-top:28px;border-top:4px solid var(--accent)}
+  .mot-topo{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+  .mot-n{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;color:var(--accent)}
+  .volta{font:600 .95rem/1.3 var(--sans);min-height:44px;line-height:44px}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(2.4rem,6vw,3.4rem);line-height:1.05;letter-spacing:-.01em;margin:8px 0 6px}
+  .orig{font-size:1.05rem;color:var(--ink-soft);margin-bottom:6px}
+  h3{font-family:var(--serif);font-weight:600;font-size:1.65rem;line-height:1.2;margin:40px 0 10px}
+  .ideia{max-width:62ch;font-size:1.25rem}
+
+  .bloco{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:14px 0;box-shadow:var(--shadow)}
+  .topo-b{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:8px}
+  .meta{font-size:1.05rem;color:var(--ink-soft);max-width:48ch}
+  .acoes{display:flex;flex-wrap:wrap;gap:10px}
+  h4{font:700 1.05rem/1.3 var(--sans);color:var(--accent);margin:0}
+  .linha{margin:8px 0;max-width:68ch}
+  .rotulo{font-weight:700;color:var(--accent);margin-right:6px}
+  .ftxt{font-family:var(--serif);font-size:1.3rem;line-height:1.55}
+  .cena{border-top:1px solid var(--line);padding:14px 0 6px;margin-top:10px}
+  .cena h4{margin-bottom:6px}
+  .slide .linha:nth-of-type(1){font-family:var(--serif);font-size:1.3rem;line-height:1.4}
+  .legenda p{margin:0 0 12px;max-width:62ch}
+  .legenda p:last-of-type{margin-bottom:4px}
+
+  .cp{font:700 1rem/1 var(--sans);min-height:48px;min-width:120px;padding:0 18px;border:0;border-radius:8px;background:var(--accent);color:var(--accent-ink);cursor:pointer}
+  .cp.cp-2{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+  .cp.ok{background:var(--ok);color:var(--ok-ink);border-color:var(--ok)}
+
+  @media (max-width:640px){
+    body{font-size:1.15rem}
+    .cp{width:100%}
+    .acoes{width:100%}
+    .nav a{width:100%}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top" id="topo">
+  <div class="barra">
+    <div class="kicker">AndroClinic · Copy pronta · 03/10/2026</div>
+    <button class="tema" id="tema" type="button">Tema escuro</button>
+  </div>
+  <h1>Oito motivações</h1>
+  <p class="sub">O mesmo serviço, oito ângulos. Em cada seção: a ideia, o roteiro de vídeo, o carrossel e o banner.</p>
+  <p class="sumario-t">Sumário</p>
+  <nav class="nav" aria-label="Motivações">
+    <a href="#m1"><b>1</b>Viver bem</a>
+    <a href="#m2"><b>2</b>A mesa</a>
+    <a href="#m3"><b>3</b>Perguntar</a>
+    <a href="#m4"><b>4</b>A dois</a>
+    <a href="#m5"><b>5</b>De casa</a>
+    <a href="#m6"><b>6</b>Comando</a>
+    <a href="#m7"><b>7</b>Cuidar</a>
+    <a href="#m8"><b>8</b>Conferir</a>
+  </nav>
+</header>
+
+<main>
+<section class="mot" id="m1" aria-labelledby="m1-t">
+<div class="mot-topo"><span class="mot-n">Motivação 1</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m1-t">Aproveitar a vida inteira</h2>
+<p class="orig">Não morrer, aproveitar a vida e viver mais.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">O check-up fala de pressão, glicose e colesterol, e a saúde sexual cabe na mesma conversa. A consulta conversa sobre o corpo inteiro, porque quem quer aproveitar a vida cuida de todas as partes dela.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 38 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 1">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 1">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> consultório com mesa de madeira clara e estante baixa ao fundo, luz de janela pela esquerda. O médico senta de camisa azul-petróleo sem estampa. Câmera na altura dos olhos, plano médio, formato vertical. Todas as imagens de apoio são gravadas para a campanha.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 3 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A saúde sexual cabe na conversa do check-up.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> close de uma pasta de exames aberta sobre a mesa. Uma mão vira as folhas, uma a cada palavra falada.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A saúde sexual cabe na conversa do check-up.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o médico, no fim da frase.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 3 a 14 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Há quem guarde uma pasta de exames de vários anos. Pressão, glicose, colesterol: cada número no seu lugar. Se a pasta existir, a conversa pode passar por ali.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico falando para a câmera. Aos 7 s, inserção de 2 s com mãos separando as folhas da pasta. Volta ao médico.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Pressão. Glicose. Colesterol. Depois: A pasta de exames, se existir.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco na entrada da inserção e corte seco de volta.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 14 a 25 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Na consulta, o corpo inteiro entra na conversa: a rotina, o sono, o que você já sabe da sua saúde. A saúde sexual também.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio. No início da fala, entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O corpo inteiro entra na conversa.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para um plano mais fechado do médico.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 25 a 34 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">O ponto de partida é o porquê. A gente busca a causa, eu explico, e a gente decide o próximo passo junto.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado com aproximação lenta, de 100% para 108%. Aos 29 s, inserção de 3 s da tela do notebook com a videochamada, vista do lado do paciente: o médico de frente e uma xícara de café ao lado do teclado. Volta ao médico.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O ponto de partida é o porquê. Depois: O próximo passo é decidido junto.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> cortes secos entre o médico e a tela do notebook. Fade para o cartão final aos 34 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 34 a 38 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Consulta médica online por [valor da consulta]. Agende no link.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo areia #EDE5D6, texto na cor da tinta #1A1714, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos. O cartão fica 4 s na tela.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A saúde sexual cabe na conversa do check-up.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Pressão, glicose e colesterol já são assunto. A saúde sexual pode entrar na mesma consulta.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> foto de detalhe de uma pasta de exames aberta sobre mesa de madeira clara, óculos de leitura ao lado, luz de janela vinda da esquerda. Sem pessoas. Título em serifada sobre faixa areia na parte de baixo.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Cada número tem o seu lugar.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Pressão numa folha, glicose em outra, colesterol mais adiante. Juntas, as folhas contam como o corpo anda.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> close nas mãos separando três folhas de exame sobre a mesa. Fundo areia, luz de janela.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A conversa passa pela rotina.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico pergunta do sono, da rotina e do que você já sabe da sua saúde. A saúde sexual também entra.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> desenho em traço fino de um relógio de parede e de um caderno de anotações, ligados por uma linha. Fundo areia, traço na cor da tinta, feito para a campanha.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A consulta começa pela sua história.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico ouve você contar do seu jeito.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tela de notebook com uma videochamada: o médico de frente, expressão tranquila. Ao lado do notebook, uma xícara e um caderno. Foto produzida para a campanha.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Os exames guardados entram, se houver.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico conversa sobre a pasta de exames que você já tem, se ela existir.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mãos sobre a pasta aberta, uma delas aponta um número numa folha. Luz de janela, fundo de madeira clara.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O ponto de partida é o porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico busca a causa e explica o que entende.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: a expressão “por quê?” em serifada de 220 px, cor da tinta sobre fundo areia, ocupando o centro do slide.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Depois, o próximo passo.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A decisão é tomada junto, depois da explicação.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> uma xícara fumegando ao lado de um caderno fechado, sobre mesa de madeira, luz da manhã entrando pela janela. Sem pessoas.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 1">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo areia #EDE5D6 liso, texto na cor da tinta #1A1714. Botão petróleo #1D4F5A com o texto Agendar em [link] em areia #F4F1EA. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 1">Copiar legenda</button></div>
+  <p>Pressão, glicose, colesterol: cada número tem o seu lugar na pasta de exames.</p>
+  <p>A saúde sexual cabe na mesma conversa. Na consulta online com [Dr. Nome, CRM-UF número], o corpo inteiro entra: a rotina, o sono, o que você já sabe da sua saúde.</p>
+  <p>O ponto de partida é o porquê. O médico busca a causa, explica e decide o próximo passo junto com você.</p>
+  <p>Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 1">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> A saúde sexual cabe no seu check-up.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online com conversa sobre o corpo inteiro.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>Rotina, sono e saúde sexual na mesma conversa.<br>Os exames guardados entram, se houver.<br>O ponto de partida é o porquê.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta areia. Os 300 px superiores (22%) são uma foto de detalhe produzida para a campanha: pasta de exames aberta sobre mesa de madeira clara, óculos de leitura ao lado, luz de janela vinda da esquerda, sem rostos. Abaixo, um painel sólido em areia #EDE5D6 com 910 px de altura, texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, cor da tinta #1A1714, três linhas. Subheadline em sans humanista, 40 px, tinta suave #4A4339, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço petróleo #1D4F5A como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo petróleo #1D4F5A, texto areia #F4F1EA em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em petróleo #1D4F5A, com 140 px de altura (10% da arte), texto areia #F4F1EA em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m2" aria-labelledby="m2-t">
+<div class="mot-topo"><span class="mot-n">Motivação 2</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m2-t">A mesa</h2>
+<p class="orig">Comida e bebida: o prazer à mesa, o jantar, a churrasqueira.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">A mesa é um dos melhores lugares da vida: o churrasco de domingo, o almoço com a família, a conversa que não termina. A consulta convida essa mesa para a conversa, com o que vai ao prato, o sono e a rotina.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 38 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 2">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 2">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> consultório com parede em tom areia e uma planta ao lado, luz de janela. O médico fica em pé, apoiado na mesa, de camisa clara sem estampa. Plano médio, formato vertical. Imagens de apoio gravadas para a campanha: churrasqueira, mesa de almoço de domingo, travessas.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 4 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">No domingo, a brasa acende e a mesa enche.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> close na brasa viva da churrasqueira, com fagulhas subindo, e um espeto sendo virado. Câmera na altura da grelha.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> No domingo, a brasa acende e a mesa enche.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para a mesa de almoço.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 4 a 14 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">É o cheiro da carne e a conversa que não termina. Um dos melhores momentos da semana. Almoço de domingo, a família toda em volta.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> três planos de apoio, de 3 s cada: uma tábua de carne sendo fatiada, uma travessa de farofa passando de mão em mão, a mesa de almoço vista de longe, com a família de costas. A voz do médico segue em off.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O cheiro da carne. A conversa que não termina.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> cortes secos no ritmo da fala. Fusão suave para o médico no fim da cena.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 14 a 23 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Na consulta, a mesa entra na conversa: o que vai ao prato, o sono, a rotina da semana.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico em pé. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. Aos 19 s, inserção de 2 s com vista de cima de um prato e de um caderno de anotações. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A mesa entra na conversa.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco na inserção e corte seco de volta ao médico.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 23 a 32 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A consulta começa pelo porquê. Eu ouço a sua história, busco a causa e explico. Depois, a gente decide o próximo passo junto.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado no médico, com aproximação lenta. Aos 28 s, inserção de 3 s da tela do notebook com a videochamada e uma xícara de café ao lado do teclado.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A consulta começa pelo porquê. Depois: O próximo passo é decidido junto.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> cortes secos entre médico e tela. Fade para o cartão final aos 32 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 32 a 38 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">O link está na tela: consulta médica online por [valor da consulta]. Agende por lá.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano aberto da mesa de almoço posta ao meio-dia, por 2 s, com a fala em off. Depois, cartão final em fundo marrom-brasa #2A211B, texto em areia #F4F1EA, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco da mesa para o cartão, aos 34 s. O cartão fica na tela até o fim.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> No domingo, a brasa acende.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A mesa enche de gente de quem a gente gosta.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> churrasqueira com brasa viva em primeiro plano e tábua de carne fatiada ao lado, em mesa de madeira, ao entardecer. Luz quente. Sem rostos.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A mesa é lugar de conversa.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A história que cresce a cada ano e a travessa que passa de mão em mão.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> três pares de mãos passando uma travessa de farofa sobre a mesa. Foto de detalhe, sem rostos.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O almoço de domingo.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Panela no fogo e a família toda em volta da mesa.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mesa de almoço com travessas no centro e uma jarra de água, vista de cima, luz do meio-dia. Sem rostos.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A mesa também entra na consulta.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico conversa sobre o que vai ao prato, o sono e a rotina da semana.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> vista de cima de um prato, um caderno de anotações aberto e um celular mostrando um calendário.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A consulta começa pelo porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico ouve a sua história e busca a causa.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> notebook com videochamada aberta ao lado de uma xícara de café, em mesa de madeira clara.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A explicação vem em português claro.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico explica o que entende da sua história.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tela do notebook com o médico gesticulando enquanto explica, em plano de consultório com planta ao fundo.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Depois, o próximo passo.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Médico e paciente decidem juntos o que vem a seguir.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> churrasqueira apagada ao fim da tarde, com a brasa em cinzas, e a mesa posta ao fundo, fora de foco. Sem pessoas.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 2">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo marrom-brasa #2A211B liso, texto em areia #F4F1EA. Botão terracota #A8461F com o texto Agendar em [link] em areia. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 2">Copiar legenda</button></div>
+  <p>No domingo, a brasa acende e a mesa enche. É o cheiro da carne e a conversa que não termina.</p>
+  <p>A mesa é um dos melhores lugares da vida. Na consulta online com [Dr. Nome, CRM-UF número], ela entra na conversa: o que vai ao prato, o sono, a rotina da semana.</p>
+  <p>A consulta começa pelo porquê. O médico ouve a sua história, busca a causa e explica.</p>
+  <p>Agendar em [link]. Consulta médica online por [valor da consulta].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 2">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> A consulta começa pela sua rotina.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online em que o médico conversa sobre o prato, o sono e a rotina.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>Churrasco e almoço de domingo entram na conversa.<br>A consulta começa pelo porquê.<br>Médico e paciente decidem juntos o próximo passo.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta brasa. Os 300 px superiores (22%) são uma foto produzida para a campanha: churrasqueira com brasa viva em primeiro plano e mesa posta ao fundo, ao entardecer, sem rostos. Abaixo, um painel sólido marrom-brasa #2A211B com 910 px de altura, sem transparência, texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, areia #F4F1EA, três linhas. Subheadline em sans humanista, 40 px, areia #D9D2C3, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço âmbar #E0A33A como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo terracota #A8461F, texto areia #F4F1EA em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em #1F1814, com 140 px de altura (10% da arte), texto areia #D9D2C3 em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m3" aria-labelledby="m3-t">
+<div class="mot-topo"><span class="mot-n">Motivação 3</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m3-t">Pode perguntar</h2>
+<p class="orig">Liberdade de medos, dores e perigos.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">Perguntar a um médico é o caminho mais simples para entender. A consulta parte das perguntas de quem chega, busca a causa e explica em português claro.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 40 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 3">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 3">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> consultório com poltrona de leitura e prateleira de livros ao fundo, luz suave. O médico senta de frente para a câmera, com as mãos livres para gesticular, de camisa clara sem estampa. Plano médio, formato vertical. Imagens de apoio gravadas para a campanha.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 3 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Consulta é conversa. Traga as suas perguntas.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico, com um sorriso leve, abrindo as mãos à frente do corpo.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta é conversa. Depois: Traga as suas perguntas.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o celular, no fim da frase.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 3 a 14 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Tem quem anote as perguntas no bloco de notas do celular. “É normal?” é uma delas. Tem quem leve uma lista longa, e tem quem leve só uma pergunta.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> close de um celular com o bloco de notas aberto, mostrando uma lista com o título Perguntas para o médico. Uma mão rola a lista. Aos 8 s, a primeira linha ganha destaque: É normal? A voz do médico segue em off.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Perguntas anotadas no celular. Depois: “É normal?”</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco de volta ao médico, aos 14 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 14 a 25 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Eu ouço a sua história, converso sobre exames, se houver, e explico em português claro o que a gente entende.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. Aos 20 s, plano fechado, com o médico acenando com a cabeça enquanto fala. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A sua história vem primeiro.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco entre o plano médio e o plano fechado.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 25 a 35 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A consulta começa pelo porquê. A gente busca a causa, e eu explico o próximo passo. Ejaculação precoce tem tratamento. Converse com um médico.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado do médico. Na palavra “porquê”, o texto “por quê?” aparece grande no centro da tela por 1 s. Na terceira frase, entra o texto em duas linhas: Ejaculação precoce tem tratamento. Converse com um médico.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A consulta começa pelo porquê. Depois: Ejaculação precoce tem tratamento. Converse com um médico.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> fade para o cartão final aos 35 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 35 a 40 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Perguntas anotadas? A consulta médica online custa [valor da consulta]. Agende no link.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo petróleo #1D4F5A, texto em areia #F4F1EA, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Traga as suas perguntas.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica é conversa. A lista pode ser curta ou longa.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> celular na mão de um homem, com o bloco de notas aberto e uma lista de perguntas, com o título legível Perguntas para o médico. Fundo desfocado de mesa de cozinha. Sem rosto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Quem é o médico?</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Nome e CRM aparecem na tela. Você pode conferir o registro no portal do CFM.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> cartão areia com o texto [Dr. Nome, CRM-UF número] em serifada e, abaixo, a palavra MÉDICO. Uma lupa em traço fino ao lado do cartão. Fundo petróleo liso.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A sua história vem primeiro.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Quem já tentou alguma coisa por conta própria e quem nunca falou do assunto começam do mesmo jeito: contando a história.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> videochamada em tela de notebook, com o médico atento e uma mão com caneta fora de foco em primeiro plano. Luz suave.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Exames, se houver.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Se há exames guardados, o médico conversa sobre eles com você.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> envelope de exames aberto sobre mesa de madeira escura, com uma folha parcialmente à mostra. Luz de abajur.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A consulta começa pelo porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico busca a causa antes de falar do próximo passo.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: “por quê?” em serifada de 240 px, areia sobre fundo petróleo, ocupando o centro do slide.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A explicação vem em português simples.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico explica o que entendeu da sua história e do que você perguntou.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> close nas mãos do médico, que gesticulam enquanto ele explica, em plano de consultório com luz suave.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Ejaculação precoce tem tratamento. Converse com um médico.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Falta de desejo tem causa. A consulta começa pela investigação.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: as duas frases em serifada, areia sobre fundo petróleo, separadas por uma linha fina areia. Sem foto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 3">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo petróleo #1D4F5A liso, texto em areia #F4F1EA. Botão areia com o texto Agendar em [link] em petróleo. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 3">Copiar legenda</button></div>
+  <p>Tem quem anote as perguntas no bloco de notas do celular. “É normal?” é uma delas.</p>
+  <p>Na consulta online com [Dr. Nome, CRM-UF número], a sua história vem primeiro. O médico conversa sobre exames, se houver, e explica em português claro o que a gente entende.</p>
+  <p>A consulta começa pelo porquê. O médico busca a causa e explica o próximo passo.</p>
+  <p>Ejaculação precoce tem tratamento. Converse com um médico.</p>
+  <p>Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 3">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> Pode perguntar. A consulta é para isso.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online em que o médico ouve a sua história e explica em português claro.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>A sua história vem primeiro.<br>A consulta começa pelo porquê.<br>Ejaculação precoce tem tratamento. Converse com um médico.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta petróleo, composição só tipográfica, sem foto. Fundo petróleo #1D4F5A liso. Nos 300 px superiores (22%), as palavras “por quê?” em serifada de 360 px, tom sobre tom #2C6674, cortadas pela borda superior, só como textura de fundo. Abaixo, um painel de 910 px de altura com todo o texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, areia #F4F1EA, três linhas. Subheadline em sans humanista, 40 px, areia #D9E3E3, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada (a terceira pode ocupar duas), com um traço fino areia como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo areia #F4F1EA, texto petróleo #1D4F5A em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em #153C45, com 140 px de altura (10% da arte), texto areia #D9E3E3 em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m4" aria-labelledby="m4-t">
+<div class="mot-topo"><span class="mot-n">Motivação 4</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m4-t">Cuidado a dois</h2>
+<p class="orig">Romance, parceria, companheirismo.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">O casal combina junto o roteiro, o hotel, a vida, e a saúde dele pode entrar nessa conversa com um médico no caminho. A decisão de marcar é dele, e o assunto continua em casa, entre os dois.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 37 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 4">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 4">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> o médico senta no consultório, em luz suave, de camisa clara sem estampa. Plano médio, formato vertical. Imagens de apoio gravadas para a campanha: uma varanda ao amanhecer com duas xícaras e um mapa, um casal visto de costas. Nenhum rosto de frente.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 4 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Uma consulta por vídeo pode ser combinada a dois.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano de detalhe de um mapa dobrado sobre a mesa de uma varanda ao amanhecer, duas xícaras de café fumegando e dois celulares virados para baixo. A câmera desliza da esquerda para a direita.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Uma consulta por vídeo pode ser combinada a dois.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o casal de costas.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 4 a 13 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Casal que planeja uma viagem combina o roteiro e o hotel juntos. Quando a saúde dele entra na conversa, a mesma lógica vale.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> o casal visto de costas na varanda, olhando o horizonte. Em seguida, duas mãos apontando pontos no mapa.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O roteiro e o hotel, juntos. Depois: A saúde dele entra na conversa.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o médico, aos 13 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 13 a 24 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Na consulta, eu ouço a história do paciente e explico o que a gente entende. Depois, o assunto pode continuar em casa, entre os dois.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O assunto pode continuar em casa.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para um plano mais fechado.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 24 a 28 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Falta de desejo tem causa. A consulta começa pela investigação.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado do médico, com aproximação lenta. As duas frases entram em texto grande, uma por vez.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Falta de desejo tem causa. Depois: A consulta começa pela investigação.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o casal de costas.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 28 a 33 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">O assunto é do casal, e a decisão de marcar a consulta é dele.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> as duas xícaras da varanda lado a lado, uma mão pega a de cima. Plano de detalhe, câmera parada.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O assunto é do casal. A decisão de marcar é dele.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> fade para o cartão final aos 33 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 6, 33 a 37 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A consulta médica online custa [valor da consulta]. Agende no link.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo areia #EDE5D6, texto na cor da tinta #1A1714, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Uma consulta por vídeo, combinada a dois.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Roteiro e hotel: o casal combina junto. A saúde dele também pode entrar nessa conversa.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mesa de varanda ao amanhecer com duas xícaras de café, um mapa dobrado e dois celulares virados para baixo. Foto de detalhe, sem rostos.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A conversa do casal.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A saúde dele faz parte da vida de vocês. Falar sobre isso é assunto de casal.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> duas mãos sobre um mapa, cada uma apontando um ponto diferente. Luz de manhã.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Para ele.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Marcar uma consulta é uma decisão sua.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> homem de costas, sentado à mesa da sala diante do notebook com a videochamada aberta. Luz natural de janela.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Para quem divide a vida com ele.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A conversa acontece quando ele quiser. Você pode estar por perto.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mulher sentada no sofá com uma xícara nas mãos, vista dos ombros para baixo, sem rosto. Luz de fim de tarde.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Um médico na conversa.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico ouve a história do paciente e explica o que a gente entende. O assunto pode continuar em casa.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tela de videochamada com o médico de frente. Ao lado, a mesma xícara do slide 1, repetida como fio visual do carrossel.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Falta de desejo tem causa.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A consulta começa pela investigação.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: as duas frases em serifada de 150 px, tinta sobre fundo areia, com um fio fino petróleo #1D4F5A na base. Sem foto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O primeiro passo é entender o porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Depois da explicação, o próximo passo é decidido junto.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> desenho em traço fino de duas xícaras lado a lado, uma com a asa para a direita e outra para a esquerda. Fundo areia, traço na cor da tinta, feito para a campanha.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 4">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo areia #EDE5D6 liso, texto na cor da tinta #1A1714. Botão petróleo #1D4F5A com o texto Agendar em [link] em areia #F4F1EA. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 4">Copiar legenda</button></div>
+  <p>Roteiro e hotel: o casal combina junto. A saúde dele também pode entrar nessa conversa.</p>
+  <p>Uma consulta por vídeo pode ser combinada a dois, e a decisão de marcar é dele. Com [Dr. Nome, CRM-UF número], o médico ouve a história do paciente e explica o que a gente entende. O assunto pode continuar em casa.</p>
+  <p>Falta de desejo tem causa. A consulta começa pela investigação.</p>
+  <p>Agendar em [link]. Consulta médica online por [valor da consulta].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 4">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> Uma consulta por vídeo, combinada a dois.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online em que a conversa parte do porquê.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>O assunto é do casal. A decisão de marcar é dele.<br>O médico ouve a história e explica.<br>O primeiro passo é entender o porquê.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta areia. Os 300 px superiores (22%) são uma foto de detalhe produzida para a campanha: mesa de varanda ao amanhecer com duas xícaras de café fumegando, um mapa dobrado e dois celulares virados para baixo, sem rostos. Abaixo, um painel sólido em areia #EDE5D6 com 910 px de altura, texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, cor da tinta #1A1714, três linhas. Subheadline em sans humanista, 40 px, tinta suave #4A4339, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço petróleo #1D4F5A como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo petróleo #1D4F5A, texto areia #F4F1EA em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em petróleo #1D4F5A, com 140 px de altura (10% da arte), texto areia #F4F1EA em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m5" aria-labelledby="m5-t">
+<div class="mot-topo"><span class="mot-n">Motivação 5</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m5-t">A sala é sua</h2>
+<p class="orig">Conforto, praticidade, conveniência.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">A consulta por vídeo acontece em casa, no sofá ou na mesa da cozinha, sem deslocamento até ela. A conversa começa pela sua história.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 37 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 5">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 5">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> o médico senta à mesa do consultório, com o notebook fechado ao lado, de camisa clara sem estampa. Luz de janela, plano médio, formato vertical. Imagens de apoio gravadas para a campanha: sala de estar, mesa de cozinha, notebook com a câmera ligada.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 3 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A sala de espera é a sua sala.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano aberto de uma sala de estar: sofá, almofada e um notebook aberto sobre a mesa de centro, com luz de fim de tarde. A câmera avança devagar em direção ao sofá.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A sala de espera é a sua sala.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para a sequência de apoio.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 3 a 12 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Pode ser no sofá ou na mesa da cozinha. Você abre o vídeo pelo celular ou pelo computador, e a consulta acontece ali.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> dois planos de 4 s: o sofá com o notebook e a mesa da cozinha com um homem de costas usando fone de ouvido. Em seguida, inserção de 1 s de um celular apoiado em um suporte, com a câmera ligada. A voz do médico segue em off.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> No sofá ou na mesa da cozinha. Depois: Celular ou computador.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> cortes secos entre os planos. Corte seco para o médico aos 12 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 12 a 19 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Não tem deslocamento até a consulta por vídeo: a conversa começa na sua casa.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Sem deslocamento até a consulta por vídeo.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para um plano mais fechado.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 19 a 32 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">E como ela é? Eu ouço a sua história e a gente conversa sobre exames, se houver. Eu explico o que entendo, e a gente combina o próximo passo. A conversa parte do porquê.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado do médico, com aproximação lenta. Aos 29 s, o texto “por quê?” aparece grande no centro da tela por 1 s.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> A consulta começa pela sua história. Depois: A conversa parte do porquê.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> fade para o cartão final aos 32 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 32 a 37 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A consulta médica por vídeo custa [valor da consulta]. Agende pelo link.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo petróleo #1D4F5A, texto em areia #F4F1EA, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A sala de espera é a sua sala.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online, por vídeo, de casa.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> sofá com almofada e notebook aberto sobre a mesa de centro, com xícara ao lado. Luz de fim de tarde. Sem pessoas.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Pode ser no sofá.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Ou na mesa da cozinha. O canto da casa onde você se sente à vontade.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> a mesa da cozinha com um homem de costas, fone de ouvido e notebook, em luz de manhã.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Sem deslocamento até a consulta.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A conversa por vídeo começa onde você estiver. O trajeto é da cadeira até a tela.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> desenho em traço fino de uma linha curta ligando uma cadeira a uma tela de notebook, com a palavra casa em uma ponta. Fundo petróleo, traço areia.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Celular ou computador.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Basta uma conexão e a câmera ligada.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> celular apoiado em um suporte sobre a mesa, com a câmera frontal em destaque, e um notebook fechado ao lado. Fundo de madeira.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Antes de começar.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Um lugar com boa luz e silêncio ajuda a conversa a fluir.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> cantinho de casa com uma cadeira ao lado de uma janela, o notebook sobre a mesa e uma cortina clara. Luz natural, sem pessoas.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O que acontece na consulta.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico ouve a sua história e explica o que entende.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> videochamada em tela de notebook, com o médico de frente e uma xícara ao lado do teclado.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A conversa parte do porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico busca a causa e conversa sobre exames, se houver.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: “por quê?” em serifada de 220 px, areia sobre fundo petróleo, no centro do slide.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 5">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo petróleo #1D4F5A liso, texto em areia #F4F1EA. Botão areia com o texto Agendar em [link] em petróleo. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 5">Copiar legenda</button></div>
+  <p>A sala de espera é a sua sala.</p>
+  <p>Pode ser no sofá ou na mesa da cozinha. Você abre o vídeo pelo celular ou pelo computador, e a consulta acontece ali. Não tem deslocamento até a consulta por vídeo.</p>
+  <p>Com [Dr. Nome, CRM-UF número], a conversa parte do porquê: o médico ouve a sua história, conversa sobre exames, se houver, e explica.</p>
+  <p>Agendar em [link]. Consulta médica por vídeo, [valor da consulta].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 5">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> Consulta médica por vídeo, de casa.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> A sala de espera é a sua sala. Consulta médica online, com o médico na tela.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>Atendimento por vídeo, do celular ou do computador.<br>Sem deslocamento até a consulta por vídeo.<br>A conversa parte do porquê.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta petróleo. Os 300 px superiores (22%) são uma foto produzida para a campanha: sala de estar com sofá, almofada e notebook aberto sobre a mesa de centro, luz de fim de tarde, sem pessoas. Abaixo, um painel sólido petróleo #1D4F5A com 910 px de altura, sem transparência, texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, areia #F4F1EA, três linhas. Subheadline em sans humanista, 40 px, areia #D9E3E3, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço fino areia como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo areia #F4F1EA, texto petróleo #1D4F5A em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em #153C45, com 140 px de altura (10% da arte), texto areia #D9E3E3 em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m6" aria-labelledby="m6-t">
+<div class="mot-topo"><span class="mot-n">Motivação 6</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m6-t">Leve as perguntas</h2>
+<p class="orig">Ser superior, vencer, não ficar para trás.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">Assumir o comando do próprio cuidado começa por uma lista: escrever as perguntas antes da consulta. Na consulta, o médico lê a lista, conversa e explica.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 38 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 6">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 6">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> o médico fica em pé atrás da mesa do consultório, com as mãos apoiadas, de camisa clara sem estampa. Luz de janela, plano médio, formato vertical. Imagens de apoio gravadas para a campanha: uma mão escrevendo num caderno, um celular com o bloco de notas aberto, uma folha pautada sobre a mesa.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 3 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Comece pela caneta: escreva as suas perguntas.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> close de uma mão escrevendo em letra cursiva a primeira linha de uma lista num caderno de capa dura. A caneta se move no ritmo das palavras.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Comece pela caneta: escreva as suas perguntas.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o celular.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 3 a 18 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Pegue um papel ou o bloco de notas do celular. Anote o que você quer entender sobre a sua saúde. Pode ser uma pergunta ou uma página inteira. Quem chega com a lista na mão conduz a conversa.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> sequência de apoio: um celular com o bloco de notas aberto e uma lista sendo digitada; uma folha pautada com anotações à mão; as duas lado a lado sobre a mesa. Nos últimos 4 s, plano médio do médico. A voz do médico segue em off no início.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Papel ou bloco de notas. Depois: Quem chega com a lista conduz a conversa.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> cortes secos entre os planos de apoio. Corte seco para o médico aos 14 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 18 a 25 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Na consulta, eu leio a sua lista e converso com você sobre ela.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O médico lê a lista e conversa.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para um plano mais fechado.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 25 a 33 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">O caminho passa pelo porquê: a gente busca a causa e conversa sobre exames, se houver. Eu explico em português claro.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado do médico, com aproximação lenta. Na palavra “porquê”, o texto “por quê?” aparece grande no centro da tela por 1 s. Aos 30 s, inserção de 2 s da tela do notebook com a videochamada e, ao lado, o caderno aberto.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O caminho passa pelo porquê. Depois: O médico explica em português claro.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco na inserção e fade para o cartão final aos 33 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 33 a 38 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A lista é sua. A consulta médica online custa [valor da consulta]. Agende no link.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo marrom-brasa #2A211B, texto em areia #F4F1EA, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Comece pela caneta.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Antes da consulta, anote as perguntas que você quer levar.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mão escrevendo numa lista em caderno de capa dura, caneta em movimento, luz de janela. Sem rosto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Papel ou bloco de notas.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Vale o caderno, vale o celular. O importante é a lista existir.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> celular com o bloco de notas aberto ao lado de uma folha pautada, lado a lado sobre a mesa.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Quem chega com a lista conduz a conversa.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> As perguntas organizam o que você quer entender.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> close de um dedo apontando a primeira linha da lista, em papel pautado.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Na consulta, o médico lê a lista.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Ele conversa com você sobre ela e explica em português claro.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> videochamada em tela de notebook, com o médico de frente. A folha da lista aparece em primeiro plano, fora de foco.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O caminho passa pelo porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico busca a causa e conversa sobre exames, se houver.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: “por quê?” em serifada de 220 px, areia sobre fundo marrom-brasa #2A211B, no centro do slide.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Escrever ajuda a lembrar.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Com a lista na tela, fica mais fácil lembrar o que você queria perguntar.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mão segurando o celular com a lista aberta, enquanto a outra mão ajusta a câmera do notebook. Fundo de mesa escura.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Perguntas para começar a lista.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O que pode estar por trás disso? Que exames devo levar? O que preciso saber antes do próximo passo?</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: as três perguntas em serifada de 80 px, areia sobre fundo marrom-brasa #2A211B, com um traço âmbar #E0A33A à esquerda de cada uma. Sem foto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 6">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo marrom-brasa #2A211B liso, texto em areia #F4F1EA. Botão terracota #A8461F com o texto Agendar em [link] em areia. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 6">Copiar legenda</button></div>
+  <p>Comece pela caneta: escreva as suas perguntas.</p>
+  <p>Pode ser num papel ou no bloco de notas do celular. Quem chega com a lista na mão conduz a conversa.</p>
+  <p>Na consulta com [Dr. Nome, CRM-UF número], o médico lê a sua lista e conversa com você sobre ela. O caminho passa pelo porquê: o médico busca a causa, conversa sobre exames, se houver, e explica em português claro.</p>
+  <p>A lista é sua. Agendar em [link]. Consulta médica online por [valor da consulta].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 6">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> Leve as suas perguntas por escrito.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online em que o médico lê a sua lista, conversa e explica.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>A lista pode estar no papel ou no celular.<br>O médico conversa e explica em português claro.<br>O caminho passa pelo porquê.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta brasa. Os 300 px superiores (22%) são uma foto de detalhe produzida para a campanha: mão escrevendo uma lista em caderno de capa dura, caneta em movimento, sem rosto. Abaixo, um painel sólido marrom-brasa #2A211B com 910 px de altura, sem transparência, texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, areia #F4F1EA, três linhas. Subheadline em sans humanista, 40 px, areia #D9D2C3, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço âmbar #E0A33A como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo terracota #A8461F, texto areia #F4F1EA em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em #1F1814, com 140 px de altura (10% da arte), texto areia #D9D2C3 em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m7" aria-labelledby="m7-t">
+<div class="mot-topo"><span class="mot-n">Motivação 7</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m7-t">A lista da casa</h2>
+<p class="orig">Cuidar e proteger quem se ama.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">A casa tem uma lista: mercado, conta de luz, almoço na casa dos pais. A consulta com um médico pode ser mais um item dela, e dizer isso em casa soa como qualquer outro aviso da rotina.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 41 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 7">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 7">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> o médico senta no consultório, em luz quente, de camisa clara sem estampa. Plano médio, formato vertical. Imagens de apoio gravadas para a campanha: a cozinha de uma casa com uma lista de compras presa na geladeira, um caderno de anotações da casa aberto sobre a bancada. Nenhum rosto de frente.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 3 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Na lista da casa, cabe mais um item.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> close de uma lista de compras presa na geladeira por um ímã. Uma mão acrescenta uma linha no fim da lista, sem que o texto seja legível.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Na lista da casa, cabe mais um item.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o médico.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 3 a 14 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A lista da casa tem mercado e conta de luz. Quem organiza a rotina conhece bem essa lista. Uma consulta com um médico também pode ser um item dela.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico. Entre as frases, inserções de 2 s: o caderno de anotações da casa aberto sobre a bancada, com uma lista à mão, e a lista da geladeira em close.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Mercado e conta de luz. Depois: Uma consulta também pode ser um item da lista.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> cortes secos nas inserções e de volta ao médico.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 14 a 23 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Eu converso sobre a sua rotina e a sua saúde, e explico o que a gente entende até aqui.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. A identificação fica até o fim da cena 4.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> O médico conversa sobre a rotina e a saúde.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para um plano mais fechado.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 23 a 29 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Tudo parte do porquê. Depois, a gente decide o próximo passo junto.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano fechado do médico, com aproximação lenta. Na palavra “porquê”, o texto “por quê?” aparece grande no centro da tela por 1 s.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Tudo parte do porquê. Depois: O próximo passo é decidido junto.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para a cozinha, aos 29 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 29 a 37 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Em casa, dizer “vou marcar uma consulta” é só mais um aviso da rotina, como avisar que passa no mercado.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cena de apoio na cozinha: um casal visto de costas na bancada, ele guardando a louça, ela lendo a lista da geladeira. Ele diz algo curto, sem áudio, e ela assente sem se virar. A frase “vou marcar uma consulta” aparece escrita na tela.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> “Vou marcar uma consulta.” Depois: Mais um aviso da rotina.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco no gesto de assentir. Fade para o cartão final aos 37 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 6, 37 a 41 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">A consulta médica online custa [valor da consulta]. Agende no link.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo areia #EDE5D6, texto na cor da tinta #1A1714, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Na lista da casa, cabe mais um item.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Mercado e conta de luz. E uma consulta com um médico.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> lista de compras presa na geladeira por um ímã, com uma linha em branco no fim. Foto de detalhe, luz de cozinha, sem pessoas.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Quem organiza a casa conhece a lista.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Cada item tem o seu lugar. A consulta também pode ter o dela.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> caderno de anotações da casa aberto sobre a bancada da cozinha, com uma lista à mão e uma caneta ao lado.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Um aviso simples.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> “Vou marcar uma consulta” cabe no mesmo tom de “passo no mercado”.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: as duas frases entre aspas, uma sobre a outra, em serifada de 110 px, tinta sobre fundo areia. Sem foto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O que o médico conversa.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Sobre a sua rotina e a sua saúde, do jeito que você contar.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tela de videochamada com o médico de frente, em consultório de luz quente.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Tudo parte do porquê.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico busca a causa e explica o que a gente entende até aqui.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: “por quê?” em serifada de 220 px, tinta sobre fundo areia, com um fio petróleo #1D4F5A embaixo.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Depois, o próximo passo.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> A decisão é tomada junto, depois da explicação.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mão marcando com um traço um item da lista presa na geladeira. Foto de detalhe.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Em casa, a lista é de todos.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Cada um acrescenta o seu item, no seu jeito de avisar.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> duas canetas de cores diferentes sobre a bancada, ao lado do caderno da casa, com duas letras diferentes na mesma lista.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 7">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo areia #EDE5D6 liso, texto na cor da tinta #1A1714. Botão petróleo #1D4F5A com o texto Agendar em [link] em areia #F4F1EA. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 7">Copiar legenda</button></div>
+  <p>Na lista da casa, cabe mais um item.</p>
+  <p>A lista tem mercado e conta de luz. Quem organiza a rotina conhece bem essa lista. Uma consulta com um médico também pode ser um item dela.</p>
+  <p>Com [Dr. Nome, CRM-UF número], o médico conversa sobre a sua rotina e a sua saúde e explica o que a gente entende até aqui. Tudo parte do porquê.</p>
+  <p>Em casa, dizer “vou marcar uma consulta” é só mais um aviso da rotina, como avisar que passa no mercado.</p>
+  <p>Agendar em [link]. A consulta médica online custa [valor da consulta].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 7">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> Sua consulta entra na lista da casa.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online em que o médico conversa sobre a sua rotina e explica.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>Mercado, conta de luz e uma consulta com um médico.<br>O médico conversa sobre a sua rotina e a sua saúde.<br>Tudo parte do porquê.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta areia. Os 300 px superiores (22%) são uma foto de detalhe produzida para a campanha: lista de compras presa na geladeira por um ímã, com uma linha em branco no fim, luz de cozinha, sem pessoas. Abaixo, um painel sólido em areia #EDE5D6 com 910 px de altura, texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, cor da tinta #1A1714, três linhas. Subheadline em sans humanista, 40 px, tinta suave #4A4339, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço petróleo #1D4F5A como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo petróleo #1D4F5A, texto areia #F4F1EA em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em petróleo #1D4F5A, com 140 px de altura (10% da arte), texto areia #F4F1EA em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+<section class="mot" id="m8" aria-labelledby="m8-t">
+<div class="mot-topo"><span class="mot-n">Motivação 8</span><a class="volta" href="#topo">Voltar ao sumário</a></div>
+<h2 id="m8-t">Conferir</h2>
+<p class="orig">Aprovação social.</p>
+
+<h3>Ideia do ângulo</h3>
+<p class="ideia">Na roda de amigos, todo mundo tem palpite. Para a saúde, o homem precisa de informação, e a de um médico se confere: basta digitar o nome dele no portal do CFM.</p>
+
+<h3>Roteiro de vídeo</h3>
+<div class="bloco roteiro" data-copiavel>
+  <div class="topo-b">
+    <p class="meta">Vertical 9:16, cerca de 43 segundos, voz do médico para a câmera.</p>
+    <div class="acoes nocopy">
+      <button class="cp" type="button" aria-label="Copiar roteiro completo, motivação 8">Copiar roteiro</button>
+      <button class="cp cp-2" type="button" data-modo="fala" aria-label="Copiar só a fala, motivação 8">Copiar só a fala</button>
+    </div>
+  </div>
+  <p class="linha"><span class="rotulo">Cenário:</span> o médico senta no consultório, de camisa clara sem estampa, em luz de janela. Plano médio, formato vertical. Imagens de apoio gravadas para a campanha: um grupo de amigos conversando no quintal. A tela explicativa do portal do CFM é desenhada para a campanha, sem registro real.</p>
+
+  <div class="cena">
+    <h4>Cena 1, 0 a 4 s, gancho</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Na roda de amigos, todo mundo tem um palpite.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano de um grupo de amigos de pé no quintal, em conversa animada, vistos de costas ou de longe, com gestos largos e as mãos livres. Câmera na altura dos ombros.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Na roda, todo mundo tem um palpite.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o médico.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 2, 4 a 10 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Em saúde, o que ajuda é informação de um médico que você pode conferir.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico. Na frase “de um médico”, corte para um plano mais fechado.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Informação de um médico que você confere.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco entre os dois planos do médico.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 3, 10 a 16 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Eu sou [Dr. Nome, CRM-UF número]. Para conferir, digite o nome do médico no portal do CFM.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> tela explicativa genérica, desenhada para a campanha: um campo de busca com o texto Digite o nome do médico e um cursor piscando, sem nenhum registro real aparecendo. Entra na parte baixa da tela: [Dr. Nome, CRM-UF número]. MÉDICO. A identificação fica até o fim da cena 5.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Digite o nome do médico no portal do CFM.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco para o cartão do número.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 4, 16 a 27 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Em pesquisa da SBU de julho de 2024, com mais de 1,5 mil homens acima de 40 anos, 52% disseram já ter tido dificuldade para manter a ereção. A coleta foi feita por aplicativo.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> fundo petróleo #1D4F5A. O número 52% em serifada, enorme, ocupando a largura da tela. Abaixo, em duas linhas: disseram já ter tido dificuldade para manter a ereção. Na base, a fonte: Pesquisa SBU, julho de 2024, mais de 1,5 mil homens acima de 40 anos. A voz do médico segue em off.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> 52%. Depois: Pesquisa SBU, julho de 2024.</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco de volta ao médico, aos 27 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 5, 27 a 37 s</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Conversar com um médico sobre isso é um passo como outro qualquer. A primeira pergunta da consulta é: por quê? Eu ouço a sua história e explico.</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> plano médio do médico e, depois, plano fechado com aproximação lenta. Na palavra “por quê?”, o texto aparece grande no centro da tela por 1 s.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Conversar com um médico é um passo como outro qualquer. Depois: A primeira pergunta da consulta é: por quê?</p>
+    <p class="linha"><span class="rotulo">Corte:</span> corte seco entre os planos. Fade para o cartão final aos 37 s.</p>
+  </div>
+
+  <div class="cena">
+    <h4>Cena 6, 37 a 43 s, CTA final</h4>
+    <p class="linha"><span class="rotulo">Fala:</span> <span class="ftxt">Conferido o registro, é só agendar no link. A consulta médica online custa [valor da consulta].</span></p>
+    <p class="linha"><span class="rotulo">Na tela:</span> cartão final em fundo petróleo #1D4F5A, texto em areia #F4F1EA, quatro linhas: AndroClinic. Consulta médica online. [valor da consulta]. Agendar em [link]. No rodapé: AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+    <p class="linha"><span class="rotulo">Legenda em tela:</span> Consulta médica online por [valor da consulta]. Agendar em [link].</p>
+    <p class="linha"><span class="rotulo">Corte:</span> sem corte. A fala corre por cima do cartão.</p>
+  </div>
+</div>
+
+<h3>Carrossel de Instagram</h3>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 1 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 1, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Na roda, todo mundo tem palpite.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Em saúde, o que ajuda é informação.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> grupo de amigos de pé no quintal, em conversa animada, vistos de costas ou de longe, de mãos livres. Luz quente de fim de tarde.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 2 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 2, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Informação vem de um médico.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> E um médico se confere.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: o título em serifada de 130 px, petróleo #1D4F5A sobre fundo areia #EDE5D6, com um fio fino petróleo sob a palavra confere. Sem foto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 3 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 3, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Confira no portal do CFM.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Digite o nome do médico no portal do CFM e veja o registro dele.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> campo de busca desenhado para a campanha: caixa areia #F4F1EA com borda petróleo de 3 px, o texto Digite o nome do médico dentro e uma lupa em traço fino à direita. Sem logotipo do CFM. Fundo petróleo liso.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 4 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 4, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> 52%</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Em pesquisa da SBU de julho de 2024, com mais de 1,5 mil homens acima de 40 anos, 52% disseram já ter tido dificuldade para manter a ereção. A coleta foi feita por aplicativo.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: o número 52% em serifada de 420 px, areia sobre fundo petróleo #1D4F5A, ocupando a largura do slide. A fonte, Pesquisa SBU, julho de 2024, em 32 px na base.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 5 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 5, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Conversar com um médico é um passo como outro qualquer.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Quem leva a pergunta ao consultório sai com a explicação de um médico.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> videochamada em tela de notebook, com o médico de frente, e uma xícara ao lado do teclado. Luz de janela.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 6 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 6, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> A primeira pergunta da consulta é: por quê?</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> O médico busca a causa e conversa sobre exames, se houver.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> mão segurando uma folha de exame contra a luz da janela, com o texto da folha ilegível. Sem rosto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 7 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 7, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> O próximo passo é decidido junto.</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Médico e paciente escolhem o caminho depois da explicação.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> tipografia pura: o título em serifada de 130 px, areia sobre fundo petróleo #1D4F5A, com um fio fino areia sob a palavra junto. Sem foto.</p>
+</article>
+<article class="bloco slide" data-copiavel>
+  <div class="topo-b"><h4>Slide 8 de 8</h4><button class="cp nocopy" type="button" aria-label="Copiar slide 8, motivação 8">Copiar</button></div>
+  <p class="linha"><span class="rotulo">Título:</span> Agendar</p>
+  <p class="linha"><span class="rotulo">Corpo:</span> Consulta médica online por vídeo. Valor: [valor da consulta]. Agendar em [link].<br>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Imagem:</span> fundo petróleo #1D4F5A liso, texto em areia #F4F1EA. Botão areia com o texto Agendar em [link] em petróleo. Sem foto.</p>
+</article>
+<article class="bloco legenda" data-copiavel>
+  <div class="topo-b"><h4 class="nocopy">Legenda do post</h4><button class="cp nocopy" type="button" aria-label="Copiar legenda, motivação 8">Copiar legenda</button></div>
+  <p>Na roda de amigos, todo mundo tem um palpite. Em saúde, o que ajuda é informação de um médico que você pode conferir.</p>
+  <p>Para conferir, digite o nome do médico no portal do CFM e veja o registro dele.</p>
+  <p>Em pesquisa da SBU de julho de 2024, com mais de 1,5 mil homens acima de 40 anos, 52% disseram já ter tido dificuldade para manter a ereção. A coleta foi feita por aplicativo. Conversar com um médico sobre isso é um passo como outro qualquer.</p>
+  <p>Na consulta com [Dr. Nome, CRM-UF número], a primeira pergunta é: por quê? O médico ouve a sua história, busca a causa e explica.</p>
+  <p>Conferido o registro, agendar em [link]. Consulta médica online por [valor da consulta].</p>
+  <p>AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+</article>
+
+<h3>Banner</h3>
+<article class="bloco banner" data-copiavel>
+  <div class="topo-b"><h4>Banner feed 1080 x 1350</h4><button class="cp nocopy" type="button" aria-label="Copiar banner, motivação 8">Copiar banner</button></div>
+  <p class="linha"><span class="rotulo">Headline:</span> Informação de um médico que você confere.</p>
+  <p class="linha"><span class="rotulo">Subheadline:</span> Consulta médica online. Digite o nome do médico no portal do CFM e confira o registro.</p>
+  <p class="linha"><span class="rotulo">Apoio:</span><br>O registro do médico é público e pode ser conferido.<br>A primeira pergunta da consulta é: por quê?<br>O próximo passo é decidido junto.</p>
+  <p class="linha"><span class="rotulo">Botão:</span> Agendar em [link]</p>
+  <p class="linha"><span class="rotulo">Rodapé legal:</span> AndroClinic. [registro da clínica no CRM-UF]. Consulta online com [Dr. Nome, CRM-UF número], MÉDICO. Maiores de 18 anos.</p>
+  <p class="linha"><span class="rotulo">Arte:</span> paleta petróleo, composição tipográfica com um campo de busca desenhado, sem foto. Fundo petróleo #1D4F5A sólido. Nos 300 px superiores (22%), um campo de busca: caixa areia #F4F1EA com borda de 3 px, cantos suaves, o texto Digite o nome do médico dentro, em sans humanista de 34 px na cor petróleo, e uma lupa em traço fino à direita. Sem logotipo do CFM. Abaixo, um painel de 910 px de altura com todo o texto alinhado à esquerda, margem de 72 px. Headline em serifada de alto contraste, 128 px, areia #F4F1EA, três linhas. Subheadline em sans humanista, 40 px, areia #D9E3E3, duas linhas. As três linhas de apoio em 32 px, uma linha de texto cada, com um traço fino areia como marcador. Botão retangular de cantos suaves, 96 px de altura, fundo areia #F4F1EA, texto petróleo #1D4F5A em 34 px, negrito. Na base, a faixa do rodapé legal, sólida em #153C45, com 140 px de altura (10% da arte), texto areia #D9E3E3 em 34 px (cerca de 12 px no celular), três linhas, com AndroClinic em serifada. Sem handle, sem emoji, sem banco de imagem.</p>
+</article>
+</section>
+
+</main>
+
+</div>
+
+<div id="status" class="sr" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var r=document.documentElement,b=document.getElementById('tema');
+  try{var s=localStorage.getItem('tema-copys-androclinic');if(s){r.setAttribute('data-tema',s);}}catch(e){}
+  function atual(){
+    var t=r.getAttribute('data-tema');
+    if(t){return t;}
+    return (window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'escuro':'claro';
+  }
+  function rot(){b.textContent=atual()==='escuro'?'Tema claro':'Tema escuro';}
+  rot();
+  b.addEventListener('click',function(){
+    var n=atual()==='escuro'?'claro':'escuro';
+    r.setAttribute('data-tema',n);
+    try{localStorage.setItem('tema-copys-androclinic',n);}catch(e){}
+    rot();
+  });
+})();
+
+(function(){
+  var rt=/\[(?:Dr\. Nome, CRM-UF número|valor da consulta|link|registro da clínica no CRM-UF)\]/;
+  var rs=/(\[(?:Dr\. Nome, CRM-UF número|valor da consulta|link|registro da clínica no CRM-UF)\])/;
+  var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){
+    var p=n.parentNode;
+    if(!p||p.nodeName==='SCRIPT'||p.nodeName==='STYLE'||p.nodeName==='MARK'){return NodeFilter.FILTER_REJECT;}
+    return rt.test(n.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+  }});
+  var nos=[];
+  while(w.nextNode()){nos.push(w.currentNode);}
+  nos.forEach(function(n){
+    var frag=document.createDocumentFragment();
+    n.nodeValue.split(rs).forEach(function(p,i){
+      if(!p){return;}
+      if(i%2===1){var m=document.createElement('mark');m.className='ph';m.textContent=p;frag.appendChild(m);}
+      else{frag.appendChild(document.createTextNode(p));}
+    });
+    n.parentNode.replaceChild(frag,n);
+  });
+})();
+
+(function(){
+  var st=document.getElementById('status');
+  function reserva(t){
+    return new Promise(function(ok,no){
+      var a=document.createElement('textarea');
+      a.value=t;a.setAttribute('readonly','');
+      a.style.cssText='position:fixed;top:0;left:0;opacity:0';
+      document.body.appendChild(a);a.select();a.setSelectionRange(0,t.length);
+      var feito=false;
+      try{feito=document.execCommand('copy');}catch(e){}
+      document.body.removeChild(a);
+      if(feito){ok();}else{no();}
+    });
+  }
+  function copiar(t){
+    if(navigator.clipboard&&window.isSecureContext){
+      return navigator.clipboard.writeText(t).catch(function(){return reserva(t);});
+    }
+    return reserva(t);
+  }
+  function textoDe(bloco,modo){
+    if(modo==='fala'){
+      var f=bloco.querySelectorAll('.ftxt');
+      return Array.prototype.map.call(f,function(e){return e.textContent.trim();}).join('\n\n');
+    }
+    var c=bloco.cloneNode(true);
+    Array.prototype.forEach.call(c.querySelectorAll('.nocopy'),function(e){e.parentNode.removeChild(e);});
+    c.style.cssText='position:fixed;left:-99999px;top:0;width:720px';
+    document.body.appendChild(c);
+    var t=c.innerText||c.textContent;
+    document.body.removeChild(c);
+    return t.replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim();
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('.cp'):null;
+    if(!b){return;}
+    var bloco=b.closest('[data-copiavel]');
+    if(!bloco){return;}
+    var rotuloOriginal=b.getAttribute('data-rot')||b.textContent;
+    b.setAttribute('data-rot',rotuloOriginal);
+    copiar(textoDe(bloco,b.getAttribute('data-modo'))).then(function(){
+      b.classList.add('ok');b.textContent='Copiado';st.textContent='Texto copiado.';
+      setTimeout(function(){b.classList.remove('ok');b.textContent=rotuloOriginal;st.textContent='';},1800);
+    },function(){
+      b.textContent='Não copiou';
+      setTimeout(function(){b.textContent=rotuloOriginal;},1800);
+    });
+  });
+})();
+</script>
+</body>
+</html>

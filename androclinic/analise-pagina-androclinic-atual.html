@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analisando a página atual da AndroClinic — na régua do Gabriel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#F4F1EA;--paper-2:#ECE7DC;--ink:#15130F;--ink-soft:#4A453D;--red:#8C6B16;--bright:#E6C757;--line:#DBD3C4;--cold:#8A8578;--flee:#A33A2B;--ok:#3F6B43;--maxw:1120px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .narrow{max-width:900px}
+  .display{font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;line-height:.92;letter-spacing:.5px}
+  section{padding:clamp(46px,6vw,74px) 0}
+  .nav{position:sticky;top:0;z-index:50;background:rgba(244,241,234,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;gap:16px}
+  .brand{font-family:'Anton';font-size:.98rem;text-transform:uppercase;letter-spacing:1px;display:flex;align-items:center;gap:9px;white-space:nowrap}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flee);box-shadow:0 0 0 4px rgba(163,58,43,.16)}
+  .navlinks{display:flex;gap:18px;overflow-x:auto}
+  .navlinks a{color:var(--ink-soft);text-decoration:none;font-size:.78rem;font-weight:600;white-space:nowrap}
+  @media(max-width:880px){.navlinks{display:none}}
+  .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--red);display:inline-flex;align-items:center;gap:10px;margin-bottom:18px}
+  .eyebrow::before{content:"";width:30px;height:2px;background:var(--red)}
+  .kicker{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cold);margin-bottom:9px}
+  .hero{padding-top:clamp(44px,6vw,70px);padding-bottom:10px}
+  .hero h1{font-size:clamp(2rem,5.2vw,3.7rem)}
+  .lead{max-width:780px;margin-top:22px;font-size:clamp(1.04rem,2.1vw,1.24rem);color:var(--ink-soft)}
+  .lead b{color:var(--ink)}
+  .section-head{margin-bottom:32px;max-width:840px}
+  .section-head h2{font-size:clamp(1.8rem,4.2vw,2.7rem)}
+  .section-head .lead{font-size:1.02rem;margin-top:12px}
+  .bloco{background:#fff;border:1px solid var(--line);border-radius:9px;padding:26px 30px;margin-bottom:12px}
+  .bloco .tag{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--red);margin-bottom:10px}
+  .bloco p{font-size:1.02rem;margin-bottom:12px}
+  .bloco p:last-child{margin-bottom:0}
+  .bloco .big{font-family:'Newsreader',Georgia,serif;font-size:clamp(1.25rem,2.6vw,1.6rem);line-height:1.35}
+  .bloco.dark{background:var(--ink);border-color:var(--ink)}
+  .bloco.dark p{color:#C9C1B2}
+  .bloco.dark .big{color:#fff}
+  .bloco.dark .tag{color:var(--bright)}
+  .bloco.dark b{color:#fff}
+  .dobra{background:#fff;border:1px solid var(--line);border-radius:9px;margin-bottom:12px;overflow:hidden}
+  .dobra-head{display:flex;align-items:center;gap:16px;padding:16px 24px;border-bottom:1px solid var(--line);background:var(--paper-2)}
+  .dobra-head .n{font-family:'Anton';font-size:1.5rem;line-height:1;color:var(--red)}
+  .dobra-head h3{font-size:1.06rem;flex:1}
+  .nota{font-family:'Anton';font-size:.92rem;padding:4px 12px;border-radius:100px;white-space:nowrap}
+  .nota.mal{background:rgba(163,58,43,.12);color:var(--flee)}
+  .nota.meio{background:rgba(140,107,22,.14);color:var(--red)}
+  .nota.bem{background:rgba(63,107,67,.14);color:var(--ok)}
+  .dobra-body{padding:20px 24px}
+  .cita{font-family:'Newsreader',Georgia,serif;font-size:1.06rem;border-left:3px solid var(--bright);padding:2px 0 2px 14px;margin-bottom:14px}
+  .dobra-body p{font-size:.94rem;color:var(--ink-soft);margin-bottom:10px}
+  .dobra-body p b{color:var(--ink)}
+  .dobra-body ul{list-style:none;margin:4px 0 12px}
+  .dobra-body li{font-size:.92rem;color:var(--ink-soft);padding:5px 0 5px 22px;position:relative}
+  .dobra-body li::before{content:"✕";position:absolute;left:0;color:var(--flee);font-weight:700;font-size:.8rem}
+  .dobra-body li.ok::before{content:"✓";color:var(--ok)}
+  .dobra-body li.gate::before{content:"!";color:var(--red);font-weight:800}
+  .regra{font-size:.84rem;background:var(--paper);border-radius:6px;padding:11px 15px;color:var(--ink)}
+  .regra b{color:var(--red);text-transform:uppercase;font-size:.66rem;letter-spacing:.07em;display:block;margin-bottom:3px}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:9px;background:#fff}
+  table{border-collapse:collapse;width:100%;min-width:620px}
+  th,td{text-align:left;padding:12px 18px;font-size:.9rem;border-bottom:1px solid var(--line)}
+  th{background:var(--ink);color:#fff;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em}
+  tr:last-child td{border-bottom:none}
+  td.pt{font-family:'Anton';font-size:1.05rem;white-space:nowrap}
+  .barra{height:7px;background:var(--paper-2);border-radius:100px;overflow:hidden;min-width:80px}
+  .barra span{display:block;height:100%;background:linear-gradient(90deg,var(--bright),var(--red))}
+  tr.total td{background:var(--ink);color:#fff;font-weight:700}
+  tr.total td.pt{color:var(--bright);font-size:1.3rem}
+  .rw{display:grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-bottom:12px}
+  @media(max-width:720px){.rw{grid-template-columns:1fr}}
+  .rw>div{padding:20px 24px}
+  .rw .antes{border-right:1px dashed var(--line);background:#FBF9F3}
+  @media(max-width:720px){.rw .antes{border-right:none;border-bottom:1px dashed var(--line)}}
+  .rw .t{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+  .rw .antes .t{color:var(--cold)}
+  .rw .depois .t{color:var(--ok)}
+  .rw .txt{font-family:'Newsreader',Georgia,serif;font-size:1.08rem;line-height:1.4}
+  .nota-rw{font-size:.84rem;color:var(--ink-soft);margin-top:10px}
+  .prio{background:#fff;border:1px solid var(--line);border-left:4px solid var(--flee);border-radius:0 9px 9px 0;padding:20px 26px;margin-bottom:10px}
+  .prio h4{font-size:1.04rem;margin-bottom:5px}
+  .prio p{font-size:.92rem;color:var(--ink-soft)}
+  .prio p b{color:var(--ink)}
+  .prio.verde{border-left-color:var(--ok)}
+  .prio.amar{border-left-color:var(--red)}
+  .cmp{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:14px}
+  @media(max-width:860px){.cmp{grid-template-columns:repeat(2,1fr)}}
+  .cmp div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 12px;text-align:center}
+  .cmp .n{font-family:'Anton';font-size:1.7rem;color:var(--red);line-height:1}
+  .cmp .t{font-size:.76rem;color:var(--ink-soft);margin-top:8px}
+  .note{font-size:.82rem;color:var(--cold);margin-top:14px}
+  footer{border-top:1px solid var(--line);padding:28px 0 44px;font-size:.8rem;color:var(--cold)}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap">
+  <div class="brand"><span class="dot"></span>Análise · AndroClinic</div>
+  <div class="navlinks">
+    <a href="#veredito">Veredito</a><a href="#gate">Gate jurídico</a><a href="#dobras">Dobra a dobra</a><a href="#regua">A régua</a><a href="#reescrita">Reescrita</a><a href="#ordem">O que fazer</a>
+  </div>
+</div></nav>
+
+<header class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Analisando a página · linha de base do cliente AndroClinic</div>
+  <h1 class="display">Uma clínica médica<br>vendendo consulta<br><span style="color:var(--flee)">como queima de estoque</span></h1>
+  <p class="lead">Dois cronômetros marcando quase 24 horas, "últimas 3 vagas", "última chance" e "R$ 500 por R$ 197" — tudo numa página que tem o que a maioria das clínicas não tem: <b>médico com CRM na primeira dobra, ANVISA e CNPJ no rodapé e Reclame AQUI com datas</b>. O problema não é falta de credibilidade. É que a página gasta a credibilidade que já tem.</p>
+  <p class="note">Análise do print da página enviada em 02/10/2026 (drestivalet.andromedicina.com), lido por inteiro em oito fatias. Não avaliei mobile, destino dos botões, comportamento do quiz nem as respostas do FAQ — só os títulos das perguntas aparecem no print.</p>
+</div></header>
+
+<section id="veredito"><div class="wrap narrow">
+  <div class="bloco dark">
+    <div class="tag">O achado</div>
+    <p class="big">A página promete <b>"resultados rápidos e eficazes"</b>, mostra <b>fotos de antes e depois</b>, cita <b>"milhares de homens transformados"</b>, usa <b>depoimentos com resultado</b> e termina com <b>cronômetro e desconto</b>. É a lista que a publicidade médica mais restringe — e está toda na mesma página.</p>
+  </div>
+  <div class="bloco">
+    <div class="tag">Correção do que eu disse no chat</div>
+    <p>Chamei essa página de "concorrente". É a <b>página atual da própria AndroClinic</b> — o ponto de partida do cliente. Também estimei nota 118 lendo a miniatura; com a leitura completa a nota é <b>132</b>, e o motivo é este: a página é mais organizada do que parecia, e tem mais problemas de conformidade do que eu tinha visto.</p>
+  </div>
+  <div class="bloco">
+    <div class="tag">Você já fez isso</div>
+    <p>Você já usou o formato do infoproduto num serviço médico. Cronômetro, vaga limitada, preço riscado e "você pode ser o próximo" funcionam para curso. Numa consulta, o paciente lê a mesma coisa como <b>pressão para decidir sobre a própria saúde</b> — e o homem que chega ali já chega envergonhado, não competitivo.</p>
+  </div>
+</div></section>
+
+<section id="gate" style="background:var(--paper-2)"><div class="wrap narrow">
+  <div class="section-head">
+    <div class="kicker">Antes da copy</div>
+    <h2 class="display">Seis itens para o gate jurídico</h2>
+    <p class="lead">Não é parecer jurídico. São os pontos em que a página se aproxima do que a Resolução CFM 2.336/2023 restringe — <b>o jurídico precisa confirmar cada um</b>, e a pendência 7 do briefing já cobre isso.</p>
+  </div>
+  <div class="prio"><h4>1. Fotos de antes e depois</h4><p>"A Vida Antes / A Vida Depois da AndroClinic": homem abatido de um lado, casal sorrindo do outro, com a frase "sua potência restaurada!". As imagens parecem geradas ou de banco, não de pacientes — mas o <b>formato</b> é o de antes e depois.</p></div>
+  <div class="prio"><h4>2. Depoimentos com resultado</h4><p>Quatro cards "Antes / Depois" com nome e iniciais, mais a citação de "C.M." na dobra do sigilo. Nomes como "João Silva" e "Carlos Mendes" não identificam ninguém. Se forem fictícios, é outro problema; se forem reais, é depoimento de paciente.</p></div>
+  <div class="prio"><h4>3. Promessa de resultado</h4><p>"Resultados rápidos e eficazes", "resultados comprovados", "método revolucionário que já transformou a vida de milhares de homens", "sua potência restaurada". Nenhuma tem fonte na página.</p></div>
+  <div class="prio"><h4>4. Preço, desconto e prazo</h4><p>"De R$ 500 por apenas R$ 197", "vagas promocionais", "última chance de agendar com desconto", dois cronômetros. É a divulgação de condição comercial como gatilho de urgência.</p></div>
+  <div class="prio"><h4>5. Celebridade como recomendação</h4><p>Craque Neto "recomenda a Androclinica como referência em saúde sexual masculina", com selo "Parceiro Oficial". Precisa de contrato, de autorização de imagem e de análise sobre recomendação de serviço médico por não médico.</p></div>
+  <div class="prio amar"><h4>6. Responsável técnico</h4><p>O rodapé mostra clínica em Florianópolis/SC e médico responsável com <b>CRM-DF</b> 15471. Em telemedicina isso pode ser regular, mas é pergunta objetiva para o jurídico — e conversa com a pendência sobre quem é o diretor técnico.</p></div>
+</div></section>
+
+<section id="dobras"><div class="wrap">
+  <div class="section-head">
+    <div class="kicker">Toda semana eu analiso a copy dos maiores players</div>
+    <h2 class="display">E nessa eu encontrei…</h2>
+    <p class="lead">Quinze blocos, na ordem em que o paciente lê.</p>
+  </div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">01</span><h3>Topo — headline, subheadline, vídeo e botão</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <div class="cita">"Recupere sua potência, confiança e desempenho."</div>
+    <ul>
+      <li class="ok"><b>O médico aparece em vídeo, com jaleco e nome, na primeira tela.</b> É a decisão mais acertada da página: em saúde sexual, o rosto de quem atende vale mais que qualquer promessa.</li>
+      <li class="ok"><b>A subheadline é específica:</b> "consulta médica com especialista em saúde sexual masculina, atendimento online". Diz o quê e como.</li>
+      <li><b>Três promessas empilhadas no H1</b> — potência, confiança, desempenho. Empilhar promessa é não saber qual dor atacar.</li>
+      <li><b>"Recupere" promete retorno a um estado anterior.</b> Pelo gate, é promessa de resultado. Pela régua, é verbo de desejo sem mecanismo.</li>
+      <li><b>"Sigiloso e eficaz" divide a linha com "online".</b> O sigilo, que é a objeção número um desse paciente, vira adjetivo de rodapé de subheadline.</li>
+      <li><b>Dois botões, duas cores:</b> amarelo no menu, verde no corpo. Um verbo ("Agendar") no menu e outro ("Quero agendar minha consulta!") no hero.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>H1 diz o que o leitor ganha — sem prometer o que o produto não pode garantir. Aqui o ganho vem sem prazo e sem mecanismo.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">02</span><h3>Porsche Cup — "a mesma potência que vence na pista"</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"A mesma potência que vence na Porsche Cup agora pode colocar você de volta ao pódio."</div>
+    <ul>
+      <li><b>A metáfora brinca com a palavra errada.</b> "Potência" de carro e potência sexual na mesma frase, com a clínica patrocinando a corrida, soa como piada interna de marca — não como cuidado.</li>
+      <li><b>"Agora é a sua vez de recuperar sua potência e voltar ao controle"</b> repete a promessa do H1 com mais ênfase, numa dobra cuja função devia ser provar.</li>
+      <li><b>Patrocínio não prova competência clínica.</b> Prova que a marca tem verba. "Piloto no pódio" e "expertise em performance" são selos sobre o piloto, não sobre o tratamento.</li>
+      <li class="ok"><b>A foto do carro com a marca é boa para reconhecimento</b> — se o paciente já viu a marca na pista, a página reforça. Como argumento de venda, não sustenta.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Autoridade abre a porta; é a prova que faz entrar. Patrocínio esportivo é autoridade de marca, não de método.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">03</span><h3>Destaque Nacional — a reportagem</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <div class="cita">"A AndroClinic foi destaque em reportagem nacional. Conheça nosso método revolucionário que já transformou a vida de milhares de homens."</div>
+    <ul>
+      <li class="ok"><b>Aparecer em reportagem é prova legítima</b>, e o vídeo traz a tarja "Novo protocolo clínico ganha destaque". É o único elemento externo de autoridade na primeira metade da página.</li>
+      <li><b>O veículo não é nomeado.</b> Nome do telejornal, data e link são o que transforma "destaque nacional" em prova verificável.</li>
+      <li><b>O vídeo abre com "seu vídeo já começou — clique para ouvir"</b> em primeiro plano. O paciente que não clica vê um estúdio de TV mudo sobre fundo azul.</li>
+      <li><b>"Método revolucionário" e "milhares de homens"</b> são superlativo e número sem fonte, na linha logo acima da prova.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">04</span><h3>Sintomas — os quatro cards</h3><span class="nota bem">aprovada</span></div><div class="dobra-body">
+    <div class="cita">"Você se identifica com algum destes sintomas?"</div>
+    <ul>
+      <li class="ok"><b>Quatro sintomas, nomeados sem eufemismo:</b> cansaço, baixa libido, dificuldade de ereção, ejaculação rápida. O paciente se reconhece sem precisar ler mais nada.</li>
+      <li class="ok"><b>A pergunta é boa porque obriga a resposta:</b> o leitor se qualifica sozinho.</li>
+      <li><b>Os ícones não dizem nada:</b> coração para cansaço, cérebro para libido, escudo com check para ereção, relógio para ejaculação. O escudo, justamente na dor mais sensível, passa mensagem de proteção — não de problema.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">05</span><h3>"A vida antes e depois da AndroClinic"</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Confiante, ativo, satisfeito e com a energia de volta. Desfrutando de uma vida sexual plena e uma autoestima renovada. Sua potência restaurada!"</div>
+    <ul>
+      <li class="gate"><b>É o bloco de maior risco da página.</b> Antes e depois, em foto, para um serviço médico (ver item 1 do gate).</li>
+      <li><b>As duas fotos parecem de banco de imagem ou geradas.</b> O homem abatido sozinho e o casal rindo no parque são clichês reconhecíveis — e o paciente desconfiado lê "foto de banco" como "prova inventada".</li>
+      <li><b>Prova por foto de estranho é prova que o leitor descarta.</b> O que convence nesse nicho é saber o que acontece na consulta, não ver alguém feliz.</li>
+      <li><b>"Sua potência restaurada!"</b> fecha o bloco com a promessa mais forte da página, em exclamação.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Prova social precisa provar alguma coisa. Foto genérica de felicidade não prova tratamento.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">06</span><h3>O quiz — "será que você precisa de avaliação médica?"</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <div class="cita">"Você tem dificuldade em manter uma ereção?  Sim / Não"</div>
+    <ul>
+      <li class="ok"><b>Micro-compromisso é boa técnica:</b> um clique de "Sim" é a primeira admissão, sem constrangimento de falar.</li>
+      <li><b>O quiz tem uma pergunta e cobre uma dor</b>, enquanto a página lista quatro sintomas. Quem tem ejaculação rápida ou baixa libido não encontra a própria pergunta.</li>
+      <li><b>Não consegui ver o que acontece depois do clique.</b> Se o "Sim" leva ao agendamento sem nenhuma triagem, é botão disfarçado.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">07</span><h3>Como funciona a consulta online — quatro passos</h3><span class="nota bem">aprovada</span></div><div class="dobra-body">
+    <div class="cita">"Você agenda · Passa pela avaliação médica · Recebe orientação personalizada · Inicia sua transformação"</div>
+    <ul>
+      <li class="ok"><b>Quatro passos, em linguagem simples.</b> A consulta é 1:1 com o Dr. Cristiano, e o médico "explica exatamente o que está acontecendo e como agir". É a dobra que mais reduz a ansiedade de quem nunca fez telemedicina.</li>
+      <li><b>O passo 4 é a fresta.</b> "Inicia sua transformação — os resultados começam a aparecer rápido" não diz o que é essa etapa. Receita? Exame? Pacote? É onde a página para de contar e o paciente descobre depois.</li>
+      <li><b>A página nunca diz o que vem depois dos R$ 197.</b> A pesquisa já mostrou: consulta barata, depois proposta de pacote manipulado de R$ 1.750 a R$ 4.000. O leitor que não sabe entra pensando que R$ 197 é o preço do tratamento.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Toda condição que o lead não consegue conferir antes de comprar vira objeção silenciosa — e, aqui, vira reclamação depois.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">08</span><h3>"Atendimentos limitados para esta semana" — o primeiro cronômetro</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"As vagas são atualizadas em tempo real. Garanta antes que esgote. — Encerramento das vagas em 23:55:00 — Últimas 3 vagas disponíveis"</div>
+    <ul>
+      <li class="gate"><b>Cronômetro numa consulta médica</b> (ver item 4 do gate).</li>
+      <li><b>O cronômetro marca quase 24 horas, e o do final da página também.</b> O que sugere que ambos reiniciam. Não testei, mas é o primeiro lugar a conferir — cronômetro que reinicia é o gatilho que o paciente reconhece e que derruba o resto da credibilidade.</li>
+      <li><b>"Últimas 3 vagas" aparece duas vezes, igual:</b> aqui e em "somente +3 consultas disponíveis" no fechamento. Mesma quantidade em dois pontos distantes não é escassez, é texto fixo.</li>
+      <li><b>Consulta online com agenda aberta não esgota "em tempo real".</b> O médico atende por horários; o que existe é agenda. Esse é o único tipo de escassez que cabe nesse nicho — e é verdadeira.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Urgência funciona quando é verdadeira e aparece uma vez só. Duas datas iguais, dois cronômetros e três versões de "última" criam dúvida.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">09</span><h3>Por trás da AndroClinic — Dr. Cristiano Estivalet</h3><span class="nota bem">o melhor bloco da página</span></div><div class="dobra-body">
+    <div class="cita">"Transformar vidas através da educação e do cuidado médico genuíno. Sem tabus, sem preconceitos, com ciência e resultados comprovados."</div>
+    <ul>
+      <li class="ok"><b>Nome, especialidade e CRM-DF 15471 sob a foto.</b> Em saúde, o número do conselho é a prova que não se fabrica.</li>
+      <li class="ok"><b>"Sem tabus, sem preconceitos"</b> fala direto com a vergonha do paciente — é a melhor frase de voz da página.</li>
+      <li class="ok"><b>"Mais de 12 anos de dedicação em saúde masculina"</b> é número específico e verificável.</li>
+      <li><b>O bloco está no meio da página, depois de promessa, foto e cronômetro.</b> Ele devia abrir a página, ao lado do H1 — o vídeo do topo já mostra o médico, mas só aqui ele ganha formação e credencial.</li>
+      <li><b>"Resultados comprovados" na assinatura</b> repete a promessa sem fonte, dentro do bloco mais sólido.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">10</span><h3>Craque Neto — recomendação de celebridade</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Saúde é como no futebol — quando você está bem, seu desempenho muda. Androclinica é referência de confiança para quem quer cuidar da saúde sexual."</div>
+    <ul>
+      <li class="gate"><b>Recomendação de serviço médico por celebridade</b> (ver item 5 do gate).</li>
+      <li><b>A frase não diz nada sobre a clínica.</b> Poderia estar na página de qualquer plano de saúde, academia ou suplemento. É o teste do concorrente falhando.</li>
+      <li><b>O nome está escrito "Androclinica"</b> na legenda e na citação, enquanto o resto da página escreve "AndroClinic". O rodapé usa um terceiro: androclinica.com.br, e o endereço da página é andromedicina.com. Quatro grafias em uma página.</li>
+      <li><b>A foto é boa e o rosto é reconhecível</b> — por isso o ativo existe. O problema é a frase, não a presença.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">11</span><h3>"Resultados reais de quem já passou por isso"</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Antes: Tinha dificuldades e não sabia o que fazer. Depois: Consegui resolver o problema e recuperei minha qualidade de vida."</div>
+    <ul>
+      <li class="gate"><b>Depoimento de paciente com resultado</b> (ver item 2 do gate).</li>
+      <li><b>"Resultados reais" e nenhum resultado concreto.</b> Nada de idade, tempo, sintoma, conduta. "Conseguiu resolver o problema" é o depoimento que a rubrica descreve como "sensação, não resultado".</li>
+      <li><b>Os nomes são genéricos</b> — João Silva, Carlos Mendes, Bruno Oliveira, Miguel Santos — e vêm com selo de verificado. O paciente analítico lê isso como template.</li>
+      <li><b>O carrossel esconde o quarto card</b> pela metade. Quem não arrasta não lê.</li>
+      <li><b>"Você pode ser o próximo. Agende sua consulta."</b> trata a saúde de alguém como fila de vendas.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Depoimento que só fala em sensação parece fake, mesmo quando é verdadeiro. Prova social precisa provar alguma coisa.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">12</span><h3>A oferta — "sua transformação começa agora" + bônus</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"R$ 500 por apenas R$ 197. Aproveite esta oferta exclusiva por tempo limitado e dê o primeiro passo para uma vida plena."</div>
+    <ul>
+      <li class="ok"><b>O preço está claro e no botão:</b> "Agendar minha consulta por R$ 197". Preço no CTA filtra curioso e reduz atrito — e o botão é o único da página com promessa e valor.</li>
+      <li class="gate"><b>"De R$ 500 por R$ 197"</b> é promoção de consulta médica (ver item 4 do gate).</li>
+      <li><b>A âncora de R$ 500 não tem critério.</b> Por que a consulta vale R$ 500? Quando virou R$ 197? Sem resposta, a âncora vira número decorativo.</li>
+      <li><b>"Resultados rápidos e eficazes" é um dos quatro benefícios listados</b>, ao lado de "atendimento online e sigiloso" e "personalizado para seu caso" — dois benefícios reais e uma promessa.</li>
+      <li><b>Os três bônus são entregáveis de infoproduto:</b> acesso VIP no WhatsApp, e-book e "diagnóstico pessoal avançado". Diagnóstico se faz na consulta; um segundo "diagnóstico" como bônus confunde o que é o ato médico.</li>
+      <li><b>Nenhum bloco diz o que acontece se o médico concluir que o paciente não precisa de tratamento.</b> É a pergunta de quem tem medo de gastar à toa.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Um preço só. Sempre. E toda âncora precisa de critério — sem ele, vira número decorativo.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">13</span><h3>Reclame AQUI, "satisfação" e FAQ</h3><span class="nota bem">aprovada, com um reparo</span></div><div class="dobra-body">
+    <div class="cita">"Quando o assunto é saúde, segurança e sigilo precisam ser levados a sério."</div>
+    <ul>
+      <li class="ok"><b>Prova externa, com período e números:</b> nota 8,2/10, 21 reclamações, 100% respondidas, tempo médio de resposta de 16 horas, de 01/01/2026 a 30/06/2026. É a única prova da página que o paciente pode conferir fora dela.</li>
+      <li><b>A mesma imagem mostra "57,1% voltariam a fazer negócio" e "nota do consumidor 6,71".</b> O leitor que ler vai ver. Assumir antes é melhor do que ser pego depois — e a página nunca comenta.</li>
+      <li class="ok"><b>As seis perguntas do FAQ são as certas:</b> "é presencial?", "é tratamento com remédio?", "como é a privacidade?", "já tentei de tudo, isso funciona?". Não li as respostas.</li>
+      <li><b>"Sua satisfação é nossa prioridade"</b> é a caixa mais vazia da página: promete "plano de ação claro e personalizado" sem dizer o que está nele.</li>
+      <li><b>Não existe garantia, política de remarcação ou de cancelamento em lugar nenhum.</b> Para uma consulta paga adiantada, é a dúvida que fica sem resposta.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">14</span><h3>Sigilo total. Sempre.</h3><span class="nota bem">aprovada — no lugar errado</span></div><div class="dobra-body">
+    <div class="cita">"Sabemos que muitos homens adiam a busca por ajuda médica por medo de exposição ou julgamento."</div>
+    <ul>
+      <li class="ok"><b>Nomeia a objeção real do paciente</b> — o medo de exposição — antes de ele precisar dizer. É o melhor texto emocional da página.</li>
+      <li class="ok"><b>A citação "tinha vergonha de procurar ajuda… tudo foi tão discreto"</b> é específica: fala de vergonha e de discrição, não de resultado.</li>
+      <li><b>Está depois do FAQ, na penúltima dobra.</b> O sigilo é a primeira dúvida desse paciente e a página só responde quando ele já decidiu.</li>
+      <li><b>"Atendimento 100% confidencial" não diz como.</b> Quem vê o agendamento? Onde fica o prontuário? O que aparece na fatura do cartão? Sem isso, é garantia sem mecanismo.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>O melhor argumento vai no lugar mais fácil de ler.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">15</span><h3>Fechamento — "última chance" e rodapé</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Última chance de agendar sua consulta com desconto. As vagas promocionais por R$ 197 encerram hoje."</div>
+    <ul>
+      <li class="gate"><b>"Última chance", "encerram hoje" e segundo cronômetro</b> (ver item 4 do gate).</li>
+      <li><b>"Hoje" e "esta semana" na mesma página.</b> O primeiro cronômetro fala em semana; o segundo, em hoje. A página não sabe qual é o prazo.</li>
+      <li><b>"Você merece voltar a ter confiança. Não adie mais."</b> A frase é humana — e é a única da seção que não é pressão. Merecia ser o fecho, sem o cronômetro em cima.</li>
+      <li><b>Dois CTAs de fechamento:</b> "falar pelo WhatsApp" (branco) e "garantir minha consulta agora" (verde). Duas ações concorrentes na última tela.</li>
+      <li class="ok"><b>O rodapé é o melhor da categoria:</b> alvará sanitário e ANVISA, CNPJ, médico responsável com CRM, endereço, telefone e ouvidoria. É o que mais separa a página de um golpe — e está no último pixel.</li>
+      <li><b>A razão social do copyright é "LHP Gestão à Saúde"</b> e a marca é AndroClinic. A pesquisa já registrou seis domínios e mais de uma razão social. O paciente não vê isso — mas o Reclame AQUI e o jurídico veem.</li>
+    </ul>
+  </div></div>
+</div></section>
+
+<section id="regua" style="background:var(--paper-2)"><div class="wrap">
+  <div class="section-head">
+    <div class="kicker">A nota</div>
+    <h2 class="display">132 de 300</h2>
+    <p class="lead">Mesma régua e composição das outras análises. <b>Puxam para cima:</b> credencial médica visível, rodapé de conformidade, passo a passo claro, Reclame AQUI com dados. <b>Puxam para baixo:</b> urgência falsa, prova fraca, promessa de resultado e conformidade.</p>
+  </div>
+  <div class="cmp">
+    <div><div class="n" style="color:var(--flee)">132</div><div class="t">AndroClinic (atual)</div></div>
+    <div><div class="n">135</div><div class="t">RainMaker Jurídico</div></div>
+    <div><div class="n">163</div><div class="t">Copywriter Estrategista</div></div>
+    <div><div class="n">169</div><div class="t">QuartaVia</div></div>
+    <div><div class="n" style="color:var(--ok)">253</div><div class="t">Engenharia de Mensagem</div></div>
+  </div>
+  <div class="tablewrap" style="margin-top:18px"><table>
+    <thead><tr><th>Eixo</th><th style="width:90px">Nota</th><th style="width:150px"></th><th>Motivo em uma linha</th></tr></thead>
+    <tbody>
+      <tr><td>Autoridade</td><td class="pt" style="color:var(--ok)">17/25</td><td><div class="barra"><span style="width:68%"></span></div></td><td>CRM, ANVISA, CNPJ e 12 anos; diluída por patrocínio e celebridade</td></tr>
+      <tr><td>Dobra "como funciona"</td><td class="pt" style="color:var(--ok)">17/25</td><td><div class="barra"><span style="width:68%"></span></div></td><td>Quatro passos claros; o que vem depois da consulta não aparece</td></tr>
+      <tr><td>H2 / subheadline</td><td class="pt">14/25</td><td><div class="barra"><span style="width:56%"></span></div></td><td>Formato e especialidade explícitos; "eficaz" é promessa</td></tr>
+      <tr><td>Primeira dobra</td><td class="pt">14/25</td><td><div class="barra"><span style="width:56%"></span></div></td><td>Médico em vídeo e botão visíveis; H1 genérico</td></tr>
+      <tr><td>Design e fluxo</td><td class="pt">14/25</td><td><div class="barra"><span style="width:56%"></span></div></td><td>Contraste alto e limpo; fotos de banco, botões de quatro cores e vídeo mudo</td></tr>
+      <tr><td>Oferta e preço</td><td class="pt">12/25</td><td><div class="barra"><span style="width:48%"></span></div></td><td>Preço claro e no botão; âncora sem critério e custo posterior oculto</td></tr>
+      <tr><td>H1</td><td class="pt">11/25</td><td><div class="barra"><span style="width:44%"></span></div></td><td>Três promessas empilhadas e verbo de retorno</td></tr>
+      <tr><td>Coerência global</td><td class="pt" style="color:var(--flee)">9/25</td><td><div class="barra"><span style="width:36%"></span></div></td><td>Quatro grafias da marca, "hoje" versus "semana", promessa versus conformidade</td></tr>
+      <tr><td>Prova social</td><td class="pt" style="color:var(--flee)">8/25</td><td><div class="barra"><span style="width:32%"></span></div></td><td>Reclame AQUI é a única prova real; depoimentos e fotos são genéricos</td></tr>
+      <tr><td>Mecanismo</td><td class="pt" style="color:var(--flee)">7/25</td><td><div class="barra"><span style="width:28%"></span></div></td><td>"Método revolucionário" e "protocolo clínico" sem explicação</td></tr>
+      <tr><td>Garantia</td><td class="pt" style="color:var(--flee)">6/25</td><td><div class="barra"><span style="width:24%"></span></div></td><td>Não existe; "satisfação é prioridade" é frase vazia</td></tr>
+      <tr><td>Urgência / escassez</td><td class="pt" style="color:var(--flee)">3/25</td><td><div class="barra"><span style="width:12%"></span></div></td><td>Dois cronômetros, "últimas 3 vagas" fixo e três versões de "última chance"</td></tr>
+      <tr class="total"><td>Total</td><td class="pt">132/300</td><td><div class="barra"><span style="width:44%"></span></div></td><td>Credencial forte, execução com formato de infoproduto</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Esta nota substitui a estimativa de 118 que passei no chat. Ficaram fora: mobile, destino dos botões, quiz e respostas do FAQ.</p>
+</div></section>
+
+<section id="reescrita"><div class="wrap">
+  <div class="section-head">
+    <div class="kicker">Vamos reescrever?</div>
+    <h2 class="display">Os consertos</h2>
+    <p class="lead">Mesma clínica, mesma consulta, sem prometer o que o CFM restringe. Itens entre colchetes dependem de fato que só o cliente confirma — as pendências 1, 2 e 4 do Bloco 13 e o gate jurídico.</p>
+  </div>
+
+  <div class="rw">
+    <div class="antes"><div class="t">H1 hoje</div><div class="txt">"Recupere sua potência, confiança e desempenho."</div></div>
+    <div class="depois"><div class="t">H1 reescrito</div><div class="txt">"Disfunção erétil, ejaculação rápida e queda de libido têm causa. A consulta é onde ela aparece."</div><p class="nota-rw">Nomeia as dores sem eufemismo, troca promessa de retorno por diagnóstico e continua falando com quem se reconhece nos sintomas.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Subheadline hoje</div><div class="txt">"Consulta médica com especialista em saúde sexual masculina. Atendimento online, sigiloso e eficaz."</div></div>
+    <div class="depois"><div class="t">Subheadline reescrita</div><div class="txt">"Consulta online, de 1 para 1, com o Dr. Cristiano Estivalet (CRM-DF 15471), médico em saúde masculina. [Como o sigilo funciona, em uma linha.]"</div><p class="nota-rw">Põe o CRM e o sigilo, que são o que o paciente procura, na primeira tela. "Eficaz" sai.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Porsche Cup hoje</div><div class="txt">"A mesma potência que vence na Porsche Cup agora pode colocar você de volta ao pódio."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Tirar a metáfora. Manter, se o patrocínio for real e quiser aparecer, uma linha de selo no rodapé: "Patrocinadora oficial da Porsche Cup".</div><p class="nota-rw">Patrocínio é reconhecimento de marca, e a metáfora de potência mistura carro com o assunto mais delicado da página.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Reportagem hoje</div><div class="txt">"Destaque em reportagem nacional. Método revolucionário que já transformou a vida de milhares de homens."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Reportagem no [nome do telejornal], em [data] — assista." Com link. Sem "revolucionário" e sem "milhares".</div><p class="nota-rw">Nomear o veículo transforma o selo em prova que o paciente pode conferir.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Antes e depois hoje</div><div class="txt">Duas fotos e "sua potência restaurada!".</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Trocar o bloco por "O que você leva da primeira consulta": hipótese diagnóstica, exames solicitados, conduta explicada e o que acontece em seguida — sem foto de pessoa.</div><p class="nota-rw">Descreve o que o paciente recebe de verdade. Fica dentro do gate e responde à dúvida que a foto não responde.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Depoimentos hoje</div><div class="txt">"Resultados reais de quem já passou por isso", com antes e depois de pacientes.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Perguntas que os pacientes fazem antes de marcar" — as seis do FAQ, respondidas aqui, em tamanho de leitura. O Reclame AQUI fica, com o 57,1% e o 6,71 comentados.</div><p class="nota-rw">Troca prova de felicidade por resposta de dúvida. A confiança desse paciente vem de ser tratado como adulto, não de ver outro homem sorrindo.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Escassez hoje</div><div class="txt">"Atendimentos limitados para esta semana. Encerramento em 23:55:00. Últimas 3 vagas."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Agenda do Dr. Cristiano: próximos horários livres — [dia] e [dia]." Sem cronômetro.</div><p class="nota-rw">Escassez real, verificável e informativa. É a única que cabe numa clínica — e não precisa de gatilho.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Oferta hoje</div><div class="txt">"Sua transformação começa agora! R$ 500 por apenas R$ 197."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Consulta online com o Dr. Cristiano — [R$ 197]. [Se o médico indicar tratamento, ele explica as opções e os custos na própria consulta; você decide depois.]"</div><p class="nota-rw">Conta o que vem depois do R$ 197 antes da compra, o que elimina a fonte das reclamações por expectativa. Depende da oferta de entrada que o cliente decidir (pendência 4) e do gate sobre exibir preço.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Sigilo hoje</div><div class="txt">Penúltima dobra, depois do FAQ: "Sigilo total. Sempre."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Subir para a primeira dobra, ao lado do botão: "Consulta sigilosa. [Quem vê o agendamento, onde fica o prontuário, o que aparece na fatura.]"</div><p class="nota-rw">O mecanismo do sigilo é o melhor argumento da página e hoje chega tarde. A explicação depende do que a operação realmente faz.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Fechamento hoje</div><div class="txt">"Última chance de agendar sua consulta com desconto."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Você merece voltar a ter confiança. Marque sua consulta." — com a próxima data livre da agenda e um único botão.</div><p class="nota-rw">Usa a frase humana que já está lá, tira o cronômetro e a pressão e deixa uma ação só na última tela.</p></div>
+  </div>
+  <div class="rw">
+    <div class="antes"><div class="t">Marca hoje</div><div class="txt">AndroClinic, Androclinica, androclinica.com.br e andromedicina.com na mesma página.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Uma grafia só em texto, rodapé, citação e vídeo. A decisão é do cliente: qual marca fica.</div><p class="nota-rw">Coerência de nome é o que faz uma clínica parecer uma só.</p></div>
+  </div>
+</div></section>
+
+<section id="ordem" style="background:var(--paper-2)"><div class="wrap narrow">
+  <div class="section-head"><div class="kicker">A ordem de ataque</div><h2 class="display">O que fazer primeiro</h2></div>
+  <div class="prio"><h4>1. Gate jurídico antes de qualquer reescrita</h4><p>Os seis itens da seção "Gate" saem ou ficam conforme o parecer. <b>Nada do que está abaixo adianta se a página ficar fora do ar.</b></p></div>
+  <div class="prio"><h4>2. Tirar os dois cronômetros e "última chance"</h4><p>É a decisão mais barata e a que mais mexe na percepção do paciente. Agenda real no lugar de escassez inventada.</p></div>
+  <div class="prio"><h4>3. Contar o que vem depois da consulta</h4><p>Alinhado com a pendência 4. <b>É o ajuste que mais reduz reclamação por expectativa</b> — e depende de o cliente decidir se pode mudar a operação comercial.</p></div>
+  <div class="prio"><h4>4. Subir o sigilo e o CRM para a primeira dobra</h4><p>Os dois são o que esse paciente procura primeiro, e hoje chegam na penúltima dobra e no meio da página.</p></div>
+  <div class="prio"><h4>5. H1 sem promessa de retorno, Porsche Cup fora da narrativa</h4><p>Diagnóstico no lugar de promessa. Patrocínio vira selo, não argumento.</p></div>
+  <div class="prio"><h4>6. Nomear a reportagem e comentar o Reclame AQUI inteiro</h4><p>As duas únicas provas externas da página, com fonte e sem esconder o 57,1%.</p></div>
+  <div class="prio verde"><h4>7. Não mexer no que está bom</h4><p>O médico em vídeo na primeira tela, os quatro passos, o bloco do Dr. Cristiano, a dobra de sigilo, o preço no botão e o rodapé de conformidade. <b>É o que faz a página valer 132 e não menos.</b></p></div>
+
+  <div class="bloco dark" style="margin-top:22px"><div class="tag">A lição que fica</div>
+    <p class="big">Uma clínica com CRM, ANVISA, CNPJ e Reclame AQUI não precisa de cronômetro. <b>Quem vende saúde com credencial de verdade e usa o formato da promoção troca a vantagem que tem pela que o concorrente também tem.</b></p>
+  </div>
+</div></section>
+
+<footer><div class="wrap narrow">
+  <p>Análise da página atual da AndroClinic aplicando a rubrica reconstruída de @ocopyqvende · 02/10/2026. Não substitui parecer jurídico.</p>
+  <p style="margin-top:8px">Arsenal de Funis — © 7D/SECRETS LTDA (Anthony Nichols &amp; André Cia)</p>
+</div></footer>
+
+</body>
+</html>

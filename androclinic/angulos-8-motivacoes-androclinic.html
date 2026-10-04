@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Ângulos pelas 8 motivações · AndroClinic</title>
+<style>
+  :root{
+    --bg:#F4F1EA;
+    --surface:#FBF9F4;
+    --surface-2:#ECE6DA;
+    --row-alt:#F7F3EB;
+    --ink:#1A1714;
+    --ink-soft:#4A4339;
+    --line:#C9BDA7;
+    --accent:#1D4F5A;
+    --btn-bg:#1D4F5A;
+    --btn-ink:#FBF9F4;
+    --ok:#1F5A31;
+    --ok-bg:#DDEEDC;
+    --warn:#7A4400;
+    --warn-bg:#F8E3BF;
+    --bad:#8A1C1C;
+    --bad-bg:#F6D9D5;
+    --chip-bg:#E4DDCF;
+    --chip-ink:#2D2822;
+    --ph-bg:#F8E3BF;
+    --ph-ink:#5A3300;
+    --shadow:0 1px 0 rgba(70,52,28,.06),0 10px 26px -18px rgba(70,52,28,.35);
+    --serif:"Iowan Old Style","Charter","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  }
+  :root[data-tema="escuro"]{
+    --bg:#14120F;
+    --surface:#1C1916;
+    --surface-2:#26221D;
+    --row-alt:#1F1C18;
+    --ink:#F0EADF;
+    --ink-soft:#C4BBAC;
+    --line:#40392F;
+    --accent:#8EC5CF;
+    --btn-bg:#8EC5CF;
+    --btn-ink:#14120F;
+    --ok:#A7D7B1;
+    --ok-bg:#1B2C20;
+    --warn:#F0C77E;
+    --warn-bg:#33270F;
+    --bad:#F5A9A0;
+    --bad-bg:#3A1A18;
+    --chip-bg:#2E2A24;
+    --chip-ink:#E6DED0;
+    --ph-bg:#33270F;
+    --ph-ink:#F0C77E;
+    --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-tema="claro"]){
+      --bg:#14120F;
+      --surface:#1C1916;
+      --surface-2:#26221D;
+      --row-alt:#1F1C18;
+      --ink:#F0EADF;
+      --ink-soft:#C4BBAC;
+      --line:#40392F;
+      --accent:#8EC5CF;
+      --btn-bg:#8EC5CF;
+      --btn-ink:#14120F;
+      --ok:#A7D7B1;
+      --ok-bg:#1B2C20;
+      --warn:#F0C77E;
+      --warn-bg:#33270F;
+      --bad:#F5A9A0;
+      --bad-bg:#3A1A18;
+      --chip-bg:#2E2A24;
+      --chip-ink:#E6DED0;
+      --ph-bg:#33270F;
+      --ph-ink:#F0C77E;
+      --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+    }
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--ink);font:1.125rem/1.65 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 clamp(16px,3vw,32px)}
+  a{color:var(--accent)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  mark.ph{background:var(--ph-bg);color:var(--ph-ink);padding:0 5px;border-radius:4px;font-weight:600}
+
+  /* topo */
+  .top{padding:clamp(32px,6vw,72px) 0 clamp(12px,2vw,20px)}
+  .barra{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  .kicker{font:700 .9rem/1.3 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .tema{font:700 1rem/1 var(--sans);min-height:46px;padding:0 18px;border:2px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;cursor:pointer}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(4.5rem,14vw,6.5rem);line-height:.95;letter-spacing:-.02em;margin:14px 0 18px;overflow-wrap:break-word}
+  .sub{font-size:clamp(1.25rem,2.4vw,1.4rem);line-height:1.5;color:var(--ink-soft);max-width:58ch}
+  .nav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+  .nav a{display:inline-block;min-height:46px;line-height:46px;padding:0 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);text-decoration:none;font-weight:700;font-size:1rem}
+
+  .equiv{max-width:84ch;margin:20px 0 0;font-size:1.0625rem;color:var(--ink-soft)}
+  .equiv b{color:var(--ink)}
+
+  /* método e legenda */
+  .h2s{font-family:var(--serif);font-weight:600;font-size:clamp(1.6rem,3.6vw,2rem);line-height:1.15;margin-bottom:12px}
+  .metodo{margin:28px 0 24px;max-width:84ch;border-left:4px solid var(--accent);padding:4px 0 4px 20px}
+  .metodo ol{list-style:none;counter-reset:m;margin-bottom:14px}
+  .metodo li{counter-increment:m;margin-bottom:12px}
+  .metodo li::before{content:counter(m) ". ";font-weight:700;color:var(--accent)}
+  .metodo .oferta{color:var(--ink-soft)}
+  .metodo .oferta b{color:var(--ink)}
+  .leg{margin:0 0 8px;max-width:90ch}
+  .leg dl{display:block}
+  .leg dt{font:700 .95rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:18px 0 4px}
+  .leg dd{font-size:1.0625rem}
+  .leg .chip{margin:2px 4px 2px 0}
+
+  /* seção de público */
+  .publico{margin:clamp(48px,7vw,88px) 0 0}
+  h2.pub{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,5vw,2.8rem);line-height:1.08;letter-spacing:-.01em}
+  .perfil{max-width:84ch;color:var(--ink-soft);margin:10px 0 22px}
+  .perfil b{color:var(--ink)}
+  .placar{font:700 1rem/1.5 var(--sans);margin:18px 0 6px}
+  .nota{max-width:84ch;font-size:1.0625rem;margin:0 0 12px}
+  .nota b{color:var(--accent)}
+
+  table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+  caption{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  thead th{position:sticky;top:0;z-index:2;background:var(--surface-2);text-align:left;vertical-align:bottom;padding:14px;font:700 .875rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--line)}
+  thead th:first-child{border-top-left-radius:12px}
+  thead th:last-child{border-top-right-radius:12px}
+  tbody td{vertical-align:top;padding:18px 14px;border-bottom:1px solid var(--line);font-size:1rem;line-height:1.55}
+  tbody tr:nth-child(even) td{background:var(--row-alt)}
+  tbody tr:last-child td{border-bottom:0}
+  tr.pick td:first-child{box-shadow:inset 5px 0 0 var(--accent)}
+  .mot .n{display:block;font:700 .875rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
+  .mot b{display:block;font-family:var(--serif);font-size:1.15rem;line-height:1.25;margin-bottom:8px}
+  .mot i{display:block;font-style:normal;font-size:.95rem;color:var(--ink-soft);margin-bottom:8px}
+  .sel,.fora{display:inline-block;font:700 .875rem/1.3 var(--sans);padding:4px 10px;border-radius:6px}
+  .sel{background:var(--accent);color:var(--btn-ink)}
+  .fora{background:var(--chip-bg);color:var(--chip-ink)}
+  .forca{display:block;font:600 1.7rem/1 var(--serif)}
+  .forca-p{display:block;font:500 .875rem/1.3 var(--sans);color:var(--ink-soft);margin-top:6px}
+  .risk{display:inline-block;font:700 .875rem/1.3 var(--sans);padding:6px 10px;border-radius:6px}
+  .risk.verde{background:var(--ok-bg);color:var(--ok)}
+  .risk.laranja{background:var(--warn-bg);color:var(--warn)}
+  .risk.vermelho{background:var(--bad-bg);color:var(--bad)}
+
+  /* ângulo escolhido */
+  .angulos-t{font:700 .95rem/1.3 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:44px 0 0}
+  .angulo{margin:14px 0 0;padding:26px 0 0;border-top:3px solid var(--accent)}
+  .ang-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .ang-k{font:700 .9rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-right:6px}
+  h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,4vw,2.2rem);line-height:1.12;margin:10px 0 14px}
+  h4{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:28px 0 8px}
+  .exige{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0 14px}
+  .exige span.l{font:700 .875rem/1.3 var(--sans);color:var(--ink-soft);margin-right:4px}
+
+  .chip{display:inline-block;font:600 .875rem/1.3 var(--sans);background:var(--chip-bg);color:var(--chip-ink);padding:5px 10px;border-radius:6px}
+  .chip.ma{background:var(--bad-bg);color:var(--bad)}
+  .chip.mm{background:var(--warn-bg);color:var(--warn)}
+  .chip.mb{background:var(--ok-bg);color:var(--ok)}
+  .chip.bloco{display:block;width:fit-content;margin-top:8px}
+
+  .peca{display:grid;grid-template-columns:1fr auto;grid-template-areas:"rot rot" "txt cp" "chips cp";gap:6px 22px;padding:16px 0;border-top:1px solid var(--line)}
+  .peca:last-of-type{border-bottom:1px solid var(--line)}
+  .peca .rot{grid-area:rot;font:600 .9rem/1.3 var(--sans);color:var(--ink-soft)}
+  .peca .rot b{color:var(--accent);margin-right:8px;letter-spacing:.04em}
+  .peca .txt{grid-area:txt;font-family:var(--serif);font-size:1.3rem;line-height:1.45;max-width:62ch}
+  .peca.cena .txt{font-size:1.2rem;line-height:1.65;border-left:4px solid var(--line);padding-left:16px}
+  .peca .chips{grid-area:chips;display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+  .cp{grid-area:cp;align-self:start;font:700 1rem/1 var(--sans);min-height:46px;min-width:116px;padding:0 18px;border:0;border-radius:8px;background:var(--btn-bg);color:var(--btn-ink);cursor:pointer}
+  .cp.ok{background:var(--ok);color:var(--ok-bg)}
+
+  /* advogado e pendências */
+  .fim{margin:clamp(56px,8vw,96px) 0 0;max-width:94ch}
+  .fim h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,4.6vw,2.7rem);line-height:1.08;letter-spacing:-.01em;margin-bottom:12px}
+  .fim .intro{color:var(--ink-soft);margin-bottom:20px}
+  .fim ol,.fim ul{list-style:none}
+  .fim ol{counter-reset:a}
+  .fim li{padding:14px 0;border-top:1px solid var(--line);font-size:1.0625rem}
+  .fim li:last-child{border-bottom:1px solid var(--line)}
+  .fim ol li{counter-increment:a}
+  .fim ol li::before{content:counter(a) ". ";font-weight:700;color:var(--accent)}
+  .fim li b{color:var(--accent)}
+  .rodape{margin:clamp(48px,7vw,80px) 0 0;padding:0 0 56px;font-size:.95rem;line-height:1.55;color:var(--ink-soft);max-width:94ch}
+  .rodape p{margin-bottom:8px}
+
+  @media (max-width:920px){
+    table,thead,tbody,tr,td{display:block;width:100%}
+    table{background:transparent;border:0;box-shadow:none}
+    thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    tbody tr{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:16px;box-shadow:var(--shadow);overflow:hidden}
+    tbody tr:nth-child(even) td{background:transparent}
+    tbody td{padding:14px 18px;border-bottom:1px solid var(--line);font-size:1.0625rem}
+    tbody tr td:last-child{border-bottom:0}
+    tbody td::before{content:attr(data-label);display:block;margin-bottom:4px;font:700 .875rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+    tbody td.mot,tbody tr:nth-child(even) td.mot{background:var(--surface-2)}
+    tbody td.mot::before{content:none}
+    tr.pick td:first-child{box-shadow:none}
+    tr.pick{border-left:6px solid var(--accent)}
+  }
+  @media (max-width:640px){
+    .peca{grid-template-columns:1fr;grid-template-areas:"rot" "txt" "chips" "cp";gap:8px}
+    .cp{width:100%;min-height:50px}
+    .peca .txt{font-size:1.25rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="barra">
+    <div class="kicker">AndroClinic · Teste de ângulos · 02/10/2026</div>
+    <button class="tema" id="tema" type="button">Tema escuro</button>
+  </div>
+  <h1>Ângulos</h1>
+  <p class="sub">Mesmo serviço, oito jeitos de enxergar. Frases curtas para medir qual deles o mercado responde. Três públicos, nove ângulos escolhidos, quarenta e cinco peças.</p>
+  <nav class="nav" aria-label="Seções">
+    <a href="#publico-a">Público A</a>
+    <a href="#publico-b">Público B</a>
+    <a href="#publico-c">Público C</a>
+    <a href="#advogado">Advogado</a>
+    <a href="#preencher">A PREENCHER</a>
+  </nav>
+  <p class="equiv"><b>Equivalência com o briefing.</b> Público A é o perfil B do briefing (dificuldade de ereção física), Público B é o perfil A (ejaculação precoce e ansiedade) e Público C é o perfil C (libido). O briefing sugere testar na ordem dos seus perfis, com a ejaculação precoce como porta de entrada: aqui, Público B primeiro, depois A, depois C.</p>
+</header>
+
+<section class="metodo" aria-labelledby="t-metodo">
+  <h2 id="t-metodo" class="h2s">Método em 3 linhas</h2>
+  <ol>
+    <li>Com a oferta e o público definidos, cada público ganha um ângulo para cada uma das 8 motivações biológicas, pontuado de 1 a 5. Ficam os mais fortes.</li>
+    <li>Cada ângulo escolhido vira uma peça curta com um único benefício: 3 ganchos de 3 segundos, 1 frase de teste e 1 cena. A resposta do mercado mostra qual motivação ele sente.</li>
+    <li>Benefício não se lista, se torna vívido: o leitor vê, sente e experimenta. Numa clínica, a cena mostra o processo (investigar, explicar, decidir junto), nunca o resultado.</li>
+  </ol>
+  <p class="oferta"><b>Oferta.</b> Consulta médica online de saúde sexual masculina, com investigação da causa antes de indicar tratamento. Preço da consulta: <mark class="ph">[A PREENCHER]</mark> (circulam R$ 196 e R$ 197).</p>
+</section>
+
+<section class="leg" aria-labelledby="t-leg">
+  <h2 id="t-leg" class="h2s">Como ler</h2>
+  <dl>
+    <dt>Força, de 1 a 5</dt>
+    <dd>Evidência (0 a 2: 0 sem fonte, 1 pista ou suposição, 2 fato com fonte) + intensidade da motivação na cena (0 a 2) + espaço livre contra o que já está no ar (0 ou 1). A tabela mostra a soma e as três parcelas, nessa ordem. É leitura do squad, sem dado de conversão: o placar ordena hipóteses e o teste decide.</dd>
+    <dt>Corte</dt>
+    <dd>Entram os ângulos de 5 e de 4 pontos que trazem algo novo. Se faltar para chegar a três, completa com os de 3 pontos, desempatando por evidência de fato. Se o empate persistir, o squad decide por julgamento próprio, registrado na seção do público, e não por regra. Ângulo de 4 pontos já gasto, sem elemento novo próprio, sai.</dd>
+    <dt>Risco</dt>
+    <dd><span class="risk verde">Verde</span> vai ao advogado na revisão normal, sem pendência aberta. <span class="risk laranja">Laranja</span> depende de pendência aberta, de validação do diretor técnico ou de frase sensível na Meta. <span class="risk vermelho">Vermelho</span> depende de decisão do cliente que pode inviabilizar o ângulo.</dd>
+    <dt>Marca Medo</dt>
+    <dd>Vem do texto oficial da CFM 2.336, art. 11, §2º, "e": é sensacionalismo veicular em público informação que possa causar intranquilidade, insegurança, pânico ou medo, individual ou coletivo, mesmo para fatos conhecidos.
+      <span class="chip ma">Medo §2º e: alta</span> o medo é o conteúdo da peça.
+      <span class="chip mm">Medo §2º e: média</span> a peça pressupõe medo ou insegurança no leitor.
+      <span class="chip mb">Medo §2º e: baixa</span> o tema é saúde, e o texto não usa risco, perda ou consequência como motor.
+      A motivação 3 (liberdade de medos) é a de maior risco regulatório da página, e a marca vale por cima da cor. Na tabela, a marca mostra o risco do ângulo. Na peça, mostra o risco do texto. Se o advogado ler a alínea "e" de forma estreita, as marcas altas viram aviso. Até lá vale a letra.</dd>
+    <dt>Pendências em cada peça</dt>
+    <dd>
+      <span class="chip">P1 farmácia</span> vínculo entre clínica, Andro Pharma e farmácia.
+      <span class="chip">P2 médico</span> quem atende, com CRM/UF e RQE.
+      <span class="chip">P3 oferta</span> preço único e o que está incluso.
+      <span class="chip">P4 operação</span> receita na mão, preço do tratamento antes da compra, sem venda na mesma chamada.
+      <span class="chip">k protocolo</span> protocolo de dependência e explicação por escrito.
+      <span class="chip">g psicologia</span> psicologia ou treino de controle oferecidos de fato.
+      <span class="chip">DT clínico</span> afirmação clínica que o diretor técnico valida.
+      <span class="chip">N1 parceira</span> a parceira acompanha o processo ou a consulta: pendência nova, não consta no briefing.
+      <span class="chip">M Meta</span> pergunta ou situação dirigida a quem vê.
+      <span class="chip">T terceiros</span> crítica genérica a produto de prateleira.
+      <span class="chip">Bloco 13</span> frase prevista no briefing.
+      <span class="chip">Contraste §3</span> autopromoção por contraste implícito com outros médicos (art. 11, §3º).
+      <span class="chip">Pressupõe</span> pressupõe algo a contar (C7-G3) ou uma relação nova a cuidar (B4-G1, B4-G2, B4-F).
+    </dd>
+    <dt>Em todas as peças</dt>
+    <dd>Gancho de até 10 palavras, cerca de 3 segundos falados. Toda peça passa pelo parecer do advogado (pendência 7). Todo criativo final leva na tela <mark class="ph">Dr. [NOME], MÉDICO, CRM-[UF] [número]</mark> (CFM 2.336, art. 4º). Nenhuma peça diz "especialista" nem "focado em saúde sexual", e nenhuma afirma que o Dr. Cristiano atende: nome e CRM seguem em aberto até a pendência 2. CTA e destino ficam fora das peças (pendência 6). Sem emoji, sem handle, sem @.</dd>
+  </dl>
+</section>
+
+
+<!-- ============================ PÚBLICO A ============================ -->
+<section class="publico" id="publico-a" aria-labelledby="t-a">
+  <h2 id="t-a" class="pub">Público A</h2>
+  <p class="perfil"><b>Dificuldade de ereção de origem física, 45 a 65 anos, já tentou o remédio.</b> Muitas vezes com hipertensão ou diabetes (suposição do briefing). Nível de consciência: solução, cético. Voz: "os remédios clássicos eu já havia feito utilização" (RA São Paulo/SP, 08/09/2026). É o perfil B do briefing.</p>
+
+  <table>
+    <caption>Público A: as 8 motivações, com força, risco e decisão</caption>
+    <colgroup><col style="width:14%"><col style="width:25%"><col style="width:20%"><col style="width:8%"><col style="width:9%"><col style="width:24%"></colgroup>
+    <thead>
+      <tr>
+        <th scope="col">Motivação</th>
+        <th scope="col">Ângulo</th>
+        <th scope="col">Já dito pela AndroClinic</th>
+        <th scope="col">Força</th>
+        <th scope="col">Risco</th>
+        <th scope="col">Decisão</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 1</span><b>Não morrer, aproveitar a vida, viver mais</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">A ereção depende da circulação. Pressão e açúcar no sangue entram na mesma conversa, e a consulta olha o corpo inteiro.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial, quase gasto. Pelo menos nove vídeos falam de HDL, artéria, circulação, pressão e glicose (1560896162354218, 1553903282699052, 1316611170604634, 1919214542064546, 1064089113141880, 1978885779476819, 1431294552358386, 2864296463926646, 1366958168884594). Nenhum abre pelo check-up de rotina.</td>
+        <td data-label="Força"><span class="forca">4</span><span class="forca-p">2+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip mb bloco">Medo §2º e: baixa</span></td>
+        <td data-label="Decisão">Continua no corte, com moldura própria, que agora está em G1, F e C: o check-up completo inclui a ereção. Projeto Avaliar (2004): DE associada a diabetes, hipertensão e problema cardíaco (Arca Fiocruz). Catálogo Med: AVC, remédios de pressão e a dúvida se pode tomar remédio para ereção.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 2</span><b>Comida e bebida</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">O que vai no prato e no copo entra na consulta: açúcar no sangue, sono e rotina.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo do painel hormonal (1560896162354218) já fala de insulina e de barriga.</td>
+        <td data-label="Força"><span class="forca">2</span><span class="forca-p">1+1+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Nenhuma fala do público sobre o assunto, e conversa sobre peso encosta na política de imagem corporal da Meta (leitura do squad).</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 3</span><b>Liberdade de medos, dores e perigos</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Saber o que toma antes de começar: os efeitos possíveis, explicados em voz alta pelo médico. A dúvida sobre dependência, que dava o medo ao ângulo, saiu da copy pelo art. 11, §2º, "e", e só volta se o advogado liberar.</td>
+        <td data-label="Já dito pela AndroClinic">Novo. Nenhum dos 24 vídeos transcritos responde "vicia?".</td>
+        <td data-label="Força"><span class="forca">5</span><span class="forca-p">2+2+1</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip ma bloco">Medo §2º e: alta</span></td>
+        <td data-label="Decisão">O Google completa "tadalafila vicia" com seis variações (01/10/2026). RA do Instituto Homem, Concórdia/SC, 27/08/2026: "remédios que a pessoa se torna refém". Catálogo Med: AVC, remédios de pressão e "posso tomar?".</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 4</span><b>Romance, parceiro sexual, companheirismo</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">A conversa que o casal deixou de ter. A consulta é o primeiro passo para o assunto voltar à mesa.</td>
+        <td data-label="Já dito pela AndroClinic">Gasto. Quatro vídeos (4566142067039678, 1606844540979244, 1040779632032662, 2864296463926646).</td>
+        <td data-label="Força"><span class="forca">4</span><span class="forca-p">2+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">A evidência é forte: 52% dos homens de 40 anos ou mais dizem já ter tido dificuldade para manter a ereção, maioria casados (SBU 2024, TNH1). Mas o único elemento novo, falar com ela, está no C4.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 5</span><b>Conforto, praticidade, conveniência</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Médico na tela, de casa ou do carro: sem viagem até o consultório e sem sala de espera.</td>
+        <td data-label="Já dito pela AndroClinic">Gasto. "Sigilo total" e "de onde você estiver" aparecem em boa parte dos vídeos, e "de qualquer lugar do Brasil" só no 38489543390659325. Discrição e "100% online" são ângulos gastos (briefing, Bloco 5).</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">A farmácia vence em esforço e preço (R$ 12,99 por 4 comprimidos, Drogaria São Paulo, 01/10/2026). E a CFM 2.314, art. 6º, §3º, pede seguimento presencial: "sem sair de casa" é promessa curta.</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 6</span><b>Ser superior, vencer, não ficar para trás</b><i>Reescrita: voltar a decidir</i><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Você decide. Preço da consulta na página e explicação do que é prescrito. Na forma completa, receita na mão e escolha de onde comprar.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. Os vídeos mostram o preço da consulta, e nenhum fala de entregar a receita, de preço do tratamento ou de onde comprar. O preço na mesa já é da Omens (consulta a partir de R$ 79, frente 2, citada no briefing, Bloco 5).</td>
+        <td data-label="Força"><span class="forca">5</span><span class="forca-p">2+2+1</span></td>
+        <td data-label="Risco"><span class="risk vermelho">Vermelho</span></td>
+        <td data-label="Decisão">15 das 23 reclamações lidas tratam de venda empurrada e preço escondido (F4 §3). O original "vencer" é desempenho e caiu. Só sobe com a pendência 4 = sim.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 7</span><b>Cuidar e proteger quem a gente ama</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Cuidar de si para continuar cuidando dos seus: pressão, açúcar e circulação conferidos por quem olha o corpo inteiro.</td>
+        <td data-label="Já dito pela AndroClinic">Novo. Nenhum vídeo liga o check-up a cuidar da família.</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+1+1</span></td>
+        <td data-label="Risco"><span class="risk verde">Verde</span></td>
+        <td data-label="Decisão">Sem fala direta do público para essa cena, e repete o A1 com outra roupa.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 8</span><b>Aprovação social</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">A conversa que homem nenhum tem na roda: 52% dos homens de 40 anos ou mais dizem já ter tido dificuldade para manter a ereção (SBU 2024, TNH1).</td>
+        <td data-label="Já dito pela AndroClinic">Gasto. O vídeo 4533292903625802 usa "metade dos homens acima de 40" sem fonte e sem ano. "Você não está sozinho" é ângulo gasto.</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">2+1+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Normalizar por estatística é ângulo gasto, e o número só serve com fonte e ano, que o vídeo atual não traz.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="placar">Placar A: A3 5 · A6 5 · A1 4 · A4 4 · A5 3 · A7 3 · A8 3 · A2 2</p>
+  <p class="nota"><b>Corte.</b> Entram A3 e A6 (5 pontos) e o A1 (4). O A1 caiu de 5 para 4 porque o espaço livre foi a 0: pelo menos nove vídeos já falam de circulação, pressão e glicose. Ele fica no corte por ter moldura própria, o check-up completo que inclui a ereção. O A4 também tem 4 pontos e saiu: está gasto em quatro vídeos, e o único elemento novo dele, falar com ela, é o C4.</p>
+
+  <p class="angulos-t">Ângulos escolhidos do público A</p>
+
+  <!-- A1 -->
+  <article class="angulo" id="A1">
+    <div class="ang-top"><span class="ang-k">A1 · Não morrer, aproveitar a vida, viver mais</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 4</span></div>
+    <h3>O corpo inteiro entra na consulta</h3>
+    <p class="nota"><b>Já existe?</b> Parcial, quase gasto. Pelo menos nove vídeos falam de HDL, artéria, circulação, pressão e glicose (1560896162354218, 1553903282699052, 1316611170604634, 1919214542064546, 1064089113141880, 1978885779476819, 1431294552358386, 2864296463926646, 1366958168884594). A leitura da F3 §6 de que nenhum anúncio liga ereção a saúde não se sustenta. Nenhum vídeo abre pelo check-up de rotina nem faz a pergunta que o laboratório não faz.</p>
+    <p class="nota"><b>O que é novo.</b> A moldura: o check-up completo inclui a ereção, que entra como parte do cuidado com a saúde do corpo. G1, F e C foram escritos nessa moldura, sem a causa da falha dos vídeos atuais. O espaço livre cai a 0 e a força a 4, e o ângulo continua no corte por essa moldura.</p>
+    <p class="nota"><b>Evidência.</b> Projeto Avaliar (2004, 71.503 homens): DE ligada a diabetes, hipertensão e problema cardíaco. Só 27% tinham sido perguntados sobre sexo pelo médico em 3 anos (Arca Fiocruz). Catálogo Med: homem de 57 anos, com AVC e remédios de pressão, pergunta se pode tomar remédio para ereção (sem data). Nenhuma peça cita número.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">P3 oferta</span><span class="chip">DT clínico</span><span class="chip">M Meta</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="A1-G1">
+      <div class="rot"><b>A1-G1</b>Gancho 1</div>
+      <p class="txt">Check-up completo inclui a ereção. Converse com um médico.</p>
+      <div class="chips"><span class="chip">DT clínico</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A1-G1">Copiar</button>
+    </div>
+    <div class="peca" id="A1-G2">
+      <div class="rot"><b>A1-G2</b>Gancho 2</div>
+      <p class="txt">Perguntar da vida sexual também é cuidar da saúde.</p>
+      <div class="chips"><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A1-G2">Copiar</button>
+    </div>
+    <div class="peca" id="A1-G3">
+      <div class="rot"><b>A1-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Antes do remédio, eu quero saber da sua pressão.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">DT clínico</span><span class="chip">Contraste §3</span></div>
+      <button class="cp" type="button" aria-label="Copiar A1-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="A1-F">
+      <div class="rot"><b>A1-F</b>Frase</div>
+      <p class="txt">Um check-up completo olha o corpo inteiro, e a ereção faz parte dele. A consulta online é o primeiro passo.</p>
+      <div class="chips"><span class="chip">DT clínico</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A1-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="A1-C">
+      <div class="rot"><b>A1-C</b>Cena</div>
+      <p class="txt">O check-up do ano continua na pasta do celular.<br>Pressão, colesterol, glicose: cada número no seu lugar.<br>Na consulta por vídeo, o médico abre esses exames e acrescenta uma pergunta: como anda a vida sexual.<br>A resposta entra no mesmo prontuário, ao lado dos outros números.</p>
+      <div class="chips"><span class="chip">DT clínico</span><span class="chip">P3 oferta</span><span class="chip">M Meta</span></div>
+      <button class="cp" type="button" aria-label="Copiar A1-C">Copiar</button>
+    </div>
+  </article>
+
+  <!-- A3 -->
+  <article class="angulo" id="A3">
+    <div class="ang-top"><span class="ang-k">A3 · Liberdade de medos, dores e perigos</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 5</span></div>
+    <h3>Saber o que toma, antes de começar</h3>
+    <p class="nota"><b>Já existe?</b> Novo. Nenhum dos 24 vídeos transcritos responde "vicia?" nem fala de mistura com remédio de pressão. A objeção 6 do briefing segue sem resposta no ar.</p>
+    <p class="nota"><b>Evidência.</b> O Google completa "tadalafila vicia" com seis variações (01/10/2026). Doctoralia: "posso ficar dependente?". RA do Instituto Homem, Concórdia/SC, 27/08/2026: "remédios que a pessoa se torna refém" (concorrente, mesma objeção). Catálogo Med: AVC, remédios de pressão e "posso tomar?". RA Campo Grande/MS, 18/02/2026: tontura e boca seca em 7 dias.</p>
+    <p class="nota"><b>Trava.</b> As peças abrem pela resposta, e não pela pergunta de medo (CFM 2.336, art. 11, §2º, "e"). Não citam número, não nomeiam remédio, não usam "vicia", "dose" nem "reduzir" e nunca negam efeito colateral. A cena fica na consulta, em terceira pessoa, sem a insônia e sem a repetição da dúvida. Os ganchos e a cena eram "alta" na marca Medo e foram reescritos.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">k protocolo</span><span class="chip">DT clínico</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="A3-G1">
+      <div class="rot"><b>A3-G1</b>Gancho 1</div>
+      <p class="txt">O médico explica os efeitos possíveis antes de começar.</p>
+      <div class="chips"><span class="chip">k protocolo</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A3-G1">Copiar</button>
+    </div>
+    <div class="peca" id="A3-G2">
+      <div class="rot"><b>A3-G2</b>Gancho 2</div>
+      <p class="txt">O tratamento é escolhido pelo seu histórico. E explicado antes.</p>
+      <div class="chips"><span class="chip">k protocolo</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A3-G2">Copiar</button>
+    </div>
+    <div class="peca" id="A3-G3">
+      <div class="rot"><b>A3-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Eu explico os efeitos possíveis antes de começar.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">k protocolo</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A3-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="A3-F">
+      <div class="rot"><b>A3-F</b>Frase</div>
+      <p class="txt">O médico escolhe o tratamento pelo seu histórico e explica os efeitos possíveis antes de começar.</p>
+      <div class="chips"><span class="chip">Bloco 13</span><span class="chip">k protocolo</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A3-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="A3-C">
+      <div class="rot"><b>A3-C</b>Cena</div>
+      <p class="txt">Um homem entra na consulta por vídeo com a lista dos remédios que já usa.<br>O médico lê a lista e pergunta desde quando e como anda a saúde em geral.<br>Escolhe o tratamento com esses dados na tela e explica os efeitos possíveis antes de começar.<br>O que ficou combinado vai por escrito.</p>
+      <div class="chips"><span class="chip">k protocolo</span><span class="chip">DT clínico</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar A3-C">Copiar</button>
+    </div>
+  </article>
+
+  <!-- A6 -->
+  <article class="angulo" id="A6">
+    <div class="ang-top"><span class="ang-k">A6 · Ser superior, vencer, não ficar para trás (reescrita)</span><span class="risk vermelho">Risco vermelho</span><span class="chip">Força 5</span></div>
+    <h3>Você decide</h3>
+    <p class="nota"><b>Já existe?</b> Parcial. Os vídeos mostram o preço da consulta, e nenhum fala de entregar a receita, de preço do tratamento ou de onde comprar. O preço na mesa já é da Omens (a partir de R$ 79, frente 2, citada no briefing, Bloco 5). O original "vencer" cai em desempenho (Meta) e insinua resultado (CFM 2.336, art. 11, XII). A versão "voltar a decidir" fica no processo.</p>
+    <p class="nota"><b>Evidência.</b> Das 23 reclamações lidas da AndroClinic, 15 tratam de venda empurrada e preço escondido (F4 §3). RA Rio de Janeiro/RJ, 05/05/2026: "só funciona se comprar conosco". RA Gramado/RS, 14/06/2026: "não pra empurrar protocolo" (pode ser depoimento incentivado: serve de tom, não de prova).</p>
+    <p class="nota"><b>Trava.</b> Só sobe com a pendência 4 = sim. Sem ela, só a A6-G1 segue, na versão de preço aberto.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P1 farmácia</span><span class="chip">P2 médico</span><span class="chip">P3 oferta</span><span class="chip">P4 operação</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="A6-G1">
+      <div class="rot"><b>A6-G1</b>Gancho 1</div>
+      <p class="txt">Consulta por R$ <mark class="ph">[PREÇO]</mark>. Preço na página, antes de agendar.</p>
+      <div class="chips"><span class="chip">P3 oferta</span></div>
+      <button class="cp" type="button" aria-label="Copiar A6-G1">Copiar</button>
+    </div>
+    <div class="peca" id="A6-G2">
+      <div class="rot"><b>A6-G2</b>Gancho 2</div>
+      <p class="txt">A consulta acaba na consulta. Depois, você decide.</p>
+      <div class="chips"><span class="chip">P4 operação</span><span class="chip">Contraste §3</span></div>
+      <button class="cp" type="button" aria-label="Copiar A6-G2">Copiar</button>
+    </div>
+    <div class="peca" id="A6-G3">
+      <div class="rot"><b>A6-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Eu digo o que prescrevo e por quê. Você escolhe.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">P4 operação</span><span class="chip">Contraste §3</span></div>
+      <button class="cp" type="button" aria-label="Copiar A6-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="A6-F">
+      <div class="rot"><b>A6-F</b>Frase</div>
+      <p class="txt">Preço da consulta na página e explicação do que é prescrito. A decisão final fica com você.</p>
+      <div class="chips"><span class="chip">P3 oferta</span><span class="chip">P4 operação</span></div>
+      <button class="cp" type="button" aria-label="Copiar A6-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="A6-C">
+      <div class="rot"><b>A6-C</b>Cena</div>
+      <p class="txt">A chamada termina, e o PDF chega no seu e-mail: nome do tratamento, orientação de uso, assinatura digital.<br>Você lê no sofá, pesquisa o que quiser.<br>Ninguém liga para fechar pacote.<br>Onde comprar, e se vai comprar, é escolha sua.</p>
+      <div class="chips"><span class="chip">P4 operação</span><span class="chip">P1 farmácia</span><span class="chip">Contraste §3</span></div>
+      <button class="cp" type="button" aria-label="Copiar A6-C">Copiar</button>
+    </div>
+  </article>
+</section>
+
+
+<!-- ============================ PÚBLICO B ============================ -->
+<section class="publico" id="publico-b" aria-labelledby="t-b">
+  <h2 id="t-b" class="pub">Público B</h2>
+  <p class="perfil"><b>Ejaculação precoce ou ansiedade na hora H, 18 a 35 anos.</b> Solteiro ou em relação nova (suposição do briefing). Nível de consciência: problema, parte já na solução. Voz: "está se tornando cada vez mais constrangedor. Tenho 20 anos" e "Não sei por onde começar a tratar" (Catálogo Med, datas não exibidas). É o perfil A do briefing.</p>
+
+  <table>
+    <caption>Público B: as 8 motivações, com força, risco e decisão</caption>
+    <colgroup><col style="width:14%"><col style="width:25%"><col style="width:20%"><col style="width:8%"><col style="width:9%"><col style="width:24%"></colgroup>
+    <thead>
+      <tr>
+        <th scope="col">Motivação</th>
+        <th scope="col">Ângulo</th>
+        <th scope="col">Já dito pela AndroClinic</th>
+        <th scope="col">Força</th>
+        <th scope="col">Risco</th>
+        <th scope="col">Decisão</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="mot"><span class="n">Motivação 1</span><b>Não morrer, aproveitar a vida, viver mais</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">A vida social não precisa esperar: a primeira conversa com o médico tem o tamanho de uma ligação.</td>
+        <td data-label="Já dito pela AndroClinic">Novo. Nenhum vídeo para esse público fala de convite e vida social.</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+1+1</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Empata em 3, e a evidência é inferência das buscas ("broxei" completa com "no primeiro encontro"), sem fala direta sobre vida em pausa.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 2</span><b>Comida e bebida</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Café, energético e bebida antes do encontro: a consulta pergunta da rotina inteira.</td>
+        <td data-label="Já dito pela AndroClinic">Novo.</td>
+        <td data-label="Força"><span class="forca">2</span><span class="forca-p">0+1+1</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Nada na pesquisa sustenta o hábito. É suposição do squad.</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 3</span><b>Liberdade de medos, dores e perigos</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">É normal? Tem causa? A consulta responde em voz alta. A dúvida sobre dependência saiu da copy pelo art. 11, §2º, "e".</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 1045288051557014 trata da ansiedade na hora, mas nenhum dos 24 vídeos é sobre ejaculação precoce e nenhum responde "é normal?".</td>
+        <td data-label="Força"><span class="forca">5</span><span class="forca-p">2+2+1</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip ma bloco">Medo §2º e: alta</span></td>
+        <td data-label="Decisão">Google: "gozo muito rápido" completa com "é normal" (01/10/2026). RA Gramado/RS, 14/06/2026: "com vergonha também. Não é fácil falar sobre isso". Doctoralia: "posso ficar dependente?".</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 4</span><b>Romance, parceiro sexual, companheirismo</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Relação nova pede cuidado com a saúde. A consulta é o primeiro passo do cuidado com a relação que está começando.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial, em boa parte gasto. O vídeo 1040779632032662 já diz "ele morria de vergonha de contar" e fecha com "Isso tem causa". Os vídeos 1045288051557014 e 1431294552358386 mostram a cena com a parceira. Só a relação nova é inédita.</td>
+        <td data-label="Força"><span class="forca">4</span><span class="forca-p">2+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip mm bloco">Medo §2º e: média</span></td>
+        <td data-label="Decisão">Google: "broxei" completa com "no primeiro encontro"; "não consigo ficar duro" com "com minha namorada" (01/10/2026). Catálogo Med: a namorada pergunta pelo namorado de 26 anos. Meta: cena de conversa, nunca de cama.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 5</span><b>Conforto, praticidade, conveniência</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Sem fila, sem recepção, sem conhecido no corredor: médico no celular, na hora que ele escolher.</td>
+        <td data-label="Já dito pela AndroClinic">Gasto. Quiz "sem vendedor" é da Bluue, e discrição é ângulo gasto.</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">A farmácia vence em esforço e preço, e o envio pelo correio deixou de ser diferencial (suposição do briefing).</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 6</span><b>Ser superior, vencer, não ficar para trás</b><i>Reescrita: voltar a decidir</i><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Parar de comprar na esperança. Gel, spray, curso: a decisão seguinte nasce da causa investigada, com ou sem remédio.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 1070679109085477 desmonta o gel e a promessa de resultado em cinco minutos. Novo: sair do produto de prateleira por uma decisão com a causa na mão.</td>
+        <td data-label="Força"><span class="forca">4</span><span class="forca-p">2+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip mb bloco">Medo §2º e: baixa</span></td>
+        <td data-label="Decisão">Avaliações de 1 estrela: "Água com açúcar" (spray, Amazon, 18/03/2026) e "Não fez diferença" (gel, 23/02/2025). RA Bluue, 14/09/2026: queixa de que o produto "não funciona". Cursos "sem remédios" a R$ 397 (F2 §5, citada no briefing, Bloco 5). O original "durar mais que os outros" é desempenho e caiu.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 7</span><b>Cuidar e proteger quem a gente ama</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">A namorada lê o silêncio como desinteresse. Contar a ela é cuidar dela.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 1040779632032662 faz isso com casal de longa data.</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">2+1+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Repete o B4 e o C7 com outra idade.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 8</span><b>Aprovação social</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Na roda, todo mundo tem resposta pronta. Na consulta, ele pergunta de verdade.</td>
+        <td data-label="Já dito pela AndroClinic">Gasto. Vídeos 4533292903625802 (churrasco) e 1073480028963073 (receita emprestada).</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Já está em dois vídeos, e a evidência é indireta.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="placar">Placar B: B3 5 · B4 4 · B6 4 · B1 3 · B5 3 · B7 3 · B8 3 · B2 2</p>
+  <p class="nota"><b>Achado.</b> Nenhum dos 24 vídeos atuais é sobre ejaculação precoce: a palavra aparece uma vez, numa lista, no vídeo 38489543390659325. O briefing aponta a EP como porta de entrada (F2 e F5), e esse público está sem voz no ar.</p>
+  <p class="nota"><b>Corte.</b> Entram B3, B4 e B6. Os de 3 pontos ficam fora, e o original do B6 ("ser superior, durar mais que os outros") foi descartado por cair em desempenho. Foi reescrito como voltar a decidir.</p>
+
+  <p class="angulos-t">Ângulos escolhidos do público B</p>
+
+  <!-- B3 -->
+  <article class="angulo" id="B3">
+    <div class="ang-top"><span class="ang-k">B3 · Liberdade de medos, dores e perigos</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 5</span></div>
+    <h3>Pode perguntar</h3>
+    <p class="nota"><b>Já existe?</b> Parcial. O vídeo 1045288051557014 trata da ansiedade na hora. Nenhum dos 24 vídeos é sobre ejaculação precoce, nenhum responde "é normal?" e nenhum explica por que ela acontece (F3 §6, lacuna 6). O novo é a pergunta feita em voz alta, com a resposta de que ejaculação precoce tem causa e tem tratamento.</p>
+    <p class="nota"><b>Evidência.</b> Google: "gozo muito rápido" completa com "é normal" e "o que pode ser" (01/10/2026). RA Gramado/RS, 14/06/2026: "com vergonha também. Não é fácil falar sobre isso". Doctoralia: "posso ficar dependente?". Estudo de 2023 (Sexual Medicine): 226 homens que fazem sexo com homens, em São Paulo, com idade média de 24,7 anos. Desses, 17,3% se achavam precoces e 6,2% passavam do critério de tempo. A amostra é pequena e específica, e a peça não cita o número. O tom "sem julgamento" vem de avaliação que lembra depoimento incentivado (pendência e) e pressupõe medo de ser julgado. Por isso a copy não o promete.</p>
+    <p class="nota"><b>Molde.</b> O gancho B3-G2 é a frase do Bloco 13 e é o principal. B3-G1 e B3-F seguem o mesmo molde: o tema, "tem causa" ou "tem tratamento", e o convite à consulta. A cena fica em terceira pessoa e sem o medo de ser julgado (art. 11, §2º, "e"). O ângulo continua marcado em alta na tabela, porque o tema dele é o medo e a vergonha. As peças, reescritas, ficam em baixa.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">DT clínico</span><span class="chip">Bloco 13</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="B3-G1">
+      <div class="rot"><b>B3-G1</b>Gancho 1</div>
+      <p class="txt">Ejaculação precoce tem causa. Converse com um médico por vídeo.</p>
+      <div class="chips"><span class="chip">DT clínico</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar B3-G1">Copiar</button>
+    </div>
+    <div class="peca" id="B3-G2">
+      <div class="rot"><b>B3-G2</b>Gancho 2 · principal (frase do Bloco 13)</div>
+      <p class="txt">Ejaculação precoce tem tratamento. Converse com um médico.</p>
+      <div class="chips"><span class="chip">Bloco 13</span></div>
+      <button class="cp" type="button" aria-label="Copiar B3-G2">Copiar</button>
+    </div>
+    <div class="peca" id="B3-G3">
+      <div class="rot"><b>B3-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Pode perguntar o que quiser sobre o assunto. Eu escuto.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar B3-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="B3-F">
+      <div class="rot"><b>B3-F</b>Frase</div>
+      <p class="txt">Ejaculação precoce tem tratamento e tem causa. A consulta começa pela investigação.</p>
+      <div class="chips"><span class="chip">DT clínico</span></div>
+      <button class="cp" type="button" aria-label="Copiar B3-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="B3-C">
+      <div class="rot"><b>B3-C</b>Cena</div>
+      <p class="txt">Um rapaz apoia o celular na mesa do quarto, fecha a porta e põe o fone.<br>O médico se apresenta e pergunta desde quando e em que situação.<br>O rapaz responde, e o médico anota cada resposta.<br>A conversa começa pela causa.</p>
+      <div class="chips"><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar B3-C">Copiar</button>
+    </div>
+  </article>
+
+  <!-- B4 -->
+  <article class="angulo" id="B4">
+    <div class="ang-top"><span class="ang-k">B4 · Romance, parceiro sexual, companheirismo</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 4</span></div>
+    <h3>Relação nova pede cuidado</h3>
+    <p class="nota"><b>Já existe?</b> Parcial, em boa parte gasto. O vídeo 1040779632032662 já diz "ele morria de vergonha de contar que o corpo dele aqui não respondia" e fecha com "Isso tem causa", para um casal de mais de dois anos. Os vídeos 1045288051557014 e 1431294552358386 mostram a cena com a parceira.</p>
+    <p class="nota"><b>O que é novo.</b> Só a relação em começo. Por isso os ganchos não repetem "contar a ela" nem "isso tem causa", e falam de saúde, confiança e relação.</p>
+    <p class="nota"><b>Evidência.</b> Google: "broxei" completa com "no primeiro encontro" e "duas vezes o que pode ser"; "não consigo ficar duro" completa com "com minha namorada" (01/10/2026). Catálogo Med: a namorada pergunta pelo namorado de 26 anos (data não exibida). O perfil "solteiro ou em relação nova" é suposição do squad (F4 §1.2). Trava Meta: a cena é de conversa, nunca de cama.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">M Meta</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="B4-G1">
+      <div class="rot"><b>B4-G1</b>Gancho 1</div>
+      <p class="txt">Relação nova pede cuidado. Converse com um médico.</p>
+      <div class="chips"><span class="chip">M Meta</span><span class="chip">Pressupõe</span></div>
+      <button class="cp" type="button" aria-label="Copiar B4-G1">Copiar</button>
+    </div>
+    <div class="peca" id="B4-G2">
+      <div class="rot"><b>B4-G2</b>Gancho 2</div>
+      <p class="txt">Quer cuidar da relação nova? Comece cuidando da saúde.</p>
+      <div class="chips"><span class="chip">M Meta</span><span class="chip">Pressupõe</span></div>
+      <button class="cp" type="button" aria-label="Copiar B4-G2">Copiar</button>
+    </div>
+    <div class="peca" id="B4-G3">
+      <div class="rot"><b>B4-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Eu começo ouvindo. Saúde e relação cabem na mesma conversa.</p>
+      <div class="chips"><span class="chip">P2 médico</span></div>
+      <button class="cp" type="button" aria-label="Copiar B4-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="B4-F">
+      <div class="rot"><b>B4-F</b>Frase</div>
+      <p class="txt">Confiança numa relação nova também começa pela saúde. A consulta online é o primeiro passo.</p>
+      <div class="chips"><span class="chip">M Meta</span><span class="chip">Pressupõe</span></div>
+      <button class="cp" type="button" aria-label="Copiar B4-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="B4-C">
+      <div class="rot"><b>B4-C</b>Cena</div>
+      <p class="txt">Terceiro encontro, e a série fica pausada por três horas de conversa.<br>Na semana seguinte, ele apoia o celular na mesa e faz uma consulta de saúde por vídeo.<br>O médico pergunta, ele conta, e os dois combinam o que vem depois.<br>Cuidar de si também é cuidar da relação que está começando.</p>
+      <div class="chips"><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar B4-C">Copiar</button>
+    </div>
+  </article>
+
+  <!-- B6 -->
+  <article class="angulo" id="B6">
+    <div class="ang-top"><span class="ang-k">B6 · Ser superior, vencer, não ficar para trás (reescrita)</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 4</span></div>
+    <h3>Decida com a causa na mão</h3>
+    <p class="nota"><b>Já existe?</b> Parcial. O vídeo 1070679109085477 desmonta o gel e a promessa de resultado em cinco minutos, e fecha com "mas tem jeito", frase que pode insinuar resultado (CFM 2.336, art. 11, XII). O novo é sair do produto de prateleira por uma decisão tomada com a causa investigada. O original, "ser superior, durar mais que os outros", cai em desempenho e foi descartado.</p>
+    <p class="nota"><b>Evidência.</b> Avaliações de 1 estrela: "Água com açúcar" (spray, Amazon, 18/03/2026) e "Não fez diferença" (gel, 23/02/2025). RA Bluue, Porto Alegre/RS, 14/09/2026: queixa de que o produto "não funciona". Cursos "sem remédios" a R$ 397, Controle 2.0 e Método APM (F2 §5, citada no briefing, Bloco 5). O Google completa "como durar mais" com "sem remedio" e "de forma natural" (01/10/2026).</p>
+    <p class="nota"><b>Trava.</b> O texto da CFM 2.336 foi lido: crítica genérica a produto de terceiro não está entre as formas de concorrência desleal do art. 11, §4º, "a" a "d". Ficam duas pendências. "Curso" pode ser lido como técnica ou método, e a clínica pode vender treino de controle (pendência g). A cena dizia que "nenhum explicou", afirmação absoluta sobre todos os produtos, sem prova (art. 11, XVI; CDC, art. 37), e foi reescrita.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">g psicologia</span><span class="chip">T terceiros</span><span class="chip">M Meta</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="B6-G1">
+      <div class="rot"><b>B6-G1</b>Gancho 1</div>
+      <p class="txt">Gel, spray, curso. E a causa, quem investigou?</p>
+      <div class="chips"><span class="chip">T terceiros</span></div>
+      <button class="cp" type="button" aria-label="Copiar B6-G1">Copiar</button>
+    </div>
+    <div class="peca" id="B6-G2">
+      <div class="rot"><b>B6-G2</b>Gancho 2</div>
+      <p class="txt">Parar de comprar na esperança. Começar a decidir com informação.</p>
+      <div class="chips"><span class="chip">T terceiros</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar B6-G2">Copiar</button>
+    </div>
+    <div class="peca" id="B6-G3">
+      <div class="rot"><b>B6-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Eu investigo a causa. Com ou sem remédio, você decide.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">g psicologia</span></div>
+      <button class="cp" type="button" aria-label="Copiar B6-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="B6-F">
+      <div class="rot"><b>B6-F</b>Frase</div>
+      <p class="txt">Antes do próximo produto, a causa investigada. O caminho, com ou sem remédio, você decide com o médico.</p>
+      <div class="chips"><span class="chip">g psicologia</span></div>
+      <button class="cp" type="button" aria-label="Copiar B6-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="B6-C">
+      <div class="rot"><b>B6-C</b>Cena</div>
+      <p class="txt">No fundo da gaveta do banheiro: o gel, o spray, a caixa do suplemento.<br>No celular, o link do curso, salvo e nunca aberto.<br>Cada embalagem trazia uma promessa, e a gaveta continua cheia.<br>Na consulta, a primeira pergunta é outra: o que, no seu caso, pode estar por trás disso? A decisão seguinte nasce da resposta.</p>
+      <div class="chips"><span class="chip">T terceiros</span><span class="chip">M Meta</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar B6-C">Copiar</button>
+    </div>
+  </article>
+</section>
+
+
+<!-- ============================ PÚBLICO C ============================ -->
+<section class="publico" id="publico-c" aria-labelledby="t-c">
+  <h2 id="t-c" class="pub">Público C</h2>
+  <p class="perfil"><b>Libido baixa, com a parceira como coautora da busca, 40 anos ou mais.</b> A parceira busca antes dele. Nível de consciência: inconsciente a problema. Voz: "meu marido não me procura mais na cama" e "falta de libido masculina 45 anos, qual médico procurar" (Google Suggest, 01/10/2026). É o perfil C do briefing.</p>
+
+  <table>
+    <caption>Público C: as 8 motivações, com força, risco e decisão</caption>
+    <colgroup><col style="width:14%"><col style="width:25%"><col style="width:20%"><col style="width:8%"><col style="width:9%"><col style="width:24%"></colgroup>
+    <thead>
+      <tr>
+        <th scope="col">Motivação</th>
+        <th scope="col">Ângulo</th>
+        <th scope="col">Já dito pela AndroClinic</th>
+        <th scope="col">Força</th>
+        <th scope="col">Risco</th>
+        <th scope="col">Decisão</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 1</span><b>Não morrer, aproveitar a vida, viver mais</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Desejo que muda tem causa: sono, estresse, pressão. Investigar por exame é cuidar da saúde, e a vida a dois entra junto.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. Os vídeos 2864296463926646 e 1553903282699052 afirmam valores ("testosterona no chão", "cortisol nas nuvens") e resultado ("a vontade voltou").</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">2+1+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip mb bloco">Medo §2º e: baixa</span></td>
+        <td data-label="Decisão">Entra no desempate, por evidência de fato. Google: "falta de libido masculina" completa com "45 anos", "o que pode ser" e "qual médico procurar" (01/10/2026). CFM 2.333/2023, art. 3º: testosterona só com deficiência comprovada em exame.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 2</span><b>Comida e bebida</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">O jantar a dois sem pressa: a consulta pergunta de sono, bebida e rotina.</td>
+        <td data-label="Já dito pela AndroClinic">Novo.</td>
+        <td data-label="Força"><span class="forca">2</span><span class="forca-p">0+1+1</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Sem fonte na pesquisa.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 3</span><b>Liberdade de medos, dores e perigos</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">O medo de que a falta de vontade seja falta de amor. A consulta procura a explicação do corpo antes de qualquer sentença.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 2864296463926646 diz "não é falta de amor".</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip ma bloco">Medo §2º e: alta</span></td>
+        <td data-label="Decisão">Perde o desempate para o C1 e o C7. A evidência vem só da fala do anúncio, sem voz do público.</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 4</span><b>Romance, parceiro sexual, companheirismo</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Ela e ele, juntos, procurando a causa. A conversa a dois é o primeiro passo, e a busca é do casal.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. Quatro vídeos falam com ele sobre ela. Nenhum fala com a parceira (F3 §6).</td>
+        <td data-label="Força"><span class="forca">5</span><span class="forca-p">2+2+1</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip mb bloco">Medo §2º e: baixa</span></td>
+        <td data-label="Decisão">Google: "meu marido não me procura mais na cama", "não tem mais desejo por mim" e "não sente desejo por mim o que fazer" (01/10/2026). Depende de a parceira poder participar (N1, pendência nova).</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 5</span><b>Conforto, praticidade, conveniência</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Uma conversa por vídeo, na hora que o casal escolher, sem agenda de clínica.</td>
+        <td data-label="Já dito pela AndroClinic">Gasto. Conveniência é ângulo gasto (briefing, Bloco 5).</td>
+        <td data-label="Força"><span class="forca">2</span><span class="forca-p">1+1+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">A duração oficial da consulta ainda é <mark class="ph">[A PREENCHER]</mark>, e o ângulo é gasto.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 6</span><b>Ser superior, vencer, não ficar para trás</b><i>Reescrita: voltar a decidir</i><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Quem resolve a vida de todo mundo decide cuidar da própria: marcar a consulta é uma decisão tomada com dados.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 1553903282699052, do executivo que empurra a própria saúde, afirma a condição: "você não falha apesar de ser competente".</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">Perde o desempate para o C1 e o C7. O original "ser superior, vencer" caiu por desempenho, e a reescrita fica perto de um vídeo que afirma a condição.</td>
+      </tr>
+      <tr class="pick">
+        <td class="mot"><span class="n">Motivação 7</span><b>Cuidar e proteger quem a gente ama</b><span class="sel">Escolhido</span></td>
+        <td data-label="Ângulo">Contar a quem a gente ama que está cuidando da saúde é um gesto de cuidado. A consulta é o primeiro passo, e a frase para dizer é simples.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 1040779632032662 diz "ela acha que o problema é ela" e mostra a vergonha de contar. Novo: a frase pronta para abrir a conversa.</td>
+        <td data-label="Força"><span class="forca">3</span><span class="forca-p">1+2+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span><span class="chip mm bloco">Medo §2º e: média</span></td>
+        <td data-label="Decisão">Entra por julgamento do squad no empate, acrescentado depois do placar, e não por regra: a frase pronta parece o elemento novo mais testável. A evidência vale 1. O "por mim" de "meu marido não tem mais desejo por mim" (Google, 01/10/2026) sugere que ela se culpa, e isso é leitura do squad. SBU 2024: amostra de maioria casada (TNH1). Este fala com ele, e o C4 fala com ela.</td>
+      </tr>
+      <tr>
+        <td class="mot"><span class="n">Motivação 8</span><b>Aprovação social</b><span class="fora">Fora</span></td>
+        <td data-label="Ângulo">Para os amigos ele segue o mesmo. Em casa, o assunto virou silêncio. A consulta é a conversa que dispensa plateia.</td>
+        <td data-label="Já dito pela AndroClinic">Parcial. O vídeo 4533292903625802 (churrasco) já ocupa a cena do "cara da roda".</td>
+        <td data-label="Força"><span class="forca">2</span><span class="forca-p">1+1+0</span></td>
+        <td data-label="Risco"><span class="risk laranja">Laranja</span></td>
+        <td data-label="Decisão">A aprovação dos amigos pesa pouco em libido, e o espaço já está ocupado.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="placar">Placar C: C4 5 · C1 3 · C7 3 · C3 3 · C6 3 · C2 2 · C5 2 · C8 2</p>
+  <p class="nota"><b>Corte.</b> Entra o C4. Os outros dois lugares saem de um empate em 3 pontos entre C1, C3, C6 e C7. O C1 ganha por ter evidência de fato (Google). Entre C3, C6 e C7, todos com evidência 1, o C7 entra por julgamento do squad, acrescentado depois do placar, e não por regra: a frase pronta parece o elemento novo mais testável. Quatro vídeos de casal falam com ele, e nenhum fala com a parceira.</p>
+
+  <p class="angulos-t">Ângulos escolhidos do público C</p>
+
+  <!-- C4 -->
+  <article class="angulo" id="C4">
+    <div class="ang-top"><span class="ang-k">C4 · Romance, parceiro sexual, companheirismo</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 5</span></div>
+    <h3>Ela e ele, juntos</h3>
+    <p class="nota"><b>Já existe?</b> Parcial. Quatro vídeos falam com ele sobre ela (4566142067039678, 1606844540979244, 1040779632032662, 2864296463926646). Nenhum fala com a parceira (F3 §6). O novo é a busca a dois, com ela como coautora.</p>
+    <p class="nota"><b>Evidência.</b> Google: "meu marido não me procura mais na cama", "não tem mais desejo por mim" e "não sente desejo por mim o que fazer" (01/10/2026). Catálogo Med: a namorada faz a pergunta pelo namorado de 26 anos. A avaliação positiva de uma mulher no RA (Goiânia, 08/09/2026) lembra depoimento incentivado e fica fora. Trava: a parceira participar do processo é pendência nova (N1).</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">N1 parceira</span><span class="chip">M Meta</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="C4-G1">
+      <div class="rot"><b>C4-G1</b>Gancho 1</div>
+      <p class="txt">Saúde também se cuida a dois. Procurem um médico juntos.</p>
+      <div class="chips"><span class="chip">N1 parceira</span></div>
+      <button class="cp" type="button" aria-label="Copiar C4-G1">Copiar</button>
+    </div>
+    <div class="peca" id="C4-G2">
+      <div class="rot"><b>C4-G2</b>Gancho 2</div>
+      <p class="txt">Marcar a consulta pode ser um projeto do casal.</p>
+      <div class="chips"><span class="chip">N1 parceira</span></div>
+      <button class="cp" type="button" aria-label="Copiar C4-G2">Copiar</button>
+    </div>
+    <div class="peca" id="C4-G3">
+      <div class="rot"><b>C4-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Se ela quiser vir junto, eu recebo os dois.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">N1 parceira</span></div>
+      <button class="cp" type="button" aria-label="Copiar C4-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="C4-F">
+      <div class="rot"><b>C4-F</b>Frase</div>
+      <p class="txt">Quem divide a vida pode dividir o cuidado. A consulta pode ser marcada pelos dois.</p>
+      <div class="chips"><span class="chip">N1 parceira</span></div>
+      <button class="cp" type="button" aria-label="Copiar C4-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="C4-C">
+      <div class="rot"><b>C4-C</b>Cena</div>
+      <p class="txt">Domingo de manhã, café na mesa, os dois celulares virados para baixo.<br>Ela pergunta, sem acusar: “quer que eu marque com você?”<br>Ele demora um segundo e diz sim.<br>Pela primeira vez em muito tempo, o assunto está na mesa, ao lado do pão.</p>
+      <div class="chips"><span class="chip">M Meta</span><span class="chip">N1 parceira</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar C4-C">Copiar</button>
+    </div>
+  </article>
+
+  <!-- C7 -->
+  <article class="angulo" id="C7">
+    <div class="ang-top"><span class="ang-k">C7 · Cuidar e proteger quem a gente ama</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 3</span></div>
+    <h3>Contar é um jeito de cuidar</h3>
+    <p class="nota"><b>Já existe?</b> Parcial. O vídeo 1040779632032662 diz "ela acha que o problema é ela" e mostra a vergonha de contar. Nenhum vídeo dá a frase pronta para abrir a conversa. O novo é a frase.</p>
+    <p class="nota"><b>Evidência.</b> Vale 1, porque é leitura do squad. O "por mim" de "meu marido não tem mais desejo por mim" (Google, 01/10/2026) sugere que ela se culpa. SBU, julho de 2024: a amostra tinha maioria de casados (Tribuna de Minas e TNH1, 11/07/2024). Este ângulo fala com ele, e o C4 fala com ela ou com o casal.</p>
+    <p class="nota"><b>Trava.</b> A peça não afirma a situação do casal, não declara causa e não apela à culpa (CFM 2.336, art. 11, XVI). A fala da cena não afirma condição nenhuma, e a cena não usa tensão como motor (art. 11, §2º, "e"). O gancho 2 antes soava como cobrança ("Quem ama explica") e contradizia esta trava: foi reescrito.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">M Meta</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="C7-G1">
+      <div class="rot"><b>C7-G1</b>Gancho 1</div>
+      <p class="txt">Cuidar da sua saúde é cuidar de quem você ama.</p>
+      <div class="chips"></div>
+      <button class="cp" type="button" aria-label="Copiar C7-G1">Copiar</button>
+    </div>
+    <div class="peca" id="C7-G2">
+      <div class="rot"><b>C7-G2</b>Gancho 2</div>
+      <p class="txt">Uma frase simples abre a conversa: marquei uma consulta.</p>
+      <div class="chips"></div>
+      <button class="cp" type="button" aria-label="Copiar C7-G2">Copiar</button>
+    </div>
+    <div class="peca" id="C7-G3">
+      <div class="rot"><b>C7-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Contar a ela é cuidar. A parte médica é comigo.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">M Meta</span><span class="chip">Pressupõe</span></div>
+      <button class="cp" type="button" aria-label="Copiar C7-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="C7-F">
+      <div class="rot"><b>C7-F</b>Frase</div>
+      <p class="txt">“Marquei uma consulta com um médico.” Uma frase simples para abrir a conversa em casa.</p>
+      <div class="chips"></div>
+      <button class="cp" type="button" aria-label="Copiar C7-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="C7-C">
+      <div class="rot"><b>C7-C</b>Cena</div>
+      <p class="txt">Sábado de manhã, ela lava a louça e ele seca, como todo sábado.<br>Ele pousa o pano e diz: “marquei uma consulta com um médico. Quero que você saiba.”<br>Ela se vira, pergunta “quando?” e segura a mão dele.<br>A louça fica por terminar, e a conversa vai longe.</p>
+      <div class="chips"><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar C7-C">Copiar</button>
+    </div>
+  </article>
+
+  <!-- C1 -->
+  <article class="angulo" id="C1">
+    <div class="ang-top"><span class="ang-k">C1 · Não morrer, aproveitar a vida, viver mais</span><span class="risk laranja">Risco laranja</span><span class="chip">Força 3</span></div>
+    <h3>A vontade tem causa</h3>
+    <p class="nota"><b>Já existe?</b> Parcial. Os vídeos 2864296463926646 e 1553903282699052 afirmam valores ("testosterona no chão", "cortisol nas nuvens") e resultado ("a vontade voltou"). O novo é investigar por exame como cuidado com a saúde, sem afirmar valor e sem prometer retorno da vontade.</p>
+    <p class="nota"><b>Evidência.</b> Google: "falta de libido masculina" completa com "45 anos", "o que pode ser" e "qual médico procurar" (01/10/2026). CFM 2.333/2023, art. 3º: testosterona só com deficiência comprovada em exame, e por isso nenhuma peça cita hormônio. Entrou no desempate por evidência de fato.</p>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico</span><span class="chip">P3 oferta</span><span class="chip">DT clínico</span></div>
+
+    <h4>Ganchos de abertura (3 primeiros segundos falados)</h4>
+    <div class="peca" id="C1-G1">
+      <div class="rot"><b>C1-G1</b>Gancho 1</div>
+      <p class="txt">Falta de desejo tem causa. A consulta começa pela investigação.</p>
+      <div class="chips"><span class="chip">Bloco 13</span><span class="chip">DT clínico</span></div>
+      <button class="cp" type="button" aria-label="Copiar C1-G1">Copiar</button>
+    </div>
+    <div class="peca" id="C1-G2">
+      <div class="rot"><b>C1-G2</b>Gancho 2</div>
+      <p class="txt">Libido também é assunto de saúde. Pergunte a um médico.</p>
+      <div class="chips"><span class="chip">DT clínico</span></div>
+      <button class="cp" type="button" aria-label="Copiar C1-G2">Copiar</button>
+    </div>
+    <div class="peca" id="C1-G3">
+      <div class="rot"><b>C1-G3</b>Gancho 3 · voz do médico</div>
+      <p class="txt">Antes do tratamento, eu olho seu sono e seus exames.</p>
+      <div class="chips"><span class="chip">P2 médico</span><span class="chip">P3 oferta</span><span class="chip">DT clínico</span></div>
+      <button class="cp" type="button" aria-label="Copiar C1-G3">Copiar</button>
+    </div>
+
+    <h4>Frase de teste (feed ou story)</h4>
+    <div class="peca" id="C1-F">
+      <div class="rot"><b>C1-F</b>Frase</div>
+      <p class="txt">Quando o desejo muda, o corpo pode ter uma explicação. O médico procura por ela, com exame se o caso pedir.</p>
+      <div class="chips"><span class="chip">DT clínico</span><span class="chip">P3 oferta</span></div>
+      <button class="cp" type="button" aria-label="Copiar C1-F">Copiar</button>
+    </div>
+
+    <h4>Cena vívida (3 a 4 linhas)</h4>
+    <div class="peca cena" id="C1-C">
+      <div class="rot"><b>C1-C</b>Cena</div>
+      <p class="txt">Sexta, fim do dia: ele chega em casa sem energia para nada além do sofá.<br>Nas últimas semanas dormiu pouco, e a pressão do trabalho só cresceu.<br>Na consulta, o médico anota tudo isso e pede os exames que o caso pede.<br>Agora o assunto da vontade tem por onde começar.</p>
+      <div class="chips"><span class="chip">DT clínico</span><span class="chip">P3 oferta</span><span class="chip mb">Medo §2º e: baixa</span></div>
+      <button class="cp" type="button" aria-label="Copiar C1-C">Copiar</button>
+    </div>
+  </article>
+</section>
+
+
+<!-- ============================ ADVOGADO ============================ -->
+<section class="fim" id="advogado" aria-labelledby="t-adv">
+  <h2 id="t-adv">Peças que o advogado precisa ver</h2>
+  <p class="intro">Toda peça passa pelo parecer (pendência 7). Estas são as que pedem leitura jurídica específica, com a regra ao lado.</p>
+  <ol>
+    <li><b>Marca Medo (CFM 2.336, art. 11, §2º, "e").</b> É sensacionalismo veicular em público informação que possa causar intranquilidade, insegurança, pânico ou medo, mesmo para fatos conhecidos. A motivação 3 é a de maior risco regulatório da página: os ângulos A3, B3 e C3 ficam em alta na tabela. Nas peças, A3-G1 e A3-C estavam em alta, e A3-G2, B3-C, B3-G1, B3-G3, C7-G2, C4-F, B4-C e C7-C em média. Todas foram reescritas e as marcas caíram. C7-G2 e C4-F ficam sem marca. Seguem em baixa: A1-G1, A1-G2, A1-F, A3-G1, A3-G2, A3-G3, A3-F, A3-C, B3-G1, B3-G3, B3-C, B4-C, B6-G2, B6-C, C4-C, C1-C e C7-C. Se o advogado ler a alínea "e" de forma estreita, as marcas viram aviso. Até lá vale a letra.</li>
+    <li><b>A1-G1, A1-F, C1-G1, C1-F.</b> "Check-up completo inclui a ereção" (frase da ponte do briefing) e "o corpo pode ter uma explicação" são afirmações clínicas. O diretor técnico responde pela publicidade (CFM 2.336, art. 3º, II), e a frase não pode soar sensacionalista (art. 11, XVI).</li>
+    <li><b>A1-C, C1-G3, C1-F, C1-C.</b> Dizem que a consulta lê ou pede exames. A clínica confirma que faz e que entra no preço (P3). Em libido, hormônio só com deficiência comprovada em exame (CFM 2.333/2023, art. 3º): nenhuma peça cita hormônio.</li>
+    <li><b>A3-G1, A3-G2, A3-G3, A3-F, A3-C.</b> Abrem pela resposta, e não pela pergunta de medo. Prometem o tratamento explicado antes de começar (A3-F usa a frase do Bloco 13) e uma explicação por escrito. Dependem do protocolo da pendência k. A explicação sobre dependência não pode insinuar que ele deixará de precisar do remédio (art. 11, XII) nem negar efeito colateral (art. 11, XVI). As peças não usam "vicia", "dose" nem "reduzir". Consentimento esclarecido: CFM 2.314/2022, art. 15.</li>
+    <li><b>Contraste (art. 11, §3º, promocional por contraste).</b> A6-G2 ("A consulta acaba na consulta") e A6-C ("Ninguém liga para fechar pacote") se definem contra outros médicos e clínicas. O §3º chama de promocional referir-se ao próprio serviço de modo a conferir-lhe qualidades privilegiadas. É risco de autopromoção por contraste, sem ofensa por letra (§4º, "b"). A1-G2, A1-C e A3-C tinham o mesmo contraste ("alguém perguntou", "a pergunta que o laboratório não faz", "cada resposta vem de um desconhecido") e foram reescritos.</li>
+    <li><b>A6-G1 e A6-F.</b> Preço único e visível antes do agendamento (P3). Preço de consulta é permitido (CFM 2.336, art. 9º, VI). O valor entra como R$ [PREÇO] até a pendência 3.</li>
+    <li><b>A6-G2, A6-G3, A6-F, A6-C.</b> Prometem operação: "a consulta acaba na consulta", "ninguém liga para fechar pacote", receita na mão, "eu digo o que prescrevo". Só valem com a pendência 4 = sim. Sem ela, são inverídicas (art. 11, XVI) e repetem a reclamação do Reclame Aqui. Receita com assinatura ICP-Brasil (CFM 2.314/2022, art. 13). Se houver vínculo com farmácia, valem os arts. 68 e 69 do CEM (P1). Conflito já registrado entre a oportunidade 2 e o Bloco 13.</li>
+    <li><b>B3-G2, B3-G1 e B3-F.</b> "Ejaculação precoce tem tratamento" (G2) é a frase substituta do Bloco 13. G1 e F seguem o mesmo molde com "tem causa". O advogado confirma que nenhuma insinua resultado (art. 11, XII).</li>
+    <li><b>B3-G1, B3-G3, B3-C.</b> O tom "sem julgamento" e a fala "Ninguém ri" saíram da copy: pressupõem medo de ser julgado (art. 11, §2º, "e") e vêm de avaliação que lembra depoimento incentivado (pendência e). B3-G3 ficou em "pode perguntar", sem prometer tom.</li>
+    <li><b>B4-G1, B4-G2, B4-G3, B4-F, B4-C.</b> Relação íntima na Meta, que exige foco em saúde e eficácia médica, sem prazer nem desempenho. Os ganchos falam de saúde, confiança e relação, e a cena fica em terceira pessoa e sem tensão. O advogado e o gestor de tráfego decidem se "relação nova" passa como atributo de relacionamento.</li>
+    <li><b>B4-G1, B4-G2, B4-F e C7-G3.</b> Marca Pressupõe: "Relação nova pede cuidado" e "Contar a ela é cuidar" sugerem que o leitor tem algo a contar. O advogado e o gestor de tráfego conferem se isso afirma condição na Meta.</li>
+    <li><b>B6-G1, B6-G2, B6-F, B6-C.</b> Crítica genérica a gel, spray, suplemento e curso, sem nomear produto. O texto da CFM 2.336 foi lido: essa crítica não está entre as formas de concorrência desleal do art. 11, §4º, "a" a "d". Ficam duas pendências. "Curso" pode ser lido como técnica ou método, e a clínica pode vender treino de controle (pendência g): o advogado decide se B6-G1 e B6-C mantêm a palavra. B6-C dizia que "nenhum explicou", afirmação absoluta sobre todos os produtos, sem prova (art. 11, XVI; CDC, art. 37): foi reescrita. "Com ou sem remédio" só vale se a clínica oferecer caminho sem remédio (pendência g).</li>
+    <li><b>C4 e C7, todas.</b> Falam da parceira. Consulta com terceira pessoa presente pede sigilo e consentimento dele (LGPD, arts. 5º e 11). Peça que fala com ela sobre a saúde dele toca atributo de terceiro na Meta. Se a parceira não puder participar (N1), saem C4-G1, C4-G2, C4-G3, C4-F e C4-C. A N1 ainda não consta no briefing e precisa ser registrada lá.</li>
+    <li><b>Todas as G3 (voz do médico).</b> "Eu explico", "eu digo", "eu investigo", "eu começo ouvindo", "eu escuto", "eu recebo os dois", "a parte médica é comigo" e "eu olho" afirmam que o médico do anúncio atende (P2). Nome, CRM com UF e a palavra MÉDICO ficam na tela (art. 4º). Nenhuma peça diz "especialista" nem "focado em saúde sexual": sem RQE verificado, a regra veda (arts. 4º e 11, I).</li>
+    <li><b>Peças com a marca M.</b> A1-C, B4-G1, B4-G2, B4-F, B6-C, C4-C e C7-G3 dirigem pergunta ou situação a quem vê. A Meta lê como atributo pessoal. As cenas A3-C, B3-C, B4-C, C7-C e C1-C ficam em terceira pessoa e não afirmam o que o leitor tem, toma ou sente.</li>
+  </ol>
+</section>
+
+<section class="fim" id="preencher" aria-labelledby="t-pre">
+  <h2 id="t-pre">O que ficou como [A PREENCHER]</h2>
+  <p class="intro">Nada abaixo foi inventado. Cada item trava as peças ao lado.</p>
+  <ul>
+    <li><b>Preço único da consulta.</b> Circulam R$ 196 e R$ 197. Trava a A6-G1 e a A6-F (P3).</li>
+    <li><b>Nome, CRM com UF e RQE, se houver, do médico que aparece e atende.</b> Trava todas as G3 e a assinatura da tela (P2).</li>
+    <li><b>Resposta da pendência 4.</b> Receita na mão, preço do tratamento antes da compra, sem venda na mesma chamada. Trava o A6 inteiro.</li>
+    <li><b>Protocolo de dependência e explicação por escrito.</b> Trava o A3 (pendência k).</li>
+    <li><b>Psicologia ou treino de controle oferecidos de fato.</b> Trava "com ou sem remédio" no B6 (pendência g).</li>
+    <li><b>Parceira na consulta, com consentimento dele.</b> Trava o C4 (N1, pendência nova). A N1 ainda não consta no briefing e precisa ser registrada lá.</li>
+    <li><b>Destino do CTA e WhatsApp.</b> Fora das peças (pendência 6).</li>
+    <li><b>Retorno incluído e duração oficial da consulta.</b> Nenhuma peça os cita, justamente por estarem em aberto (P3).</li>
+  </ul>
+</section>
+
+<footer class="rodape">
+  <p><b>Fontes.</b> Briefing da AndroClinic (01/10/2026), razão por que (02/10/2026), transcrições dos 24 vídeos da Meta (coleta de 01/10/2026), frente 4 (público) e top 5 de concorrentes diretos. Trechos de vídeo vêm de transcrição automática: conferir no vídeo antes de citar em peça.</p>
+  <p><b>Letras dos públicos.</b> Neste documento, A é a dificuldade de ereção física (perfil B do briefing), B é o jovem com ejaculação precoce ou ansiedade (perfil A do briefing) e C é a libido com a parceira (perfil C).</p>
+  <p>O placar ordena hipóteses de ângulo e não mede conversão. Quem decide é o teste.</p>
+</footer>
+
+</div>
+
+<div id="status" class="sr" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var r=document.documentElement,b=document.getElementById('tema');
+  try{var s=localStorage.getItem('tema-angulos');if(s){r.setAttribute('data-tema',s);}}catch(e){}
+  function atual(){
+    var t=r.getAttribute('data-tema');
+    if(t){return t;}
+    return (window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'escuro':'claro';
+  }
+  function rot(){b.textContent=atual()==='escuro'?'Tema claro':'Tema escuro';}
+  rot();
+  b.addEventListener('click',function(){
+    var n=atual()==='escuro'?'claro':'escuro';
+    r.setAttribute('data-tema',n);
+    try{localStorage.setItem('tema-angulos',n);}catch(e){}
+    rot();
+  });
+})();
+
+(function(){
+  var st=document.getElementById('status');
+  function reserva(t){
+    return new Promise(function(ok,no){
+      var a=document.createElement('textarea');
+      a.value=t;a.setAttribute('readonly','');
+      a.style.cssText='position:fixed;top:0;left:0;opacity:0';
+      document.body.appendChild(a);a.select();a.setSelectionRange(0,t.length);
+      var feito=false;
+      try{feito=document.execCommand('copy');}catch(e){}
+      document.body.removeChild(a);
+      if(feito){ok();}else{no();}
+    });
+  }
+  function copiar(t){
+    if(navigator.clipboard&&window.isSecureContext){
+      return navigator.clipboard.writeText(t).catch(function(){return reserva(t);});
+    }
+    return reserva(t);
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('.cp'):null;
+    if(!b){return;}
+    var el=b.closest('.peca').querySelector('.txt');
+    var t=(el.innerText||el.textContent).replace(/\n{3,}/g,'\n\n').trim();
+    copiar(t).then(function(){
+      b.classList.add('ok');b.textContent='Copiado';st.textContent='Texto copiado.';
+      setTimeout(function(){b.classList.remove('ok');b.textContent='Copiar';st.textContent='';},1800);
+    },function(){
+      b.textContent='Falhou';
+      setTimeout(function(){b.textContent='Copiar';},1800);
+    });
+  });
+})();
+</script>
+</body>
+</html>

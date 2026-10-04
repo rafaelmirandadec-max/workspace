@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Roteiro de reunião com os donos · AndroClinic</title>
+<style>
+  :root{
+    --bg:#F4F1EA;
+    --surface:#FBF9F4;
+    --surface-2:#ECE6DA;
+    --ink:#1A1714;
+    --ink-soft:#3F382F;
+    --line:#B9AC95;
+    --accent:#1D4F5A;
+    --btn-ink:#FBF9F4;
+    --ok:#1F5A31;
+    --ok-bg:#DDEEDC;
+    --warn:#7A4400;
+    --warn-bg:#F8E3BF;
+    --bad:#8A1C1C;
+    --bad-bg:#F6D9D5;
+    --chip-bg:#E4DDCF;
+    --chip-ink:#2D2822;
+    --ph-bg:#F8E3BF;
+    --ph-ink:#5A3300;
+    --shadow:0 1px 0 rgba(70,52,28,.06),0 10px 26px -18px rgba(70,52,28,.35);
+    --serif:"Iowan Old Style","Charter","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  }
+  :root[data-tema="escuro"]{
+    --bg:#14120F;
+    --surface:#1C1916;
+    --surface-2:#26221D;
+    --ink:#F0EADF;
+    --ink-soft:#CFC6B7;
+    --line:#4A4237;
+    --accent:#8EC5CF;
+    --btn-ink:#14120F;
+    --ok:#A7D7B1;
+    --ok-bg:#1B2C20;
+    --warn:#F0C77E;
+    --warn-bg:#33270F;
+    --bad:#F5A9A0;
+    --bad-bg:#3A1A18;
+    --chip-bg:#2E2A24;
+    --chip-ink:#E6DED0;
+    --ph-bg:#33270F;
+    --ph-ink:#F0C77E;
+    --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-tema="claro"]){
+      --bg:#14120F;
+      --surface:#1C1916;
+      --surface-2:#26221D;
+      --ink:#F0EADF;
+      --ink-soft:#CFC6B7;
+      --line:#4A4237;
+      --accent:#8EC5CF;
+      --btn-ink:#14120F;
+      --ok:#A7D7B1;
+      --ok-bg:#1B2C20;
+      --warn:#F0C77E;
+      --warn-bg:#33270F;
+      --bad:#F5A9A0;
+      --bad-bg:#3A1A18;
+      --chip-bg:#2E2A24;
+      --chip-ink:#E6DED0;
+      --ph-bg:#33270F;
+      --ph-ink:#F0C77E;
+      --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+    }
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font:1.125rem/1.65 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:860px;margin:0 auto;padding:0 clamp(14px,4vw,32px)}
+  a{color:var(--accent)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  mark.ph{background:var(--ph-bg);color:var(--ph-ink);padding:0 4px;border-radius:4px;font-weight:700}
+  b{font-weight:700}
+
+  .top{padding:clamp(28px,6vw,60px) 0 8px}
+  .barra{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  .kicker{font:700 .9rem/1.3 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .botoes{display:flex;flex-wrap:wrap;gap:10px}
+  .btn{font:700 1rem/1.2 var(--sans);min-height:48px;padding:10px 18px;border:2px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;cursor:pointer}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(4.5rem,14vw,6rem);line-height:.95;letter-spacing:-.02em;margin:14px 0 16px}
+  .sub{font-size:clamp(1.25rem,2.4vw,1.4rem);line-height:1.5;color:var(--ink-soft);max-width:60ch}
+  .dica{margin-top:12px;color:var(--ink-soft);max-width:66ch}
+  .aviso{display:inline-block;margin:22px 0 0;padding:12px 18px;border:2px solid var(--bad);background:var(--bad-bg);color:var(--bad);border-radius:10px;font-weight:700}
+  .nav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+  .nav a{display:inline-block;min-height:48px;min-width:48px;text-align:center;line-height:48px;padding:0 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);text-decoration:none;font-weight:700;font-size:1rem}
+
+  .sec{margin:clamp(44px,7vw,76px) 0 0}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,5vw,2.6rem);line-height:1.1;letter-spacing:-.01em;margin-bottom:12px}
+  h3{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,3.6vw,1.8rem);line-height:1.2}
+  .lead{color:var(--ink-soft);max-width:68ch;margin-bottom:14px}
+  .rotulo{display:block;font:700 .9rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+  ul.lista,ol.lista{max-width:70ch;margin:8px 0 12px 1.2em}
+  .lista li{margin-bottom:10px}
+  .lista b{color:var(--accent)}
+  .nota{max-width:70ch;margin:12px 0 0;padding:12px 16px;background:var(--warn-bg);color:var(--warn);border-radius:8px;font-weight:600}
+
+  .fala{max-width:66ch;margin:12px 0 18px;padding:16px 20px;border-left:5px solid var(--accent);background:var(--surface);border-radius:0 10px 10px 0;font-family:var(--serif);font-size:1.375rem;line-height:1.55}
+  .fala p+p{margin-top:.6em}
+
+  .chip{display:inline-block;font:700 .9rem/1.3 var(--sans);background:var(--chip-bg);color:var(--chip-ink);padding:5px 10px;border-radius:6px}
+  .chip.prio{background:var(--accent);color:var(--btn-ink)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 0}
+
+  ol.ordem{list-style:none;counter-reset:o;max-width:72ch;margin:14px 0 0}
+  ol.ordem li{counter-increment:o;position:relative;padding:14px 0 14px 3rem;border-top:1px solid var(--line)}
+  ol.ordem li:last-child{border-bottom:1px solid var(--line)}
+  ol.ordem li::before{content:counter(o);position:absolute;left:0;top:10px;font:600 2.2rem/1 var(--serif);color:var(--accent)}
+  ol.ordem b{display:block}
+  ol.ordem .chip{margin-top:6px}
+
+  .bloco{margin:28px 0 0;padding:clamp(16px,3vw,26px);background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+  .bloco-topo{display:flex;gap:18px;align-items:flex-start}
+  .num{flex:0 0 auto;min-width:2.6rem;font-family:var(--serif);font-weight:600;font-size:4.5rem;line-height:.85;color:var(--accent)}
+  .pergunta{margin:18px 0 4px;padding:14px 18px;background:var(--surface-2);border-left:5px solid var(--accent);border-radius:0 10px 10px 0}
+  .pergunta .rotulo{margin-bottom:6px}
+  .pergunta p{font-family:var(--serif);font-weight:600;font-size:1.5rem;line-height:1.4}
+  .pergunta ol{margin:8px 0 0 1.5em}
+  .pergunta li{font-family:var(--serif);font-weight:600;font-size:1.3rem;line-height:1.4;margin-bottom:4px}
+  .campos dt{display:block;margin:22px 0 4px;font:700 .9rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);break-after:avoid;page-break-after:avoid}
+  .campos dt.sim{color:var(--ok)}
+  .campos dt.nao{color:var(--warn)}
+  .campos dd{max-width:70ch}
+  .campos dd+dd{margin-top:8px}
+  .campos ul{margin:4px 0 4px 1.2em}
+  .campos li{margin-bottom:6px}
+
+  ol.curta{list-style:none;counter-reset:c;max-width:72ch;margin:14px 0 0}
+  ol.curta li{counter-increment:c;position:relative;padding:16px 0 16px 3rem;border-top:1px solid var(--line)}
+  ol.curta li:last-child{border-bottom:1px solid var(--line)}
+  ol.curta li::before{content:counter(c);position:absolute;left:0;top:12px;font:600 2.2rem/1 var(--serif);color:var(--accent)}
+  ol.curta .q{font-family:var(--serif);font-weight:600;font-size:1.3rem;line-height:1.4}
+  ol.curta .d{margin-top:6px}
+  ol.curta .chip{margin-top:8px}
+
+  .item-folha{padding:14px 0;border-top:1px solid var(--line);max-width:78ch}
+  .item-folha .q{font-weight:600}
+  .resp{display:flex;flex-wrap:wrap;gap:16px;margin-top:8px}
+  .campo{flex:1 1 280px;min-height:5rem;border-bottom:2px solid var(--ink-soft)}
+  .campo.data{flex:0 0 11rem}
+  .grupo{margin:26px 0 0;font:700 .9rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+
+  .decisao{margin:20px 0 0;padding:16px 18px;border:2px solid var(--ink-soft);border-radius:10px;max-width:78ch}
+  .decisao .corresp{margin-top:6px;color:var(--ink-soft)}
+  .caixa{margin:12px 0 0;min-height:7.5rem;border:1px solid var(--ink-soft);border-radius:6px;padding:6px 10px}
+  .caixa.baixa{min-height:5rem}
+  .status{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;margin-top:12px}
+  .status span.op{display:inline-flex;align-items:center;gap:8px}
+  .box{display:inline-block;width:1.2rem;height:1.2rem;border:2px solid var(--ink);border-radius:3px}
+  .status .data-linha{flex:1 1 9rem;min-height:2.4rem;border-bottom:2px solid var(--ink-soft)}
+
+  .rodape{margin:clamp(44px,7vw,72px) 0 0;padding:0 0 56px;color:var(--ink-soft);max-width:72ch}
+  .rodape p{margin-bottom:10px}
+
+  @media (max-width:560px){
+    .bloco-topo{gap:12px}
+    .num{font-size:3.5rem;min-width:2rem}
+    .pergunta p{font-size:1.35rem}
+  }
+
+  @page{size:A4;margin:12mm}
+  @media print{
+    :root,:root[data-tema="escuro"],:root[data-tema="claro"],:root:not([data-tema="claro"]){
+      --bg:#fff;--surface:#fff;--surface-2:#fff;--ink:#111;--ink-soft:#222;--line:#777;--accent:#111;--btn-ink:#fff;
+      --ok:#111;--ok-bg:#fff;--warn:#111;--warn-bg:#fff;--bad:#111;--bad-bg:#fff;
+      --chip-bg:#fff;--chip-ink:#111;--ph-bg:#fff;--ph-ink:#111;--shadow:none;
+    }
+    body{background:#fff;color:#111;line-height:1.4}
+    *{box-shadow:none !important;text-shadow:none !important}
+    .botoes,.btn,.nav,.dica{display:none !important}
+    body.so-folhas .nao-folha{display:none !important}
+    .wrap{max-width:none;padding:0}
+    .sec{margin-top:18px}
+    p,li,dd,.lead,.campos dd,ul.lista,ol.lista,ol.ordem,ol.curta{max-width:none}
+    a{color:inherit;text-decoration:none}
+    .top{padding-top:0}
+    .aviso{border:2px solid #111;background:#fff;color:#111;margin-top:0}
+    .nota{border:1px solid #111;background:#fff;color:#111}
+    .fala{background:#fff;border-left:4px solid #111}
+    .bloco{border:1px solid #777;margin-top:14px;padding:12px 14px;break-inside:auto;page-break-inside:auto}
+    .bloco-topo,.pergunta,.parte,.item-folha,.decisao,ol.ordem li,ol.curta li,.fala{break-inside:avoid;page-break-inside:avoid}
+    .bloco-topo{break-after:avoid;page-break-after:avoid}
+    .campos dt{margin-top:10px;break-after:avoid;page-break-after:avoid}
+    .campos dd{margin-top:2px}
+    .pergunta{background:#fff;border:1px solid #111;border-left:5px solid #111;margin-top:10px}
+    .num{font-size:3rem}
+    .chip{border:1px solid #111;background:#fff;color:#111}
+    .chip.prio{border:2px solid #111;background:#fff;color:#111}
+    mark.ph{background:#fff;color:#111;border:1px solid #111}
+    #folha-bolso,#decisoes{break-before:page;page-break-before:always}
+    #folha-bolso,#decisoes{margin-top:0}
+    .decisao{border:2px solid #111}
+    .rodape{padding-bottom:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top nao-folha">
+  <div class="barra">
+    <div class="kicker">AndroClinic · Roteiro de reunião · 04/10/2026</div>
+    <div class="botoes">
+      <button class="btn" id="imprimir" type="button">Imprimir só as folhas, sem os seis blocos</button>
+      <button class="btn" id="tema" type="button">Tema escuro</button>
+    </div>
+  </div>
+  <h1>Roteiro</h1>
+  <p class="sub">Seis perguntas aos donos da AndroClinic que destravam a copy, na ordem em que a reunião as faz.</p>
+  <p class="dica">O botão imprime abertura, ordem, cuidados, linhas de resposta e decisões. Para imprimir tudo, use Ctrl+P ou Cmd+P. Na impressão completa, cada bloco ocupa até duas páginas: o corte cai antes de “Se a resposta vier clara”, e nenhuma parte se divide.</p>
+  <nav class="nav" aria-label="Seções do roteiro">
+    <a href="#abertura">Abertura</a>
+    <a href="#ordem">Ordem</a>
+    <a href="#p1" aria-label="Pergunta 1, site, WhatsApp, endereço e registro">1</a>
+    <a href="#p2" aria-label="Pergunta 2, preço da consulta e retorno">2</a>
+    <a href="#p3" aria-label="Pergunta 3, receita sem compra">3</a>
+    <a href="#p4" aria-label="Pergunta 4, farmácia">4</a>
+    <a href="#p5" aria-label="Pergunta 5, diretor técnico e médico">5</a>
+    <a href="#p6" aria-label="Pergunta 6, parceira na consulta">6</a>
+    <a href="#lista">Lista curta</a>
+    <a href="#cuidados">Cuidados</a>
+    <a href="#folha-bolso">Folhas</a>
+  </nav>
+</header>
+
+<p class="aviso folha">Uso interno do Rafael. Não envie nem mostre este documento ao cliente.</p>
+
+<section class="sec folha" id="abertura">
+  <h2>Abertura</h2>
+  <p class="lead">Três frases em voz alta, antes de qualquer pergunta difícil.</p>
+  <div class="fala">
+    <p>A pesquisa mostra uma base que a clínica já construiu (59 mil seguidores; nota 8,7 contra 6,6 da Boston, leitura de 01/10).</p>
+    <p>Esses números ficam fora das peças.</p>
+    <p>O que eu preciso hoje são seis respostas para a copy sair sem gerar reclamação.</p>
+  </div>
+  <ul class="lista">
+    <li><b>59 mil seguidores:</b> perfil de Instagram da clínica, lido em 01/10/2026 (F1 §5). Mede audiência, e o briefing deixa o número fora das provas (Briefing, Bloco 8).</li>
+    <li><b>Nota 8,7 contra 6,6:</b> Reclame Aqui, 01/03 a 31/08/2026, no mesmo período (F2 §1 e §8). É uma de três leituras da mesma página: 8,7, 8,2 e “Ótima” (F1 §3).</li>
+    <li><b>Vídeos com o médico:</b> ficam fora da abertura, porque o desempenho deles não foi medido (Briefing, pendência a).</li>
+  </ul>
+  <p class="nota">Não diga “a melhor nota do mercado”: Omens e Manual têm 8,9 (Briefing, Bloco 5). A nota fica fora de peça e fora de prova (Briefing, Bloco 13). Que ela meça rapidez de resposta e estorno é suposição (F1 §3).</p>
+</section>
+
+<section class="sec folha" id="ordem">
+  <h2>Ordem da reunião</h2>
+  <p class="lead">A reunião abre com decisões de baixa tensão (site, WhatsApp, preço), para o cliente pegar o ritmo de responder com documento. As delicadas ficam no meio, quando já há confiança, e a parceira fecha, porque trava só três peças e termina a reunião numa ideia.</p>
+  <p class="lead">O site só fecha de verdade depois da farmácia, porque o candidato de domínio depende dela. Volte a ele antes de encerrar.</p>
+  <ol class="ordem">
+    <li><b>Site, WhatsApp, endereço e registro.</b> Decisão de baixa tensão, com retorno ao fim: o domínio depende da farmácia. <span class="chip prio">Prioridade 6</span></li>
+    <li><b>Preço da consulta e retorno.</b> Fato simples, com um ponto sensível: o preço cheio. <span class="chip prio">Prioridade 4</span></li>
+    <li><b>Receita sem compra e preço do tratamento.</b> Rotina que o paciente já descreve em público. <span class="chip prio">Prioridade 3</span></li>
+    <li><b>Farmácia.</b> Explica a rotina da pergunta anterior. <span class="chip prio">Prioridade 2</span></li>
+    <li><b>Diretor técnico e médico.</b> A mais pessoal, por último entre as delicadas. <span class="chip prio">Prioridade 1</span></li>
+    <li><b>Parceira na consulta.</b> Fecho: trava só a C4 do arquivo de ângulos, a Cópia 4 e o perfil D. <span class="chip prio">Prioridade 5</span></li>
+  </ol>
+  <p class="lead" style="margin-top:14px"><b>Plano B, se o tempo apertar.</b> Pular o site e o preço tira o aquecimento, e a reunião cairia direto em duas delicadas. Faça só uma pergunta leve, “qual é o WhatsApp oficial?”, e peça por mensagem, no mesmo dia, o restante do bloco do site e o do preço (prioridades 6 e 4).</p>
+  <p class="lead">Mantenha as três mais importantes: receita, farmácia e médico. A parceira (prioridade 5) também pode ir por mensagem. Nunca saia sem resposta nas de prioridade 1, 2 e 3.</p>
+</section>
+
+<section class="sec nao-folha" id="perguntas">
+  <h2>As seis perguntas</h2>
+  <p class="lead">Cada bloco tem uma pergunta, dita em voz alta, em partes curtas quando preciso. O número grande é a ordem na reunião.</p>
+
+  <article class="bloco" id="p1">
+    <div class="bloco-topo">
+      <div class="num" aria-hidden="true">1</div>
+      <div>
+        <h3>Site, WhatsApp, endereço e registro</h3>
+        <div class="chips"><span class="chip prio">Prioridade 6</span><span class="chip">Pendências 6 e h do briefing</span></div>
+      </div>
+    </div>
+    <div class="pergunta"><span class="rotulo">Pergunta, em voz alta</span>
+      <p>Quais são os dados oficiais da AndroClinic?</p>
+      <ol>
+        <li>Qual é o site oficial?</li>
+        <li>Qual é o WhatsApp oficial?</li>
+        <li>Qual é o endereço oficial?</li>
+        <li>Qual é o número do registro da clínica no CRM?</li>
+      </ol>
+    </div>
+    <dl class="campos parte">
+      <dt>Por que importa</dt>
+      <dd>Sem site, WhatsApp, endereço e registro oficiais, o Bloco 13 fica aberto e travam anúncio, link da bio, pixel, brandbook e rodapé.</dd>
+      <dt>O que a pesquisa achou</dt>
+      <dd><ul>
+        <li>Seis domínios: andropharma.com.br, androclinic.com.br, androclinica.com.br, andromedicina.com, androcentro.com.br e andromens.com.br.</li>
+        <li>Três WhatsApps: (48) 6136-9359, (48) 98812-8284 e (48) 99939-6048.</li>
+        <li>Quatro endereços: Rua Hercílio Luz, 1023 e Praça XV, 312, em Florianópolis; Alameda Grajaú, 129 e Alameda Rio Negro, 1030, em Barueri.</li>
+        <li>Dois alvarás sanitários no ar, 12461 e 642560/23-4, e o andropharma.com.br no nome de uma pessoa física.</li>
+        <li>A peça de clínica leva o registro no CRM e o nome do diretor técnico (CFM 2.336, art. 5º).</li>
+      </ul></dd>
+      <dd>Fontes: Briefing, Bloco 13; F1 §1.</dd>
+    </dl>
+    <dl class="campos parte">
+      <dt class="sim">Se a resposta vier clara</dt>
+      <dd>O Bloco 13 fecha URL, suporte, endereço e registro, e o pixel passa a medir um caminho só. O candidato do briefing é o androclinic.com.br, depois de a pergunta da farmácia fechar. Registre como provisório e volte a este bloco depois da farmácia.</dd>
+      <dt class="nao">Se vier “não” ou “ainda não”</dt>
+      <dd>Ficam fora anúncio novo, link da bio, pixel e brandbook. A copy segue escrita com <mark class="ph">[A PREENCHER]</mark> nos campos, e a reunião termina com um prazo para a decisão.</dd>
+      <dt>Se a resposta vier vaga, pergunte</dt>
+      <dd>Qual destes endereços recebe paciente hoje? Quem responde em cada WhatsApp, e desde quando? Se ele hesitar no registro, peça-o junto com a pergunta do médico.</dd>
+      <dt>Material para pedir</dt>
+      <dd>Print do painel de cada domínio, confirmação do titular do domínio andropharma.com.br, certidão de registro da clínica no CRM e o alvará sanitário vigente, com o órgão que o emitiu.</dd>
+      <dt>Como enquadrar</dt>
+      <dd>Diga: “o paciente confere antes de pagar. Quero que ele ache um site, um WhatsApp e um endereço, iguais em todo lugar.” A F1 recomenda um destino único para reduzir o “é golpe?” que a própria empresa pôs no FAQ (F1 §10).</dd>
+    </dl>
+  </article>
+
+  <article class="bloco" id="p2">
+    <div class="bloco-topo">
+      <div class="num" aria-hidden="true">2</div>
+      <div>
+        <h3>Preço da consulta e retorno</h3>
+        <div class="chips"><span class="chip prio">Prioridade 4</span><span class="chip">Pendência 3 do briefing</span></div>
+      </div>
+    </div>
+    <div class="pergunta"><span class="rotulo">Pergunta, em voz alta</span><p>Qual é o preço da consulta, R$ 196 ou R$ 197, e o retorno vem incluído sem custo?</p></div>
+    <dl class="campos parte">
+      <dt>Por que importa</dt>
+      <dd>A trava de saída exige um só preço em todas as peças, e a promessa “retorno incluído” depende da resposta.</dd>
+      <dt>O que a pesquisa achou</dt>
+      <dd><ul>
+        <li>R$ 196 aparece em androclinica.com.br, e R$ 197 em drestivalet.andromedicina.com e nos vídeos de junho (Briefing, Bloco 3; Anúncios).</li>
+        <li>Um paciente relata sessão extra de R$ 180 (RA Passo de Torres/SC, 26/05/2026).</li>
+        <li>O “de R$ 500 por R$ 196” do site e o “mil reais no consultório” dos vídeos ainda precisam de prova de preço cobrado (Briefing, pendência 3; F1 §4). A transcrição é automática: confira no vídeo.</li>
+      </ul></dd>
+    </dl>
+    <dl class="campos parte">
+      <dt class="sim">Se a resposta vier clara</dt>
+      <dd>O Bloco 13 fecha o preço e a condição de retorno, e as frases com “retorno incluído” passam a valer, depois da leitura do advogado.</dd>
+      <dd>Essa resposta fecha só preço e retorno. Ficam sem resposta a oferta de entrada (gratuita, quiz ou paga), o limite real de agenda, o nome do produto e o prazo da oferta (Briefing, pendência 3).</dd>
+      <dt class="nao">Se vier “não” ou “ainda não”</dt>
+      <dd>Se o retorno for cobrado, a copy não usa “retorno incluído”. A promessa fica em médico identificado e preço aberto, e o valor do retorno entra no Bloco 13 como fato.</dd>
+      <dt>Se a resposta vier vaga, pergunte</dt>
+      <dd>Quantos retornos entram no preço, por quanto tempo, e onde isso está escrito? Se quiserem manter o “de R$ 500”, preciso do documento.</dd>
+      <dt>Material para pedir</dt>
+      <dd>Tabela de preços vigente, política de retorno por escrito, captura da tela de pagamento com o valor e o PIX, e nota ou recibo de uma consulta cobrada ao preço cheio, com nome, CPF e contato do paciente apagados.</dd>
+      <dt>Como enquadrar</dt>
+      <dd>Diga: “preciso de um número só para escrever, e só prometo o retorno que a equipe cumpre.” O pedido de prova do preço cheio é só de documento. A leitura jurídica fica com o advogado.</dd>
+    </dl>
+  </article>
+
+  <article class="bloco" id="p3">
+    <div class="bloco-topo">
+      <div class="num" aria-hidden="true">3</div>
+      <div>
+        <h3>Receita sem compra e preço do tratamento</h3>
+        <div class="chips"><span class="chip prio">Prioridade 3</span><span class="chip">Pendência 4 do briefing</span></div>
+      </div>
+    </div>
+    <div class="pergunta"><span class="rotulo">Pergunta, em voz alta</span>
+      <p>A operação comercial pode mudar, ou já funciona assim? Em três pontos:</p>
+      <ol>
+        <li>O paciente sai da consulta com a receita, sem comprar nada?</li>
+        <li>Ele sabe o nome e o preço do tratamento antes de pagar?</li>
+        <li>A venda do tratamento acontece na mesma chamada da consulta?</li>
+      </ol>
+    </div>
+    <dl class="campos parte">
+      <dt>Por que importa</dt>
+      <dd>Esta resposta decide se o ângulo 3, “confira antes de pagar”, pode existir; sem a mudança, a promessa vira a próxima reclamação.</dd>
+      <dt>O que a pesquisa achou</dt>
+      <dd><ul>
+        <li>15 das 23 reclamações lidas tratam de venda empurrada e preço escondido (Briefing, objeção 1; F4 §3).</li>
+        <li>A empresa chama o repasse ao comercial de “procedimento padrão” (RA Cruz das Almas/BA, 12/11/2025).</li>
+        <li>Dois relatos dizem que a receita só sai com pagamento: Matinhos/PR, 05/02/2026, e Rio de Janeiro/RJ, 05/05/2026.</li>
+        <li>A empresa nega cobrar pela receita (Briefing, objeção 1).</li>
+      </ul></dd>
+    </dl>
+    <dl class="campos parte">
+      <dt class="sim">Se a resposta vier clara</dt>
+      <dd>Ficam de pé o ângulo 3 completo (que também depende da resposta sobre o médico), a promessa “na consulta você sabe o que é prescrito e quanto custa” (o advogado confere) e as sub-promessas 3 e 4.</dd>
+      <dt class="nao">Se vier “não” ou “ainda não”</dt>
+      <dd>Ficam fora o ângulo 3 completo, as sub-promessas 3 e 4 e qualquer frase “confira antes de pagar”. Seguem os ângulos 1, 2, 4 e 5, com a promessa reduzida a médico identificado, preço aberto e retorno incluído. Se a mudança tiver data marcada, a copy do ângulo 3 sai só depois dela.</dd>
+      <dt>Se a resposta vier vaga, pergunte</dt>
+      <dd>Como seria hoje, se o paciente pedir só a receita? Está em algum roteiro, e desde quando? Tem um exemplo de receita entregue a quem não comprou, com nome, CPF e contato do paciente apagados?</dd>
+      <dt>Material para pedir</dt>
+      <dd>Roteiro do consultor pós-consulta, regra de entrega da receita por escrito, um exemplo de receita (com certificado ICP-Brasil, se houver) e prints de respostas do atendimento sobre receita. Em todo material com dado de paciente, nome, CPF e contato vêm apagados.</dd>
+      <dt>Como enquadrar</dt>
+      <dd>Diga: “quero prometer só o que vocês já cumprem, para proteger o médico e a conta de anúncio.” Se a resposta for “ainda não”, a copy segue sem essa promessa. Se ele negar a retenção da receita, anote e peça o exemplo. Não discuta os relatos.</dd>
+    </dl>
+  </article>
+
+  <article class="bloco" id="p4">
+    <div class="bloco-topo">
+      <div class="num" aria-hidden="true">4</div>
+      <div>
+        <h3>Farmácia que manipula</h3>
+        <div class="chips"><span class="chip prio">Prioridade 2</span><span class="chip">Pendência 1 do briefing</span></div>
+      </div>
+    </div>
+    <div class="pergunta"><span class="rotulo">Pergunta, em voz alta</span><p>Qual farmácia prepara o tratamento, e há alguma ligação societária ou comercial dela com a clínica?</p></div>
+    <dl class="campos parte">
+      <dt>Por que importa</dt>
+      <dd>Sem saber se há ligação societária ou comercial com a farmácia, travam a oferta, o mecanismo, a Big Idea e toda peça que cite tratamento.</dd>
+      <dt>O que a pesquisa achou</dt>
+      <dd><ul>
+        <li>Nenhuma fonte pública cita a farmácia (F1 §8).</li>
+        <li>Os anúncios do Google saem pela Andro Pharma Ltda, sem CNPJ levantado (F3 §2).</li>
+        <li>A LHP não tem CNAE de clínica nem de farmácia (F1 §1).</li>
+        <li>O InfoJobs traz uma vaga de farmacêutico e o texto “integração entre médicos, farmácias de manipulação e clientes”, pista da própria empresa (F1 §1).</li>
+        <li>O briefing aponta que vínculo societário ou comercial esbarra nos arts. 58, 68 e 69 do Código de Ética Médica. A leitura é do advogado.</li>
+      </ul></dd>
+    </dl>
+    <dl class="campos parte">
+      <dt class="sim">Se a resposta vier clara</dt>
+      <dd><b>Se não há ligação:</b> o advogado lê a declaração, e os Blocos 3 e 9 podem fechar. O Bloco 3 também espera as pendências 3 e f, e o Bloco 9 espera o diretor técnico.</dd>
+      <dd><b>Se há ligação:</b> valem os arts. 68 e 69 do Código de Ética Médica, e a copy não cita “farmácia do grupo” (Bloco 13). O advogado diz o que pode ser divulgado.</dd>
+      <dd>Nos dois casos, a Big Idea começa quando receita, farmácia e médico tiverem resposta.</dd>
+      <dt class="nao">Se vier “não” ou “ainda não”</dt>
+      <dd>Ficam fora os Blocos 3 e 9, a Big Idea e qualquer peça que cite tratamento. A copy segue só com peças da consulta, sem citar tratamento, que sobem depois do gate do advogado.</dd>
+      <dt>Se a resposta vier vaga, pergunte</dt>
+      <dd>Quem recebe o pagamento do tratamento: a clínica, a Andro Pharma ou a farmácia? Existe contrato ou declaração por escrito, e desde quando?</dd>
+      <dt>Material para pedir</dt>
+      <dd>CNPJ da Andro Pharma Ltda; nome e CNPJ da farmácia; contrato com ela, ou declaração por escrito de que não há vínculo; e como o pagamento do tratamento chega à empresa.</dd>
+      <dt>Como enquadrar</dt>
+      <dd>Diga: “não estou investigando nada. Preciso do nome e do CNPJ certos para o rodapé, e para o advogado de vocês saber o que a copy pode dizer.” Se ele perguntar se é permitido: “isso é com o advogado; eu preciso do fato para escrever.”</dd>
+    </dl>
+  </article>
+
+  <article class="bloco" id="p5">
+    <div class="bloco-topo">
+      <div class="num" aria-hidden="true">5</div>
+      <div>
+        <h3>Diretor técnico e médico que atende</h3>
+        <div class="chips"><span class="chip prio">Prioridade 1</span><span class="chip">Pendência 2 do briefing</span></div>
+      </div>
+    </div>
+    <div class="pergunta"><span class="rotulo">Pergunta, em voz alta</span>
+      <p>Quem é o diretor técnico e quem é o médico que atende?</p>
+      <ol>
+        <li>De cada um, o nome completo.</li>
+        <li>De cada um, o CRM, com o estado.</li>
+        <li>De cada um, o RQE, se houver.</li>
+      </ol>
+    </div>
+    <dl class="campos parte">
+      <dt>Por que importa</dt>
+      <dd>Sem o médico definido, com CRM, UF e RQE, travam o Bloco 13, o ângulo 3, a oportunidade 1 e o rosto do brandbook.</dd>
+      <dt>O que a pesquisa achou</dt>
+      <dd><ul>
+        <li>Dr. Cristiano Grizza Estivalet (CRM-DF 15471) é o diretor técnico no site novo (F1 §2).</li>
+        <li>Dr. Daniel Petkov (CRM 15069, sem UF) aparece como coordenador médico no site antigo (F1 §2).</li>
+        <li>O Helpsaude lista o Dr. Cristiano em Medicina do Trabalho, e o RQE não foi verificado no CFM (F1 §2).</li>
+        <li>Em 12/11/2025 a empresa respondeu no Reclame Aqui: “em nenhum momento o profissional se declara urologista ou afirma possuir RQE em Urologia”. A reclamação não nomeia o médico (F1 §2 e §3).</li>
+        <li>Os anúncios de junho chamam o Dr. Cristiano de “médico de saúde sexual masculina” (Anúncios, transcrição automática).</li>
+        <li>A regra: peça com médico leva nome, CRM com UF e a palavra MÉDICO, e RQE se anunciar especialidade (CFM 2.336, art. 4º).</li>
+      </ul></dd>
+    </dl>
+    <dl class="campos parte">
+      <dt class="sim">Se a resposta vier clara</dt>
+      <dd>Se o médico que aparece tem RQE na especialidade que a peça anuncia, a peça pode citar a especialidade com o RQE ao lado.</dd>
+      <dd>O ângulo 3 depende também da resposta sobre a receita sem compra. A oportunidade 1 só se sustenta se a operação comercial mudar (Briefing, pendências 2 e 4).</dd>
+      <dt class="nao">Se vier “não” ou “ainda não”</dt>
+      <dd>Sem RQE, a peça diz só “Dr. [Nome], MÉDICO, CRM-[UF] [número]”, sem “especialista” nem “trata doença específica” (CFM 2.336, art. 11, I). O ângulo 3 fica com CRM consultável, preço aberto e retorno. A oportunidade 1 só volta com urologista com RQE na frente da marca.</dd>
+      <dt>Se a resposta vier vaga, pergunte</dt>
+      <dd>Quem atende de fato as consultas hoje, e desde quando? Existe certidão do CFM com o RQE de cada um?</dd>
+      <dt>Material para pedir</dt>
+      <dd>Certidão do CFM de cada médico com CRM e RQE, registro da clínica no CRM do estado-sede, escala de quem atende de fato e autorização de imagem do médico que aparece.</dd>
+      <dt>Como enquadrar</dt>
+      <dd>Diga: “o diretor técnico responde pela publicidade da clínica no CRM (CFM 2.336, art. 3º, II). Quero escrever o nome dele só do jeito que protege o CRM dele e a conta de anúncio.” Faça a pergunta antes de citar o que a pesquisa achou. Se o Dr. Cristiano estiver na sala, pergunte a ele, pelo nome.</dd>
+    </dl>
+  </article>
+
+  <article class="bloco" id="p6">
+    <div class="bloco-topo">
+      <div class="num" aria-hidden="true">6</div>
+      <div>
+        <h3>Parceira na consulta</h3>
+        <div class="chips"><span class="chip prio">Prioridade 5</span><span class="chip">N1, ainda fora do briefing</span></div>
+      </div>
+    </div>
+    <div class="pergunta"><span class="rotulo">Pergunta, em voz alta</span><p>A parceira pode participar da consulta, por vídeo ou no consultório, se o paciente autorizar?</p></div>
+    <dl class="campos parte">
+      <dt>Por que importa</dt>
+      <dd>Esta resposta libera ou tira da campanha a peça C4 do arquivo de ângulos, a Cópia 4 e o perfil D, o da parceira.</dd>
+      <dt>O que a pesquisa achou</dt>
+      <dd><ul>
+        <li>O Google completa “meu marido não me procura mais na cama” (Google Suggest, 01/10/2026).</li>
+        <li>Nos vídeos vistos, nenhum fala só com ela (ICP, Perfil D, item d; 24 transcrições da AndroClinic).</li>
+        <li>O vídeo “sócios” da AndroClinic fala do casal, e a Bluue roda por páginas de criadores de casal (Anúncios; F2 §2.1).</li>
+        <li>A pergunta nasceu no arquivo de ângulos, com o código N1, e ainda não está no briefing (Conf., perguntas ao cliente).</li>
+      </ul></dd>
+    </dl>
+    <dl class="campos parte">
+      <dt class="sim">Se a resposta vier clara</dt>
+      <dd>A C4 do arquivo de ângulos e a Cópia 4 seguem, com a parceira como coautora da busca (ângulo 5). O advogado confere a redação do consentimento do paciente.</dd>
+      <dd>As duas podem tocar atributo pessoal de terceiro, que a Meta barra (Briefing, ângulo 5). O advogado e o gestor de tráfego conferem antes de subir.</dd>
+      <dt class="nao">Se vier “não” ou “ainda não”</dt>
+      <dd>A C4 do arquivo de ângulos, a Cópia 4 e o perfil D ficam fora. A parceira continua no conteúdo do ângulo 5 como leitora, e nenhuma peça promete participação na consulta.</dd>
+      <dt>Se a resposta vier vaga, pergunte</dt>
+      <dd>Como seria na prática: ela entra na chamada inteira ou só no fim? Já aconteceu, e há regra por escrito?</dd>
+      <dt>Material para pedir</dt>
+      <dd>Termo de consentimento da telemedicina e a regra escrita da clínica para acompanhante na consulta, por vídeo e no consultório.</dd>
+      <dt>Como enquadrar</dt>
+      <dd>Diga: “é uma ideia de campanha, e a decisão é de vocês. Nos vídeos que a pesquisa viu, nenhum fala só com ela, e eu só preciso saber se a prática existe.”</dd>
+    </dl>
+  </article>
+</section>
+
+<section class="sec nao-folha" id="lista">
+  <h2>Depois das seis</h2>
+  <p class="lead">Oito perguntas, por ordem de impacto. A pergunta vai em voz alta, e a linha “Destrava” diz o que ela libera.</p>
+  <ol class="curta">
+    <li>
+      <p class="q">Há contrato de parceria com o Craque Neto? Qual é o escopo dele?</p>
+      <p class="d"><b>Destrava:</b> página de venda e criativos que o citam. Até haver contrato e escopo, ele fica fora das peças, e o advogado confere o art. 14 da CFM 2.336 (Briefing, pendência 5).</p>
+      <span class="chip">Pendência 5</span>
+    </li>
+    <li>
+      <p class="q">Qual é o plano para os sites antigos e para os textos com “avaliação gratuita”, “garantia de resultados” e “últimas vagas”?</p>
+      <p class="d"><b>Destrava:</b> a limpeza antes de qualquer anúncio novo (F1 §10) e a oferta de entrada, com limite real de agenda, nome do produto e prazo da oferta. O enquadramento dessas frases é leitura que o advogado confirma.</p>
+      <span class="chip">Pendência 3</span>
+    </li>
+    <li>
+      <p class="q">Qual é o prazo e o orçamento? Quer usar a janela do Novembro Azul de 2026?</p>
+      <p class="d"><b>Destrava:</b> o plano do planner. O prazo está <mark class="ph">[A PREENCHER]</mark> no briefing, e o Novembro Azul é uma janela possível (Briefing, Bloco 12).</p>
+      <span class="chip">Pendência i</span>
+    </li>
+    <li>
+      <p class="q">O que o pacote de tratamento inclui e quanto custa oficialmente? O remédio é feito para cada paciente, ou existe um kit padrão?</p>
+      <p class="d"><b>Destrava:</b> Blocos 3 e 13 e a objeção 2. A frase “manipulados especificamente para cada homem” só fica se for verdade (Briefing, Bloco 9).</p>
+      <span class="chip">Pendência f</span>
+    </li>
+    <li>
+      <p class="q">A clínica oferece treino de controle ou psicologia?</p>
+      <p class="d"><b>Destrava:</b> o mecanismo candidato 2 (Briefing, Bloco 9) e o ângulo 2, de ejaculação precoce. A psicóloga aparece no site sem CRP (Briefing, Bloco 3; F1 §2).</p>
+      <span class="chip">Pendência g</span>
+    </li>
+    <li>
+      <p class="q">Qual é o protocolo sobre dependência e sobre reduzir o remédio, com reavaliação marcada, critério e prazo?</p>
+      <p class="d"><b>Destrava:</b> as objeções 4 e 6 e o campo Garantia, que só aceita garantia de processo com remédio, critério e prazo (Briefing, Bloco 13).</p>
+      <span class="chip">Pendência k</span>
+    </li>
+    <li>
+      <p class="q">Qual é o perfil dos pacientes de hoje, em percentual por faixa de idade e por motivo da consulta? Quem paga e agenda: o paciente ou a parceira?</p>
+      <p class="d"><b>Destrava:</b> a ordem dos perfis A, B e C e o papel do perfil D (ICP, pendências 1 e 2). Peça o perfil em percentual, sem identificar paciente.</p>
+      <span class="chip">Pendência d</span>
+    </li>
+    <li>
+      <p class="q">Quantos minutos a agenda reserva para cada consulta, e quando a clínica indica o presencial?</p>
+      <p class="d"><b>Destrava:</b> o campo Duração do Bloco 13, hoje com relatos de 10 a 25 minutos, e as peças que dizem “sem pressa”. Fonte: Conf., perguntas ao diretor técnico.</p>
+      <span class="chip">Bloco 13</span>
+    </li>
+  </ol>
+  <p class="lead" style="margin-top:14px">Ficam para uma segunda conversa: gravação da consulta, nota fiscal emitida como “assessoria e consultoria”, origem dos oito depoimentos do site e base de resultado agregado (Conf., perguntas ao cliente; Briefing, pendência e).</p>
+</section>
+
+<section class="sec folha" id="cuidados">
+  <h2>Cuidados</h2>
+  <ul class="lista">
+    <li><b>Não prometa publicação.</b> Nem data, nem resultado de venda. O gate do advogado e o Bloco 13 decidem se a copy vai ao ar.</li>
+    <li><b>Não discuta parecer jurídico.</b> Diga: “isso é com o advogado de vocês e com o nosso; eu preciso do fato para escrever.”</li>
+    <li><b>Anote a resposta literal,</b> entre aspas, com o nome de quem falou. Resposta sem documento fica marcada como “só falada”.</li>
+    <li><b>Peça o material no mesmo dia.</b> Ao sair, mande a lista de documentos por mensagem, com prazo.</li>
+    <li><b>Dado de paciente chega protegido.</b> Todo material com paciente vem com nome, CPF e contato apagados.</li>
+    <li><b>Antes de entrar,</b> abra a busca de médicos do portal do CFM e veja se o RQE do CRM-DF 15471 aparece. A pesquisa não conseguiu consultar essa busca (F1 §8).</li>
+  </ul>
+</section>
+
+<section class="sec folha" id="folha-bolso">
+  <h2>Para levar impresso</h2>
+  <p class="lead">Uma linha por pergunta. Escreva a resposta e a data.</p>
+
+  <p class="grupo">As seis, na ordem da reunião</p>
+  <div class="item-folha"><p class="q">1. Dados oficiais: site, WhatsApp, endereço e número do registro da clínica no CRM.</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">2. Qual é o preço da consulta, R$ 196 ou R$ 197, e o retorno vem incluído sem custo?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">3. A operação comercial pode mudar, ou já funciona assim? Receita sem compra; nome e preço do tratamento antes de pagar; fim da venda na mesma chamada da consulta.</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">4. Qual farmácia prepara o tratamento, e há alguma ligação societária ou comercial dela com a clínica?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">5. Quem é o diretor técnico e quem é o médico que atende? Nome, CRM com estado e RQE, se houver, de cada um.</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">6. A parceira pode participar da consulta, por vídeo ou no consultório, se o paciente autorizar?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+
+  <p class="grupo">Depois das seis</p>
+  <div class="item-folha"><p class="q">7. Há contrato de parceria com o Craque Neto? Qual é o escopo dele?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">8. Qual é o plano para os sites antigos e para os textos com “avaliação gratuita”, “garantia de resultados” e “últimas vagas”?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">9. Qual é o prazo e o orçamento? Quer usar a janela do Novembro Azul de 2026?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">10. O que o pacote de tratamento inclui e quanto custa oficialmente? O remédio é feito para cada paciente, ou existe um kit padrão?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">11. A clínica oferece treino de controle ou psicologia?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">12. Qual é o protocolo sobre dependência e sobre reduzir o remédio, com reavaliação marcada, critério e prazo?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">13. Perfil dos pacientes de hoje, em percentual por faixa de idade e motivo da consulta. Quem paga e agenda: o paciente ou a parceira?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+  <div class="item-folha"><p class="q">14. Quantos minutos a agenda reserva para cada consulta, e quando a clínica indica o presencial?</p><div class="resp"><div class="campo"><span class="rotulo">Resposta</span></div><div class="campo data"><span class="rotulo">Data</span></div></div></div>
+</section>
+
+<section class="sec folha" id="decisoes">
+  <h2>Decisões tomadas</h2>
+  <p class="lead">Preencha na hora: uma resposta literal por bloco, o material prometido e o status. Cada bloco aponta a pendência do briefing que ele fecha.</p>
+
+  <div class="decisao">
+    <h3>1. Site, WhatsApp, endereço e registro</h3>
+    <p class="corresp">Fecha as pendências 6 e h: qual domínio, WhatsApp e endereço ficam, e o registro da clínica no CRM. O domínio fica provisório até a resposta da farmácia.</p>
+    <div class="caixa"><span class="rotulo">Resposta literal e quem falou</span></div>
+    <div class="caixa baixa"><span class="rotulo">Material prometido, quem manda e até quando</span></div>
+    <div class="status"><span class="op"><span class="box"></span>Documento recebido</span><span class="op"><span class="box"></span>Só falada</span><span class="op"><span class="box"></span>Sem resposta</span><span class="data-linha"><span class="rotulo">Data</span></span></div>
+  </div>
+
+  <div class="decisao">
+    <h3>2. Preço da consulta e retorno</h3>
+    <p class="corresp">Fecha parte da pendência 3: o preço único da consulta e o retorno incluído sem custo. Seguem abertos a oferta de entrada, o limite de agenda, o nome do produto e o prazo.</p>
+    <div class="caixa"><span class="rotulo">Resposta literal e quem falou</span></div>
+    <div class="caixa baixa"><span class="rotulo">Material prometido, quem manda e até quando</span></div>
+    <div class="status"><span class="op"><span class="box"></span>Documento recebido</span><span class="op"><span class="box"></span>Só falada</span><span class="op"><span class="box"></span>Sem resposta</span><span class="data-linha"><span class="rotulo">Data</span></span></div>
+  </div>
+
+  <div class="decisao">
+    <h3>3. Receita sem compra e preço do tratamento</h3>
+    <p class="corresp">Fecha a pendência 4: a operação comercial pode mudar? Três pontos: receita sem compra; nome e preço do tratamento antes de pagar; fim da venda na mesma chamada da consulta.</p>
+    <div class="caixa"><span class="rotulo">Resposta literal, nos três pontos, e quem falou</span></div>
+    <div class="caixa baixa"><span class="rotulo">Material prometido, quem manda e até quando</span></div>
+    <div class="status"><span class="op"><span class="box"></span>Documento recebido</span><span class="op"><span class="box"></span>Só falada</span><span class="op"><span class="box"></span>Sem resposta</span><span class="data-linha"><span class="rotulo">Data</span></span></div>
+  </div>
+
+  <div class="decisao">
+    <h3>4. Farmácia que manipula</h3>
+    <p class="corresp">Fecha a pendência 1: vínculo entre a clínica, a Andro Pharma Ltda e a farmácia.</p>
+    <div class="caixa"><span class="rotulo">Resposta literal e quem falou</span></div>
+    <div class="caixa baixa"><span class="rotulo">Material prometido, quem manda e até quando</span></div>
+    <div class="status"><span class="op"><span class="box"></span>Documento recebido</span><span class="op"><span class="box"></span>Só falada</span><span class="op"><span class="box"></span>Sem resposta</span><span class="data-linha"><span class="rotulo">Data</span></span></div>
+  </div>
+
+  <div class="decisao">
+    <h3>5. Diretor técnico e médico que atende</h3>
+    <p class="corresp">Fecha a pendência 2: diretor técnico e médico, com CRM, UF e RQE.</p>
+    <div class="caixa"><span class="rotulo">Resposta literal e quem falou</span></div>
+    <div class="caixa baixa"><span class="rotulo">Material prometido, quem manda e até quando</span></div>
+    <div class="status"><span class="op"><span class="box"></span>Documento recebido</span><span class="op"><span class="box"></span>Só falada</span><span class="op"><span class="box"></span>Sem resposta</span><span class="data-linha"><span class="rotulo">Data</span></span></div>
+  </div>
+
+  <div class="decisao">
+    <h3>6. Parceira na consulta</h3>
+    <p class="corresp">Fecha o N1, ainda fora do briefing: a parceira na consulta, com consentimento do paciente.</p>
+    <div class="caixa"><span class="rotulo">Resposta literal e quem falou</span></div>
+    <div class="caixa baixa"><span class="rotulo">Material prometido, quem manda e até quando</span></div>
+    <div class="status"><span class="op"><span class="box"></span>Documento recebido</span><span class="op"><span class="box"></span>Só falada</span><span class="op"><span class="box"></span>Sem resposta</span><span class="data-linha"><span class="rotulo">Data</span></span></div>
+  </div>
+
+  <p class="lead" style="margin-top:16px">A Big Idea começa quando as pendências 1, 2 e 4 tiverem resposta (Briefing, Handoff). Marque “só falada” para o squad saber que falta documento.</p>
+</section>
+
+<footer class="rodape nao-folha">
+  <p><b>Siglas de fonte.</b> Briefing: briefing-androclinic.md, de 01/10/2026. F1, F2, F3 e F4: frentes da pesquisa, na pasta pesquisa. Anúncios: pesquisa/anuncios-videos-transcricoes.md. Conf.: confianca-presencial-vs-online-androclinic.html. ICP: icp-androclinic.html. RA: Reclame Aqui, citado no briefing e na F1.</p>
+  <p><b>Limites.</b> A transcrição dos vídeos é automática e erra nomes e valores: confira no vídeo antes de citar. A nota 8,7 do Reclame Aqui é uma de três leituras da mesma página (8,7; 8,2; “Ótima”), e o briefing usa a da página principal. Os números de reclamações e os artigos de norma vêm do briefing e da pesquisa, sem conferência nova.</p>
+  <p><b>Fora do escopo.</b> Este roteiro não substitui parecer jurídico. Os artigos citados mostram o que travou cada peça, e a leitura é do advogado da saúde.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var raiz=document.documentElement;
+  var botaoTema=document.getElementById('tema');
+  var botaoImprimir=document.getElementById('imprimir');
+  var consulta=window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)'):null;
+  try{var salvo=localStorage.getItem('tema-roteiro-reuniao');if(salvo){raiz.setAttribute('data-tema',salvo);}}catch(e){}
+  function estaEscuro(){
+    var t=raiz.getAttribute('data-tema');
+    if(t==='escuro'){return true;}
+    if(t==='claro'){return false;}
+    return !!(consulta&&consulta.matches);
+  }
+  function rotulo(){botaoTema.textContent=estaEscuro()?'Tema claro':'Tema escuro';}
+  botaoTema.addEventListener('click',function(){
+    var novo=estaEscuro()?'claro':'escuro';
+    raiz.setAttribute('data-tema',novo);
+    try{localStorage.setItem('tema-roteiro-reuniao',novo);}catch(e){}
+    rotulo();
+  });
+  rotulo();
+
+  function limpar(){document.body.classList.remove('so-folhas');}
+  window.addEventListener('afterprint',limpar);
+  botaoImprimir.addEventListener('click',function(){
+    document.body.classList.add('so-folhas');
+    window.print();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AndroClinic — Pesquisa de Mercado</title>
+<style>
+:root{
+  --bg:#f6f5f2; --surface:#fbfaf7; --ink:#1c1f24; --muted:#5b6370; --line:#e2dfd8;
+  --accent:#1f4e79; --accent-soft:#e6eef6;
+  --fato:#1d6b46; --fato-bg:#e3f2ea; --sup:#8a5a00; --sup-bg:#fbf0d9; --pista:#5b3e8f; --pista-bg:#efe8fa;
+  --risco:#a32a2a; --risco-bg:#fbe6e6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15171b; --surface:#1d2026; --ink:#e8e6e1; --muted:#a2a9b4; --line:#30343c;
+    --accent:#8db8e0; --accent-soft:#1f2b38;
+    --fato:#7fd1a6; --fato-bg:#17301f; --sup:#f0c069; --sup-bg:#33280f; --pista:#c4a8f0; --pista-bg:#2a2140;
+    --risco:#f08a8a; --risco-bg:#3a1a1a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15171b; --surface:#1d2026; --ink:#e8e6e1; --muted:#a2a9b4; --line:#30343c;
+  --accent:#8db8e0; --accent-soft:#1f2b38;
+  --fato:#7fd1a6; --fato-bg:#17301f; --sup:#f0c069; --sup-bg:#33280f; --pista:#c4a8f0; --pista-bg:#2a2140;
+  --risco:#f08a8a; --risco-bg:#3a1a1a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Iowan Old Style","Times New Roman",serif}
+.wrap{max-width:820px;margin:0 auto;padding:40px 16px 80px}
+h1,h2,h3,.kicker,nav,.tag,.meta{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:34px;line-height:1.2;margin:8px 0 12px}
+h2{font-size:24px;margin:56px 0 12px;padding-top:16px;border-top:2px solid var(--line)}
+h3{font-size:18px;margin:28px 0 8px}
+p{margin:0 0 14px}
+a{color:var(--accent);text-underline-offset:2px;overflow-wrap:anywhere}
+code{overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:14px}
+nav{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:28px 0;font-size:15px}
+nav ol{margin:6px 0 0;padding-left:20px}
+nav li{margin:3px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:14px 0}
+.card.risco{border-left:4px solid var(--risco)}
+.card.oport{border-left:4px solid var(--fato)}
+.card h3{margin-top:0}
+.lead{font-size:19px}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:4px;vertical-align:2px;margin-right:4px}
+.t-fato{color:var(--fato);background:var(--fato-bg)}
+.t-sup{color:var(--sup);background:var(--sup-bg)}
+.t-pista{color:var(--pista);background:var(--pista-bg)}
+ul,ol{padding-left:22px}
+li{margin:6px 0}
+blockquote{margin:12px 0;padding:10px 16px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 8px 8px 0;font-style:italic}
+blockquote cite{display:block;font-style:normal;font-size:14px;color:var(--muted);margin-top:4px;font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.troca{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+.troca div{padding:10px 12px;border-radius:8px;font-size:15px}
+.troca .nao{background:var(--risco-bg)}
+.troca .sim{background:var(--fato-bg)}
+.troca b{display:block;font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+footer{margin-top:60px;font-size:14px;color:var(--muted)}
+@media (max-width:600px){h1{font-size:27px}.troca{grid-template-columns:1fr}body{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">Squad Arsenal de Funis · Pesquisa de mercado</div>
+<h1>AndroClinic: concorrentes, público e mercado</h1>
+<p class="meta">Pesquisa feita em 01/10/2026, em cinco frentes paralelas do @researcher: a própria marca, os concorrentes, os anúncios na Meta e no Google, o público e o mercado com a regulação. Os relatórios completos de cada frente, com todas as fontes e os erros de acesso, estão na pasta <code>pesquisa/</code>, ao lado deste arquivo.</p>
+<p class="meta">Como ler: <span class="tag t-fato">Fato</span> tem fonte com link. <span class="tag t-sup">Suposição</span> é leitura do squad. <span class="tag t-pista">Pista</span> é o que uma empresa diz de si mesma; trate como material de venda dela.</p>
+
+<nav>
+<strong>Sumário</strong>
+<ol>
+<li><a href="#resumo">O que a pesquisa mostrou</a></li>
+<li><a href="#marca">A AndroClinic hoje</a></li>
+<li><a href="#risco">O que o CFM, a Anvisa e as plataformas proíbem</a></li>
+<li><a href="#concorrentes">Concorrentes</a></li>
+<li><a href="#anuncios">Anúncios no nicho</a></li>
+<li><a href="#publico">Público</a></li>
+<li><a href="#mercado">Mercado e tendências</a></li>
+<li><a href="#oportunidades">Oportunidades</a></li>
+<li><a href="#decisoes">O que decidir com o cliente antes do briefing</a></li>
+<li><a href="#buracos">O que não conseguimos descobrir</a></li>
+<li><a href="#bloco13">Bloco 13 para o strategist</a></li>
+</ol>
+</nav>
+
+<h2 id="resumo">1. O que a pesquisa mostrou</h2>
+<p class="lead">A AndroClinic tem audiência, verba de anúncio e a melhor reputação do grupo de clínicas parecidas com ela. O problema está no modelo de venda e no texto das páginas. Os dois já geram reclamação, remoção de anúncio e risco de processo ético. Uma campanha nova em cima desse funil amplia o problema junto com a venda.</p>
+
+<p><strong>Primeiro achado: o lucro está no pacote vendido depois da consulta.</strong> A consulta custa R$ 196 ou R$ 197, anunciada como "R$500 por apenas R$196" (<a href="https://androclinica.com.br/">androclinica.com.br</a>). Depois da consulta, um consultor vende um pacote de fórmula manipulada. As reclamações com link citam pacotes de R$ 1.750 a R$ 4.000 (<a href="https://www.reclameaqui.com.br/androclinic/medico-sem-especializacao-em-urologia-vende-tratamento-caro-e-induz-a-compr_9S00DUrnZi_39VEr/">R$ 1.750</a>, <a href="https://www.reclameaqui.com.br/androclinic/recusa-de-receita-e-nota-fiscal-sem-compra-de-medicamentos_3OOVaIRhgY4F7vl3/">R$ 4.000</a>). A própria empresa chama esse encaminhamento de "procedimento padrão". <span class="tag t-fato">Fato</span></p>
+
+<p><strong>Segundo achado: as reclamações repetem o mesmo roteiro.</strong> O paciente não sabe o nome do remédio antes de pagar. A receita só sai se ele comprar. A nota fiscal vem como "consultoria". "Propaganda enganosa" é o motivo de 25,58% das reclamações na leitura direta da página (<a href="https://www.reclameaqui.com.br/empresa/androclinic/">Reclame Aqui</a>); um trecho em cache mostra 32,35%. Um cliente de Brasília pagou R$ 2.750 por seis meses e recebeu "apenas 2 (duas) caixas de Tadalafila e 2 (dois) frascos de um composto de maca peruana e tribulus terrestris" (<a href="https://www.reclameaqui.com.br/androclinic/clinica-de-tratamento-de-disfuncao-eretil-propaganda-enganosa-tratamento-ineficaz-e-falta-de-suporte_HajbQoPy7fDPvO0d/">Reclame Aqui</a>). Na farmácia, a tadalafila genérica de 20 mg sai a R$ 12,99 a caixa com 4 comprimidos (<a href="https://www.drogariasaopaulo.com.br/tadalafila-20mg-generico-ems-4-comprimidos-revestidos/p">Drogaria São Paulo</a>). <span class="tag t-fato">Fato</span></p>
+
+<p><strong>Terceiro achado: o site viola por escrito a publicidade médica.</strong> As páginas prometem "garantias de resultados", dizem que a medicação "não gera efeito colateral" e anunciam "avaliação clínica gratuita" (<a href="https://andropharma.com.br/">andropharma.com.br</a>). A Resolução CFM 2.336/2023 veda as três frases (<a href="https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf">texto oficial</a>). Pelo artigo 30 do Código de Defesa do Consumidor, a frase da garantia também obriga a empresa diante do cliente. <span class="tag t-fato">Fato</span></p>
+
+<p><strong>Quarto achado: a especialidade do diretor técnico não confere com o que a clínica anuncia.</strong> O Dr. Cristiano Grizza Estivalet (CRM-DF 15471) aparece no diretório Helpsaude com a especialidade Medicina do Trabalho (<a href="https://www.helpsaude.com/Cristiano-Grizza-Estivalet.DF">Helpsaude</a>). O RQE dele não foi verificado no portal do CFM. Um paciente reclamou de médico "sem especialização em urologia", sem citar o nome. A empresa respondeu que "o profissional" não se declara urologista nem afirma ter RQE em Urologia (<a href="https://www.reclameaqui.com.br/androclinic/medico-sem-especializacao-em-urologia-vende-tratamento-caro-e-induz-a-compr_9S00DUrnZi_39VEr/">Reclame Aqui</a>). Os outros seis médicos do site aparecem sem especialidade (<a href="https://androclinic.com.br/new/">androclinic.com.br</a>). <span class="tag t-fato">Fato</span></p>
+
+<p><strong>Quinto achado: o modelo é de uma categoria inteira, e a categoria inteira leva as mesmas queixas.</strong> Uro Telemedicina, Boston Medical Group, Lifemen, Instituto Homem, Alfa Men e Mencare usam o mesmo funil. A AndroClinic tem a melhor nota desse grupo no Reclame Aqui, 8,7 (<a href="https://www.reclameaqui.com.br/empresa/androclinic/">AndroClinic</a>) contra 6,6 da Boston (<a href="https://www.reclameaqui.com.br/empresa/boston-medical-group/">Boston</a>), no período de março a agosto de 2026. <span class="tag t-fato">Fato</span></p>
+
+<p><strong>Sexto achado: a fórmula manipulada não pode ser anunciada e está no alvo da Anvisa.</strong> A RDC 67/2007 proíbe divulgar manipulado ao público (<a href="https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2007/rdc0067_08_10_2007.html">texto oficial</a>). Em abril de 2026, a Anvisa suspendeu farmácias que vendiam "pela internet com fórmula fixa e nome comercial" (<a href="https://www.metropoles.com/saude/anvisa-suspende-manipulados-e-falsos">Metrópoles</a>). O produto que diferencia a AndroClinic é justamente o que ela não pode mostrar. <span class="tag t-fato">Fato</span></p>
+
+<p><strong>Sétimo achado: existem lacunas que as clínicas do modelo de pacote deixam abertas.</strong> Nenhuma delas mostra o preço do tratamento antes da consulta, entrega a receita sem exigir a compra ou põe urologista com rosto no anúncio. A Omens é a exceção na receita e no urologista, mas cobra consulta barata e quase não anuncia no Google. Nos anúncios vistos, ninguém fala com a parceira nem trata a ereção como sinal de saúde do corpo. Todas essas lacunas cabem dentro da regra do CFM e da política da Meta. <span class="tag t-sup">Suposição</span> sustentada nas frentes 2 e 3</p>
+
+<h2 id="marca">2. A AndroClinic hoje</h2>
+
+<h3>Quem é a empresa</h3>
+<p>A marca pertence à LHP Gestão a Saúde Ltda, CNPJ 25.178.600/0001-75, aberta em 11/07/2016, com sócio único. O CNAE principal é "atividades de apoio à gestão de saúde". O cadastro não tem CNAE de clínica médica nem de farmácia (<a href="https://brasilapi.com.br/api/cnpj/v1/25178600000175">Receita via BrasilAPI</a>). A Receita registra a sede em Barueri/SP, e o site diz que a matriz fica em Florianópolis. A pesquisa achou quatro endereços e dois números de alvará diferentes. <span class="tag t-fato">Fato</span></p>
+<p>O domínio andropharma.com.br é de 2011 e está registrado em nome de outra pessoa física (<a href="https://rdap.registro.br/domain/andropharma.com.br">Registro.br</a>). No Google Ads, os anúncios de androclinica.com.br e andromedicina.com saem pela conta de outra razão social, "ANDRO PHARMA LTDA", com identidade verificada (<a href="https://adstransparency.google.com/advertiser/AR15715331017336160257?region=BR">Central de Transparência</a>). Ninguém levantou o CNPJ dessa segunda empresa. O perfil da empresa no InfoJobs fala em "integração entre médicos, farmácias de manipulação e clientes" e já teve vaga de farmacêutico em Florianópolis (<a href="https://www.infojobs.com.br/empresa-grupo-lhp-gestao-saude__655364.aspx">InfoJobs</a>). <span class="tag t-fato">Fato</span> para os registros, <span class="tag t-pista">Pista</span> para o perfil</p>
+<p>Fica uma pergunta aberta, e ela é a mais importante da pesquisa: a clínica tem vínculo societário ou comercial com a farmácia que manipula as fórmulas? A Andro Pharma Ltda é o primeiro lugar para procurar. Se o vínculo existir, ele fere os artigos 58, 68 e 69 do Código de Ética Médica, e o problema vem antes de qualquer copy. <span class="tag t-sup">Suposição</span> a verificar com o cliente</p>
+
+<h3>O funil</h3>
+<p>O link da bio passa por dois redirecionamentos até uma agenda montada em Lovable. Em 01/10/2026, ela mostrava "Nenhuma data disponível no momento" (<a href="https://agendamento.andromens.com.br/agendar">agenda</a>). O tráfego pago cai numa rede de pelo menos seis domínios: andropharma.com.br, androclinic.com.br, androclinica.com.br, andromedicina.com, androcentro.com.br e andromens.com.br. Uns anunciam avaliação gratuita (<a href="https://androcentro.com.br/">androcentro</a>). Outros vendem consulta a R$ 196 (<a href="https://androclinica.com.br/">androclinica</a>) ou R$ 197 (<a href="https://drestivalet.andromedicina.com/">andromedicina</a>). O médico responsável muda de uma página para outra. Os contadores de prova social aparecem zerados no HTML, como "0% dos Homens satisfeitos" (<a href="https://andromedbrasil.com.br/disf/">andromedbrasil</a>). <span class="tag t-fato">Fato</span></p>
+<p>Uma página de destino usa o Craque Neto como garoto-propaganda e cita a Porsche Cup. A pesquisa não achou nenhuma fonte externa que confirme essa parceria. <span class="tag t-pista">Pista</span> <a href="https://androclinica.com.br/">androclinica.com.br</a></p>
+
+<h3>Reputação</h3>
+<p>No Reclame Aqui, entre março e agosto de 2026, a empresa tem nota 8,7, reputação "Ótima", 18 reclamações e 100% delas respondidas. Só 66,7% dos clientes voltariam a fazer negócio (<a href="https://www.reclameaqui.com.br/empresa/androclinic/">Reclame Aqui</a>). O índice de busca do próprio site mostra outra janela, com nota 8,2, 21 reclamações e 57,1% que voltariam (<a href="https://www.reclameaqui.com.br/empresa/androclinic/lista-reclamacoes/">lista</a>). <span class="tag t-fato">Fato</span></p>
+<p>A nota alta vem da resposta rápida e do estorno. O conteúdo das reclamações é ruim e repetitivo. <span class="tag t-sup">Suposição</span></p>
+<blockquote>Só te passam a receita se fizer o pagamento para eles! Um absurdo. Ja fiz a denuncia no CRM de santa Catarina<cite>Cliente de Matinhos/PR, 05/02/2026, <a href="https://www.reclameaqui.com.br/androclinic/propaganda-enganosa-venda-casada-cuidado_tWEqY-JQJZyNcXTW/">Reclame Aqui</a></cite></blockquote>
+<blockquote>me passaram pra um consultor da empresa que falou que tinha q fazer a compra dos medicamentos naquele momento,fiz a compra 3500 reais..pos compra pedi para ver quais eram os remédios,se negaram passar<cite>Cliente de Caçador/SC, 17/09/2026, <a href="https://www.reclameaqui.com.br/androclinic/solicitei-cancelamento-e-estorno-de-compra-de-medicamentos-e-aguardo-retorno_gAdhLLv9311q51Yx/">Reclame Aqui</a></cite></blockquote>
+<p>A busca do Google completa "androclinic" com "é confiável" e "é boa". O comprador checa a reputação antes de fechar. <span class="tag t-fato">Fato</span> <a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=androclinic">Google Suggest</a></p>
+
+<h3>Presença digital</h3>
+<p>O Instagram @androclinic.saude tem 59 mil seguidores e 334 posts (<a href="https://www.instagram.com/androclinic.saude/">Instagram</a>). O YouTube tem 4,15 mil inscritos e 226 vídeos, e os vídeos recentes ficam entre 22 e 162 visualizações (<a href="https://www.youtube.com/@androclinicbr/videos">YouTube</a>). O LinkedIn linkado no site devolve erro 404 (<a href="https://www.linkedin.com/company/androclinicbrasil">LinkedIn</a>), e o TikTok não existe. O nome AndroClinic também é usado por clínicas sem relação na Espanha, na Grécia e na Polônia (<a href="https://www.scamadviser.com/check-website/androclinic.gr">androclinic.gr</a>). <span class="tag t-fato">Fato</span></p>
+<p>Os títulos do YouTube já usam a língua do público: "Você DESEJA Sua MULHER Mas BROXA na Hora H?" e "Falhou Uma Vez e Nunca Mais Foi o Mesmo?". O Instagram parece ter crescido com tráfego pago. O YouTube não gera demanda. <span class="tag t-sup">Suposição</span></p>
+
+<h2 id="risco">3. O que o CFM, a Anvisa e as plataformas proíbem</h2>
+<p>Esta seção vem antes dos concorrentes porque ela define o que a campanha pode dizer. Pela Resolução CFM 2.336/2023, artigo 3º, o diretor técnico responde pela publicidade da clínica. O risco recai sobre o CRM dele e sobre a conta de anúncio. <span class="tag t-fato">Fato</span> <a href="https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf">texto oficial do CFM</a></p>
+
+<div class="card risco">
+<h3>Garantia de resultado</h3>
+<p>Vedada pelo artigo 11, XII, da Resolução CFM 2.336/2023. Pelo artigo 30 do CDC, também vira obrigação exigível pelo cliente.</p>
+<div class="troca"><div class="nao"><b>Hoje no site</b>"Com certeza! Ao aderir ao tratamento, você terá garantias de resultados."</div><div class="sim"><b>Trocar por</b>"Você tem acompanhamento médico durante todo o tratamento, com retorno incluído."</div></div>
+</div>
+
+<div class="card risco">
+<h3>"Sem efeito colateral"</h3>
+<p>Vedado pelo artigo 11, XVI, da 2.336 (conteúdo inverídico) e pelo artigo 37 do CDC.</p>
+<div class="troca"><div class="nao"><b>Hoje no site</b>"A medicação gera efeito colateral? Não."</div><div class="sim"><b>Trocar por</b>"O médico escolhe o tratamento pelo seu histórico e explica os efeitos possíveis antes de começar."</div></div>
+</div>
+
+<div class="card risco">
+<h3>Avaliação gratuita</h3>
+<p>O artigo 11, §4º, "c", trata serviço médico gratuito como concorrência desleal, inclusive em empresa que contrata médico.</p>
+<div class="troca"><div class="nao"><b>Hoje no site</b>"Faça já sua AVALIAÇÃO CLÍNICA GRATUITA e descubra qual o grau da sua disfunção."</div><div class="sim"><b>Trocar por</b>"Consulta online por R$ [valor], com retorno incluído."</div></div>
+</div>
+
+<div class="card risco">
+<h3>Especialidade e identificação do médico</h3>
+<p>O artigo 4º exige nome, CRM com UF e a palavra MÉDICO em toda peça, e o RQE quando a peça anuncia especialidade. O artigo 11, I, proíbe o médico sem especialidade de divulgar que trata doença específica. Hoje a página de venda apresenta o diretor como "Médico em Saúde Masculina" (<a href="https://androclinica.com.br/">androclinica.com.br</a>). O site institucional lista médicos sem especialidade (<a href="https://androclinic.com.br/new/">androclinic.com.br</a>). O site antigo ainda mostra um "Dr. Daniel Petkov – CRM 15069" sem UF (<a href="https://andropharma.com.br/">andropharma.com.br</a>).</p>
+</div>
+
+<div class="card risco">
+<h3>Fórmula como produto anunciado</h3>
+<p>O item 5.14 da RDC Anvisa 67/2007 proíbe expor manipulado ao público com fim de propaganda. O artigo 36 da RDC 96/2008 limita a informação sobre manipulado ao prescritor. A Meta só aceita anúncio de remédio de prescrição nos Estados Unidos, no Canadá e na Nova Zelândia (<a href="https://transparency.meta.com/policies/ad-standards/restricted-goods-services/drugs-pharmaceuticals/">política da Meta</a>). O selo "fórmulas exclusivas" fica exposto.</p>
+</div>
+
+<div class="card risco">
+<h3>Venda de remédio amarrada à consulta</h3>
+<p>Os artigos 58, 68 e 69 do Código de Ética Médica proíbem o exercício mercantilista, a dependência de farmácia e a vantagem sobre a venda de medicamento. O parecer CRM-PR 2914/2024 e o parecer CREMEPA 07/2026 mostram como os conselhos estão lendo esse vínculo, inclusive na telemedicina. <span class="tag t-fato">Fato</span> <a href="https://sistemas.cfm.org.br/normas/arquivos/pareceres/PR/2024/2914_2024.pdf">CRM-PR</a>, <a href="https://sistemas.cfm.org.br/normas/arquivos/pareceres/PA/2026/7_2026.pdf">CREMEPA</a></p>
+</div>
+
+<div class="card risco">
+<h3>Outras travas</h3>
+<ul>
+<li>Pergunta de diagnóstico ao leitor, como "você sofre de...?", é vedada pelo artigo 8º, II, da RDC 96 e pela política de atributos pessoais da Meta.</li>
+<li>Anúncio de saúde sexual na Meta precisa focar em saúde e eficácia médica, e só pode ir para maiores de 18 anos. O foco em prazer ou desempenho é barrado. <a href="https://transparency.meta.com/policies/ad-standards/content-specific-restrictions/adult-products-or-services">Política da Meta</a></li>
+<li>A Lei 9.294/1996, artigo 7º, §2º, proíbe em propaganda de terapia "afirmações que não sejam passíveis de comprovação científica". <a href="https://www.planalto.gov.br/ccivil_03/leis/l9294.htm">Planalto</a></li>
+<li>Testosterona para libido só com deficiência comprovada em exame (Resolução CFM 2.333/2023).</li>
+<li>Escassez sem prova, como "Restam apenas 4 vagas!" e "Últimas 12h", cai em sensacionalismo pelo artigo 11, XVI.</li>
+<li>Dado de saúde é dado sensível na LGPD. O pixel não pode carregar a condição clínica, e o formulário precisa de consentimento destacado.</li>
+</ul>
+</div>
+
+<p>O que a AndroClinic pode fazer: anunciar a consulta online e a presencial em Alphaville com preço e forma de pagamento, mostrar médico com CRM, falar da condição com foco em saúde e divulgar resultado agregado e comprovável sem identificar paciente. Também pode prometer processo verificável, como prazo de retorno, acompanhamento incluído, sigilo e entrega discreta.</p>
+
+<h2 id="concorrentes">4. Concorrentes</h2>
+<p>O mercado se divide em três faixas de preço. A AndroClinic fica no meio: tem o funil das clínicas caras e a entrega das baratas. As reclamações dizem que o cliente paga preço de clínica e recebe produto de farmácia. <span class="tag t-sup">Suposição</span> sustentada nas reclamações citadas</p>
+
+<h3>Faixa barata e escalável: quiz, assinatura, sem vendedor</h3>
+<p><strong>Bluue</strong> é o concorrente que mais disputa atenção agora. Vende pastilha sublingual de tadalafila com sildenafila e tem 32 anúncios ativos na Meta, parte deles rodando por perfis de criadores de casal (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=bluue&search_type=keyword_unordered">Biblioteca de Anúncios</a>). O funil é um quiz de 2 minutos. As reclamações são de entrega (<a href="https://www.reclameaqui.com.br/empresa/bluue-solucoes-online/">Reclame Aqui</a>). <span class="tag t-fato">Fato</span> A promessa é "A Bluue te deixa firme em 15 minutos". <span class="tag t-pista">Pista</span> <a href="https://bluue.io/ps/">bluue.io</a></p>
+<p><strong>Manual</strong> diz atender 600 mil homens (<a href="https://www.manual.com.br/">manual.com.br</a>). <span class="tag t-pista">Pista</span> No Reclame Aqui, tem nota 8,9 e 2.139 reclamações em seis meses, e a principal queixa é "cobrança indevida", com 31,41% (<a href="https://www.reclameaqui.com.br/empresa/manual/">Reclame Aqui</a>). <span class="tag t-fato">Fato</span> Em 01/10/2026, as páginas de ereção e de ejaculação precoce entregavam a página de calvície, e os anúncios vistos na Meta eram todos de queda de cabelo (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=manual.com.br&search_type=keyword_unordered">Biblioteca de Anúncios</a>). A Manual parece ter recuado de saúde sexual. <span class="tag t-sup">Suposição</span> sem dado de verba</p>
+<p><strong>Omens</strong> cobra consulta a partir de R$ 79 e põe urologista identificado na frente: Dr. João Brunhara, CRM-SP 161642 (<a href="https://www.omens.com.br/">omens.com.br</a>). Faz consulta com receita e compra em farmácia parceira. Vende dois cursos comportamentais, um para ereção e outro para ejaculação. Tem nota 8,9 no Reclame Aqui (<a href="https://www.reclameaqui.com.br/empresa/omens-servicos-online-e-software-ltda/">Reclame Aqui</a>). No Google, tem 1 anúncio (<a href="https://adstransparency.google.com/?region=BR&domain=omens.com.br">Central de Transparência</a>). <span class="tag t-fato">Fato</span> Os anúncios dela na Meta não foram verificados, porque a busca caiu em CAPTCHA.</p>
+
+<h3>Faixa intermediária: avaliação, consultor e pacote</h3>
+<p><strong>Uro Telemedicina</strong> é a mais parecida com a AndroClinic. Usa o mesmo DDD 48, médico com CRM/SC e avaliação gratuita. Depois vêm a ligação com a equipe e o spray ou a pastilha sublingual pelo correio (<a href="https://urotelemedicina.com.br/">urotelemedicina.com.br</a>). Não publica preço e não tem reputação definida. As queixas falam de pastilha a menos na entrega e de WhatsApp insistente (<a href="https://www.reclameaqui.com.br/empresa/uroclinic/lista-reclamacoes/">Reclame Aqui</a>). <span class="tag t-fato">Fato</span></p>
+
+<h3>Faixa cara: clínica com pacote de cinco dígitos</h3>
+<p><strong>Boston Medical Group</strong> tem pacotes relatados de R$ 8.000 a R$ 12.000 (<a href="https://www.reclameaqui.com.br/empresa/boston-medical-group/lista-reclamacoes/?produto=0000000000001131">Reclame Aqui</a>), nota 6,6 e reputação "Regular" (<a href="https://www.reclameaqui.com.br/empresa/boston-medical-group/">Reclame Aqui</a>). <strong>Lifemen</strong> tem pacotes relatados de R$ 5.800 e R$ 6.800 (<a href="https://www.reclameaqui.com.br/empresa/lifemen/lista-reclamacoes/">Reclame Aqui</a>). Ela responde que medicina é "atividade meio, não de fim" (<a href="https://www.reclameaqui.com.br/lifemen/insucesso-de-tratamento-de-saude-sexual_-yPZeR5N3GqbtGzL/">Reclame Aqui, 2020</a>). <strong>Alfa Men</strong> tem plano relatado de "quase 9 mil reais" (<a href="https://www.reclameaqui.com.br/clinica-alfa-men/cuidado-ao-se-consultar-nessa-clinica_qCdw009zJd202BfK/">Reclame Aqui</a>). Ela anuncia desde janeiro com o gancho "aumentar em até 1.492% a duração da relação" (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=ejacula%C3%A7%C3%A3o%20precoce&search_type=keyword_unordered">Biblioteca de Anúncios</a>). <strong>Instituto Homem</strong> tem plano relatado de 12 parcelas de R$ 1.200 (<a href="https://www.reclameaqui.com.br/instituto-homem-tatuape/propaganda-enganosa-sobre-tratamento-de-problemas-sexuais-masculinos-com-foco-na-venda-de-planos-caros-em-vez-de-medicamentos_BX2Ckn91EF-t3Wdp/">Reclame Aqui</a>) e reclamação de "médico-vendedor" (<a href="https://www.reclameaqui.com.br/instituto-homem-tatuape/tratamento-vendido-sob-pressao_Kek3cIhJdYIhVx2I/">Reclame Aqui</a>). <span class="tag t-fato">Fato</span></p>
+
+<h3>Substitutos que o cliente compara</h3>
+<p>A tadalafila genérica de 20 mg sai de R$ 11,99 a R$ 19,89 a caixa na farmácia (<a href="https://www.drogariasaopaulo.com.br/tadalafila-20mg-generico-legrand-8-comprimidos/p">Drogaria São Paulo</a>). A de 5 mg com 30 comprimidos estava a R$ 14,99 em promoção, com preço cheio de R$ 120,86 (<a href="https://www.drogariasaopaulo.com.br/tadalafila-5mg-generico-ems-30-comprimidos-revestidos/p">Drogaria São Paulo</a>). Suplementos de maca, tribulus e arginina custam de R$ 47 a R$ 125 na Amazon (<a href="https://www.amazon.com.br/libido-masculino/s?k=libido+masculino">Amazon</a>). Dois cursos de controle da ejaculação "sem remédios" custam R$ 397 em páginas próprias (<a href="https://materiais.sexosemduvida.com/controle-20/">Controle 2.0</a>, <a href="https://www.sexologodiego.com.br/metodo-apm">Método APM</a>). <span class="tag t-fato">Fato</span></p>
+<p>Sprays retardantes aparecem de R$ 25 a R$ 80 no Mercado Livre, mas esse número vem de trecho indexado e não foi verificado na página (<a href="https://lista.mercadolivre.com.br/spray-retardante">Mercado Livre</a>). <span class="tag t-pista">Pista</span></p>
+<p>Desde agosto de 2026, a Anvisa liberou a venda de remédio por aplicativos como iFood e Mercado Livre, com regulamentação ainda pendente (<a href="https://mercadoeconsumo.com.br/10/08/2026/ecommerce/anvisa-libera-entrega-de-medicamentos-por-aplicativos-como-ifood-rappi-e-mercado-livre/amp/">Mercado & Consumo</a>). <span class="tag t-fato">Fato</span> Com a receita na mão, o genérico pode chegar em uma hora. A entrega pelo correio deixa de ser diferencial. <span class="tag t-sup">Suposição</span></p>
+
+<h3>Urologistas que disputam a confiança</h3>
+<p>Os maiores canais do tema são de urologistas com CRM à vista. O Dr. Marco Túlio Cavalcanti tem 1,17 milhão de inscritos (<a href="https://www.youtube.com/watch?v=zyuW9FvMq_4">YouTube</a>). O Médico dos Homens tem 436 mil (<a href="https://www.youtube.com/@omedicodoshomens">YouTube</a>). O Dr. Tiago Guirro tem cerca de 440 mil (<a href="https://drtiagoguirro.com.br/">drtiagoguirro.com.br</a>). Nenhum deles vende fórmula própria. <span class="tag t-fato">Fato</span></p>
+<p>O canal do Dr. Marco Túlio tem um vídeo chamado "Tratamentos Milagrosos Da Disfunção Erétil". O maior canal do tema educa o público a desconfiar de promessa milagrosa, o que pesa contra a garantia de resultado. <span class="tag t-sup">Suposição</span></p>
+
+<h3>Ângulos já gastos</h3>
+<p>Quase todos os concorrentes usam a mesma lista: discrição e embalagem sem identificação, "100% online", "avaliação gratuita", "fórmula exclusiva ou personalizada", "recupere sua confiança", contador de homens atendidos, "1 em cada 3 homens", "sublingual age mais rápido" e escassez de vagas. A expressão "fórmula exclusiva" é usada até por uma farmácia de manipulação, a Farmafine (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=libido%20masculina&search_type=keyword_unordered">Biblioteca de Anúncios</a>). <span class="tag t-fato">Fato</span> como contagem. Nenhum desses ângulos diferencia mais. <span class="tag t-sup">Suposição</span></p>
+
+<h2 id="anuncios">5. Anúncios no nicho</h2>
+<p>A página "Androclinic Brasil" tinha 26 anúncios ativos na Meta em 01/10/2026, quase todos em vídeo (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=androclinic&search_type=keyword_unordered">Biblioteca de Anúncios</a>). Outros 2 levam a andromens.com.br (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=disfun%C3%A7%C3%A3o%20er%C3%A9til&search_type=keyword_unordered&media_type=all">busca</a>). Nove estão no ar desde 7 a 11 de junho, há cerca de 116 dias. Lotes novos entram a cada duas a quatro semanas. <span class="tag t-fato">Fato</span> Pela regra da casa, anúncio que roda há tanto tempo é vencedor. <span class="tag t-sup">Suposição</span></p>
+<p>O texto do anúncio é curto e neutro, como "AndroClinic. Faça o seu diagnóstico." A promessa fica no vídeo e na página de destino (<a href="https://www.facebook.com/ads/library/?id=1813820259651160">anúncio 1813820259651160</a>). No Google, os anúncios dos domínios da AndroClinic saem pela conta Andro Pharma Ltda, com 11 anúncios de texto. A ficha mostra três vezes "Removed for a policy violation" (<a href="https://adstransparency.google.com/advertiser/AR15715331017336160257?region=BR">Central de Transparência</a>). <span class="tag t-fato">Fato</span></p>
+<p>O nicho é grande. A Meta mostrava cerca de 2.400 anúncios ativos com "disfunção erétil" (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=disfun%C3%A7%C3%A3o%20er%C3%A9til&search_type=keyword_unordered&media_type=all">busca</a>) e 1.200 com "ejaculação precoce" (<a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=ejacula%C3%A7%C3%A3o%20precoce&search_type=keyword_unordered">busca</a>). A contagem inclui anúncios sem relação, porque a busca casa palavra solta. No Google, a UPMEN tem 77 anúncios (<a href="https://adstransparency.google.com/?region=BR&domain=upmen.com.br">Central de Transparência</a>). <span class="tag t-fato">Fato</span></p>
+<p>Nos anúncios vistos, quem disputa leilão com a AndroClinic são clínicas de nicho e marcas de venda direta: Alfa Men, Genesis, ABX, Total Homem, Bluue e UPMEN. A Manual só apareceu com calvície. Omens e Boston não puderam ser checadas na Meta. No Google, a Omens tem 1 anúncio e a Boston tem 0. <span class="tag t-sup">Suposição</span> com contagem da frente 3</p>
+<p>O nicho fala em código por causa das regras: "hora H", "desempenho", "controle", "fórmula exclusiva", "sigilo". Nenhum anúncio visto cita tadalafila, sildenafila ou dapoxetina. Algumas empresas espalham a operação em vários domínios e contas de anúncio. Isso sugere uma tática para diluir o risco de suspensão. <span class="tag t-sup">Suposição</span></p>
+
+<h2 id="publico">6. Público</h2>
+<p class="lead">O medo que decide a compra é ser empurrado para um pacote caro depois de uma consulta curta. A pesquisa leu 23 reclamações da AndroClinic de abril a setembro de 2026, e 15 delas tratam disso. Sigilo, a promessa que todo concorrente faz, não aparece em nenhuma citação encontrada.</p>
+<p>Antes de vender sigilo, a comunicação precisa responder quatro perguntas: quem é o médico, o que vai ser receitado, quanto custa o tratamento e como se cancela. <span class="tag t-sup">Suposição</span> sustentada nas citações abaixo</p>
+
+<h3>Três públicos com dor e linguagem diferentes</h3>
+<p><strong>Disfunção erétil de origem física.</strong> Homem de 45 a 65 anos, na maioria casado, muitas vezes com hipertensão ou diabetes, de todas as regiões. Já tentou o "azulzinho" e busca "ereção fraca o que fazer" ou "não consigo ficar duro na hora h". Na pesquisa da SBU de 2024, 63% dos que já falharam tinham de 55 a 59 anos (<a href="https://tribunademinas.com.br/especiais/saude/11-07-2024/dificuldade-erecao.html?amp=1">SBU via Tribuna de Minas</a>). <span class="tag t-fato">Fato</span> para os números</p>
+<p><strong>Ejaculação precoce e disfunção de ansiedade.</strong> Homem jovem, solteiro ou em relação nova. Busca "gozo muito rápido é normal" e "broxei no primeiro encontro" (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=gozo%20muito%20r%C3%A1pido">Google Suggest</a>). Um estudo de 2023 ouviu 226 homens que fazem sexo com homens em São Paulo, com idade média de 24,7 anos. Na autoavaliação, 17,3% se disseram precoces. Pelo critério clínico de tempo, só 6,2% eram (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9978591/">Sexual Medicine, 2023</a>). A amostra é pequena e específica, mas indica que parte do público se acha precoce sem ser. Duas reclamações mostram pacientes com disfunção de ansiedade saindo frustrados de um tratamento só com remédio. <span class="tag t-fato">Fato</span> para o estudo, <span class="tag t-sup">Suposição</span> para a extensão</p>
+<p><strong>Falta de libido, com a parceira junto.</strong> Homem de 40 anos ou mais, com busca ligada à idade, como "falta de libido masculina 45 anos". A mulher aparece como coautora da busca: o Google completa "meu marido não" com "me procura mais na cama" e "tem mais desejo por mim" (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=meu%20marido%20n%C3%A3o">Google Suggest</a>). <span class="tag t-fato">Fato</span></p>
+<p>A renda e a região de quem procura tratamento não aparecem em nenhum estudo recente. As reclamações vêm de todas as regiões, com peso de cidades médias e do interior. <span class="tag t-sup">Suposição</span></p>
+
+<h3>As objeções, pela ordem de frequência</h3>
+<ol>
+<li><strong>Venda empurrada e preço escondido.</strong> É o tema mais repetido na amostra.</li>
+<li><strong>Não saber o que vai tomar.</strong> Remédio não informado, fórmula "natural" sem aviso, receita que não chega.</li>
+<li><strong>"É médico mesmo? É especialista?"</strong> O médico do anúncio não é o médico da consulta, e o CRM consultado não mostra especialização.</li>
+<li><strong>Não funcionar e não conseguir trocar nem reembolsar.</strong></li>
+<li><strong>Efeito colateral</strong> da fórmula manipulada.</li>
+<li><strong>Dependência.</strong> O Google completa "tadalafila vicia" com seis variações (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=tadalafila%20vicia">Google Suggest</a>).</li>
+<li><strong>Cobrança recorrente</strong> e dificuldade de cancelar, queixa forte contra a Manual.</li>
+</ol>
+
+<h3>A voz do público</h3>
+<p>Citações literais, com erros de digitação mantidos. O Reclame Aqui e a Amazon foram lidos por um proxy, porque o acesso direto devolve 403. Confira cada frase no link antes de usar em copy. O arquivo da frente 4 tem 54 citações.</p>
+<blockquote>Cheguei na AndroClinic bem inseguro, cheio de dúvidas e, pra ser honesto, com vergonha também. Não é fácil falar sobre isso.<cite>Gramado/RS, 14/06/2026, <a href="https://www.reclameaqui.com.br/androclinic/atendimento-e-tratamento-na-androclinic_5AD9xxPZwtarB8dl/">Reclame Aqui</a>. O tom lembra depoimento incentivado. Não usar como prova social sem checar a origem.</cite></blockquote>
+<blockquote>Assim que acabou me passaram para um setor para me vender 4.000 em remédios e acompanhamento. Respondi que eu só queria minhas receitas dos remedios e presquicao do médico. Resposta foi só funciona se comprar conosco.<cite>Rio de Janeiro/RJ, 05/05/2026, <a href="https://www.reclameaqui.com.br/androclinic/recusa-de-receita-e-nota-fiscal-sem-compra-de-medicamentos_3OOVaIRhgY4F7vl3/">Reclame Aqui</a></cite></blockquote>
+<blockquote>Deixo aqui minha insatisfação pelo fato de ser mais uma clinica vendedora de remedio. O anuncio mostra uma figura ( pessoa) que atua como médico especialista e na consulta é outro profissional<cite>Cotia/SP, 15/06/2026, <a href="https://www.reclameaqui.com.br/androclinic/clinica-vende-remedio-com-diagnostico-enganoso-e-orientacao-sem-sentido_Fn7MZM9UquxYd2v2/">Reclame Aqui</a></cite></blockquote>
+<blockquote>relatei que tenho problema de ansiedade sendo que a medicação que me passaram é para tentar solucionar problema físico<cite>Venâncio Aires/RS, 13/04/2026, <a href="https://www.reclameaqui.com.br/androclinic/consulta-online-com-problema-de-ansiedade-direcionada-para-compra-de-remedios-e-sem-solucao-para-o-caso_1z6kUOuNyGQqJkzJ/">Reclame Aqui</a></cite></blockquote>
+<blockquote>Tenho 22 anos e sofro de EP. Ao iniciar o sexo chego a ejacular no primeiro minuto!<cite><a href="https://www.doctoralia.com.br/perguntas-respostas/tenho-22-anos-e-sofro-de-ep-ao-iniciar-o-sexo-chego-a-ejacular-no-primeiro-minuto-que-medico-devo">Doctoralia</a>, sem data exibida. Na mesma pergunta: "Se o tratamento for atraves de remedio, posso ficar dependente?"</cite></blockquote>
+<blockquote>O que eles querem é vender um pacote de tratamento, 15.000 reais por ano, remédios que a pessoa se torna refém<cite>Cliente do Instituto Homem, Concórdia/SC, 27/08/2026, <a href="https://www.reclameaqui.com.br/instituto-homem-tatuape/clinica-foca-em-vender-pacotes-de-tratamento-caros-em-vez-de-tratar-o-paciente-com-medicamentos-de-farmacia_skv3CSXbOuJRKiQa/">Reclame Aqui</a></cite></blockquote>
+<blockquote>Agua com açúcar<cite>Título de avaliação de um spray, <a href="https://www.amazon.com.br/dp/B0FJ9F8X9Y">Amazon</a>, 18/03/2026</cite></blockquote>
+<p>O elogio usa duas expressões: "atendimento sem julgamento" e "explicações que fizeram sentido". As duas valem como direção de tom. <span class="tag t-fato">Fato</span> <a href="https://www.reclameaqui.com.br/androclinic/atendimento-e-tratamento-na-androclinic_5AD9xxPZwtarB8dl/">Reclame Aqui</a></p>
+
+<h3>Como ele fala e busca</h3>
+<p>Vocabulário do público: "broxei", "gozo muito rápido", "durar mais na cama", "ficar duro", "na hora h", "ereção fraca", "perco a ereção", "constrangedor", "tadala", "azulzinho", "sem remédio", "de forma natural", "vicia", "ficar dependente", "refém", "empurrar", "vendedor de remédio", "consulta relâmpago", "show de marketing".</p>
+<p>O Google completa "broxei" com "do nada", "no primeiro encontro" e "duas vezes o que pode ser" (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=broxei">Google Suggest</a>). Completa "disfunção erétil aos" com 20, 30, 35, 40, 50 e 60 anos (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=disfun%C3%A7%C3%A3o%20er%C3%A9til%20aos">Google Suggest</a>). E completa "remédio para ereção" com "precoce", o que mostra a confusão entre disfunção erétil e ejaculação precoce (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=rem%C3%A9dio%20para%20ere%C3%A7%C3%A3o">Google Suggest</a>). <span class="tag t-fato">Fato</span></p>
+<p>Nomes de produto da Amazon como "Capitão Bengala" e "Atrasa-Gozada" pertencem ao vocabulário de quem vende (<a href="https://www.amazon.com.br/s?k=retardante+ejacula%C3%A7%C3%A3o">Amazon</a>). Esse tom vende gel de R$ 20 e afasta quem procura tratamento médico. <span class="tag t-sup">Suposição</span></p>
+
+<h3>A jornada até o médico</h3>
+<p>O primeiro episódio leva ao Google com "é normal?" e "sem remédio". Quando o episódio se repete, vem a farmácia, a tadalafila de um amigo ou um suplemento. Depois vem o resultado fraco e o medo de "viciar". A vergonha de ir ao urologista leva ao anúncio de telemedicina. Antes de fechar, ele confere o Reclame Aqui. Um paciente escreveu: "olhei o Reclame Aqui antes de tomar qualquer decisão" (<a href="https://www.reclameaqui.com.br/androclinic/atendimento-e-tratamento-na-androclinic_5AD9xxPZwtarB8dl/">Reclame Aqui</a>). <span class="tag t-sup">Suposição</span> para a sequência</p>
+<p>Dois dados antigos sustentam a jornada, e entram porque não há estudo nacional mais novo sobre o tema. Em 2015, 54% de quem usava remédio para ereção se automedicava (<a href="https://www.tribunapr.com.br/noticias/curitiba-regiao/pesquisa-revela-que-66-dos-curitibanos-diz-ser-fiel/">SBU e Bayer, 2015</a>). Em 2004, só 27% dos homens tinham sido perguntados sobre sexo em consulta, e 81% achavam que deveriam ser (<a href="https://www.arca.fiocruz.br/handle/icict/19471?show=full">Projeto Avaliar, Fiocruz</a>). <span class="tag t-fato">Fato</span> com data declarada</p>
+
+<h2 id="mercado">7. Mercado e tendências</h2>
+<p><strong>O problema é grande e pouco tratado.</strong> Na pesquisa da SBU de 2024, 52% dos homens de 40 anos ou mais disseram já ter tido dificuldade para manter a ereção (<a href="https://www.tnh1.com.br/noticia/nid/52-dos-homens-admite-ja-ter-falhado-durante-o-sexo-diz-pesquisa-veja-quando-procurar-ajuda/">SBU via TNH1</a>). <span class="tag t-fato">Fato</span> O número de homens que procuram médico só existe em dado antigo, que entra por falta de estudo mais novo. Em 2012, a SBU estimava que menos de 10% procuravam ajuda (<a href="https://jornaldaparaiba.com.br/_/63583">Jornal da Paraíba, 2012</a>). Em 2015, 62% já tinham usado estimulante sem orientação médica (<a href="https://www.tribunapr.com.br/noticias/brasil/pesquisa-aponta-que-51-dos-homens-nunca-foram-ao-urologista/">SBU e Bayer via Tribuna PR</a>). <span class="tag t-fato">Fato</span> com data declarada</p>
+<p><strong>A prevalência de ejaculação precoce não tem número firme.</strong> As cifras vão de 15,8% (<a href="https://revistasbph.emnuvens.com.br/revista/article/download/442/429/470">Mosaico Brasil, via Revista SBPH</a>) a "1 a cada 3" (<a href="https://catracalivre.com.br/saude-bem-estar/anvisa-acaba-de-aprovar-medicacao-inovadora-para-tratar-ejaculacao-precoce/">SBU via Catraca Livre, 2023</a>). O número atribuído à SBU circula na imprensa sem o estudo de origem. Em peça, só com "segundo a SBU" e a data ao lado. <span class="tag t-fato">Fato</span> sobre a contradição</p>
+<p><strong>O remédio virou commodity.</strong> A tadalafila saiu de 3,2 milhões de unidades vendidas em 2015 para 64,7 milhões em 2024, segundo a Anvisa (<a href="https://site.cff.org.br/noticia/Noticias-gerais/19/05/2025/moda-nas-redes-sociais-consumo-de-tadalafila-dispara-2-000-no-brasil-em-9-anos">CFF</a>). Em 2025, só o genérico vendeu 75,1 milhões de unidades, o quarto genérico mais vendido do país (<a href="https://site.cff.org.br/noticia/Noticias-gerais/03/02/2026/genericos-ultrapassam-2-3-bilhoes-de-unidades-vendidas-em-2025-e-consolidam-crescimento-de-8-33-">PróGenéricos e IQVIA via CFF</a>). Uma fonte secundária fala em 74,9 milhões de caixas no total (<a href="https://diariodopara.com.br/dr-responde/tadalafila-vendas-explodem-uso-recreativo-jovens-riscos/">Diário do Pará</a>), e as duas séries não batem. A Anvisa e o Ministério da Saúde alertaram em junho de 2026 contra o uso como pré-treino (<a href="https://site.cff.org.br/noticia/Noticias-gerais/01/06/2026/anvisa-e-ministerio-da-saude-advertem-que-tadalafila-nao-deve-ser-usada-como-pre-treino">CFF</a>). <span class="tag t-fato">Fato</span></p>
+<p><strong>A manipulação cresce, mas está sob fiscalização.</strong> O setor diz ter 9.320 farmácias e ter faturado R$ 13,2 bilhões em 2025 (<a href="https://site.cff.org.br/noticia/Noticias-gerais/30/07/2026/farmacias-de-manipulacao-cresceram-11-1-em-cinco-anos-revela-panorama-setorial-2025">Anfarmag via CFF</a>). <span class="tag t-pista">Pista</span> Em 2025, a Anvisa proibiu a goma de tadalafila Metbala (<a href="https://site.cff.org.br/noticia/Noticias-gerais/15/05/2025/anvisa-proibe-gummy-de-tadalafila-metbala-">CFF</a>). Em abril de 2026, suspendeu farmácias que vendiam fórmula fixa pela internet (<a href="https://www.metropoles.com/saude/anvisa-suspende-manipulados-e-falsos">Metrópoles</a>). <span class="tag t-fato">Fato</span></p>
+<p><strong>O modelo lá fora mudou.</strong> A Hims &amp; Hers faturou US$ 2,35 bilhões em 2025, alta de 59%, com 2,5 milhões de assinantes (<a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/">release oficial</a>). <span class="tag t-fato">Fato</span> Na Ro, a disfunção erétil teria caído de cerca de 60% para cerca de um terço da receita, por causa da queda de preço do genérico (<a href="https://sacra.com/c/ro">Sacra</a>). Esse número é estimativa de terceiro. <span class="tag t-sup">Suposição</span> A Omens abriu linhas de emagrecimento e de saúde feminina (<a href="https://startups.com.br/negocios/healthtechs/omens-expande-negocios-e-lanca-isha-marca-de-saude-feminina/">Startups</a>). <span class="tag t-pista">Pista</span></p>
+<p><strong>O que o público procura no Google.</strong> O autocompletar de "ejaculação precoce" traz "tem cura", "tratamento", "o que fazer" e "remédio" (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=ejacula%C3%A7%C3%A3o%20precoce">Google Suggest</a>). O de "remédio para ejaculação precoce" traz "sem receita", "natural" e "aprovado pela anvisa" (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=rem%C3%A9dio%20para%20ejacula%C3%A7%C3%A3o%20precoce">Google Suggest</a>). O de "disfunção erétil" traz "em jovens", "psicogênica" e "psicológica" (<a href="https://suggestqueries.google.com/complete/search?client=firefox&hl=pt-BR&gl=br&q=disfun%C3%A7%C3%A3o%20er%C3%A9til">Google Suggest</a>). O volume de busca não foi medido. <span class="tag t-fato">Fato</span></p>
+
+<h3>A evidência contra a hipótese do cliente</h3>
+<p>A pesquisa procurou o que derruba a ideia de que "telemedicina com fórmula manipulada" é um bom posicionamento, e achou seis pontos. O remédio é barato e chega por aplicativo. A fórmula não pode ser anunciada. A Anvisa está fiscalizando esse modelo. O vínculo entre médico e farmácia é vedado. Lá fora, a disfunção erétil sozinha deixou de ser o motor do negócio. Nenhum termo de saúde sexual aparece entre as buscas por "remédio manipulado para".</p>
+<p>O contraponto é que a Hims mostra que tratamento personalizado em assinatura retém cliente. A regra americana, porém, é outra e não se transfere para cá.</p>
+
+<h2 id="oportunidades">8. Oportunidades</h2>
+<p>As oportunidades abaixo cruzam as cinco frentes. A ordem é leitura do squad. Todas cabem dentro da Resolução CFM 2.336/2023 e da política da Meta. Algumas exigem mudar a operação antes de virar copy, porque prometer sem mudar vira a próxima reclamação.</p>
+
+<div class="card oport">
+<h3>1. Médico no centro, fórmula como consequência</h3>
+<p>A ideia é trocar o produto anunciado: sai a fórmula, entra o ato médico. Isso significa urologista com nome, CRM, RQE e rosto no anúncio. O consultório de Alphaville vira prova de que existe médico de verdade, e o preço da consulta fica aberto. Os maiores canais do tema são de urologistas, e a AndroClinic já levou reclamação de "médico sem especialização em urologia". Exige ter um urologista com RQE na frente da marca.</p>
+</div>
+
+<div class="card oport">
+<h3>2. Receita na mão e preço na mesa</h3>
+<p>As três queixas mais repetidas contra as clínicas de pacote são preço revelado só pelo consultor, receita condicionada à compra e remédio às cegas. A proposta é entregar a receita mesmo sem compra, dizer o nome do tratamento antes do pagamento e mostrar a faixa de preço do tratamento. Uma clínica que faça isso fala direto com essa dor. Nenhuma clínica do modelo de pacote faz. Exige mudar a operação comercial.</p>
+</div>
+
+<div class="card oport">
+<h3>3. Ejaculação precoce como porta de entrada, com remédio e treino</h3>
+<p>As clínicas de fórmula vendem remédio de ereção para quem tem ejaculação precoce. Os infoprodutos vendem "sem remédio" por R$ 397. Só a Omens junta os dois, e ela tem só 1 anúncio no Google. Aqui não existe a guerra de preço da tadalafila. O ângulo é usar a medicação como ponte e o treino como saída, com o paciente sabendo quando para de depender da fórmula.</p>
+</div>
+
+<div class="card oport">
+<h3>4. O homem que já toma tadalafila por conta própria</h3>
+<p>Em 2025, foram vendidas 75,1 milhões de unidades de tadalafila genérica. Em 2026, saiu um alerta oficial contra o uso sem indicação. Em 2015, 62% dos homens já tinham usado estimulante sem orientação. O ângulo é "antes de tomar mais um comprimido, descubra a causa", com a avaliação médica como passo de segurança. O nome do remédio fica fora do anúncio, por causa da Meta.</p>
+</div>
+
+<div class="card oport">
+<h3>5. Ereção como sinal de saúde e a parceira como protagonista</h3>
+<p>Nenhum anúncio visto liga a ereção a coração, sono ou hormônio, e nenhum fala com a parceira. Os dois ângulos cabem na exigência da Meta de focar em saúde e eficácia médica.</p>
+</div>
+
+<div class="card oport">
+<h3>6. Libido depois dos 40, com exame antes do tratamento</h3>
+<p>O Google completa "falta de libido masculina" com "45 anos" e "qual médico procurar". A Resolução CFM 2.333/2023 exige exame antes de hormônio. A exigência legal vira prova de seriedade contra quem vende hormônio de saída.</p>
+</div>
+
+<div class="card oport">
+<h3>7. Garantia de processo, com critério claro</h3>
+<p>Garantia de resultado clínico é vedada. Garantia de processo é permitida: retorno incluído, reformulação sem custo dentro de um prazo e arrependimento de 7 dias pelo CDC. A Uromen publica na página uma garantia com condição explícita. A própria AndroClinic diz no FAQ do Reclame Aqui que reformula a fórmula em 30 dias, mas o site promete garantia solta. Falta pôr o critério na frente do cliente. Precisa de validação jurídica antes de virar copy.</p>
+</div>
+
+<h2 id="decisoes">9. O que decidir com o cliente antes do briefing</h2>
+<ol>
+<li><strong>Qual é a relação entre a clínica, a Andro Pharma Ltda e a farmácia que manipula?</strong> Essa resposta define se o modelo atual pode ser divulgado.</li>
+<li><strong>Quem assina como diretor técnico, e com qual RQE?</strong> Hoje há dois nomes em circulação, e a especialidade do atual não foi confirmada no CFM.</li>
+<li><strong>Qual é a oferta de entrada?</strong> Hoje convivem a avaliação gratuita, o quiz com escassez e a consulta a R$ 196 ou R$ 197.</li>
+<li><strong>A operação comercial pode mudar?</strong> Entram aqui a receita entregue sem compra, o preço do tratamento revelado antes e o fim da venda na mesma chamada. Sem isso, as oportunidades 1 e 2 não se sustentam.</li>
+<li><strong>A parceria com o Craque Neto é real e tem contrato?</strong> Depoimento de celebridade em clínica médica esbarra no artigo 14 da Resolução 2.336.</li>
+<li><strong>Quais domínios e qual WhatsApp ficam?</strong> Seis domínios com médicos, preços e endereços diferentes alimentam o "É golpe?" que a própria empresa pôs no FAQ.</li>
+</ol>
+
+<h2 id="buracos">10. O que não conseguimos descobrir</h2>
+<p>Cada buraco tem o comando tentado e o erro bruto no relatório da frente correspondente.</p>
+<ul>
+<li><strong>Posts do Instagram.</strong> O acesso direto, os leitores alternativos e os sites espelho devolveram 403, bloqueio anti-bot ou 404.</li>
+<li><strong>O conteúdo dos nove vídeos vencedores de junho.</strong> A Biblioteca de Anúncios não reproduziu os vídeos fora de uma sessão logada.</li>
+<li><strong>Anúncios da Omens e da Boston na Meta.</strong> A busca caiu em CAPTCHA.</li>
+<li><strong>Especialidade e RQE dos médicos no portal do CFM.</strong> A busca do portal só funciona por formulário.</li>
+<li><strong>A farmácia que manipula as fórmulas e o CNPJ da Andro Pharma Ltda.</strong> Nenhuma fonte pública liga as duas à LHP.</li>
+<li><strong>Volume de busca e Google Trends.</strong> O Trends devolveu erro 429, e o Keyword Planner exige conta.</li>
+<li><strong>Processos judiciais.</strong> O Jusbrasil estava fora do ar, e o Escavador bloqueou o acesso.</li>
+<li><strong>Ofertas de Black Friday e Novembro Azul de 2025.</strong> O arquivo histórico da web não abriu.</li>
+<li><strong>Preço público do tratamento</strong> de qualquer clínica das faixas intermediária e cara. Os preços citados vêm de reclamações, com data.</li>
+<li><strong>Reddit e comentários do YouTube.</strong> Os dois bloquearam o acesso automatizado.</li>
+</ul>
+<p><strong>Ficam com você, Rafael:</strong></p>
+<ul>
+<li>Entrar logado na Biblioteca de Anúncios e transcrever os nove vídeos de junho da AndroClinic e os mais antigos da Alfa Men e da Genesis.</li>
+<li>Abrir o Google Trends no navegador para ver a curva de "ejaculação precoce", "disfunção erétil" e "tadalafila".</li>
+<li>Conferir no navegador se os contadores do site aparecem zerados para o visitante.</li>
+</ul>
+
+<h2 id="bloco13">11. Bloco 13 para o strategist</h2>
+<p><strong>Fatos confirmados:</strong> LHP Gestão a Saúde Ltda, CNPJ 25.178.600/0001-75. No Google, os anúncios de androclinica.com.br e andromedicina.com saem pela conta Andro Pharma Ltda, com CNPJ não levantado. O Instagram tem 59 mil seguidores. A nota no Reclame Aqui é 8,7, de março a agosto de 2026.</p>
+<p><strong>A preencher com o cliente:</strong></p>
+<ul>
+<li>Nome, CRM/UF e RQE do médico que assina. Hoje circulam o Dr. Cristiano Grizza Estivalet (CRM-DF 15471, especialidade não confirmada no CFM) e o Dr. Daniel Petkov (CRM 15069, sem UF).</li>
+<li>Preço da consulta. Hoje circulam R$ 196 e R$ 197.</li>
+<li>Endereço oficial. Há quatro em conflito: Rua Hercílio Luz e Praça XV, em Florianópolis; Alameda Grajaú e Alameda Rio Negro, em Barueri.</li>
+<li>WhatsApp oficial. Circulam (48) 6136-9359, (48) 98812-8284 e (48) 99939-6048.</li>
+<li>Domínio oficial. Circulam seis.</li>
+<li>Garantia. Só cabe garantia de processo.</li>
+</ul>
+<p><strong>Regras do conselho e da lei:</strong> Resolução CFM 2.336/2023, artigos 3º, 4º, 5º, 9º, 11 e 14. Código de Ética Médica, artigos 58, 68, 69, 112 e 117. Resolução CFM 2.314/2022, de telemedicina, e 2.333/2023, de hormônio. RDC Anvisa 67/2007, item 5.14, e RDC 96/2008, artigos 8º e 36. Lei 9.294/1996, artigo 7º. CDC, artigos 30, 37 e 49. LGPD, artigos 5º e 11. Políticas da Meta e do Google para saúde sexual e remédio de prescrição.</p>
+<p><strong>O que não pode ser dito, e o que dizer no lugar:</strong></p>
+<ul>
+<li>Garantia de resultado vira "Você tem acompanhamento médico durante todo o tratamento, com retorno incluído."</li>
+<li>"Sem efeito colateral" vira "O médico escolhe o tratamento pelo seu histórico e explica os efeitos possíveis antes de começar."</li>
+<li>Avaliação ou consulta grátis vira "Consulta online por R$ [valor], com retorno incluído."</li>
+<li>Nome de fórmula, ativo ou preço do manipulado vira "Tratamento individual, definido na consulta."</li>
+<li>Pergunta de diagnóstico, como "você sofre de...?" ou "descubra o grau da sua disfunção", vira "Ejaculação precoce tem tratamento. Converse com um médico."</li>
+<li>Foco em prazer ou desempenho sexual vira foco em saúde, confiança e relação.</li>
+<li>Indicação de farmácia do grupo sai do texto. A receita não leva marca.</li>
+<li>Testosterona ou "hormônio bioidêntico" para libido vira "Falta de desejo tem causa. A consulta começa pela investigação."</li>
+<li>PRP ou "tratamento revolucionário" não entra.</li>
+<li>Número de prevalência só entra com fonte e ano: "Segundo a SBU, [número] ([ano])."</li>
+</ul>
+<p><strong>Calendário:</strong> julho é a janela com respaldo institucional para falar de sexualidade. Nele caem o Julho Azul Celeste da SBU e o Dia do Homem, em 15/07, e a pesquisa dos 52% saiu nessa campanha (<a href="https://www.tnh1.com.br/noticia/nid/52-dos-homens-admite-ja-ter-falhado-durante-o-sexo-diz-pesquisa-veja-quando-procurar-ajuda/">TNH1</a>). <span class="tag t-fato">Fato</span> O Novembro Azul começa em 30 dias e tem mais alcance, mas o foco é próstata. A pesquisa não achou nenhuma clínica do nicho fazendo oferta na data. O Dia Internacional do Homem, 19/11, cai dentro do mês. Usar novembro para falar de ereção pede a ponte "o check-up completo inclui a ereção". Sem ela, a campanha pode soar oportunista. A Black Friday tem evidência de compra no nicho: a Bluue teve pedido no dia 28/11/2025 (<a href="https://www.reclameaqui.com.br/empresa/bluue-solucoes-online/">Reclame Aqui</a>). <span class="tag t-sup">Suposição</span> para a leitura</p>
+<p><strong>Não usar como prova social:</strong> a nota 8,7 do Reclame Aqui. Ela mede a velocidade da resposta, e as reclamações medem o produto.</p>
+
+<footer>
+<p>Relatórios completos com todas as fontes: <code>pesquisa/frente-1-androclinic.md</code>, <code>frente-2-concorrentes.md</code>, <code>frente-3-anuncios.md</code>, <code>frente-4-publico.md</code> e <code>frente-5-mercado.md</code>.</p>
+<p>Este relatório não substitui parecer jurídico. As leituras de norma do CFM, da Anvisa e do CDC devem passar por advogado da área da saúde antes de virar decisão.</p>
+</footer>
+
+</div>
+</body>
+</html>

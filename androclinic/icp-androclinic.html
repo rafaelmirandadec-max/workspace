@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>ICP por perfil · AndroClinic</title>
+<style>
+  :root{
+    --bg:#F4F1EA;
+    --surface:#FBF9F4;
+    --surface-2:#ECE6DA;
+    --ink:#1A1714;
+    --ink-soft:#4A4339;
+    --line:#C9BDA7;
+    --accent:#1D4F5A;
+    --btn-ink:#FBF9F4;
+    --ok:#1F5A31;
+    --ok-bg:#DDEEDC;
+    --warn:#7A4400;
+    --warn-bg:#F8E3BF;
+    --bad:#8A1C1C;
+    --bad-bg:#F6D9D5;
+    --chip-bg:#E4DDCF;
+    --chip-ink:#2D2822;
+    --shadow:0 1px 0 rgba(70,52,28,.06),0 10px 26px -18px rgba(70,52,28,.35);
+    --serif:"Iowan Old Style","Charter","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  }
+  :root[data-tema="escuro"]{
+    --bg:#14120F;
+    --surface:#1C1916;
+    --surface-2:#26221D;
+    --ink:#F0EADF;
+    --ink-soft:#C4BBAC;
+    --line:#40392F;
+    --accent:#8EC5CF;
+    --btn-ink:#14120F;
+    --ok:#A7D7B1;
+    --ok-bg:#1B2C20;
+    --warn:#F0C77E;
+    --warn-bg:#33270F;
+    --bad:#F5A9A0;
+    --bad-bg:#3A1A18;
+    --chip-bg:#2E2A24;
+    --chip-ink:#E6DED0;
+    --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-tema="claro"]){
+      --bg:#14120F;
+      --surface:#1C1916;
+      --surface-2:#26221D;
+      --ink:#F0EADF;
+      --ink-soft:#C4BBAC;
+      --line:#40392F;
+      --accent:#8EC5CF;
+      --btn-ink:#14120F;
+      --ok:#A7D7B1;
+      --ok-bg:#1B2C20;
+      --warn:#F0C77E;
+      --warn-bg:#33270F;
+      --bad:#F5A9A0;
+      --bad-bg:#3A1A18;
+      --chip-bg:#2E2A24;
+      --chip-ink:#E6DED0;
+      --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+    }
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font:1.125rem/1.7 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:980px;margin:0 auto;padding:0 clamp(16px,3vw,32px)}
+  a{color:var(--accent);overflow-wrap:anywhere}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  p{margin:0 0 14px}
+  mark.ph{background:var(--warn-bg);color:var(--warn);padding:0 5px;border-radius:4px;font-weight:700}
+
+  /* topo */
+  .top{padding:clamp(32px,6vw,72px) 0 clamp(8px,2vw,16px)}
+  .barra{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  .kicker{font:700 .9rem/1.3 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .tema{font:700 1rem/1 var(--sans);min-height:46px;padding:0 18px;border:2px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;cursor:pointer}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(4.5rem,14vw,6.5rem);line-height:.95;letter-spacing:-.02em;margin:14px 0 18px}
+  .sub{font-size:clamp(1.25rem,2.4vw,1.4rem);line-height:1.5;color:var(--ink-soft);max-width:60ch}
+  .nav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+  .nav a{display:inline-block;min-height:46px;line-height:46px;padding:0 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);text-decoration:none;font-weight:700;font-size:1rem}
+
+  /* seções */
+  section.sec{margin:clamp(48px,7vw,88px) 0 0}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,5vw,2.8rem);line-height:1.08;letter-spacing:-.01em;margin-bottom:14px}
+  h3{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:34px 0 10px}
+  h3 b{display:inline-block;min-width:1.6em;color:var(--ink)}
+  h3.ang{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,3.6vw,1.9rem);line-height:1.15;letter-spacing:0;text-transform:none;color:var(--ink);margin:46px 0 6px;padding-top:22px;border-top:3px solid var(--accent)}
+  .lead{font-size:1.25rem;line-height:1.6;max-width:68ch}
+  .soft{color:var(--ink-soft)}
+  .ctx{max-width:72ch}
+
+  /* rótulos */
+  .tag{display:inline-block;font:700 .875rem/1.2 var(--sans);letter-spacing:.05em;text-transform:uppercase;padding:4px 9px;border-radius:6px;margin-right:8px;vertical-align:1px}
+  .tag.fato{background:var(--ok-bg);color:var(--ok)}
+  .tag.sup{background:var(--warn-bg);color:var(--warn)}
+  .tag.pista{background:var(--chip-bg);color:var(--chip-ink)}
+  .tag.duvida{background:var(--bad-bg);color:var(--bad)}
+  .chip{display:inline-block;font:700 .875rem/1.25 var(--sans);padding:5px 10px;border-radius:6px;background:var(--chip-bg);color:var(--chip-ink);margin:2px 6px 2px 0}
+  .chip.niv{background:var(--accent);color:var(--btn-ink)}
+  .chip.sem{background:var(--ok-bg);color:var(--ok)}
+  .chip.mix{background:var(--bad-bg);color:var(--bad)}
+
+  .item{margin:0 0 12px;max-width:76ch}
+
+  /* citações */
+  .cit{margin:12px 0 16px;padding:4px 0 4px 18px;border-left:4px solid var(--line);max-width:74ch}
+  .cit q{font-family:var(--serif);font-size:1.2rem;line-height:1.5;quotes:"“" "”"}
+  .cit .fonte{display:block;font-size:.95rem;line-height:1.45;color:var(--ink-soft);margin-top:4px}
+
+  /* caixas */
+  .box{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:20px clamp(16px,3vw,28px);margin:18px 0;max-width:80ch}
+  .bx-t{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 8px}
+  .box p:last-child{margin-bottom:0}
+  .box.decisao{border-left:6px solid var(--accent)}
+
+  /* linha do ICP */
+  .icp{margin:0 0 22px;padding:18px 0 0;border-top:1px solid var(--line);max-width:78ch}
+  .icp .p{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+  .icp .f{font-family:var(--serif);font-size:1.3rem;line-height:1.45;margin-bottom:8px}
+  .icp .m{font-size:1.05rem;color:var(--ink-soft);margin:0}
+  .icp .m b{color:var(--ink)}
+
+  /* peças */
+  .pc{padding:16px 0;border-top:1px solid var(--line);max-width:80ch}
+  .pc:last-of-type{border-bottom:1px solid var(--line)}
+  .pc-top{display:flex;flex-wrap:wrap;align-items:center;gap:2px 0;margin-bottom:6px}
+  .pc-id{font:700 1rem/1.3 var(--sans);letter-spacing:.04em;color:var(--accent);margin-right:12px}
+  .pc-txt{font-family:var(--serif);font-size:1.2rem;line-height:1.5;margin:0 0 6px}
+  .pc-why{font-size:1.025rem;color:var(--ink-soft);margin:0}
+  .pc-fix{margin:10px 0 0;padding:10px 14px;background:var(--bad-bg);color:var(--ink);border-left:5px solid var(--bad);border-radius:6px;font-size:1.05rem}
+  .pc-fix b{color:var(--bad)}
+  .pc-dec{margin:10px 0 0;padding:10px 14px;background:var(--warn-bg);color:var(--ink);border-left:5px solid var(--warn);border-radius:6px;font-size:1.05rem}
+  .pc-dec b{color:var(--warn)}
+  .ang-nota{max-width:76ch;margin:8px 0 14px;font-size:1.05rem}
+
+  ul.simples{list-style:none;max-width:76ch}
+  ul.simples li{padding:10px 0;border-top:1px solid var(--line)}
+  ul.simples li:last-child{border-bottom:1px solid var(--line)}
+  ol.num{list-style:none;counter-reset:n;max-width:76ch}
+  ol.num li{counter-increment:n;padding:12px 0;border-top:1px solid var(--line)}
+  ol.num li:last-child{border-bottom:1px solid var(--line)}
+  ol.num li::before{content:counter(n) ". ";font-weight:700;color:var(--accent)}
+  ol.num li p{margin:10px 0 0}
+
+  .rodape{margin:clamp(56px,8vw,96px) 0 0;padding:0 0 64px;font-size:1rem;line-height:1.6;color:var(--ink-soft);max-width:80ch}
+  .rodape p{margin-bottom:10px}
+
+  @media (max-width:640px){
+    .pc-txt{font-size:1.15rem}
+    .nav a{flex:1 1 auto;text-align:center}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="barra">
+    <div class="kicker">AndroClinic · ICP por perfil · 04/10/2026</div>
+    <button class="tema" id="tema" type="button">Tema escuro</button>
+  </div>
+  <h1>ICP</h1>
+  <p class="sub">Quem tem o problema caro e urgente, em que nível de consciência, num mercado de que estágio. Quatro páginas de perfil e a marcação das 53 peças já escritas. Documento de decisão, sem copy nova.</p>
+  <nav class="nav" aria-label="Seções">
+    <a href="#resumo">Resumo</a>
+    <a href="#correcoes">Correções</a>
+    <a href="#perfil-a">Perfil A</a>
+    <a href="#perfil-b">Perfil B</a>
+    <a href="#perfil-c">Perfil C</a>
+    <a href="#perfil-d">Perfil D</a>
+    <a href="#pecas">45 peças</a>
+    <a href="#copys">8 cópias</a>
+    <a href="#decisoes">Decisões</a>
+    <a href="#pendencias">Pendências</a>
+  </nav>
+</header>
+
+<!-- ============================ RESUMO ============================ -->
+<section class="sec" id="resumo" aria-labelledby="t-resumo">
+  <h2 id="t-resumo">Resumo</h2>
+  <p class="lead">A AndroClinic tem quatro problemas de cliente, cada um com nível de consciência e estágio de mercado próprios. As 53 peças escritas se concentram nos níveis 1 e 3 (44 de 53). O nível 2 tem 3 peças, todas do perfil A. Os níveis 4 e 5 dependem de pendências do cliente.</p>
+
+  <div class="icp">
+    <div class="p">Perfil A · jovem, EP e ansiedade</div>
+    <p class="f">Homem que goza rápido demais ou perde a ereção na hora e não sabe se é normal nem por onde começar a tratar.</p>
+    <p class="m"><b>Níveis 1 e 2, dominante não medido</b>, com o 3 secundário. <b>Mercado no estágio 3.</b> Primeiro a testar.</p>
+  </div>
+  <div class="icp">
+    <div class="p">Perfil B · ereção de origem física</div>
+    <p class="f">Homem que perde a ereção na hora H, já tomou o remédio clássico e não sabe por que não resolveu.</p>
+    <p class="m"><b>Nível dominante 3</b>, secundários 4 e 2. <b>Mercado no estágio 4</b> na mídia que ele vê e <b>entre o 3 e o 4</b> nas clínicas.</p>
+  </div>
+  <div class="icp">
+    <div class="p">Perfil C · libido</div>
+    <p class="f">Homem cuja vontade de sexo caiu e que ainda não trata isso como condição de saúde.</p>
+    <p class="m"><b>Nível dominante 1</b>, secundário 2. <b>Mercado nos estágios 2 a 3</b>, com evidência fraca. Caro e urgente: não confirmado.</p>
+  </div>
+  <div class="icp">
+    <div class="p">Perfil D · a parceira</div>
+    <p class="f">Mulher cujo parceiro deixou de procurá-la e que não sabe se a causa é ela, o casamento ou a saúde dele.</p>
+    <p class="m"><b>Nível 1.</b> Nenhum anúncio lido fala só com ela: <b>estágio 1 provável, não comprovado</b>. Ausência na amostra não prova ausência no mercado. Ela é canal de entrada até o cliente responder quem paga.</p>
+  </div>
+
+  <div class="box decisao">
+    <p class="bx-t">Peças que misturam níveis</p>
+    <p>Das 45 peças do arquivo de ângulos, quatro: <b>B3-F, C1-G1, C1-F e C1-C</b>. Das 8 cópias, três: <b>3, 4 e 8</b>. A Cópia 4 continua misturando público (ele e ela) até a decisão do Rafael sair, mesmo depois da correção dos blocos. A correção de cada uma está na seção das peças.</p>
+    <p>Contagem por nível, nas 53 marcas: nível 1 com 15, nível 2 com 3, nível 3 com 29, nível 4 com 5 e nível 5 com 1.</p>
+  </div>
+</section>
+
+<!-- ============================ CORREÇÕES ============================ -->
+<section class="sec" id="correcoes" aria-labelledby="t-corr">
+  <h2 id="t-corr">Correções ao briefing</h2>
+  <p class="ctx soft">Como ler: <span class="tag fato">Fato</span> tem fonte na pesquisa. <span class="tag sup">Suposição</span> é leitura do squad. <span class="tag pista">Pista</span> é o que uma empresa diz de si mesma. <mark class="ph">[A PREENCHER]</mark> é o que só o cliente ou o Rafael respondem. Siglas: F2, F3, F4 e F5 são as frentes da pesquisa. RA é Reclame Aqui.</p>
+
+  <h3><b>1</b>Estágio de sofisticação: o briefing diz 4 e 5</h3>
+  <p class="ctx">Pela definição da aula, o estágio 5 (identificação) é raro. A evidência dos concorrentes aponta para os estágios 2 a 4, com só pistas do 5. Decidi por perfil, nas páginas abaixo.</p>
+  <p class="item"><span class="tag pista">Pista</span><b>Estágio 2</b> (exagera a promessa). Alfa Men, anúncio da Biblioteca: “A ciência já descobriu como aumentar em até 1.492% a duração da relação!” (F3 §4; a F2 registrou o mesmo número por resumo). Bluue: “A Bluue te deixa firme em 15 minutos.” (<a href="https://bluue.io/ps/">bluue.io/ps</a>, F2 §2.1).</p>
+  <p class="item"><span class="tag pista">Pista</span><b>Estágio 3</b> (entra o mecanismo). A AndroClinic usa “Fórmulas Exclusivas” no site (F5, achado principal). A Farmafine usa “A Fórmula Exclusiva” (F3 §4). “Sublingual age mais rápido” está na lista de ângulos gastos (F2 §7, item 8). A Uro Telemedicina escreveu em 2020 que “a absorção é 90% maior do que a realizada por comprimidos” (<a href="https://urotelemedicina.com.br/blog/onde-comprar-spray-sublingual/">blog</a>, F2 §2.4).</p>
+  <p class="item"><span class="tag pista">Pista</span><b>Estágio 4</b> (exagera o mecanismo). Aparece sobretudo nos anúncios para o homem de 45 anos ou mais. Detalhe na página do perfil B.</p>
+  <p class="item"><span class="tag pista">Pista</span><b>Estágio 5</b> (identificação). Só pistas, nada confirmado. A Bluue roda parte dos anúncios por páginas de criadores de casal (F2 §2.1). “Você não está sozinho” e “recupere sua confiança” estão na lista de ângulos gastos (briefing, Bloco 5; F2 §7 e F3 §6). Manual e Omens são marcas grandes, mas o que li delas é escala e preço.</p>
+  <p class="item"><span class="tag duvida">Limite</span>A sofisticação vem da Biblioteca de Anúncios da Meta e de páginas de venda. O texto dos anúncios do Google não renderizou na Central de Transparência (F3 §7, item 8). YouTube e Instagram entram só como contagem de inscritos ou de seguidores. Os vídeos de concorrentes são um por página, com transcrição automática (top5 §3.2).</p>
+
+  <h3><b>2</b>O jovem do perfil A: níveis 1 e 2, dominante não medido</h3>
+  <p class="ctx">O briefing chama o jovem de “consciente do problema” e descreve alguém que “não sabe se é problema (‘é normal?’)”. Na escala da aula, quem ainda pergunta se é normal sabe o sintoma e não sabe que é problema: nível 1. O nível 2 começa quando ele diz “sofro de EP”. A evidência de massa (as buscas no Google) é de nível 1. A de nível 2 vem de quem escreve a um médico, com viés de seleção. Nenhum dado mede a proporção, então o dominante fica em aberto, com o 3 como secundário.</p>
+
+  <h3><b>3</b>Nome dos níveis</h3>
+  <p class="ctx">O briefing usa os nomes de Schwartz. A aula numera. Mapeei assim: inconsciente é o 1, problema é o 2, solução é o 3, produto é o 4, mais consciente é o 5. A aula define o 4 pelo “como”. O briefing define “produto” por conhecer a marca. Na AndroClinic os dois ficam juntos no 4, porque a marca vende o como (investigar a causa). Se o Rafael separar, quem só confere a marca vai para o 5.</p>
+
+  <h3><b>4</b>As letras dos perfis estão invertidas entre os dois arquivos de peças</h3>
+  <p class="ctx">No briefing, A é o jovem, B é a ereção de origem física e C é a libido. No arquivo de ângulos, “Público A” é a ereção física e “Público B” é o jovem. Esta página usa as letras do briefing. As peças mantêm o código do arquivo (A1, B3, C4), com o perfil do briefing ao lado.</p>
+</section>
+
+<!-- ============================ REGRAS COMUNS ============================ -->
+<section class="sec" id="regras" aria-labelledby="t-regras">
+  <h2 id="t-regras">O que a lei permite em cada nível</h2>
+  <p class="ctx">Vale para as quatro páginas. Cada perfil retoma só o que é específico dele. Fontes: briefing (Bloco 13), F5 §3 e arquivo de ângulos. O advogado da saúde revisa tudo antes de subir (pendência 7).</p>
+  <ul class="simples">
+    <li><b>Nível 1.</b> Pode nomear sintoma ou situação. Não pode perguntar diagnóstico (“você sofre de...?”) nem apontar atributo pessoal (Meta; RDC 96, art. 8º, II). Medo como motor da peça cai no art. 11, §2º, “e”, da CFM 2.336.</li>
+    <li><b>Nível 2.</b> Pode nomear a condição, com foco em saúde e público de 18 anos ou mais (Meta). A frase do Bloco 13 é “Ejaculação precoce tem tratamento. Converse com um médico.” Número de prevalência só com fonte e ano.</li>
+    <li><b>Nível 3.</b> Pode falar de consulta, de processo e do preço da consulta (art. 9º, VI). Não pode nomear remédio de prescrição (Meta e Google). Não pode citar fórmula ou preço do manipulado (RDC 67, item 5.14; RDC 96, art. 36), consulta gratuita (art. 11, §4º, “c”) nem “especialista” sem RQE (arts. 4º e 11, I).</li>
+    <li><b>Nível 4.</b> A etapa de mecanismo “agora vai dar certo porque X” é promessa de resultado (art. 11, XII). Em peça ela fica “a consulta começa pelo porquê”: o médico investiga a causa, explica e decide com o paciente. A peça fala do processo, nunca do resultado. Afirmação clínica (“causas diferentes”, “o check-up inclui a ereção”) precisa do diretor técnico (art. 3º, II). “Tratar a causa” já é tese de Alfa Men e UpMen (top5 §8, item 2) e serve só de apoio.</li>
+    <li><b>Nível 5.</b> Resultado agregado comprovável, sem identificar paciente (art. 9º, XVI), e depoimento sóbrio (art. 14, II, “g”). Nada aprovado ainda. A nota do RA e o Craque Neto ficam fora.</li>
+  </ul>
+</section>
+
+<!-- ============================ PERFIL A ============================ -->
+<section class="sec" id="perfil-a" aria-labelledby="t-a">
+  <h2 id="t-a">Perfil A</h2>
+  <p class="soft">Jovem com ejaculação precoce e ansiedade. Perfil A do briefing, “Público B” do arquivo de ângulos.</p>
+
+  <h3><b>a.</b>Problema caro e urgente</h3>
+  <div class="box decisao">
+    <p class="bx-t">ICP em uma frase</p>
+    <p>Homem que goza rápido demais ou perde a ereção na hora e não sabe se é normal nem por onde começar a tratar. A faixa de 18 a 35 anos vem do tipo de problema: ansiedade e relação nova (suposição do briefing).</p>
+  </div>
+  <p class="item"><span class="tag fato">Fato</span>Na boca do público:</p>
+  <div class="cit"><q>Tenho 22 anos e sofro de EP. Ao iniciar o sexo chego a ejacular no primeiro minuto!</q><span class="fonte">Doctoralia, data não exibida · <a href="https://www.doctoralia.com.br/perguntas-respostas/tenho-22-anos-e-sofro-de-ep-ao-iniciar-o-sexo-chego-a-ejacular-no-primeiro-minuto-que-medico-devo">link</a> · F4 §2.1</span></div>
+  <div class="cit"><q>Sofro com ejaculação precoce. Não sei por onde começar a tratar. Alguém pode me ajudar?</q><span class="fonte">Catálogo Med, data não exibida · <a href="https://www.catalogo.med.br/perguntas/p/medico/ronaldo+sergio+sampaio+dantas-2506243">link</a> · F4 §2.1</span></div>
+  <div class="cit"><q>Estou sofrendo de disfunção erétil e já li muito sobre o assunto. Não estou conseguindo resolver, está se tornando cada vez mais constrangedor. Tenho 20 anos.</q><span class="fonte">Catálogo Med, data não exibida · <a href="https://www.catalogo.med.br/perguntas/p/medico/rafael+pauletti+goncalves-2494973">link</a> · F4 §2.1</span></div>
+  <p class="item"><span class="tag fato">Urgente: sim, na voz.</span>“Cada vez mais constrangedor” e “não sei por onde começar” mostram urgência. Os gatilhos de decisão (episódio repetido, relação nova) são <span class="tag sup">Suposição</span> da F4 §3.</p>
+  <p class="item"><span class="tag pista">Caro: indireto.</span>O mercado cobra e o público já gastou. A Biblioteca da Meta mostra cerca de 1.200 anúncios ativos com “ejaculação precoce” em 01/10/2026 (F3 §4, fato, com ruído de busca). Há sprays de R$ 25 a R$ 80 (F2 §5.3, trecho indexado, não verificado) e cursos “sem remédios” de R$ 397 (F2 §5.4, páginas de venda).</p>
+  <p class="item"><span class="tag duvida">Dúvida</span>Não há dado de renda nem de ticket deste público (F4 §6). A prevalência de EP vai de 15,8% (ECOS 2002, F4 §1.1; Mosaico Brasil, F5 §1) a cerca de 33% (“1 a cada 3”, atribuído à SBU sem estudo de origem, F5 §1). Um estudo de 2023 ouviu 226 homens que fazem sexo com homens em São Paulo (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9978591/">Sexual Medicine</a>). Nele, 17,3% se achavam precoces e 6,2% passavam do critério de tempo. Parte do público sente o problema sem tê-lo no critério clínico. O volume de busca não foi medido (pendência b).</p>
+
+  <h3><b>b.</b>Quem compra e quem usa</h3>
+  <p class="ctx"><span class="tag sup">Suposição</span>Ele compra e usa. A Meta só aceita anúncio de saúde sexual para maiores de 18 anos. A parceira pode influenciar: no Catálogo Med, a namorada pergunta pelo namorado de 26 anos (F4 §1.1). Não há evidência de terceiro pagando. A consulta aparece paga por PIX (RA São Paulo/SP, 28/09/2026), e o pacote vem parcelado no cartão. O jovem pode não ter limite. Quem paga na base atual: <mark class="ph">[A PREENCHER]</mark> (pendência d).</p>
+
+  <h3><b>c.</b>Nível de consciência</h3>
+  <p class="ctx"><b>Níveis 1 e 2, dominante não medido.</b> Secundário: 3. <span class="tag sup">Suposição</span>A evidência de massa é de nível 1. A de nível 2 vem de quem escreve a um médico, o que traz viés de seleção: quem escreve já decidiu perguntar. A parcela do 3 pode ser maior que a do 2.</p>
+  <p class="item"><span class="tag fato">Nível 1</span>Sabe o sintoma e duvida que seja problema. É a evidência de massa. O Google completa “gozo muito rápido” com “é normal”, “o que pode ser” e “pq” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=gozo%20muito%20r%C3%A1pido">link</a>). Completa “broxei” com “do nada” e “duas vezes o que pode ser” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=broxei">link</a>). Consulta de 01/10/2026.</p>
+  <p class="item"><span class="tag fato">Nível 2</span>Nomeia a condição e quer tratar. São as duas primeiras citações acima, de quem escreve a médico. O Google completa “ejaculação precoce” com “tem cura”, “tem tratamento”, “como tratar” e “causas” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=ejacula%C3%A7%C3%A3o%20precoce">link</a>).</p>
+  <p class="item"><span class="tag fato">Nível 3</span>Já conhece caminhos, e parte já tentou (proporção não medida). Pergunta sobre remédio sem receita:</p>
+  <div class="cit"><q>Tenho ejaculação precoce e vi que o remédio paroxetina é bom, mas sem receita não compro né?</q><span class="fonte">Catálogo Med, data não exibida · <a href="https://www.catalogo.med.br/perguntas/p/especialidade/urologia-58145/pergunta/tenho+ejaculacao+precoce+e+vi+que+o+remedio+paroxetina+e+bom+mas+sem+receita+nao+compro+ne-1585621">link</a> · F4 §2.4, item 43</span></div>
+  <p class="item">O Google completa “como durar mais” com “tempo na cama sem remedio” e “de forma natural” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=como%20durar%20mais">link</a>). Completa “remedio para durar mais” com “farmácia” e “caseiro” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=remedio%20para%20durar%20mais">link</a>). Quem tentou produto de prateleira escreve:</p>
+  <div class="cit"><q>Não fez diferença. Produto não entrega o que promete, pelo menos pra mim.</q><span class="fonte">Amazon, gel retardante Intt, 23/02/2025 · <a href="https://www.amazon.com.br/dp/B07P1ZGRFP">link</a> · F4 §2.5</span></div>
+  <p class="item"><span class="tag duvida">Níveis 4 e 5</span>Sem evidência. “Se o tratamento for atraves de remedio, posso ficar dependente?” (Doctoralia) mostra que ele quer saber o como, ainda sem conhecê-lo. A base de pacientes (nível 5): <mark class="ph">[A PREENCHER]</mark>.</p>
+
+  <h3><b>d.</b>Estágio de sofisticação</h3>
+  <div class="box decisao">
+    <p class="bx-t">Decisão</p>
+    <p><b>Estágio 3</b>, com sinais do 2 e uma borda do 4. O mercado de EP já exagera número (2), já entra com mecanismo (3) e já desconfia de si mesmo.</p>
+  </div>
+  <p class="item"><span class="tag pista">Estágio 2</span>Alfa Men: “aumentar em até 1.492% a duração da relação”. Bluue: “firme em 15 minutos”. Método APM: “Domine o controle da sua ejaculação em até 21 dias” (<a href="https://www.sexologodiego.com.br/metodo-apm">página</a>, F2 §5.4).</p>
+  <p class="item"><span class="tag pista">Estágio 3</span>Alfa Men: “Nada de paliativos: aqui tratamos a causa do problema” (Biblioteca, F3 §4 e top5 §4.3). Lucy Ghelfi, vídeo: “O que você está enfrentando é um bloqueio emocional causado pela ansiedade e maus hábitos” (anúncio 1037536935749589, transcrição automática). Controle 2.0: “sem remédios” (<a href="https://materiais.sexosemduvida.com/controle-20/">página</a>, R$ 397). Sublingual “age mais rápido” (correção 1).</p>
+  <p class="item"><span class="tag pista">Mercado cético</span>Alfa Men diz “Não confie apenas em promessas de pílulas milagrosas” (F3 §4). O público confirma: “Agua com açúcar” e “Não serve pra nada” (<a href="https://www.amazon.com.br/dp/B0FJ9F8X9Y">Amazon, Tadala Spray</a>, F4 §2.5).</p>
+  <p class="item"><span class="tag pista">Borda do 4</span>Um achado: número colado ao mecanismo, “a absorção é 90% maior” (Uro, post de 2020).</p>
+  <p class="item"><span class="tag duvida">Dúvida</span>Entre 3 e 4. O “90% maior” vem de um post de 2020 e não de anúncio atual. Se anúncios atuais repetirem o padrão, o estágio sobe para 4. A F3 §6 (lacuna 6, “ninguém explica o mecanismo”) não se sustenta inteira. Lucy Ghelfi e Alfa Men explicam algo.</p>
+
+  <h3><b>e.</b>O que sabe e o que ainda não sabe</h3>
+  <p class="ctx"><b>Sabe</b> (nível 1 a 2): a falha existe e se repete. No nível 2 ele já a nomeia e já pesquisou. Pode ter tentado gel, spray ou comprimido. <b>Ainda não sabe</b> (nível 3, com porta para o 4): que há tratamento médico e que a consulta começa pela causa. A causa varia (ansiedade, circulação, hábito): <span class="tag sup">Suposição</span> clínica, que o diretor técnico valida. Pela fórmula da aula, a peça de nível 2 abre no problema que ele já nomeia e entrega “tem tratamento”. A de nível 1 abre no sintoma. Nenhuma abre por mecanismo nem por preço. B3-G2 segue esse molde.</p>
+
+  <h3><b>f.</b>Como resolve hoje: engenharia reversa do funil</h3>
+  <p class="item"><span class="tag fato">Fato</span>Google primeiro, com dúvida de normalidade e preferência por caminho sem remédio (F4 §4; Google Suggest, 01/10/2026).</p>
+  <p class="item"><span class="tag fato">Fato</span>Farmácia sem receita ou comprimido de amigo. Na pesquisa SBU e Bayer de 2015, 54% de quem usava remédio para DE se automedicava (<a href="https://www.tribunapr.com.br/noticias/curitiba-regiao/pesquisa-revela-que-66-dos-curitibanos-diz-ser-fiel/">Tribuna PR</a>, F4 §4). O dado tem 11 anos e trata de DE. A tadalafila genérica custa R$ 12,99 por 4 comprimidos (Drogaria São Paulo, 01/10/2026). A venda por aplicativo foi liberada em 10/08/2026 (F5 §4).</p>
+  <p class="item"><span class="tag fato">Fato</span>Gel, spray, suplemento e curso, com avaliações de 1 estrela (F4 §2.5). Vídeo de médico: os mesmos canais de urologista do perfil B (F2 §4). Os comentários não abriram (F4 §6), então não há fala do público ali. Anúncio de telemedicina com quiz de 2 minutos, sem vendedor (Bluue, F2 §2.1). Checagem do Reclame Aqui: “olhei o Reclame Aqui antes de tomar qualquer decisão” (<a href="https://www.reclameaqui.com.br/androclinic/atendimento-e-tratamento-na-androclinic_5AD9xxPZwtarB8dl/">RA Gramado/RS, 14/06/2026</a>, possível depoimento incentivado). Depois, WhatsApp.</p>
+  <p class="item"><span class="tag sup">Suposição</span>Sequência provável (F4 §4): episódio isolado, Google “é normal”, espera, repetição, farmácia ou suplemento, resultado parcial e medo de “viciar”, vergonha do urologista presencial, anúncio, Reclame Aqui, WhatsApp.</p>
+  <div class="box decisao">
+    <p class="bx-t">O que isso muda no funil da AndroClinic</p>
+    <p>A porta de entrada é a dúvida (“é normal?”, “tem tratamento?”). A oferta vem depois. A peça de nível 1 ou 2 leva a um conteúdo curto antes da consulta.</p>
+    <p>O Reclame Aqui vem antes do WhatsApp. Preço da consulta, médico (nome e CRM com UF) e regra de retorno precisam estar visíveis antes do clique. As reclamações precisam de resposta pública.</p>
+    <p>Consultor no meio do caminho é o medo que decide a venda: ser empurrado a um pacote depois de consulta curta (F4 §0). Quem vem de produtos de prateleira com avaliação ruim precisa de um primeiro contato que responda preço, médico e retorno.</p>
+    <p>A farmácia vence em preço e esforço. O funil vende investigação e acompanhamento. A Bluue compra a mesma atenção, com quiz e sem vendedor.</p>
+  </div>
+
+  <h3><b>g.</b>O que a lei permite neste nível</h3>
+  <p class="ctx">Níveis 1 a 3. Pode: nomear a condição com foco em saúde e dizer “tem tratamento” (frase do Bloco 13, que o advogado confere). Não pode: pergunta de diagnóstico, prazo ou número de efeito (“21 dias”, “1.492%”: art. 11, XII) e nome de remédio. Também não pode prometer “sem remédio” se a clínica não oferece esse caminho (pendência g). Mecanismo: “vai dar certo porque X” vira “a consulta começa pelo porquê”.</p>
+</section>
+
+<!-- ============================ PERFIL B ============================ -->
+<section class="sec" id="perfil-b" aria-labelledby="t-b">
+  <h2 id="t-b">Perfil B</h2>
+  <p class="soft">Ereção de origem física, 45 a 65 anos. Perfil B do briefing, “Público A” do arquivo de ângulos.</p>
+
+  <h3><b>a.</b>Problema caro e urgente</h3>
+  <div class="box decisao">
+    <p class="bx-t">ICP em uma frase</p>
+    <p>Homem que perde a ereção na hora H, já tomou o remédio clássico e não sabe por que não resolveu. A faixa de 45 a 65 anos vem do problema: a prevalência sobe com a idade (F4 §1.1). Hipertensão e diabetes são <span class="tag sup">Suposição</span> do briefing.</p>
+  </div>
+  <p class="item"><span class="tag fato">Fato</span>Na boca do público:</p>
+  <div class="cit"><q>Tenho 57 anos e tive um AVC, agora não consigo ter e manter uma ereção. Faço uso de vários medicamentos para controle da pressão alta e queria saber se posso tomar Viagra.</q><span class="fonte">Catálogo Med, data não exibida · <a href="https://www.catalogo.med.br/perguntas/p/medico/ronaldo+sergio+sampaio+dantas-2506243">link</a> · F4 §2.1</span></div>
+  <div class="cit"><q>informei que os remédios clássicos eu já havia feito utilização e sem resultado positivo</q><span class="fonte">Reclame Aqui, São Paulo/SP, 08/09/2026 · <a href="https://www.reclameaqui.com.br/androclinic/tratamento-ineficaz-com-falhas-na-comunicacao-e-acompanhamento-apesar-de-elogios-ao-medico-e-psicologo_mPCQJ40JQpD-vvDX/">link</a> · F4 §2.1</span></div>
+  <p class="item"><span class="tag fato">Fato</span>O Google completa “não consigo ficar duro” com “na hora h” e “por muito tempo” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=n%C3%A3o%20consigo%20ficar%20duro">link</a>). Completa “ereção fraca” com “o que fazer” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=ere%C3%A7%C3%A3o%20fraca">link</a>) e “disfunção erétil aos” com 40, 50 e 60 anos (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=disfun%C3%A7%C3%A3o%20er%C3%A9til%20aos">link</a>).</p>
+  <p class="item"><span class="tag fato">Caro: sim.</span>Na pesquisa da SBU de julho de 2024, 52% dos homens de 40 anos ou mais disseram já ter tido dificuldade para manter a ereção. Entre os que falharam, 63% têm de 55 a 59 anos (<a href="https://tribunademinas.com.br/especiais/saude/11-07-2024/dificuldade-erecao.html?amp=1">Tribuna de Minas</a>, F4 §1.1). O mercado paga: 75,1 milhões de unidades de tadalafila genérica em 2025 (<a href="https://site.cff.org.br/noticia/Noticias-gerais/03/02/2026/genericos-ultrapassam-2-3-bilhoes-de-unidades-vendidas-em-2025-e-consolidam-crescimento-de-8-33-">CFF, 03/02/2026</a>). Há pacotes de R$ 1.750 a R$ 4.000 nas reclamações da AndroClinic (briefing, Bloco 3) e de R$ 7.200 a R$ 15.000 nas clínicas maiores (top5 §1).</p>
+  <p class="item"><span class="tag duvida">Urgente: dúvida.</span>As citações lidas não trazem urgência explícita neste público. O que há é a decepção de quem pagou e não resolveu (RA, sem idade informada) e a dúvida de misturar remédio de pressão com remédio de ereção (citação acima). Ele espera: menos de 10% dos homens com DE procuram ajuda médica (SBU, <a href="https://jornaldaparaiba.com.br/_/63583">Jornal da Paraíba, 2012</a>, F5 §1). Só 10,2% dos homens com DE tinham sido tratados (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11146237/">Santos/SP, 2002</a>). Os dois dados são velhos. <span class="tag sup">Suposição</span>O gatilho provável é o remédio falhar (F4 §3).</p>
+  <p class="item"><span class="tag duvida">Veredito</span>Problema caro, urgência não provada. Conferir com a base de pacientes (pendência d).</p>
+
+  <h3><b>b.</b>Quem compra e quem usa</h3>
+  <p class="ctx"><span class="tag sup">Suposição</span>Ele compra e usa. A esposa pode empurrar a decisão: a amostra da SBU é de maioria casada (F4 §1.1). Pagamento: consulta por PIX e pacote em até 12 vezes no cartão (F4 §1.2). Sem evidência de filho ou terceiro comprando. Quem paga na base atual: <mark class="ph">[A PREENCHER]</mark> (pendência d).</p>
+
+  <h3><b>c.</b>Nível de consciência</h3>
+  <p class="ctx"><b>Dominante: 3</b> (solução, cético). Secundários: 4 e 2. Nível 1 sem fala do público.</p>
+  <p class="item"><span class="tag fato">Nível 3</span>As duas citações acima. O Google completa “tadalafila” com “20mg quanto tempo para fazer efeito”, “precisa de receita” e “5mg preço” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=tadalafila">link</a>). Completa “tadalafila vicia” com seis variações (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=tadalafila%20vicia">link</a>). Consulta de 01/10/2026.</p>
+  <p class="item"><span class="tag fato">Nível 4</span>Quem confere a marca antes de comprar. O Google completa “androclinic” com “é confiável” e “é boa” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=androclinic">link</a>). <span class="tag sup">Suposição</span>Parte já ouviu mecanismos de concorrente (nervo, placas, circulação: ver item d).</p>
+  <p class="item"><span class="tag fato">Nível 2</span>Sabe do problema e não sabe se pode usar o remédio com a pressão e o AVC. A citação do homem de 57 anos serve ao nível 3 (conhece o remédio) e ao nível 2 (não sabe se pode usá-lo). “Ereção fraca” completa com “o que fazer”.</p>
+  <p class="item"><span class="tag pista">Nível 1</span>Só o concorrente fala dele: “já sente o peso da idade na cama” (Marcia Moraes, anúncio 1340150961404828). Sem fala do público.</p>
+
+  <h3><b>d.</b>Estágio de sofisticação</h3>
+  <div class="box decisao">
+    <p class="bx-t">Decisão</p>
+    <p><b>Estágio 4</b> na mídia que o homem de 45 anos ou mais vê. Nas clínicas, <b>entre o 3 e o 4</b>: Alfa Men, UpMen e PelvClinic no 3, Boston no 4. O estágio 5 só tem pistas, nada confirmado.</p>
+  </div>
+  <p class="item"><span class="tag pista">Estágio 4</span>Mecanismo exagerado, em anúncios de página com nome de pessoa (transcrição automática, um vídeo por página):</p>
+  <div class="cit"><q>a única coisa que pode impedir o amigão de subir e aguentar em pé e firme por bastante tempo, é o que os médicos chamam de fraqueza do nervo íntimo</q><span class="fonte">Dr Inácio Medeiros, anúncio 28484300904512422. No mesmo vídeo: “eu assino embaixo e garanto o resultado”.</span></div>
+  <div class="cit"><q>A verdadeira causa são placas pegajosas nocivas</q><span class="fonte">Moacyr Salles, anúncio 1074848778215634. No mesmo vídeo: “A disfunção erétil pode ser 100% revertida”.</span></div>
+  <div class="cit"><q>esse aqui age diretamente na raiz do problema. Desobstruindo as veias entupidas e regularizando o fluxo sanguíneo</q><span class="fonte">Roberto Alves Mendes, anúncio 1456361333253184.</span></div>
+  <div class="cit"><q>A Tadalafila é um vaso dilatador sistêmico.</q><span class="fonte">Doctor Man, anúncio 1276607007749045. Segue: “Você pode estar a um passo de sofrer o infarto ou um derrame cerebral.”</span></div>
+  <p class="item"><span class="tag pista">Estágio 4</span>Boston, site: “As ondas focais demonstraram ser o único tratamento regenerativo para tratar a disfunção erétil” (<a href="https://www.bostonmedicalgroup.com.br/disfuncao-eretil/">página</a>, top5 §4.2). Benedito Assunção: “Circulação fraca e inflamação interna, principalmente na próstata” (anúncio 1518706343290277).</p>
+  <p class="item"><span class="tag pista">Estágio 3</span>Alfa Men: “Nada de paliativos: aqui tratamos a causa do problema”. UpMen: “tratar apenas os sintomas sem investigar a causa vai atrasar muito o seu diagnóstico” (anúncio 1065873149499931). PelvClinic: “a maioria das ‘soluções rápidas’ ignora a raiz do problema” (Biblioteca, concorrentes-meta-ads).</p>
+  <p class="item"><span class="tag pista">Estágio 2, resíduo</span>AndroClinic, site: “você terá garantias de resultados” (F5). Dr Formen: “Consultas com exames De: R$ 250,00 Por: R$ 100,00”. Boston: “95% dos nossos pacientes desfrutam de sua vida sexual”.</p>
+  <p class="item"><span class="tag duvida">Dúvida</span>O estágio 4 sai de quatro páginas com nome de pessoa: Inácio (1 anúncio ativo), Moacyr (8), Benedito (6) e Roberto (6), somando 21 (concorrentes-meta-ads). Soma-se o Doctor Man, clínica com 14 anúncios, e a Boston, no site. O top5 supõe que cinco das seis páginas com nome de pessoa vendem produto natural, não consulta (top5 §5). Elas disputam o mesmo homem, mas talvez não a mesma oferta.</p>
+  <p class="item"><span class="tag sup">Suposição</span>O maior canal do tema, Marco Túlio Cavalcanti, tem 1,17 milhão de inscritos e um vídeo chamado “Tratamentos Milagrosos Da Disfunção Erétil” (F2 §4). A F2 supõe que isso ensina o público a desconfiar.</p>
+  <p class="item"><span class="tag sup">Leitura</span>Num estágio 4, um quarto mecanismo é ruído para quem já ouviu três. A AndroClinic pode mostrar nome completo, CRM com UF e RQE na tela, o que nenhum dos seis vídeos de nome de pessoa mostra (top5 §5). Isso só vale se a pendência 2 fechar.</p>
+
+  <h3><b>e.</b>O que sabe e o que ainda não sabe</h3>
+  <p class="ctx"><b>Sabe</b> (nível 3): o “azulzinho” existe, ele tomou, e o remédio falhou ou deixou receio (“vicia?”, infarto). <b>Ainda não sabe</b> (nível 4): por que o remédio falhou no caso dele, que a causa se investiga na consulta, o que a consulta inclui e quanto custa, e se pode misturar com remédio de pressão. O Projeto Avaliar (2004, 71.503 homens) associa DE a diabetes, hipertensão e problema cardíaco (<a href="https://www.arca.fiocruz.br/handle/icict/19471?show=full">Arca Fiocruz</a>, fato). Que a ereção sinaliza a saúde do corpo é afirmação clínica para o diretor técnico validar. Pela fórmula, a peça abre no remédio que ele já tomou e entrega “a consulta começa pelo porquê”. A3 segue esse molde.</p>
+
+  <h3><b>f.</b>Como resolve hoje: engenharia reversa do funil</h3>
+  <p class="item"><span class="tag fato">Fato</span>Google: “remédio para ereção” completa com “tadalafila”, “forte” e “rapida” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=rem%C3%A9dio%20para%20ere%C3%A7%C3%A3o">link</a>). Farmácia com R$ 12,99 por 4 comprimidos. Amigo e internet como fonte de remédio (SBU e Bayer, 2015, F4 §4). Suplemento comprado online. Antes da clínica, até testosterona exógena (RA Cotia, F4 §4).</p>
+  <p class="item"><span class="tag fato">Fato</span>YouTube de urologista, em 01/10/2026: Marco Túlio Cavalcanti com 1,17 milhão de inscritos, O Médico dos Homens com 436 mil e Tiago Guirro com cerca de 440 mil (F2 §4). A Folha de Londrina diz que o seguidor desses perfis tem entre 30 e 50 anos (data da matéria não identificada). Essa faixa é mais jovem que os 45 a 65 do perfil B: a audiência dos urologistas começa antes da faixa do perfil.</p>
+  <p class="item"><span class="tag fato">Fato</span>Anúncio de tratamento “natural” por páginas com nome de pessoa (top5 §5). Checagem no Reclame Aqui. WhatsApp. O médico não pergunta: em 2004, só 27% tinham sido perguntados sobre sexo em consulta (Arca Fiocruz).</p>
+  <p class="item"><span class="tag sup">Suposição</span>A mesma sequência do perfil A, com o urologista presencial no lugar da vergonha dele, e a esposa empurrando a decisão.</p>
+  <div class="box decisao">
+    <p class="bx-t">O que isso muda no funil da AndroClinic</p>
+    <p>O concorrente de atenção inclui o YouTube do urologista e o anúncio “natural”, além da clínica. O médico precisa ser verificável: o homem confere, e os seis vídeos concorrentes nunca mostram isso. Depende da pendência 2.</p>
+    <p>A receita na mão (A6) responde à objeção que decide a venda. Só sobe com a pendência 4 = sim. Sem ela, o funil do perfil B se apoia em A3 e A1.</p>
+    <p>Com receita, o genérico chega em uma hora pelo aplicativo (<span class="tag sup">Suposição</span>, F5 §4). Vender a consulta como acesso ao remédio perde. Vender investigação e acompanhamento ganha.</p>
+    <p><span class="tag sup">Suposição</span>A CFM 2.314 pede seguimento presencial em doenças de acompanhamento longo, em até 180 dias (art. 6º, §2º e §3º). “Sem sair de casa” é promessa curta para quem trata por meses.</p>
+  </div>
+
+  <h3><b>g.</b>O que a lei permite neste nível</h3>
+  <p class="ctx">Níveis 3 e 4. Pode: explicar processo (investigar, explicar efeitos antes de começar, decidir junto) e o preço da consulta. Se a pendência 3 confirmar, pode citar o retorno incluído. Não pode: “Viagra”, “azulzinho” ou “tadala” em anúncio (Meta e Google). Também não pode: “sem efeito colateral” (art. 11, XVI), mecanismo inverídico do tipo nervo ou placas e “especialista” sem RQE.</p>
+  <p class="ctx">Os vídeos no ar já dizem “Viagra” e “tadala” (anuncios-videos-transcricoes). O Bloco 13 manda evitar isso, e o advogado vê. A frase “o médico que você foi”, dos mesmos vídeos, pode cair no contraste do art. 11, §3º, pela leitura que o arquivo de ângulos faz na marca “Contraste §3”. Mecanismo: “vai dar certo porque X” vira “a consulta começa pelo porquê”.</p>
+</section>
+
+<!-- ============================ PERFIL C ============================ -->
+<section class="sec" id="perfil-c" aria-labelledby="t-c">
+  <h2 id="t-c">Perfil C</h2>
+  <p class="soft">Libido baixa, 40 anos ou mais, com a parceira como coautora da busca. Perfil C do briefing e do arquivo de ângulos.</p>
+
+  <h3><b>a.</b>Problema caro e urgente</h3>
+  <div class="box decisao">
+    <p class="bx-t">ICP em uma frase</p>
+    <p>Homem cuja vontade de sexo caiu e que ainda não trata isso como condição de saúde. A faixa de 40 anos ou mais e a idade ligada à busca vêm do briefing (suposição).</p>
+  </div>
+  <p class="item"><span class="tag fato">Fato</span>Na boca de quem busca. O Google completa “falta de libido masculina” com “45 anos”, “o que pode ser” e “qual médico procurar” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=falta%20de%20libido%20masculina">link</a>, 01/10/2026). A F4 não traz citação literal de homem sobre libido. Quem tentou suplemento escreve:</p>
+  <div class="cit"><q>Após 30 dias de uso, não obtive qualquer resultado.</q><span class="fonte">Reclame Aqui, Virisize, Franca/SP, 23/04/2026 · <a href="https://www.reclameaqui.com.br/daluvi-comercio-de-produtos-naturais/produto-virisize-sem-resultado-e-empresa-posterga-prazos-sem-solucao_7x6ffHaJIeokWC-F/">link</a> · F4 §2.5. Na mesma reclamação: “com a expectativa de melhora na libido, energia e desempenho, conforme anunciado pela empresa”.</span></div>
+  <div class="cit"><q>Não alterou nada em meu dia a dia</q><span class="fonte">Amazon, Bigens Testogens, 07/04/2026 · <a href="https://www.amazon.com.br/dp/B0DQQ8NSKT">link</a> · F4 §2.5</span></div>
+  <p class="item"><span class="tag pista">Caro: parcial.</span>O Mosaico 2.0 achou 30,9% de baixo desejo de moderado a grave. A matéria não deixa claro se a cifra é só de homens (<a href="https://www.uai.com.br/app/noticia/saude/2016/06/30/noticias-saude,189956/quantas-vezes-por-semana-voce-faz-sexo.shtml">UAI, 2016</a>, F5 §1). Suplementos de libido custam R$ 47,40 a R$ 123,40 na Amazon, com “400+ compras no mês” (F2 §5.2). Clínicas de reposição hormonal anunciam: Total Homem, Dr Rodrigo Trivilato e Active Mens (concorrentes-meta-ads). A busca “libido masculina” traz 29 anúncios ativos na Meta, contra cerca de 1.200 de “ejaculação precoce” e 2.400 de “disfunção erétil” (F3 §4, com ruído). O dado não distingue mercado pequeno de mercado ainda não disputado.</p>
+  <p class="item"><span class="tag duvida">Urgente: dúvida forte.</span>Não achei fala de homem tratando a perda de vontade como urgente. A urgência aparece na parceira (perfil D). Há também um efeito de seleção: quem está no nível 1 não pesquisa o sintoma.</p>
+  <p class="item"><span class="tag duvida">Veredito</span>Caro e urgente não confirmado. Pela régua da aula é a hipótese mais fraca dos três. Mantém o terceiro lugar na ordem de teste do briefing.</p>
+
+  <h3><b>b.</b>Quem compra e quem usa</h3>
+  <p class="ctx"><span class="tag sup">Suposição</span>Ele usa e provavelmente paga. Ela busca antes dele e pode ser quem leva o assunto para casa (perfil D). Nenhuma fonte diz quem decide marcar. Quem paga na base atual: <mark class="ph">[A PREENCHER]</mark> (pendência d).</p>
+
+  <h3><b>c.</b>Nível de consciência</h3>
+  <p class="ctx"><b>Dominante: 1</b> (<span class="tag sup">Suposição</span>, evidência indireta). Secundário: 2. A busca só mostra quem já nomeia o problema. Quem está no nível 1 não pesquisa o sintoma, e ele aparece só por via indireta.</p>
+  <p class="item"><span class="tag fato">Nível 1</span>Pela parceira, que busca “meu marido não me procura mais na cama” (perfil D). E pelo concorrente: “Você não percebeu, mas já mudou.” (Total Homem, anúncio 1257557009482502, transcrição automática, <span class="tag pista">Pista</span>).</p>
+  <p class="item"><span class="tag fato">Nível 2</span>Quem busca “falta de libido masculina 45 anos” e pergunta “qual médico procurar” já nomeia o problema e procura quem trata.</p>
+  <p class="item"><span class="tag fato">Nível 3</span>Suplementos e reposição hormonal (as duas citações acima). <span class="tag duvida">Níveis 4 e 5</span>Sem evidência.</p>
+  <p class="item"><span class="tag duvida">Dúvida</span>Alta. Sem proporção entre os níveis, e o briefing classifica o perfil como inconsciente por leitura, sem medição.</p>
+
+  <h3><b>d.</b>Estágio de sofisticação</h3>
+  <div class="box decisao">
+    <p class="bx-t">Decisão</p>
+    <p><b>Estágios 2 a 3.</b> Provisório. Três clínicas e uma farmácia anunciam o tema, quase todas regionais.</p>
+  </div>
+  <p class="item"><span class="tag pista">Estágio 2</span>Total Homem, site: “Resultados incríveis garantidos pelos especialistas” (top5 §6). Active Mens: “protocolos exclusivos” (Biblioteca). Farmafine: “Para a libido masculina! A Fórmula Exclusiva” (F3 §4).</p>
+  <p class="item"><span class="tag pista">Estágio 3</span>O mecanismo é o hormônio. Dr Rodrigo Trivilato: “Não era a idade, era falta de testosterona” (anúncio 1341875764769908). Total Homem: “Isso pode ser um sinal claro de queda hormonal.” A AndroClinic também usa: “Testosterona no chão. Cortisol nas nuvens” (anúncio 2864296463926646).</p>
+  <p class="item"><span class="tag duvida">Dúvida</span>Total Homem atua em Cuiabá e Goiânia, Active Mens em Vitória, e a cidade do Trivilato não foi levantada. Não há texto de anúncio do Google. A lei fecha a porta do mecanismo mais usado: testosterona só com deficiência comprovada em exame (CFM 2.333/2023, art. 3º).</p>
+
+  <h3><b>e.</b>O que sabe e o que ainda não sabe</h3>
+  <p class="ctx"><b>Sabe</b> (nível 1): a vontade mudou, ele anda sem energia, ela percebeu. <b>Ainda não sabe</b> (nível 2): que isso tem nome e causa que se investiga (sono, estresse, pressão, remédios, hormônio com exame) e que existe médico para isso. “Qual médico procurar” mostra que ele nem sabe a especialidade. Pela fórmula, a peça abre no que mudou e entrega “tem causa”. Ainda não fala de consulta.</p>
+
+  <h3><b>f.</b>Como resolve hoje: engenharia reversa do funil</h3>
+  <p class="item"><span class="tag duvida">Sem fonte</span>A jornada da F4 §4 é de DE e EP. Não há fonte da jornada de libido. Reddit, YouTube e fóruns não abriram (F4 §6).</p>
+  <p class="item"><span class="tag fato">Fato</span>Ela busca “meu marido não me procura mais na cama” (perfil D). Ele encontra suplemento na Amazon (“libido masculino”) e clínicas de reposição hormonal.</p>
+  <p class="item"><span class="tag sup">Suposição</span>Ele sente cansaço e queda de vontade e atribui à idade ou ao trabalho. Ela percebe e busca. Ele tenta suplemento. Alguém pergunta “qual médico procurar”.</p>
+  <div class="box decisao">
+    <p class="bx-t">O que isso muda no funil da AndroClinic</p>
+    <p>O funil começa em conteúdo, para ela e para ele, e não em consulta. Nível 1 não busca, então a peça precisa interromper, e a Meta é o canal.</p>
+    <p>O fecho das peças do perfil C não pode ser “agende a consulta por [valor]”. Pede uma página que explique a causa antes.</p>
+    <p>“Qual médico procurar” é um passo real da jornada. A AndroClinic precisa dizer quem atende, com nome, CRM com UF e registro da clínica.</p>
+    <p>A lacuna da jornada de libido só fecha com entrevista de pacientes de libido da base: <mark class="ph">[A PREENCHER]</mark>.</p>
+  </div>
+
+  <h3><b>g.</b>O que a lei permite neste nível</h3>
+  <p class="ctx">Níveis 1 e 2. Pode: “Falta de desejo tem causa. A consulta começa pela investigação.” (frase do Bloco 13). A segunda metade é nível 4, então ela serve de fecho e não de gancho de nível 1. Não pode: testosterona ou “hormônio bioidêntico” sem exame (CFM 2.333, art. 3º) e afirmar valor sem exame (“testosterona no chão” é inverídico sem laudo, art. 11, XVI). Também não pode: pergunta de diagnóstico e medo como motor (“falta de amor”, §2º “e”). Mecanismo: “a vontade volta porque X” vira “a consulta começa pelo porquê: sono e exames, se o caso pedir”.</p>
+</section>
+
+<!-- ============================ PERFIL D ============================ -->
+<section class="sec" id="perfil-d" aria-labelledby="t-d">
+  <h2 id="t-d">Perfil D</h2>
+  <p class="soft">A parceira, quem busca “meu marido não...”. Perfil novo, separado do C por pedido do Rafael. Formato mais curto.</p>
+
+  <h3><b>a.</b>Problema caro e urgente</h3>
+  <div class="box decisao">
+    <p class="bx-t">ICP em uma frase</p>
+    <p>Mulher cujo parceiro deixou de procurá-la e que não sabe se a causa é ela, o casamento ou a saúde dele.</p>
+  </div>
+  <p class="item"><span class="tag fato">Fato</span>O Google completa “meu marido não” com “me procura mais na cama”, “tem mais desejo por mim” e “sente desejo por mim o que fazer” (<a href="https://suggestqueries.google.com/complete/search?client=firefox&amp;hl=pt-BR&amp;gl=br&amp;q=meu%20marido%20n%C3%A3o">link</a>, F4 §1.1). Um caso com a ereção nomeada:</p>
+  <div class="cit"><q>Meu namorado não consegue manter a ereção no ato, às vezes não tem ereção, sendo que tem 26 anos. O que acontece?</q><span class="fonte">Catálogo Med, data não exibida · <a href="https://www.catalogo.med.br/perguntas/p/especialidade/urologia-58145/pergunta/meu+namorado+nao+consegue+manter+a+erecao+no+ato+as+vezes+nao+tem+erecao+sendo+que+tem+26+anos.+o+que+acontece-637226">link</a> · F4 §1.1</span></div>
+  <p class="item"><span class="tag sup">Suposição</span>Urgente, pela voz: “o que fazer” fecha a busca. A base é só autocompletar e uma pergunta, sem volume de busca. O “por mim” sugere que ela se culpa (leitura do arquivo de ângulos, C7).</p>
+  <p class="item"><span class="tag duvida">Caro: dúvida.</span>O custo dela é emocional, e ela não é quem usa. <span class="tag duvida">Veredito</span>Urgente na voz, caro não confirmado. Ela é canal de entrada até o cliente responder quem paga.</p>
+
+  <h3><b>b.</b>Quem compra e quem usa</h3>
+  <p class="ctx">Ela busca. Ele usa. Quem paga: <mark class="ph">[A PREENCHER]</mark>. <span class="tag sup">Suposição</span>A decisão de marcar é dele. A Cópia 4 escreve assim, mas isso é premissa do copy e não evidência. <span class="tag pista">Pista</span>Uma avaliação positiva de mulher no Reclame Aqui diz “Fui muito bem atendida” (<a href="https://www.reclameaqui.com.br/androclinic/otimo-atendimento_h-21jA9uwDIpVyxm/">Goiânia, 08/09/2026</a>). Lembra depoimento incentivado e não diz se ela foi paciente ou acompanhante. Fica fora.</p>
+
+  <h3><b>c.</b>Nível de consciência</h3>
+  <p class="ctx"><b>Dominante: 1</b>: sabe o sintoma (“ele não me procura”). Parte no 2, quando nomeia a ereção (citação acima). Níveis 3 a 5 sem evidência. A aula diz que “a culpa não é sua” só funciona onde a pessoa já desconfia que a culpa é dela. “Não tem mais desejo por mim” é esse sinal (<span class="tag sup">Suposição</span>). Este é o único perfil em que a frase tem base, e ela descreve o comportamento sem julgar.</p>
+
+  <h3><b>d.</b>Estágio de sofisticação</h3>
+  <div class="box decisao">
+    <p class="bx-t">Decisão</p>
+    <p><b>Estágio 1, provável e não comprovado</b>: o primeiro a afirmar, só para este público. Ausência na amostra não prova ausência no mercado.</p>
+  </div>
+  <p class="ctx"><span class="tag fato">Fato</span>A F3 §6 (lacuna 1) diz que nenhum anúncio visto fala com a parceira. Nas 24 transcrições da AndroClinic, nenhum vídeo fala só com ela. O vídeo “sócios” (4566142067039678) fala com o casal: “Vocês viraram sócios, mas faliram como amantes.” A F2 §2.1 registra que parte dos anúncios da Bluue roda por páginas de criadores de casal (Casaltoxicocarioca, Ocasallegendario). O texto desses anúncios dirigido a ela não foi verificado. Só um slide da Cópia 4 fala com ela. <span class="tag duvida">Dúvida</span>A amostra é de um vídeo por página, e o Google não tem texto.</p>
+
+  <h3><b>e.</b>O que sabe e o que ainda não sabe</h3>
+  <p class="ctx"><b>Sabe</b>: ele mudou. <b>Ainda não sabe</b>: que pode haver causa de saúde, que o problema pode não ser ela, que ele pode procurar um médico e que ela pode participar. A participação é a pendência N1 do arquivo de ângulos, ainda fora do briefing.</p>
+
+  <h3><b>f.</b>Como resolve hoje: engenharia reversa do funil</h3>
+  <p class="ctx"><span class="tag fato">Fato</span>Só as três buscas e uma pergunta ao médico. <span class="tag duvida">Sem fonte</span>O que aparece para ela na primeira página dessas buscas não foi levantado. <span class="tag sup">Suposição</span>Ela lê, tenta conversar e empurra. Muda no funil: o conteúdo para ela entregar a ele, o consentimento dele e a decisão de marcar dele. Peça que fala com ela sobre a saúde dele toca atributo de terceiro (Meta). Consulta com a presença dela pede consentimento (LGPD, arts. 5º e 11).</p>
+
+  <h3><b>g.</b>O que a lei permite neste nível</h3>
+  <p class="ctx">Nível 1. Pode: conversa de casal, sem afirmar condição dele. Não pode: dizer que ele tem disfunção, culpar, usar medo (art. 11, §2º, “e”) ou nomear remédio. Mecanismo: “a consulta começa pelo porquê”, sem prometer que a vontade volta.</p>
+</section>
+
+<!-- ============================ PEÇAS ============================ -->
+<section class="sec" id="pecas" aria-labelledby="t-pecas">
+  <h2 id="t-pecas">As 45 peças</h2>
+  <p class="ctx">Arquivo <code>angulos-8-motivacoes-androclinic.html</code>: 9 ângulos, 5 peças cada (3 ganchos, 1 frase, 1 cena). O arquivo usa A para a ereção física e B para o jovem. Aqui cada peça traz o perfil do briefing.</p>
+
+  <div class="box">
+    <p class="bx-t">Régua única</p>
+    <p><b>O nível da peça é o que ela supõe que o leitor já sabe.</b> Supõe só a situação (sintoma, relação, saúde em geral): nível 1. Supõe que ele reconhece a condição: nível 2. Supõe que ele já pensa em consultar ou tratar (marcou, vai começar, já tentou produto, vai levar perguntas): nível 3. Supõe que ele conhece como a consulta funciona e compara ofertas (decidir junto, receita, preço do tratamento, conferir o médico no CFM): nível 4. Supõe que ele quer a oferta (preço da consulta, agendar): nível 5.</p>
+    <p><b>Ponte</b> é o que a peça entrega ao leitor do nível N: o nível N+1. O como que a peça mostra (investigar, explicar, decidir junto) é ponte para o 4 e não muda o nível dela. <b>Mistura</b> é a peça com blocos para leitores a dois ou mais níveis de distância, ou que fala com dois públicos.</p>
+    <p><b>Cena.</b> Cena que põe o leitor dentro de uma consulta supõe que ele já considera consultar: nível 3. É o caso de A1-C, A3-C, B3-C, B4-C, C4-C, C7-C e das cópias 1 a 7. Cenário (café, louça, pasta de exames, churrasco) não conta. Sintoma citado na abertura conta como o que a peça supõe: é o caso de C1-C.</p>
+    <p><b>Enunciado curto e peça longa.</b> “Check-up completo inclui a ereção” (A1-G1) supõe só que ele faz exames de rotina: nível 1. A1-C e a Cópia 1 põem o leitor numa consulta por vídeo: nível 3.</p>
+    <p><b>Voz.</b> “Pode perguntar o que quiser” (B3-G3) supõe só a dúvida e a hesitação: nível 1. “Traga as suas perguntas” (Cópia 3) e “escreva as suas perguntas” (Cópia 6) supõem consulta decidida: nível 3. “Eu começo ouvindo” (B4-G3) supõe só a situação.</p>
+    <p><b>Fecho.</b> Fica fora da conta: “converse com um médico”, “pergunte a um médico”, “procurem um médico juntos”, “a consulta online é o primeiro passo”, “a consulta pode ser marcada pelos dois”. O CTA de preço e agendar das 8 cópias é nível 5 pela régua. Fica fora porque o fecho manda o leitor para a oferta, e o nível da peça é o do corpo. Quando o corpo está no nível 1 ou 2, o fecho pula para o 5. Esse salto é a decisão 1.</p>
+    <p><b>Exceção declarada.</b> O perfil das 45 peças vem do arquivo de ângulos, que define o público de cada ângulo, mesmo quando a peça não cita sintoma (B3-G3, B4, C4-G1, C7-G1). O perfil das 8 cópias sai do texto, porque o arquivo delas não define.</p>
+    <p><span class="tag sup">Suposição</span>Toda marca é leitura do squad. Uma persona de IA em cada nível, como a aula ensina, é o teste que valida.</p>
+  </div>
+
+  <div class="box decisao">
+    <p class="bx-t">Resumo por nível, nas 45 peças</p>
+    <p><b>Nível 1:</b> 15 peças. <b>Nível 2:</b> 3 (B3-G1, B3-G2, B3-F). <b>Nível 3:</b> 22. <b>Nível 4:</b> 4 (A6-G2, A6-G3, A6-F, A6-C). <b>Nível 5:</b> 1 (A6-G1).</p>
+    <p>Por perfil. O perfil A tem 5 peças no 1, 3 no 2 e 7 no 3, e nenhuma no 4 nem no 5. O perfil B tem 3 no 1, 7 no 3, 4 no 4 e 1 no 5, e nenhuma no 2. O perfil C tem 7 no 1 e 8 no 3, e nenhuma no 2, no 4 nem no 5. A parceira tem peças só nos níveis 1 e 3 (as cinco de C4), e todas falam com ele ou com o casal.</p>
+    <p>Os níveis 4 e 5 do perfil B são todos do ângulo A6, que só sobe com a pendência 4 = sim.</p>
+  </div>
+
+  <h3 class="ang">A1 · O corpo inteiro entra na consulta</h3>
+  <p class="ang-nota">Perfil B. Três peças no nível 1 e duas no 3. O perfil B é dominante no 3: as peças de nível 1 alcançam o homem que ainda não ligou ereção a saúde.</p>
+  <div class="pc" id="A1-G1">
+    <div class="pc-top"><b class="pc-id">A1-G1</b><span class="chip niv">Nível 1 → 2</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Check-up completo inclui a ereção. Converse com um médico.”</p>
+    <p class="pc-why">Não supõe sintoma nem problema. Apresenta a ereção como assunto de saúde.</p>
+  </div>
+  <div class="pc" id="A1-G2">
+    <div class="pc-top"><b class="pc-id">A1-G2</b><span class="chip niv">Nível 1 → 2</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Perguntar da vida sexual também é cuidar da saúde.”</p>
+    <p class="pc-why">Mesmo molde: parte de “vida sexual” e leva a “saúde”.</p>
+  </div>
+  <div class="pc" id="A1-G3">
+    <div class="pc-top"><b class="pc-id">A1-G3</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Antes do remédio, eu quero saber da sua pressão.”</p>
+    <p class="pc-why">Supõe que ele pensa em remédio e leva à investigação. Destoa das peças de nível 1 do mesmo ângulo.</p>
+  </div>
+  <div class="pc" id="A1-F">
+    <div class="pc-top"><b class="pc-id">A1-F</b><span class="chip niv">Nível 1 → 2</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Um check-up completo olha o corpo inteiro, e a ereção faz parte dele. A consulta online é o primeiro passo.”</p>
+    <p class="pc-why">A segunda frase é fecho, fora da conta.</p>
+  </div>
+  <div class="pc" id="A1-C">
+    <div class="pc-top"><b class="pc-id">A1-C</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“O check-up do ano continua na pasta do celular. Pressão, colesterol, glicose…”</p>
+    <p class="pc-why">Põe o leitor numa consulta por vídeo: o médico abre os exames e acrescenta uma pergunta. Supõe que ele já considera consultar. Mesmo desenho de A3-C e B3-C. A pasta de exames é cenário. A1-G1, A1-G2 e A1-F, de uma frase, supõem só os exames de rotina.</p>
+  </div>
+
+  <h3 class="ang">A3 · Saber o que toma, antes de começar</h3>
+  <p class="ang-nota">Perfil B. As cinco peças no nível 3, o dominante do perfil. É o ângulo mais alinhado ao ICP.</p>
+  <div class="pc" id="A3-G1">
+    <div class="pc-top"><b class="pc-id">A3-G1</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“O médico explica os efeitos possíveis antes de começar.”</p>
+    <p class="pc-why">Supõe que ele já pensa em tratar. Entrega o como.</p>
+  </div>
+  <div class="pc" id="A3-G2">
+    <div class="pc-top"><b class="pc-id">A3-G2</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“O tratamento é escolhido pelo seu histórico. E explicado antes.”</p>
+    <p class="pc-why">Mesma premissa e mesma ponte.</p>
+  </div>
+  <div class="pc" id="A3-G3">
+    <div class="pc-top"><b class="pc-id">A3-G3</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Eu explico os efeitos possíveis antes de começar.”</p>
+    <p class="pc-why">Versão na voz do médico.</p>
+  </div>
+  <div class="pc" id="A3-F">
+    <div class="pc-top"><b class="pc-id">A3-F</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“O médico escolhe o tratamento pelo seu histórico e explica os efeitos possíveis antes de começar.”</p>
+    <p class="pc-why">Frase do Bloco 13, uma ideia só.</p>
+  </div>
+  <div class="pc" id="A3-C">
+    <div class="pc-top"><b class="pc-id">A3-C</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Um homem entra na consulta por vídeo com a lista dos remédios que já usa…”</p>
+    <p class="pc-why">Parte de quem já usa remédio e mostra como a escolha é feita.</p>
+  </div>
+
+  <h3 class="ang">A6 · Você decide</h3>
+  <p class="ang-nota">Perfil B. Única família de peças nos níveis 4 e 5. Só sobe com a pendência 4 = sim (risco vermelho no arquivo).</p>
+  <div class="pc" id="A6-G1">
+    <div class="pc-top"><b class="pc-id">A6-G1</b><span class="chip niv">Nível 5</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Consulta por R$ [PREÇO]. Preço na página, antes de agendar.”</p>
+    <p class="pc-why">É a oferta nua. Serve a remarketing e a quem já conhece a marca. O preço depende da pendência 3.</p>
+  </div>
+  <div class="pc" id="A6-G2">
+    <div class="pc-top"><b class="pc-id">A6-G2</b><span class="chip niv">Nível 4 → 5</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“A consulta acaba na consulta. Depois, você decide.”</p>
+    <p class="pc-why">Supõe que ele conhece o roteiro consulta seguida de pacote e mostra a diferença.</p>
+  </div>
+  <div class="pc" id="A6-G3">
+    <div class="pc-top"><b class="pc-id">A6-G3</b><span class="chip niv">Nível 4 → 5</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Eu digo o que prescrevo e por quê. Você escolhe.”</p>
+    <p class="pc-why">Mesma premissa, na voz do médico.</p>
+  </div>
+  <div class="pc" id="A6-F">
+    <div class="pc-top"><b class="pc-id">A6-F</b><span class="chip niv">Nível 4 → 5</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Preço da consulta na página e explicação do que é prescrito. A decisão final fica com você.”</p>
+    <p class="pc-why">Preço e processo são vizinhos (5 e 4): ponte, não mistura.</p>
+  </div>
+  <div class="pc" id="A6-C">
+    <div class="pc-top"><b class="pc-id">A6-C</b><span class="chip niv">Nível 4 → 5</span><span class="chip">Perfil B</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“A chamada termina, e o PDF chega no seu e-mail: nome do tratamento, orientação de uso…”</p>
+    <p class="pc-why">Mostra a operação depois da consulta. Supõe que ele conhece o roteiro de consulta seguida de pacote.</p>
+  </div>
+
+  <h3 class="ang">B3 · Pode perguntar</h3>
+  <p class="ang-nota">Perfil A. As únicas três peças de nível 2 das 45. É o ângulo mais alinhado ao ICP do perfil A, e uma peça mistura.</p>
+  <div class="pc" id="B3-G1">
+    <div class="pc-top"><b class="pc-id">B3-G1</b><span class="chip niv">Nível 2</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Ejaculação precoce tem causa. Converse com um médico por vídeo.”</p>
+    <p class="pc-why">Nomeia a condição e diz que há explicação.</p>
+  </div>
+  <div class="pc" id="B3-G2">
+    <div class="pc-top"><b class="pc-id">B3-G2</b><span class="chip niv">Nível 2 → 3</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Ejaculação precoce tem tratamento. Converse com um médico.”</p>
+    <p class="pc-why">Frase do Bloco 13. Segue a fórmula da aula: o que ele sabe (o nome), depois o que não sabe (há tratamento).</p>
+  </div>
+  <div class="pc" id="B3-G3">
+    <div class="pc-top"><b class="pc-id">B3-G3</b><span class="chip niv">Nível 1</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Pode perguntar o que quiser sobre o assunto. Eu escuto.”</p>
+    <p class="pc-why">Não nomeia a condição e supõe só a dúvida e a hesitação (“pode perguntar”). “Traga as suas perguntas” (Cópias 3 e 6) supõe consulta decidida: nível 3. O perfil vem do ângulo (exceção declarada).</p>
+  </div>
+  <div class="pc" id="B3-F">
+    <div class="pc-top"><b class="pc-id">B3-F</b><span class="chip niv">Nível 2</span><span class="chip">Perfil A</span><span class="chip mix">Mistura 2 a 4</span></div>
+    <p class="pc-txt">“Ejaculação precoce tem tratamento e tem causa. A consulta começa pela investigação.”</p>
+    <p class="pc-why">Supõe que ele reconhece a condição (2), passa por “tratamento” (3) e termina no como (4): sobe dois degraus.</p>
+    <p class="pc-fix"><b>Correção.</b> Tirar “A consulta começa pela investigação” e ficar com a B3-G2. A frase inteira serve de fecho para quem já está no nível 3.</p>
+  </div>
+  <div class="pc" id="B3-C">
+    <div class="pc-top"><b class="pc-id">B3-C</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Um rapaz apoia o celular na mesa do quarto, fecha a porta e põe o fone…”</p>
+    <p class="pc-why">Supõe que ele já decidiu consultar. Mostra que a conversa começa pela causa.</p>
+  </div>
+
+  <h3 class="ang">B4 · Relação nova pede cuidado</h3>
+  <p class="ang-nota">Perfil A. Quatro peças no nível 1 e a cena no 3. Os ganchos e a frase nunca nomeiam a condição: vão da situação ao convite, pulando o nível 2.</p>
+  <div class="pc" id="B4-G1">
+    <div class="pc-top"><b class="pc-id">B4-G1</b><span class="chip niv">Nível 1</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Relação nova pede cuidado. Converse com um médico.”</p>
+    <p class="pc-why">Fala da situação, sem condição e sem sintoma. O perfil vem do ângulo (exceção declarada).</p>
+  </div>
+  <div class="pc" id="B4-G2">
+    <div class="pc-top"><b class="pc-id">B4-G2</b><span class="chip niv">Nível 1</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Quer cuidar da relação nova? Comece cuidando da saúde.”</p>
+    <p class="pc-why">Mesma premissa.</p>
+  </div>
+  <div class="pc" id="B4-G3">
+    <div class="pc-top"><b class="pc-id">B4-G3</b><span class="chip niv">Nível 1</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Eu começo ouvindo. Saúde e relação cabem na mesma conversa.”</p>
+    <p class="pc-why">Supõe só a situação. “Eu começo ouvindo” dá o tom da consulta.</p>
+  </div>
+  <div class="pc" id="B4-F">
+    <div class="pc-top"><b class="pc-id">B4-F</b><span class="chip niv">Nível 1</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Confiança numa relação nova também começa pela saúde. A consulta online é o primeiro passo.”</p>
+    <p class="pc-why">A segunda frase é fecho.</p>
+  </div>
+  <div class="pc" id="B4-C">
+    <div class="pc-top"><b class="pc-id">B4-C</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Terceiro encontro, e a série fica pausada por três horas de conversa…”</p>
+    <p class="pc-why">Põe o leitor numa consulta e supõe que ele já considera consultar. “Os dois combinam o que vem depois” é decidir junto, ponte para o nível 4. O terceiro encontro é cenário. Destoa das peças de nível 1 do mesmo ângulo.</p>
+  </div>
+
+  <h3 class="ang">B6 · Decida com a causa na mão</h3>
+  <p class="ang-nota">Perfil A. As cinco peças no nível 3. Fala com a parcela do perfil que já usou gel, spray ou curso. B6-G1, B6-G2, B6-F e B6-C levam a marca “T terceiros” do arquivo: crítica genérica a produto de prateleira.</p>
+  <div class="pc" id="B6-G1">
+    <div class="pc-top"><b class="pc-id">B6-G1</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Gel, spray, curso. E a causa, quem investigou?”</p>
+    <p class="pc-why">Supõe produto de prateleira já comprado. Leva à causa.</p>
+  </div>
+  <div class="pc" id="B6-G2">
+    <div class="pc-top"><b class="pc-id">B6-G2</b><span class="chip niv">Nível 3</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Parar de comprar na esperança. Começar a decidir com informação.”</p>
+    <p class="pc-why">Fala de quem comprou e não resolveu.</p>
+  </div>
+  <div class="pc" id="B6-G3">
+    <div class="pc-top"><b class="pc-id">B6-G3</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Eu investigo a causa. Com ou sem remédio, você decide.”</p>
+    <p class="pc-why">Entrega o como. “Com ou sem remédio” depende da pendência g.</p>
+  </div>
+  <div class="pc" id="B6-F">
+    <div class="pc-top"><b class="pc-id">B6-F</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Antes do próximo produto, a causa investigada. O caminho, com ou sem remédio, você decide com o médico.”</p>
+    <p class="pc-why">Mesma ponte.</p>
+  </div>
+  <div class="pc" id="B6-C">
+    <div class="pc-top"><b class="pc-id">B6-C</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“No fundo da gaveta do banheiro: o gel, o spray, a caixa do suplemento…”</p>
+    <p class="pc-why">Parte do que ele já tentou. Fecha na pergunta da consulta.</p>
+  </div>
+
+  <h3 class="ang">C4 · Ela e ele, juntos</h3>
+  <p class="ang-nota">Perfis C e D. Duas peças no nível 1 e três no 3. Nenhuma fala só com ela: todas falam com ele ou com os dois.</p>
+  <div class="pc" id="C4-G1">
+    <div class="pc-top"><b class="pc-id">C4-G1</b><span class="chip niv">Nível 1</span><span class="chip">Perfis C e D</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Saúde também se cuida a dois. Procurem um médico juntos.”</p>
+    <p class="pc-why">Fala de saúde a dois. “Procurem um médico” é fecho. O perfil vem do ângulo (exceção declarada).</p>
+  </div>
+  <div class="pc" id="C4-G2">
+    <div class="pc-top"><b class="pc-id">C4-G2</b><span class="chip niv">Nível 3</span><span class="chip">Perfis C e D</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Marcar a consulta pode ser um projeto do casal.”</p>
+    <p class="pc-why">Supõe que a consulta já está na mesa. Para o perfil C, de nível 1, a decisão ainda não existe.</p>
+  </div>
+  <div class="pc" id="C4-G3">
+    <div class="pc-top"><b class="pc-id">C4-G3</b><span class="chip niv">Nível 3</span><span class="chip">Perfis C e D</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Se ela quiser vir junto, eu recebo os dois.”</p>
+    <p class="pc-why">Supõe que ele já vai consultar.</p>
+  </div>
+  <div class="pc" id="C4-F">
+    <div class="pc-top"><b class="pc-id">C4-F</b><span class="chip niv">Nível 1</span><span class="chip">Perfis C e D</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Quem divide a vida pode dividir o cuidado. A consulta pode ser marcada pelos dois.”</p>
+    <p class="pc-why">A mensagem é dividir o cuidado. A segunda frase é fecho.</p>
+  </div>
+  <div class="pc" id="C4-C">
+    <div class="pc-top"><b class="pc-id">C4-C</b><span class="chip niv">Nível 3</span><span class="chip">Perfis C e D</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Domingo de manhã, café na mesa, os dois celulares virados para baixo…”</p>
+    <p class="pc-why">O café é cenário. A cena é a decisão de marcar (“quer que eu marque com você?”), a mesma premissa de C7-C.</p>
+  </div>
+
+  <h3 class="ang">C7 · Contar é um jeito de cuidar</h3>
+  <p class="ang-nota">Perfil C. Uma peça no nível 1 e quatro no 3. As quatro supõem que ele já decidiu consultar, o que o perfil C, de nível 1, ainda não fez.</p>
+  <div class="pc" id="C7-G1">
+    <div class="pc-top"><b class="pc-id">C7-G1</b><span class="chip niv">Nível 1</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Cuidar da sua saúde é cuidar de quem você ama.”</p>
+    <p class="pc-why">Generalidade sem problema nomeado. O perfil vem do ângulo (exceção declarada). Destoa das outras quatro.</p>
+  </div>
+  <div class="pc" id="C7-G2">
+    <div class="pc-top"><b class="pc-id">C7-G2</b><span class="chip niv">Nível 3</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Uma frase simples abre a conversa: marquei uma consulta.”</p>
+    <p class="pc-why">Supõe que ele já marcou.</p>
+  </div>
+  <div class="pc" id="C7-G3">
+    <div class="pc-top"><b class="pc-id">C7-G3</b><span class="chip niv">Nível 3</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Contar a ela é cuidar. A parte médica é comigo.”</p>
+    <p class="pc-why">Supõe que ele tem algo a contar e que consulta.</p>
+  </div>
+  <div class="pc" id="C7-F">
+    <div class="pc-top"><b class="pc-id">C7-F</b><span class="chip niv">Nível 3</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“‘Marquei uma consulta com um médico.’ Uma frase simples para abrir a conversa em casa.”</p>
+    <p class="pc-why">Mesma premissa.</p>
+  </div>
+  <div class="pc" id="C7-C">
+    <div class="pc-top"><b class="pc-id">C7-C</b><span class="chip niv">Nível 3</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Sábado de manhã, ela lava a louça e ele seca, como todo sábado…”</p>
+    <p class="pc-why">A louça é cenário. A cena é ele contando que marcou.</p>
+  </div>
+
+  <h3 class="ang">C1 · A vontade tem causa</h3>
+  <p class="ang-nota">Perfil C. Quatro peças partem do nível 1, e três delas misturam. É o ângulo com mais mistura: em três peças a segunda metade entrega o como (nível 4) a quem ainda está no nível 1.</p>
+  <div class="pc" id="C1-G1">
+    <div class="pc-top"><b class="pc-id">C1-G1</b><span class="chip niv">Nível 1</span><span class="chip">Perfil C</span><span class="chip mix">Mistura 1 a 4</span></div>
+    <p class="pc-txt">“Falta de desejo tem causa. A consulta começa pela investigação.”</p>
+    <p class="pc-why">Parte do sintoma e ensina o como na segunda frase.</p>
+    <p class="pc-fix"><b>Correção.</b> No gancho de nível 1, cortar “A consulta começa pela investigação”. A frase inteira é a do Bloco 13 e serve de fecho para quem já está no nível 3.</p>
+  </div>
+  <div class="pc" id="C1-G2">
+    <div class="pc-top"><b class="pc-id">C1-G2</b><span class="chip niv">Nível 1 → 2</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Libido também é assunto de saúde. Pergunte a um médico.”</p>
+    <p class="pc-why">Parte de “libido” e leva a “saúde”. “Pergunte a um médico” é fecho.</p>
+  </div>
+  <div class="pc" id="C1-G3">
+    <div class="pc-top"><b class="pc-id">C1-G3</b><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil C</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Antes do tratamento, eu olho seu sono e seus exames.”</p>
+    <p class="pc-why">Supõe que ele já pensa em tratar. Destoa do ângulo, que fala no nível 1.</p>
+  </div>
+  <div class="pc" id="C1-F">
+    <div class="pc-top"><b class="pc-id">C1-F</b><span class="chip niv">Nível 1</span><span class="chip">Perfil C</span><span class="chip mix">Mistura 1 a 4</span></div>
+    <p class="pc-txt">“Quando o desejo muda, o corpo pode ter uma explicação. O médico procura por ela, com exame se o caso pedir.”</p>
+    <p class="pc-why">A primeira frase é nível 1 a 2. A segunda descreve a investigação por exame, que é o como.</p>
+    <p class="pc-fix"><b>Correção.</b> Tirar “O médico procura por ela, com exame se o caso pedir” e fechar em “o corpo pode ter uma explicação”.</p>
+  </div>
+  <div class="pc" id="C1-C">
+    <div class="pc-top"><b class="pc-id">C1-C</b><span class="chip niv">Nível 1</span><span class="chip">Perfil C</span><span class="chip mix">Mistura 1 a 4</span></div>
+    <p class="pc-txt">“Sexta, fim do dia: ele chega em casa sem energia para nada além do sofá…”</p>
+    <p class="pc-why">Abre em sintoma (cansaço, pouco sono), que conta como nível 1. Na terceira linha, a consulta pede os exames: o como.</p>
+    <p class="pc-fix"><b>Correção.</b> Cortar a terceira linha (“Na consulta, o médico anota tudo isso e pede os exames que o caso pede”). A quarta fica solta, então trocar “Agora o assunto da vontade tem por onde começar” por “O assunto da vontade ainda não tem por onde começar.” A cena termina no que ele sabe, e o fecho vai para a página. A frase de ligação é do squad e o Rafael aprova.</p>
+  </div>
+</section>
+
+<!-- ============================ CÓPIAS ============================ -->
+<section class="sec" id="copys" aria-labelledby="t-copys">
+  <h2 id="t-copys">As 8 cópias</h2>
+  <p class="ctx">Arquivo <code>copys-8-motivacoes-androclinic.html</code>: cada ângulo tem roteiro de vídeo, carrossel de 8 slides, legenda e banner. A régua é a mesma das 45 peças. O arquivo não define perfil por ângulo, então o perfil sai do que o texto diz. Quando nenhuma frase cita condição, o perfil não é identificável.</p>
+
+  <div class="box decisao">
+    <p class="bx-t">Resumo das 8 cópias</p>
+    <p><b>Nível 3:</b> cópias 1 a 7. <b>Nível 4:</b> cópia 8. Os níveis 1, 2 e 5 ficam sem cópia.</p>
+    <p>Três misturam: 3, 4 e 8. A Cópia 4 continua misturando público (ele e ela) até a decisão do Rafael sair, mesmo depois da correção dos blocos.</p>
+    <p>As cópias 2, 5, 6 e 7 não citam sintoma, condição nem saúde sexual. A Cópia 1 cita só “saúde sexual”. O leitor dessas cinco já precisa querer consultar e não sabe dizer de quê. A Cópia 3 entra nesse grupo depois da correção.</p>
+    <p>As oito fecham pedindo agendamento por [valor da consulta], mesmo quando o corpo fala em nível mais baixo. A régua explica por que o fecho fica fora da conta. Ele é a primeira decisão de funil (decisões, item 1).</p>
+  </div>
+
+  <div class="pc" id="K1">
+    <div class="pc-top"><b class="pc-id">Cópia 1 · Aproveitar a vida inteira</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil não identificável pelo texto</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“A saúde sexual cabe na conversa do check-up.”</p>
+    <p class="pc-why">O texto cita só “saúde sexual”, sem condição, então o perfil não se identifica. A ideia é a de A1, que é do perfil B. A pasta de exames da cena 2 é cenário, como o churrasco da Cópia 2. A peça põe o leitor numa consulta (cena 3, slides 3 a 5) e entrega o como (cena 4, slides 6 e 7). Ela supõe que ele já considera consultar. Mesmo desenho de A1-C e da Cópia 2.</p>
+    <p class="pc-why">Antes, o gancho (nível 1) e a cena 3 (nível 3) eram dois degraus, e a página os chamava de ponte. Com a marca em 3 → 4, a peça inteira parte de um leitor só, e a mistura sai.</p>
+  </div>
+
+  <div class="pc" id="K2">
+    <div class="pc-top"><b class="pc-id">Cópia 2 · A mesa</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil não identificável</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“No domingo, a brasa acende e a mesa enche.”</p>
+    <p class="pc-why">A brasa e a mesa são cenário. A peça supõe que ele já considera consultar (“Na consulta, a mesa entra na conversa”) e faz a ponte para o porquê. Mesmo desenho das cópias 1, 5, 6 e 7. Nenhuma frase cita sintoma ou condição, então não dá para dizer qual é o perfil. Recomendo não corrigir o nível. A falta de sintoma entra na peça que falta (decisões, item 3).</p>
+  </div>
+
+  <div class="pc" id="K3">
+    <div class="pc-top"><b class="pc-id">Cópia 3 · Pode perguntar</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil A, com trecho do C</span><span class="chip mix">Mistura de público e de níveis</span></div>
+    <p class="pc-txt">“Consulta é conversa. Traga as suas perguntas.”</p>
+    <p class="pc-why">“Traga as suas perguntas” supõe consulta decidida: nível 3, como na Cópia 6. Há blocos de outros níveis.</p>
+    <p class="pc-why">Nível 1: o slide 3 (“quem nunca falou do assunto”). Nível 2: “Ejaculação precoce tem tratamento” na cena 4, no slide 7, no 4º parágrafo da legenda e na 3ª linha do apoio do banner. Nível 4, ponte permitida: a cena 4, os slides 2 (“Você pode conferir o registro no portal do CFM”), 5 e 6, o 3º parágrafo da legenda e a 2ª linha do apoio.</p>
+    <p class="pc-why">Dois públicos: o slide 7 junta EP e libido. O slide 3 junta “quem já tentou” e “quem nunca falou”. O nível 2 ao lado do 4 são dois degraus.</p>
+    <p class="pc-fix"><b>Correção, todos os blocos obrigatórios.</b> Slide 3, corpo: reescrever para um leitor só, por exemplo “Seja qual for o caso, a consulta começa pela história de quem chega.” Slide 7: tirar o slide inteiro (título, corpo e a imagem das “duas frases”), e o carrossel passa a ter 7 slides. Cena 4: tirar a 3ª frase da fala, o texto em duas linhas da coluna “Na tela” e, na legenda em tela, só a segunda metade (“Ejaculação precoce tem tratamento…”); a primeira (“A consulta começa pelo porquê.”) fica. Legenda do post: tirar o 4º parágrafo. Banner: tirar a 3ª linha do apoio, que fica com duas, e ajustar a arte. “É normal?” fica na cena 2 e na legenda como exemplo de pergunta.</p>
+    <p class="pc-fix"><b>Consequência.</b> Sem a EP, a cópia deixa de nomear a condição e fica como as cópias 2, 5, 6 e 7, de perfil não identificável. Se o Rafael preferir manter a EP, a peça mistura o nível 2 com o 3 e o 4, e a regra do nível único não se cumpre.</p>
+  </div>
+
+  <div class="pc" id="K4">
+    <div class="pc-top"><b class="pc-id">Cópia 4 · Cuidado a dois</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfis C e D</span><span class="chip mix">Mistura de público</span></div>
+    <p class="pc-txt">“Uma consulta por vídeo pode ser combinada a dois.”</p>
+    <p class="pc-why">A peça supõe que a consulta a dois já está na mesa: nível 3, com ponte para o porquê. Ela fala com ele (slide 3, “Para ele”) e com ela (slide 4, “Para quem divide a vida com ele”).</p>
+    <p class="pc-why">A frase “Falta de desejo tem causa. A consulta começa pela investigação.” é o único ponto que nomeia a condição. Ela fixa o perfil C. Está na cena 4, no slide 6 e no 3º parágrafo da legenda.</p>
+    <p class="pc-dec"><b>Decisão do Rafael.</b> Separar em dois carrosséis, um para ele e um para ela, é peça nova. Depende da pendência N1 (a parceira na consulta) e toca atributo de terceiro na Meta. Enquanto ela não sair, a Cópia 4 continua misturando público (ele e ela), mesmo depois da correção abaixo.</p>
+    <p class="pc-fix"><b>Correção, todos os blocos.</b> Cena 4: tirar a cena inteira (fala, texto em tela e legenda em tela). A cena 3 diz que a identificação do médico fica até o fim da cena 4 e corta para um plano mais fechado: reescreva as duas notas para a identificação ficar até o fim da cena 3 e o corte levar ao cartão final. Slide 6: tirar o slide inteiro (título, corpo e a imagem das “duas frases”). Legenda do post: tirar o 3º parágrafo. O porquê continua no slide 7 e no banner, sem repetir. O carrossel passa a ter 7 slides. O gancho fica como está.</p>
+  </div>
+
+  <div class="pc" id="K5">
+    <div class="pc-top"><b class="pc-id">Cópia 5 · A sala é sua</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil não identificável</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“A sala de espera é a sua sala.”</p>
+    <p class="pc-why">Supõe que ele já pensa em consultar e compara o formato. Todas as frases ficam nesse ponto. Nenhuma nomeia a condição.</p>
+  </div>
+
+  <div class="pc" id="K6">
+    <div class="pc-top"><b class="pc-id">Cópia 6 · Leve as perguntas</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil não identificável</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Comece pela caneta: escreva as suas perguntas.”</p>
+    <p class="pc-why">Perguntas para levar à consulta: nível 3, como na Cópia 3. Todas as frases ficam nesse ponto. Nenhuma nomeia a condição.</p>
+  </div>
+
+  <div class="pc" id="K7">
+    <div class="pc-top"><b class="pc-id">Cópia 7 · A lista da casa</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 3 → 4</span><span class="chip">Perfil não identificável</span><span class="chip sem">Sem mistura</span></div>
+    <p class="pc-txt">“Na lista da casa, cabe mais um item.”</p>
+    <p class="pc-why">Supõe que ele vai marcar e quer dizer isso em casa (a mesma premissa de C7). Todas as frases ficam nesse ponto. Nenhuma nomeia a condição.</p>
+  </div>
+
+  <div class="pc" id="K8">
+    <div class="pc-top"><b class="pc-id">Cópia 8 · Conferir</b></div>
+    <div class="pc-top"><span class="chip niv">Nível 4</span><span class="chip">Perfil B, pelo bloco dos 52%</span><span class="chip mix">Mistura 1 a 4</span></div>
+    <p class="pc-txt">“Em saúde, o que ajuda é informação de um médico que você pode conferir.”</p>
+    <p class="pc-why">É a única cópia que supõe um leitor que quer conferir o médico no portal do CFM (nível 4). O bloco dos 52% normaliza a dificuldade para quem ainda não se decidiu: nível 1 a 2 dentro de uma peça de nível 4.</p>
+    <p class="pc-why">O perfil B sai desse bloco (“homens acima de 40 anos” e “ereção”). Depois da correção, o perfil não se identifica mais.</p>
+    <p class="pc-fix"><b>Correção, blocos a mudar.</b> Tirar o bloco dos 52% na cena 4, no slide 4 e no 3º parágrafo da legenda (“Em pesquisa da SBU... 52%...”). Depois disso, a frase “Conversar com um médico sobre isso é um passo como outro qualquer” perde o referente de “isso”. Na fala da cena 5 e no 3º parágrafo da legenda, trocar por “Conversar com um médico é um passo como outro qualquer.” O slide 5 e a legenda em tela da cena 5 já estão sem “isso”. Se o bloco dos 52% ficar, ele vira peça própria de nível 2, com “segundo a SBU, julho de 2024”.</p>
+  </div>
+</section>
+
+<!-- ============================ DECISÕES ============================ -->
+<section class="sec" id="decisoes" aria-labelledby="t-dec">
+  <h2 id="t-dec">As 3 decisões</h2>
+  <ol class="num">
+    <li><b>Campanha por nível, não por ângulo.</b> Quatro grupos, com as peças listadas uma a uma e o perfil de cada. Os códigos A1 a C7 são os do arquivo de ângulos. A estrutura exata de conjuntos e a verba ficam com o plano de mídia (<mark class="ph">[A PREENCHER]</mark>, pendência i).
+      <p><b>Grupo 1, nível 2, a porta de entrada.</b> Perfil A: B3-G1, B3-G2 e B3-F (esta depois da correção).</p>
+      <p><b>Grupo 2, nível 3, quem já pensa em consultar ou tratar.</b></p>
+      <p>Perfil B: A1-G3, A1-C, A3-G1, A3-G2, A3-G3, A3-F e A3-C.</p>
+      <p>Perfil A, cenas de consulta: B3-C e B4-C. Perfil A, quem já tentou produto: B6-G1, B6-G2, B6-G3, B6-F e B6-C.</p>
+      <p>Perfil C: C1-G3, C7-G2, C7-G3, C7-F e C7-C. Essas só alcançam quem já decidiu consultar, uma parcela pequena do perfil.</p>
+      <p>Perfis C e D: C4-G2, C4-G3 e C4-C.</p>
+      <p>Cópias de perfil não identificável: 1, 2, 5, 6 e 7, e a 3 depois da correção. Cópia 4, dos perfis C e D antes da correção; depois dela o perfil não se identifica mais, como na Cópia 8.</p>
+      <p><b>Grupo 3, níveis 4 e 5, para remarketing e para quem confere o Reclame Aqui.</b></p>
+      <p>Perfil B: A6-G1 (nível 5), A6-G2, A6-G3, A6-F e A6-C. As quatro últimas só sobem com a pendência 4 = sim.</p>
+      <p>Cópia 8: perfil B pelo bloco dos 52%, e perfil não identificável depois da correção.</p>
+      <p><b>Grupo 4, nível 1, com verba mínima e depois dos três primeiros.</b></p>
+      <p>Perfil A: B3-G3, B4-G1, B4-G2, B4-G3 e B4-F. Perfil B: A1-G1, A1-G2 e A1-F.</p>
+      <p>Perfil C: C1-G1, C1-F e C1-C (depois das correções), C1-G2 e C7-G1. Perfis C e D: C4-G1 e C4-F.</p>
+      <p>Motivo: 44 das 53 marcas estão nos níveis 1 e 3, e o nível 2 tem 3 peças. Cada peça rende mais quando fala a um nível só. O fecho das peças de nível 1 e 2 muda: em vez de “agende a consulta”, leva ao conteúdo que responde “é normal?”.</p></li>
+    <li><b>Testar primeiro o perfil A, um gancho por nível.</b> Três ganchos do arquivo de ângulos para o mesmo público: B3-G3 (nível 1), B3-G2 (nível 2) e B6-G1 (nível 3 a 4, com a marca “T terceiros”, de crítica a produto de prateleira). B3 e B6 pertencem ao perfil A do briefing.
+      <p>O resultado mostra qual gancho rende mais. Ele não isola o nível, porque os três diferem em voz (B3-G3 é do médico), em forma e em tema. Para isolar, os três precisam da mesma voz e da mesma forma, e hoje não têm. O dominante do perfil A não foi medido, e esse teste é a medição.</p>
+      <p>O motivo de começar por EP é do briefing, e a pesquisa reforça. A palavra “ejaculação precoce” aparece uma vez, numa lista, nos 24 vídeos no ar (arquivo de ângulos).</p>
+      <p>Antes do teste, corrija as peças que misturam. Rode uma persona de IA em cada nível e leia o que ela devolve: é a validação da aula, e não foi feita aqui. Nenhuma peça sobe antes do Bloco 13 fechado e do parecer jurídico (briefing).</p></li>
+    <li><b>A peça que falta.</b> Primeiro, uma de nível 2 para o perfil B: nomear a disfunção erétil e dizer que tem causa e tratamento, sem remédio e sem “especialista”. Hoje o perfil B salta do nível 1 (A1) para o 3 (A3). Segundo, uma peça que fale só com ela. Nenhuma das 45 peças o faz, e nas 8 cópias só um slide da Cópia 4 fala com ela. Terceiro, o conteúdo de destino das peças de nível 1 e 2: as 53 peças levam direto à consulta ou ao seu convite, e nenhuma leva a uma página que responda “é normal?”. Quarto, as cópias 1, 2, 5, 6 e 7 pedem uma frase que nomeie o sintoma, para o leitor saber de que trata a consulta. A Cópia 3 entra nesse grupo depois da correção.</li>
+  </ol>
+</section>
+
+<!-- ============================ PENDÊNCIAS ============================ -->
+<section class="sec" id="pendencias" aria-labelledby="t-pend">
+  <h2 id="t-pend">O que só o cliente responde</h2>
+  <ol class="num">
+    <li><b>Perfil dos compradores atuais</b>: idade, motivo da consulta e parcela de EP, DE e libido (pendência d do briefing). Trava a ordem dos perfis e o nível dominante de cada um. <mark class="ph">[A PREENCHER]</mark></li>
+    <li><b>Quem paga e quem agenda</b>: o paciente ou a parceira. Define se o perfil D é ICP de compra ou só canal de entrada. <mark class="ph">[A PREENCHER]</mark></li>
+    <li><b>Como o paciente chegou</b>: o que tentou antes, o que buscou, por que escolheu a AndroClinic. Entrevista com 5 a 10 pacientes ou histórico de WhatsApp com autorização. Trava a engenharia reversa dos quatro perfis: o perfil C não tem fonte de jornada. <mark class="ph">[A PREENCHER]</mark></li>
+    <li><b>Preço único da consulta, receita na mão, médico com CRM/UF e RQE</b> (pendências 3, 4 e 2). Trava os níveis 4 e 5: A6 e a Cópia 8 dependem delas.</li>
+    <li><b>A clínica oferece treino de controle ou psicologia?</b> (pendência g). E o protocolo sobre dependência (pendência k). Travam “com ou sem remédio” (B6) e o ângulo A3.</li>
+    <li><b>A parceira pode participar da consulta, com consentimento dele?</b> (N1, ainda fora do briefing). Trava C4, a Cópia 4 e o perfil D.</li>
+    <li><b>Validação do diretor técnico</b> das frases clínicas: “o check-up inclui a ereção”, “a causa varia” e “tem tratamento”.</li>
+    <li><b>Do Rafael, sem o cliente</b>: Google Trends e Keyword Planner (pendência b), que dimensionam os níveis 1 e 2. E abrir no navegador as três buscas “meu marido não...” e anotar quem aparece na primeira página, cerca de 5 minutos.</li>
+  </ol>
+</section>
+
+<footer class="rodape">
+  <p><b>Fontes.</b> Briefing (01/10/2026), frentes F2, F3, F4 e F5, top5-concorrentes-diretos, concorrentes-meta-ads, concorrentes-videos-transcricoes, anuncios-videos-transcricoes, arquivo de ângulos (02/10/2026) e arquivo de cópias (03/10/2026).</p>
+  <p><b>Limites.</b> As citações do público vêm da F4, lidas por proxy e extrator. Confira cada frase no link antes de usá-la em peça. As transcrições de vídeo são automáticas, com erros de reconhecimento. Os níveis e os estágios são leitura do squad, sem dado de conversão. O parecer do advogado da saúde segue obrigatório antes de qualquer peça subir.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var r=document.documentElement,b=document.getElementById('tema');
+  try{var s=localStorage.getItem('tema-icp');if(s){r.setAttribute('data-tema',s);}}catch(e){}
+  function atual(){
+    var t=r.getAttribute('data-tema');
+    if(t){return t;}
+    return (window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'escuro':'claro';
+  }
+  function rot(){b.textContent=atual()==='escuro'?'Tema claro':'Tema escuro';}
+  rot();
+  b.addEventListener('click',function(){
+    var n=atual()==='escuro'?'claro':'escuro';
+    r.setAttribute('data-tema',n);
+    try{localStorage.setItem('tema-icp',n);}catch(e){}
+    rot();
+  });
+})();
+</script>
+</body>
+</html>

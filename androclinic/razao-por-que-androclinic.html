@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Razão por que · AndroClinic</title>
+<style>
+  :root{
+    --bg:#F3F0E9;
+    --surface:#FBF9F5;
+    --surface-2:#ECE6DA;
+    --row-alt:#F6F2EB;
+    --ink:#1A1714;
+    --ink-soft:#50493F;
+    --line:#D8CFBF;
+    --accent:#1D4F5A;
+    --ok:#2E6A3E;
+    --ok-bg:#E1EDDF;
+    --warn:#7A4C05;
+    --warn-bg:#F5E6C6;
+    --shadow:0 1px 0 rgba(70,52,28,.06),0 10px 26px -18px rgba(70,52,28,.35);
+    --serif:"Iowan Old Style","Charter","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#121110;
+      --surface:#1A1816;
+      --surface-2:#24211D;
+      --row-alt:#1D1B18;
+      --ink:#ECE6DB;
+      --ink-soft:#B8AFA1;
+      --line:#36312B;
+      --accent:#86BCC6;
+      --ok:#93C9A0;
+      --ok-bg:#1B2A1F;
+      --warn:#E6BD6E;
+      --warn-bg:#2E2516;
+      --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+    }
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:1360px;margin:0 auto;padding:0 clamp(16px,3vw,32px)}
+
+  /* topo */
+  .top{padding:clamp(44px,8vw,96px) 0 clamp(20px,3vw,32px)}
+  .kicker{font:700 .82rem/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(4rem,15vw,6rem);line-height:.94;letter-spacing:-.02em;margin:16px 0 20px}
+  .sub{font-size:clamp(1.08rem,2.2vw,1.25rem);line-height:1.5;color:var(--ink-soft);max-width:54ch}
+
+  /* método */
+  .metodo{margin:clamp(24px,4vw,40px) 0 clamp(28px,4vw,44px);max-width:88ch;border-left:3px solid var(--accent);padding:4px 0 4px clamp(14px,2vw,22px)}
+  .metodo p{font-size:1rem;margin-bottom:10px}
+  .metodo p:last-child{margin-bottom:0}
+  .metodo b{font-weight:700;color:var(--accent)}
+
+  /* tabela */
+  table{width:100%;border-collapse:separate;border-spacing:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+  caption{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  thead th{position:sticky;top:0;z-index:2;background:var(--surface-2);text-align:left;vertical-align:bottom;padding:14px 16px;font:700 .8rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--line)}
+  thead th:first-child{border-top-left-radius:12px}
+  thead th:last-child{border-top-right-radius:12px}
+  thead th small{display:block;margin-top:4px;font-size:.82rem;font-weight:400;letter-spacing:0;text-transform:none;color:var(--ink-soft)}
+  tbody td{vertical-align:top;padding:20px 16px;border-bottom:1px solid var(--line);font-size:.95rem;line-height:1.58}
+  tbody tr:nth-child(even) td{background:var(--row-alt)}
+  tbody tr:last-child td{border-bottom:0}
+  .carac .num{display:block;font-family:var(--serif);font-size:1.7rem;line-height:1;color:var(--accent);margin-bottom:8px}
+  .carac strong{display:block;font-family:var(--serif);font-size:1.1rem;line-height:1.28;font-weight:600;margin-bottom:12px}
+  .tag{display:inline-block;font-size:.84rem;line-height:1.45;font-weight:600;padding:6px 9px;border-radius:6px}
+  .tag.ok{background:var(--ok-bg);color:var(--ok)}
+  .tag.dep{background:var(--warn-bg);color:var(--warn)}
+  .fonte{display:block;margin-top:10px;font-size:.84rem;line-height:1.48;color:var(--ink-soft)}
+  .dim{font-family:var(--serif);font-size:1.02rem;line-height:1.56}
+  .emo{font-weight:600}
+
+  /* advogado */
+  .advogado{margin:clamp(48px,7vw,80px) 0 clamp(36px,5vw,56px);max-width:92ch}
+  .advogado h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,4.6vw,2.7rem);line-height:1.08;letter-spacing:-.01em;margin-bottom:12px}
+  .advogado .intro{color:var(--ink-soft);margin-bottom:22px}
+  .advogado ol{list-style:none}
+  .advogado li{padding:13px 0;border-top:1px solid var(--line);font-size:1rem}
+  .advogado li:last-child{border-bottom:1px solid var(--line)}
+  .advogado li b{color:var(--accent)}
+
+  footer{padding:0 0 48px;font-size:.88rem;line-height:1.5;color:var(--ink-soft);max-width:92ch}
+
+  /* celular: cada linha vira um card */
+  @media (max-width:920px){
+    table,thead,tbody,tr,td{display:block;width:100%}
+    table{background:transparent;border:0;box-shadow:none}
+    thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+    tbody tr{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:18px;box-shadow:var(--shadow);overflow:hidden}
+    tbody tr:nth-child(even) td{background:transparent}
+    tbody td{padding:15px 18px;border-bottom:1px solid var(--line);font-size:1rem}
+    tbody td.dim{font-size:1.06rem}
+    tbody tr td:last-child{border-bottom:0}
+    tbody tr:last-child td{border-bottom:1px solid var(--line)}
+    tbody tr:last-child td:last-child{border-bottom:0}
+    tbody td::before{content:attr(data-label);display:block;margin-bottom:6px;font:700 .82rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+    tbody td.carac,tbody tr:nth-child(even) td.carac{background:var(--surface-2)}
+    tbody td.carac::before{content:none}
+    .tag,.fonte{font-size:.88rem}
+  }
+  @media print{
+    thead th{position:static}
+    tbody tr{break-inside:avoid}
+    table,tbody tr{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="kicker">AndroClinic · Base de copy · 02/10/2026</div>
+  <h1>Razão por que</h1>
+  <p class="sub">Dezesseis características do serviço, quinze delas condicionadas a pendência do briefing ou a relato contrário. Base para página, anúncio e e-mail, sem promessa de resultado.</p>
+</header>
+
+<section class="metodo" aria-label="Método e trava">
+  <p><b>Método.</b> Cada característica atravessa cinco colunas. O porquê orienta o recurso para o paciente e o funcional diz o que ele faz. A cena e o sentimento fecham a linha.</p>
+  <p><b>Trava.</b> Numa clínica médica, o benefício nasce do processo: investigar, explicar, decidir junto, acompanhar. Cura, prazo de efeito e desempenho ficam fora (CFM 2.336/2023, art. 11, XII e XVI; RDC 67 e 96; política da Meta).</p>
+  <p><b>Leitura.</b> A etiqueta de cada linha diz se ela vale hoje ou o que precisa fechar antes: pendência do briefing ou relato contrário. Nenhuma linha vira peça sem o advogado.</p>
+</section>
+
+<table>
+  <caption>Razão por que da AndroClinic: 16 características em cinco colunas</caption>
+  <colgroup>
+    <col style="width:17%"><col style="width:19%"><col style="width:18%"><col style="width:26%"><col style="width:20%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col">Característica<small>o recurso real e a condição para usar</small></th>
+      <th scope="col">Por que<small>o que significa para ele</small></th>
+      <th scope="col">Benefício funcional<small>o que o recurso faz</small></th>
+      <th scope="col">Benefício dimensionalizado<small>a cena do dia a dia</small></th>
+      <th scope="col">Benefício emocional<small>o que ele sente</small></th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td class="carac"><span class="num">01</span><strong>Consulta online por vídeo</strong><span class="tag ok">Vale hoje. Duração oficial: [A PREENCHER].</span><span class="fonte">Fonte: anúncios do Dr. Cristiano; androclinica.com.br.</span></td>
+      <td data-label="Por que">Você fala com o médico de onde estiver, sem sala de espera e sem risco de cruzar com conhecido no corredor. Para quem adia por vergonha, o primeiro passo fica do tamanho de uma ligação.</td>
+      <td data-label="Benefício funcional">Leva a consulta até você: um celular, um fone e uma porta fechada bastam para conversar com o médico por vídeo.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Terça, sete da noite, o carro parado na garagem com o motor desligado. Fone no ouvido, celular apoiado no volante, e o médico perguntando desde quando começou. Nenhuma recepcionista chama seu nome em voz alta.</td>
+      <td data-label="Benefício emocional" class="emo">Alívio de dar o primeiro passo sem plateia. A conversa que você ensaiou por meses acontece num canto onde você se sente seguro.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">02</span><strong>Médico identificado: Dr. [Nome], MÉDICO, CRM-[UF] [número]</strong><span class="tag dep">Depende da pendência 2: nome e CRM/UF de quem atende, e o médico do anúncio é o mesmo da consulta. Foco em saúde sexual ou especialidade só com RQE verificado no CFM.</span><span class="fonte">Fonte: Dr. Cristiano Grizza Estivalet, CRM-DF 15471, nos anúncios e no site novo; Medicina do Trabalho no Helpsaude, RQE não verificado.</span></td>
+      <td data-label="Por que">Você sabe quem vai ouvir a sua história antes de pagar por ela. A pessoa do anúncio e a pessoa da consulta são a mesma.</td>
+      <td data-label="Benefício funcional">Identifica o médico pelo nome, pela palavra MÉDICO e pelo CRM com estado, para você conferir no portal do CFM antes de agendar.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Antes de pagar, você abre o portal do CFM, digita o nome que viu no anúncio e o registro aparece. Na hora da chamada, o rosto na tela é o mesmo do vídeo que te fez parar no Instagram.</td>
+      <td data-label="Benefício emocional" class="emo">Confiança. Você conferiu com os próprios olhos, e o "isso é golpe?" que te levou ao Reclame Aqui fica respondido.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">03</span><strong>Investigação da causa antes de qualquer receita</strong><span class="tag dep">Depende da pendência 4: tratamento definido depois da investigação, sem venda na mesma chamada. Há relato de venda antes de qualquer exame (RA Caçador/SC, 17/09/2026).</span><span class="fonte">Fonte: anúncios 1919214542064546 e 1366958168884594.</span></td>
+      <td data-label="Por que">Se você já tentou de tudo e nada segurou, falta descobrir o porquê. A consulta começa pelo motivo, e o remédio, se vier, vem depois.</td>
+      <td data-label="Benefício funcional">Investiga hormônio, circulação, pressão, glicose, sono, rotina e os remédios que você já toma antes de qualquer prescrição.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">O médico pergunta do remédio de pressão que você toma há dois anos e de como anda o sono. Quer saber se acontece sempre ou só com ela. Pela primeira vez, alguém se interessa pela sua semana antes de falar em comprimido.</td>
+      <td data-label="Benefício emocional" class="emo">Esperança com os pés no chão. A pergunta que te acompanha desde a primeira vez que broxou ganha um método para ser respondida.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">04</span><strong>Painel de exames hormonal e metabólico</strong><span class="tag dep">Depende de o painel ser pedido de fato e da pendência 3, porque a leitura do resultado acontece no retorno. Há relato contrário (RA Caçador/SC, 17/09/2026). Quem paga os exames: [A PREENCHER].</span><span class="fonte">Fonte: anúncios 1560896162354218 e 1978885779476819.</span></td>
+      <td data-label="Por que">Você ganha números do próprio corpo para olhar junto com o médico. O tratamento, se houver, se apoia no que foi medido em você.</td>
+      <td data-label="Benefício funcional">Mede, conforme o caso, testosterona total e livre, SHBG, LH, estradiol, prolactina, insulina e HDL, lidos juntos.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">O laudo chega no e-mail com siglas que você nunca tinha visto: SHBG, LH, prolactina. Na conversa sobre o resultado, o médico abre cada uma na tela e mostra qual valor puxa qual.</td>
+      <td data-label="Benefício emocional" class="emo">Respeito. Você se sente examinado com o cuidado que o assunto pede.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">05</span><strong>Leitura dos exames que você já tem, e exame novo só depois da primeira conversa</strong><span class="tag dep">Depende de a leitura acontecer na consulta, de forma conferível. Há relato contrário (RA Caçador/SC, 17/09/2026: "nãoviram um exame meu").</span><span class="fonte">Fonte: anúncio 1978885779476819 ("traz os teus exames normais"); FAQ do site novo. A pergunta do emocional vem do roteiro desse anúncio, não de fala do público.</span></td>
+      <td data-label="Por que">Você não gasta com exame antes de falar com o médico. Os que já estão na gaveta entram na conversa, e os novos só aparecem se o caso pedir.</td>
+      <td data-label="Benefício funcional">Revisa os exames que você já fez, linha por linha, e pede exame novo só depois de ouvir a sua história.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">A pasta do check-up do ano passado sai da gaveta, tudo "dentro da referência". Você vira as folhas para a câmera, e o médico percorre cada linha, inclusive as que ninguém tinha comentado.</td>
+      <td data-label="Benefício emocional" class="emo">Sensação de companhia. A pergunta "tá tudo normal, então por que não funciona?" ganha alguém sentado do seu lado para responder.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">06</span><strong>Corpo e cabeça na mesma conta, com psicóloga na equipe</strong><span class="tag dep">Depende da pendência g: psicologia oferecida de fato, com o CRP da psicóloga na página.</span><span class="fonte">Fonte: anúncio 1045288051557014 ("tratar os dois na ordem certa"); Dra. Carolina Caetano listada sem CRP; psicólogo citado no RA (São Paulo/SP, 08/09/2026).</span></td>
+      <td data-label="Por que">A dúvida "é da cabeça ou do corpo?" fica com quem sabe responder. Os dois lados são olhados no mesmo lugar, pela mesma equipe.</td>
+      <td data-label="Benefício funcional">Junta a avaliação do médico ao acompanhamento da psicóloga e decide com você por qual lado começar.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Sozinho, funciona. Com ela, na hora H, o coração dispara e a cabeça começa a contar os segundos. Na sessão, você descreve esse minuto em voz alta pela primeira vez, e ninguém ri.</td>
+      <td data-label="Benefício emocional" class="emo">Acolhimento. A cabeça entra na conta com cuidado próprio, e a ideia de que o defeito é você perde força.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">07</span><strong>Tratamento definido para o seu corpo, sem receita emprestada</strong><span class="tag dep">Depende das pendências 1 e f: conteúdo real do tratamento. Se a fórmula for igual para todos, a linha cai.</span><span class="fonte">Fonte: anúncio 1073480028963073 ("receita emprestada é igual usar óculos do vizinho"); FAQ do site novo.</span></td>
+      <td data-label="Por que">A tadala que serviu para o seu amigo foi pensada para o corpo dele. O seu tem outra pressão, outro sono e outros remédios no armário.</td>
+      <td data-label="Benefício funcional">Define o tratamento pelo seu histórico, pelos seus exames e pelos remédios que você já usa, e ajusta conforme você responde.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Lembra da cartela que o amigo passou por baixo da mesa no churrasco? Aqui a dose foi decidida olhando o seu remédio de pressão, e o médico explica por que aquela e não outra.</td>
+      <td data-label="Benefício emocional" class="emo">Dignidade. O tratamento tem o seu nome, e cai a velha conclusão de que o seu corpo é pior que o dos outros.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">08</span><strong>Plano escrito que diz se, quando e como reduzir a medicação</strong><span class="tag dep">Depende da pendência k: protocolo de dependência escrito pelo diretor técnico.</span><span class="fonte">Fonte: FAQ do site novo, que responde sobre dependência; objeção 6 do briefing.</span></td>
+      <td data-label="Por que">A pergunta "vicia?" tem resposta antes da primeira dose. Você começa sabendo onde está pisando.</td>
+      <td data-label="Benefício funcional">Registra com você, desde a primeira prescrição, o critério que decide se, quando e como reduzir a dose.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Você digitou "tadalafila vicia" de madrugada e leu seis respostas diferentes. Na consulta, a pergunta sai em voz alta, e o médico mostra no plano escrito o que decide se o remédio sai.</td>
+      <td data-label="Benefício emocional" class="emo">Calma. O medo de ficar refém encontra um plano escrito, e cada decisão sobre a dose é tomada com você.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">09</span><strong>Consultório em Alphaville, com Doppler peniano e exames no mesmo lugar</strong><span class="tag dep">Depende da pendência h: endereço oficial, alvará e registro da clínica no CRM. Vale só para quem chega a Alphaville.</span><span class="fonte">Fonte: anúncio 1064089113141880; site novo (Alameda Grajaú, 129); consulta presencial citada pela empresa no RA, setembro de 2026.</span></td>
+      <td data-label="Por que">Para quem mora perto de Alphaville, a parte presencial acontece numa ida só. Você não roda a cidade de laboratório em laboratório, explicando tudo de novo a cada balcão.</td>
+      <td data-label="Benefício funcional">Reúne consulta, exames e o Doppler peniano no mesmo endereço, com sala de espera reservada.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Você sobe, e a sala de espera tem só a sua cadeira ocupada. Na mesma visita, o Doppler mostra na tela do computador como o sangue circula, e o médico aponta enquanto explica.</td>
+      <td data-label="Benefício emocional" class="emo">Você conta a sua história uma vez, para as mesmas pessoas. Sai de lá sem ter esbarrado em ninguém conhecido e com a cabeça mais leve.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">10</span><strong>Sigilo do atendimento</strong><span class="tag dep">Depende de regra de gravação, acesso ao prontuário e consentimento escritos. Há três relatos de consulta gravada, e o caso passa ao consultor depois da consulta.</span><span class="fonte">Fonte: anúncios ("o sigilo é total"); FAQ do site novo cita LGPD e CFM; consulta gravada em três relatos (frente 1, seção 4); repasse ao consultor confirmado pela empresa (RA, 12/11/2025).</span></td>
+      <td data-label="Por que">O que você conta na consulta fica sob o sigilo médico e a LGPD, com regra escrita sobre quem lê o seu prontuário. Você sabe para onde vai cada palavra.</td>
+      <td data-label="Benefício funcional">Protege a conversa, o prontuário e os seus dados de saúde, com regra escrita sobre quem acessa e se a chamada é gravada.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Você fala de ereção com a porta do escritório trancada. Do outro lado, um médico que a lei obriga a guardar cada palavra. Se a chamada for gravada, você foi avisado antes e disse sim.</td>
+      <td data-label="Benefício emocional" class="emo">Coragem de contar o detalhe que você nunca contou nem para o melhor amigo, sabendo quem vai ler.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">11</span><strong>Preço da consulta aberto</strong><span class="tag dep">Depende da pendência 3: um valor só (hoje circulam R$ 196 e R$ 197) e a forma de pagamento escrita.</span><span class="fonte">Fonte: androclinica.com.br (R$ 196); anúncio 1813820259651160 (R$ 197).</span></td>
+      <td data-label="Por que">Você decide se cabe no bolso antes de abrir a sua vida para alguém. Ninguém fala em "condição só hoje".</td>
+      <td data-label="Benefício funcional">Mostra o valor da consulta, R$ [A PREENCHER: valor único], e a forma de pagamento antes do agendamento.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">O número está na página, antes de qualquer cadastro. Você faz a conta no celular, vê que cabe no mês e agenda sem esperar um vendedor te ligar.</td>
+      <td data-label="Benefício emocional" class="emo">Autonomia. Você agenda porque quis, no seu tempo, sabendo quanto pagou.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">12</span><strong>Retorno com o médico</strong><span class="tag dep">Depende da pendência 3: retorno incluído no valor da consulta [ou do tratamento], com regra escrita e data marcada na consulta. Há sessões extras de R$ 180 relatadas (RA Passo de Torres/SC, 26/05/2026).</span><span class="fonte">Fonte: resposta da empresa no RA, 2026 ("consultas de retorno e, quando necessário, reavaliações").</span></td>
+      <td data-label="Por que">Começar um tratamento deixa perguntas que só aparecem depois. O retorno, incluído no valor da consulta [ou do tratamento], é o lugar delas.</td>
+      <td data-label="Benefício funcional">Inclui retorno com o médico, pela regra escrita, para rever o que mudou e decidir o passo seguinte.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Você abre a chamada com o caderninho de anotações da semana. O médico pergunta o que mudou, você conta o que estranhou, e os dois decidem juntos.</td>
+      <td data-label="Benefício emocional" class="emo">Segurança de não ficar sozinho com uma caixa de comprimidos e um monte de dúvidas. Tem alguém do outro lado acompanhando.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">13</span><strong>Acompanhamento pela equipe de enfermagem</strong><span class="tag dep">Depende da pendência 3 (o que está incluso): enfermagem que atende de fato e entra no preço. Canal e prazo de resposta: [A PREENCHER].</span><span class="fonte">Fonte: resposta da empresa no RA, 2026 ("equipe de enfermagem").</span></td>
+      <td data-label="Por que">Entre uma consulta e outra aparecem dúvidas pequenas que não podem esperar o retorno. Você tem a quem perguntar no meio do caminho.</td>
+      <td data-label="Benefício funcional">Responde às dúvidas do dia a dia do tratamento e encaminha ao médico o que pede reavaliação.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">Na primeira semana de tratamento, você acorda com o rosto quente e fica na dúvida: é normal? Você manda a pergunta, e a enfermagem responde.</td>
+      <td data-label="Benefício emocional" class="emo">Tranquilidade. A dúvida encontra resposta antes de crescer e virar ansiedade.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">14</span><strong>Receita na mão do paciente</strong><span class="tag dep">Depende das pendências 4 e 1: receita entregue sem compra, com assinatura digital ICP-Brasil. Hoje há relatos do contrário.</span><span class="fonte">Fonte: briefing, sub-promessa 4 (condicional); receita retida relatada no RA (Matinhos/PR, 05/02/2026; Rio de Janeiro/RJ, 05/05/2026).</span></td>
+      <td data-label="Por que">A receita é sua. Com ela na mão, você sabe o nome do que vai tomar e escolhe onde comprar.</td>
+      <td data-label="Benefício funcional">Entrega ao fim da consulta a receita com assinatura digital, o nome do tratamento e a orientação de uso, sem condição de compra.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">A chamada termina e o PDF chega no seu e-mail, com nome, dose e assinatura digital. Você lê com calma no sofá, pesquisa o que quiser, e ninguém liga para fechar pacote.</td>
+      <td data-label="Benefício emocional" class="emo">Liberdade. Você sai da consulta com o papel na mão e a escolha de onde comprar inteira para você.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">15</span><strong>Reavaliação marcada em até 30 dias, incluída no valor da consulta [ou do tratamento] (garantia de processo)</strong><span class="tag dep">Depende das pendências k, 1 e 7: remédio, critério e prazo escritos, com data marcada na primeira consulta; critério exato [A PREENCHER]. Há relato de troca prometida e não feita (RA Araguaína/TO, 02/09/2026).</span><span class="fonte">Fonte: FAQ da empresa no RA (reformulação em 30 dias, após avaliação médica, sem reembolso).</span></td>
+      <td data-label="Por que">Você começa sabendo o dia em que o plano será revisto. Se precisar mudar, a mudança tem regra, e o risco não fica só com você.</td>
+      <td data-label="Benefício funcional">Reavalia o caso na data marcada e ajusta o tratamento pelo critério escrito, com o ajuste incluído no valor da consulta [ou do tratamento].</td>
+      <td data-label="Benefício dimensionalizado" class="dim">A data está no calendário desde a primeira consulta. Você abre a chamada, conta como foram as últimas semanas sem enfeitar, e o médico decide com você se o plano fica como está ou muda.</td>
+      <td data-label="Benefício emocional" class="emo">Disposição para começar. Qualquer resposta que você levar à data marcada tem um próximo passo combinado.</td>
+    </tr>
+
+    <tr>
+      <td class="carac"><span class="num">16</span><strong>Desistência em 7 dias</strong><span class="tag dep">Direito legal (CDC, art. 49). Entra em peça só com estorno pago no prazo e com o parecer (pendência 7). Há relato de estorno atrasado (RA Rio de Janeiro/RJ, 14/09/2026).</span><span class="fonte">Fonte: FAQ da empresa no RA.</span></td>
+      <td data-label="Por que">Toda compra feita a distância pode ser revista em casa, sem pressa. Você contrata sabendo que tem 7 dias para mudar de ideia.</td>
+      <td data-label="Benefício funcional">Devolve o valor se você desistir em até 7 dias, sem precisar explicar o motivo.</td>
+      <td data-label="Benefício dimensionalizado" class="dim">À noite, com a cabeça fria, você relê o que contratou e decide que não é a hora. Uma mensagem, o pedido registrado, e o valor volta para o cartão.</td>
+      <td data-label="Benefício emocional" class="emo">Respiro. Todo "sim" que você der ainda pode ser revisto em casa, no seu ritmo.</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<section class="advogado">
+  <h2>Linhas que o advogado precisa ver antes de virar peça</h2>
+  <p class="intro">Cada item aponta a linha da tabela e a regra que pede leitura jurídica.</p>
+  <ol>
+    <li><b>Linha 02.</b> Foco em saúde sexual ou especialidade só entra com RQE verificado no CFM (CFM 2.336, arts. 4º e 11, I). Sem ele, a peça diz só "Dr. [Nome], MÉDICO, CRM-[UF] [número]".</li>
+    <li><b>Linhas 03 a 06.</b> As afirmações clínicas sobre causa (hormônio, circulação, ansiedade) e sobre exame "normal" passam pelo diretor técnico, que responde pela publicidade (art. 3º, II).</li>
+    <li><b>Linha 07.</b> "Tratamento definido para o seu corpo" é inverídico se o conteúdo for padrão (art. 11, XVI) e encosta na fórmula manipulada (RDC 67, item 5.14; RDC 96, art. 36).</li>
+    <li><b>Linha 08.</b> O plano de redução não pode insinuar que ele vai deixar de precisar do remédio (art. 11, XII). A redação fica em "se, quando e como reduzir".</li>
+    <li><b>Linha 09.</b> Peça de clínica leva o estabelecimento com registro no CRM e o diretor técnico (art. 5º). O endereço de Alphaville do site ainda não bate com o da Receita.</li>
+    <li><b>Linha 10.</b> A palavra sigilo contra três relatos de consulta gravada e o repasse do caso ao consultor: regra de gravação, acesso e consentimento destacado (LGPD, arts. 5º e 11).</li>
+    <li><b>Linha 11.</b> Um preço só. O "de mil reais por R$ 197" dos anúncios atuais não entra sem prova do preço cheio (CDC, art. 37).</li>
+    <li><b>Linhas 12 e 15.</b> Retorno e reavaliação aparecem como "incluídos no valor da consulta [ou do tratamento]", nunca como gratuitos, porque serviço gratuito é vedado (art. 11, §4º, "c"). Na 15, o advogado confere se a garantia de processo insinua resultado (art. 11, XII) e o que ela obriga (CDC, art. 30).</li>
+    <li><b>Linha 14.</b> Receita na mão e preço do tratamento dito na consulta: o conflito entre a oportunidade 2 e o Bloco 13, e os arts. 68 e 69 do CEM se houver vínculo com a farmácia.</li>
+    <li><b>Linha 16.</b> Se cabe apresentar como característica da clínica um direito que o CDC dá a qualquer compra a distância (art. 49).</li>
+    <li><b>Linhas 07 e 08.</b> "Tadala" e "tadalafila" não vão a anúncio da Meta nem do Google.</li>
+    <li><b>Linhas 03, 05, 06 e 13.</b> Frases que afirmam a condição dele viram pergunta aberta ou fala de terceiro na Meta: "se você já tentou de tudo e nada segurou" e "desde que broxou" (03), "tá tudo normal, então por que não funciona?" (05), "com ela, na hora H" (06) e "você acorda com o rosto quente" (13).</li>
+  </ol>
+</section>
+
+<footer>
+  Fontes: briefing da AndroClinic (01/10/2026); pesquisa, frentes 1 e 4; transcrições dos anúncios em vídeo na Meta (coleta de 01/10/2026); análise da página institucional (02/10/2026). Trechos de anúncio vêm de transcrição automática: conferir no vídeo antes de citar em peça.
+</footer>
+
+</div>
+</body>
+</html>

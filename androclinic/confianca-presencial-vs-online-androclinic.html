@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Confiança: presencial ou online · AndroClinic</title>
+<style>
+  :root{
+    --bg:#F4F1EA;
+    --surface:#FBF9F4;
+    --surface-2:#ECE6DA;
+    --ink:#1A1714;
+    --ink-soft:#4A4339;
+    --line:#C9BDA7;
+    --accent:#1D4F5A;
+    --btn-bg:#1D4F5A;
+    --btn-ink:#FBF9F4;
+    --ok:#1F5A31;
+    --ok-bg:#DDEEDC;
+    --warn:#7A4400;
+    --warn-bg:#F8E3BF;
+    --bad:#8A1C1C;
+    --bad-bg:#F6D9D5;
+    --chip-bg:#E4DDCF;
+    --chip-ink:#2D2822;
+    --ph-bg:#F8E3BF;
+    --ph-ink:#5A3300;
+    --shadow:0 1px 0 rgba(70,52,28,.06),0 10px 26px -18px rgba(70,52,28,.35);
+    --serif:"Iowan Old Style","Charter","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  }
+  :root[data-tema="escuro"]{
+    --bg:#14120F;
+    --surface:#1C1916;
+    --surface-2:#26221D;
+    --ink:#F0EADF;
+    --ink-soft:#C4BBAC;
+    --line:#40392F;
+    --accent:#8EC5CF;
+    --btn-bg:#8EC5CF;
+    --btn-ink:#14120F;
+    --ok:#A7D7B1;
+    --ok-bg:#1B2C20;
+    --warn:#F0C77E;
+    --warn-bg:#33270F;
+    --bad:#F5A9A0;
+    --bad-bg:#3A1A18;
+    --chip-bg:#2E2A24;
+    --chip-ink:#E6DED0;
+    --ph-bg:#33270F;
+    --ph-ink:#F0C77E;
+    --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-tema="claro"]){
+      --bg:#14120F;
+      --surface:#1C1916;
+      --surface-2:#26221D;
+      --ink:#F0EADF;
+      --ink-soft:#C4BBAC;
+      --line:#40392F;
+      --accent:#8EC5CF;
+      --btn-bg:#8EC5CF;
+      --btn-ink:#14120F;
+      --ok:#A7D7B1;
+      --ok-bg:#1B2C20;
+      --warn:#F0C77E;
+      --warn-bg:#33270F;
+      --bad:#F5A9A0;
+      --bad-bg:#3A1A18;
+      --chip-bg:#2E2A24;
+      --chip-ink:#E6DED0;
+      --ph-bg:#33270F;
+      --ph-ink:#F0C77E;
+      --shadow:0 1px 0 rgba(6,12,14,.4),0 12px 28px -18px rgba(6,12,14,.8);
+    }
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font:1.125rem/1.65 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:920px;margin:0 auto;padding:0 clamp(14px,4vw,32px)}
+  a{color:var(--accent)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  mark.ph{background:var(--ph-bg);color:var(--ph-ink);padding:0 4px;border-radius:4px;font-weight:600}
+
+  .top{padding:clamp(28px,6vw,64px) 0 8px}
+  .barra{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  .kicker{font:700 .9rem/1.3 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .tema{font:700 1rem/1 var(--sans);min-height:46px;padding:0 18px;border:2px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;cursor:pointer}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(5rem,15vw,6.5rem);line-height:.95;letter-spacing:-.02em;margin:14px 0 18px;overflow-wrap:break-word}
+  .sub{font-size:clamp(1.25rem,2.4vw,1.4rem);line-height:1.5;color:var(--ink-soft);max-width:60ch}
+  .nav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+  .nav a{display:inline-block;min-height:46px;line-height:46px;padding:0 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);text-decoration:none;font-weight:700;font-size:1rem}
+
+  .sec{margin:clamp(48px,7vw,84px) 0 0}
+  h2.h2s{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,5vw,2.8rem);line-height:1.08;letter-spacing:-.01em;margin-bottom:12px}
+  h3.h3s{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,3.6vw,1.9rem);line-height:1.15;margin:30px 0 10px}
+  h4.h4s{font:700 .95rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:24px 0 6px}
+  .lead{color:var(--ink-soft);max-width:68ch;margin-bottom:14px}
+  .nota{max-width:70ch;font-size:1.0625rem;margin:10px 0 0;color:var(--ink-soft)}
+  .nota b{color:var(--ink)}
+  ul.lista,ol.lista{max-width:72ch;margin:6px 0 10px 1.2em}
+  ul.lista li,ol.lista li{margin-bottom:10px;font-size:1.0625rem}
+  .lista b{color:var(--accent)}
+
+  .quatro{list-style:none;counter-reset:q;max-width:76ch;border-left:4px solid var(--accent);padding:2px 0 2px 20px}
+  .quatro li{counter-increment:q;margin-bottom:12px}
+  .quatro li::before{content:counter(q) ". ";font-weight:700;color:var(--accent)}
+  .quatro li b{color:var(--accent)}
+  .leg{max-width:76ch;margin-top:20px}
+  .leg dt{font:700 .95rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:16px 0 4px}
+  .leg dd{font-size:1.0625rem;margin-bottom:4px}
+
+  .chip{display:inline-block;font:600 .875rem/1.3 var(--sans);background:var(--chip-bg);color:var(--chip-ink);padding:5px 10px;border-radius:6px}
+  .chip.canal{background:var(--accent);color:var(--btn-ink)}
+  .chip.fmt{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+  .risk{display:inline-block;font:700 .875rem/1.3 var(--sans);padding:6px 10px;border-radius:6px}
+  .risk.verde{background:var(--ok-bg);color:var(--ok)}
+  .risk.laranja{background:var(--warn-bg);color:var(--warn)}
+  .risk.vermelho{background:var(--bad-bg);color:var(--bad)}
+
+  .peca{margin:22px 0 0;padding:18px clamp(14px,2.4vw,22px);background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+  .peca-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+  .rot{font:700 .95rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-right:4px}
+  .exige{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 6px}
+  .exige .l{font:700 .875rem/1.3 var(--sans);color:var(--ink-soft);margin-right:4px}
+  .passo{font:700 .875rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin:14px 0 2px}
+  .corpo{font-family:var(--serif);font-size:1.25rem;line-height:1.6;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:var(--bg);margin:8px 0;max-width:68ch}
+  .corpo p{margin:0 0 .7em}
+  .corpo p:last-child{margin-bottom:0}
+  .corpo.q{font-weight:600;background:var(--surface-2)}
+  .corpo.legenda{font-family:var(--sans);font-size:1.0625rem}
+  .corpo.trava{font:700 1rem/1.45 var(--sans);background:var(--bad-bg);color:var(--bad);border-color:var(--bad)}
+  .corpo.trava mark.ph{background:transparent;color:inherit;padding:0}
+  .corpo.cond{font-family:var(--sans);font-size:1.0625rem}
+  pre.corpo{white-space:pre-wrap;word-break:break-word;font-family:var(--sans);font-size:1.125rem;line-height:1.55}
+  .corpo:focus{outline:3px solid var(--accent);outline-offset:2px}
+  .rodape-peca{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-top:10px}
+  .cont{font:600 .9rem/1.3 var(--sans);color:var(--ink-soft)}
+  .cont.alerta{color:var(--bad)}
+  .cp{font:700 1rem/1 var(--sans);min-height:46px;min-width:116px;padding:0 18px;border:0;border-radius:8px;background:var(--btn-bg);color:var(--btn-ink);cursor:pointer}
+  .cp.ok{background:var(--ok);color:var(--ok-bg)}
+  .cp.falha{background:var(--bad);color:var(--bad-bg)}
+
+  .mapa{list-style:none;max-width:76ch}
+  .mapa li{padding:14px 0;border-top:1px solid var(--line);font-size:1.0625rem}
+  .mapa li:last-child{border-bottom:1px solid var(--line)}
+  .mapa b{color:var(--accent)}
+  .mapa .r{display:block;margin-top:4px}
+  .mapa .r i{font-style:normal;font-weight:700;color:var(--ink-soft)}
+
+  .fim{max-width:78ch}
+  .fim ol{list-style:none;counter-reset:a}
+  .fim ol li{counter-increment:a;padding:14px 0;border-top:1px solid var(--line);font-size:1.0625rem}
+  .fim ol li:last-child{border-bottom:1px solid var(--line)}
+  .fim ol li::before{content:counter(a) ". ";font-weight:700;color:var(--accent)}
+  .fim li b{color:var(--accent)}
+
+  .rodape{margin:clamp(48px,7vw,80px) 0 0;padding:0 0 56px;font-size:.95rem;line-height:1.55;color:var(--ink-soft);max-width:78ch}
+  .rodape p{margin-bottom:8px}
+
+  @media print{.tema,.nav,.cp{display:none}.peca{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="barra">
+    <div class="kicker">AndroClinic · Copy de confiança · 02/10/2026</div>
+    <button class="tema" id="tema" type="button">Tema escuro</button>
+  </div>
+  <h1>Confiança</h1>
+  <p class="sub">Como desarmar a dúvida “o presencial é mais garantido e melhor que o online”, com prova que o visitante consegue conferir sozinho.</p>
+  <nav class="nav" aria-label="Seções">
+    <a href="#metodo">Método</a>
+    <a href="#diagnostico">Diagnóstico</a>
+    <a href="#A">A. RVR</a>
+    <a href="#B">B. Online ou presencial</a>
+    <a href="#C">C. FAQ</a>
+    <a href="#D">D. Quem é a clínica</a>
+    <a href="#E">E. Admitir falha</a>
+    <a href="#F">F. Mapa</a>
+    <a href="#advogado">Advogado</a>
+    <a href="#perguntas">Perguntas</a>
+  </nav>
+</header>
+
+<!-- MÉTODO E TRAVA -->
+<section class="sec" id="metodo">
+  <h2 class="h2s">Método e trava</h2>
+  <ol class="quatro marcar">
+    <li><b>Método.</b> Confiança é remover objeção e aumentar credibilidade. A objeção cai em três passos: reconhecer, validar e ressignificar. A credibilidade vem de cinco formas, todas com prova real: associação, justificativa, especificidade, rapport e demonstração.</li>
+    <li><b>Prova usada.</b> CRM no portal do CFM, CNPJ na Receita, consultório físico e as normas que a consulta segue. Ficam fora: Craque Neto, Porsche Cup, Harvard, Sírio-Libanês, “referência nacional”, 14 mil, 98%, +180.000, antes e depois, “Instituto”.</li>
+    <li><b>Trava.</b> CFM 2.336, art. 11 (IV, VI, XII, XVI, §2º “c”, “e” e “f”, §3º, §4º “b” e “c”, §5º) e art. 14. RDC Anvisa 67 e 96. Política da Meta. CDC, arts. 30 e 37. Sem garantia, resultado, “gratuita”, escassez, “sem efeito colateral” nem “especialista” sem RQE. A posição da clínica: cada formato tem seu lugar.</li>
+    <li><b>Como ler.</b> Cada trecho destacado entre colchetes só o cliente responde. Os chips são as pendências do briefing que a peça exige, mais DT, a confirmação clínica do diretor técnico. Peça vermelha começa com um token [NÃO SUBIR: ...] que leva a condição junto no texto copiado. A Resolução CFM 2.314 entra só pelos artigos da frente 5, e o resto vai como [conferir]. Nada sobe antes do advogado (P7).</li>
+  </ol>
+  <dl class="leg marcar">
+    <dt>Pendências nos chips</dt>
+    <dd><span class="chip">P1 farmácia</span> vínculo entre clínica, Andro Pharma e farmácia.</dd>
+    <dd><span class="chip">P2 médico e RQE</span> nome, CRM/UF e RQE de quem atende.</dd>
+    <dd><span class="chip">P3 preço e retorno</span> valor único da consulta e retorno incluído ou não.</dd>
+    <dd><span class="chip">P4 receita sem compra</span> a operação comercial muda ou não.</dd>
+    <dd><span class="chip">P6 domínio e WhatsApp</span> um domínio e um número.</dd>
+    <dd><span class="chip">P7 advogado</span> parecer da área da saúde.</dd>
+    <dd><span class="chip">k dependência e garantia</span> protocolo do diretor técnico e garantia de processo.</dd>
+    <dd><span class="chip">h endereço e registro</span> cidade e endereço do consultório, alvará e registro da clínica no CRM.</dd>
+    <dd><span class="chip">N1 parceira</span> a parceira participa da consulta ou não. Vem de angulos-8-motivacoes-androclinic.html e ainda não consta no briefing: precisa ser registrada lá.</dd>
+    <dd><span class="chip">DT clínica</span> o diretor técnico confirma o que a consulta por vídeo faz, o que não faz e quando indica o consultório. A confirmação é clínica, não é dado da clínica.</dd>
+    <dt>Risco</dt>
+    <dd><span class="risk verde">Risco verde</span> depende só de dado que a clínica confirma, sem afirmação clínica.</dd>
+    <dd><span class="risk laranja">Risco laranja</span> toca norma do CFM, do CDC ou da LGPD, ou afirma algo clínico. O advogado ou o diretor técnico lê antes.</dd>
+    <dd><span class="risk vermelho">Risco vermelho</span> convida a conferir algo que hoje não bate, afirma conduta que as fontes contradizem ou admite algo que só o cliente pode admitir. Não sobe sem decisão e parecer. O texto copiado começa com o token [NÃO SUBIR: ...].</dd>
+  </dl>
+</section>
+
+<!-- DIAGNÓSTICO -->
+<section class="sec" id="diagnostico">
+  <h2 class="h2s">O diagnóstico da objeção</h2>
+  <p class="lead">A objeção: “o atendimento presencial é mais garantido e melhor que o online”.</p>
+
+  <h3 class="h3s">Hipótese do Rafael, com evidência indireta</h3>
+  <p class="nota">A hipótese é do Rafael. A pesquisa não traz nenhuma citação de cliente dizendo que o presencial é melhor, e a frase “só online” não aparece nas reclamações que as frentes leram. Existem sinais indiretos, e eles apontam para os dois lados.</p>
+
+  <h4 class="h4s">O que sugere a objeção</h4>
+  <ul class="lista">
+    <li><b>Consulta curta por vídeo.</b> Cruz das Almas/BA, 12/11/2025: menos de 10 minutos de atendimento. Rio Branco/AC, 16/09/2026: “consulta relâmpago (+/- 15 minutos)”. Cariacica/ES, 21/05/2026: 20 a 25 minutos e encaminhamento a um “secretário”. A queixa é de tempo e de venda. O formato não aparece como causa.</li>
+    <li><b>Dúvida sobre quem é o médico.</b> Natal/RN, 22/05/2026: os médicos que atendem “não possuem especialização na área” do anúncio. Aracaju/SE, 21/04/2026: ao perguntar se era médico, o cliente ouviu que o “especialista” falaria “apenas por ligação telefônica”. Esse trecho vem de resumo da ferramenta, não de leitura literal (frente 1, §8): conferir no link antes de citar. É o relato mais próximo de “só online”, e ele trata da identidade do médico.</li>
+    <li><b>Remédio sem exame.</b> Caçador/SC, 17/09/2026: “nãoviram um exame meu e ja me empurrando manipulads” (grafia do original). Pode alimentar a ideia de que no consultório haveria exame. Essa leitura é minha.</li>
+    <li><b>Os anúncios da própria clínica.</b> Vários dizem que a consulta “no consultório” sai por mil reais e que na telemedicina sai por R$ 197. Um deles diz “a consulta presencial sai por mil reais”. O consultório vira o preço de referência, e o vídeo vira a versão com desconto. Isso planta a objeção que esta copy tem de desarmar. A transcrição é automática: o Rafael confere no vídeo. O “de mil por 197” sem prova do preço cheio ainda é pendência 3 e toca o CDC, art. 37.</li>
+    <li><b>O FAQ da página de venda atual já traz a pergunta “é presencial?”.</b> A análise da página não leu a resposta. [A PREENCHER: Rafael lê a resposta atual e alinha com este pacote]</li>
+  </ul>
+
+  <h4 class="h4s">O que aponta para o outro lado</h4>
+  <ul class="lista">
+    <li><b>O público evita o presencial por vergonha.</b> É suposição da frente 4. A página tratamento.andromedicina.com vendia “sem salas de espera constrangedoras”. “Sem sair de casa” e “100% online” são ângulos que todo concorrente já usa (frente 2).</li>
+    <li><b>Quem vende presencial tem a mesma queixa de venda empurrada.</b> Instituto Homem, Curitiba/PR, 24/09/2026: “me levou para uma salinha onde estava uma outra pessoa”. Itatiba/SP, 22/09/2026: “me levaram para atendente para fechar contrato”. O formato não garante nada. Isso fica de fora de qualquer peça: a posição é “cada formato tem seu lugar”, sem criticar o presencial (art. 11, §4º, “b”).</li>
+  </ul>
+
+  <h4 class="h4s">Leitura</h4>
+  <p class="nota">A evidência é indireta e fraca. A objeção é plausível, mas não está provada. Antes de gastar verba com ela, vale medir. [A PREENCHER: o atendimento conta quantas vezes a pergunta sobre presencial aparece no WhatsApp e nas ligações]</p>
+
+  <h3 class="h3s">A contradição entre os dois sites é risco de confiança</h3>
+  <p class="nota">O mesmo grupo diz duas coisas opostas sobre ter consultório.</p>
+  <ul class="lista">
+    <li><b>Site antigo (andropharma.com.br).</b> O FAQ diz que a empresa “não atende presencialmente”. A matriz fica na Rua Hercílio Luz, 1023, Florianópolis.</li>
+    <li><b>Sites novos (androclinic.com.br/new e androclinica.com.br).</b> Sede na Praça XV, 312, Florianópolis, e clínica presencial na Alameda Grajaú, 129, sala 1701, Alphaville.</li>
+    <li><b>Receita Federal e Reclame Aqui.</b> Alameda Rio Negro, 1030, escritório 206, Barueri/SP. O CNAE principal é 8660-7/00, apoio à gestão de saúde, sem CNAE de clínica.</li>
+    <li><b>A própria empresa.</b> Em setembro de 2026 respondeu no Reclame Aqui que o paciente “optou por não comparecer à consulta presencial que havia sido previamente agendada”. Um anúncio de 21/09/2026 leva a clinica.andromedicina.com/presencial.</li>
+  </ul>
+  <p class="nota"><b>Por que é risco.</b> Quem confere acha duas respostas para “tem consultório?”. O Google já completa “androclinic é confiável”: o público confere. Se o site antigo continua no ar, um dos dois diz o que não é verdade (CFM 2.336, art. 11, XVI; CDC, art. 37; leitura minha, o advogado confirma). Há um segundo efeito: a norma de telemedicina prevê consulta presencial de acompanhamento (Resolução CFM 2.314, art. 6º, §§ 2º e 3º), e uma clínica que diz “não atendemos presencialmente” pode não ter como cumprir. É leitura da frente 5.</p>
+  <p class="nota"><b>Regra deste pacote.</b> A copy de presencial e o bloco D convidam o visitante a conferir CRM, CNPJ e endereço. Esse convite mostra a divergência. Eles só sobem depois de o cliente fechar o endereço (h), tirar do ar ou corrigir o site antigo e confirmar o registro da clínica no CRM.</p>
+</section>
+
+<!-- A -->
+<section class="sec" id="A">
+  <h2 class="h2s">A. A objeção do presencial, em RVR</h2>
+  <p class="lead">Reconhecer, validar, ressignificar. A posição é uma só nos três canais: cada formato tem seu lugar. Nenhuma peça diz que o online é igual, nem que é melhor, nem que é garantido. Toda afirmação sobre o que o vídeo faz ou não faz carrega a marca do diretor técnico.</p>
+
+  <article class="peca" id="A0" data-conta="palavras">
+    <div class="peca-top"><span class="rot">A0 · Posição da clínica</span><span class="chip canal">Base para todos os canais</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span><span class="chip">P4 receita sem compra</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A0 o que a consulta online faz"><p>O que a consulta online faz: o médico ouve a sua história, olha os exames que você já tem, vê os remédios que você usa e explica o que pensa. Se prescrever, a receita vai digital [A PREENCHER P4: assinatura ICP-Brasil, Resolução CFM 2.314, art. 13]. Você fala de casa. No consultório, o médico examina você pessoalmente. [A PREENCHER: diretor técnico confirma]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A0 o que ela não faz"><p>O que ela não faz: exame físico e exames que dependem de aparelho no local [A PREENCHER: diretor técnico confirma o que a clínica não faz por vídeo].</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A0 quando indica o consultório"><p>Quando a clínica indica o consultório em [A PREENCHER h: cidade do consultório]: [A PREENCHER: diretor técnico confirma o critério 1], [A PREENCHER: critério 2] e [A PREENCHER: critério 3]. A norma também prevê consulta presencial de acompanhamento quando a doença é crônica ou pede acompanhamento longo, em até 180 dias (Resolução CFM 2.314/2022, art. 6º, §2º) [A PREENCHER: a clínica enquadra esse caso como acompanhamento longo? Diretor técnico e advogado respondem].</p></div>
+    <p class="nota"><b>Pergunta ao diretor técnico.</b> Em que situações a clínica indica o presencial? Quais exames só se fazem no local? Quem atende no consultório, e com qual CRM-SP? O consultório atende quem mora fora da cidade dele?</p>
+    <p class="nota"><b>Advogado.</b> Citar o art. 6º da Resolução 2.314 em texto público obriga a clínica a cumprir o acompanhamento presencial. A citação fica com o advogado (P7).</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A0">Copiar</button></div>
+  </article>
+
+  <h3 class="h3s">A1. Página</h3>
+  <article class="peca" id="A1" data-conta="palavras">
+    <div class="peca-top"><span class="rot">A1 · Bloco curto de objeção</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span><span class="chip">P2 médico e RQE</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A1 condição"><p>[CONDIÇÃO: vira risco vermelho se P2 fechar com Medicina do Trabalho, porque a busca do CFM mostraria uma especialidade que a peça não anuncia]</p></div>
+    <p class="passo">Título do bloco</p>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A1 título"><p>Por vídeo ou no consultório: o que cada um faz</p></div>
+    <p class="passo">1 · Reconhecer</p>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A1 reconhecer"><p>Se você está pensando que consulta por vídeo é menos completa do que ir ao consultório, a dúvida é justa.</p></div>
+    <p class="passo">2 · Validar</p>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A1 validar"><p>Você tem razão em um ponto. Pelo vídeo, o médico não faz exame físico, e alguns exames só se fazem no local. Esse é um limite do formato. [A PREENCHER: diretor técnico confirma]</p></div>
+    <p class="passo">3 · Ressignificar</p>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A1 ressignificar"><p>O que o médico faz por vídeo: ouve a sua história, olha os exames que você já tem, vê os remédios que você usa e explica o que pensa. Quando precisa ver você pessoalmente, ele indica o consultório em [A PREENCHER h: cidade e endereço do consultório]. [A PREENCHER: diretor técnico confirma]</p><p>Antes de agendar, você confere o médico no portal do CFM.</p></div>
+    <p class="passo">Botão</p>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A1 botão"><p>Agendar consulta</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A1">Copiar</button></div>
+  </article>
+
+  <h3 class="h3s">A2. Vídeo do médico, três versões</h3>
+  <p class="nota">Cada versão dura de 25 a 40 segundos lidos em voz alta. A legenda na tela leva nome, CRM e a palavra MÉDICO (CFM 2.336, art. 4º). Rosto do médico só com autorização dele. Sem imagem de consulta real (art. 11, VIII). Sem remédio nomeado, sem condição da pessoa em segunda pessoa (Meta). A linha “Condição” não é lida em voz alta: ela vai junto no texto copiado.</p>
+
+  <article class="peca" id="A2-1" data-conta="video">
+    <div class="peca-top"><span class="rot">A2-1 · O que o vídeo não faz</span><span class="chip canal">Vídeo do médico</span><span class="chip fmt">Vídeo com legenda</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">P2 médico e RQE</span><span class="chip">h endereço e registro</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A2-1 condição"><p>[CONDIÇÃO: vira risco vermelho se P2 fechar com Medicina do Trabalho, porque a busca do CFM mostraria uma especialidade que a peça não anuncia]</p></div>
+    <p class="passo">Fala</p>
+    <div class="corpo fala marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A2-1 fala"><p>Sou o Dr. [Nome], médico. Se você acha que consulta por vídeo é menos completa do que ir ao consultório, você tem um ponto. Pelo vídeo eu não examino o corpo, e alguns exames só se fazem no local. Quando isso faz falta, eu digo e a gente combina o consultório. Daqui eu consigo ouvir a sua história, olhar os seus exames e explicar cada passo. Antes de agendar, confira o meu CRM no portal do CFM.</p></div>
+    <p class="passo">Legenda na tela</p>
+    <div class="corpo legenda marcar" contenteditable="true" data-prefix="Legenda na tela: " role="textbox" aria-multiline="true" aria-label="A2-1 legenda"><p>Dr. [Nome], MÉDICO, CRM-[UF] [número]</p></div>
+    <p class="passo">Condição para subir</p>
+    <div class="corpo cond marcar" contenteditable="true" data-prefix="Condição, não ler em voz alta: " role="textbox" aria-multiline="true" aria-label="A2-1 condição"><p>[A PREENCHER: diretor técnico confirma que o médico não examina por vídeo, que ouve a história e olha os exames, e quando indica o consultório]</p></div>
+    <p class="nota">Direção: médico em quadro médio, olhando para a câmera. Se a duração oficial da consulta for curta, não acrescente “sem pressa” a esta fala. [A PREENCHER: duração oficial]</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A2-1">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="A2-2" data-conta="video">
+    <div class="peca-top"><span class="rot">A2-2 · Como é a consulta</span><span class="chip canal">Vídeo do médico</span><span class="chip fmt">Vídeo com legenda</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">P2 médico e RQE</span><span class="chip">P3 preço e retorno</span><span class="chip">h endereço e registro</span></div>
+    <p class="passo">Fala</p>
+    <div class="corpo fala marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A2-2 fala"><p>Vou mostrar como é a consulta por vídeo, do começo ao fim. Você agenda e vê o valor antes de pagar. Entra na chamada comigo, o Dr. [Nome], médico. Eu pergunto sobre a sua saúde, os remédios que você usa e os exames que você já tem. No fim, explico o que penso e o que posso prescrever, se for o caso, com o motivo. Se eu precisar examinar você, digo na hora e indico o consultório. Para agendar, é só clicar no link.</p></div>
+    <p class="passo">Legenda na tela</p>
+    <div class="corpo legenda marcar" contenteditable="true" data-prefix="Legenda na tela: " role="textbox" aria-multiline="true" aria-label="A2-2 legenda"><p>Dr. [Nome], MÉDICO, CRM-[UF] [número]</p></div>
+    <p class="passo">Condição para subir</p>
+    <div class="corpo cond marcar" contenteditable="true" data-prefix="Condição, não ler em voz alta: " role="textbox" aria-multiline="true" aria-label="A2-2 condição"><p>[A PREENCHER: diretor técnico confirma a ordem da consulta, o que o médico pergunta e quando indica exame ou consultório]</p></div>
+    <p class="nota">Direção: a demonstração é em texto na tela, uma etapa por vez (agendar, chamada, perguntas, explicação, retorno). Sem gravação de consulta real.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A2-2">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="A2-3" data-conta="video">
+    <div class="peca-top"><span class="rot">A2-3 · Confira antes de pagar</span><span class="chip canal">Vídeo do médico</span><span class="chip fmt">Vídeo com legenda</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico e RQE</span><span class="chip">h endereço e registro</span><span class="chip">P3 preço e retorno</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A2-3 condição para subir"><p>[NÃO SUBIR: Receita, CNAE e site antigo]</p></div>
+    <p class="passo">Fala</p>
+    <div class="corpo fala marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A2-3 fala"><p>Antes de agendar, confira quem eu sou. Meu nome é [Nome], médico, CRM [UF] [número]. Digite no portal do CFM e o registro aparece. O CNPJ da clínica está no rodapé da página, e você pode olhar na Receita. Já teve cliente que achou a consulta curta. Se acontecer com você, fale com a gente: [A PREENCHER: o que a clínica faz]. Você tem o direito de saber com quem fala.</p></div>
+    <p class="passo">Legenda na tela</p>
+    <div class="corpo legenda marcar" contenteditable="true" data-prefix="Legenda na tela: " role="textbox" aria-multiline="true" aria-label="A2-3 legenda"><p>Dr. [Nome], MÉDICO, CRM-[UF] [número]. Confira o CRM no portal do CFM e o CNPJ no site da Receita.</p></div>
+    <p class="nota"><b>Por que vermelho.</b> A frase “já teve cliente que achou a consulta curta” só vai ao ar se o cliente aprovar e se o remédio estiver escrito. Sem remédio, a admissão vira prova contra a clínica. O convite a conferir CRM e CNPJ vale só depois de o registro e o CNAE baterem com o que a página diz.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A2-3">Copiar</button></div>
+  </article>
+
+  <h3 class="h3s">A3. WhatsApp, resposta curta e resposta longa</h3>
+  <p class="nota"><b>Gatilho (mensagem hipotética, hipótese do Rafael).</b> O cliente escreveria: “Vocês atendem só online? O presencial não é mais garantido?” Nenhuma mensagem real com essa frase foi achada na pesquisa. Responde o atendimento, sem orientação clínica. Sintaxe nativa do WhatsApp, sem emoji, blocos de até 3 linhas. A última linha de cada resposta é a condição: sai antes de enviar.</p>
+
+  <article class="peca" id="A3-1" data-conta="wa">
+    <div class="peca-top"><span class="rot">A3-1 · Resposta curta</span><span class="chip canal">WhatsApp</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span></div>
+<pre class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A3-1 mensagem">Cada formato tem o seu lugar. Vou explicar o do vídeo.
+
+Por vídeo, o médico ouve a sua história, vê os seus exames e explica o que pensa. Ele não faz exame físico.
+
+Se o caso pedir, ele indica o consultório em [A PREENCHER h: cidade e endereço].
+
+Quer que eu explique o passo a passo?
+
+[A PREENCHER: diretor técnico confirma o que o vídeo faz, o que não faz e quando indica o consultório]</pre>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A3-1">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="A3-2" data-conta="wa">
+    <div class="peca-top"><span class="rot">A3-2 · Resposta longa</span><span class="chip canal">WhatsApp</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span><span class="chip">P7 advogado</span></div>
+<pre class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="A3-2 mensagem">Dá para escolher com informação. O presencial examina o corpo, o vídeo não.
+
+*O que o vídeo faz:* o médico ouve a sua história, olha os exames que você já tem e explica o que pensa.
+
+O que ele não faz: exame físico e exames que dependem de aparelho no local.
+
+Se o médico achar que precisa ver você, ele indica o consultório em [A PREENCHER h: cidade e endereço].
+
+[A PREENCHER: diretor técnico confirma o que o vídeo faz, o que não faz e quando indica o consultório]</pre>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar A3-2">Copiar</button></div>
+  </article>
+</section>
+
+<!-- B -->
+<section class="sec" id="B">
+  <h2 class="h2s">B. Online ou presencial? Escolha com informação</h2>
+  <p class="lead">Bloco de página, em frase corrida e sem tabela. O limite do online vem dito de frente, num parágrafo só dele.</p>
+
+  <article class="peca" id="B1" data-conta="palavras">
+    <div class="peca-top"><span class="rot">B · Bloco de página</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span><span class="chip">P3 preço e retorno</span><span class="chip">P4 receita sem compra</span><span class="chip">k dependência e garantia</span><span class="chip">P6 domínio e WhatsApp</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="B1 condição P2"><p>[CONDIÇÃO: vira risco vermelho se P2 fechar com Medicina do Trabalho, porque a busca do CFM mostraria uma especialidade que a peça não anuncia]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="B bloco de página">
+      <p>Online ou presencial? Escolha com informação</p>
+      <p>Os dois formatos existem, e cada um serve a uma situação. Aqui vai o que cada um faz, o que não faz e quem decide qual serve para você.</p>
+      <p>Na consulta por vídeo, você fala com o médico de onde estiver. Ele ouve a sua história, olha os exames que você já tem e vê os remédios que você usa. Depois explica o que pensa e, se prescrever, a receita chega digital [A PREENCHER P4]. A consulta dura [A PREENCHER: minutos]. [A PREENCHER: diretor técnico confirma o que o médico faz por vídeo]</p>
+      <p>O vídeo tem um limite: o médico não faz exame físico. Também não faz os exames que dependem de aparelho no local, como o Doppler peniano [A PREENCHER: diretor técnico confirma o que o vídeo não faz].</p>
+      <p>No consultório [A PREENCHER h: endereço oficial], o médico examina você pessoalmente, e os exames que dependem de aparelho podem ser feitos no mesmo prédio [A PREENCHER: diretor técnico confirma].</p>
+      <p>Quem decide qual formato serve ao seu caso é o médico, com você. A lei garante a ele a independência de decidir se atende por telemedicina (Lei 14.510/2022). A clínica indica o consultório quando [A PREENCHER: critérios, diretor técnico confirma]. A norma do CFM para consulta a distância também prevê consulta presencial de acompanhamento em certos casos (Resolução CFM 2.314/2022, art. 6º) [A PREENCHER: como a clínica aplica].</p>
+      <p>Medicina não garante resultado em nenhum formato, e a regra do CFM proíbe prometer. A clínica oferece um processo que você pode conferir: o médico no portal do CFM, a causa investigada antes de qualquer receita e o retorno com data marcada [A PREENCHER P3, P4 e k].</p>
+      <p>Ficou com dúvida sobre qual formato escolher? Pergunte no WhatsApp [A PREENCHER P6: número único] antes de agendar. O atendimento responde sobre formato, preço e agenda. A dúvida clínica fica para a consulta.</p>
+      <p>Agendar consulta</p>
+    </div>
+    <p class="nota">Nomear o Doppler peniano exige indicação confirmada, sem atribuir capacidade privilegiada ao aparelho (CFM 2.336, art. 9º, II e IX, e art. 11, II). Se o diretor técnico preferir, troque por “exames que dependem de aparelho no local”.</p>
+    <p class="nota"><b>Advogado.</b> A citação do art. 6º da Resolução 2.314 obriga a clínica em texto público. A Lei 14.510 só dá ao médico a independência de decidir sobre a utilização ou não da telessaúde. Ambas ficam com o advogado (P7).</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar B">Copiar</button></div>
+  </article>
+</section>
+
+<!-- C -->
+<section class="sec" id="C">
+  <h2 class="h2s">C. FAQ de confiança</h2>
+  <p class="lead">Catorze perguntas, na voz de quem confere o Reclame Aqui antes de pagar. Cada resposta tem de 2 a 4 frases e diz como conferir. Onde a resposta depende de decisão do cliente, o campo fica aberto.</p>
+
+  <article class="peca" id="C1" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C1 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">h endereço e registro</span><span class="chip">P4 receita sem compra</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C1 condição para subir"><p>[NÃO SUBIR: Receita, CNAE e site antigo]</p></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C1 pergunta"><p>Isso é golpe?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C1 resposta"><p>Desconfiar antes de pagar é o certo, e a gente prefere que você confira. Procure o CRM do médico no portal do CFM, o CNPJ 25.178.600/0001-75 no site da Receita e o endereço oficial: [A PREENCHER h: endereço único]. Leia também as reclamações da clínica no Reclame Aqui: há relatos de consulta curta e de tratamento oferecido logo depois da consulta. O que mudou desde então: [A PREENCHER P4: mudança real, com a data].</p></div>
+    <p class="nota">Quem confere o CNPJ vê CNAE de apoio à gestão de saúde e endereço em Barueri. Quem confere o CRM pode ver outra especialidade. Só publique depois de h e P2 fecharem. A terceira frase é decisão do cliente. Se nada mudou, corte a terceira e a quarta.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C1">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C2" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C2 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico e RQE</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C2 condição"><p>[CONDIÇÃO: vira risco vermelho se P2 fechar com Medicina do Trabalho, porque a busca do CFM mostraria uma especialidade que a página não anuncia]</p></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C2 pergunta"><p>Quem é o médico, afinal?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C2 resposta"><p>É o Dr. [A PREENCHER P2: nome], MÉDICO, CRM-[UF] [número]. Você digita o nome no portal do CFM e vê o registro e as especialidades registradas. O médico da página é o que atende a sua consulta [A PREENCHER P2: confirmar que é o mesmo]. Se outro médico do corpo clínico atender, [A PREENCHER P2: o nome e o CRM dele chegam a você antes da consulta?].</p></div>
+    <p class="nota">Hoje o diretório Helpsaude lista o Dr. Cristiano Grizza Estivalet (CRM-DF 15471) em Medicina do Trabalho, e o RQE não foi verificado no CFM. Se P2 fechar assim, esta resposta passa a vermelha.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C2">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C3A" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C3A · FAQ, se houver RQE</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico e RQE</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C3A pergunta"><p>O médico é urologista?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C3A resposta"><p>O Dr. [A PREENCHER P2: nome] tem título de [A PREENCHER P2: especialidade], RQE [número], registrado no CRM. Você confere o RQE na busca de médicos do portal do CFM. A clínica só anuncia a especialidade que está registrada.</p></div>
+    <p class="nota">Use a C3A ou a C3B, nunca as duas.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C3A">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C3B" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C3B · FAQ, se não houver RQE</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico e RQE</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C3B pergunta"><p>O médico é urologista?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C3B resposta"><p>O Dr. [A PREENCHER P2: nome] é médico, CRM-[UF] [número], e não tem título de urologista registrado. [A PREENCHER P2: especialidade registrada, se houver, com RQE.] A clínica não anuncia que ele é especialista nessa área. Você confere o registro no portal do CFM antes de agendar.</p></div>
+    <p class="nota">Esta resposta vira risco vermelho se os anúncios continuarem chamando o médico de “médico de saúde sexual masculina” (art. 11, I, e art. 4º).</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C3B">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C4" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C4 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C4 pergunta"><p>A consulta por vídeo é menos completa que a presencial?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C4 resposta"><p>Em um ponto, sim: por vídeo o médico não faz exame físico, e alguns exames só se fazem no local [A PREENCHER: diretor técnico confirma]. O que ele faz por vídeo é ouvir a sua história, olhar os exames que você já tem e explicar o que pensa [A PREENCHER: diretor técnico confirma]. Quando precisa ver você, ele indica o consultório em [A PREENCHER h: cidade e endereço do consultório]. Quem decide se o seu caso cabe em consulta por vídeo é o médico, e a lei garante a ele a independência de decidir sobre usar ou não a telemedicina (Lei 14.510/2022).</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C4">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C5" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C5 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">P3 preço e retorno</span><span class="chip">P4 receita sem compra</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C5 pergunta"><p>Como é a consulta, do clique até o fim?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C5 resposta"><p>Você agenda e vê o valor antes de pagar: R$ [A PREENCHER P3: valor único]. A consulta dura [A PREENCHER: minutos], e o médico pergunta sobre a sua saúde, os remédios que usa e os exames que já tem. No fim ele explica o que pensa, diz se pede exame ou consultório e marca o retorno [A PREENCHER P3: retorno incluído?]. A receita, se houver, chega por [A PREENCHER P4: canal], com assinatura digital [A PREENCHER: confirmar ICP-Brasil, Resolução CFM 2.314, art. 13]. [A PREENCHER: diretor técnico confirma o roteiro da consulta]</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C5">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C6" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C6 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">P4 receita sem compra</span><span class="chip">k dependência e garantia</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C6 pergunta"><p>Já tentei de tudo. Isso funciona para mim?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C6 resposta"><p>Quem já tentou farmácia e suplemento tem motivo para duvidar. Como o seu corpo vai responder e em quanto tempo, ninguém sabe de antemão. O médico começa investigando a causa e só depois decide se prescreve algo [A PREENCHER: diretor técnico valida; P4: sem venda na mesma chamada]. Se o tratamento não responder, você volta ao médico na data marcada e ele revê o plano [A PREENCHER k: critério e prazo da reavaliação].</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C6">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C7" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C7 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P1 farmácia</span><span class="chip">P3 preço e retorno</span><span class="chip">P4 receita sem compra</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C7 condição para subir"><p>[NÃO SUBIR: P1, P4 e parecer do advogado sobre RDC 67 e 96]</p></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C7 pergunta"><p>Quanto custa tudo?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C7 resposta"><p>A consulta custa R$ [A PREENCHER P3: valor único], e você vê esse valor antes de agendar. O tratamento, se o médico prescrever, tem nome e preço ditos na consulta, antes de você pagar qualquer coisa dele [A PREENCHER P4 e P7: advogado confirma a redação, por causa das RDC 67 e 96]. O retorno é [A PREENCHER P3: incluído no valor da consulta ou cobrado à parte, e quanto]. Itens extras: [A PREENCHER P3: lista com valor, ou “não há”].</p></div>
+    <p class="nota">A promessa “nome e preço ditos na consulta, antes de pagar” só vale se P4 mudar a operação. Hoje o relato é o contrário (Caçador/SC, 17/09/2026). Há sessões extras de R$ 180 relatadas (Passo de Torres/SC, 26/05/2026). Preço de manipulado não aparece na página (RDC 67, item 5.14; RDC 96, art. 36).</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C7">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C8" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C8 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P1 farmácia</span><span class="chip">P4 receita sem compra</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C8 condição para subir"><p>[NÃO SUBIR: P1, P4 e parecer do advogado sobre RDC 67 e 96]</p></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C8 pergunta"><p>Posso comprar a receita em qualquer farmácia?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C8 resposta"><p>A receita é sua, assinada pelo médico, e você escolhe onde comprar [A PREENCHER P4: confirmar que a clínica entrega a receita sem exigir compra]. A clínica não indica farmácia, e a receita não leva marca de farmácia [A PREENCHER P1 e P7: o Bloco 13 manda não mencionar farmácia; só se for verdade e se o advogado liberar]. A receita digital leva assinatura ICP-Brasil e a menção de que veio de telemedicina (Resolução CFM 2.314, art. 13) [A PREENCHER: confirmar que a clínica emite assim]. Se o que foi prescrito depende de farmácia específica, [A PREENCHER P1: como dizer isso sem expor fórmula, RDC 67, item 5.14].</p></div>
+    <p class="nota">Hoje há dois relatos de receita retida até a compra (Matinhos/PR, 05/02/2026; Rio de Janeiro/RJ, 05/05/2026). A empresa nega cobrar pela receita. Esta resposta é a promessa que o público mais quer ouvir, e é a que mais vira a próxima reclamação se P4 não mudar.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C8">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C9" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C9 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C9 pergunta"><p>Existe risco? Dá efeito colateral?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C9 resposta"><p>Todo remédio pode causar efeito indesejado, e a clínica não vai dizer o contrário. O médico escolhe o tratamento pelo seu histórico e explica os efeitos possíveis antes de você começar. Você lê e assina o termo de consentimento da telemedicina (Resolução CFM 2.314, art. 15) [A PREENCHER: confirmar que o termo existe]. Se sentir algo estranho depois de começar, [A PREENCHER: canal e prazo de resposta da equipe].</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C9">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C10" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C10 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">k dependência e garantia</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C10 pergunta"><p>Vou ficar dependente do remédio?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C10 resposta"><p>É uma dúvida comum, e ela merece resposta antes da primeira dose. O médico explica o que se sabe sobre dependência para o seu caso e combina com você se, quando e como reduzir o remédio [A PREENCHER k: protocolo escrito pelo diretor técnico]. Esse combinado fica registrado no seu prontuário [A PREENCHER k: confirmar].</p></div>
+    <p class="nota">Sem nome de remédio e sem citar o alerta da Anvisa: citar risco de dependência na página pode soar como medo (art. 11, §2º, “e”). “Se, quando e como reduzir” evita insinuar que o paciente deixará de precisar do remédio (art. 11, XII).</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C10">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C11" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C11 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C11 pergunta"><p>A consulta é gravada?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C11 resposta"><p>[A PREENCHER: decisão do cliente. Se a clínica não grava, escrever: A consulta não é gravada. Se grava, escrever: A consulta só é gravada se você for avisado antes e autorizar. A gravação serve para (finalidade), fica guardada por (prazo) e só (quem) acessa.] Os seus dados de saúde são dados sensíveis e seguem a LGPD (arts. 5º e 11). Você confere a regra no termo que aceita antes da consulta [A PREENCHER: confirmar].</p></div>
+    <p class="nota">Há relato de videochamada gravada sem consentimento (Cruz das Almas/BA, 12/11/2025). Por isso a resposta não pode ficar vaga.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C11">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C12" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C12 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P6 domínio e WhatsApp</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C12 condição para subir"><p>[NÃO SUBIR: Receita, CNAE e site antigo]</p></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C12 pergunta"><p>Por que a nota fiscal vem como consultoria?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C12 resposta"><p>A nota sai em nome de [A PREENCHER: contador confirma o emitente da nota, com razão social e CNPJ]. Já houve cliente que estranhou a descrição da nota. O que deve constar na nota de uma consulta médica é [A PREENCHER: contador e advogado definem], e ela serve para [A PREENCHER: dedução no imposto de renda e reembolso do plano, sim ou não]. Se a sua nota veio diferente, peça a correção em [A PREENCHER P6: canal].</p></div>
+    <p class="nota">Nenhuma fonte diz quem emite a nota. Base: relato de São Paulo/SP, 30/09/2026, com nota de “assessoria e consultoria de serviços não especificados” numa consulta de R$ 196. O CNAE da LHP é apoio à gestão de saúde. A resposta é fiscal, e quem define o texto é o contador. Se o cliente preferir não citar “consultoria” na pergunta, use “Por que a nota fiscal sai em nome de uma empresa de gestão?”.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C12">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C13" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C13 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P3 preço e retorno</span><span class="chip">k dependência e garantia</span><span class="chip">P6 domínio e WhatsApp</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C13 pergunta"><p>Posso desistir?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C13 resposta"><p>Você pode desistir de uma compra feita a distância em até 7 dias (Código de Defesa do Consumidor, art. 49). Como isso vale para uma consulta que já aconteceu: [A PREENCHER P7: o advogado define]. O valor volta por [A PREENCHER: PIX ou cartão] em até [A PREENCHER: prazo], e o pedido é feito em [A PREENCHER P6: canal]. Reformulação do tratamento em até 30 dias: [A PREENCHER k: confirmar que existe, com critério].</p></div>
+    <p class="nota">Há relato de estorno que não chegou (Rio de Janeiro/RJ, 14/09/2026). Não publique o prazo sem a clínica ter pago o estorno no prazo.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C13">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="C14" data-conta="palavras">
+    <div class="peca-top"><span class="rot">C14 · FAQ</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span><span class="chip">P3 preço e retorno</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo q marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C14 pergunta"><p>O que acontece se o online não bastar?</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="C14 resposta"><p>O médico diz na hora quando o online não basta [A PREENCHER: diretor técnico confirma a conduta]. Ele indica o consultório em [A PREENCHER h: cidade e endereço do consultório] ou o exame que precisa ser feito no local [A PREENCHER: critérios, diretor técnico confirma]. O valor que você já pagou pela consulta online: [A PREENCHER P3: abate do presencial, ou não, e quanto custa o presencial]. Se você mora longe do consultório, [A PREENCHER: a clínica indica profissional na sua cidade? Como?].</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar C14">Copiar</button></div>
+  </article>
+</section>
+
+<!-- D -->
+<section class="sec" id="D">
+  <h2 class="h2s">D. Quem é a clínica</h2>
+  <p class="lead">Credibilidade por associação, justificativa, especificidade e demonstração. Tudo que o visitante pode conferir, com o lugar onde conferir. A demonstração é em texto e esquema, sem imagem de consulta real e sem antes e depois.</p>
+
+  <article class="peca" id="D1" data-conta="palavras">
+    <div class="peca-top"><span class="rot">D1 · Quem é a AndroClinic</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P1 farmácia</span><span class="chip">P2 médico e RQE</span><span class="chip">h endereço e registro</span><span class="chip">P6 domínio e WhatsApp</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D1 condição para subir"><p>[NÃO SUBIR: Receita, CNAE e site antigo]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D1 texto">
+      <p>Quem é a AndroClinic</p>
+      <p>Antes de contar a sua história para alguém, você tem o direito de conferir quem está do outro lado. Aqui está o que dá para checar e onde.</p>
+      <p>O médico: Dr. [A PREENCHER P2: nome], MÉDICO, CRM-[UF] [número]. [A PREENCHER P2: especialidade com RQE, ou nenhuma.] Você confere o registro na busca de médicos do portal do CFM.</p>
+      <p>A empresa: AndroClinic é uma marca de LHP Gestão a Saúde Ltda, CNPJ 25.178.600/0001-75, aberto em 11/07/2016. Você confere o CNPJ no site da Receita Federal. [A PREENCHER P1: razão social e CNPJ da Andro Pharma Ltda, que assina os anúncios do Google, e a relação dela com a LHP]</p>
+      <p>A clínica: registro no CRM-[UF] nº [A PREENCHER h]. Diretor técnico: Dr. [A PREENCHER P2: nome], CRM-[UF] [número]. Alvará: [A PREENCHER h: número e órgão que emitiu].</p>
+      <p>O endereço: [A PREENCHER h: endereço oficial único]. O consultório fica em [A PREENCHER h: endereço do consultório].</p>
+      <p>As regras que a consulta segue vêm da Resolução CFM 2.314/2022, sobre telemedicina. Ela pede consentimento livre e esclarecido (art. 15). Pede também receita digital com assinatura ICP-Brasil e menção à telemedicina (art. 13) [A PREENCHER: diretor técnico confirma que a clínica faz cada item]. A clínica precisa estar inscrita no CRM do estado-sede, com médico responsável técnico (art. 17). A publicidade segue a Resolução CFM 2.336/2023. Você lê as duas no portal do CFM.</p>
+    </div>
+    <p class="nota">O CNPJ aberto em 11/07/2016 é fato da Receita. A ligação entre a marca AndroClinic e a LHP vem dos termos de uso do site antigo. Os anúncios do Google saem por outra razão social, a Andro Pharma Ltda, ainda sem CNPJ levantado. O CNPJ responde em parte “por que nunca ouvi falar”. O número de atendimentos não entra: nenhum número de atendimento tem base confirmada. Quem consulta o CNPJ vê o CNAE 8660-7/00 e o endereço de Barueri. Feche h antes de publicar.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar D1">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="D2" data-conta="palavras">
+    <div class="peca-top"><span class="rot">D2 · A consulta, passo a passo</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">P2 médico e RQE</span><span class="chip">P3 preço e retorno</span><span class="chip">P4 receita sem compra</span><span class="chip">h endereço e registro</span><span class="chip">N1 parceira</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D2 texto">
+      <p>Como é a consulta, passo a passo</p>
+      <p>1. Você agenda e vê o valor antes de pagar: R$ [A PREENCHER P3: valor único], por [A PREENCHER: forma de pagamento].</p>
+      <p>2. Antes da chamada, você lê o termo de consentimento da telemedicina e aceita ou não [A PREENCHER: confirmar que o termo existe, Resolução CFM 2.314, art. 15]. [A PREENCHER: aviso sobre gravação, se houver.]</p>
+      <p>3. Na hora marcada, você entra na videochamada com o Dr. [A PREENCHER P2: nome], MÉDICO, CRM-[UF] [número]. Na chamada, só você e o médico [A PREENCHER: confirmar que ninguém mais entra]. [A PREENCHER N1: a parceira pode participar, com o seu consentimento?]</p>
+      <p>4. A consulta dura [A PREENCHER: minutos]. O médico pergunta sobre a sua saúde, os remédios que você usa e os exames que você já tem [A PREENCHER: diretor técnico confirma o roteiro].</p>
+      <p>5. No fim, ele explica o que pensa e o que prescreve, se for o caso, com o motivo e os efeitos possíveis. Se precisar de exame ou de consulta no consultório, diz na hora [A PREENCHER: diretor técnico confirma quando indica].</p>
+      <p>6. A receita, se houver, chega por [A PREENCHER P4: canal], com assinatura digital [A PREENCHER: confirmar ICP-Brasil, art. 13]. O preço de qualquer tratamento é dito antes de você pagar por ele [A PREENCHER P4 e P7].</p>
+      <p>7. O retorno fica marcado na consulta, para [A PREENCHER P3 e k: data ou prazo]. [A PREENCHER P3: o retorno está incluído no valor da consulta?]</p>
+    </div>
+    <p class="nota">Os passos 5 a 7 só valem se a clínica separar consulta e venda (P4). O relato mais repetido da pesquisa é o contrário: o médico encerra e passa o paciente a um consultor na mesma chamada. A empresa chamou isso de “procedimento padrão” (Reclame Aqui, 12/11/2025).</p>
+    <p class="nota">N1 (parceira na consulta) vem de angulos-8-motivacoes-androclinic.html e não consta no briefing.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar D2">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="D3" data-conta="palavras">
+    <div class="peca-top"><span class="rot">D3 · Sigilo e gravação</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D3 texto">
+      <p>Sigilo e gravação</p>
+      <p>O que você conta ao médico fica protegido pelo sigilo médico. Os seus dados de saúde são dados sensíveis e seguem a LGPD (arts. 5º e 11). Quem acessa o seu prontuário: [A PREENCHER: lista de quem acessa].</p>
+      <p>Gravação: [A PREENCHER: decisão do cliente. Se a clínica não grava, escrever: A consulta não é gravada. Se grava, escrever: A consulta só é gravada se você for avisado antes e autorizar. A gravação serve para (finalidade), fica guardada por (prazo) e só (quem) acessa.]</p>
+      <p>Ao fim da consulta, você pode pedir [A PREENCHER: o que o paciente pode pedir, como cópia do prontuário ou exclusão da gravação].</p>
+    </div>
+    <p class="nota">Sigilo médico fica sem número de artigo do Código de Ética: [conferir] antes de citar. As frentes não trouxeram o artigo.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar D3">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="D4" data-conta="palavras">
+    <div class="peca-top"><span class="rot">D4 · O que a clínica não faz</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P1 farmácia</span><span class="chip">P4 receita sem compra</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D4 condição para subir"><p>[NÃO SUBIR: site antigo fora do ar e páginas corrigidas]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D4 texto">
+      <p>O que a clínica não faz</p>
+      <p>Não promete resultado nem prazo de efeito [A PREENCHER: só se for verdade].</p>
+      <p>Não dá diagnóstico por anúncio, formulário ou mensagem [A PREENCHER: só se for verdade].</p>
+      <p>Não publica depoimento de paciente nem foto de antes e depois [A PREENCHER: só se for verdade].</p>
+      <p>Não esconde o valor da consulta [A PREENCHER: só se for verdade].</p>
+      <p>Não diz que o médico é especialista sem título registrado no CRM [A PREENCHER: só se for verdade].</p>
+      <p>Não indica farmácia, e a receita não leva marca de farmácia [A PREENCHER P1 e P7: só se for verdade; o Bloco 13 manda não mencionar farmácia].</p>
+      <p>Não exige a compra do tratamento para entregar a receita [A PREENCHER P4: só se for verdade].</p>
+      <p>Não grava a consulta sem aviso e sem a sua autorização [A PREENCHER: decisão do cliente].</p>
+    </div>
+    <p class="nota"><b>Por que vermelho.</b> Hoje as fontes contradizem três linhas. O site antigo promete “garantias de resultados” e “efeitos na primeira semana”. O androclinica.com.br traz oito depoimentos. O site novo chama o médico de “Médico em Saúde Masculina”, e os anúncios dizem “médico focado em saúde sexual masculina”. Cada linha vira promessa exigível (CDC, art. 30; CFM 2.336, art. 11, XII e XVI). Linha que a clínica não cumpre hoje sai antes de publicar.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar D4">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="D5" data-conta="palavras">
+    <div class="peca-top"><span class="rot">D5 · Como conferir em dois minutos</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P2 médico e RQE</span><span class="chip">h endereço e registro</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D5 condição para subir"><p>[NÃO SUBIR: Receita, CNAE e site antigo]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="D5 texto">
+      <p>Como conferir em dois minutos</p>
+      <p>1. Abra o portal do CFM, entre na busca de médicos e digite o nome e o CRM do médico.</p>
+      <p>2. Abra o site da Receita Federal e consulte o CNPJ 25.178.600/0001-75.</p>
+      <p>3. Compare o endereço que você achou com o desta página: [A PREENCHER h: o mesmo endereço].</p>
+      <p>4. [A PREENCHER: decisão do cliente. Convidar a ler as reclamações da clínica no Reclame Aqui, com as respostas da empresa?]</p>
+    </div>
+    <p class="nota">A busca de médicos do CFM não pôde ser consultada pela pesquisa (a busca roda por POST). O Rafael confere no portal se o RQE aparece no resultado antes de a peça prometer isso.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar D5">Copiar</button></div>
+  </article>
+</section>
+
+<!-- E -->
+<section class="sec" id="E">
+  <h2 class="h2s">E. Frases de admitir falha</h2>
+  <p class="lead">Admitir o limite é parte do método. Cada versão vale para um canal. As três primeiras admitem o limite do formato ou do tratamento, e as duas últimas admitem algo da operação, que só o cliente decide.</p>
+
+  <article class="peca" id="E1" data-conta="palavras">
+    <div class="peca-top"><span class="rot">E1 · Limite do formato</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">h endereço e registro</span></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E1 texto"><p>O vídeo tem um limite: o médico não examina o seu corpo por ele. Quando isso faz falta, ele diz, e você decide com ele se vai ao consultório. [A PREENCHER: diretor técnico confirma]</p></div>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar E1">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="E2" data-conta="palavras">
+    <div class="peca-top"><span class="rot">E2 · Limite do tratamento</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E2 condição para subir"><p>[NÃO SUBIR: site antigo fora do ar. Ele ainda promete garantias de resultado]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E2 texto"><p>Nenhum tratamento funciona igual para todo mundo, e a clínica não promete resultado.</p></div>
+    <p class="nota">Vale só com o site antigo fora do ar: ele ainda promete “garantias de resultados”. A frase sobre o processo que a clínica oferece fica no bloco B, uma vez só.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar E2">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="E3" data-conta="video">
+    <div class="peca-top"><span class="rot">E3 · Linha para qualquer vídeo</span><span class="chip canal">Vídeo do médico</span><span class="chip fmt">Vídeo com legenda</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">DT clínica</span><span class="chip">P2 médico e RQE</span></div>
+    <p class="passo">Fala</p>
+    <div class="corpo fala marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E3 fala"><p>Uma coisa eu preciso dizer antes de você agendar: pelo vídeo eu não consigo examinar você. Quando isso fizer falta, eu aviso na hora.</p></div>
+    <p class="passo">Condição para subir</p>
+    <div class="corpo cond marcar" contenteditable="true" data-prefix="Condição, não ler em voz alta: " role="textbox" aria-multiline="true" aria-label="E3 condição"><p>[A PREENCHER: diretor técnico confirma que o médico não examina por vídeo e avisa quando isso faz falta]</p></div>
+    <p class="nota">Linha de 8 a 10 segundos, para encaixar no fim de qualquer vídeo. A meta de 25 a 40 segundos vale para o vídeo inteiro, não para esta linha.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar E3">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="E4" data-conta="wa">
+    <div class="peca-top"><span class="rot">E4 · Consulta curta</span><span class="chip canal">WhatsApp</span><span class="chip fmt">Texto escrito</span><span class="risk laranja">Risco laranja</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">P3 preço e retorno</span><span class="chip">k dependência e garantia</span></div>
+<pre class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E4 mensagem">Já teve cliente que achou a consulta curta.
+
+Se acontecer com você, me avise. [A PREENCHER: o que a clínica faz, por exemplo, nova conversa com o médico em quantos dias e a que custo]</pre>
+    <p class="nota">Só entra com o remédio escrito. Há três relatos de consulta de 10 a 25 minutos no Reclame Aqui.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar E4">Copiar</button></div>
+  </article>
+
+  <article class="peca" id="E5" data-conta="palavras">
+    <div class="peca-top"><span class="rot">E5 · O amassado do carro</span><span class="chip canal">Página</span><span class="chip fmt">Texto escrito</span><span class="risk vermelho">Risco vermelho</span></div>
+    <div class="exige"><span class="l">Exige</span><span class="chip">h endereço e registro</span><span class="chip">P6 domínio e WhatsApp</span><span class="chip">P7 advogado</span></div>
+    <div class="corpo trava marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E5 condição para subir"><p>[NÃO SUBIR: Receita, CNAE e site antigo]</p></div>
+    <div class="corpo marcar" contenteditable="true" role="textbox" aria-multiline="true" aria-label="E5 texto"><p>Nossas páginas antigas mostraram endereços e ofertas diferentes entre si. Se você viu algo que não bate com esta página, vale o que está aqui, e o endereço oficial é [A PREENCHER h: endereço único].</p></div>
+    <p class="nota">É a admissão mais forte do pacote, porque nomeia a contradição que o visitante já viu. Só vai ao ar depois de o cliente tirar do ar ou corrigir o site antigo e de o advogado ler.</p>
+    <div class="rodape-peca"><span class="cont" aria-live="polite"></span><button class="cp" type="button" aria-label="Copiar E5">Copiar</button></div>
+  </article>
+</section>
+
+<!-- F -->
+<section class="sec" id="F">
+  <h2 class="h2s">F. Mapa: objeção removida e credibilidade usada</h2>
+  <p class="lead">Para cada peça, a pergunta do visitante que ela responde e a forma de credibilidade que ela usa.</p>
+  <ul class="mapa">
+    <li><b>A0 Posição.</b><span class="r"><i>Remove:</i> Existe falha ou limitação? · Funciona para mim?</span><span class="r"><i>Credibilidade:</i> justificativa (o porquê de cada limite) e rapport (admite o limite).</span></li>
+    <li><b>A1 Página, RVR.</b><span class="r"><i>Remove:</i> Existe falha ou limitação? · Por que é diferente das outras soluções?</span><span class="r"><i>Credibilidade:</i> rapport, justificativa e associação (portal do CFM).</span></li>
+    <li><b>A2-1 Vídeo, o que o vídeo não faz.</b><span class="r"><i>Remove:</i> Posso acreditar em você? · Quem é você? · Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> rapport (admite o limite) e especificidade (nome e CRM na tela).</span></li>
+    <li><b>A2-2 Vídeo, como é a consulta.</b><span class="r"><i>Remove:</i> Como funciona? · Quanto dura?</span><span class="r"><i>Credibilidade:</i> demonstração (a consulta passo a passo).</span></li>
+    <li><b>A2-3 Vídeo, confira antes de pagar.</b><span class="r"><i>Remove:</i> Posso acreditar em você? · Quem é você? · Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> associação (portal do CFM e Receita), especificidade (CRM e CNPJ) e rapport (admite consulta curta).</span></li>
+    <li><b>A3-1 WhatsApp curta.</b><span class="r"><i>Remove:</i> Existe falha ou limitação? · Como funciona?</span><span class="r"><i>Credibilidade:</i> justificativa e rapport.</span></li>
+    <li><b>A3-2 WhatsApp longa.</b><span class="r"><i>Remove:</i> Existe falha ou limitação? · Como funciona?</span><span class="r"><i>Credibilidade:</i> justificativa e demonstração.</span></li>
+    <li><b>B Online ou presencial.</b><span class="r"><i>Remove:</i> Por que é diferente? · Como funciona? · Quanto dura? · Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> justificativa, demonstração e associação (Lei 14.510 e Resolução CFM 2.314).</span></li>
+    <li><b>C1 É golpe?</b><span class="r"><i>Remove:</i> Posso acreditar em você? · Por que nunca ouvi falar?</span><span class="r"><i>Credibilidade:</i> associação (CFM e Receita), especificidade (CNPJ) e rapport (admite as reclamações).</span></li>
+    <li><b>C2 Quem é o médico?</b><span class="r"><i>Remove:</i> Quem é você? · Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> associação (portal do CFM) e especificidade (nome e CRM).</span></li>
+    <li><b>C3A e C3B Urologista?</b><span class="r"><i>Remove:</i> Quem é você? · Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> associação (RQE no CFM), especificidade e rapport (diz o que o médico não tem).</span></li>
+    <li><b>C4 Vídeo é menos completo?</b><span class="r"><i>Remove:</i> Existe falha ou limitação? · Por que é diferente?</span><span class="r"><i>Credibilidade:</i> rapport (“em um ponto, sim”) e justificativa (Lei 14.510).</span></li>
+    <li><b>C5 Como é a consulta?</b><span class="r"><i>Remove:</i> Como funciona? · Quanto dura?</span><span class="r"><i>Credibilidade:</i> demonstração e especificidade (valor e minutos).</span></li>
+    <li><b>C6 Já tentei de tudo.</b><span class="r"><i>Remove:</i> Funciona se nada funcionou antes? · Funciona para mim? · Em quanto tempo?</span><span class="r"><i>Credibilidade:</i> rapport e justificativa (a causa vem antes da receita, e o retorno tem data).</span></li>
+    <li><b>C7 Quanto custa tudo?</b><span class="r"><i>Remove:</i> Existe risco? (o risco de pagar sem saber) · Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> especificidade (valor exato) e justificativa.</span></li>
+    <li><b>C8 Receita em qualquer farmácia.</b><span class="r"><i>Remove:</i> Existe risco? · Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> justificativa e associação (art. 13 da Resolução 2.314).</span></li>
+    <li><b>C9 Efeito colateral.</b><span class="r"><i>Remove:</i> Existe risco? · Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> rapport (“não vai dizer o contrário”) e justificativa (consentimento, art. 15).</span></li>
+    <li><b>C10 Dependência.</b><span class="r"><i>Remove:</i> Existe risco? · Quanto dura?</span><span class="r"><i>Credibilidade:</i> justificativa e demonstração (plano escrito).</span></li>
+    <li><b>C11 Gravação.</b><span class="r"><i>Remove:</i> Existe risco? · Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> justificativa (LGPD) e especificidade (finalidade, prazo, quem acessa).</span></li>
+    <li><b>C12 Nota fiscal.</b><span class="r"><i>Remove:</i> Posso acreditar em você? · Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> rapport (admite que o cliente estranhou) e especificidade (emitente e descrição da nota).</span></li>
+    <li><b>C13 Desistir.</b><span class="r"><i>Remove:</i> Tem garantia? · Existe risco?</span><span class="r"><i>Credibilidade:</i> associação (CDC, art. 49) e especificidade (7 dias).</span></li>
+    <li><b>C14 Online não bastar.</b><span class="r"><i>Remove:</i> Existe falha ou limitação? · Funciona para mim?</span><span class="r"><i>Credibilidade:</i> rapport e justificativa.</span></li>
+    <li><b>D1 Quem é a AndroClinic.</b><span class="r"><i>Remove:</i> Quem é você? · Posso acreditar em você? · Por que nunca ouvi falar?</span><span class="r"><i>Credibilidade:</i> associação (CFM, Receita, Resoluções 2.314 e 2.336) e especificidade (CNPJ, data de abertura).</span></li>
+    <li><b>D2 Passo a passo.</b><span class="r"><i>Remove:</i> Como funciona? · Quanto dura?</span><span class="r"><i>Credibilidade:</i> demonstração e especificidade.</span></li>
+    <li><b>D3 Sigilo e gravação.</b><span class="r"><i>Remove:</i> Existe risco? · Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> justificativa (LGPD) e associação (norma).</span></li>
+    <li><b>D4 O que a clínica não faz.</b><span class="r"><i>Remove:</i> Posso acreditar em você? · Tem garantia? · Existe risco?</span><span class="r"><i>Credibilidade:</i> rapport (responde ao que o público teme) e justificativa.</span></li>
+    <li><b>D5 Como conferir.</b><span class="r"><i>Remove:</i> Posso acreditar em você? · Quem é você?</span><span class="r"><i>Credibilidade:</i> demonstração (como conferir) e associação (CFM e Receita).</span></li>
+    <li><b>E1 e E3 Limite do formato.</b><span class="r"><i>Remove:</i> Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> rapport (admite o limite).</span></li>
+    <li><b>E2 Limite do tratamento.</b><span class="r"><i>Remove:</i> Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> rapport.</span></li>
+    <li><b>E4 Consulta curta.</b><span class="r"><i>Remove:</i> Existe falha ou limitação?</span><span class="r"><i>Credibilidade:</i> rapport (admite a queixa real).</span></li>
+    <li><b>E5 O amassado.</b><span class="r"><i>Remove:</i> Posso acreditar em você?</span><span class="r"><i>Credibilidade:</i> rapport (nomeia a contradição) e especificidade (endereço único).</span></li>
+  </ul>
+
+  <h3 class="h3s">Perguntas universais sem resposta neste pacote</h3>
+  <ul class="lista marcar">
+    <li><b>Alguém já usou e teve resultado?</b> Sem resposta. Depoimento e antes e depois ficam fora (art. 14, II, “a”, “b” e “g”; art. 11, §2º, “f”). Só entra resultado agregado comprovável, sem identificar paciente (art. 9º, XVI), e a clínica ainda não mostrou a base. [A PREENCHER: a clínica tem base de resultado agregado?]</li>
+    <li><b>Por que nunca ouvi falar?</b> Resposta parcial, só o CNPJ aberto em 11/07/2016 (D1). O número de atendimentos não tem base confirmada. [A PREENCHER: número real de atendimentos, com a definição do que conta]</li>
+    <li><b>Tem garantia?</b> Só garantia de processo, com remédio, critério e prazo escritos. Está aberta em C6, C13 e B até k, P3 e P7 fecharem.</li>
+  </ul>
+</section>
+
+<!-- ADVOGADO -->
+<section class="sec fim" id="advogado">
+  <h2 class="h2s">Peças que o advogado precisa ver</h2>
+  <p class="lead">Ordem de urgência: primeiro as de risco vermelho. Este material não substitui parecer jurídico.</p>
+  <ol class="marcar">
+    <li><b>C1, D1, D5 e A2-3.</b> O convite a conferir CRM, CNPJ e endereço expõe o CNAE 8660-7/00, o endereço de Barueri e a especialidade do médico no CFM. O advogado e o cliente definem se a página sobe antes de h e P2 fecharem (CFM 2.336, art. 5º, e art. 11, XVI).</li>
+    <li><b>D4.</b> As linhas “não promete resultado”, “não publica depoimento” e “não diz que é especialista” contradizem o que está no ar hoje: o site antigo promete “garantias de resultados”, o androclinica.com.br traz oito depoimentos, e o médico aparece como “Médico em Saúde Masculina”. Vermelho até o site antigo sair do ar e as páginas serem corrigidas (CDC, art. 30; CFM 2.336, art. 11, XII e XVI).</li>
+    <li><b>E5 e o diagnóstico.</b> O site antigo diz “não atende presencialmente” e o novo anuncia consultório. Conferir CDC, art. 37, e CFM 2.336, art. 11, XVI. Conferir o efeito da frase de admissão sobre a defesa da clínica.</li>
+    <li><b>C7, C8 e D4.</b> A promessa “nome e preço do tratamento ditos na consulta, antes de pagar” e “a receita é sua”, e as linhas que mencionam farmácia. O Bloco 13 manda não mencionar farmácia e usar receita sem marca. Conferir a leitura do conflito com a RDC 67, item 5.14, e a RDC 96, art. 36. Se houver vínculo com farmácia (P1), valem os arts. 68 e 69 do Código de Ética Médica.</li>
+    <li><b>C12 e D1.</b> A nota fiscal em nome de empresa de gestão, com a descrição “assessoria e consultoria”. Nenhuma fonte diz quem emite a nota, e o contador define o texto. D1 trata a LHP como titular da marca e deixa aberto o campo da Andro Pharma, que assina os anúncios do Google (P1).</li>
+    <li><b>A0, A1, B, C4, C14 e A2-1.</b> A frase “o médico indica o consultório” e as citações da Lei 14.510/2022 e da Resolução CFM 2.314, art. 6º. A Lei 14.510 dá ao médico a independência de decidir sobre a utilização ou não da telessaúde, e C4 e B a usam só nesse ponto. A0 e B citam o art. 6º da 2.314 em texto público, o que obriga a clínica a cumprir o acompanhamento presencial: a citação só fica se o advogado liberar. Conferir também se a peça soa como substituição da consulta presencial (CFM 2.336, art. 11, XI). [conferir: texto integral dos dois artigos]</li>
+    <li><b>A2-1, A2-2, A2-3 e D2.</b> Nome, CRM e MÉDICO em toda peça (art. 4º), dados na página principal (art. 6º), registro da clínica e diretor técnico (art. 5º). Demonstração só em texto, sem imagem de consulta real (art. 11, VIII; art. 9º, IV e V permitem descrever a dinâmica e o local).</li>
+    <li><b>C3A, C3B e C2.</b> Especialidade só com RQE (art. 11, I, e art. 4º). Conferir se algum anúncio no ar ainda chama o médico de “médico de saúde sexual masculina”. C2 vira vermelha se P2 fechar com Medicina do Trabalho.</li>
+    <li><b>C6, C9 e C10.</b> O texto do termo de consentimento (Resolução CFM 2.314, art. 15) e o texto sobre dependência. Conferir art. 11, XII e XVI, e §2º, “e” (medo). A frase “o médico começa pela causa” é mecanismo e passa pelo diretor técnico.</li>
+    <li><b>C11 e D3.</b> A regra de gravação e o consentimento destacado (LGPD, arts. 5º e 11). A decisão é do cliente. Há relato de gravação sem consentimento.</li>
+    <li><b>C13 e E4.</b> A desistência de 7 dias vale para consulta já realizada? Conferir CDC, arts. 30, 35 e 49. A garantia de processo precisa de remédio, critério e prazo escritos.</li>
+    <li><b>B, quando nomear o Doppler peniano.</b> Conferir art. 9º, II e IX, e art. 11, II (capacidade privilegiada de aparelhagem).</li>
+    <li><b>A3-1 e A3-2.</b> WhatsApp é rede própria da clínica (art. 8º, §1º). Conferir quem responde, o que o atendimento pode dizer e o tratamento dos dados da conversa (LGPD).</li>
+    <li><b>Todas as peças de vídeo e WhatsApp.</b> Meta: nenhuma peça afirma a condição da pessoa em segunda pessoa, nem foca em prazer ou desempenho. O gestor de tráfego confere antes de subir.</li>
+  </ol>
+</section>
+
+<!-- PERGUNTAS -->
+<section class="sec fim" id="perguntas">
+  <h2 class="h2s">Perguntas ao cliente para fechar os campos abertos</h2>
+  <p class="lead">Agrupadas por quem responde. Cada pergunta indica a pendência que ela fecha.</p>
+
+  <h3 class="h3s">Diretor técnico e médico</h3>
+  <ol class="marcar">
+    <li><b>P2.</b> Quem é o diretor técnico e quem atende de fato? Nome, CRM/UF, certidão de RQE do CFM e registro da clínica no CRM do estado-sede.</li>
+    <li><b>DT.</b> O que o médico faz e não faz por vídeo? Essa confirmação clínica libera as peças A0, A1, A2, A3, B, C4, C5, C14, D2 e E1 a E3.</li>
+    <li><b>A2, B, C5, D2.</b> Quantos minutos a agenda reserva para cada consulta? Esse é o número oficial, e ele decide se a peça pode dizer “sem pressa”.</li>
+    <li><b>A0, B, C14.</b> Em que situações a clínica indica o presencial? Quais exames só se fazem no consultório?</li>
+    <li><b>A0, B.</b> O acompanhamento por meses entra na regra dos 180 dias da Resolução CFM 2.314, art. 6º, §2º? Como a clínica cumpre?</li>
+    <li><b>h, P2.</b> Quem atende no consultório, e com qual CRM-SP? O médico com CRM-DF atende lá? [conferir: a Lei 14.510 dispensa a inscrição secundária só de quem atende exclusivamente por telessaúde]</li>
+    <li><b>k.</b> Qual é o protocolo sobre dependência e sobre reduzir o remédio? A clínica faz reavaliação marcada, com qual critério e em qual prazo?</li>
+    <li><b>C5, C8, C9.</b> A receita sai com assinatura ICP-Brasil e menção à telemedicina? Existe termo de consentimento da telemedicina?</li>
+  </ol>
+
+  <h3 class="h3s">Cliente, sócio-administrador</h3>
+  <ol class="marcar">
+    <li><b>h.</b> Qual é o endereço oficial único? O consultório anunciado no site novo existe e funciona hoje, em qual cidade, e atende quem? Há fotos autorizadas?</li>
+    <li><b>P1.</b> A clínica tem vínculo societário ou comercial com a farmácia que prepara o tratamento? Qual o nome e o CNPJ da farmácia, e o CNPJ da Andro Pharma, que assina os anúncios do Google?</li>
+    <li><b>P4.</b> A clínica entrega a receita sem exigir a compra? O preço do tratamento é dito antes de qualquer pagamento? Quem fala de tratamento depois da consulta, e quando?</li>
+    <li><b>P3.</b> Qual é o preço único da consulta, R$ 196 ou R$ 197, e por qual forma de pagamento? O retorno é incluído sem custo? Existem sessões extras de R$ 180?</li>
+    <li><b>C11, D3.</b> A consulta é gravada? Se sim: para quê, por quanto tempo, quem acessa e como o paciente autoriza.</li>
+    <li><b>C12.</b> Quem emite a nota fiscal e por que ela sai como assessoria e consultoria? Quem é o prestador da consulta? A nota serve para imposto de renda e reembolso?</li>
+    <li><b>C13.</b> Como a clínica aplica os 7 dias do CDC a uma consulta já realizada? Em quantos dias o estorno é pago?</li>
+    <li><b>Diagnóstico, E5, D4.</b> O site antigo (andropharma.com.br) e os anúncios que dizem “consultório mil reais” saem do ar ou são corrigidos? Os oito depoimentos do androclinica.com.br e a promessa de “garantias de resultados” saem?</li>
+    <li><b>A2-3, E4.</b> O cliente aceita admitir em público que já houve queixa de consulta curta? O que a clínica faz, de fato, quando o paciente acha a consulta curta?</li>
+    <li><b>P6, B, C12, C13.</b> Qual é o WhatsApp único? Quem responde nele, e o atendimento fica restrito a formato, preço e agenda?</li>
+    <li><b>N1, D2.</b> A parceira pode participar da consulta, por vídeo ou no consultório, com o consentimento do paciente? (N1 vem de angulos-8-motivacoes e ainda não está no briefing.)</li>
+    <li><b>Resultado agregado.</b> A clínica tem base real de resultado, sem identificar paciente, para responder “alguém já usou e teve resultado”? Sem base, essa pergunta fica sem resposta.</li>
+  </ol>
+
+  <h3 class="h3s">Rafael</h3>
+  <ol class="marcar">
+    <li><b>Diagnóstico.</b> Ler a resposta atual do FAQ “é presencial?” na página de venda e alinhar com este pacote.</li>
+    <li><b>Diagnóstico.</b> Conferir nos vídeos os anúncios que falam em “consultório por mil reais”, porque a transcrição é automática.</li>
+    <li><b>D1, D5.</b> Abrir a busca de médicos do portal do CFM e ver se o RQE aparece no resultado.</li>
+    <li><b>Diagnóstico.</b> Pedir ao atendimento a contagem de quantas vezes a dúvida sobre presencial aparece no WhatsApp e nas ligações.</li>
+    <li><b>Diagnóstico.</b> Abrir o link da reclamação de Aracaju/SE e conferir a frase literal antes de citá-la.</li>
+  </ol>
+</section>
+
+<footer class="rodape">
+  <p>Fontes lidas: briefing da AndroClinic (01/10/2026), frentes 1, 2, 4 e 5 da pesquisa, transcrições dos anúncios em vídeo, razão por que, análises das páginas atual e institucional, ângulos pelas 8 motivações, texto oficial da Resolução CFM 2.336/2023. A Resolução CFM 2.314 entra só pelos artigos citados na frente 5.</p>
+  <p>Antes de subir qualquer peça: parecer do advogado da área da saúde (P7) e revisão do @arsenal-reviewer contra o Bloco 13 do briefing.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var raiz=document.documentElement;
+  var botaoTema=document.getElementById('tema');
+  var consulta=window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)'):null;
+  var salvo=null;
+  try{salvo=localStorage.getItem('tema-androclinic-confianca');}catch(e){}
+  if(salvo){raiz.setAttribute('data-tema',salvo);}
+  function estaEscuro(){
+    var t=raiz.getAttribute('data-tema');
+    if(t==='escuro'){return true;}
+    if(t==='claro'){return false;}
+    return !!(consulta&&consulta.matches);
+  }
+  function rotuloTema(){botaoTema.textContent=estaEscuro()?'Tema claro':'Tema escuro';}
+  botaoTema.addEventListener('click',function(){
+    var novo=estaEscuro()?'claro':'escuro';
+    raiz.setAttribute('data-tema',novo);
+    try{localStorage.setItem('tema-androclinic-confianca',novo);}catch(e){}
+    rotuloTema();
+  });
+  rotuloTema();
+
+  function marcar(el){
+    var andador=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);
+    var nos=[];
+    while(andador.nextNode()){nos.push(andador.currentNode);}
+    nos.forEach(function(no){
+      var texto=no.nodeValue;
+      var re=/\[[^\]]+\]/g;
+      if(!re.test(texto)){return;}
+      re.lastIndex=0;
+      var frag=document.createDocumentFragment();
+      var ultimo=0,achado;
+      while((achado=re.exec(texto))){
+        if(achado.index>ultimo){frag.appendChild(document.createTextNode(texto.slice(ultimo,achado.index)));}
+        var mk=document.createElement('mark');
+        mk.className='ph';
+        mk.textContent=achado[0];
+        frag.appendChild(mk);
+        ultimo=achado.index+achado[0].length;
+      }
+      if(ultimo<texto.length){frag.appendChild(document.createTextNode(texto.slice(ultimo)));}
+      no.parentNode.replaceChild(frag,no);
+    });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.marcar'),marcar);
+
+  function textoDaPeca(peca){
+    var partes=[];
+    Array.prototype.forEach.call(peca.querySelectorAll('.corpo'),function(c){
+      partes.push((c.getAttribute('data-prefix')||'')+c.innerText.trim());
+    });
+    return partes.join('\n\n');
+  }
+  function palavras(t){return t.trim().split(/\s+/).filter(Boolean).length;}
+  function contar(peca){
+    var tipo=peca.getAttribute('data-conta');
+    var saida=peca.querySelector('.cont');
+    if(!saida||!tipo){return;}
+    saida.classList.remove('alerta');
+    if(tipo==='wa'){
+      var c=peca.querySelector('.corpo');
+      var n=c.innerText.replace(/\r/g,'').trim().length;
+      saida.textContent=n+' de 500 caracteres. Os campos entre colchetes valem pelo texto que entrar neles.';
+      if(n>500){saida.classList.add('alerta');}
+    }else if(tipo==='video'){
+      var f=peca.querySelector('.fala');
+      var w=palavras(f.innerText);
+      var s=Math.round(w/2.5);
+      saida.textContent=w+' palavras, cerca de '+s+' segundos a 150 palavras por minuto. Meta: 25 a 40 s no vídeo inteiro.';
+    }else{
+      var todo=0;
+      Array.prototype.forEach.call(peca.querySelectorAll('.corpo'),function(c){
+        if(c.classList.contains('trava')||c.classList.contains('cond')){return;}
+        todo+=palavras(c.innerText);
+      });
+      saida.textContent=todo+' palavras.';
+    }
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.peca'),function(peca){
+    contar(peca);
+    Array.prototype.forEach.call(peca.querySelectorAll('.corpo'),function(c){
+      c.addEventListener('input',function(){contar(peca);});
+      c.addEventListener('paste',function(ev){
+        ev.preventDefault();
+        var t=(ev.clipboardData||window.clipboardData).getData('text');
+        document.execCommand('insertText',false,t);
+      });
+    });
+    var botao=peca.querySelector('.cp');
+    if(botao){
+      botao.addEventListener('click',function(){copiar(textoDaPeca(peca),botao);});
+    }
+  });
+
+  function copiar(texto,botao){
+    var original=botao.textContent;
+    function volta(){
+      setTimeout(function(){botao.textContent=original;botao.classList.remove('ok');botao.classList.remove('falha');},1800);
+    }
+    function feito(){
+      botao.textContent='Copiado';
+      botao.classList.add('ok');
+      volta();
+    }
+    function falhou(){
+      botao.textContent='Selecione e copie';
+      botao.classList.add('falha');
+      volta();
+    }
+    function reserva(){
+      var ta=document.createElement('textarea');
+      ta.value=texto;
+      ta.style.position='fixed';
+      ta.style.opacity='0';
+      document.body.appendChild(ta);
+      ta.select();
+      var deu=false;
+      try{deu=document.execCommand('copy');}catch(e){deu=false;}
+      document.body.removeChild(ta);
+      if(deu){feito();}else{falhou();}
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(texto).then(feito,reserva);
+    }else{
+      reserva();
+    }
+  }
+})();
+</script>
+</body>
+</html>

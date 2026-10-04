@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analisando a página institucional da AndroClinic — na régua do Gabriel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#F4F1EA;--paper-2:#ECE7DC;--ink:#15130F;--ink-soft:#4A453D;--red:#8C6B16;--bright:#E6C757;--line:#DBD3C4;--cold:#8A8578;--flee:#A33A2B;--ok:#3F6B43;--maxw:1120px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:'Inter',system-ui,sans-serif;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .narrow{max-width:900px}
+  .display{font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;line-height:.92;letter-spacing:.5px}
+  section{padding:clamp(46px,6vw,74px) 0}
+  .nav{position:sticky;top:0;z-index:50;background:rgba(244,241,234,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;gap:16px}
+  .brand{font-family:'Anton';font-size:.98rem;text-transform:uppercase;letter-spacing:1px;display:flex;align-items:center;gap:9px;white-space:nowrap}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--flee);box-shadow:0 0 0 4px rgba(163,58,43,.16)}
+  .navlinks{display:flex;gap:18px;overflow-x:auto}
+  .navlinks a{color:var(--ink-soft);text-decoration:none;font-size:.78rem;font-weight:600;white-space:nowrap}
+  @media(max-width:880px){.navlinks{display:none}}
+  .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--red);display:inline-flex;align-items:center;gap:10px;margin-bottom:18px}
+  .eyebrow::before{content:"";width:30px;height:2px;background:var(--red)}
+  .kicker{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cold);margin-bottom:9px}
+  .hero{padding-top:clamp(44px,6vw,70px);padding-bottom:10px}
+  .hero h1{font-size:clamp(2rem,5.2vw,3.7rem)}
+  .lead{max-width:780px;margin-top:22px;font-size:clamp(1.04rem,2.1vw,1.24rem);color:var(--ink-soft)}
+  .lead b{color:var(--ink)}
+  .section-head{margin-bottom:32px;max-width:840px}
+  .section-head h2{font-size:clamp(1.8rem,4.2vw,2.7rem)}
+  .section-head .lead{font-size:1.02rem;margin-top:12px}
+  .bloco{background:#fff;border:1px solid var(--line);border-radius:9px;padding:26px 30px;margin-bottom:12px}
+  .bloco .tag{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--red);margin-bottom:10px}
+  .bloco p{font-size:1.02rem;margin-bottom:12px}
+  .bloco p:last-child{margin-bottom:0}
+  .bloco .big{font-family:'Newsreader',Georgia,serif;font-size:clamp(1.25rem,2.6vw,1.6rem);line-height:1.35}
+  .bloco.dark{background:var(--ink);border-color:var(--ink)}
+  .bloco.dark p{color:#C9C1B2}
+  .bloco.dark .big{color:#fff}
+  .bloco.dark .tag{color:var(--bright)}
+  .bloco.dark b{color:#fff}
+  .dobra{background:#fff;border:1px solid var(--line);border-radius:9px;margin-bottom:12px;overflow:hidden}
+  .dobra-head{display:flex;align-items:center;gap:16px;padding:16px 24px;border-bottom:1px solid var(--line);background:var(--paper-2)}
+  .dobra-head .n{font-family:'Anton';font-size:1.5rem;line-height:1;color:var(--red)}
+  .dobra-head h3{font-size:1.06rem;flex:1}
+  .nota{font-family:'Anton';font-size:.92rem;padding:4px 12px;border-radius:100px;white-space:nowrap}
+  .nota.mal{background:rgba(163,58,43,.12);color:var(--flee)}
+  .nota.meio{background:rgba(140,107,22,.14);color:var(--red)}
+  .nota.bem{background:rgba(63,107,67,.14);color:var(--ok)}
+  .dobra-body{padding:20px 24px}
+  .cita{font-family:'Newsreader',Georgia,serif;font-size:1.06rem;border-left:3px solid var(--bright);padding:2px 0 2px 14px;margin-bottom:14px}
+  .dobra-body p{font-size:.94rem;color:var(--ink-soft);margin-bottom:10px}
+  .dobra-body p b{color:var(--ink)}
+  .dobra-body ul{list-style:none;margin:4px 0 12px}
+  .dobra-body li{font-size:.92rem;color:var(--ink-soft);padding:5px 0 5px 22px;position:relative}
+  .dobra-body li::before{content:"✕";position:absolute;left:0;color:var(--flee);font-weight:700;font-size:.8rem}
+  .dobra-body li.ok::before{content:"✓";color:var(--ok)}
+  .dobra-body li.gate::before{content:"!";color:var(--red);font-weight:800}
+  .regra{font-size:.84rem;background:var(--paper);border-radius:6px;padding:11px 15px;color:var(--ink)}
+  .regra b{color:var(--red);text-transform:uppercase;font-size:.66rem;letter-spacing:.07em;display:block;margin-bottom:3px}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:9px;background:#fff}
+  table{border-collapse:collapse;width:100%;min-width:620px}
+  th,td{text-align:left;padding:12px 18px;font-size:.9rem;border-bottom:1px solid var(--line)}
+  th{background:var(--ink);color:#fff;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em}
+  tr:last-child td{border-bottom:none}
+  td.pt{font-family:'Anton';font-size:1.05rem;white-space:nowrap}
+  .barra{height:7px;background:var(--paper-2);border-radius:100px;overflow:hidden;min-width:80px}
+  .barra span{display:block;height:100%;background:linear-gradient(90deg,var(--bright),var(--red))}
+  tr.total td{background:var(--ink);color:#fff;font-weight:700}
+  tr.total td.pt{color:var(--bright);font-size:1.3rem}
+  .rw{display:grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-bottom:12px}
+  @media(max-width:720px){.rw{grid-template-columns:1fr}}
+  .rw>div{padding:20px 24px}
+  .rw .antes{border-right:1px dashed var(--line);background:#FBF9F3}
+  @media(max-width:720px){.rw .antes{border-right:none;border-bottom:1px dashed var(--line)}}
+  .rw .t{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+  .rw .antes .t{color:var(--cold)}
+  .rw .depois .t{color:var(--ok)}
+  .rw .txt{font-family:'Newsreader',Georgia,serif;font-size:1.08rem;line-height:1.4}
+  .nota-rw{font-size:.84rem;color:var(--ink-soft);margin-top:10px}
+  .prio{background:#fff;border:1px solid var(--line);border-left:4px solid var(--flee);border-radius:0 9px 9px 0;padding:20px 26px;margin-bottom:10px}
+  .prio h4{font-size:1.04rem;margin-bottom:5px}
+  .prio p{font-size:.92rem;color:var(--ink-soft)}
+  .prio p b{color:var(--ink)}
+  .prio.verde{border-left-color:var(--ok)}
+  .prio.amar{border-left-color:var(--red)}
+  .cmp{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:14px}
+  @media(max-width:860px){.cmp{grid-template-columns:repeat(2,1fr)}}
+  .cmp div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 12px;text-align:center}
+  .cmp .n{font-family:'Anton';font-size:1.7rem;color:var(--red);line-height:1}
+  .cmp .t{font-size:.76rem;color:var(--ink-soft);margin-top:8px}
+  .note{font-size:.82rem;color:var(--cold);margin-top:14px}
+  footer{border-top:1px solid var(--line);padding:28px 0 44px;font-size:.8rem;color:var(--cold)}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap">
+  <div class="brand"><span class="dot"></span>Análise · AndroClinic institucional</div>
+  <div class="navlinks"><a href="#veredito">Veredito</a><a href="#gate">Gate jurídico</a><a href="#dobras">Bloco a bloco</a><a href="#reescrita">Reescrita</a><a href="#ordem">O que fazer</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Analisando a página · androclinic.com.br</div>
+  <h1 class="display">A página mais sóbria<br>da marca <span style="color:var(--flee)">contradiz<br>a página que vende</span></h1>
+  <p class="lead">A institucional não tem cronômetro, antes e depois, depoimento nem preço. Fala como clínica. A landing page da mesma marca promete "resultados rápidos", "R$ 197" e "última chance". <b>O paciente que pesquisa o nome vê as duas.</b></p>
+  <p class="note">Análise de 02/10/2026, feita sobre o HTML completo da home (texto, FAQ, schema, links e imagens). Não abri no navegador nem testei mobile, velocidade ou páginas internas. Por ser institucional, a régua de 300 pontos não se aplica (não há oferta, garantia nem urgência a pontuar), então esta análise não tem nota.</p>
+</div></header>
+
+<section id="veredito"><div class="wrap narrow">
+  <div class="bloco dark"><div class="tag">O achado</div>
+    <p class="big">A institucional já contém a posição defensável da AndroClinic: <b>a clínica que vende como clínica</b>. Diretor técnico com CRM, sete médicos com CRM, alvará ANVISA, CNPJ, endereço e FAQ honesto. A landing page foi construída <b>contra</b> essa posição.</p></div>
+  <div class="bloco"><div class="tag">Você já fez isso</div>
+    <p>Você já deu duas vozes à mesma marca. Uma diz "não existem receitas prontas" e pede exames só depois da consulta. A outra diz "garantir minha consulta agora, as vagas encerram hoje". <b>Quando o paciente nota a diferença, ele não conclui que a clínica tem dois públicos. Conclui que uma das duas está mentindo.</b></p></div>
+  <div class="bloco"><div class="tag">O que ainda falta</div>
+    <p>A institucional tem os mesmos três buracos da LP: <b>preço invisível, "o que vem depois da consulta" sem resposta e prova numérica sem fonte</b>. Tem também promessas que o gate jurídico precisa avaliar, descritas abaixo.</p></div>
+</div></section>
+
+<section id="gate" style="background:var(--paper-2)"><div class="wrap narrow">
+  <div class="section-head"><div class="kicker">Antes da copy</div><h2 class="display">Quatro itens para o gate jurídico</h2>
+    <p class="lead">Não é parecer jurídico. São pontos em que a página se aproxima do que o CFM restringe. <b>O jurídico confirma cada um</b>, e a pendência 7 do briefing já cobre isso.</p></div>
+  <div class="prio"><h4>1. Promessa e autopromoção</h4><p>"Restaurar a potência, confiança e desempenho", "resultados reais para a sua confiança", "medicina baseada em resultados", "vanguarda científica", "referência". No FAQ: "a grande maioria dos pacientes relata melhoras significativas e seguras já nas primeiras semanas", sem fonte.</p></div>
+  <div class="prio"><h4>2. Reposição hormonal</h4><p>O card "Reposição Hormonal e DAEM" liga queda de libido, fadiga e <b>perda de massa muscular</b> à terapia de testosterona. Existe resolução do CFM sobre hormônio para ganho de massa e desempenho. Confirmar o texto com o jurídico antes de qualquer anúncio sobre o tema.</p></div>
+  <div class="prio"><h4>3. Título de "especialista"</h4><p>O Dr. Cristiano é "Médico em Saúde Masculina", com "fellowship pelo Hospital Sírio-Libanês". A página usa "Nossas Especialidades Médicas" e a LP usa "especialista". <b>Nenhum RQE aparece em lugar nenhum.</b> Pergunta objetiva: qual título e qual registro sustentam o termo?</p></div>
+  <div class="prio amar"><h4>4. Responsável técnico em outro estado</h4><p>Diretor técnico com CRM-DF numa clínica sediada em Florianópolis. Em telemedicina pode ser regular, mas é a pendência que você já tinha sobre quem é o diretor técnico.</p></div>
+</div></section>
+
+<section id="dobras"><div class="wrap">
+  <div class="section-head"><div class="kicker">Toda semana eu analiso a copy dos maiores players</div><h2 class="display">E nessa eu encontrei…</h2>
+    <p class="lead">Oito blocos, na ordem em que o paciente lê.</p></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">01</span><h3>Topo — H1, subheadline e botão</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Referência em Saúde Sexual e Performance Masculina."</div>
+    <ul>
+      <li><b>O H1 é título de categoria, não de paciente.</b> Qualquer clínica do ramo colaria essa frase na própria home. Falha no teste do concorrente.</li>
+      <li><b>"Referência" é autoproclamação.</b> O leitor desconfia de quem se chama de referência sem dizer por quê.</li>
+      <li><b>O sigilo está no kicker pequeno</b> ("Medicina Especializada • Sigilo Absoluto"), a objeção número um desse paciente em corpo de legenda.</li>
+      <li><b>A subheadline junta três promessas num parágrafo:</b> "abordagem científica", "infraestrutura avançada" e "medicina baseada em resultados". Nenhuma diz o que o paciente faz no primeiro passo.</li>
+      <li class="ok"><b>O botão tem verbo e objeto:</b> "Agendar Avaliação Médica". É melhor que "saiba mais" e mais sóbrio que o da LP.</li>
+      <li class="ok"><b>O diretor técnico aparece com nome, especialidade e CRM logo abaixo do hero.</b> É a credencial certa no lugar certo.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>H1 diz o que o leitor ganha, para quem e em quanto tempo. Aqui diz o que a clínica acha de si mesma.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">02</span><h3>Especialidades — três cards</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <div class="cita">"Falta de controle ejaculatório e ansiedade de performance. Abordagem clínica para aumento do tempo de latência e controle neuromuscular."</div>
+    <ul>
+      <li class="ok"><b>Cada card nomeia a dor em linguagem clínica e entende a ansiedade de performance.</b> "Tempo de latência" e "controle neuromuscular" dão ar de método sem prometer cura.</li>
+      <li><b>"Restauração do fluxo sanguíneo e reabilitação peniana"</b> promete uma recuperação física específica, sem fonte e sem condicionante.</li>
+      <li><b>Os três botões dizem "Detalhes do Tratamento"</b>, exatamente igual. O paciente não sabe qual dor cada botão resolve sem ler o card ao lado.</li>
+      <li><b>O terceiro card é o único que muda de assunto:</b> "Reposição Hormonal e DAEM", com sigla que o leigo não decodifica e ligada a massa muscular (ver gate, item 2).</li>
+      <li><b>A LP nunca fala de reposição hormonal.</b> O hero da institucional fala. É o primeiro sinal de que as duas páginas vendem produtos diferentes.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">03</span><h3>Corpo clínico — sete médicos</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Dr. Marcelo Azeredo Passos — Com formação em Medicina e Psicologia e pós-graduação em Psiquiatria (Não especialista)…"</div>
+    <ul>
+      <li class="ok"><b>CRM completo de cada médico, sem exceção.</b> Em saúde, é o dado que não se fabrica, e a página mostra todos.</li>
+      <li class="ok"><b>Admitir "(Não especialista)" é a honestidade rara que o CFM exige.</b> Quem lê confia mais.</li>
+      <li><b>Dois bios são quase idênticos:</b> Dr. Marcelo e Dr. Pedro Henrique repetem a mesma frase de formação. Parece template e anula o valor de listar sete nomes.</li>
+      <li><b>Quatro bios descrevem o médico por outra coisa.</b> "Urgência, emergência e gestão em saúde", "suporte terapêutico integrado", "telemedicina por plataformas como a Telemedico". Nenhum diz o que ele faz na AndroClinic para um paciente com disfunção erétil.</li>
+      <li><b>"Equipe multidisciplinar de excelência"</b> é superlativo sem lastro. Sete nomes sem RQE e sem função declarada não provam multidisciplinaridade.</li>
+      <li><b>Mencionar a plataforma de terceiros no bio</b> ("por meio de plataformas como a Telemedico") diz ao paciente que o atendimento passa por outra empresa. Ou isso é transparência intencional, ou é vazamento de operação.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Autoridade abre a porta. É a promessa clara que faz o cliente entrar — e nenhum bio diz o que o médico faz por ele.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">04</span><h3>Como funciona a consulta — quatro passos</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <div class="cita">"Protocolo Exclusivo. Sem tratamentos genéricos. O médico define um plano de ação sob medida, baseado unicamente na sua fisiologia e nos seus exames."</div>
+    <ul>
+      <li class="ok"><b>"Analisamos seu histórico de forma acolhedora para investigar e mapear a causa exata do problema"</b> é a melhor frase de processo da página: promete investigação, não cura.</li>
+      <li><b>"Protocolo Exclusivo" não é explicado.</b> É nome bonito sem conteúdo. Mecanismo sem explicação não é diferencial, é confusão.</li>
+      <li><b>"Baseado unicamente na sua fisiologia e nos seus exames"</b> contradiz o FAQ, que diz que exames são pedidos só depois da primeira consulta. A frase sugere que o plano já vem dos exames.</li>
+      <li><b>O passo 4 é o mesmo da LP:</b> "Inicia sua transformação", com "resultados seguros". Não diz que o tratamento é pago à parte nem o que ele custa.</li>
+      <li><b>O botão repete o do hero</b> sem acrescentar nada. Aqui caberia o preço da consulta, ou o que acontece se o médico concluir que não há tratamento a indicar.</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Toda condição que o lead não consegue conferir antes de comprar vira objeção silenciosa.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">05</span><h3>FAQ — "Transparência sobre o seu tratamento"</h3><span class="nota bem">o melhor bloco da página</span></div><div class="dobra-body">
+    <div class="cita">"Não. Recomendamos que você passe pela primeira avaliação antes de realizar qualquer exame, poupando o seu tempo e evitando gastos com exames desnecessários."</div>
+    <ul>
+      <li class="ok"><b>As respostas são específicas e honestas:</b> exames só depois, atendimento particular com recibo para reembolso, "a medicina não trabalha com receitas prontas", medicação como "ponte" temporária. É a voz que a marca devia ter em todas as páginas.</li>
+      <li class="ok"><b>Responde à pergunta de dependência de frente.</b> É a objeção real de quem já ouviu falar de remédio de ereção.</li>
+      <li class="ok"><b>Cita a LGPD e as diretrizes do CFM</b> ao responder sobre sigilo. Mostra que alguém pensou nisso.</li>
+      <li><b>Nenhuma pergunta é sobre preço.</b> O paciente quer saber quanto custa a consulta, quanto custa o tratamento e se o plano é mensal. O FAQ lista seis dúvidas e pula a mais prática.</li>
+      <li><b>"Melhoras significativas e seguras já nas primeiras semanas"</b> é a promessa mais forte da página, dentro do bloco mais honesto (ver gate, item 1).</li>
+      <li><b>O FAQ ocupa um terço do texto da página e está no meio.</b> O melhor argumento da institucional não aparece acima da dobra.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">06</span><h3>Educação em saúde — os artigos</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <div class="cita">"Apneia do Sono: o Vilão Noturno que Reduz a Testosterona e a Libido."</div>
+    <ul>
+      <li class="ok"><b>Autoria do diretor técnico, com "resumo clínico".</b> Conteúdo assinado por médico é o que dá peso à marca e puxa busca orgânica.</li>
+      <li class="ok"><b>O artigo da apneia liga o tema ao núcleo da clínica</b> (testosterona e libido). É o único dos quatro que conversa com o serviço.</li>
+      <li><b>Vasectomia, varicocele e infertilidade não são o que a clínica vende.</b> O paciente que chega por esses temas encontra uma clínica de disfunção erétil e reposição hormonal. A página não diz se atende o caso ou encaminha.</li>
+      <li><b>Nenhum artigo termina com próximo passo.</b> "Ler Conteúdo" abre o texto; o CTA de agendamento não aparece nos cards.</li>
+    </ul>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">07</span><h3>Referência em saúde masculina — os contadores</h3><span class="nota mal">reprovado</span></div><div class="dobra-body">
+    <div class="cita">"Resultados reais para a sua confiança e qualidade de vida. +200.000 avaliações realizadas. +10 anos no Brasil."</div>
+    <ul>
+      <li><b>200.000 avaliações sem fonte nem definição.</b> O que conta como "avaliação"? Consulta, questionário, quiz? Em dez anos com sete médicos, são cerca de 20 mil por ano. O número precisa ser explicável.</li>
+      <li><b>Os contadores mostram "+0" sem JavaScript.</b> O valor final (200.000 e 10) só existe no atributo que a animação lê. Quem bloqueia script, ou o robô que indexa, vê zero.</li>
+      <li><b>"10 anos" é ambíguo:</b> é a idade da clínica ou a experiência do diretor? Aqui o Dr. Cristiano tem "mais de uma década", na LP "12 anos".</li>
+      <li><b>"Resultados reais" é o título sobre dois números que não são resultado.</b> Avaliação realizada mede volume, não desfecho.</li>
+      <li><b>"Nossa missão é restaurar a potência, confiança e desempenho"</b> fecha o bloco com a mesma promessa do hero (ver gate, item 1).</li>
+    </ul>
+    <div class="regra"><b>Regra violada</b>Adjetivo grande pede número grande. E número grande pede fonte.</div>
+  </div></div>
+
+  <div class="dobra"><div class="dobra-head"><span class="n">08</span><h3>Contato, agendamento e rodapé</h3><span class="nota meio">meio termo</span></div><div class="dobra-body">
+    <ul>
+      <li class="ok"><b>Rodapé completo:</b> razão social, CNPJ, alvará ANVISA, diretor técnico com CRM, endereços em Florianópolis e Alphaville, política de privacidade e termos. É o que separa a página de um golpe.</li>
+      <li><b>O agendamento leva a outro domínio</b> (agendamento.andromens.com.br), com utm "site_institucional". O paciente sai do site da clínica para um endereço com outro nome, num momento de decisão sensível.</li>
+      <li><b>Dois WhatsApps, dois números:</b> um de suporte (48 6136-9359) e um de informações (48 98812-8284). Sem diferenciar para o paciente qual usar.</li>
+      <li><b>Quatro marcas de domínio no caminho:</b> androclinic.com.br, andromedicina.com, andromens.com.br e, na pesquisa, andropharma.com.br. A marca visual é AndroClinic nas páginas, mas o endereço muda a cada passo.</li>
+      <li><b>O botão final repete o mesmo texto</b> do hero. Seis vezes "Agendar" ao longo da página, sem variar o que o paciente ganha ao clicar.</li>
+      <li><b>"Site desenvolvido por Agência Nuvion"</b> no rodapé de uma clínica de saúde sexual. Detalhe pequeno, mas o paciente não precisa ver o fornecedor do site.</li>
+    </ul>
+  </div></div>
+</div></section>
+
+<section id="reescrita" style="background:var(--paper-2)"><div class="wrap">
+  <div class="section-head"><div class="kicker">Vamos reescrever?</div><h2 class="display">Os consertos</h2>
+    <p class="lead">A institucional não precisa ser refeita. Precisa de voz única com a LP e de oito ajustes. Itens entre colchetes dependem de fato que só o cliente confirma.</p></div>
+
+  <div class="rw"><div class="antes"><div class="t">H1 hoje</div><div class="txt">"Referência em Saúde Sexual e Performance Masculina."</div></div>
+    <div class="depois"><div class="t">H1 reescrito</div><div class="txt">"Disfunção erétil, ejaculação precoce e queda de libido têm causa. A consulta é onde ela aparece."</div><p class="nota-rw">É o mesmo H1 proposto para a LP. A voz única começa aqui.</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">Subheadline hoje</div><div class="txt">"Tratamentos médicos personalizados… abordagem científica e infraestrutura avançada… medicina baseada em resultados."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Consulta online, de 1 para 1, com médico. [Quem vê o agendamento, onde fica o prontuário.] Sem plano de saúde, com recibo para reembolso."</div><p class="nota-rw">Põe o sigilo e a regra comercial, que o paciente procura, onde hoje há adjetivo.</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">Passo 3 e 4 hoje</div><div class="txt">"Protocolo exclusivo… Inicia sua transformação… resultados seguros."</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"Se o médico indicar tratamento, ele explica as opções, o custo e o tempo de acompanhamento na própria consulta. Você decide depois, sem compromisso."</div><p class="nota-rw">Conta o que vem depois da consulta. Depende da decisão do cliente sobre a oferta de entrada e do gate sobre exibir preço.</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">Bios do corpo clínico hoje</div><div class="txt">Sete bios, dois quase iguais, quatro sem função declarada.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Um padrão fixo de três linhas por médico: formação, [RQE, se houver] e "na AndroClinic, atende [o quê]".</div><p class="nota-rw">Substitui superlativo por função. Mostra quem atende quem, e tira a repetição.</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">Contadores hoje</div><div class="txt">"+200.000 avaliações realizadas. +10 anos no Brasil." — "+0" sem JavaScript.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">"[Definição] realizadas entre [ano] e [ano]." Valor fixo no HTML, com a animação só por cima.</div><p class="nota-rw">Número com definição e período vira prova. Valor fixo no HTML aparece para o robô e para quem bloqueia script.</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">FAQ hoje</div><div class="txt">Seis perguntas, nenhuma sobre preço, uma no meio da página.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Adicionar "Quanto custa a consulta?" e "E se o médico indicar tratamento, quanto custa?". Subir o FAQ para logo depois dos quatro passos.</div><p class="nota-rw">É a dúvida mais prática e a única que o FAQ pula. Responde ao que gera reclamação depois.</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">Agendamento hoje</div><div class="txt">Botão único para agendamento.andromens.com.br e dois WhatsApps sem diferenciação.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Um destino com a marca da clínica e, se mantiver o WhatsApp, um só número, com a frase "para dúvidas antes de marcar".</div><p class="nota-rw">Menos saltos de domínio na hora da decisão, e uma resposta só para "como falo com vocês".</p></div></div>
+  <div class="rw"><div class="antes"><div class="t">Artigos hoje</div><div class="txt">Quatro artigos, três fora do núcleo da clínica, sem CTA.</div></div>
+    <div class="depois"><div class="t">Conserto</div><div class="txt">Fim de cada artigo com "Se isso descreve o que você sente, [agendar consulta]" — e, nos temas que a clínica não trata, a frase "este caso é de [especialista]; podemos indicar".</div><p class="nota-rw">Transforma busca em agendamento e protege a promessa de saber o que se trata.</p></div></div>
+</div></section>
+
+<section id="ordem"><div class="wrap narrow">
+  <div class="section-head"><div class="kicker">A ordem de ataque</div><h2 class="display">O que fazer primeiro</h2></div>
+  <div class="prio"><h4>1. Unificar a voz entre institucional e LP</h4><p><b>A institucional é a referência.</b> A LP perde cronômetro, antes e depois, depoimento e "R$ 500 por R$ 197". Duas vozes na mesma marca fazem o paciente desconfiar das duas.</p></div>
+  <div class="prio"><h4>2. Gate jurídico nos quatro itens</h4><p>Promessa, reposição hormonal, título de especialista e CRM-DF. Antes de gastar mídia em qualquer um dos temas.</p></div>
+  <div class="prio"><h4>3. Mostrar o preço da consulta e dizer o que vem depois</h4><p>Alinhado à pendência 4. É o ajuste que mais reduz reclamação por expectativa, e o que mais depende da decisão do cliente.</p></div>
+  <div class="prio"><h4>4. Contadores com definição e valor fixo no HTML</h4><p>Dois ajustes técnicos e de texto. Resolvem a prova numérica e a leitura por robô.</p></div>
+  <div class="prio"><h4>5. Reescrever o H1 e subir o FAQ</h4><p>Diagnóstico no lugar de "referência". FAQ logo depois dos quatro passos, com as duas perguntas de preço.</p></div>
+  <div class="prio"><h4>6. Padronizar os bios do corpo clínico</h4><p>Três linhas fixas por médico, com função e, se houver, RQE. Sai a repetição e o superlativo.</p></div>
+  <div class="prio verde"><h4>7. Não mexer no que está bom</h4><p>O diretor técnico com CRM logo abaixo do hero, o CRM de cada médico, o "(Não especialista)", o FAQ honesto, os artigos assinados, o schema e o rodapé de conformidade. <b>É o ativo que a LP desperdiça.</b></p></div>
+
+  <div class="bloco dark" style="margin-top:22px"><div class="tag">A lição que fica</div>
+    <p class="big">A AndroClinic já escreveu a página certa: a institucional. <b>Quem constrói uma clínica séria e depois a anuncia com o formato da promoção desfaz, em uma página, o que construiu na outra.</b></p></div>
+</div></section>
+
+<footer><div class="wrap narrow">
+  <p>Análise da página androclinic.com.br aplicando a rubrica reconstruída de @ocopyqvende · 02/10/2026. Não substitui parecer jurídico.</p>
+  <p style="margin-top:8px">Arsenal de Funis — © 7D/SECRETS LTDA (Anthony Nichols &amp; André Cia)</p>
+</div></footer>
+</body>
+</html>
