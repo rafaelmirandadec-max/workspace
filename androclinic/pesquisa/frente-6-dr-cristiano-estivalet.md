@@ -271,3 +271,36 @@ Não cita nome completo, CRM, RQE, especialidade, UFSM, 1999, 2015, fellowship, 
 ### 12.5 Uso recomendado
 
 Trechos limpos para edição: 30:15 a 30:31, 17:38 a 17:45, 33:07 a 33:23 e 34:51 a 35:22. Evitar os trechos de 12.4.
+
+---
+
+## 13. Segunda transcrição de live (acrescentada em 06/10/2026)
+
+Fonte: transcrição automática de outra live, enviada pelo cliente, sem tempos. O falante se apresenta: "Eu sou doutor Cristiano Estivaletti, sou médico". A transcrição tem erros de grafia. Esta live é a primeira fonte pública em que ele mesmo conta a própria história.
+
+### 13.1 O que ele diz sobre si (na voz dele)
+
+- "Só trato de saúde sexual masculina há mais de 10 anos. Comecei a aprender, a desenvolver técnicas... em 2013. Mas eu só faço isso desde 2015." Bate com o Doctoralia (Mais Homem, 2015).
+- "Eu sou pós-graduado em endocrinologia, sexologia." É afirmação dele, sem certificado.
+- Mostra fotos ("essa foto deve ser de 2013, 2014... eu já tinha até perdido o peso"; "essa aqui é 2009") e diz: "Eu era esse cara aqui."
+- "Eu era casado com a mãe desse menino aqui" (foto do filho).
+- "Eu comecei a falhar, a ter disfunção erétil, com 35 anos de idade. Dois anos depois, eu já tinha perdido peso, inclusive... maio de 2012. Eu tive um infarto do miocárdio aos 37 anos de idade. Eu já estava com disfunção erétil."
+- "Eu já estive na sala de espera de uma clínica para ser atendido por um urologista, e é constrangedor. Tinha um monte de velhinho de 60 e tantos, 70 anos, e eu lá com 37."
+- Menciona perda de casamento só em tom de pergunta, no meio de um trecho sobre outro assunto ("eu perdi meu casamento? por causa da disfunção"). A transcrição é ambígua. Não afirmar a causa.
+
+### 13.2 O que muda no Reel da vida do Dr.
+
+- **Ordem dos fatos.** Pela fala dele, a disfunção erétil começou aos 35 anos e o infarto veio aos 37, quando ele já tinha perdido peso. O roteiro anterior ("150 quilos, e enfartei") sugere que o infarto veio do peso. Isso contradiz a fala dele e deve ser corrigido (CFM 2.336, art. 11, §5º, informação inverídica, em leitura da pesquisa).
+- **150 kg.** O número não aparece nesta live, só nos Stories. Fica como "confirmar com o Dr.".
+- **Meia maratona de Buenos Aires e aniversário de um ano.** Não aparecem aqui. Continuam sem fonte além dos Stories.
+- **Detalhe novo e forte:** a sala de espera do urologista, aos 37 anos, entre homens de 60 e 70.
+
+### 13.3 Riscos para o advogado nesta live
+
+- Piada com origem étnica ("japonesinho", "enquanto a gente vai no Carnaval eles vão na pós-graduação"). Não usar nenhum trecho próximo.
+- Linguagem de baixo calão e termos sexuais explícitos em vários trechos.
+- Crítica a outra especialidade ("urologista é cirurgião... não vai tratar diabetes"). Evitar (art. 11, §4º, "b").
+- Venda na live: "se marcar durante a live, a consulta é comigo", preço da consulta e pedido de exame por mensagem privada.
+- Citação de marca de lubrificante e de remédio pelo nome.
+- Relato de caso de paciente de 42 anos com valores de exame. Evitar como prova.
+- Afirmação de que o paciente "perdeu meio ano e gastou dinheiro". É apelo de perda.
