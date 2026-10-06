@@ -32,13 +32,49 @@ Se faz sentido, siga o perfil ou salve este vídeo.
 
 Tela final: Dr. Cristiano Grizza Estivalet, MÉDICO, CRM-DF 15471, mais rodapé legal.
 
-## Versão B: "Mas nem sempre foi assim" (só depois da confirmação e da autorização por escrito)
+## Versão B corrigida: "Eu já estava com disfunção erétil" (85 a 95 s, só depois da confirmação e da autorização por escrito)
 
-Usa o roteiro de 85 s já entregue (retrato, 150 kg, aniversário, estudo, medalha, academia, retorno ao retrato) com três inserções da live:
+Ordem dos fatos conforme a segunda live: disfunção erétil aos 35 anos, peso já perdido, infarto em maio de 2012, aos 37. A versão anterior ("150 kg, e enfartei") sugeria que o infarto veio do peso e deve ser descartada. Marcadores `[confirmar]` e `[proposta]` dependem do Dr.
 
-1. Depois de "Hoje eu atendo homens que enfrentam dificuldades com peso, hormônios e saúde sexual", entra o clipe 30:15 a 30:31 ("Não é gravação, gente. É eu mesmo").
-2. Antes do fecho, entra o clipe 34:51 a 35:22 (cidade do interior do Acre, só de barco ou de avião).
-3. No cartão final, entra o clipe 17:38 a 17:45 ("Disfunção erétil não é doença. É o sinal de alguma coisa maior").
+Gancho (voz dele, tela escura, texto grande): Eu tive um infarto aos 37 anos. Eu já estava com disfunção erétil.
+
+Retrato: Hoje eu sou médico. Cuido da minha saúde e da saúde dos meus pacientes. Mas nem sempre foi assim.
+
+Foto de 2009: Eu já fui obeso. `[Cheguei a pesar 150 quilos. Confirmar.]`
+
+Foto do aniversário `[confirmar a ordem: se foi depois do infarto, mover este bloco para depois de "Tudo desmoronou"]`: Esta foto é o aniversário de um ano do meu filho. Tem bolo. Tem vela. E eu estou aplaudindo. Eu estava ali. Mas eu não estava bem.
+
+Foto de 2013 ou 2014: Eu perdi peso. `[proposta]` Mas o corpo já tinha começado a avisar. Aos 35 anos, eu comecei a falhar. Disfunção erétil.
+
+Sala de espera (ilustração): Eu já estive na sala de espera de um urologista. Eu tinha 37 anos. Todo mundo ali tinha 60, 70. E eu lá, com 37.
+
+(silêncio de 2 s)
+
+Cartão preto, texto branco: Em maio de 2012, eu tive um infarto. Aos 37 anos.
+
+(silêncio de 2 s)
+
+Minha saúde chegou no limite. E com ela, minha autoestima, meus relacionamentos. Tudo desmoronou. `[E, para piorar, veio uma separação que eu não esperava. Confirmar.]`
+
+`[confirmar qual foi o momento da virada]` Foi nesse momento que eu decidi virar a chave.
+
+Eu fui estudar. Entender meu corpo. Minha mente. E tudo que me levou àquele caminho. `[Fiz pós em endocrinologia e sexologia. Curso, instituição e ano com certificado.]`
+
+Eu mergulhei de cabeça.
+
+Foto da medalha: `[Em 2017, eu corri uma meia maratona em Buenos Aires. Confirmar.]`
+
+Foto da academia: Mas eu não queria só me salvar. Eu queria poder ajudar quem passa pelo que eu passei.
+
+Retrato final: Hoje eu atendo homens que enfrentam dificuldades com peso, hormônios e saúde sexual. Eu também enfrentei. `[proposta]` Inclusive a sala de espera. E eu sei como é a autoestima desmoronar.
+
+Por isso, quando um homem me conta que está com vergonha, eu não olho de cima. Eu escuto de igual para igual.
+
+Se faz sentido, siga o perfil ou salve este vídeo.
+
+Tela final: Dr. Cristiano Grizza Estivalet, MÉDICO, CRM-DF 15471, mais o rodapé legal.
+
+Inserções da live, se o Dr. quiser: o clipe "Não é gravação, gente. É eu mesmo" (primeira live, 30:15 a 30:31) antes do fecho.
 
 ## Não usar da live
 
