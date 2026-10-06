@@ -230,3 +230,44 @@ Fontes consultadas nesta frente (acessadas em 06/10/2026, salvo indicação):
 
 
 Nota de edição: pistas de processos e de candidatura que o researcher achou por busca, sem confirmar que são do mesmo médico, foram removidas deste arquivo porque o repositório é público. Se o cliente quiser checar, a consulta é feita por advogado, nos tribunais.
+
+---
+
+## 12. Transcrição de live enviada pelo cliente (acrescentada em 06/10/2026)
+
+Fonte: transcrição automática de uma live de cerca de 44 minutos, enviada pelo cliente. O texto não traz o nome do falante. Atribuí ao Dr. Cristiano porque o falante diz atender de Brasília e fala em ir à Itália, o que bate com o Doctoralia. Isso é SUPOSIÇÃO até o Dr. confirmar. A transcrição tem erros de grafia. Os tempos abaixo são os da transcrição. A data da live não aparece.
+
+### 12.1 O que ele diz sobre si (FATO, na voz dele)
+
+- 0:30 a 0:45. "Todos os dias eu atendo pacientes via telemedicina aqui pela Androclinic."
+- 30:15 a 30:31. Um paciente "entrou desconfiado": "achei que ia ser uma inteligência artificial... uma gravação". Ele responde: "Não é gravação, gente. É eu mesmo."
+- 30:43 a 30:56. Atende de uma clínica em Brasília, com três consultórios. Ocupa o menor, para os outros médicos atenderem.
+- 32:44 a 35:28. Já atendeu paciente numa plataforma de petróleo a 100 km da costa, num barco subindo o Amazonas em viagem de 7 dias, e numa cidade do interior do Acre sem estrada, acessível só por barco ou avião.
+- 33:07 a 33:23. Vai ficar 40 dias na Itália (Milão e Torino), atendendo por telemedicina e "aprendendo a falar italiano".
+- 37:03 a 37:15. Diz que há equipe que atende o Instagram: "Não sou só eu."
+- 20:00 a 20:26. Diz que recusa tratamento a quem antes precisa controlar rim, diabetes e colesterol.
+
+### 12.2 O que ele não diz
+
+Não cita nome completo, CRM, RQE, especialidade, UFSM, 1999, 2015, fellowship, pós, obesidade, infarto, disfunção erétil própria, filho nem maratona. A história pessoal dos Stories continua sem fonte além dos próprios Stories.
+
+### 12.3 Frases citáveis, com tempo
+
+- 17:32. "Disfunção erétil não é doença. É o sinal ou sintoma de alguma coisa maior."
+- 21:06. "Adrenalina é o inimigo da ereção."
+- 41:07 a 41:41. O método: pegar todos os sinais e procurar uma explicação só. "Se ele começar a arrumar vários problemas para você, ele não está pensando fundo o suficiente."
+- 24:41 a 28:33. A consulta como ele descreve: idade, trabalho, rotina, sono, relacionamento, filhos, exames recentes, remédios. É o que ele diz fazer, não prova do que a consulta faz.
+
+### 12.4 Riscos na live (para o advogado)
+
+- Promessa de resultado: 39:20 ("a ejaculação volta assim como era antes") e 35:41 ("Dá para fazer ficar melhor? Dá").
+- Resultado de paciente e hormônio: 23:05 a 23:28 ("indução hormonal", paciente com testosterona alta "sem usar testosterona"). CFM 2.333/2023.
+- Preço e escassez de agenda: 29:44 a 30:15 ("Consulta 197", "vai ter gente doido por uma consulta e não vai ter").
+- Pedido de exame antes da consulta, por mensagem privada: 29:44 a 29:56. Pergunta para o advogado.
+- Linguagem de baixo calão e crítica a quem "não é médico": ao longo da live.
+- Conteúdo político no encerramento: 43:34 a 43:59.
+- Nome de medicamento de prescrição: aceitável em live educativa, vedado em anúncio.
+
+### 12.5 Uso recomendado
+
+Trechos limpos para edição: 30:15 a 30:31, 17:38 a 17:45, 33:07 a 33:23 e 34:51 a 35:22. Evitar os trechos de 12.4.
