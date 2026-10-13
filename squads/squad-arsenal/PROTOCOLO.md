@@ -86,6 +86,8 @@ node squads/squad-arsenal/ferramentas/ler-pagina.mjs <url> [url...] --max=20000 
 
 Ele imprime o texto visível, o status e a hora da leitura. Funciona em sites, Biblioteca de Anúncios do Meta, Central de Transparência de Anúncios do Google e busca do YouTube. Instagram e Reclame Aqui costumam bloquear sem login: registre o bloqueio e procure a informação por outra fonte (busca do Google, perfis espelhados em notícias, Google Maps). Use o terminal só para ler páginas e salvar arquivos da pesquisa.
 
+A cota de WebSearch é limitada por sessão e dividida entre todos os agentes. Em pesquisa grande ou paralela, use o WebSearch para achar as fontes e o leitor para buscar e ler (Bing ou DuckDuckGo pelo próprio leitor: `https://www.bing.com/search?q=...`, `https://html.duckduckgo.com/html/?q=...`).
+
 ## 9. Onde está o método
 
 As skills ficam em `squads/squad-arsenal/skills/<nome>/SKILL.md`. Leia só as que a sua tarefa pede; cada agente indica as suas.

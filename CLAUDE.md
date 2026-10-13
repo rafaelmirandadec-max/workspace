@@ -39,6 +39,12 @@ Palavras que confundem: **"lead"** pode ser o contato captado (funil/métricas) 
 
 Inclua no prompt: a pasta do projeto, o que entregar e em que arquivo, o que já foi decidido, o que o Rafael pediu com as palavras dele e as preferências conhecidas (formato, tamanho, tom). Peça que o agente siga o `PROTOCOLO.md`.
 
+## Pesquisa na web neste ambiente
+
+- O WebFetch pode falhar com erro de endereço. Os agentes leem páginas com `node squads/squad-arsenal/ferramentas/ler-pagina.mjs` pelo terminal (ver seção 8 do PROTOCOLO).
+- A lista de agentes e as ferramentas de cada um são carregadas quando a sessão começa. Se um agente foi editado no meio da sessão (por exemplo, ganhou o terminal), a versão nova só vale na próxima sessão. Até lá, chame um agente `general-purpose` mandando-o ler e seguir o arquivo do agente em `squads/squad-arsenal/agents/`.
+- A cota de buscas é por sessão e dividida entre os agentes em paralelo. Em pesquisa grande, peça que busquem pelo leitor (Bing ou DuckDuckGo).
+
 ## Ao devolver para o Rafael
 
 Diga o que foi feito e onde está, as decisões que dependem dele, as pendências e o próximo passo recomendado. Sem repetir a entrega inteira no chat.
