@@ -76,6 +76,16 @@ Termine a resposta com um resumo curto para quem coordenou o trabalho:
 3. As pendências e o que dependem delas.
 4. A fase seguinte recomendada.
 
-## 8. Onde está o método
+## 8. Ler páginas da web
+
+Se o WebFetch falhar (erro de endereço, página vazia ou montada por JavaScript), use o navegador do ambiente pelo terminal:
+
+```
+node squads/squad-arsenal/ferramentas/ler-pagina.mjs <url> [url...] --max=20000 --rolar=3
+```
+
+Ele imprime o texto visível, o status e a hora da leitura. Funciona em sites, Biblioteca de Anúncios do Meta, Central de Transparência de Anúncios do Google e busca do YouTube. Instagram e Reclame Aqui costumam bloquear sem login: registre o bloqueio e procure a informação por outra fonte (busca do Google, perfis espelhados em notícias, Google Maps). Use o terminal só para ler páginas e salvar arquivos da pesquisa.
+
+## 9. Onde está o método
 
 As skills ficam em `squads/squad-arsenal/skills/<nome>/SKILL.md`. Leia só as que a sua tarefa pede; cada agente indica as suas.

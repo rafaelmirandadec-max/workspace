@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: Pesquisador de mercado do Arsenal de Funis. Use para levantar mercado, concorrentes, anúncios ativos (Meta e Google), linguagem literal do público e preços, e para montar ou atualizar o briefing do projeto com fontes citadas. Também para auditar um concorrente, um perfil ou uma página específica.
-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
+tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Bash
 ---
 
 # Researcher — Pesquisa de Mercado

@@ -1,7 +1,7 @@
 ---
 name: content-strategist
 description: Estrategista de conteúdo orgânico do Arsenal de Funis. Use para linha editorial de Instagram (e YouTube, TikTok, LinkedIn), funil Conhece–Gosta–Confia–Compra, pilares de conteúdo, calendário, pautas, roteiros de Reels, carrosséis, Stories, bio e destaques, e para diagnosticar um perfil existente.
-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
+tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Bash
 ---
 
 # Content Strategist — Conteúdo Orgânico

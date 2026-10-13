@@ -23,4 +23,18 @@ Nicho regulado: saúde → ver Bloco 10 (enfermagem: Coren/Cofen; serviço de at
 - Site diz "mais de 500 famílias" atendidas.
 - Matéria no ND+ (portal de Santa Catarina): "Grandcare: cuidados profissionais e humanizados na sua casa".
 
+## Lido no site em 13/10/2026 (FATO: grandcarebrasil.com.br, lido com o navegador)
+- Posicionamento: "Referência em Cuidado Domiciliar", "Cuidado que faz diferença", "Atendimento 24h via WhatsApp".
+- Serviços: cuidadores de idosos especializados, assistência ao idoso, cuidados pós-cirúrgicos, assistência ao Alzheimer; enfermagem em casa ou no hospital.
+- Onde atende: Grande Florianópolis, Porto Belo, Balneário Camboriú, Itajaí, Imbituba (SC). Existe também a página /sp/ (a verificar).
+- Fundador e responsável técnico: Edemilson Albarnas (enfermagem domiciliar e hospitalar).
+- Prova: "+500 famílias"; 4 depoimentos com nomes genéricos (Maria Silva, João Santos, Ana Costa, Carlos Oliveira) — SUPOSIÇÃO: podem ser de modelo.
+- Contato: (48) 6136-9132, grandcare.atendimento@gmail.com. CNPJ 43.946.737/0001-04.
+- CTA principal: WhatsApp. Nenhum preço na página.
+
+## Acesso às fontes (13/10/2026)
+- Abre com o navegador (`ler-pagina.mjs`): site, Biblioteca de Anúncios do Meta, Central de Transparência do Google (8 anúncios no domínio), busca do YouTube.
+- WebFetch não resolve endereços neste ambiente.
+- Instagram e busca do Reclame Aqui bloqueiam sem login.
+
 Demais blocos: preenchidos depois da pesquisa (skill briefing-arsenal).

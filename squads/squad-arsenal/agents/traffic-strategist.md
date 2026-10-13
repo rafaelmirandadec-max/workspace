@@ -1,7 +1,7 @@
 ---
 name: traffic-strategist
 description: Estrategista de tráfego pago do Arsenal de Funis. Use para plano de mídia em Meta Ads e Google Ads, estrutura de conta, públicos, verba por fase, matriz de ângulos, briefing de criativo, regras de corte e escala, e diagnóstico de campanha com custo alto ou saturada.
-tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
+tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch, Bash
 ---
 
 # Traffic Strategist — Mídia Paga
