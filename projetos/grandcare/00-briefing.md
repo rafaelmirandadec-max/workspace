@@ -14,6 +14,7 @@ Marcas: **FATO** (com fonte), **PISTA** (a empresa falando de si ou trecho de bu
   - Os 4 depoimentos do site passaram de "podem ser de modelo" a SUPOSIÇÃO forte de modelo, e um deles é atribuído a "Médico referenciador": não usar.
   - Entraram o cadastro na Receita (abertura em 20/10/2021, dois sócios), o funil atual, os anúncios ativos, os riscos de conformidade e a ligação com a Androtech/Androclinic.
   - O Reclame Aqui abriu reclamação a reclamação (só a busca bloqueia); o YouTube passou a bloquear depois de alguns acessos.
+- **v1.1 — 13/10/2026 (avatar).** Bloco 3 reescrito pelo @avatar-strategist a partir de `02-avatar.md`: perfil principal definido, pós-alta e demência viram momentos de entrada, a família que veio da autônoma entra no perfil 3, convênio fora como público de aquisição paga.
 
 ## Fontes de partida (dadas pelo Rafael)
 - Instagram: https://www.instagram.com/grandcarebr/ (bloqueado sem login)
@@ -49,25 +50,29 @@ Prova disponível:
 O que o produto NÃO faz / não promete: cuidador não faz procedimento de enfermagem (Coren-SC, Parecer 002/2015); não há garantia de resultado de saúde; não atende São Paulo (FATO, `/sp/` 404). Demais limites `[A PREENCHER] (GrandCare)`
 
 ## Bloco 3 — Avatar
-Versão de pesquisa. A versão final é do @avatar-strategist.
-Nome do avatar: `[A PREENCHER] (avatar-strategist)`
-Retrato: três perfis com evidência (FATO quanto às fontes; a proporção entre eles é SUPOSIÇÃO):
-1. A filha que está perto e no limite, muitas vezes sem divisão com os irmãos. Mais falas: 9 de 22 reclamações de família são de filha.
-2. O filho ou a filha que mora longe, em outra cidade ou no exterior, e quer saber o que acontece na casa. Aparece em quatro tipos de fonte; é o ângulo livre na praça.
-3. A família que já se decepcionou, com empresa ou com cuidadora autônoma, e está trocando.
-Coadjuvantes: cônjuge idoso que cuida; idoso lúcido que paga com a aposentadoria e pode recusar a cuidadora. Dois casos de uso cortam os perfis: idoso dependente de longo prazo (cuidador) e caso pós-alta ou complexo (sonda, traqueostomia, injetável), que exige enfermagem. Quem chama a GrandCare no WhatsApp `[A PREENCHER] (GrandCare)`
-Renda: só Florianópolis e Balneário Camboriú juntam muitos idosos e renda alta (mediana per capita dos moradores com 65+ de R$ 3.000 e R$ 2.854, contra R$ 1.616 em SC; FATO, Censo 2022). Quem paga é a família, com o dinheiro do idoso entrando junto (FATO na amostra).
-Dor priorizada: a cuidadora falta, atrasa ou é trocada toda hora, e a empresa não repõe e não avisa (FATO: 15 de 22 reclamações de família, avaliações de 1 estrela em Florianópolis).
-Desejo real: não ter que se preocupar com faltas e preparo da cuidadora; poder trabalhar; estar informado, inclusive à distância (FATO, falas literais no dossiê, seção 5).
-O que já tentou e falhou: empresa que não repôs ou trocava toda hora; cuidadora autônoma que virou processo trabalhista; cuidar sozinho até o esgotamento (FATO na amostra).
-Objeções principais (da pesquisa):
-1. "E se a cuidadora faltar?" (reposição e aviso)
-2. "Vai ser cada dia uma pessoa diferente?" (continuidade)
-3. "Minha mãe não aceita gente estranha em casa." (recusa do idoso)
-4. "Empresa é confiável mesmo?" (a empresa é a segunda opção, depois da indicação)
-5. "Vou pagar adiantado e ficar preso?" (contrato, reembolso)
-Estágio de consciência: quem já contratou está consciente da solução e compara fornecedores (3 a 4); quem ainda não contratou está entre autônoma, empresa e casa de repouso (2 a 3) (SUPOSIÇÃO apoiada nas falas)
-Sofisticação do mercado: na praça, 2 indo para 3; no país, 3 (SUPOSIÇÃO apoiada nos anúncios lidos, frente 3)
+Atualizado em 13/10/2026 pelo @avatar-strategist. Versão completa, com citações, matriz de objeções, mapa da decisão, vocabulário e marcação das peças: `02-avatar.md`.
+Nome do avatar (perfil principal): **a filha que está perto e segura a escala** (inclui o filho que está perto; genro, nora, sobrinha e neta na mesma posição).
+Perfis (FATO quanto às fontes; proporção entre eles é SUPOSIÇÃO até a resposta das perguntas 33 e 35):
+1. **Filha perto que segura a escala** — principal e primeiro teste. Consciência dominante 3 (busca), secundária 2 (feed). Sofisticação para ela: 3 (a Ravivare já anuncia "Faltas e Atrasos").
+2. **Filho ou filha que mora longe** — segundo perfil; teste em andamento pelo vídeo M1. Consciência dominante 2, secundária 3. Sofisticação para ele: 2 na praça.
+3. **Família que já se decepcionou** — 3A veio de outra empresa; 3B veio da cuidadora autônoma (inclusive após processo trabalhista). Consciência dominante 3 avançado, secundária 4. Sofisticação para ela: 5 (ceticismo).
+Momentos de entrada (cortam os perfis, não são pessoas): **alta hospitalar** (A1 recuperação e cuidador no hospital; A2 caso complexo com sonda ou traqueostomia, que exige enfermagem) e **diagnóstico de demência** (território de conteúdo, com limites de conformidade).
+Coadjuvantes: cônjuge que cuida; idoso lúcido que decide ou veta.
+Fora: home care de convênio como público de aquisição paga, até a resposta da pergunta 20.
+Renda: só Florianópolis e Balneário Camboriú juntam muitos idosos e renda alta (mediana per capita dos moradores com 65+ de R$ 3.000 e R$ 2.854, contra R$ 1.616 em SC; FATO, Censo 2022). Quem paga é a família, com o dinheiro do idoso entrando junto (FATO na amostra); a filha perto executa e os irmãos muitas vezes dividem a conta (SUPOSIÇÃO).
+Dor priorizada: a cuidadora falta, atrasa ou é trocada toda hora, e a empresa não repõe e não avisa (FATO: 15 de 22 reclamações de família). No perfil principal, a consequência é o trabalho perdido e a escala que "sobra para um só".
+Camada emocional (três porquês, perfil principal): voltar a ser filha, não a gerente de escala que ninguém paga (SUPOSIÇÃO montada sobre falas literais).
+Desejo real: tirar a escala e a falta da mão da família e poder trabalhar; estar informado, inclusive à distância (FATO, falas literais).
+O que já tentou e falhou: empresa que não repôs ou trocava toda hora; cuidadora autônoma que virou processo trabalhista; cuidar sozinho até o limite (FATO na amostra).
+Objeções principais (matriz completa de 14 em `02-avatar.md`):
+1. "E se a cuidadora faltar ou atrasar?" (prova: regra de reposição, pendência 5)
+2. "Vou ficar sabendo só depois?" (pendências 8, 9, 14)
+3. "Vai ser cada dia uma pessoa diferente?" (pendência 10)
+4. "Essa pessoa sabe o que está fazendo?" (pendências 7, 11, 12, 27)
+5. "Minha mãe não aceita gente estranha em casa." (pendências 10, 15 e pergunta nova sobre introdução gradual)
+6. "Empresa é confiável? Prefiro indicação." (5 avaliações reais; pendências 24, 27, 28)
+7. "Vou pagar adiantado e ficar preso?" (pendências 16, 17)
+Sofisticação do mercado: na praça, 2 indo para 3; no país, 3 (SUPOSIÇÃO apoiada nos anúncios lidos, frente 3). Por perfil, ver acima.
 Conversa mental (falas literais, com fonte no dossiê, seção 5):
 - "A intenção de contratar a empresa era para eu ter tranquilidade para trabalhar"
 - "se os cuidadores mudam, ou se teria como ser uma pessoa fixa (isso seria o ideal pra minha mãe)"
