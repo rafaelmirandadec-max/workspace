@@ -1,22 +1,25 @@
 # Frente 2 — Concorrentes da GrandCare
 
-Coletado em: 13/10/2026 · Responsável: @researcher (frente 2 de 5) · Fontes consultadas: 57 buscas na web, cerca de 100 endereços citados (lista no fim) · Status: **completa no mapa de concorrentes e preços; incompleta em notas do Google, Instagram e anúncios (bloqueio de ferramenta)**
+Coletado em: 13/10/2026 (1ª rodada por resumos de busca; 2ª rodada lendo as páginas, das 14:16 às 14:34 UTC) · Responsável: @researcher (frente 2 de 5) · Fontes: cerca de 100 endereços da 1ª rodada; na 2ª, 22 páginas de sites, 30 fichas e buscas no Google Maps, 12 buscas no DuckDuckGo e 6 páginas de preço lidas pelo navegador (lista no fim) · Status: **sites e Google Maps dos principais concorrentes conferidos; Instagram só por trecho de busca; anúncios ficam com a frente 3**
 
 ## Como ler este arquivo
 
-Nenhuma página foi aberta e lida por inteiro nesta sessão. O agente não tinha terminal (Bash), então a ferramenta `ler-pagina.mjs` não rodou. O WebFetch falhou com `getaddrinfo ENOTFOUND`, e o limite de buscas da sessão (200, dividido entre as frentes) acabou antes do fim. Tudo o que está aqui veio de resultados e trechos do WebSearch. Por isso:
+Na 2ª rodada, as páginas foram abertas com `ler-pagina.mjs` e as fichas do Google Maps com um leitor que abre a aba de avaliações e ordena pela menor nota. Os horários estão em UTC, como o leitor registra.
 
-- **FATO** só aparece para o que a busca mostra sem interpretação: o endereço existe, o título de uma página ou de uma reclamação, um CNPJ num cadastro público.
-- O que cada empresa diz de si, e qualquer número tirado de resumo de busca, é **PISTA**.
-- Leituras minhas são **SUPOSIÇÃO**, com a base indicada.
+- **FATO (lido)** = o texto, o número ou a avaliação estão na página ou na ficha, lidos em 13/10/2026. Quando é a empresa falando de si (promessa, número de famílias, política), continua sendo **autodeclaração**: o FATO é que ela diz isso, não que a operação entrega.
+- **PISTA** = veio só de resumo de busca, de trecho do DuckDuckGo (Instagram) ou da 1ª rodada, sem conferência.
+- **SUPOSIÇÃO** = leitura minha, com a base indicada.
+- O Google Maps abre em "visualização limitada": mostra a nota, o total e de 3 a 5 avaliações por ficha. Não deu para ler todas as avaliações.
 
 ## Conclusão primeiro
 
-1. **A praça está lotada e todos falam igual.** Achei pelo menos 25 operações que vendem cuidador e/ou enfermagem domiciliar na Grande Florianópolis e no litoral norte. Quase todas usam "humanizado", "24h", "WhatsApp", "casa e hospital" e "equipe multiprofissional". Pelo menos seis se dizem "referência" ou "a melhor". A promessa da GrandCare ("Referência em Cuidado Domiciliar", "Atendimento 24h via WhatsApp") não se distingue de nenhuma delas. (PISTA, cruzada entre sites, diretórios e matérias.)
-2. **Ninguém publica preço.** Nenhuma empresa local mostrou preço na busca, nem Ravivare, Suavitate, Home Care Floripa, Home Angels, Nonno, Be Cuidar ou Acuidar. Quem publica valores são marketplaces e guias. Do outro lado, a família compara a empresa com a cuidadora contratada direto (R$ 200 a R$ 420 por plantão, R$ 2.600 a R$ 3.600 por mês) e com a casa de repouso (R$ 3.500 a R$ 8.000 por mês). (PISTA, várias fontes do mesmo tipo.)
-3. **A dor mais documentada é a continuidade, não a qualidade técnica.** Os títulos de reclamação contra redes de cuidadores falam de cuidadora que não veio, troca sem preparo, falta de suporte e cancelamento com cobrança. Só duas empresas locais dizem por escrito como fazem a substituição (Suavitate e Cuidare), e uma delas diz "normalmente". (FATO quanto aos títulos; PISTA quanto às políticas.)
-4. **O concorrente que mais ameaça o modelo da GrandCare é a Nonno, não uma franquia.** É uma plataforma nascida em Florianópolis que diz ter atendido mais de 3.000 famílias, sem contrato fechado e sem multa por cancelamento. Contra os "+500 famílias" da GrandCare, a escala dela é de seis vezes. (PISTA, matéria patrocinada e imprensa.)
-5. **Correção para a frente 3:** a Home Angels tem, sim, páginas de unidade em Florianópolis Centro e Balneário Camboriú (Barra Sul). (FATO: URLs nos resultados de busca.)
+1. **A prova social da GrandCare é a menor entre os concorrentes diretos.** No Google Maps, a GrandCare tem 5,0 com 5 avaliações. Os concorrentes diretos na Grande Florianópolis têm de 48 a 273 avaliações: Anjos da Guarda (4,9 com 273), Geração de Saúde (4,9 com 223), Nonno (4,8 com 196), Acuidar (4,8 com 112), Amor e Cuidado (4,9 com 111), Ravivare (5,0 com 73), Home Mater (5,0 com 55) e Zathos (4,8 com 48). A nota não diferencia ninguém, porque todos estão entre 4,7 e 5,0. O que pesa é o volume. (FATO, lido no Maps entre 14:20 e 14:32 UTC)
+2. **Os dois concorrentes mais fortes nem estavam nos cartões da 1ª rodada.** São a **Anjos da Guarda** (rede de Curitiba com unidade no Centro de Florianópolis e em Balneário Camboriú, 273 + 73 avaliações e cerca de 203 mil seguidores no Instagram) e a **Geração de Saúde** (Curitiba e Florianópolis, 223 avaliações e cerca de 155 mil seguidores). Ganharam cartão completo. (FATO no Maps e nos sites; PISTA nos seguidores)
+3. **A promessa de substituição já está escrita em quase todos os sites, mas as avaliações mostram que ela falha.** Acuidar, Nonno, Ravivare, Cuidare e Suavitate dizem por escrito que repõem o cuidador. As avaliações de 1 estrela da Nonno e da Anjos da Guarda contam justamente o cuidador que não veio e a substituta que demorou. O espaço livre não é mais "dizer que substitui": é **provar que substitui e dizer em quanto tempo**. (FATO quanto aos textos e avaliações; SUPOSIÇÃO quanto à leitura)
+4. **A Ravivare é o espelho mais próximo da GrandCare e hoje tem mais prova.** Tem a mesma proposta (cuidador com acompanhamento de enfermagem, casa e hospital), dois enfermeiros fundadores com mestrado e 73 avaliações 5 estrelas, uma delas dizendo exatamente o argumento da GrandCare: "Contratar cuidadora com acompanhamento de profissionais da enfermagem é muito importante." (FATO)
+5. **O gap regional encolheu.** Porto Belo tem a Integritá Homecare (enfermagem domiciliar, 15 avaliações). Itapema tem unidade da Acuidar (49 avaliações), e Nonno e Cuidare dizem atender a cidade. Em **Imbituba** não apareceu nenhuma empresa de cuidador ou de enfermagem domiciliar no Maps, só uma cuidadora autônoma e casas de repouso. Na vizinha Garopaba, a SOS Cuidadores tem 240 avaliações. (FATO no Maps)
+6. **Continua sem preço publicado.** Nenhum dos 14 sites lidos publica valor. A única frase de preço é da Home Mater Balneário Camboriú: "planos até 20% abaixo do mercado". (FATO)
+7. **Correção para a frente 3:** a página da Home Angels Balneário Camboriú (homeangels.com.br/balneariocamboriu/) devolve **erro 404**. Só a unidade Florianópolis Centro tem página ativa. Também não achei ficha da Home Angels no Google Maps de Florianópolis. (FATO, 14:16 UTC)
 
 ---
 
@@ -24,470 +27,465 @@ Nenhuma página foi aberta e lida por inteiro nesta sessão. O agente não tinha
 
 São três grupos, e a família em geral compara entre eles:
 
-- **Empresas e redes de cuidador e enfermagem particular.** É o concorrente direto: franquias nacionais com unidade local, empresas locais independentes e plataformas.
+- **Empresas e redes de cuidador e enfermagem particular.** É o concorrente direto: redes nacionais com unidade local (Acuidar, Home Angels, Anjos da Guarda, Bevita, Home Mater, Amor e Cuidado), empresas locais independentes (Ravivare, Zathos, Suavitate, Cuidare) e plataformas (Nonno).
 - **Home care por plano de saúde.** Atende outro momento, o paciente complexo com indicação médica. Compete quando a família espera o plano cobrir.
 - **Alternativas indiretas:** cuidadora contratada direto, casa de repouso (ILPI), agência que só recruta para a família contratar.
 
 ---
 
-## 2. Cartões dos concorrentes mais fortes
+## 2. Google Maps: a prova que a família vê primeiro
 
-Ordenei pelo tamanho da sobreposição com a GrandCare (mesmas cidades e mesmo serviço) e pelo peso de marca.
+Lido entre 14:19 e 14:32 UTC de 13/10/2026, na busca `google.com/maps/search/<nome>+florianopolis`. Tabela porque são números.
 
-### Nonno (plataforma de cuidadores)
-- **Site:** nonnoapp.com · página da cidade: nonnoapp.com/encontre-cuidadores-florianopolis/
-- **Cidades:** sede em Florianópolis (Av. Luiz Boiteux Piazza, 1302, Cachoeira do Bom Jesus, segundo um diretório), com Sul e Sudeste e expansão para São Paulo. (PISTA)
-- **Serviços:** acompanhante, cuidador, técnico de enfermagem e enfermeiro, em casa, no hospital "ou onde você precisar". Lançou telemedicina, segundo a NSC Total. (PISTA)
-- **Formatos:** pontual ou recorrente, 24 horas. "Quanto mais tempo contratado, menor o custo." (PISTA)
-- **Preço:** não publicado. O site cita R$ 300 a R$ 600 por dia como faixa nacional para atendimento pontual, sem dizer que é o preço dela. (PISTA)
-- **Promessa:** a família "paga apenas pelo tempo que utilizar", "sem contratos fechados ou multas por cancelamento". (PISTA)
-- **Mecanismo ou diferencial:** é plataforma, não agência. Checa antecedentes, perfil psicológico e experiência dos cuidadores, e a própria Nonno intermedeia o pagamento. (PISTA)
-- **Garantia:** o primeiro plantão só é pago depois do atendimento. Política de substituição: não achada. (PISTA)
-- **Prova social:**
-  - 1,5 milhão de horas e mais de 3.000 famílias em seis anos, segundo a Exame (matéria marcada como patrocínio).
-  - Cerca de 1.800 cuidadores ativos (Economic News Brasil, nov/2025).
-  - R$ 5,5 milhões de faturamento em 2023 e R$ 9,5 milhões projetados (Startupi; Exame).
-  - Fundada em 2019 por Matheus e Gabriela Alban, a partir de um TCC na Udesc Esag.
-  - Está na lista "100 Startups to Watch".
-  - Todos esses números são PISTA, porque a imprensa repete o que a empresa informa.
-- **Reclame Aqui:** 6 reclamações no total, sem reputação definida e sem selo. Segundo o resumo da busca, a maioria é de cuidadores sobre cadastro e pagamento, não de famílias. (PISTA)
-- **Nota no Google / Instagram / YouTube:** não achado. **LinkedIn:** a página existe (br.linkedin.com/company/nonnoapp, FATO); seguidores não achados.
-- **Anúncios:** não verificados (bloqueio).
-- **Gap que deixa:** a busca não mostrou enfermeiro responsável técnico conduzindo o caso, nem plano de cuidados. O modelo é de escala, não de acompanhamento clínico. (SUPOSIÇÃO, apoiada na descrição de plataforma e em reclamações de cuidadores sobre a operação.)
+| Empresa (ficha no Maps) | Nota | Avaliações |
+|---|---|---|
+| **GrandCare** — "Grandcare Enfermagem Domiciliar e Hospitalar" | 5,0 | 5 |
+| **GrandCare** — "GrandCare - Home Care" (fecha 18h, mesmo telefone) | — | 0 |
+| Anjos da Guarda Cuidadores de Idosos e Enfermagem Home Care (Florianópolis) | 4,9 | 273 |
+| Geração de Saúde — Cuidadores de Idosos em Florianópolis | 4,9 | 223 |
+| Nonno — Cuidadores de Pessoas | 4,8 | 196 |
+| Acuidar Florianópolis | 4,8 | 112 |
+| Amor e Cuidado — Unidade Florianópolis | 4,9 | 111 |
+| Ravivare Home Care | 5,0 | 73 |
+| Bevita — Florianópolis | 4,8 | 61 |
+| Home Mater Cuidadores Florianópolis | 5,0 | 55 |
+| Zathos Care | 4,8 | 48 |
+| Parceria Home Care | 5,0 | 40 |
+| Art de Cuidar Floripa | 5,0 | 39 |
+| Essência Cuidar (enfermagem domiciliar) | 5,0 | 28 |
+| Senescence Brasil | 4,7 | 23 |
+| Dom Cuidar | 4,8 | 21 |
+| Solução Enfermagem Domiciliar (To Care) | 4,7 | 13 |
+| Suavitate | 5,0 | 2 |
+| Home Angels Florianópolis Centro | não achada | — |
+| Cuidare | não achada | — |
 
-### Acuidar Florianópolis, São José e Balneário Camboriú (franquia)
-- **Site:** acuidarbr.com.br/unidade/florianopolis, /saojose e /balneariocamboriu (FATO: URLs nos resultados)
-- **Cidades:** Florianópolis (R. Cônego Bernardo, 57, sala 503, Trindade), São José e Balneário Camboriú (Centro). (PISTA)
-- **Serviços:** cuidadores de idosos, adultos e crianças, babás, acompanhante hospitalar. O resumo cita também "Home Care (internação domiciliar)" com enfermagem para casos críticos, mas numa página com marca confusa (Acvida/Acuidar). (PISTA)
-- **Formatos:** plantões de 4h, 6h, 8h, 12h e 24h, e também plano mensal. (PISTA)
-- **Preço:** não achado.
-- **Promessa:** "a melhor empresa de cuidadores" do Brasil e da América Latina, nas palavras dela. (PISTA)
-- **Diferencial declarado:**
-  - Avaliação em casa sem custo.
-  - App Acuidar com escalas, visitas e financeiro.
-  - Telemedicina 24h incluída no plano mensal, com carência de 10 dias, pela Medicar.
-  - Mais de 90 unidades no país.
-  - (PISTA)
-- **Garantia ou substituição:** para trocar de cuidador, o cliente "entra em contato com a unidade". Segundo o resumo da busca, a rescisão com 30 dias de aviso não tem multa. (PISTA)
-- **Prova social:** 3º lugar num ranking do SeniorBemEstar, de metodologia não declarada. (PISTA)
-- **Reclame Aqui:** 14 reclamações (ACUIDAR FRANQUIAS), sem reputação definida. Títulos literais (FATO):
-  > "Péssima experiência com Acuidar: cuidadores inexperientes, falta de suporte e problemas graves na administração de medicamentos." — Reclame Aqui, ACUIDAR FRANQUIAS, data não lida
-  > "Péssima empresa" — Reclame Aqui, ACUIDAR FRANQUIAS, data não lida
+**Litoral norte e sul (mesma leitura):** Anjos da Guarda Balneário Camboriú 5,0 (73) · Acuidar Itapema 5,0 (49) · Acuidar Balneário Camboriú 5,0 (42) · SC Home Care Balneário Camboriú 4,9 (31) · Home Mater Balneário Camboriú 5,0 (25) · Bevita Balneário Camboriú 4,9 (16) · Acuidar Itajaí 5,0 (15) · Integritá Homecare Porto Belo 5,0 (15) · Anjos do Lar Balneário Camboriú 4,3 (51) · Excellence Care Itajaí 4,9 (56) · SOS Cuidadores Garopaba 5,0 (240).
 
-  Numa delas, segundo o resumo, a matriz responde que a unidade é franqueada e "não tem relação" com a matriz. (PISTA)
-- **Instagram:** @acuidarflorianopolis existe (FATO); seguidores não achados. **Nota no Google / YouTube:** não achado.
-- **Anúncios:** não verificados. SUPOSIÇÃO: a rede anuncia para dois públicos, famílias e futuros franqueados, porque tem um site separado de franquias (acuidarfranquias.com.br, taxa de R$ 50 mil a R$ 90 mil, PISTA).
-- **Gap que deixa:** quem responde pelo problema. A marca nacional devolve a responsabilidade à unidade, e as queixas falam de cuidadora inexperiente e de medicação. Em nenhum resultado a supervisão aparece como de enfermeiro. (SUPOSIÇÃO)
+**O que a tabela mostra (SUPOSIÇÃO, apoiada nos números):**
+- Nota não separa ninguém. Volume separa. Com 5 avaliações, a GrandCare aparece abaixo de concorrentes com 10 a 50 vezes mais avaliações na mesma busca.
+- A GrandCare tem duas fichas com o mesmo telefone, uma vazia. Isso divide as avaliações e confunde quem procura.
+- Algumas fichas de rede misturam marcas. Na ficha da Acuidar Balneário Camboriú há avaliação elogiando "a Bevita" em Balneário Camboriú. Na ficha da Home Mater Florianópolis há avaliações que citam "Geração Saúde" e "home Master Bevita". A Acuidar e a Home Mater de Balneário Camboriú estão no mesmo endereço (R. 1500, 820, sala 2003, Sky Business Center). (FATO quanto ao que está escrito.) SUPOSIÇÃO: fichas reaproveitadas ou um mesmo operador com mais de uma marca. Nessas fichas, o 5,0 vale menos como prova.
 
-### Home Angels Florianópolis Centro e Balneário Camboriú – Barra Sul (franquia)
-- **Site:** homeangels.com.br/florianopolis-centro/ e homeangels.com.br/balneariocamboriu/ (FATO: URLs). Algumas subpáginas de Balneário Camboriú aparecem com "__trashed" no endereço. SUPOSIÇÃO: a unidade ou o site foi reestruturado; confirmar se segue ativa.
-- **Cidades:** Florianópolis Centro e Balneário Camboriú. A rede tem mais de 200 unidades no Brasil (Portal do Franchising, 2024, citado na frente 3). (PISTA)
-- **Serviços:** cuidadores de idosos, banho assistido, pós-cirúrgico, atendimento 24h. Também lista enfermeira, fisioterapeuta e nutricionista, a "Visita do Bem-Estar" (acompanhamento sem cuidador fixo, com app) e uma página de "UTI Móvel 24h". (PISTA)
-- **Formatos:** plano de cuidados personalizado, com período e frequência definidos. (PISTA)
-- **Preço:** não publicado. A única referência é antiga: pacotes de R$ 4.500 por mês (6h, segunda a segunda) a R$ 12 mil por mês (24h), numa reportagem da Exame de cerca de nove anos atrás, nacional. (PISTA, desatualizada)
-- **Promessa:** "Cuidados domiciliares humanizados e supervisionados". Ela se apresenta como a franquia que "criou o mercado de cuidadores de idosos no Brasil". (PISTA)
-- **Mecanismo declarado:** Avaliação Diagnóstica Gratuita, seguida do Plano de Cuidados Personalizados, montado pelo "Supervisor Técnico com formação na área da saúde", treinado pelo Centro de Capacitação e Qualidade (CCQ) da rede. É o mecanismo mais nomeado de toda a praça. (PISTA)
-- **Garantia ou substituição:** não achada como política. (não achado)
-- **Reclame Aqui:** 18 reclamações, 100% respondidas, sem reputação definida. Títulos literais (FATO):
-  > "Cuidadores desqualificados" — Reclame Aqui, Home Angels, data não lida
-  > "Cuidadoras sem experiência" — Reclame Aqui, Home Angels, data não lida
-  > "Serviço de cuidador não executado, falta de estorno e má prestação de serviço." — Reclame Aqui, Home Angels, data não lida
-  > "Não querem cancelar e querem cobrar algo q não usei" — Reclame Aqui, Home Angels, data não lida
-  > "Atendimento péssimo" — Reclame Aqui, Home Angels, data não lida
+### Avaliações literais (as de nota mais baixa que a ficha mostrou)
 
-  Segundo o resumo, os relatos falam de cuidador que faltou no fim de semana sem substituto e de estorno calculado com aviso prévio de 7 dias. (PISTA)
-- **Nota no Google / Instagram / YouTube / LinkedIn:** a página do LinkedIn existe (br.linkedin.com/company/home-angels, FATO); números não achados.
-- **Anúncios:** não verificados.
-- **Gap que deixa:** o "supervisor" é "da área da saúde", não necessariamente um enfermeiro. O padrão de queixa é a falta de cuidador ou a cuidadora despreparada. (SUPOSIÇÃO, apoiada nos títulos acima)
+**Nonno (1 estrela, "11 meses atrás", Rafael Gallo):**
+> "Cuidador não apareceu em um dia CRUCIAL, na qual o familiar não poderia estar junto, e a Nonno nem estava sabendo da falta... não possuiam um plank B. Entraram em contato informando que iriam estornar o valor. Mas e o cuidado? Se organizem melhor.. tem que saber se o cuidador chegou no horário, e se não chegou, ter prontamente uma segunda opção. Não recomendamos mais!!"
 
-### Bevita Saúde Florianópolis e Balneário Camboriú (franquia)
-- **Site:** bevitasaude.com.br (unidade sc-florianopolis), blog bevitafloripa.blogspot.com (FATO: URLs)
-- **Cidades:** Florianópolis, a primeira franquia da rede, aberta em dez/2018. Diz atender "todo o litoral Catarinense, de Itajaí à Palhoça". Tem o perfil @bevitabc em Balneário Camboriú. (PISTA)
-- **Serviços:** cuidadores de pessoas e técnicos de enfermagem, com fisioterapeuta, fonoaudiólogo, nutricionista e psicólogo, além de atividades cognitivas. (PISTA)
-- **Formatos:** não achado.
-- **Preço:** não achado.
-- **Promessa:** não achada em texto literal.
-- **Diferencial declarado:**
-  - Diz ser "a primeira empresa do segmento com aplicativo" de assistência e monitoramento (o app está no Google Play, FATO pela URL).
-  - Supervisor técnico com visitas semanais.
-  - Seleção com entrevistas em grupo, individuais e testes.
-  - (PISTA)
-- **Garantia:** não achada.
-- **Prova social:**
-  - Rede com 16 franquias em 54 cidades (site; pode estar desatualizado).
-  - No LinkedIn: fundada em 2011, sede em Florianópolis, 51 a 200 funcionários.
-  - (PISTA)
-- **Reclame Aqui:** nenhuma página da Bevita apareceu na busca. (não achado)
-- **Instagram:** @bevitafloripa e @bevitabc existem (FATO); seguidores não achados.
-- **Anúncios:** não verificados. A rede tem página de franquia (bevitafranquia.com.br) e divulga "Tenha seu Próprio Negócio de Alta Rentabilidade" no Facebook. (PISTA)
-- **Gap que deixa:** a busca não mostrou enfermeiro como responsável técnico do caso. O que aparece como enfermagem é técnico de enfermagem. (SUPOSIÇÃO)
+A resposta da Nonno começa assim: "Sentimos profundamente pelo ocorrido. Como intermediários do serviço, nosso …" (o resto fica atrás de "Mais").
 
-### Home Mater Florianópolis e Balneário Camboriú (franquia)
-- **Site:** homemater.com/florianopolis/ e homemater.com/bc/ (FATO: URLs)
-- **Cidades:** Florianópolis e Balneário Camboriú. (PISTA)
-- **Serviços:** enfermagem e cuidadores em casa ou no hospital, acompanhante hospitalar, acompanhamento em consultas e passeios, pós-cirúrgico e curativos. Equipe com enfermeiros, nutricionistas e fisioterapeutas. (PISTA)
-- **Formatos:** não achado.
-- **Preço:** não achado. Orçamento pelo WhatsApp. (PISTA)
-- **Promessa:** não achada em texto literal.
-- **Diferencial declarado:** app em que a família acompanha "escalas e evoluções", mais uma visita mensal da equipe de enfermagem. O "franqueado mais próximo" escolhe o cuidador. (PISTA)
-- **Garantia:** não achada.
-- **Prova social:** tem avaliações de clientes no próprio site, não verificadas. (PISTA)
-- **Instagram:** @homematerflorianopolis existe (FATO); números não achados.
-- **Anúncios:** não verificados.
-- **Gap que deixa:** a supervisão de enfermagem é mensal. Frequência semanal ou caso a caso não aparece. (SUPOSIÇÃO, apoiada no texto da unidade)
+**Nonno ("3 anos atrás", Gustavo Prolico):**
+> "Contratei o serviço de uma cuidadora para minha mãe, e simplesmente ninguém apareceu na hora combinada. O pior é que nem fui avisado com antecedência [...] minha mãe tem Alzheimer e não tem condições de ficar sozinha. Depois de eu entrar em contato com a Nonno avisando que ninguém apareceu para o serviço, foi me informardo que seria enviado outra cuidadora, mas isso levou umas 2h."
 
-### Amor e Cuidado Florianópolis (franquia)
-- **Site:** amorecuidadobrasil.com.br/unidade/florianopolis/ e um domínio local, amorecuidadoflorianopolis.com.br (FATO: URLs)
-- **Cidades:** Florianópolis. É a empresa MJF Serviços de Cuidadores Ltda, CNPJ 45.304.402/0001-18, aberta em 15/02/2022, com 1 a 10 funcionários, segundo a Econodata. (FATO quanto ao cadastro, lido pelo resumo de busca)
-- **Serviços:** cuidador de idosos, cuidador infantil e babá, cuidador de gestante, pós-cirúrgico. (PISTA)
-- **Formatos:** "planos adaptáveis". (PISTA)
-- **Preço:** não achado.
-- **Promessa:** "referência no cuidado com idosos, adultos, crianças e gestantes". (PISTA)
-- **Diferencial declarado:** enfermeiros "monitoram os cuidados e orientam os cuidadores", relatórios diários para a família, avaliação inicial gratuita. (PISTA)
-- **Garantia:** não achada.
-- **Prova social:** o domínio local fala em "6 anos de experiência" e "4,9 estrelas", sem dizer a origem da nota. A rede, criada em Brasília em 2016, diz ter mais de 55 unidades no site e mais de 70 no Instagram. (PISTA)
-- **Inconsistência a notar:** a unidade diz ter seis anos, mas o CNPJ é de 2022. Pode ser outro CNPJ ou tempo de rede. (SUPOSIÇÃO)
-- **Instagram:** @amorecuidadofln existe (FATO); números não achados.
-- **Anúncios:** não verificados.
-- **Gap que deixa:** atende de bebê a idoso. Não tem foco em idoso dependente nem em enfermagem. (SUPOSIÇÃO)
+**Anjos da Guarda Florianópolis (1 estrela, "3 anos atrás", Ana):**
+> "No primeiro dia a cuidadora se atrasou e no segundo dia, recebi uma mensagem as 8:20 que a cuidadora avisou em cima da hora que teve um problema e não poderia comparecer. Sendo que o horário da cuidadora chegar era as 8 h. [...] Me informaram que a previsão era 9:20."
+
+**Anjos da Guarda Florianópolis (1 estrela, "3 meses atrás", Daiana Terres):**
+> "a mensagem informando o falecimento da minha mãe foi extremamente fria, sem qualquer demonstração de empatia, acolhimento ou consideração com os familiares."
+
+**Geração de Saúde (1 estrela, "3 meses atrás", Breno Rodrigues):**
+> "A cuidadora chegou demonstrando falta de preparo. Em um dos momentos, se minha esposa não tivesse percebido a tempo, ela teria aplicado a insulina de forma incorreta na minha sogra, o que poderia ter causado um problema grave"
+
+**Acuidar Florianópolis (1 estrela, "editado 3 meses atrás", Karin Amorim):**
+> "Muito decepcionada… Vieram até nos… nos venderam um atendimento q se fosse real… teria sido perfeito… criamos uma expectativa… pena q em muito pouco tempo… a realidade foi bem diferente… só decepção!!"
+
+Em duas outras avaliações de 1 estrela, a Acuidar responde que não achou a pessoa "em nosso sistema nem canais de contatos".
+
+**Zathos (3 estrelas, "5 anos atrás", Sonia Parizotto):**
+> "Parecia que seria atendida. Fizeram um enorme questionamento.Aguardei 1 semana. E me dispensaram sem mais desculpas. Decepcionante. Perdi tempo."
+
+**Bevita Florianópolis (1 estrela, "4 anos atrás", Raquel Cabral):**
+> "Solicitei por 10 dias com possibilidade de prorrogação, fiz cirurgia reparadora do abdômen e seio precisava de ajuda diária não atendeu minhas expectativas dentro do que expliquei e me foi informado que seria possível"
+
+**Anjos da Guarda Florianópolis (4 estrelas, "2 anos atrás"):**
+> "Empresa muito boa na gestão de cuidadores qualificados."
+
+**Do lado positivo, as que tocam no argumento da GrandCare:**
+> "Foi muito importante porquê além da companhia positiva das cuidadoras, tivemos orientações dos enfermeiros Luana e Gustavo, o que marcou o diferencial nos serviços prestados. Contratar cuidadora com acompanhamento de profissionais da enfermagem é muito importante. Passa confiança e segurança à família." — Ravivare, 5 estrelas, "5 meses atrás", Monique Bittencourt
+
+> "Sabemos que podem acontecer imprevistos, e quando os profissionais faltaram a empresa conseguiu repor em pouquissimo tempo." — Acuidar Balneário Camboriú, 5 estrelas, "8 meses atrás", Andrea Camargo
+
+**Leitura (SUPOSIÇÃO, 6 avaliações negativas em 4 empresas):** o que derruba a nota é falta sem aviso, demora da substituta, cuidadora despreparada para medicação e promessa de venda que não se cumpre. Nenhuma das negativas lidas reclama de preço. Isso cruza com os títulos do Reclame Aqui da 1ª rodada (cuidadora sem experiência, paciente sem atendimento). São dois tipos de fonte apontando a mesma dor.
+
+### As avaliações da GrandCare (3 das 5, lidas às 14:25 UTC)
+- "Equipe atenciosa, trabalhamos à mais de 2 anos com a Grandcare 24h x 7 dias, excelente pontualidade do time. Sempre prestativos e atenciosos, e grande agilidade nos momentos mais críticos. Recomendo !" — 5 estrelas, "3 meses atrás"
+- "Uso os serviços da Agência muitos anos. Possuem excelentes profissionais. O atendimento administrativo muito bom. O Edmilson é muito atencioso e prestativo. Atende a qualquer horário. Muito satisfeita." — 5 estrelas, "3 meses atrás"
+- "Em um dos momentos mais dolorosos da nossa vida, a GrandCare foi um verdadeiro abraço para a nossa família. Nunca vou esquecer o cuidado, a presença e a sensibilidade da equipe com o meu pai nos seus últimos dias. [...] Obrigada a equipe e ao Edemilson." — 5 estrelas, "9 meses atrás"
+
+São avaliações reais e com nome, ao contrário dos depoimentos genéricos do site. Falam de pontualidade, de acesso ao fundador a qualquer hora e de cuidado no fim da vida. Viram material de prova se a GrandCare pedir autorização.
+
+---
+
+## 3. Cartões dos concorrentes
+
+Ordenei pela sobreposição com a GrandCare (mesmas cidades, cuidador mais enfermagem, casa e hospital) e pelo peso da prova.
 
 ### Ravivare Home Care (local independente)
-- **Site:** ravivarehomecare.com.br (FATO)
-- **Cidades:** Florianópolis, São José, Palhoça, Biguaçu e "litoral catarinense". Sede na Trindade. (PISTA)
-- **Serviços:** cuidadores de idosos, acompanhamento hospitalar, enfermagem, fisioterapia domiciliar, administração de medicamentos. (PISTA)
-- **Formatos:** plantões presenciais, 24h. (PISTA)
-- **Preço:** não publicado. (PISTA)
-- **Promessa:** "transformar o cuidado domiciliar em uma experiência humana, personalizada e de excelência". (PISTA)
-- **Diferencial declarado:** a empresa é liderada por enfermeiro com titulação acadêmica: Gustavo Andrade, mestre em Enfermagem pela FURG, doutorando pela UFSC, com experiência em gestão de home care. A página se chama "CEOs Ravivare". (PISTA)
-- **Garantia:** não achada.
-- **Prova social:** não achada.
-- **Instagram:** o site tem link, mas o perfil e os números não foram achados.
-- **Anúncios:** não verificados.
-- **Sobreposição com a GrandCare:** é a mais alta da lista. Mesma região, mesmo pacote de cuidador, hospital e enfermagem, e o mesmo argumento de liderança da enfermagem. Ravivare tem titulação acadêmica para mostrar. (SUPOSIÇÃO)
-- **Gap que deixa:** prova e preço. Não apareceu número de famílias, nota ou depoimento. (não achado)
+- **Site:** ravivarehomecare.com.br, páginas inicial, /servicos e /ceos-ravivare (FATO, lido às 14:16 UTC)
+- **Endereço:** R. Hermann Blumenau, 110, Centro, Florianópolis, sala no Impact HUB. A 1ª rodada dizia Trindade; o site e o Maps dizem Centro. (FATO)
+- **Cidades:** "Florianópolis, São José, Palhoça, Biguaçu e litoral catarinense". (FATO, autodeclarado)
+- **Serviços:** cuidador de idosos, assistência pós-operatória (começa no hospital), administração de medicamentos intramusculares, subcutâneos e intravenosos, fisioterapia domiciliar, acompanhamento hospitalar e suporte para exames. (FATO)
+- **Formatos:** "plantões presenciais, atendimento 24 horas por dia". Ficha do Maps: "Aberto 24 horas". (FATO)
+- **Preço:** não publicado. CTA "Solicite um orçamento", formulário e WhatsApp. (FATO)
+- **Promessa:** "Cuidado Domiciliar Especializado com Carinho e Excelência" e "Referência em Home Care na Grande Florianópolis". (FATO)
+- **Mecanismo declarado:** "Cada caso é acompanhado de forma próxima e contínua, com visitas regulares da enfermagem, monitoramento técnico especializado e uma comunicação constante e acessível". (FATO, autodeclarado; a frequência das visitas não é dita)
+- **Substituição:** "Nós cuidamos de tudo: da seleção e substituição imediata de profissionais até a gestão completa dos cuidados". Sem prazo. (FATO)
+- **Responsável técnico:** dois fundadores enfermeiros. Gustavo Andrade, mestre em Enfermagem pela FURG e doutorando pela UFSC. Luana Soares, mestre em Enfermagem pela FURG. Números do Coren não aparecem. (FATO, autodeclarado)
+- **Prova:** Google Maps 5,0 com 73 avaliações, várias citando Gustavo, Luana e cuidadoras pelo nome, e respostas do proprietário. No site, só dois depoimentos com nome abreviado ("João P.", "Laura B."). A ordenação por menor nota não abriu nesta ficha; com média 5,0, há no máximo poucas notas abaixo de 5. (FATO)
+- **Instagram:** @ravivarehomecare, 810 seguidores e 150 publicações num trecho do DuckDuckGo; outro trecho do mesmo resultado diz 1.628 seguidores e 54 publicações. (PISTA, data do índice desconhecida)
+- **Gap que deixa:** prazo de substituição e preço. A prova é forte; a promessa é genérica ("excelência", "referência").
+- **Contra a GrandCare (SUPOSIÇÃO):** é o concorrente mais parecido. Disputa o mesmo argumento, enfermeiro que conduz o caso, com titulação acadêmica e 14 vezes mais avaliações.
 
 ### Zathos Care (local independente)
-- **Site:** zathoscare.com.br, zathoscare.com e o subdomínio acompanhante.zathoscare.com.br, com dezenas de páginas por termo de busca (FATO: URLs)
-- **Cidades:** Grande Florianópolis, incluindo São José. (PISTA)
-- **Serviços:** idosos, pós-operatório, necessidades especiais, medicação intravenosa, cuidados paliativos, Alzheimer. Equipe de enfermeiros, cuidadores, fisioterapeutas e nutricionistas. (PISTA)
-- **Formatos:** enfermeiro 24 horas. (PISTA)
-- **Preço:** não achado.
-- **Promessa:** "Referência em Cuidados Domiciliares em Florianópolis" (título de página, FATO quanto ao título).
-- **Diferencial declarado:** fundada pela enfermeira Carolina Savi, formada pela Unisul, com 16 ou 17 anos de experiência (o número varia entre as páginas). (PISTA)
-- **Garantia:** não achada.
-- **Prova social:** o site exibe "Google 4.8 · 49 reviews", número autodeclarado e não conferido no Maps. Há matérias de tom publicitário em Acontecendo Aqui, Onne Revista e Clube do Champanhe. (PISTA)
-- **Instagram / YouTube / LinkedIn:** não achado.
-- **Anúncios:** não verificados. SUPOSIÇÃO: o subdomínio de páginas por palavra-chave indica aposta em busca orgânica e, provavelmente, paga.
-- **Sobreposição com a GrandCare:** total no argumento de fundador da enfermagem. Zathos tem a mesma promessa "referência" e mostra nota do Google, coisa que a GrandCare não mostra.
-- **Gap que deixa:** preço e garantia. (não achado)
+- **Site:** zathoscare.com (FATO, lido às 14:18 UTC). O domínio zathoscare.com.br e o subdomínio acompanhante.zathoscare.com.br **não abriram**: o proxy do ambiente recusou a conexão (erro 502). Bloqueio registrado.
+- **Empresa:** Zathos Prestação de Serviços à Saúde Ltda, CNPJ 41.339.829/0001-09. Endereço no Maps: Av. Pref. Osmar Cunha, 183, Bloco A, sala 405, Centro, o mesmo prédio da Anjos da Guarda. (FATO)
+- **Serviços:** idosos, pós-operatório, necessidades especiais. Equipe de enfermeiros, técnicos de enfermagem, cuidadores e fisioterapeutas. O Instagram cita passagem de sonda e acompanhamento em exames. (FATO no site; PISTA no Instagram)
+- **Formatos:** "Atendimento 24 horas". (FATO)
+- **Preço:** não publicado. CTA "Orçamento" e WhatsApp. (FATO)
+- **Promessa:** "Cuidado e Amor para sua Saúde"; visão de "Ser referência nacional em assistência domiciliar". (FATO)
+- **Responsável:** fundada pela enfermeira Carolina Savi, "16 anos de experiência na área da saúde". O texto tem um erro de digitação: "Fundadora da Zathos Core". (FATO)
+- **Substituição ou garantia:** não achada na página lida.
+- **Prova:** Google Maps 4,8 com 48 avaliações; o site dizia "4.8 · 49 reviews", então o número confere. As negativas têm 3 a 5 anos. No site há **um único depoimento, repetido cinco vezes no carrossel** (Alzira Ungaretti). (FATO)
+- **Instagram:** @zathoscare, cerca de 434 seguidores e 246 publicações. (PISTA)
+- **Gap que deixa:** prova recente, preço, substituição. O site é institucional e fala pouco do que acontece depois da contratação.
+
+### Nonno (plataforma de cuidadores)
+- **Site:** nonnoapp.com e /encontre-cuidadores-florianopolis/ (FATO, lido às 14:16 UTC)
+- **Cidades:** escritórios no Sapiens Parque (Florianópolis), no Hotmilk da PUCPR (Curitiba) e no Cubo Itaú (São Paulo). Em SC lista "Grande Florianópolis, Balneário Camboriú, Itapema, Itajaí, Região do Vale do Itajaí, Joinville, Criciúma". (FATO, autodeclarado)
+- **Serviços:** acompanhantes, cuidadores de idosos, técnicos de enfermagem e enfermeiros, "domiciliar, hospitalar ou onde você precisar". Páginas por doença: Alzheimer, Parkinson, demência, ELA. (FATO)
+- **Formatos:** por horas, noturno, fins de semana, 24h; "pontual ou recorrente". (FATO)
+- **Preço:** não publicado. O FAQ diz que depende da formação do profissional e do período, e que "quanto mais tempo contratado, menor o custo do serviço". A faixa de R$ 300 a R$ 600 por dia citada na 1ª rodada **não aparece** nas páginas lidas; fica rebaixada a "não conferida". (FATO)
+- **Promessa:** "Conectamos famílias com cuidadores profissionais, selecionados e de confiança" e "pelo tempo que precisar, sem a amarração de contratos fechados ou multas por cancelamentos". (FATO)
+- **Mecanismo:** plataforma. Os profissionais "são pessoa jurídica - MEI". Checagem de antecedentes, perfil psicológico e experiência. O pagamento passa só pela Nonno. (FATO, autodeclarado)
+- **Garantias escritas:**
+  - "Substituição de profissionais: Reposição imediata no caso de faltas e imprevistos sem custo adicional".
+  - "Orçamento garantido: Não alteramos nossos valores e taxas nos plantões noturnos, finais de semana ou feriados no ano inteiro, exceto natal e ano novo."
+  - "Plantão de experiência": o primeiro plantão é pago só depois do atendimento.
+  - (FATO, autodeclarado)
+- **Prova:** no site, "+1.850 cuidadores selecionados", "+1.400.000 horas de cuidado", "+90.000 atendimentos" e "Confiados por +5 mil famílias". A Exame (1ª rodada) dizia "mais de 3.000 famílias". O número mudou ou um dos dois está errado. Google Maps 4,8 com 196 avaliações. LinkedIn: 2.221 seguidores, "2-10 funcionários" e 82 pessoas vinculadas. (FATO)
+- **Responsável técnico:** não aparece. Na resposta a uma avaliação negativa, a própria Nonno se diz "intermediários do serviço". (FATO)
+- **Instagram:** @nonnoapp, 7.647 seguidores e 920 publicações. (PISTA)
+- **Gap que deixa:** quem responde pelo caso e o que acontece na falta. As duas negativas lidas são de cuidador que não apareceu. A promessa de "reposição imediata" está no site, e as avaliações contam o contrário.
+
+### Acuidar Florianópolis, Balneário Camboriú, Itapema e Itajaí (franquia)
+- **Site:** acuidarbr.com.br/unidade/florianopolis e /balneariocamboriu (FATO, lido às 14:16 UTC). A página /unidade/saojose **redireciona para a página inicial**: São José não tem página própria hoje, embora o Maps tenha uma ficha "Acuidar São José" com 3 avaliações.
+- **Endereços:** Florianópolis na R. Cônego Bernardo, 57, sala 503, Trindade, (48) 4141-4199. Balneário Camboriú na R. 1500, 820, sala 2003, Sky Business Center, (47) 98906-1260. Itapema e Itajaí têm ficha no Maps. (FATO)
+- **Serviços:** cuidadores de idosos, crianças, pessoas com deficiência, pós-operatório e acompanhante hospitalar, pós-parto e recém-nascido. Extras: "Telemedicina 24h" e "SOS Acuidar" (ambulância). A página da unidade não oferece enfermagem como serviço. (FATO)
+- **Formatos:** não detalhados na página da unidade. (A 1ª rodada citava plantões de 4h a 24h e plano mensal: PISTA, não reconfirmada.)
+- **Preço:** não publicado. CTA "Solicitar visita" (avaliação em casa sem custo). (FATO)
+- **Promessa:** "Somos referência em tranquilidade, conforto e cuidado". (FATO)
+- **Políticas escritas (FATO, autodeclarado):**
+  - "Não fique descoberto: Substituição de cuidadores em casos de falta, licença, férias ou qualquer outro motivo." Sem prazo.
+  - "Ausência de multa rescisória: Em caso de quebra de contrato, se informado com 30 dias de antecedência."
+  - "Supervisão periódica por uma coordenação técnica e/ou equipe de enfermagem."
+  - App com escala de plantões, visitas e parte financeira.
+- **Prova:** a rede diz ter 314 unidades, 29.831 cuidadores e 4.058.413 assistências, além de prêmios da PEGN e da ABF. Google Maps: Florianópolis 4,8 (112), Balneário Camboriú 5,0 (42), Itapema 5,0 (49), Itajaí 5,0 (15). **Os depoimentos das páginas de unidade não são locais:** o mesmo depoimento ("Coronel Ferreira") aparece em Florianópolis e em Balneário Camboriú, e a página de Balneário Camboriú traz um que fala do "povo paraibano". (FATO)
+- **Instagram:** @acuidarflorianopolis com cerca de 10 mil seguidores; @acuidarbalneariocamboriu com cerca de 1 mil; @acuidarbr com cerca de 39 mil. (PISTA)
+- **Gap que deixa:** prova local verdadeira e enfermagem. A supervisão é "coordenação técnica e/ou enfermagem", não necessariamente enfermeiro. A negativa lida fala de venda que não se cumpriu.
+
+### Home Angels Florianópolis Centro (franquia)
+- **Site:** homeangels.com.br/florianopolis-centro/ ativo, (48) 99965-6499. A página de **Balneário Camboriú dá 404**. (FATO, 14:16 UTC)
+- **Serviços:** cuidadores (banho, companhia, refeições, medicamentos, hospital, pós-cirúrgico, Alzheimer, Parkinson); "Cuidados Multidisciplinares" com enfermeira, fisioterapeuta, terapeuta ocupacional, fonoaudiólogo e nutricionista; "Nosso Home Care chegou!" para "pacientes menos complexos até pacientes com quadros clínicos complexos"; botão de ajuda imediata; banho para idosos. (FATO)
+- **Preço:** não publicado. CTA: formulário para "Avaliação Diagnóstica Gratuita". (FATO)
+- **Promessa:** "A Maior franquia de Cuidadores de Idosos do Brasil". (FATO)
+- **Mecanismo:** supervisores ("Só nós temos") que "Elaboram Plano de Cuidados personalizados", "Supervisionam os cuidados aos idosos no dia a dia" e "Asseguram a satisfação do Idoso e se relacionam com a família". A formação do supervisor não é dita nessa página. (FATO)
+- **Extras:** "Médico 24h e Telemedicina" sem custo para todo cliente, "Atendimento de Emergência 24h" ("consulte disponibilidade em sua cidade"), pontos Livelo, embaixadora Helô Pinheiro, "+ de 270 Unidades Franqueadas no Brasil". (FATO)
+- **Substituição:** não achada como política escrita.
+- **Google Maps:** nenhuma ficha da Home Angels apareceu nas buscas de Florianópolis e de Balneário Camboriú. (FATO quanto à busca)
+- **Instagram:** não achei perfil da unidade; a rede tem @homeangelsbrasil com cerca de 22 mil seguidores. (PISTA)
+- **Gap que deixa (SUPOSIÇÃO):** presença local fraca. Sem ficha no Maps e sem perfil local, a unidade depende da marca nacional e de mídia paga.
+
+### Anjos da Guarda Home Care (rede, matriz em Curitiba) — novo cartão
+- **Site:** anjosdaguardahomecare.com.br, /unidades/florianopolis e a página de captação go.clinicaanjosdaguarda.com.br/florianopolis (FATO, lido às 14:28 UTC)
+- **Endereço:** Av. Pref. Osmar Cunha, 183, Bloco A, 1º andar, salas 101 e 102, Centro, Florianópolis; (48) 3206-6166 e (48) 99111-5767. Unidade em Balneário Camboriú no Edifício Barra Norte (Maps). Matriz em Pinhais (PR). (FATO)
+- **Serviços:** home care, acompanhante hospitalar, "plantões de 2 a 24h", pré e pós-operatório, transição hospital para casa, procedimentos de enfermagem, curativos especiais e estomaterapia, e equipe com medicina, fisioterapia, fonoaudiologia, nutrição, psicologia, terapia ocupacional e odontologia. (FATO)
+- **Formatos:** "Diárias avulsas e início rápido". (FATO)
+- **Preço:** não publicado. CTA "Orçamento Rápido" e "Solicite uma Avaliação Gratuita". (FATO)
+- **Promessa:** "A maior instituição de cuidado humanizado do Brasil!" (FATO)
+- **Mecanismo:** avaliação gratuita, plano personalizado, seleção da equipe e "início imediato". Os profissionais "atuam sob gestão e responsabilidade direta da Clínica Anjos da Guarda". (FATO, autodeclarado)
+- **Prova:** "+25 Mil Famílias Atendidas", "+26 unidades pelo Brasil", "+3.5 mil avaliações 5 estrelas", "Uma década". Fundadores: Lucia Lamim e Evandro Baccin. Google Maps: Florianópolis 4,9 (273), Balneário Camboriú 5,0 (73). Na página de captação, os contadores aparecem zerados ("+0 mil Famílias Atendidas"). (FATO)
+- **Instagram:** @clinicaanjosdaguarda com cerca de 203 mil seguidores e 2.745 publicações; @cuidadorasanjosdaguarda com cerca de 4,9 mil. (PISTA)
+- **Substituição:** não escrita. As negativas lidas são de atraso, falta com a substituta uma hora depois e comunicação fria num óbito.
+- **Gap que deixa (SUPOSIÇÃO):** é forte em volume e audiência. A fraqueza aparece no detalhe humano e na falta, justamente onde uma operação menor, com o fundador acessível, pode ganhar.
+
+### Geração de Saúde (Curitiba e Florianópolis) — novo cartão
+- **Site:** gscuidadoresdeidosos.com.br e a página "Cuidador de idosos em Florianópolis com atendimento flexível" (FATO, lido às 14:28 UTC)
+- **Endereço:** R. Delminda Silveira, 827, sala 205, Florianópolis; (48) 99837-0449. CNPJ 38.457.236/0001-24. (FATO)
+- **Serviços:** cuidadores de idosos em casa e no hospital: medicação, curativos, higiene, banho, refeições, estímulos cognitivos e físicos, passeios. Também atende gestores de clínicas e ILPIs. (FATO)
+- **Formatos:** flexível: algumas horas por dia, fins de semana, viagens, pós-alta, noite, consultas. (FATO)
+- **Preço:** não publicado.
+- **Promessa e oferta de entrada:** "AGENDE A SUA EXPERIÊNCIA DE GRAÇA", ou seja, avaliação ou experiência gratuita. (FATO)
+- **Público declarado:** inclui "Familiares que moram longe", com uma página inteira sobre filhos que acompanham os pais à distância. (FATO)
+- **Prova:** Google Maps 4,9 com 223 avaliações. Os depoimentos do site são curtos ("Muito boa", "excelente!"). (FATO)
+- **Instagram:** @gscuidadoresdeidosos com cerca de 155 a 157 mil seguidores, 95 a 132 publicações e só 2 perfis seguidos. (PISTA) SUPOSIÇÃO: audiência alta com poucas publicações sugere crescimento por anúncio; a frente 3 pode conferir.
+- **Responsável técnico, substituição:** não achados.
+- **Gap que deixa:** enfermagem e responsável técnico. A negativa lida é exatamente de cuidadora despreparada para aplicar insulina.
 
 ### Suavitate (local independente)
-- **Site:** suavitate.com.br (FATO)
-- **Cidades:** só a Grande Florianópolis. (PISTA)
-- **Serviços:** cuidadores em casa, em ILPI e no hospital. (PISTA)
-- **Formatos:** plantões de 12h ou 24h, carga menor sob consulta, avulso ou contrato mensal contínuo. (PISTA)
-- **Preço:** não achado.
-- **Promessa:** não achada em texto literal.
-- **Diferencial declarado:** mais de 10 anos na Grande Florianópolis. A empresa contrata os profissionais e "assume toda e qualquer responsabilidade trabalhista". (PISTA)
-- **Garantia ou substituição:**
-  - É a política mais explícita de toda a praça.
-  - Um plantonista "não sai do plantão antes que outro chegue".
-  - A troca de cuidador "costuma levar até 24 horas", sem custo adicional.
-  - O cuidador é excluído do quadro se o motivo for técnico ou mau atendimento.
-  - Ressalva: é o que "normalmente" acontece, não uma garantia contratual.
-  - (PISTA)
-- **Prova social / Instagram / Google:** não achado.
-- **Anúncios:** não verificados.
-- **Gap que deixa:** não mostrou enfermagem nem enfermeiro responsável técnico. O serviço é de cuidador. (PISTA de ausência)
+- **Site:** suavitate.com.br e /servicos/ com as respostas do FAQ (FATO, lido às 14:18 UTC)
+- **Cidades:** "ATUAMOS somente na região de Florianópolis/SC". (FATO)
+- **Serviços:** "cuidadores" em residência, que a página descreve como "Pessoas especializadas (Técnicos em enfermagem ou enfermeiros)" e que administram "medicação (injetável)"; acompanhantes em hospital; procedimentos pontuais de até 6 horas. **Correção da 1ª rodada:** a Suavitate oferece, sim, técnico de enfermagem e enfermeiro. (FATO)
+- **Formatos:** "plantões de 12 ou 24 hrs normalmente", esporádicos ou contrato mensal. "Não existem planos", e o contrato se baseia no "valor do plantão". (FATO)
+- **Preço:** não publicado. Telefones em "Horário Comercial". (FATO)
+- **Substituição (FATO, autodeclarado):** "A SUAVITATE solicita um tempo para a substituição (normalmente não demora mais que 24 horas), e você não tem nenhum custo adicional." Para falta: "Um plantonista não sai do plantão antes que outro chegue. Você não fica sem assistência, mesmo no natal, ano novo."
+- **Supervisão:** "A supervisão dos serviços são relizados pelos familiares que convivem com o paciente e com os cuidadores, MAS temos em nossa equipe profissionais, gestores ou enfermeiros que podem conforme o desejo dos clientes [...] efetuar serviços de supervisão". A supervisão de enfermagem é opcional. (FATO)
+- **Vínculo:** a empresa contrata os profissionais e "assume toda e qualquer responsabilidade trabalhista"; paga os cuidadores toda semana. "Mais de 10 anos". (FATO)
+- **Prova:** três depoimentos longos assinados só com iniciais (JAO, MG, LO). Google Maps 5,0 com 2 avaliações. Instagram @suavitatesc com cerca de 960 seguidores (PISTA).
+- **Gap que deixa:** prova e supervisão. A melhor política de continuidade escrita da praça está numa empresa quase invisível no Google.
 
 ### Cuidare (Florianópolis)
-- **Site:** cuidaresc.com.br. Contato: florianopolis@cuidarebr.com.br, (48) 99859-2638. (PISTA)
-- **Cidades:** Florianópolis. (PISTA)
-- **Serviços:** cuidadores de idosos, crianças e pessoas com necessidades especiais, apoio hospitalar e pós-cirúrgico. (PISTA)
-- **Formatos:** de 1 a 24 horas por dia, nos dias que a família escolher, sem período mínimo. (PISTA)
-- **Preço:** não achado.
-- **Promessa:** "Do primeiro contato ao profissional na sua casa em até 72 horas." (PISTA)
-- **Diferencial declarado:** "Todos os cuidadores são contratados pela Cuidare. Encargos, férias e substituições são por nossa conta." Suporte 24h para clientes, mas o comercial funciona de segunda a sexta, das 8h às 18h. (PISTA)
-- **Garantia:** "substituição garantida". (PISTA)
-- **Reclame Aqui:** existe uma página "CUIDARE BRASIL - CUIDADORES DE PESSOAS" com este título (FATO):
-  > "NUNCA CONTRATEM A CUIDARE - PACIENTE FICA SEM ATENDIMENTO, RECLAMAÇÃO DE FALTA DE PAGAMENTO AOS CUIDADORES MESMO COM O PAGAMENTO ANTECIPADO DO CLIENTE" — Reclame Aqui, data não lida
+- **Site:** cuidaresc.com.br (FATO, lido às 14:18 UTC). Rodapé "© 2025". Telefone (48) 99864-0172, diferente do número da 1ª rodada; e-mail florianopolis@cuidarebr.com.br; comercial de segunda a sexta, das 8h às 18h, "Suporte 24h para clientes".
+- **Cidades no rodapé:** Florianópolis, São José, Palhoça, Biguaçu, **Balneário Camboriú e Itapema**. (FATO, autodeclarado)
+- **Serviços:** cuidadores para idosos, crianças, recém-nascidos e puérperas, acompanhante hospitalar e pós-operatório. Supervisão de medicamentos. Não oferece enfermagem. (FATO)
+- **Formatos:** de 1 a 24 horas por dia, sem período mínimo; dá para começar com um período curto para testar. (FATO)
+- **Promessa:** "Do primeiro contato ao profissional na sua casa em até 72 horas." (FATO)
+- **Substituição (FATO, autodeclarado):** "Contamos com sistema de substituição imediata. Mantemos profissionais de reserva prontos para atender emergências, garantindo que seu familiar nunca fique desassistido." Troca por falta de adaptação sem custo.
+- **Outros:** "supervisão técnica regular e fornecemos relatórios de acompanhamento"; "Câmeras de segurança são permitidas e incentivadas"; proposta "com todos os custos incluídos, sem surpresas". (FATO)
+- **Prova:** três depoimentos com nome completo e bairro (Trindade, Jurerê, Córrego Grande), não verificáveis. **Nenhuma ficha no Google Maps.** (FATO quanto à busca)
+- **Reclame Aqui:** o título "NUNCA CONTRATEM A CUIDARE - PACIENTE FICA SEM ATENDIMENTO..." (1ª rodada) segue sem confirmação de que é a mesma empresa. (PISTA)
+- **Gap que deixa:** enfermagem e prova.
 
-  Não confirmei se é a mesma empresa da unidade de Florianópolis. O domínio de e-mail "cuidarebr" sugere que sim. (SUPOSIÇÃO)
-- **Instagram / Google:** não achado.
-- **Gap que deixa:** não aparece enfermagem.
+### Home Mater Florianópolis e Balneário Camboriú (franquia)
+- **Site:** homemater.com/florianopolis/ e /bc/ (FATO, lido às 14:18 UTC)
+- **Empresa e endereço:** Home Mater Florianópolis Cuidadores Ltda, R. Esteves Júnior, 50, conjunto 404, Centro; (48) 9834-1047. Balneário Camboriú: (47) 99266-6751. (FATO)
+- **Serviços:** cuidadores, técnicos de enfermagem, "Enfermeiros Especializados" para "Avaliação clínica, supervisão dos cuidados e acompanhamento de casos complexos", babás e equipe multidisciplinar. (FATO)
+- **Preço:** não publicado. Orçamento pelo WhatsApp. A página de Balneário Camboriú diz: "PREÇO JUSTO [...] com planos até 20% abaixo do mercado." É a única frase sobre preço achada na praça. (FATO)
+- **Diferenciais (FATO, autodeclarado):** "Visita mensal da equipe de enfermagem", "Kit de estimulação cognitiva [...] entregue mensalmente", "Suporte 24 horas", aplicativo com escalas e evoluções.
+- **Substituição:** não escrita.
+- **Prova:** Google Maps Florianópolis 5,0 (55) e Balneário Camboriú 5,0 (25), com a mistura de marcas citada na seção 2. No site, três depoimentos com iniciais; um diz "A Homemater nos atende há 5 anos!". Instagram @homematerflorianopolis com cerca de 2,2 mil seguidores; a rede (@homemateroficial) diz "desde 2012", com 11 mil (PISTA).
+- **Gap que deixa:** supervisão de enfermagem mensal, não semanal.
 
-### Outros players locais (registro curto)
+### Bevita Saúde Florianópolis e Balneário Camboriú (franquia)
+- Site não relido nesta rodada (o coordenador pediu economia). Dados da 1ª rodada seguem como PISTA.
+- **Google Maps:** Florianópolis 4,8 (61), Balneário Camboriú 4,9 (16). Negativas lidas: pós-operatório que "não atendeu minhas expectativas" e uma ex-profissional reclamando do tratamento com a equipe. (FATO)
+- **Instagram:** @bevitafloripa com cerca de 8,5 mil seguidores. (PISTA)
 
-- **Clínica Anjos da Guarda Cuidadores de Idosos e Enfermagem** (clinicaanjosdaguarda.com.br). Centro de Florianópolis, CNPJ 34.132.215/0001-88, aberta em 05/07/2019 (FATO, cadastro via resumo de busca). Atende por WhatsApp 24h, tem curso de cuidador, vídeo no YouTube e página no LinkedIn. É o 1º lugar no ranking do SeniorBemEstar, de metodologia não declarada (PISTA). SUPOSIÇÃO: merece cartão completo na próxima rodada, porque aparece em ranking e tem enfermagem no nome.
-- **Parceria Home Care** (parceriahomecare.com.br). Florianópolis desde 2019, com cuidadores, técnicos de enfermagem e enfermeiras. Seleção com RH, documentos e antecedentes, foco em Alzheimer, "enfermeira disponível 24 horas". (PISTA)
-- **Essencial Care, unidade Florianópolis** (essencialcare.com.br). Trindade, "desde 2007". Faz internação domiciliar, enfermagem (sondas, drenos, oxigenoterapia, vias de medicação), fisioterapia, nutrição, psicologia e farmácia. Entre os locais, é a que mais se aproxima de home care de média e alta complexidade. (PISTA)
-- **To Care / Solução Enfermagem** (tocare-enfermagem.com.br). Centro, "desde 1999", com enfermeira, cuidador, fisioterapia e nutrição e visita sem compromisso. Tem muitas páginas por palavra-chave. (PISTA)
-- **Amo Home Care** (amohomecare.com.br). Enfermagem "supervisionada por uma enfermeira responsável", diário online do paciente, contato direto com a responsável técnica, visitas periódicas e monitoramento por câmera 24h. (PISTA; página de cerca de três anos)
-- **Senescence Brasil** (senescencebrasil.com.br). Lado médico: geriatria, neurologia, fonoaudiologia, fisioterapia, demência. Tem contradições no próprio site: "fundada em 2020" e "mais de 15 anos", além de um "82% de satisfação" com depoimento de modelo. (PISTA)
-- **Home Care Floripa** (homecarefloripa.com.br). Cuidadores, paliativos e acamados, com orçamento pelo site. (PISTA)
-- **Be Cuidar** (filial Florianópolis): plantões de 24h, 12h e 6h. **Agesênior**: SC e SP, "mais de 10 anos", planos de 6h a 24h, diz ser "a melhor agência de cuidadores de idosos de Santa Catarina". **RD Cuidados**: de 6h a 24h, sete dias. **My Angels**: diz ser "Certificada COREN-SC". (todos PISTA)
-- **Levens** (sejalevens.com.br). Só seleciona o profissional, e a família contrata direto, pela CLT ou como autônomo. É outro modelo de negócio. (PISTA)
+### Amor e Cuidado Florianópolis (franquia)
+- Site não relido. **Google Maps:** 4,9 (111); as notas mais baixas lidas são um 1 estrela e três 4 estrelas sem texto. **Instagram:** @amorecuidadofln com cerca de 2,7 mil seguidores. (FATO no Maps; PISTA no Instagram)
+- O "4,9 estrelas" que o domínio local mostrava sem origem bate com o Maps. (FATO)
 
-**Litoral norte (Balneário Camboriú, Itajaí):**
-- **Angels At Home:** Itajaí, Balneário Camboriú e região, 24h, WhatsApp (dado da frente 3).
-- **Cuidar Home Care:** sede em Itajaí, bairro Fazenda, enfermagem com supervisão 24h.
-- **Cuidadores do Bem:** sedes em Balneário Camboriú e Curitiba, atuação nacional. Diz que home care é "exclusivamente enfermagem", sem alimentação nem limpeza.
-- **Santé Care:** Balneário Camboriú e Curitiba, só Instagram.
-- **Guerreiros da Cura:** sede em São Paulo, diz atender Balneário Camboriú.
-- Todos PISTA.
+### Senescence Brasil
+- **Site lido (14:18 UTC):** é uma clínica médica e multiprofissional (geriatria, neurologia, psiquiatria geriátrica, fisioterapia, fonoaudiologia, odontologia, eletroencefalograma) com atendimento em casa. Lista 18 profissionais com nome. Tem uma sobra de modelo no texto: "Na Mednix, sua saúde é nossa prioridade". Atende de segunda a sexta, das 8h às 18h. Google Maps 4,7 (23). (FATO)
+- O "82% de satisfação" e o "fundada em 2020 / mais de 15 anos" da 1ª rodada **não aparecem** na página inicial lida. (não conferido)
+- **Leitura (SUPOSIÇÃO):** não é concorrente de plantão de cuidador. É parceira possível ou concorrente só na consulta médica domiciliar.
 
-**Porto Belo, Imbituba, Garopaba:** só apareceu a **Bem Zelar** (bemzelar.com.br), com páginas que listam essas cidades. Ela parece ser do Rio de Janeiro, com página da Barra da Tijuca. Fora isso, só perfis avulsos no Cronoshare. (PISTA)
+### To Care / Solução Enfermagem
+- O site (tocare-enfermagem.com.br) não abriu: o proxy recusou a conexão. A ficha "Solução Enfermagem Domiciliar" no Maps tem 4,7 com 13 avaliações, na Av. Rio Branco, 404, sala 1203. O "desde 1999" segue como PISTA.
+
+### Outros players (registro curto)
+- **Parceria Home Care** 5,0 (40), **Art de Cuidar Floripa** 5,0 (39), **Essência Cuidar** (enfermagem domiciliar) 5,0 (28), **Amábile Enfermagem** 5,0 (48), **Dom Cuidar** 4,8 (21), **Essencial Home Care** (Balneário Camboriú) 5,0 (11), **SC Home Care** (Balneário Camboriú) 4,9 (31), **Anjos do Lar** (Balneário Camboriú) 4,3 (51). Só a ficha no Maps foi lida. (FATO)
+- **Angels At Home (Itajaí):** a busca no Maps não achou a empresa. (não achado)
+- **Essencial Care, Levens, Be Cuidar, Agesênior, RD Cuidados, My Angels, Cuidadores do Bem, Santé Care, Guerreiros da Cura, Bem Zelar, Amo Home Care, Home Care Floripa:** sem nova leitura. Seguem como PISTA da 1ª rodada (Amo Home Care tem ficha com 1 avaliação).
 
 ### Home care por plano de saúde
-
-- **Unimed Lar (Unimed Grande Florianópolis).**
-  - É o maior serviço de atenção domiciliar da região, segundo notícia antiga da AEMFLO/CDL São José. (PISTA, data antiga)
-  - É um benefício fora do rol obrigatório da ANS e exige indicação do médico assistente.
-  - Critérios: crônico ou acamado, via alternativa de alimentação, traqueostomia, ventilação mecânica domiciliar, sequela de AVC, doença degenerativa com dependência total.
-  - Pedido pelo 0800 048 3500, opção 9.
-  - (FATO quanto ao conteúdo das páginas da Unimed, lido pelo resumo de busca)
-- **Maiores empresas de home care de SC por faturamento (Econodata 2026):** DSL Home Care (Florianópolis), Nursing Home Care (Campeche, Florianópolis) e RFP Serviços de Enfermagem e Home Care (São José). Atuação, convênios e oferta: não achado. (PISTA)
-- **Pulse Care:** sede em Joinville, diz cobrir de Joinville até a Grande Florianópolis. A página está desatualizada. (PISTA)
-- **Vip Home Care** e **Home Care Hospital:** têm páginas com o nome de cidades de SC, mas sede em São Paulo e Porto Alegre. A cobertura real não foi confirmada. (PISTA)
-- **Leitura (SUPOSIÇÃO):** o home care do plano atende o paciente de alta complexidade com critério de elegibilidade. Quem não se enquadra (idoso dependente "só" para atividades diárias, demência sem tubo, pós-operatório curto) fica de fora e cai no mercado particular, que é o da GrandCare. A objeção "meu plano não cobre?" deve aparecer na conversa de venda. A frente de público pode confirmar.
+Sem mudança nesta rodada. Unimed Lar, DSL Home Care, Nursing Home Care e RFP seguem como na 1ª rodada (Unimed: FATO lido por resumo; demais: PISTA). Leitura mantida (SUPOSIÇÃO): o plano atende o paciente de alta complexidade com critério; quem não se enquadra cai no mercado particular.
 
 ---
 
-## 3. Alternativas indiretas
+## 4. Presença real em Porto Belo, Itapema e Imbituba
 
-### Cuidadora contratada direto (informal ou CLT)
-- **GetNinjas:**
-  - Média nacional de R$ 1.600 por mês, faixa de R$ 900 a R$ 1.800.
-  - Um pedido real de família em Florianópolis, para plantão noturno: "Pagamos r$ 1. 400,00 por mês". (citação literal do pedido como indexado; data não lida)
-- **Cronoshare Florianópolis:**
-  - R$ 200 a R$ 300 por turno de 8h em dia útil.
-  - R$ 260 a R$ 380 por turno de 10h no fim de semana.
-  - R$ 300 a R$ 420 por plantão noturno de 12h, até R$ 480 com adicional noturno.
-  - R$ 2.600 a R$ 3.600 por mês, para 44h semanais em contratação direta.
-  - A mesma página traz valores por hora contraditórios (R$ 8 a R$ 12 e R$ 25 a R$ 35). (PISTA)
-- **Guia Cuidadores Na Web:** plantão de 24h de cuidadora avulsa em Florianópolis entre R$ 400 e R$ 600. (PISTA)
-- **Salário de referência:**
-  - Salario.com.br: R$ 2.093 por mês em Florianópolis (43h semanais) e R$ 1.878,72 em SC (42h).
-  - Indeed: R$ 2.190 em Florianópolis e R$ 2.128 em SC, com 87 salários informados.
-  - (PISTA)
-- **Custo de registrar:** cerca de R$ 2.323,43 por mês no piso nacional, com encargos e provisões, segundo a Cuidados Conecta, de base nacional. (PISTA)
-- **OLX:** nenhum anúncio de Florianópolis apareceu na busca. (não achado)
-- **Porto Belo (Cronoshare):** "média" de R$ 1.240,20 para mensalista e R$ 103,78 por diária. Os valores estão abaixo de todas as outras fontes; tratar como pouco confiável. (PISTA)
+Buscas no Maps às 14:31 e 14:32 UTC: "cuidador de idosos" e "home care" em cada cidade, mais "enfermagem domiciliar imbituba" e "cuidadores de idosos garopaba".
 
-### Casa de repouso (ILPI)
-- Guia local: R$ 3.000 a R$ 12.000 por mês na Grande Florianópolis. Guia de 2026: faixa mais comum em SC entre R$ 3.500 e R$ 6.500. (PISTA)
-- Preços anunciados:
-  - Residencial Plus Vita: a partir de R$ 8.000.
-  - Residência Santa Inês (parte continental): a partir de R$ 15.162, para hóspede independente em quarto duplo.
-  - Residencial Estrela Guia: R$ 6.000, em promoção por R$ 5.500.
-  - (PISTA, sites das próprias casas)
-- Plano de saúde não cobre diária de ILPI como moradia, segundo a ANS citada no resumo de busca. (PISTA)
+- **Porto Belo:** **Integritá Homecare – Enfermagem Domiciliar Porto Belo**, 5,0 com 15 avaliações, telefone (47) 99980-7030, site integritahomecare.com.br (bloqueado pelo proxy, não lido). **Vida Plena cuidador de idosos a domicílio**, 5,0 (5). Também há um centro-dia e casas de repouso. (FATO)
+- **Itapema:** **Acuidar Itapema**, 5,0 (49); Donangelico Enfermagem Domiciliar, 5,0 (1); uma cuidadora autônoma, 4,8 (11). Nonno e Cuidare listam Itapema no próprio site. (FATO)
+- **Imbituba:** nenhuma empresa de cuidador ou de enfermagem domiciliar com ficha no Maps. Só uma cuidadora autônoma, 5,0 (1), e duas casas de repouso. A busca "enfermagem domiciliar imbituba" não trouxe resultado. (FATO quanto à busca)
+- **Garopaba, vizinha de Imbituba:** **SOS Cuidadores Garopaba**, 5,0 com 240 avaliações. As avaliações citam "a busca da cuidadora" e "Equipe do seu Luiz"; parece agência que indica cuidadoras. (FATO quanto ao texto; SUPOSIÇÃO quanto ao modelo)
+- **Itajaí:** Acuidar Itajaí 5,0 (15), Excellence Care 4,9 (56), Cuidador 24 horas 5,0 (2). (FATO)
+- **Balneário Camboriú:** pelo menos oito operações com ficha (lista na seção 2). (FATO)
 
-### Plataformas e marketplaces
-- **Nonno:** ver cartão.
-- **Cronoshare, GetNinjas e StarOfService:** perfis individuais com poucas avaliações cada.
-- **Levens:** recrutamento para a família contratar direto.
-- **Discurso que ataca o modelo de agência:** a Cuidados Conecta diz que intermediários retêm de 40% a 60% do valor. O projeto iFlora (citado na frente 3) fala em até 50%. (PISTA, dado não verificado)
+**Leitura (SUPOSIÇÃO):** "a única que atende Porto Belo e Itapema" é falso e não deve ir para nenhuma peça. Imbituba é o único município da lista da GrandCare sem empresa local visível no Maps; mesmo ali, a SOS Cuidadores de Garopaba é forte e fica a cerca de 20 km.
 
 ---
 
-## 4. A GrandCare lado a lado
+## 5. Redes sociais
 
-Só os campos que a busca permitiu comparar. "?" significa não achado.
+- **Instagram:** a leitura direta bloqueou (`ERR_HTTP_RESPONSE_CODE_FAILURE`, 14:26 UTC) para @grandcarebr, @nonnoapp e @acuidarflorianopolis. Os números abaixo vêm de trechos do DuckDuckGo, sem data de indexação. (PISTA)
 
-| | GrandCare | Nonno | Acuidar | Home Angels | Bevita | Ravivare | Zathos | Suavitate |
-|---|---|---|---|---|---|---|---|---|
-| Cuidador | sim | sim | sim | sim | sim | sim | sim | sim |
-| Enfermagem | sim | técnico e enfermeiro por plataforma | ? | lista enfermeira | técnico | sim | sim | não visto |
-| Líder enfermeiro declarado | sim (Edemilson Albarnas) | não visto | não visto | supervisor "da saúde" | supervisor técnico | sim (mestre/doutorando) | sim (enfermeira) | não visto |
-| Hospital | sim | sim | sim | ? | ? | sim | ? | sim |
-| Preço publicado | não | não | não | não | não | não | não | não |
-| Política de substituição escrita | ? | ? | contato com unidade | ? | ? | ? | ? | sim, até 24h |
-| App ou relatório para a família | ? | app | app | app | app | ? | ? | ? |
-| Prova numérica | +500 famílias | +3.000 famílias | +90 unidades | +200 unidades | 16 franquias | ? | 4,8 com 49 avaliações (autodeclarado) | +10 anos |
-| Cidades fora da Grande Florianópolis | Porto Belo, Balneário Camboriú, Itajaí, Imbituba | Sul e Sudeste | São José, Balneário Camboriú | Balneário Camboriú | "Itajaí à Palhoça", Balneário Camboriú | "litoral" | ? | não |
+| Perfil | Seguidores | Publicações |
+|---|---|---|
+| @clinicaanjosdaguarda (Anjos da Guarda) | 203 mil | 2.745 |
+| @gscuidadoresdeidosos (Geração de Saúde) | 155–157 mil | 95–132 |
+| @acuidarflorianopolis | 10 mil | 327 |
+| @bevitafloripa | 8,4–8,6 mil | 894–954 |
+| @nonnoapp | 6,8–7,6 mil | 847–920 |
+| @grandcarebr (GrandCare) | 3.847 (outro trecho: 757) | 62 (outro: 22) |
+| @amorecuidadofln | 2,7 mil | 530 |
+| @homematerflorianopolis | 2,2 mil | 347–418 |
+| @suavitatesc | 960 | 65 |
+| @ravivarehomecare | 810 (outro trecho: 1.628) | 150 (outro: 54) |
+| @zathoscare | 434–438 | 246 |
 
-Fonte da coluna GrandCare: o briefing (site lido em 13/10/2026). As demais colunas vêm dos cartões acima (PISTA).
+- **LinkedIn:** a página da Nonno abriu (2.221 seguidores, FATO). Home Angels e Bevita pediram login. (bloqueio)
+- **YouTube:** não verificado nesta rodada, por economia.
+- **Leitura (SUPOSIÇÃO):** no Instagram, a GrandCare fica no meio do grupo local, acima de Ravivare, Zathos e Suavitate. A distância para Anjos da Guarda e Geração de Saúde é de outra ordem e não se fecha com conteúdo orgânico.
 
 ---
 
-## 5. Faixa de preço praticada na região
+## 6. A GrandCare lado a lado
+
+"?" = não achado. Coluna GrandCare: briefing, frente 1 e Maps lido nesta rodada.
+
+| | GrandCare | Ravivare | Zathos | Nonno | Acuidar Fpolis | Anjos da Guarda | Suavitate |
+|---|---|---|---|---|---|---|---|
+| Enfermagem no serviço | sim | sim | sim | sim (MEI) | não na unidade | sim | sim (técnico/enfermeiro) |
+| Enfermeiro que lidera, com nome | sim (Edemilson) | sim (2, com mestrado) | sim (Carolina Savi) | não | não | não | não |
+| Avaliação gratuita | sim (frente 1) | ? | ? | 1º plantão pago depois | sim | sim | ? |
+| Substituição por escrito | dita em vídeo (frente 1) | "imediata" | ? | "imediata, sem custo" | "falta, licença, férias" | ? | "até 24h"; "não sai antes que outro chegue" |
+| Cancelamento por escrito | ? | ? | ? | sem multa, sem contrato fechado | sem multa com 30 dias | ? | ? |
+| Preço publicado | não | não | não | não | não | não | não |
+| Google Maps | 5,0 (5) | 5,0 (73) | 4,8 (48) | 4,8 (196) | 4,8 (112) | 4,9 (273) | 5,0 (2) |
+| Instagram (PISTA) | ~3,8 mil | ~0,8–1,6 mil | ~0,4 mil | ~7,6 mil | ~10 mil | ~203 mil | ~1 mil |
+
+**Leitura (SUPOSIÇÃO):** no papel, a GrandCare tem o pacote completo: enfermeiro fundador acessível, enfermagem e cuidador, avaliação gratuita e quem responda pela falta. O que falta é prova pública. Nos dois pontos em que a família compara de verdade (avaliações no Google e política escrita), ela perde para quem diz menos e mostra mais.
+
+---
+
+## 7. Faixa de preço praticada na região
+
+Conferido nas fontes às 14:33 UTC, salvo onde está indicado.
 
 | O quê | Faixa | Fonte e marca |
 |---|---|---|
-| Cuidadora direta, turno de 8h | R$ 200–300 | Cronoshare Florianópolis (PISTA) |
-| Cuidadora direta, plantão noturno de 12h | R$ 300–420 (até R$ 480) | Cronoshare Florianópolis (PISTA) |
-| Cuidadora avulsa, plantão de 24h | R$ 400–600 | Cuidadores Na Web, Florianópolis (PISTA) |
-| Cuidadora direta, mensal 44h | R$ 2.600–3.600 | Cronoshare Florianópolis (PISTA) |
-| Pedido real de família, noturno mensal | R$ 1.400 | GetNinjas Florianópolis (PISTA) |
-| Salário médio de cuidador | R$ 1.879–2.190 | Salario.com.br, Indeed (PISTA) |
-| Empresa, 12h/dia, mensal | R$ 4.500–9.000 | Cuidados Conecta, base SP/nacional (PISTA) |
-| Empresa, pacote Home Angels | R$ 4.500 (6h) a R$ 12.000 (24h) | Exame, cerca de 9 anos atrás (PISTA, desatualizado) |
-| Técnico de enfermagem, repasse por plantão de 12h | R$ 172–202 | vaga em Florianópolis, cerca de 3,5 anos atrás (PISTA) |
-| Técnico de enfermagem, 12h de baixa complexidade (preço ao cliente) | R$ 190 | tabelas de empresas sem região (PISTA) |
-| Técnico de enfermagem, cálculo pelo piso | cerca de R$ 277 | Contabilizei, piso de R$ 3.325 (PISTA) |
-| Enfermagem domiciliar, plantão de 12h | R$ 900–1.308 | Cronoshare Florianópolis, provavelmente enfermeiro (PISTA) |
-| Visita domiciliar avulsa | R$ 150–400 | Doctoralia, citado na frente 3 (PISTA) |
-| ILPI na Grande Florianópolis | R$ 3.500–8.000 mais comum; premium acima de R$ 15 mil | guias e sites de ILPI (PISTA) |
+| Cuidadora direta, turno de 8h | R$ 200–300 | Cronoshare Florianópolis (FATO lido; é estimativa da plataforma) |
+| Cuidadora direta, plantão noturno de 12h | R$ 300–420 (até R$ 480 com adicional) | Cronoshare Florianópolis (FATO lido) |
+| Cuidadora direta, turno de 10h no fim de semana | R$ 260–380 | Cronoshare Florianópolis (FATO lido) |
+| Acompanhamento hospitalar de 8 a 10h | R$ 220–360 | Cronoshare Florianópolis (FATO lido) |
+| Mensal 44h, direto | R$ 2.600–3.600 | Cronoshare Florianópolis (FATO lido) |
+| **Mensal 44h, via empresa** | **R$ 2.800–3.800** | Cronoshare Florianópolis (FATO lido; dado novo) |
+| Cuidadora por hora | R$ 25–35 (mín. 18, máx. 50) | Cronoshare Florianópolis; o widget da mesma página diz R$ 8–12 (contradição mantida) |
+| Plantão de 24h, cuidadora avulsa | R$ 400–600 | Cuidadores Na Web (PISTA: site bloqueado pelo proxy) |
+| Diarista 12h | R$ 180–320 | Cuidados Conecta 2026, base nacional (FATO lido) |
+| Mensalista 12h/dia, direto | R$ 2.800–4.500 | Cuidados Conecta 2026 (FATO lido) |
+| **Agência, 12h/dia, mensal** | **R$ 4.500–9.000** | Cuidados Conecta 2026, base nacional (FATO lido) |
+| Internato 24h | R$ 3.800–6.500 | Cuidados Conecta 2026 (FATO lido) |
+| Custo de CLT doméstica, 44h | R$ 2.400–3.200 | Cuidados Conecta 2026 (FATO lido; substitui os R$ 2.323,43 da 1ª rodada, que não apareceram) |
+| Média nacional de cuidador | R$ 1.600 (faixa R$ 900–1.800) | GetNinjas (FATO lido) |
+| Enfermagem domiciliar, plantão de 12h | R$ 900–1.308 | Cronoshare Florianópolis (FATO lido) |
+| Enfermagem, visita de até 1h | R$ 75–109 | Cronoshare Florianópolis (FATO lido) |
+| Curativo complexo, por sessão | R$ 150–300 | Cronoshare Florianópolis (FATO lido) |
+| Porto Belo, cuidador | R$ 10/h; mensalista R$ 1.240,20 | Cronoshare Porto Belo (FATO lido; valores fora da curva, pouco confiáveis) |
+| ILPI na Grande Florianópolis | R$ 3.500–8.000 mais comum | guias e sites de ILPI (PISTA, 1ª rodada) |
+| Empresa local com preço publicado | nenhuma | 14 sites lidos; só "até 20% abaixo do mercado" (Home Mater BC) |
 
 **Leitura (SUPOSIÇÃO):**
-- A família que pesquisa preço vai ver R$ 300 a R$ 400 por plantão de cuidadora direta. Uma empresa precisa cobrar bem acima disso para pagar encargos, substituição e supervisão.
-- Para o cliente de 24h, a ILPI de R$ 5 mil a R$ 8 mil por mês parece mais barata que um cuidador em casa por empresa.
-- A conta de custo total (CLT com encargos, férias, folguista e falta) é o argumento que nenhum concorrente local mostra.
-- Os preços reais de empresa na região estão em aberto: `[medir]` por cliente oculto.
+- A família que pesquisa preço vê duas âncoras: R$ 300 a R$ 420 por plantão de cuidadora direta e "agência de R$ 4.500 a R$ 9.000". Quem não mostra nada deixa a família com a âncora mais alta.
+- O Cronoshare diz que "via empresa" a mensalidade de 44h fica entre R$ 2.800 e R$ 3.800, perto do custo da contratação direta. Se for verdade na região, o argumento "empresa é cara" perde força. Só cliente oculto confirma: `[medir]`.
 
 ---
 
-## 6. Posicionamentos já ocupados
+## 8. Posicionamentos já ocupados
 
-- **"Humanizado, 24h, WhatsApp, casa e hospital".** Ocupado por quase todos, incluindo a GrandCare. Não diferencia.
-- **"Referência" ou "a melhor".** Usam: Zathos ("Referência em Cuidados Domiciliares em Florianópolis"), Amor e Cuidado ("referência"), Agesênior ("a melhor agência... de Santa Catarina"), Acuidar ("a melhor... do Brasil e América Latina"), Cuidadores do Bem ("A Melhor Empresa... no Sul do Brasil") e a GrandCare ("Referência em Cuidado Domiciliar"). Está saturado, e ninguém prova.
-- **"Fundado ou liderado por enfermeiro".** Ravivare (mestre e doutorando), Zathos (enfermeira com 16 a 17 anos de experiência) e GrandCare. Está ocupado por três. A GrandCare não tem vantagem visível de titulação.
-- **"Método de supervisão": avaliação gratuita, plano de cuidados e supervisor.** Ocupado pelas franquias: Home Angels (o mais nomeado), Acuidar, Amor e Cuidado, Bevita.
-- **"Transparência por app ou diário".** Bevita, Acuidar, Home Mater, Home Angels, Amo Home Care, Amor e Cuidado (relatório diário).
-- **"Sem amarra": sem contrato mínimo, sem multa, paga pelo que usa.** Nonno e Cuidare.
-- **"Continuidade": quem sai só sai quando o outro chega.** Só a Suavitate, e de forma branda ("normalmente").
-- **"Alta complexidade e internação domiciliar".** Essencial Care e Unimed Lar.
-- **"Tempo de mercado".** To Care ("desde 1999"), Essencial ("desde 2007"), Suavitate ("+10 anos"), Agesênior ("+10 anos").
+- **"Humanizado, 24h, WhatsApp, casa e hospital".** Todos usam, inclusive a GrandCare.
+- **"Referência" ou "a maior".** Ravivare ("Referência em Home Care na Grande Florianópolis"), Acuidar ("referência em tranquilidade"), Zathos (visão de "referência nacional"), Suavitate (visão), Home Angels ("A Maior franquia"), Anjos da Guarda ("A maior instituição de cuidado humanizado do Brasil") e GrandCare ("Referência em Cuidado Domiciliar"). Saturado e sem prova.
+- **"Liderado por enfermeiro".** Ravivare (dois mestres), Zathos (enfermeira, 16 anos) e GrandCare. A Ravivare tem a prova mais forte.
+- **"Avaliação gratuita".** Home Angels, Acuidar, Anjos da Guarda, Geração de Saúde ("experiência de graça") e GrandCare. Não diferencia.
+- **"Experimente antes".** Nonno (primeiro plantão pago depois), Cuidare (começar com período curto) e Geração de Saúde.
+- **"Substituímos na falta" (dito, sem prazo).** Acuidar, Nonno, Ravivare, Cuidare. **Com prazo:** só a Suavitate ("normalmente não demora mais que 24 horas") e a Cuidare para começar ("até 72 horas").
+- **"Sem amarra".** Nonno (sem contrato fechado nem multa), Acuidar (sem multa com 30 dias de aviso), Cuidare (sem período mínimo).
+- **"Transparência por app, relatório ou câmera".** Acuidar, Home Mater, Cuidare (relatórios e câmeras incentivadas) e Bevita (PISTA).
+- **"Médico e emergência 24h incluídos".** Home Angels (telemedicina e médico 24h sem custo) e Acuidar (telemedicina e ambulância).
+- **"Preço justo".** Só a Home Mater BC ("até 20% abaixo do mercado").
 
 ---
 
-## 7. Gaps com evidência
+## 9. Gaps com evidência
 
-**Gap 1 — Preço e custo total às claras.**
-- **Evidência:** nenhum dos 25 players mostrou preço na busca, e todos pedem orçamento. Ao mesmo tempo, os guias que publicam tabelas aparecem bem na busca por preço (Cuidados Conecta, Cronoshare, GetNinjas, Cuidadores Na Web).
-- **Por que ninguém atende:** medo de perder a venda no primeiro contato e preço que muda com cada caso (SUPOSIÇÃO).
-- **Como explorar:** faixa de preço por formato e uma comparação honesta "contratar direto x empresa x casa de repouso", com custo de encargos, folguista e falta. Depende de a GrandCare aceitar mostrar uma faixa: `[A PREENCHER]`.
-- **Força:** média. São duas fontes de tipo diferente (sites das empresas e guias de preço), mas nenhuma fala de família.
+**Gap 1 — Prova verificável e em volume (subiu para o primeiro lugar).**
+- **Evidência:** a GrandCare tem 5 avaliações; os concorrentes diretos têm de 48 a 273. Na praça, a prova dos sites é fraca ou reaproveitada: o depoimento único da Zathos repetido cinco vezes, depoimentos da Acuidar de outra cidade e de outro estado ("povo paraibano"), contadores zerados na página da Anjos da Guarda, fichas de rede com avaliações de outra marca. As avaliações reais da GrandCare são boas e específicas (2 anos em 24x7, fundador que atende a qualquer hora, cuidado no fim da vida).
+- **Por que ninguém atende:** prova real dá trabalho de coletar e as redes vivem da marca nacional (SUPOSIÇÃO).
+- **Como explorar:** juntar as duas fichas da GrandCare no Maps, pedir avaliação a cada família atendida e usar avaliações reais, com autorização, no site e nos anúncios no lugar dos depoimentos genéricos.
+- **Força:** alta. São dois tipos de fonte, Maps e sites, com números medidos.
 
-**Gap 2 — Garantia de continuidade escrita e com prazo.**
-- **Evidência:**
-  - Títulos do Reclame Aqui: Home Angels ("Serviço de cuidador não executado...", "Cuidadoras sem experiência"), Cuidare Brasil ("PACIENTE FICA SEM ATENDIMENTO"), Acuidar ("falta de suporte").
-  - Apenas Suavitate e Cuidare descrevem substituição, e a Suavitate diz "normalmente".
-- **Por que ninguém atende:** operação de escala apertada. Prometer prazo exige banco de folguistas (SUPOSIÇÃO).
-- **Como explorar:** compromisso concreto, como "o plantonista só sai quando o próximo chega" ou "substituição em até X horas sem custo".
-- **Bloqueio do protocolo:** só se a operação sustentar a promessa. `[A PREENCHER]`: qual é a política real da GrandCare.
-- **Força:** média-alta. São dois tipos de fonte (reclamações e sites).
+**Gap 2 — Continuidade com prazo e com prova.**
+- **Evidência:** cinco empresas dizem que substituem, e só a Suavitate dá prazo. As avaliações negativas da Nonno (duas) e da Anjos da Guarda contam falta sem aviso e substituta uma ou duas horas depois. O Reclame Aqui da 1ª rodada aponta o mesmo (Home Angels, Cuidare Brasil, Acuidar). Segundo a frente 1, o fundador da GrandCare diz em vídeo que a empresa responde pelas faltas (PISTA até ver a política escrita).
+- **Por que ninguém atende:** prometer prazo exige banco de folguistas; a plataforma se declara "intermediária" (SUPOSIÇÃO; a palavra "intermediários" é FATO).
+- **Como explorar:** transformar a fala do fundador em política escrita, por exemplo "o plantonista só sai quando o próximo chega" e "substituição em até X horas", e mostrar casos reais. **Bloqueio do protocolo:** só se a operação sustentar. `[A PREENCHER]` com a política real.
+- **Força:** média-alta. São três tipos de fonte (sites, Maps, Reclame Aqui).
 
 **Gap 3 — Quem responde pelo caso.**
-- **Evidência:** nas respostas no Reclame Aqui, as franqueadoras (Home Angels, Acuidar) transferem a responsabilidade à unidade. Nas franquias, o "supervisor" é "da área da saúde", não necessariamente enfermeiro. Nas plataformas (Nonno), não apareceu responsável técnico.
-- **Por que ninguém atende:** é o modelo de rede e de plataforma.
-- **Como explorar:** responsável técnico enfermeiro nomeado, com número do Coren, que conduz o caso e é acessível. A GrandCare já tem o Edemilson Albarnas como fundador e responsável técnico. Ravivare e Zathos disputam o mesmo espaço, então o ângulo precisa de algo verificável: Coren, quantos casos ele acompanha, frequência de visita.
-- **Força:** média. Leitura apoiada em reclamações e sites, sem fala de família.
+- **Evidência:** a Nonno se diz intermediária; na Suavitate a supervisão é da família, salvo pedido; na Acuidar é "coordenação técnica e/ou equipe de enfermagem"; na Home Angels são "supervisores" sem formação dita na página; na Home Mater a visita de enfermagem é mensal. A Ravivare e a Zathos já ocupam "enfermeiro que lidera", e a Ravivare tem prova.
+- **Como explorar:** enfermeiro responsável com nome e Coren, frequência de visita dita em número e acesso direto. As avaliações da GrandCare já citam o fundador atendendo "a qualquer horário". Contra a Ravivare, o ângulo precisa de algo concreto que ela não diz: frequência, tempo de resposta, Coren.
+- **Força:** média.
 
-**Gap 4 — Escalar de cuidador para enfermagem sem trocar de empresa.**
-- **Evidência:**
-  - Redes de cuidador (Suavitate, Cuidare, Amor e Cuidado, Be Cuidar) não mostram enfermagem.
-  - Empresas de enfermagem pura separam serviços: Cuidadores do Bem diz que home care é "exclusivamente enfermagem".
-  - O Unimed Lar só entra com critério de alta complexidade.
-- **Por que ninguém atende:** custo de manter as duas equipes. Mas Ravivare, Zathos, Parceria e Amo já fazem as duas coisas, então o gap é parcial.
-- **Como explorar:** "do cuidador ao técnico de enfermagem na mesma equipe, quando o quadro muda" (pós-alta, Alzheimer que avança). Merece teste na oferta. É SUPOSIÇÃO que isso pese na decisão; a frente de público precisa confirmar.
-- **Força:** baixa a média.
+**Gap 4 — Do cuidador à enfermagem sem trocar de empresa.**
+- **Evidência:** Acuidar (unidade), Cuidare e Geração de Saúde não oferecem enfermagem; a negativa da Geração de Saúde é justamente sobre insulina aplicada errado. Ravivare, Zathos, Anjos da Guarda, Home Mater e Suavitate oferecem.
+- **Força:** baixa a média. É gap parcial, contra metade da praça.
 
-**Gap 5 — Prova verificável.**
-- **Evidência:** a prova da praça é quase toda autodeclarada:
-  - Zathos mostra nota do Google no próprio site.
-  - Amor e Cuidado tem "4,9 estrelas" sem origem.
-  - Senescence tem "82%" com depoimento de modelo.
-  - Rankings não dizem a metodologia.
-  - A GrandCare usa depoimentos com nomes genéricos (briefing: SUPOSIÇÃO de modelo).
-- **Por que ninguém atende:** prova real dá trabalho de coletar.
-- **Como explorar:** avaliações reais do Google com link, depoimentos com consentimento, CNPJ, Coren e responsável técnico visíveis. Antes disso, a GrandCare precisa corrigir a própria prova (ver bloqueio 1 do protocolo).
-- **Força:** média. É FATO quanto aos textos e SUPOSIÇÃO quanto ao peso na decisão.
+**Gap 5 — Preço e custo total às claras.**
+- **Evidência:** 14 sites lidos, nenhum com preço. Guias publicam faixas e aparecem na busca por preço; um deles diz que agência custa de R$ 4.500 a R$ 9.000.
+- **Como explorar:** faixa por formato e comparação "direto x empresa x casa de repouso". Depende da GrandCare: `[A PREENCHER]`.
+- **Força:** média. Nenhuma avaliação negativa lida reclama de preço, o que pesa contra tratá-lo como dor principal.
 
-**Gap 6 — Regional: Porto Belo, Itapema, Imbituba, Garopaba.**
-- **Evidência:** na busca, só apareceram a Bem Zelar (lista de cidades, provavelmente sem operação local) e perfis avulsos. A frente 3 achou o mesmo.
-- **Força:** baixa. É uma fonte de um tipo só (busca orgânica) e o Google Maps não foi checado. Não usar como ângulo ("a única que atende Porto Belo") antes de conferir.
+**Gap 6 — Regional (rebaixado).**
+- **Evidência:** Porto Belo e Itapema têm concorrentes com ficha e avaliações (Integritá, Acuidar Itapema). Só Imbituba não tem empresa visível no Maps, e Garopaba, ao lado, tem a SOS Cuidadores com 240 avaliações.
+- **Como explorar:** no máximo, ficha e página local para Imbituba. Não usar exclusividade regional em copy.
+- **Força:** baixa.
 
 **Contra a hipótese do cliente:**
-- "Referência" não se sustenta diante de concorrentes com mais tempo declarado (To Care desde 1999, Essencial desde 2007) e mais escala (Nonno com mais de 3.000 famílias, redes com centenas de unidades).
-- "+500 famílias" é bom número local, mas não é liderança.
-- A data de abertura da GrandCare não foi verificada: `[A PREENCHER]` (CNPJ 43.946.737/0001-04).
-- Na busca por "GrandCare home care", os resultados são de homônimos americanos (GrandCare Systems e GrandCare Assisted Living). A marca disputa a busca do próprio nome com eles (FATO quanto aos resultados de 13/10/2026).
+- "Referência" não se sustenta com 5 avaliações no Google contra 73 a 273 dos concorrentes diretos.
+- "+500 famílias" fica pequeno diante de "+25 mil famílias" (Anjos da Guarda) e "+5 mil famílias" (Nonno), todos autodeclarados.
+- Uma avaliação da GrandCare diz "Uso os serviços da Agência muitos anos", e o reel de julho de 2026 fala em "7 anos". A data de abertura do CNPJ continua `[A PREENCHER]`; se for recente, explicar a origem (o fundador atendia antes como pessoa física?) antes de usar tempo de mercado.
 
 ---
 
-## 8. Bloqueios registrados (13/10/2026)
+## 10. Bloqueios registrados (13/10/2026)
 
-1. **Sem terminal nesta sessão.** `ler-pagina.mjs` não pôde ser executado. Nenhum site foi lido de ponta a ponta. Deixaram de ser verificados: texto completo das páginas, preços escondidos em páginas internas, políticas de contrato, depoimentos.
-2. **WebFetch:** `getaddrinfo ENOTFOUND` (testado em homeangels.com.br).
-3. **Limite de buscas da sessão (200, compartilhado entre frentes)** atingido antes do fim. Ficaram sem verificar:
-   - nota e número de avaliações no Google de todos os concorrentes;
-   - seguidores e formato no Instagram, YouTube e LinkedIn;
-   - preço da Nonno;
-   - número atual de unidades da Home Angels;
-   - Reclame Aqui da Bevita, Ravivare e Zathos;
-   - cartão completo da Anjos da Guarda.
-4. **Instagram e Reclame Aqui** bloqueiam sem login, como já registrado no briefing. Os títulos de reclamação vieram da indexação da busca, não da leitura das páginas.
-5. **Anúncios de concorrentes:** nenhum visto (mesma causa da frente 3).
+1. **Proxy do ambiente recusou a conexão (erro 502)** em zathoscare.com.br, acompanhante.zathoscare.com.br, tocare-enfermagem.com.br, integritahomecare.com.br e cuidadoresnaweb.com.br. A Zathos foi lida pelo domínio .com; os outros ficaram sem leitura.
+2. **Instagram:** `ERR_HTTP_RESPONSE_CODE_FAILURE` sem login. Seguidores vieram de trechos do DuckDuckGo, sem data.
+3. **LinkedIn:** Home Angels e Bevita pediram login.
+4. **Google Maps em visualização limitada:** só de 3 a 5 avaliações por ficha. Na Ravivare, a ordenação por menor nota não abriu.
+5. **Google Search:** caiu no "tráfego incomum" (captcha). As buscas foram feitas pelo DuckDuckGo.
+6. **Home Angels:** a lista de unidades carrega por script e não abriu; a página de Balneário Camboriú dá 404.
+7. **Não relidos por economia, a pedido do coordenador:** sites de Bevita, Amor e Cuidado, Essencial Care e os players menores; YouTube; Reclame Aqui.
+8. **Anúncios:** ficam com a frente 3, que roda em paralelo.
 
 ---
 
 ## O que isso muda para as próximas fases
 
-- **Avatar:** separar três decisões que a família toma: "empresa ou contratar direto?", "casa ou casa de repouso?" e "o plano cobre?". As objeções de preço e de confiança na continuidade têm mais evidência do que qualquer dor técnica. Os títulos do Reclame Aqui acima são material literal para o mapa de medos: cuidadora sem experiência, paciente sem atendimento, cobrança no cancelamento.
-- **Oferta:** o espaço livre com mais evidência é a **garantia de continuidade com prazo** (gap 2), somada a **um responsável enfermeiro nomeado que responde pelo caso** (gap 3). As duas só entram se a operação sustentar (`[A PREENCHER]` com a GrandCare). Avaliar também uma **faixa de preço pública** e uma **comparação de custo total** (gap 1). A flexibilidade sem multa da Nonno e da Cuidare é a referência que a família vai cobrar; a oferta precisa dizer como a GrandCare trata o cancelamento.
+- **Avatar:** o medo com mais evidência é ficar sem cuidador ou com cuidadora despreparada, não o preço. As avaliações literais da seção 2 entram no mapa de medos: "ninguém apareceu na hora combinada", "não possuiam um plank B", "teria aplicado a insulina de forma incorreta". A Geração de Saúde fala com "familiares que moram longe"; vale testar se esse perfil existe entre os clientes da GrandCare.
+- **Oferta:** o centro deve ser **continuidade com prazo escrito** (gap 2) somada a **enfermeiro responsável com nome, Coren e frequência de visita** (gap 3), as duas só se a operação sustentar. Avaliação gratuita não diferencia: cinco concorrentes oferecem. Plantão de experiência e cancelamento sem multa já são a referência que a família traz (Nonno, Acuidar, Cuidare); a oferta precisa dizer como a GrandCare trata as duas coisas.
 - **Copy:**
-  - Abandonar "referência", "humanizado", "24h", "WhatsApp" e "casa e hospital" como diferenciais; todo mundo usa.
-  - "Fundador enfermeiro" só diferencia com prova concreta (Coren, frequência de visita, número de casos), porque Ravivare e Zathos dizem o mesmo.
-  - Não usar Porto Belo/Imbituba como exclusividade antes de checar o Google Maps.
-- **Prova (bloqueio do protocolo):** os 4 depoimentos de nomes genéricos do site da GrandCare não devem ir para nenhuma peça até a GrandCare confirmar que são reais e autorizados.
-- **Tráfego:** rodar a fila de anúncios da frente 3 incluindo Nonno, Acuidar, Bevita, Amor e Cuidado, Anjos da Guarda, Suavitate, Cuidare e Essencial Care, que não estavam na lista dela.
+  - Abandonar "referência", "humanizado", "24h", "WhatsApp", "casa e hospital" e "avaliação gratuita" como diferenciais.
+  - Não usar Porto Belo nem Itapema como exclusividade. Imbituba, só com cuidado.
+  - "Fundador enfermeiro" só diferencia contra a Ravivare com prova concreta.
+- **Prova (bloqueio do protocolo):** os 4 depoimentos genéricos do site da GrandCare continuam fora de qualquer peça. A troca natural são as avaliações reais do Google, com autorização.
+- **Ação operacional (não é copy):** juntar as duas fichas do Maps e montar a coleta de avaliações. Antes de investir em anúncio, é o que mais mexe na comparação que a família faz.
+- **Tráfego:** a frente 3 deve incluir Anjos da Guarda e Geração de Saúde na leitura de anúncios. A audiência de 155 mil a 203 mil seguidores sugere verba de mídia alta.
 
 ## Pendências
 
-- `[A PREENCHER]` política real de substituição e de cancelamento da GrandCare. Sem ela, o gap 2 não vira oferta.
-- `[A PREENCHER]` faixa de preço da GrandCare por formato. Sem ela, não dá para posicionar contra a contratação direta e a ILPI.
-- `[A PREENCHER]` data de abertura e número de Coren da GrandCare e do responsável técnico. Sem isso, o gap 3 fica sem prova.
-- `[A PREENCHER]` se os depoimentos do site são reais. Sem isso, a prova da GrandCare fica bloqueada.
-- `[medir]` nota e número de avaliações no Google Maps da GrandCare e de cada concorrente dos cartões. Sem isso, não há comparação de prova social.
-- `[medir]` preço real dos concorrentes por cliente oculto (Ravivare, Zathos, Acuidar, Home Angels, Nonno, Suavitate). A faixa de empresa hoje é nacional e antiga.
-- `[medir]` seguidores e formato no Instagram, YouTube e LinkedIn dos concorrentes, quando houver acesso.
-- `[medir]` anúncios ativos dos concorrentes (Meta e Google).
-- Presença real em Porto Belo, Itapema e Imbituba: checar no Google Maps.
-- Confirmar se a "Cuidare Brasil" do Reclame Aqui é a mesma Cuidare de Florianópolis, e se a Home Angels de Balneário Camboriú segue ativa.
+- `[A PREENCHER]` política escrita de substituição e de cancelamento da GrandCare (o vídeo do fundador não basta). Sem ela, o gap 2 não vira oferta.
+- `[A PREENCHER]` faixa de preço da GrandCare por formato. Sem ela, não há como usar o gap 5.
+- `[A PREENCHER]` Coren do responsável técnico e frequência real de visita de enfermagem. Sem isso, a GrandCare não se distingue da Ravivare.
+- `[A PREENCHER]` data de abertura do CNPJ e de onde vêm os "muitos anos" e "7 anos" citados. Sem isso, nenhum argumento de tempo de mercado.
+- `[A PREENCHER]` autorização das famílias que avaliaram no Google para usar as avaliações como depoimento.
+- `[medir]` preço real de Ravivare, Zathos, Nonno, Acuidar, Anjos da Guarda e Home Mater por cliente oculto, e se a mensalidade "via empresa" de R$ 2.800 a R$ 3.800 do Cronoshare se confirma.
+- `[medir]` avaliações completas das fichas (o Maps limitado mostra só 5) e seguidores do Instagram com data, quando houver login.
+- Ler os sites bloqueados pelo proxy (Integritá, To Care, zathoscare.com.br) em outro ambiente.
+- Confirmar se a "Cuidare Brasil" do Reclame Aqui é a Cuidare de Florianópolis.
 
-## Fontes (consultadas em 13/10/2026, via resultados do WebSearch)
+## Fontes
 
-**Concorrentes locais e redes**
-- https://nonnoapp.com/ · https://nonnoapp.com/encontre-cuidadores-florianopolis/ · https://br.linkedin.com/company/nonnoapp
-- https://exame.com/negocios/ele-criou-startup-que-ja-soma-15-milhao-de-horas-de-cuidados-a-idosos/ · https://economicnewsbrasil.com.br/2025/11/24/plataforma-de-cuidadores-nonno-expansao/ · https://startupi.com.br/nonno-projeta-crescimento-em-2024/ · https://www.jornaldocomercio.com/ge2/noticias/2023/10/1125490-startup-que-conecta-familias-a-cuidadores-chega-a-porto-alegre.html · https://www.udesc.br/esag/noticia/nonno_vai_de_trabalho_de_conclusao_na_udesc_esag_a_lista_100_startups_to_watch · https://www.nsctotal.com.br/noticias/o-que-e-a-plataforma-nonno-e-como-funciona
-- https://www.acuidarbr.com.br/unidade/florianopolis · https://www.acuidarbr.com.br/unidade/saojose · https://www.acuidarbr.com.br/unidade/balneariocamboriu · https://www.acuidarbr.com.br/unidade/florianopolis/servico/telemedicina/13 · https://www.acuidarbr.com.br/noticias · https://www.acuidarfranquias.com.br/ · https://www.instagram.com/acuidarflorianopolis/
-- https://www.homeangels.com.br/florianopolis-centro/ · https://www.homeangels.com.br/balneariocamboriu/ · https://www.homeangels.com.br/supervisores/ · https://www.homeangels.com.br/florianopolis-centro/uti-movel-24h/ · https://br.linkedin.com/company/home-angels · https://exame.com/pme/como-este-empreendedor-faturou-r-97-milhoes-cuidando-de-idosos/ · https://franquias.portaldofranchising.com.br/franquia-home-angels-saude/
-- https://bevitasaude.com.br/ · https://bevitafloripa.blogspot.com/ · https://br.linkedin.com/company/bevita-sa%C3%BAde · https://www.instagram.com/bevitafloripa/ · https://www.instagram.com/bevitabc/ · https://www.facebook.com/bevitafranquia/ · https://play.google.com/store/apps/details?id=com.br.ionic.bevita
-- https://homemater.com/florianopolis/ · https://homemater.com/bc/ · https://homemater.com/unidades/ · https://www.instagram.com/homematerflorianopolis/
-- https://amorecuidadobrasil.com.br/unidade/florianopolis/ · https://www.amorecuidadoflorianopolis.com.br/ · https://www.econodata.com.br/consulta-empresa/45304402000118-mjf-servicos-de-cuidadores-ltda · https://www.instagram.com/amorecuidadofln/
-- https://www.ravivarehomecare.com.br/ · https://www.ravivarehomecare.com.br/ceos-ravivare · https://www.ravivarehomecare.com.br/servicos
-- https://zathoscare.com.br/ · https://zathoscare.com.br/referencia-em-cuidados-domiciliares-em-florianopolis/ · https://acompanhante.zathoscare.com.br/enfermeiro-home-care · https://acontecendoaqui.com.br/empreendedorismo/home-care-de-florianopolis-se-torna-referencia-no-atendimento-personalizado/ · https://onnerevista.com.br/news_post/4432/cuidado-humanizado-chega-a-florianopolis-transformando-a-saude-domiciliar/
-- https://suavitate.com.br/ · https://suavitate.com.br/servicos/
-- https://www.cuidaresc.com.br/
-- https://clinicaanjosdaguarda.com.br/en/florianopolis/ · https://cnpj.biz/34132215000188 · https://seniorbemestar.com/cuidadores-de-idosos/florianopolis/
-- https://www.parceriahomecare.com.br/ · https://www.parceriahomecare.com.br/quem-somos
-- https://essencialcare.com.br/unidade-floripa/ · https://essencialcare.com.br/enfermagem/
-- https://www.tocare-enfermagem.com.br/home-care-cuidador-idosos-florianopolis · https://www.tocare-enfermagem.com.br/enfermeira-home-care-florianopolis
-- https://amohomecare.com.br/ · https://homecarefloripa.com.br/ · https://www.senescencebrasil.com.br/empresa-home-care-florianopolis · https://senescencebrasil.com.br/
-- https://becuidar.com.br/agencia-de-cuidadores-de-idosos-em-florianopolis/ · https://ageseniorbrasil.com.br/ · https://www.rdcuidados.com.br/ · https://myangels.com.br/ · https://sejalevens.com.br/cuidadordeidososflorianopolis/
-- https://cuidadoresdobem.com.br/ · https://cuidadoresdobem.com.br/agencia/ · https://www.instagram.com/sc.homecare/ · https://www.facebook.com/curaguerreiros/ · https://cuidarhomecare.net.br/ · https://www.bemzelar.com.br/cuidador-idosos
+**Lidas pelo navegador em 13/10/2026 (UTC)**
+- Ravivare (14:16): https://www.ravivarehomecare.com.br/ · /servicos · /ceos-ravivare
+- Zathos (14:18): https://zathoscare.com/ (bloqueados: https://zathoscare.com.br/ e https://acompanhante.zathoscare.com.br/enfermeiro-home-care)
+- Nonno (14:16 e 14:18): https://nonnoapp.com/ · https://nonnoapp.com/encontre-cuidadores-florianopolis/ (texto e HTML do FAQ) · https://br.linkedin.com/company/nonnoapp (14:26)
+- Acuidar (14:16): https://www.acuidarbr.com.br/unidade/florianopolis · /unidade/balneariocamboriu · /unidade/saojose (redireciona para https://www.acuidarbr.com.br/)
+- Home Angels (14:16 e 14:32): https://www.homeangels.com.br/florianopolis-centro/ · https://www.homeangels.com.br/balneariocamboriu/ (404) · https://www.homeangels.com.br/ · https://www.homeangels.com.br/localize-a-unidade/
+- Anjos da Guarda (14:28): https://anjosdaguardahomecare.com.br/ · /unidades/florianopolis · https://go.clinicaanjosdaguarda.com.br/florianopolis
+- Geração de Saúde (14:28): https://www.gscuidadoresdeidosos.com.br/ · /cuidador-de-idosos-em-florianopolis-com-atendimento-flexivel/
+- Suavitate (14:18): https://suavitate.com.br/ · https://suavitate.com.br/servicos/
+- Cuidare (14:18): https://www.cuidaresc.com.br/
+- Home Mater (14:18): https://homemater.com/florianopolis/ · https://homemater.com/bc/
+- Senescence (14:18): https://senescencebrasil.com.br/ (bloqueado: https://www.tocare-enfermagem.com.br/)
+- Preço (14:33): https://www.cronoshare.com.br/servicos/cuidadores-de-idosos/santa-catarina/florianopolis · https://www.cronoshare.com.br/servicos/enfermagem-domiciliar/santa-catarina/florianopolis · https://www.cronoshare.com.br/servicos/cuidadores-de-idosos/santa-catarina/porto-belo · https://cuidadosconecta.com/blog/tabela-de-precos-cuidador-de-idoso-2026 · https://www.getninjas.com.br/saude/cuidador-de-pessoas/preco/cuidador-de-idosos (bloqueado: cuidadoresnaweb.com.br)
 
-**Home care por plano**
-- https://www.unimed.coop.br/site/web/florianopolis/-/como-solicitar-atendimento-domiciliar-com-a-unimed-lar-passo-a-passo-completo · https://aemflo-cdlsj.org.br/noticia/atendimento-domiciliar-da-unimed-grande-florianopolis-e-o-maior-da-regiao/ · https://www.econodata.com.br/maiores-empresas/sc/busca-home-care · https://viphomecare.com.br/
+**Google Maps (14:19 a 14:32 UTC), em https://www.google.com/maps/search/ com:**
+GrandCare+home+care+florianopolis · Ravivare+Home+Care+florianopolis · Zathos+Care+florianopolis · Nonno+cuidadores+florianopolis · Acuidar+florianopolis · Acuidar+balneario+camboriu · Home+Angels+florianopolis · Home+Angels+balneario+camboriu · Senescence+Brasil+florianopolis · To+Care+Solucao+Enfermagem+florianopolis · Home+Mater+florianopolis · Home+Mater+balneario+camboriu · Angels+At+Home+itajai · Suavitate+cuidadores+florianopolis · Cuidare+cuidadores+florianopolis · Bevita+florianopolis · Amor+e+Cuidado+Cuidadores+de+Idosos+Unidade+Florianopolis · Anjos+da+Guarda+Cuidadores+de+Idosos+e+Enfermagem+florianopolis · Geracao+de+Saude+cuidadores+de+idosos+florianopolis · cuidador+de+idosos / home+care em porto+belo, itapema, imbituba, itajai e balneario+camboriu · enfermagem+domiciliar+imbituba · cuidadores+de+idosos+garopaba · enfermagem+domiciliar+palhoca · Integrita+Homecare+Enfermagem+Domiciliar+Porto+Belo · SOS+Cuidadores+Garopaba
 
-**Reclame Aqui (títulos indexados; páginas não abertas)**
-- https://www.reclameaqui.com.br/empresa/acuidar-cuidadores-de-pessoas-joao-pessoa/lista-reclamacoes/ · https://www.reclameaqui.com.br/acuidar-cuidadores-de-pessoas-joao-pessoa/pessima-experiencia-com-acuidar-cuidadores-inexperientes-falta-de-suporte-e-problemas-graves-na-administracao-de-medicamentos_5gRQThZpuGLL8yM1/
-- https://www.reclameaqui.com.br/empresa/home-angels/lista-reclamacoes/ · https://www.reclameaqui.com.br/home-angels/cuidadores-desqualificados_11401578/ · https://www.reclameaqui.com.br/home-angels/cuidadoras-sem-experiencia_5YtkA3JGb3n8qCCG/ · https://www.reclameaqui.com.br/home-angels/servico-de-cuidador-nao-executado-falta-de-estorno-e-ma-prestacao-de-servico_9tbNZkvg19QQgsC9/ · https://www.reclameaqui.com.br/home-angels/nao-querem-cancelar-e-querem-cobrar-algo-q-nao-usei_2DGL01wXCkQzxG4h/
-- https://www.reclameaqui.com.br/cuidare-brasil-cuidadores-de-pessoas/nunca-contratem-a-cuidare-paciente-fica-sem-atendimento-reclamacao-de-falt_QEcX18Sv-QyHo23K/
-- https://www.reclameaqui.com.br/empresa/nonno-cuidadores/lista-reclamacoes/
+**DuckDuckGo (trechos do Instagram e endereços, 14:26 a 14:32 UTC):** https://html.duckduckgo.com/html/?q= com "grandcarebr instagram", "instagram ravivarehomecare", "instagram zathoscare", "@nonnoapp instagram followers", "acuidar florianopolis instagram followers", "home mater florianopolis instagram", "bevita floripa instagram followers", "instagram amorecuidadofln", "instagram suavitate cuidadores", "instagram homeangels florianopolis", "instagram anjos da guarda cuidadores florianopolis", "instagram geracao de saude cuidadores florianopolis", "acuidar balneario camboriu instagram", "Geração de Saúde cuidadores de idosos florianópolis", "Anjos da Guarda cuidadores ... florianópolis"
 
-**Preços**
-- https://www.cronoshare.com.br/servicos/cuidadores-de-idosos/santa-catarina/florianopolis · https://www.cronoshare.com.br/servicos/enfermagem-domiciliar/santa-catarina/florianopolis · https://www.cronoshare.com.br/servicos/cuidadores-de-idosos/santa-catarina/porto-belo
-- https://www.getninjas.com.br/saude/cuidador-de-pessoas/idosos/sc/florianopolis · https://www.getninjas.com.br/saude/cuidador-de-pessoas/preco/cuidador-de-idosos
-- https://cuidadoresnaweb.com.br/quanto-ganha-um-cuidador-de-idosos-em-florianopolis-guia-completo-de-valores-e-salarios/ · https://cuidadosconecta.com/blog/tabela-de-precos-cuidador-de-idoso-2026 · https://cuidadosconecta.com/blog/empresa-de-cuidadores-de-idosos
-- https://www.salario.com.br/profissao/cuidador-de-idosos-cbo-516210/florianopolis-sc/ · https://www.salario.com.br/profissao/cuidador-de-idosos-cbo-516210/sc/ · https://br.indeed.com/career/cuidador-de-idosos/salaries/Florian%C3%B3polis--SC · https://br.indeed.com/career/cuidador-de-idosos/salaries/Santa-Catarina
-- https://br.indeed.com/q-tecnico-enfermagem-home-care-vagas.html · https://qualivida.com.br/produtos/plantao-tecnico-de-enfermagem-12-horas/ · https://www.nursingexcellent.com.br/tabela_de_valores/ · https://www.contabilizei.com.br/contabilidade-online/quanto-ganha-um-tecnico-em-enfermagem/
-- https://brisasdoatlantico.com.br/2026/04/22/casa-de-repouso-florianopolis-preco/ · https://residencialplusvita.com.br/casa-de-repouso-florianopolis-preco/ · https://www.santainesresidencia.com.br/acomodacoes/ · https://estrelaguia12.wixsite.com/meusite-4 · https://buscacasaderepouso.com.br/guia/quanto-custa-casa-de-repouso
+**Arquivos brutos desta rodada:** /tmp/claude-0/concorrentes/ (sites, `rev-*.txt` com as avaliações do Maps em JSON, `maps*.txt`, `ddg-*.txt`, `preco-*.txt`)
 
-**Homônimos da marca**
-- https://www.grandcare.com/?p=6075 · https://www.seniorlivingguide.com/communities/grandcare-assisted-living-315-addison-port-charlotte-fl-33980/
-
-**Tentativa bloqueada**
-- https://www.homeangels.com.br/ (WebFetch: ENOTFOUND)
+**1ª rodada (via resultados do WebSearch, sem leitura das páginas):** as fontes de Reclame Aqui, imprensa da Nonno (Exame, Startupi, NSC Total, Udesc), Unimed Lar, Econodata, ILPI, Salario.com.br, Indeed, Bevita, Amor e Cuidado, Essencial Care, Parceria, Amo, Be Cuidar, Agesênior, RD Cuidados, My Angels, Levens, Cuidadores do Bem, Bem Zelar e homônimos da marca seguem válidas como PISTA. A lista completa de endereços está no histórico do git deste arquivo (commit 432c99c).
