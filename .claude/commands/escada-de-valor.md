@@ -1,13 +1,16 @@
+---
+description: "Escada de valor e arquitetura de funis — degraus, escada para serviços, isca, tipos de funil por ticket e temperatura, maximizadores, personagem atraente"
+---
+
 # Skill: Escada de Valor e Arquitetura de Funis
 
 ```yaml
 skill:
   id: escada-de-valor
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: arquitetura-de-funil
-  agents: ["funnel-architect", "immersion-architect", "offer-architect", "arsenal-chief"]
-  description: "Escada de valor, tipos de funil por ticket e temperatura, maximizadores de receita, personagem atraente e sequências de relacionamento"
+  agents: ["funnel-architect", "offer-architect", "brand-architect"]
 ```
 
 ---
@@ -36,6 +39,17 @@ Sintoma clássico: tráfego bom, conversão razoável, e mesmo assim o negócio 
 3. Nunca ofereça o topo da escada para tráfego frio
 4. O front-end pode empatar ou até dar prejuízo — quem paga a conta é o back-end
 5. Sem recorrência, o negócio depende de aquisição eterna
+
+**Escada para serviços** (clínica, consultório, escritório, consultoria): os degraus mudam de nome, a lógica fica.
+
+| Degrau | Exemplo em clínica | Exemplo em consultoria |
+|---|---|---|
+| Conteúdo e isca | Post educativo, guia de perguntas para a consulta | Artigo, diagnóstico rápido |
+| Primeira compra | Consulta | Sessão de diagnóstico paga |
+| Transformação | Tratamento ou acompanhamento | Projeto |
+| Continuidade | Retornos, programa de acompanhamento | Retenção mensal |
+
+Em serviço não existe order bump nem upsell de checkout; o aumento de valor vem da conversão da primeira compra em acompanhamento e da retenção. Em saúde, ver `conformidade`.
 
 **Teste da escada**: pegue um cliente que acabou de comprar o mid-end. Existe algo óbvio para ele comprar em seguida? Se não existir, falta degrau.
 

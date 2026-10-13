@@ -1,13 +1,16 @@
+---
+description: "Briefing do projeto — pasta do projeto, blocos do briefing, marcas de fato e suposição, ciclo de versões"
+---
+
 # Skill: Briefing do Arsenal — Documento-Base do Projeto de Funil
 
 ```yaml
 skill:
   id: briefing-arsenal
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: planejamento-de-projeto
-  agents: ["arsenal-chief", "researcher", "offer-architect", "funnel-architect", "copywriter"]
-  description: "Estrutura do briefing do Arsenal de Funis — o documento único que consolida pesquisa, avatar, oferta, funil e metas, e que todos os agentes consultam"
+  agents: ["researcher", "todos os agentes leem"]
 ```
 
 ---
@@ -16,7 +19,9 @@ skill:
 
 O briefing é a **fonte única de verdade** do projeto. Todo agente do Arsenal consulta o briefing antes de produzir qualquer coisa. Se a informação não está no briefing, ela ainda não foi decidida.
 
-Regra: o briefing é preenchido **a partir da pesquisa**, com dados reais e fontes — nunca com suposição do cliente ou do estrategista.
+Regra: o briefing é preenchido **a partir da pesquisa e do cliente**, e cada campo leva sua marca: **FATO** (com fonte), **PISTA**, **SUPOSIÇÃO** ou `[A PREENCHER]`. Suposição pode entrar, desde que marcada.
+
+O briefing mora em `00-briefing.md`, na pasta do projeto (`projetos/<cliente>/` ou a pasta que o projeto já tem). A estrutura da pasta está em `squads/squad-arsenal/PROTOCOLO.md`.
 
 ---
 
@@ -29,7 +34,9 @@ Cliente / especialista:
 Nicho:
 Data de abertura:
 Responsável:
-Status: [pesquisa | oferta | funil | copy | mídia | otimização]
+Status: [pesquisa | oferta | funil | copy | conteúdo | mídia | otimização]
+Canal: [orgânico | pago | os dois]
+Nicho regulado: [não | saúde | finanças | jurídico] → se sim, ver Bloco 10
 ```
 
 ### Bloco 2 — Produto e Promessa
@@ -111,12 +118,22 @@ Limitações de operação (time, ferramenta, atendimento):
 Histórico do que já foi tentado e falhou:
 ```
 
+### Bloco 10 — Conformidade (nicho regulado)
+```markdown
+Órgão ou conselho que regula: [CFM, CFO, CVM, OAB...]
+Responsável técnico ou advogado que aprova:
+O que não pode ser dito (garantias, nomes de remédio, antes/depois...):
+Obrigatórios em toda peça (nome, registro, avisos):
+Pendências do cliente que travam peças:
+```
+Ver a skill `conformidade`.
+
 ---
 
 ## 3. Regras de Preenchimento
 
-1. **Nada de "a definir" permanente** — campo vazio é decisão pendente, com responsável e prazo
-2. **Toda afirmação de mercado tem fonte** — sem fonte, marcar como hipótese
+1. **Nada de "a definir" permanente** — campo vazio é `[A PREENCHER]`, com responsável
+2. **Toda afirmação de mercado tem fonte** — sem fonte, marcar como SUPOSIÇÃO ou PISTA
 3. **A promessa cabe em uma frase** — se não cabe, ainda não está clara
 4. **Objeções vêm da pesquisa**, não da imaginação
 5. **Metas antes da mídia** — não se compra tráfego sem CPL e CPA-alvo definidos
@@ -165,7 +182,8 @@ O briefing é documento vivo. Cada versão registra data e o que mudou.
 
 ## 7. Checklist
 
-- [ ] Nove blocos preenchidos ou com pendência atribuída
+- [ ] Blocos preenchidos ou com pendência atribuída (Bloco 10 só em nicho regulado)
+- [ ] Cada campo com sua marca (FATO, PISTA, SUPOSIÇÃO, [A PREENCHER])
 - [ ] Promessa em uma frase, no formato do Arsenal
 - [ ] Objeções vindas de citações reais
 - [ ] Estágio de consciência e sofisticação definidos

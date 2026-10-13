@@ -1,13 +1,16 @@
+---
+description: "Oferta — promessa, mecanismo do problema e da solução, stack de valor, bônus que respondem objeções, garantias, preço e auditoria"
+---
+
 # Skill: Oferta Irresistível — Mecanismo Único, Valor e Preço
 
 ```yaml
 skill:
   id: oferta-irresistivel
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: estrategia-de-oferta
-  agents: ["offer-architect", "copywriter", "immersion-architect", "arsenal-chief"]
-  description: "Construção de oferta — promessa específica, mecanismo único, stack de valor, bônus que matam objeções, escala de garantias e precificação"
+  agents: ["offer-architect", "copywriter", "funnel-architect"]
 ```
 
 ---
@@ -18,11 +21,15 @@ skill:
 
 Dois negócios podem vender o mesmo produto com resultados opostos: um tem oferta, o outro tem só preço.
 
-Ordem de importância quando a venda não acontece:
-1. Oferta fraca (60% dos casos)
-2. Público errado (20%)
-3. Copy fraca (15%)
-4. Mídia mal configurada (5%)
+Heurística do método (não é dado medido) para onde olhar primeiro quando a venda não acontece:
+1. Oferta fraca
+2. Público errado
+3. Copy fraca
+4. Mídia mal configurada
+
+Quem confirma é a cascata do `metricas-de-funil`, não a heurística.
+
+> **Nicho regulado:** em saúde, finanças e advocacia, promessa de resultado, prazo de efeito e garantia de resultado saem da oferta. Leia a skill `conformidade` antes de usar as seções 2, 6 e 7.
 
 ---
 
@@ -99,7 +106,7 @@ Bônus sem objeção correspondente é peso morto: aumenta a percepção de "enr
 |---|---|---|
 | 1 | 7 dias (CDC) | Obrigação legal — nunca apresentar como diferencial |
 | 2 | Incondicional estendida (15 a 60 dias) | Mercado com ceticismo médio |
-| 3 | Condicional de resultado ("faça X, se não tiver Y, devolvo") | Produto de execução com passo a passo claro |
+| 3 | Condicional de resultado ("faça X, se não tiver Y, devolvo") | Produto de execução com passo a passo claro. Nunca em saúde |
 | 4 | Dupla / invertida (devolvo e você fica com os bônus) | Mercado saturado, sofisticação 4-5 |
 | 5 | Garantia de execução (trabalho junto até sair) | Alto ticket, poucos clientes |
 

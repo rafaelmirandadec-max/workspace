@@ -1,59 +1,71 @@
 pack:
   name: squad-arsenal
-  version: 4.1.0
-  description: "Arsenal de Funis — 10 agentes para construir funis de venda completos: pesquisa de mercado, avatar, oferta, escada de valor, marca, copy de resposta direta, tráfego e métricas. Metodologia Arsenal de Funis com IA."
+  version: 5.0.0
+  description: "Arsenal de Funis — 10 agentes especialistas para funis de venda e conteúdo: pesquisa, público, oferta, funil e eventos, voz, copy, conteúdo orgânico, mídia paga, métricas e revisão. A coordenação é feita pela conversa principal (CLAUDE.md)."
   icon: "🎯"
-  entry_agent: arsenal-chief
+  coordenacao: "CLAUDE.md na raiz do repositório"
+  protocolo: "squads/squad-arsenal/PROTOCOLO.md"
   created: "2026-09-02"
+  updated: "2026-10-13"
 
 agents:
-  - arsenal-chief        # Tier 0 — Orquestrador, triagem e roteamento
-  - researcher           # Tier 1 — Pesquisa multi-fonte paralela (mercado, concorrentes, anúncios)
-  - avatar-strategist    # Tier 1 — Avatar, dores, desejos, estágios de consciência e objeções
-  - offer-architect      # Tier 2 — Oferta irresistível, mecanismo único e stack de valor
-  - funnel-architect     # Tier 2 — Escada de valor e arquitetura do funil
-  - immersion-architect  # Tier 2 — Funil de imersão paga (evento → oferta)
-  - brand-architect      # Tier 3 — Brandbook, identidade verbal e visual
-  - copywriter           # Tier 3 — Copy de resposta direta (VSL, página, e-mail, anúncio)
-  - traffic-strategist   # Tier 4 — Meta Ads, Google Ads, criativos e ângulos
-  - metrics-analyst      # Tier 4 — KPIs, diagnóstico de gargalo e projeção
+  - researcher          # Pesquisa de mercado, concorrentes, anúncios, linguagem do público, briefing
+  - avatar-strategist   # Perfis (ICP), dores, consciência, sofisticação, objeções
+  - offer-architect     # Promessa, mecanismo, stack, garantia, preço
+  - funnel-architect    # Escada de valor, tipo de funil, mapa de ativos, eventos e imersões
+  - brand-architect     # Posicionamento, tom de voz, Perfil de Comunicação, personagem atraente
+  - copywriter          # Página, VSL, e-mail, anúncio, roteiro, ângulos
+  - content-strategist  # Conteúdo orgânico: linha editorial, pilares, Reels, carrosséis
+  - traffic-strategist  # Meta Ads e Google Ads: estrutura, públicos, criativos, verba
+  - metrics-analyst     # KPIs, gargalo, unit economics, projeção, teste A/B
+  - revisor             # Revisão independente: fatos, conformidade, coerência, texto
 
 skills:
-  - pesquisa-mercado             # Metodologia de pesquisa multi-fonte e checklist do Arsenal
-  - briefing-arsenal             # Briefing completo do projeto, preenchido a partir da pesquisa
-  - escada-de-valor              # Escada de valor, tipos de funil e personagem atraente
-  - oferta-irresistivel          # Mecanismo único, stack de valor, preço, garantia e bônus
-  - copywriting-resposta-direta  # Big idea, consciência, sofisticação, headlines e estruturas
-  - extracao-comunicacao         # Protocolo de extração de voz (Manual do Arsenal de Funis)
-  - trafego-e-anuncios           # Estrutura de campanha, criativos, ângulos e bibliotecas
-  - metricas-de-funil            # KPIs, benchmarks, diagnóstico e projeção de faturamento
+  - pesquisa-mercado             # Metodologia multi-fonte, citação literal, gaps, dossiê
+  - briefing-arsenal             # Briefing e pasta do projeto
+  - escada-de-valor              # Escada (inclusive para serviços), tipos de funil, maximizadores
+  - imersao-e-eventos            # Masterclass, workshop, desafio, imersão; virada de chave
+  - oferta-irresistivel          # Promessa, mecanismo, stack, bônus, garantia, preço
+  - copywriting-resposta-direta  # Consciência, sofisticação, big idea, 8 motivações, estruturas
+  - conteudo-organico            # Funil Conhece, Gosta, Confia, Compra; pilares; formatos
+  - extracao-comunicacao         # Perfil de Comunicação (versão rápida ou completa)
+  - trafego-e-anuncios           # Estrutura de conta, ângulos, criativo, verba, leitura
+  - metricas-de-funil            # KPIs, fórmulas, cascata, volume mínimo, projeção
+  - conformidade                 # Saúde, finanças, advocacia, CDC, LGPD, políticas de anúncio
 
-fases_do_metodo:
-  1_pesquisa:   "@researcher → dossiê de mercado, concorrentes, público e anúncios"
-  2_briefing:   "@researcher → briefing preenchido com dados reais"
-  3_avatar:     "@avatar-strategist → avatar, dores, desejos, consciência e objeções"
-  4_oferta:     "@offer-architect → mecanismo único, stack de valor e preço"
-  5_escada:     "@funnel-architect → escada de valor e arquitetura do funil"
-  6_marca:      "@brand-architect → brandbook e perfil de comunicação"
-  7_copy:       "@copywriter → VSL, página de vendas, e-mails e anúncios"
-  8_trafego:    "@traffic-strategist → campanhas, criativos e ângulos"
-  9_metricas:   "@metrics-analyst → KPIs, gargalos e projeção"
+pasta_do_projeto: |
+  projetos/<cliente>/  (ou a pasta que o projeto já tem)
+    00-briefing.md · 01-pesquisa/ · 02-avatar.md · 03-oferta.md · 04-funil.md
+    05-voz.md · 06-copy/ · 07-conteudo/ · 08-midia.md · 09-metricas.md · revisoes/
 
-pipeline_tipico:
-  funil_completo:
-    - "@researcher → dossiê de pesquisa"
-    - "@avatar-strategist → avatar e mapa de objeções"
-    - "@offer-architect → oferta e mecanismo único"
-    - "@funnel-architect → escada de valor e arquitetura"
-    - "@copywriter → copy de todas as etapas"
-    - "@traffic-strategist → plano de mídia"
-    - "@metrics-analyst → painel de métricas e metas"
-  imersao_paga:
-    - "@researcher → pesquisa do nicho"
-    - "@immersion-architect → arquitetura da imersão"
-    - "@offer-architect → oferta do palco"
-    - "@copywriter → convite, e-mails e página"
+fluxos:
+  projeto_novo:
+    - "researcher → pesquisa e briefing"
+    - "avatar-strategist → perfis e consciência"
+    - "offer-architect → oferta   (em paralelo: brand-architect → voz)"
+    - "funnel-architect → arquitetura"
+    - "copywriter e/ou content-strategist → peças"
+    - "revisor → liberação"
+    - "traffic-strategist → mídia"
+    - "metrics-analyst → metas e acompanhamento"
+  peca_pontual:
+    - "copywriter ou content-strategist, com o que houver na pasta"
+    - "revisor"
+  conteudo_organico:
+    - "researcher → buscas e comentários do público"
+    - "avatar-strategist → perfis e níveis"
+    - "content-strategist → linha editorial e pautas"
+    - "revisor"
+  evento:
+    - "researcher → pesquisa do nicho"
+    - "funnel-architect → arquitetura do evento (skill imersao-e-eventos)"
+    - "offer-architect → oferta do palco"
+    - "copywriter → convite, aquecimento, página e pós-evento"
   diagnostico:
-    - "@metrics-analyst → onde o funil vaza"
-    - "@funnel-architect → correção de arquitetura"
-    - "@copywriter → reescrita da etapa com gargalo"
+    - "metrics-analyst → gargalo"
+    - "agente da etapa → correção"
+
+regras_comuns:
+  - "Nenhuma fase bloqueia outra: trabalhar com o que existe e marcar FATO, PISTA, SUPOSIÇÃO, [A PREENCHER]"
+  - "Quantidade é teto, não cota; nunca completar lista com material inventado"
+  - "Nicho regulado passa pela skill conformidade e pelo revisor"

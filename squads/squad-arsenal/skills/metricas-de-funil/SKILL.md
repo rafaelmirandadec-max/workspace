@@ -1,13 +1,16 @@
+---
+description: "Métricas de funil — KPIs por etapa, fórmulas, cascata para achar o gargalo, volume mínimo, projeção e teste A/B"
+---
+
 # Skill: Métricas de Funil — KPIs, Diagnóstico e Projeção
 
 ```yaml
 skill:
   id: metricas-de-funil
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: performance-e-dados
-  agents: ["metrics-analyst", "traffic-strategist", "funnel-architect", "offer-architect"]
-  description: "Painel de KPIs por etapa, fórmulas de CPL, CAC, LTV e ROAS, método da cascata para achar o gargalo, volume mínimo para decidir e projeção por cenário"
+  agents: ["metrics-analyst", "traffic-strategist", "funnel-architect"]
 ```
 
 ---
@@ -40,7 +43,7 @@ skill:
 | Geral | ROAS | receita ÷ investimento | mín. 2x no front |
 | Geral | CAC | investimento ÷ clientes | < 1/3 do LTV |
 
-> Referências são ponto de partida para diagnóstico. Sempre apresentar como benchmark, nunca como resultado prometido.
+> Referências do método, sem fonte de pesquisa: são ponto de partida para diagnóstico. Sempre apresentar como benchmark, nunca como resultado prometido. Quando houver dado do próprio projeto ou do nicho com fonte, ele substitui a referência.
 
 ---
 

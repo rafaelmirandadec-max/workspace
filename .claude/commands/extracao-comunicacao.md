@@ -1,13 +1,16 @@
+---
+description: "Extração de comunicação — Perfil de Comunicação do especialista em versão rápida ou completa, a partir de amostras reais e questionário"
+---
+
 # Skill: Extração de Comunicação — Perfil de Voz para IA
 
 ```yaml
 skill:
   id: extracao-comunicacao
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: identidade-verbal
-  agents: ["brand-architect", "copywriter", "immersion-architect"]
-  description: "Protocolo do Arsenal para extrair o estilo de comunicação de um especialista e transformá-lo em Perfil de Comunicação usado como instrução permanente da IA"
+  agents: ["brand-architect", "copywriter", "content-strategist"]
 ```
 
 ---
@@ -20,7 +23,15 @@ O protocolo tem duas etapas de coleta — questionário e amostras — e um entr
 
 ---
 
-## 2. Fluxo do Protocolo
+## 2. Duas versões
+
+**Versão rápida (padrão).** Com o material que já existe — transcrições de lives e vídeos, posts, e-mails, áudios — monte o template da seção 5 marcando cada campo como FATO (com o trecho de origem) ou SUPOSIÇÃO. Serve para começar a produzir já. Liste o que falta para a versão completa.
+
+**Versão completa.** Questionário, amostras e validação com o especialista, como abaixo. Faça quando houver tempo e acesso ao especialista.
+
+O Perfil de Comunicação **não é pré-requisito** para escrever copy ou conteúdo: sem ele, o copywriter usa as amostras disponíveis e marca a voz como suposição.
+
+## 2.1 Fluxo da versão completa
 
 ```
 1. Questionário de extração (7 blocos, 22 perguntas)
@@ -76,7 +87,7 @@ Instruções ao especialista: responda como você fala. Quanto mais espontâneo,
 
 ## 4. Coleta de Amostras
 
-**Mínimo obrigatório:** 3 vídeos ou lives · 5 textos · 2 áudios.
+**Referência para a versão completa:** 3 vídeos ou lives · 5 textos · 2 áudios. Com menos, faça a versão rápida e diga o que faltou.
 
 **De vídeos e lives:**
 1. Transcrever (Whisper local ou transcrição automática)
@@ -175,8 +186,8 @@ Nenhum Perfil entra em produção sem teste:
 
 ## 9. Checklist
 
-- [ ] 22 perguntas respondidas
-- [ ] 3 vídeos, 5 textos e 2 áudios coletados
+- [ ] Versão declarada (rápida ou completa) e o que falta para a completa
+- [ ] Amostras reais usadas, com origem de cada trecho
 - [ ] Divergências entre questionário e amostra resolvidas a favor da amostra
 - [ ] Template preenchido por inteiro
 - [ ] Exemplos de saída são trechos literais, não paráfrases

@@ -1,20 +1,23 @@
+---
+description: "Tráfego e anúncios — Meta Ads e Google Ads: estrutura de conta, ângulos, briefing de criativo, fases de verba, leitura de métricas, corte e escala"
+---
+
 # Skill: Tráfego e Anúncios — Meta Ads e Google Ads
 
 ```yaml
 skill:
   id: trafego-e-anuncios
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: midia-paga
   agents: ["traffic-strategist", "metrics-analyst", "copywriter"]
-  description: "Estrutura de conta, públicos, matriz de ângulos, briefing de criativo, fases de verba, leitura de métricas e regras de corte e escala"
 ```
 
 ---
 
 ## 1. Princípios
 
-1. **O criativo é ~70% do resultado.** Segmentação não salva anúncio ruim.
+1. **O criativo pesa mais que a segmentação** (heurística do método). Segmentação não salva anúncio ruim.
 2. **Ângulo, não variação.** Cinco ângulos distintos valem mais que vinte versões da mesma frase.
 3. **Meta antes de verba.** Sem CPL e CPA-alvo, não existe otimização — existe opinião.
 4. **Deixe aprender.** Mexer todo dia impede a saída da fase de aprendizado.
@@ -72,7 +75,7 @@ Prova: [número, caso ou demonstração]
 CTA: [ação única]
 Copy do anúncio: [texto completo do post]
 Regras visuais: [paleta e tipografia do brandbook]
-Legenda queimada: [sim — 85% assiste sem som]
+Legenda queimada: [sim — grande parte assiste sem som]
 ```
 
 **Regras de gancho:** os 3 primeiros segundos decidem tudo. Começar com o sintoma, com um número inesperado ou com uma afirmação que contraria o senso comum. Nunca com logo, vinheta ou "fala pessoal, tudo bem?".
@@ -123,6 +126,8 @@ Meta Ads gera demanda; Google Ads colhe demanda existente. Nichos com busca clar
 
 ## 8. Conformidade
 
+Em nicho regulado ou com atributo pessoal (saúde, sexualidade, finanças), a skill `conformidade` manda. Mínimo para qualquer nicho:
+
 - Não prometer resultado garantido nem renda específica sem prova e ressalva
 - Não usar antes/depois em nichos restritos (saúde, emagrecimento, finanças) fora das regras da plataforma
 - Não usar segmentação que implique atributo sensível do usuário
@@ -148,7 +153,7 @@ Reprovação recorrente por política costuma custar mais que o ângulo agressiv
 
 - [ ] CPL e CPA-alvo definidos antes de subir
 - [ ] Estrutura de conta desenhada sem sobreposição de públicos
-- [ ] Mínimo 5 ângulos distintos na matriz
+- [ ] Ângulos realmente distintos na matriz, cada um ligado a uma dor ou objeção (referência: 5)
 - [ ] Briefing de criativo com gancho escrito palavra por palavra
 - [ ] Verba dividida em validação, otimização e escala
 - [ ] Regras de corte e de escala declaradas antes do primeiro real investido

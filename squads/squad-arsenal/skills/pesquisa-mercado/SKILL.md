@@ -1,13 +1,16 @@
+---
+description: "Pesquisa de mercado — metodologia multi-fonte: produto, mercado, público e concorrentes; linguagem literal do público; anúncios ativos; gaps; formato do dossiê"
+---
+
 # Skill: Pesquisa de Mercado — Metodologia Multi-Fonte do Arsenal
 
 ```yaml
 skill:
   id: pesquisa-mercado
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: inteligencia-de-mercado
-  agents: ["researcher", "avatar-strategist", "offer-architect", "traffic-strategist"]
-  description: "Metodologia de pesquisa multi-fonte para funis — checklist de investigação, fontes por bloco, coleta de linguagem literal do público e mapeamento de gaps"
+  agents: ["researcher", "avatar-strategist", "offer-architect", "content-strategist", "traffic-strategist"]
 ```
 
 ---
@@ -16,7 +19,9 @@ skill:
 
 Copy que converte é **pesquisa organizada**. A diferença entre uma página que vende e uma que não vende raramente está na criatividade do redator — está na quantidade e na qualidade do material bruto coletado antes.
 
-Regra do Arsenal: **80% do tempo em pesquisa, 20% em escrita.**
+Referência do método: **a maior parte do tempo em pesquisa, a menor em escrita.**
+
+Toda informação do dossiê leva uma marca: **FATO** (com fonte), **PISTA** (o que a empresa diz de si ou resumo de busca), **SUPOSIÇÃO** (leitura do pesquisador) ou `[A PREENCHER]` (só o cliente sabe). Ver `squads/squad-arsenal/PROTOCOLO.md`.
 
 ---
 
@@ -87,7 +92,9 @@ fontes:
     - "Lançamentos recentes do nicho e suas escadas"
 ```
 
-**Regra de cruzamento**: nenhuma conclusão sai de uma única fonte. Mínimo de 4 tipos de fonte por dossiê.
+**Regra de cruzamento**: conclusão sobre o mercado precisa de mais de um tipo de fonte; referência do método, 4 tipos por dossiê. Se só houve uma fonte, a conclusão vira PISTA.
+
+**Acesso bloqueado** (Instagram sem login, biblioteca de anúncios fora do ar, página com cadastro): registre o bloqueio, a data e o que deixou de ser verificado. Nunca descreva o que não foi lido.
 
 ---
 
@@ -140,7 +147,7 @@ Coletado em: [data] · Fontes consultadas: [n] · Responsável: @researcher
 
 ## 1. Panorama do Mercado
 ## 2. Mapa de Concorrentes
-## 3. Linguagem Real do Público (mínimo 10 citações literais)
+## 3. Linguagem Real do Público (quantas a pesquisa sustentar; referência: 10)
 ## 4. Anúncios em Veiculação
 ## 5. Gaps e Oportunidades
 ## 6. Recomendações para a Fase Seguinte
@@ -163,9 +170,11 @@ Coletado em: [data] · Fontes consultadas: [n] · Responsável: @researcher
 ## 8. Checklist
 
 - [ ] Quatro blocos investigados (produto, mercado, avatar, concorrentes)
-- [ ] Mínimo 4 tipos de fonte cruzados
-- [ ] Mínimo 10 citações literais do público
+- [ ] Mais de um tipo de fonte por conclusão (referência: 4 tipos no dossiê)
+- [ ] Citações literais do público, todas com fonte e data (se forem poucas, dizer quantas e por quê)
+- [ ] Bloqueios de acesso registrados
+- [ ] Cada informação marcada como FATO, PISTA, SUPOSIÇÃO ou [A PREENCHER]
 - [ ] Tabela de concorrentes completa
 - [ ] Anúncios ativos verificados em biblioteca pública
-- [ ] 3 a 5 gaps com evidência
+- [ ] Gaps com evidência (referência: 3 a 5)
 - [ ] Data de coleta e lista de fontes registradas

@@ -1,13 +1,16 @@
+---
+description: "Copywriting de resposta direta — consciência, sofisticação, big idea, 8 motivações e ângulos, headlines, estruturas de página, VSL, e-mail e anúncio, estilo e marcas de texto de IA"
+---
+
 # Skill: Copywriting de Resposta Direta
 
 ```yaml
 skill:
   id: copywriting-resposta-direta
-  version: "4.1.0"
-  updated: "2026-09-02"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: copy-e-conversao
-  agents: ["copywriter", "avatar-strategist", "immersion-architect", "traffic-strategist"]
-  description: "Big idea, estágios de consciência, sofisticação de mercado, fórmulas de headline, estruturas de VSL, página de vendas, e-mail e anúncio, e regras de estilo em português brasileiro"
+  agents: ["copywriter", "avatar-strategist", "content-strategist", "traffic-strategist", "revisor"]
 ```
 
 ---
@@ -16,7 +19,7 @@ skill:
 
 **Copy é pesquisa organizada.** Não é criatividade, é seleção e arranjo do material coletado antes. Redator que escreve sem pesquisa está inventando — e invenção não converte.
 
-Antes da primeira linha, é obrigatório ter: avatar, dor priorizada, oferta completa, estágio de consciência, sofisticação do mercado, provas disponíveis e o Perfil de Comunicação da marca.
+O ideal antes da primeira linha: perfil do público, dor priorizada, oferta, estágio de consciência, sofisticação do mercado, provas disponíveis e a voz da marca. O que faltar não impede a escrita: declare no topo da peça o que foi assumido, marque como SUPOSIÇÃO e use marcadores como `[PROVA: caso real de X]` no lugar de prova que não existe. Nunca invente prova.
 
 ---
 
@@ -63,6 +66,30 @@ Uma big idea forte reúne **novidade + relevância + credibilidade + tensão**. 
 
 ---
 
+## 4.1 Ângulos pelas 8 Motivações
+
+Base: as 8 forças vitais descritas por Drew Eric Whitman em *Cashvertising*. Servem para gerar ângulos distintos para a mesma oferta.
+
+1. Sobreviver, aproveitar a vida, viver mais
+2. Comer e beber
+3. Livrar-se de medo, dor e perigo
+4. Companhia sexual
+5. Condições de vida confortáveis
+6. Ser superior, vencer, não ficar para trás
+7. Cuidar e proteger quem se ama
+8. Aprovação social
+
+**Método:**
+1. Com oferta e perfil definidos, escreva um ângulo por motivação para cada perfil.
+2. Pontue cada ângulo de 1 a 5: evidência (0 sem fonte, 1 pista ou suposição, 2 fato com fonte) + intensidade da motivação na cena (0 a 2) + espaço livre contra o que já está no ar (0 ou 1).
+3. Fique com os mais fortes que trazem algo novo; ângulo forte já gasto pelos concorrentes sai.
+4. Cada ângulo escolhido vira peça curta com **um** benefício: ganchos de 3 segundos, uma frase de teste e uma cena.
+5. Benefício não se lista, se torna vívido: o leitor vê, sente e experimenta a cena.
+
+O placar ordena hipóteses; quem decide é o teste. Em nicho regulado, a motivação 3 (medo) é a de maior risco e a cena mostra o processo, nunca o resultado — ver `conformidade`.
+
+---
+
 ## 5. Fórmulas de Headline
 
 | Fórmula | Modelo |
@@ -75,7 +102,7 @@ Uma big idea forte reúne **novidade + relevância + credibilidade + tensão**. 
 | Prova social específica | "Como [pessoa] saiu de [antes] para [depois] em [prazo]" |
 | Negativa | "Pare de [prática comum] antes que [consequência]" |
 
-Processo: gerar **20 headlines em ângulos diferentes**, ranquear as 5 melhores, justificar a escolha pelo estágio de consciência.
+Processo: gerar várias headlines em ângulos realmente diferentes (referência: até 20), ranquear as melhores e justificar a escolha pelo estágio de consciência. Menos opções boas valem mais que muitas parecidas.
 
 ---
 
@@ -181,10 +208,12 @@ Assunto de e-mail: curto, específico e sem promessa que o corpo não cumpre.
 
 ## 10. Checklist
 
-- [ ] Contexto mínimo completo antes de escrever
+- [ ] Suposições e marcadores de prova declarados no topo
 - [ ] Big idea única declarada no topo
 - [ ] Estrutura coerente com o estágio de consciência
-- [ ] Mínimo 3 expressões literais da pesquisa incorporadas
+- [ ] Expressões literais da pesquisa incorporadas, quando a pesquisa existe
+- [ ] Um perfil e um nível de consciência por peça
+- [ ] Nicho regulado: skill `conformidade` aplicada
 - [ ] Toda promessa lastreada na oferta
 - [ ] Toda prova real e verificável
 - [ ] CTA único, repetido
