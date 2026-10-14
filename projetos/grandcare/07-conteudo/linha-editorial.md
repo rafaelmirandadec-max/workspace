@@ -799,3 +799,4 @@ Esta seção é recomendação; a decisão é do Rafael. Nenhum item abaixo foi 
   - A10: capa de P10 sem a repetição de "como"; este histórico em itens.
   - Alterado além do parecer: "(versão final do RT)" nos ganchos de P19 e P20 virou "o RT ainda não viu", porque sugeria uma aprovação que não houve.
   - Ficou de fora: o art. 12 da LGPD segue citado de memória; a planilha de leads segue não conferida.
+- **v1.5 + lote 1 de peças — 14/10/2026.** Lote 1 de peças escrito (P02, P04, P10, P12, P14, P19, P21 e P22, em `07-conteudo/pecas/`), aguardando revisor. Nenhuma outra parte desta linha foi alterada.
