@@ -17,6 +17,7 @@ Marcas: **FATO** (com fonte), **PISTA** (a empresa falando de si ou trecho de bu
 - **v1.1 — 13/10/2026 (avatar).** Bloco 3 reescrito pelo @avatar-strategist a partir de `02-avatar.md`: perfil principal definido, pós-alta e demência viram momentos de entrada, a família que veio da autônoma entra no perfil 3, convênio fora como público de aquisição paga.
 - **v1.2 — 14/10/2026 (linha editorial).** @content-strategist criou `07-conteudo/linha-editorial.md` (rascunho, ainda sem revisão). Nenhum campo dos blocos 1 a 10 foi alterado; tom de voz e destino do link da bio seguem provisórios até o brand-architect e o funnel-architect.
 - **v1.3 — 14/10/2026 (linha editorial v1.1).** @content-strategist corrigiu `07-conteudo/linha-editorial.md` conforme o parecer do revisor de 14/10/2026 e acrescentou a pergunta 39 (introdução gradual) a `01-pesquisa/perguntas-para-a-grandcare.md`. Nenhum bloco do briefing foi alterado; a pausa do M2 e o arquivamento de posts antigos são recomendações que aguardam decisão do Rafael.
+- **v1.4 — 14/10/2026 (linha editorial v1.3).** @content-strategist atualizou `07-conteudo/linha-editorial.md` com a leitura aproximada de uma planilha de leads de 14/10/2026 (demência como frente própria, calendário reordenado, vocabulário do público; contagem exata pendente). Nenhum bloco do briefing foi alterado.
 
 ## Fontes de partida (dadas pelo Rafael)
 - Instagram: https://www.instagram.com/grandcarebr/ (bloqueado sem login)
