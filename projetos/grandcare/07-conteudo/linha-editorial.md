@@ -1,0 +1,643 @@
+# Linha editorial do Instagram — GrandCare (@grandcarebr)
+
+Data: 14/10/2026 · Responsável: @content-strategist · Pedido do Rafael Miranda: "Monte uma linha editorial da GrandCare"
+Base: `00-briefing.md` (v1.1), `02-avatar.md`, `01-pesquisa/dossie.md`, frentes 1, 2 e 4, `01-pesquisa/perguntas-para-a-grandcare.md` e `revisoes/perguntas-para-a-grandcare-2026-10-13.md`. Método: skills `conteudo-organico` e `conformidade`. O `04-funil.md` e o `05-voz.md` não existem; o tom de voz e o destino dos posts são provisórios.
+
+**Status: rascunho. Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico. Nicho de saúde regulada.**
+
+Marcas: **FATO** (fonte lida), **PISTA** (a empresa falando de si ou trecho de busca), **SUPOSIÇÃO** (leitura minha, com o apoio dito), `[A PREENCHER]` (só a GrandCare ou o Rafael respondem; o número entre parênteses é o da pergunta em `perguntas-para-a-grandcare.md`), `[medir]`.
+
+---
+
+## Decisão em um parágrafo
+
+O perfil trabalha para uma coisa: fazer a filha ou o filho que mora perto (perfil 1) reconhecer a própria situação, salvar e compartilhar o que ensina, e chegar ao primeiro contato já sabendo o que perguntar a uma empresa de cuidadoras, a GrandCare inclusive. O filho que mora longe (perfil 2) vem em segundo, com dois posts próprios por mês. A linha tem seis pilares, e o centro dela é o que o público pede e quase nenhum concorrente local ensina: perguntar antes de pagar o que acontece quando a cuidadora falta, quem avisa, quem responde pelo caso e o que está no contrato. Como a regra de reposição, o modelo de contratação, o preço e as provas da GrandCare ainda não foram respondidos, **todo post afirma o que o público deve perguntar, nenhum afirma o que a GrandCare entrega**. Quando as respostas chegarem, os posts de Confia passam a mostrar a resposta da GrandCare; até lá, mostram a pergunta.
+
+Duas travas pesam mais que o resto. A primeira é o Coren do Edemilson (pergunta 27): sem número e categoria, nenhum post com enfermagem pode sair, e a bio atual não pode continuar. A segunda é o destino do link da bio: hoje ele leva a um formulário que a pesquisa apontou como problema de LGPD e de Pixel. Recomendo não mandar tráfego novo para lá enquanto não for corrigido (decisão do Rafael, ao fim).
+
+---
+
+## 1. Ponto de partida do perfil
+
+**Acesso:** o Instagram bloqueia leitura sem login (erro de abertura em 13/10/2026, frentes 1 e 2). **Não li o feed, os Reels, os destaques, os comentários, o link da bio atual nem o alcance.** Tudo abaixo vem de trechos de busca (DuckDuckGo), sem data de indexação. A linha parte, na prática, do zero: o primeiro passo do Rafael é abrir o perfil logado e preencher os campos `[A PREENCHER]` desta seção.
+
+**O que as frentes levantaram (todos PISTA):**
+- Nome do perfil: "GrandCare | RT - Edemilson A." Seguidores: 3.847, seguindo 6, 62 publicações. Um trecho mais antigo do mesmo perfil mostrava 757 seguidores, 22 posts e a bio "Cuidadores Especializados / Profissionais Certificados / Atendimento Domiciliar / Floripa". Data de cada leitura: desconhecida.
+- Curtidas entre 20 e 28 por post. Se os dois números forem da mesma época, isso é cerca de 0,5% a 0,7% dos seguidores (SUPOSIÇÃO, cálculo meu sobre números sem data). O que se pode dizer é que o perfil tem seguidores e pouca reação.
+- Posts e Reels citados nos trechos: post de 02/07/2024 com "agende agora uma avaliação gratuita" e um número de WhatsApp; Reels de 15/10/2024 com depoimento do "Sr. Carlos"; Reels de 22/01/2026 ("Não é só o paciente que adoece. A família também sofre… e muitas vezes, em silêncio." e "Cuidado domiciliar com fisioterapia, fono..."); Reels de 15/04/2026 ("Com prescrição médica, a GrandCare organiza tudo").
+- Instagram pessoal do Edemilson (@enf.edemilsonalbarnas): 119 seguidores, bio "Proprietário: @grandcarebr Especialista em lesões".
+- Link da bio: o Rafael informou que é o formulário `portal.grandcarebrasil.com.br/formulario/` (FATO quanto ao que o Rafael disse; não conferi o link vivo).
+
+**O que isso diz para a linha (SUPOSIÇÃO, com o apoio indicado):**
+1. A bio antiga diz "Profissionais Certificados". A pesquisa e a Cofen 554/2017 não deixam sustentar "certificado" (não existe certificação oficial de cuidador). A bio sai.
+2. O nome do perfil já tem "RT" mas não tem Coren nem categoria. Isso é a pendência 27.
+3. Três pistas de Reels pedem cuidado: o depoimento do Sr. Carlos (sem autorização confirmada, pergunta 24), "fisioterapia, fono" (serviços não confirmados, pergunta 12) e "com prescrição médica a GrandCare organiza tudo" (puxa quem espera o plano de saúde, pergunta 20). A linha não republica nem reforça nenhum dos três. O `revisor` deve olhar os posts antigos, não só os novos.
+4. A frase "A família também sofre, em silêncio" é a mesma tese que o fundador repete em vídeo ("a família também adoece"). É o melhor material de partida do pilar Gosta, desde que fique em terceira pessoa e sem agitar a dor.
+5. A GrandCare tem mais seguidores que Ravivare (~0,8 a 1,6 mil), Zathos e Suavitate e menos que Nonno (~7,6 mil), Acuidar Florianópolis (~10 mil), Anjos da Guarda (~203 mil) e Geração de Saúde (~155 mil) (PISTA, frente 2). Alcance contra as duas últimas não se fecha com conteúdo orgânico. O orgânico aqui vale por outra coisa: **dar rosto e critério ao enfermeiro que responde pelo caso, o que quase nenhum concorrente local mostra** (SUPOSIÇÃO apoiada nos cartões da frente 2: Ravivare tem os enfermeiros no site, mas o seu Instagram é pequeno).
+6. **O melhor ativo existente** é o Edemilson à câmera (os vídeos do Meta e o podcast REICAST, pergunta 26). Ele só vira ativo de conteúdo com Coren, categoria e uma única versão da trajetória (15, 20 e 23 anos aparecem nos vídeos; pergunta 27).
+
+**Campos a preencher na primeira leitura logada:** frequência real de postagem `[A PREENCHER]`; formatos que já existem e o que mais reagiu `[A PREENCHER]`; destaques atuais e para onde levam `[A PREENCHER]`; comentários e directs recorrentes `[A PREENCHER]`; alcance de não seguidores nos últimos 90 dias `[medir]`; origem Instagram nos contatos que chegam ao WhatsApp `[medir]` (pergunta 33).
+
+**Perguntas do público que o perfil responde hoje e as que ignora:** sem ler o feed não dá para afirmar. O que se sabe é o que a demanda pede (seção 4). Pela pista dos Reels, o perfil fala de família que sofre e de serviços; não se sabe se fala de preço, de reposição, de contrato, de "cuidador ou enfermagem" ou de idoso que recusa ajuda.
+
+---
+
+## 2. Objetivo e métrica de cada etapa
+
+Cada etapa tem uma entrega só. Não há linha de base medida; as metas numéricas ficam `[medir]` e se definem depois das duas primeiras semanas.
+
+**Conhece.** Entrega: gente nova que nunca ouviu falar da GrandCare e se reconhece na situação. Métrica principal: alcance de não seguidores e seguidores ganhos; de apoio, compartilhamentos. Próximo passo do post: salvar ou enviar a quem divide o cuidado.
+
+**Gosta.** Entrega: quem já segue volta, reage e conta o próprio caso. Métrica principal: salvamentos, compartilhamentos e comentários com relato; de apoio, respostas às caixinhas dos Stories. Próximo passo: responder a caixinha ou comentar.
+
+**Confia.** Entrega: contato qualificado, isto é, quem pede o checklist, manda direct com pergunta concreta ou chega ao contato da GrandCare. Métrica principal: pedidos do material por comentário ou direct, directs com pergunta qualificada e cliques no link; de apoio, mensagens no WhatsApp com origem Instagram `[medir]`. Próximo passo: pedir o material, perguntar no direct ou conversar com a equipe.
+
+**Compra.** Entrega: agendamento da avaliação inicial. Fica nos Stories e no destaque, e só quando houver agenda real e destino de contato corrigido. Métrica: avaliações agendadas com origem Instagram `[medir]`, que dependem de o CRM registrar a origem (pergunta 1: quem opera o CRM).
+
+**Regra de continuidade:** cada post tem um próximo passo só, e o próximo passo entrega o que o post prometeu. O checklist prometido no carrossel tem de existir pronto antes de o post ir ao ar.
+
+---
+
+## 3. Perfil a priorizar
+
+**Perfil 1, a filha ou o filho que está perto e segura a escala, é o primeiro.** Consciência dominante 3 (busca), secundária 2 (feed). No Instagram ele aparece pelo nível 2: reconhece a escala que "sobra para um só", ainda não pensou em empresa. Metade a dois terços dos posts falam com ele. Evidência: 15 de 22 reclamações de família tratam de falta e atraso, e a filha é a maior parte das falas (FATO, `02-avatar.md`).
+
+**Perfil 2, o filho ou a filha que mora longe, vem em segundo.** Dois posts próprios por mês (P09 e P10 na lista) mais os que ele divide com o perfil 1. Consciência dominante 2: sente "não saber o que acontece na casa" e ainda não sabe que dá para contratar informação junto com o cuidado. O ângulo está livre nos anúncios de SC, mas a Geração de Saúde já tem uma página para familiares que moram longe (FATO, frente 2), então o argumento não pode ser "só nós falamos disso".
+
+**Perfil 3 (a família que já se decepcionou)** não ganha pilar próprio no primeiro mês. Ela é atendida pelo pilar de Confia, porque só convence com regra escrita e prova que a GrandCare ainda não tem (`02-avatar.md`: sofisticação 5, ceticismo).
+
+**Momentos de entrada:** alta hospitalar (pauta P07, depende da pergunta 27) e diagnóstico de demência (pautas P12 e P13, com limites de conformidade). São situações que atravessam os perfis, não perfis.
+
+**Coadjuvantes:** o cônjuge que cuida aparece na pauta P14 (folga de quem cuida), em terceira pessoa. O idoso lúcido que veta aparece na P12, tratado com respeito e sem imagem.
+
+---
+
+## 4. Regras de redação
+
+Valem para todo post, legenda, Story, comentário e direct. A base é a skill `conformidade`, o Bloco 9 e o Bloco 10 do briefing, `02-avatar.md` e o parecer do `revisor` de 13/10/2026. É lista de pontos de atenção, não parecer jurídico; artigos que cito foram conferidos pelo `revisor` no texto oficial em 13/10/2026 (parecer em `revisoes/`) e voltam ao `revisor` antes de ir para legenda.
+
+### Obrigatório
+
+1. **Passar pelo `revisor` e pela aprovação do enfermeiro responsável técnico antes de publicar.** Em nicho regulado, sempre. Para tema jurídico (vínculo trabalhista, obrigação de sustento, direito ao plano), também pelo advogado (pergunta 30).
+2. **Post que fala de enfermagem, ou tem o enfermeiro à câmera:** nome, número de inscrição no Coren-SC e categoria do profissional, na legenda e, em vídeo, na tela (Cofen 554/2017, art. 3º). Hoje: Edemilson Albarnas, enfermeiro, Coren-SC `[A PREENCHER]` (27). Sem o número, o post não sai.
+3. **Bio com CNPJ (43.946.737/0001-04, FATO, Receita) e responsável técnico com Coren.** Sugestão do método, não exigência que eu tenha conferido.
+4. **Em tema de saúde, falar da situação e da causa em terceira pessoa:** "muitas famílias", "quem cuida", "a pessoa". Não diagnosticar nem afirmar a condição de quem lê.
+5. **Afirmação técnica ou clínica fica marcada `[validar com o RT]` até o Edemilson aprovar por escrito.** Isso vale para todas as pautas que falam de procedimento, medicação, demência e alta.
+6. **Norma citada em post:** nome da norma e número, texto oficial aberto pelo `revisor` na semana da publicação.
+7. **Resposta-padrão a comentário ou direct com dúvida clínica individual:** não orientar caso concreto por rede social (a Cofen 554/2017, art. 4º, V, veda consultoria a pacientes e familiares por mídia social em substituição à consulta de enfermagem; apontado pelo `revisor`, norma de telenfermagem não conferida). Resposta sugerida: "Cada caso precisa ser avaliado por um profissional que conheça a pessoa. Procure a equipe de saúde que acompanha ou agende uma avaliação." (a segunda parte só quando o agendamento for real).
+8. **Material gratuito entregue sem pedir dado de saúde.** O checklist vai por direct, sem formulário. Se for coletar e-mail ou telefone, consentimento claro para contato (LGPD). Nenhum pedido de sintoma, diagnóstico ou remédio em uso, em comentário, direct ou caixinha.
+9. **Imagens:** mãos, objetos, ilustração, texto na tela, o enfermeiro de jaleco com autorização dele. Nada de paciente identificável, de idoso com demência, nem de foto de banco que sugira um paciente real. A origem das imagens dos vídeos atuais está em aberto (pergunta 32).
+
+### Proibido
+
+1. **Prometer, insinuar ou sugerir:** reposição de cuidadora, prazo de reposição, "a empresa assume as faltas", aviso antes do plantão, cuidadora fixa, relato do plantão, supervisão do enfermeiro com frequência, preço, formato, horário de atendimento, "24h". Tudo isso depende das perguntas 5, 8, 9, 10, 14, 15 e 16.
+2. **Provas da GrandCare:** depoimento (inclusive os quatro do site, o do Sr. Carlos e as avaliações do Google sem autorização, pergunta 24), caso de cliente, número ("15+ anos" da empresa, "250+ profissionais", "500+ pacientes", "+500 famílias"), "equipe certificada", "profissionais certificados", "cuidador certificado", "equipe própria", o texto do ND+ como matéria.
+3. **Superlativos e posicionamento vazio:** "melhor", "os melhores", "referência", "excelência", "humanizado" (só aparece do lado das empresas, `02-avatar.md`), "a única que atende" qualquer região, "a maior".
+4. **Credencial sem título registrado:** "especialista em feridas" ou "especialista em lesões" para o Edemilson. Fala-se "enfermeiro", com Coren e categoria. Um único número de anos de profissão, só depois da pergunta 27.
+5. **Medo como motor:** "bomba-relógio", lista de riscos (queda, infecção, ferida, hospitalização), "pode piorar", "e se algo acontecer", "o pior". O vídeo M2 foi apontado como problema e não é referência. A dor entra como situação do cotidiano (a escala, o dia de trabalho perdido), não como ameaça à vida do idoso.
+6. **Pergunta ou frase que afirme condição de quem lê:** "Seu pai tem Alzheimer?", "você está esgotada", "você sofre de burnout". Alzheimer e demência só como tema informativo, nunca como pergunta, afirmação sobre o leitor ou ameaça.
+7. **Antes e depois, imagem de paciente identificável, vídeo de paciente, prontuário, print de conversa de cliente.**
+8. **Atacar concorrente** ou usar reclamação de empresa como prova. As falas do Reclame Aqui e do Reddit servem para entender o público e tirar vocabulário; não viram citação em post, e nome de pessoa nunca aparece.
+9. **Prometer isenção trabalhista** ou afirmar "a família fica livre de encargos" (pergunta 6 e advogado).
+10. **Nome de medicamento ou princípio ativo** no post. Escrever "medicação injetável", não o nome do remédio.
+11. **Dizer que a GrandCare atende convênio** ou sugerir que o plano paga (pergunta 20). **Chamar o serviço de "home care" como prova de regularidade** antes da pergunta 28.
+12. **Urgência ou escassez inventada** ("últimas vagas", contador). Só agenda real.
+13. **Orientar caso clínico individual, recomendar tratamento ou dose.**
+14. **Diagnóstico de culpa:** o tom não culpa quem contrata, quem não contrata, quem mora longe nem quem pensa em casa de repouso.
+
+### Tom de voz provisório (até o `05-voz.md`)
+
+Matéria-prima: as legendas do vídeo do site e os roteiros de M1 e M3 (frentes 1 e 3), onde o fundador fala como quem já foi cuidador. SUPOSIÇÃO, a confirmar com o `brand-architect`.
+
+- **Fala de quem esteve na casa:** frases curtas, concretas, no vocabulário do público: cuidadora, plantão, escala, pessoa fixa, reposição, "ficou sem cuidadora", "sobra para um só". Sem "anamnese" (palavra da empresa); usar "avaliação" ou "conversa com o enfermeiro".
+- **Franco sobre o que é difícil**, na linha do M3 ("é normal acontecer… acontece em todas as empresas"), sem se defender e sem prometer.
+- **Dá a ferramenta antes de pedir contato:** folha, lista de perguntas, modelo.
+- **Não consola em excesso nem dramatiza.** Sem "carinho" como diferencial, sem adjetivo empilhado.
+- **Trata o leitor como alguém que decide.** Não ensina a amar os pais; ensina a organizar e a perguntar.
+- **Uma só voz para o Edemilson**: fala técnica simples, sem sigla sem explicação.
+
+---
+
+## 5. Pilares
+
+Seis pilares. Cada um tem um cartão com os campos do método. As pautas da seção 7 saem deles.
+
+**Pilar 1 — Sobra para um só**
+- Etapa: Gosta.
+- Para quem: perfil 1; nível 2 (sente o esgotamento, ainda não pensa em ajuda paga).
+- O que é: a escala da família, o dia de trabalho perdido, os irmãos que dividem a conta e não o tempo, a folga de quem cuida. Em terceira pessoa, com ferramenta prática.
+- Por que existe: 9 de 22 reclamações de família, comentários em três vídeos do YouTube, nove conversas do Reddit, decisão do TJSC em Joinville (FATO); autocomplete "meus irmãos não ajudam a cuidar dos pais" (FATO). Nenhum concorrente local lido fala disso (SUPOSIÇÃO, frente 2).
+- Formato: Reels curto com texto na tela e voz, carrossel com modelo de escala, Stories com caixinha.
+- Cuidado: não afirmar esgotamento nem sofrimento psíquico de quem lê; sem "burnout" dirigido ao leitor; sem culpar irmãos.
+- Próximo passo: salvar, enviar à família, comentar "ESCALA" para receber o modelo.
+
+**Pilar 2 — Antes de contratar**
+- Etapa: Conhece.
+- Para quem: perfis 1 e 3; nível 3 (sabe que existe cuidadora e empresa, compara).
+- O que é: as perguntas e comparações que a busca já faz: quanto custa e o que muda o valor, o que está incluído, empresa ou autônoma ou casa de repouso, cuidador pode cozinhar e limpar.
+- Por que existe: autocomplete de preço e de regras do trabalho (FATO); a disputa por "quanto custa cuidador 2026" é alta, com sites de agregadores (PISTA, frente 4), então o diferencial é local, sem número inventado e sem repetir tabela alheia.
+- Formato: carrossel educativo com capa em forma de pergunta; Reels de 30 a 40 s.
+- Cuidado: nenhum preço da GrandCare (pergunta 15). Faixas de plataforma só com fonte e data, como "estimativa de plataforma", e só se o `revisor` aprovar; no primeiro mês, usar "o que faz o valor mudar", sem número. Tema trabalhista passa pelo advogado.
+- Próximo passo: salvar; comentar a dúvida.
+
+**Pilar 3 — Cuidador ou enfermagem: quem faz o quê**
+- Etapa: Conhece, com chegada em Confia.
+- Para quem: todos os perfis; Momento A (alta); nível 2 a 3.
+- O que é: a diferença entre cuidador e técnico de enfermagem em linguagem simples, e por que sonda, curativo e medicação injetável não são do cuidador (Coren-SC, Parecer 002/2015, FATO conforme frente 5). A voz é a do Edemilson.
+- Por que existe: autocomplete "cuidador de idosos x técnico de enfermagem", "pode aplicar insulina", "pode fazer curativo", "precisa de coren" (FATO); a combinação cuidador mais enfermagem é diferencial da GrandCare no papel (FATO quanto ao site), mas metade da praça só tem cuidador.
+- Formato: Reels com o Edemilson, carrossel.
+- Cuidado: **conteúdo de enfermagem, leva nome, Coren e categoria (pendência 27).** Afirmação técnica validada por ele. Não citar o Parecer antes de o `revisor` reabrir o texto. "Insulina" vira "medicação injetável".
+- Próximo passo: salvar; pedir o checklist.
+
+**Pilar 4 — Longe, mas por dentro**
+- Etapa: Conhece e Gosta.
+- Para quem: perfil 2; nível 2.
+- O que é: como acompanhar os pais de outra cidade sem ligar toda hora, o que pedir a uma empresa antes de contratar à distância, o que combinar com o irmão que está perto.
+- Por que existe: filho longe aparece em quatro tipos de fonte (FATO); "estar informado" é o desejo real; o ângulo é pouco usado nos anúncios de SC (FATO, frente 3), mas a Geração de Saúde tem página sobre isso.
+- Formato: Reels, carrossel.
+- Cuidado: nada de "até o dia da queda", "algo acontecer", "o pior". Dizer "pais que moram em outra cidade", em terceira pessoa. Em anúncio futuro, a política do Meta proíbe frase que afirme onde o leitor mora ou o que ele sente.
+- Próximo passo: salvar e levar as perguntas à conversa com a empresa.
+
+**Pilar 5 — Em casa, com quem ela aceite**
+- Etapa: Gosta.
+- Para quem: perfis 1 e 2; Momentos A e B; nível 2.
+- O que é: a mãe ou o pai que não aceita gente estranha em casa, a conversa em família, o começo gradual, a alta do hospital e o diagnóstico de demência como tema de organização, sem clínica.
+- Por que existe: seis falas de recusa em três fontes; autocomplete "como convencer um idoso a aceitar um cuidador", "o que fazer quando o idoso não aceita ajuda" (FATO). Nenhum concorrente lido trata disso (SUPOSIÇÃO, frente 2).
+- Formato: Reels, carrossel, Stories com caixinha.
+- Cuidado: sem imagem de idoso com demência; "Alzheimer" e "demência" só como tema; sem conselho de manejo comportamental que seja clínico sem validação do RT; não dizer que a GrandCare faz introdução gradual antes de ela existir por escrito (pergunta 10 e a pergunta nova da lista do avatar).
+- Próximo passo: salvar; comentar o caso.
+
+**Pilar 6 — Conferir antes de pagar**
+- Etapa: Confia.
+- Para quem: perfis 1 e 3; nível 3 a 4.
+- O que é: o checklist de perguntas a qualquer empresa (CNPJ, responsável técnico com Coren, registros do serviço, o que acontece na falta, cobrança e reembolso, pessoa fixa e o que está incluído). Mais tarde, as respostas da própria GrandCare e os bastidores (como é a avaliação inicial, como a cuidadora é preparada).
+- Por que existe: sete reclamações de pagamento adiantado, seis de troca constante, sete de aviso tardio (FATO); critério "avaliações e indicação" (Reddit); a prova pública da GrandCare é a menor da praça (5 avaliações contra 48 a 273, FATO), então ensinar a conferir é a forma de entrar na comparação sem inflar nada.
+- Formato: carrossel com material gratuito; destaque "Antes de contratar"; Stories de bastidor.
+- Cuidado: **é conteúdo que a própria empresa precisa conseguir cumprir**; o `revisor` deve conferir se as respostas da GrandCare existem antes da publicação (perguntas 5, 8, 16, 17, 19, 27, 28). Se a GrandCare não tiver Coren, alvará ou regra por escrito quando o post sair, o checklist volta contra ela.
+- Próximo passo: comentar "CHECKLIST" para receber no direct; conversar com a equipe.
+
+---
+
+## 6. Distribuição por etapa e formatos
+
+**Distribuição inicial** (referência do método, não medida): 50% Conhece, 30% Gosta, 20% Confia; Compra em Stories. Em 12 posts de feed no mês, são 6 Conhece, 4 Gosta e 2 Confia. O primeiro mês testa os seis pilares; o segundo concentra no que respondeu.
+
+**Formatos por etapa**
+- **Conhece:** Reels de 30 a 40 s com um tema por vídeo, gancho na pergunta ou na situação do público (nunca "oi, pessoal"); carrossel de 5 a 8 slides com capa que faz a pergunta do público. Sem preço e sem pedido de compra.
+- **Gosta:** série recorrente "Uma dúvida, uma resposta" (Stories com caixinha, resposta em Reels quando a dúvida repetir); modelo para salvar; enquete. Sem live no primeiro mês (capacidade).
+- **Confia:** carrossel com material gratuito entregue por comentário ou direct; destaque "Antes de contratar"; bastidor curto do processo, só depois das respostas.
+- **Compra:** Story com disponibilidade real da avaliação inicial e destaque "Como funciona". Só quando houver agenda verdadeira (perguntas 13 e 14), destino corrigido e Coren na bio.
+
+**Stories** (fora da conta de 12 posts): 3 a 4 sequências por semana. Fixas: uma caixinha por semana ("O que você gostaria de saber antes de contratar?"), que é a fonte de pautas reais enquanto não se leem os comentários; uma enquete de apoio; repostagem do post da semana com o próximo passo. A caixinha responde dúvida geral e nunca caso clínico.
+
+**Capacidade de produção:** não está no briefing `[A PREENCHER]` (Rafael e GrandCare: quem grava, quem edita, quanto tempo o Edemilson tem). Planejei 3 posts de feed por semana (2 Reels e 1 carrossel, ou 1 e 2) mais Stories simples (SUPOSIÇÃO). Se a capacidade real for de 2 posts por semana, corte pela ordem inversa de prioridade: primeiro os de Gosta repetidos, depois os de Conhece, nunca o carrossel de Confia.
+
+---
+
+## 7. Pautas iniciais
+
+Dezoito pautas. Cada uma traz etapa, perfil, formato, gancho, chamada, fonte e situação. **A situação tem duas respostas só:**
+
+- **Pode publicar hoje:** educativa, sem afirmar nada da operação da GrandCare, sem tema clínico que exija voz de profissional de saúde, sem menção a serviço de enfermagem. Ainda precisa de `revisor` e de aprovação do RT. Considerar também a bio corrigida (seção 9).
+- **Depende de resposta:** a pergunta que destrava vem indicada. Se a resposta for negativa, a pauta muda como descrito.
+
+Ganchos usam a situação do público, nunca a condição de quem lê. A fonte de cada pauta é a demanda real: autocomplete (13/10/2026), reclamações, Reddit e YouTube lidos pelas frentes. Falas literais não entram em nenhum post.
+
+**P01 · Sobra para um só**
+Etapa Gosta · Perfil 1 · Reels (texto na tela e voz, sem rosto)
+Gancho: "Em muita casa, o cuidado dos pais cai numa pessoa só."
+Chamada: salvar para a próxima conversa em família; comentar "ESCALA" para o modelo da folha.
+Fonte: comentários do YouTube e conversas do Reddit sobre irmãos que não dividem; autocomplete "meus irmãos não ajudam a cuidar dos pais".
+Situação: **pode publicar hoje.** Roteiro completo na seção 8.
+
+**P02 · A escala da família no papel**
+Etapa Gosta · Perfil 1 · Carrossel (6 slides) com modelo de folha para salvar
+Gancho (capa): "Quem leva ao médico, quem cobre a noite, quem compra os remédios? Escreva."
+Chamada: salvar; comentar "ESCALA" se ainda não recebeu o modelo.
+Fonte: rodízio de irmãos que não se sustenta (Reddit); conselho "um fim de semana por mês" (Reddit).
+Situação: **pode publicar hoje.** Ativo a produzir: o modelo em branco (uma página).
+
+**P03 · Quanto custa um cuidador: o que faz o valor mudar**
+Etapa Conhece · Perfis 1, 2 e 3 · Carrossel (7 slides)
+Gancho (capa): "Quanto custa uma cuidadora? Depende de seis coisas. Quais?"
+Conteúdo: horas por dia, dia útil ou fim de semana, noite, nível de dependência, cuidador ou enfermagem, empresa ou contratação direta. Sem número da GrandCare e sem tabela de terceiros.
+Chamada: "Pergunte, em qualquer empresa, o que está incluído no valor." Salvar.
+Fonte: autocomplete "quanto custa uma cuidadora de idosos" (por dia, por mês, à noite, 24 horas); a busca de preço é a mais disputada.
+Situação: **pode publicar hoje**, sem preço. A versão com a faixa de preço da GrandCare depende da pergunta 15 e é outra pauta.
+
+**P04 · O cuidador pode cozinhar e limpar a casa?**
+Etapa Conhece · Perfil 1 · Reels
+Gancho: "Cuidadora de idosos faz comida? E faxina?"
+Conteúdo: o combinado precisa estar por escrito antes do primeiro dia; o foco do trabalho é a pessoa cuidada. Sem afirmar o que a GrandCare inclui.
+Chamada: salvar; mandar para quem vai contratar.
+Fonte: autocomplete ("cuidador de idosos faz comida", "faz faxina", "também tem que fazer o trabalho doméstico"); atrito família-cuidadora nas reclamações.
+Situação: **pode publicar hoje**, em termos gerais. A versão "o que está incluído na GrandCare" depende da pergunta 19.
+
+**P05 · Autônoma, empresa ou casa de repouso**
+Etapa Conhece · Perfis 1 e 3 · Carrossel
+Gancho (capa): "Autônoma, empresa ou casa de repouso: o que muda para a família?"
+Conteúdo: quem responde pela falta, quem é o empregador, onde o idoso fica, quanto pesa a conta; sem desqualificar nenhuma opção.
+Chamada: salvar; comentar qual dúvida pesa mais.
+Fonte: objeções 9 e 10 da matriz (Reddit, YouTube, autocomplete trabalhista).
+Situação: **depende de resposta: advogado (30)** para a parte de vínculo trabalhista (LC 150/2015; Tema 1.389 do STF em aberto) e de **pergunta 6** se o post chegar a comparar com o modelo da GrandCare. A versão sem a coluna trabalhista pode sair antes.
+
+**P06 · Cuidador ou técnico de enfermagem: quem faz o quê**
+Etapa Conhece · Todos · Reels com o Edemilson, 35 s
+Gancho: "Medicação injetável, curativo e sonda: isso é função de cuidador?"
+Chamada: salvar; comentar "CHECKLIST" para a lista de perguntas.
+Fonte: autocomplete "cuidador de idosos x técnico de enfermagem", "pode aplicar insulina", "pode fazer curativo", "precisa de coren"; Parecer Coren-SC 002/2015.
+Situação: **depende de resposta: 27** (Coren e categoria na tela e na legenda), **pergunta 12** (que serviços a GrandCare presta de fato) e validação técnica do RT. Se a 12 mostrar que a GrandCare não faz algum procedimento, o roteiro muda.
+
+**P07 · Alta do hospital: o que perguntar à equipe antes de ir para casa**
+Etapa Conhece · Momento A (perfis 1 e 2) · Carrossel
+Gancho (capa): "A alta saiu. O que perguntar à equipe antes de levar para casa?"
+Conteúdo: perguntas para levar ao hospital (quem orienta a família, o que muda nos cuidados diários, se há necessidade de cuidador ou de enfermagem, quem acompanha depois). Sem listar complicações.
+Chamada: salvar para levar ao hospital.
+Fonte: gatilho da alta hospitalar; autocomplete "preciso de uma cuidadora urgente", "cuidador de idosos para hospital".
+Situação: **depende de resposta: 27** (menciona enfermagem), e validação técnica do RT. Não depende da operação, então é a primeira pauta de enfermagem a sair quando o Coren chegar.
+
+**P08 · O que perguntar sobre o contrato antes de pagar adiantado**
+Etapa Confia · Perfil 3 e 1 · Reels
+Gancho: "Pagar o mês adiantado? Pergunte isto antes."
+Conteúdo: quantos meses, o que volta se o serviço não for prestado ou o contrato terminar (inclusive em caso de óbito), prazo mínimo, o que acontece se a família quiser ficar com a cuidadora no futuro.
+Chamada: comentar "CHECKLIST".
+Fonte: sete reclamações de pagamento adiantado e de reembolso; caso de Florianópolis sobre ficar com a cuidadora.
+Situação: **depende de resposta: 16, 17, 18 e 19**. O post ensina a perguntar; se a GrandCare cobra meses adiantados ou tem cláusula contra ficar com a cuidadora, o post publicado antes das respostas volta contra ela.
+
+**P09 · Pais em outra cidade: três perguntas antes de contratar**
+Etapa Conhece · Perfil 2 · Reels
+Gancho: "Contratar cuidadora para os pais que moram em outra cidade: três perguntas antes de assinar."
+Chamada: salvar e levar as três perguntas à conversa com a empresa.
+Fonte: reclamações de filha que mora longe; desejo de "estar informado"; M1 como teste já no ar.
+Situação: **pode publicar hoje.** Roteiro completo na seção 8.
+
+**P10 · Pais em outra cidade: como saber o que acontece em casa sem ligar toda hora**
+Etapa Conhece · Perfil 2 · Carrossel
+Gancho (capa): "Como acompanhar os pais de outra cidade sem depender do telefone?"
+Conteúdo: combinar um caderno de plantão ou um relato por mensagem em horário fixo com quem cuida, definir um nome para ligar, dividir com o irmão que está perto o que cada um acompanha. Educativo, geral.
+Chamada: salvar; comentar o que já funciona na sua casa.
+Fonte: "ficamos sempre no escuro"; desejo de saber o que aconteceu no turno (blog Filhas da Mãe, Reddit).
+Situação: **pode publicar hoje.** A versão "o relato do plantão da GrandCare" é a P11.
+
+**P11 · Como é o relato do plantão na GrandCare**
+Etapa Confia · Perfil 2 · Reels ou Story em destaque
+Gancho: "Como a família que mora longe recebe notícia do plantão."
+Chamada: conversar com a equipe.
+Fonte: M1 diz "registro do que aconteceu no plantão e um canal direto com você" (PISTA).
+Situação: **depende de resposta: 9** (rotina real, ferramenta, quem recebe) e **8** (aviso antes do plantão). Sem a 9, o post não existe, e o M1 já no ar precisa ser revisto.
+
+**P12 · "Minha mãe não aceita gente estranha em casa"**
+Etapa Gosta · Perfis 1 e 2 · Reels
+Gancho: "A mãe não quer ninguém estranho em casa. Por onde começar a conversa?"
+Conteúdo: ouvir o motivo antes de argumentar, começar com poucas horas, a pessoa nova entra como ajuda para a casa e não como substituta, a família estar presente nos primeiros dias. Educativo, geral, em terceira pessoa. Sem citar demência na chamada.
+Chamada: salvar; comentar o que funcionou.
+Fonte: seis falas de recusa em três fontes; autocomplete "como convencer um idoso a aceitar um cuidador".
+Situação: **pode publicar hoje**, como orientação geral e com validação do RT. A versão "como a GrandCare faz a introdução gradual" depende da **pergunta 10** e da pergunta nova do avatar (introdução gradual).
+
+**P13 · Diagnóstico de demência na família: por onde organizar a casa**
+Etapa Conhece · Momento B (perfis 1 e 2) · Carrossel
+Gancho (capa): "Diagnóstico de demência na família: o que organizar nas primeiras semanas?"
+Conteúdo: reunir a documentação médica, definir quem decide, conversar com a equipe que acompanha, combinar a escala, conhecer as opções de cuidado. Sem descrever sintomas nem estágios, sem imagem de idoso.
+Chamada: salvar.
+Fonte: Alzheimer é o diagnóstico mais citado; diagnóstico recente como momento de contratar (Reclame Aqui, Levens).
+Situação: **depende de resposta: 27** (conteúdo de saúde com a voz do enfermeiro) e validação técnica do RT. Não depende da operação.
+
+**P14 · Um fim de semana por mês para quem cuida**
+Etapa Gosta · Perfil 1 e cônjuge que cuida · Reels ou carrossel
+Gancho: "Quem cuida também precisa de folga. Como pedir um fim de semana por mês?"
+Conteúdo: revezar com irmãos, contratar por poucas horas, pedir ajuda de fora, combinar o dia com antecedência. Sem "esgotamento" nem "burnout" dirigidos ao leitor.
+Chamada: salvar; enviar ao irmão.
+Fonte: conselho recorrente no Reddit; comentários de esposas no YouTube.
+Situação: **pode publicar hoje.** Não afirma que a GrandCare vende fim de semana (formato depende da pergunta 15).
+
+**P15 · A cuidadora avisou que não vem hoje: o plano B da família**
+Etapa Conhece e Gosta · Perfil 1 · Reels
+Gancho: "A cuidadora avisou que não vem hoje. Qual é o plano B da família?"
+Conteúdo: lista de contatos, medicação anotada, horário da pessoa, quem pode cobrir, quando pedir ajuda ao serviço de saúde. Prático, em tom calmo.
+Chamada: salvar; enviar para a família.
+Fonte: 15 de 22 reclamações; dia de trabalho perdido.
+Situação: **pode publicar hoje**, **com atenção do `revisor`**: o gancho trata de falta, que é o tema mais sensível. O corpo é solução, sem alarme, e não promete nada da GrandCare. Se o `revisor` considerar que o gancho cheira a medo, trocar por "Combine antes: quem cobre quando a cuidadora não puder vir?".
+
+**P16 · Como conferir uma empresa de cuidadores antes de pagar**
+Etapa Confia · Perfis 1 e 3 · Carrossel de 8 slides com checklist por direct
+Gancho (capa): "Antes de pagar a primeira diária: seis coisas para conferir numa empresa de cuidadores."
+Chamada: comentar "CHECKLIST" para receber a lista no direct.
+Fonte: critérios de escolha da frente 4; reclamações de pagamento, de troca, de aviso tardio; Reddit ("checar recomendações e avaliação").
+Situação: **depende de resposta: 27 e 28** (o post manda o leitor pedir Coren e registros; a GrandCare precisa tê-los à mão) e, para a publicação, **5, 8, 16 e 19** (as perguntas dos slides 5 a 7 são as que a própria empresa responde). Roteiro completo na seção 8.
+
+**P17 · Como é a avaliação inicial com o enfermeiro**
+Etapa Confia e Compra · Perfis 1 e 2 · Reels com o Edemilson ou Story em destaque
+Gancho: "Como é a primeira conversa com o enfermeiro, antes de qualquer contratação?"
+Conteúdo: o que ele pergunta à família, o que observa na casa, o que sai dali (um plano de cuidado individual). Avaliação "inicial gratuita feita por enfermeiro" é FATO apenas quanto ao que o site diz (FAQ e agenda).
+Chamada: conversar com a equipe.
+Fonte: avaliação gratuita já é a porta de entrada; o público pergunta como contratar à distância e quer participar da escolha.
+Situação: **depende de resposta: 27** (Coren), **12** (quem avalia e o que se avalia), **13 e 14** (cidades e horário), e se a videochamada substitui ou antecede a visita (apontado pelo `revisor`; não chamar de "anamnese").
+
+**P18 · Como a cuidadora é preparada antes do primeiro plantão**
+Etapa Confia · Perfis 1 e 3 · Reels curto ou carrossel de bastidor
+Gancho: "O que acontece antes de a cuidadora chegar à casa pela primeira vez?"
+Conteúdo: o processo do vídeo M3, descrito só se for rotina.
+Chamada: conversar com a equipe.
+Fonte: critério "essa pessoa sabe o que está fazendo?" (objeção 4); M3 (PISTA).
+Situação: **depende de resposta: 10 e 11** (cuidadora fixa e preparo) e 27. Sem "certificada". Se não houver número para "taxa de desistência muito baixa", a frase não entra.
+
+**Resumo.** Pode publicar hoje (com `revisor` e RT): P01, P02, P03, P04, P09, P10, P12, P14 e P15 (nove). Dependem de resposta: P05 (30, 6), P06 (27, 12), P07 (27), P08 (16 a 19), P11 (9, 8), P13 (27), P16 (27, 28, 5, 8, 16, 19), P17 (27, 12, 13, 14) e P18 (10, 11, 27) (nove).
+
+---
+
+## 8. Peças-amostra completas
+
+Os três textos abaixo são rascunhos para o `revisor`. Cada um indica o que afirma da GrandCare (nada) e o que depende de resposta.
+
+### Amostra A · Reels P01 — "Sobra para um só"
+
+```
+Pilar / perfil / nível: Pilar 1 (Sobra para um só) · Perfil 1 · nível 2 · etapa Gosta
+Duração: 35 a 38 s · Formato: texto na tela, voz em off e mãos escrevendo numa folha de papel. Sem rosto de paciente, sem rosto de enfermeiro.
+Situação: pode publicar hoje (depois do revisor e do RT).
+
+Gancho (0 a 3 s), texto exato na tela e na fala:
+"Em muita casa, o cuidado dos pais cai numa pessoa só."
+
+Desenvolvimento (uma ideia só: escrever a escala muda a conversa):
+(3 a 10 s) "Quase nunca é falta de amor dos outros. Quase sempre é falta de combinado: ninguém escreveu quem faz o quê."
+(10 a 25 s) "Pegue uma folha e divida a semana em manhã, tarde e noite. Escreva quem leva ao médico, quem cobre a noite, quem compra os remédios. Onde ninguém puder, escreva a palavra buraco."
+(25 a 33 s) "Os buracos mostram quanto de ajuda falta, paga ou não. Com a folha na mão, a conversa com os irmãos deixa de ser cobrança e vira conta."
+
+Fechamento e próximo passo (33 a 38 s):
+Fala e tela: "Salve este vídeo para a próxima conversa em família. Quer o modelo da folha em branco? Comente ESCALA."
+
+Legenda na tela, palavra por palavra, por blocos de 3 a 6 palavras:
+1. "Em muita casa,"
+2. "o cuidado dos pais"
+3. "cai numa pessoa só."
+4. "Quase nunca é falta de amor."
+5. "Quase sempre é falta de combinado:"
+6. "ninguém escreveu quem faz o quê."
+7. "Divida a semana"
+8. "em manhã, tarde e noite."
+9. "Escreva quem leva ao médico,"
+10. "quem cobre a noite,"
+11. "quem compra os remédios."
+12. "Onde ninguém puder,"
+13. "escreva: buraco."
+14. "Os buracos mostram"
+15. "quanto de ajuda falta,"
+16. "paga ou não."
+17. "Com a folha na mão,"
+18. "a conversa com os irmãos"
+19. "vira conta, não cobrança."
+20. "Salve para a próxima conversa em família."
+21. "Quer o modelo? Comente ESCALA."
+
+Legenda do post:
+"Escrever a escala da semana não resolve o cansaço, mas mostra quantas horas estão sem ninguém, e é a partir dessa conta que a família decide quem faz, quem divide e o que vale pagar. O modelo em branco vai por direct para quem comentar ESCALA.
+
+GrandCare · CNPJ 43.946.737/0001-04"
+
+Obrigatórios de conformidade:
+- Nenhuma menção a enfermagem, a serviço da GrandCare, a prazo, a preço ou a resultado.
+- Terceira pessoa, sem afirmar esgotamento ou condição de quem lê.
+- Sem imagem de pessoa idosa. Mãos e papel.
+- O modelo de escala é entregue por direct sem coletar dado; asset a produzir (uma página).
+- Bio com CNPJ e RT corrigida antes de publicar (seção 9).
+
+Riscos: verde quanto às respostas do cliente (nada depende delas). Laranja apenas pela bio (a bio antiga diz "Profissionais Certificados"). Artigos citados: nenhum. Quem aprova: revisor e Edemilson Albarnas (RT).
+```
+
+Observação: o gancho vem do vocabulário "sobra para um só" (YouTube, FATO), sem citar o comentário nem a pessoa.
+
+### Amostra B · Reels P09 — "Pais em outra cidade: três perguntas antes de contratar"
+
+```
+Pilar / perfil / nível: Pilar 4 (Longe, mas por dentro) · Perfil 2 · nível 2 a 3 · etapa Conhece
+Duração: 35 a 38 s · Formato: texto na tela com três números grandes, voz em off. Sem rosto de paciente.
+Situação: pode publicar hoje (depois do revisor e do RT).
+
+Gancho (0 a 3 s), texto exato na tela e na fala:
+"Contratar cuidadora para os pais que moram em outra cidade: três perguntas antes de assinar."
+
+Desenvolvimento (uma ideia só: quem está longe precisa de resposta concreta):
+(3 a 12 s) "Primeira: como eu fico sabendo o que aconteceu no plantão? Peça para ver como é o relato: por escrito ou por áudio, e em que horário chega."
+(12 a 22 s) "Segunda: se a cuidadora não puder ir, quem me avisa, com quanto tempo de antecedência, e quem vem no lugar? Peça a resposta por escrito."
+(22 a 31 s) "Terceira: quem responde pelo caso? Um nome, um número para ligar e a profissão da pessoa."
+
+Fechamento e próximo passo (31 a 37 s):
+Fala e tela: "Se a resposta vier vaga, isso já é uma resposta. Salve este vídeo e leve as três perguntas para a conversa com qualquer empresa."
+
+Legenda na tela, palavra por palavra, por blocos de 3 a 6 palavras:
+1. "Cuidadora para os pais"
+2. "que moram em outra cidade:"
+3. "três perguntas antes de assinar."
+4. "1. Como fico sabendo"
+5. "o que aconteceu no plantão?"
+6. "Peça para ver o relato."
+7. "2. Se a cuidadora não puder ir,"
+8. "quem me avisa e quando?"
+9. "Quem vem no lugar?"
+10. "Peça por escrito."
+11. "3. Quem responde pelo caso?"
+12. "Um nome, um número"
+13. "e a profissão da pessoa."
+14. "Resposta vaga"
+15. "já é uma resposta."
+16. "Salve para levar à conversa."
+
+Legenda do post:
+"Quem está longe decide com menos informação. Estas três perguntas valem para qualquer empresa de cuidadoras e ajudam a comparar respostas, não promessas. Salve para a hora da conversa.
+
+GrandCare · CNPJ 43.946.737/0001-04"
+
+Obrigatórios de conformidade:
+- Nenhuma afirmação de que a GrandCare tem relato do plantão, aviso prévio ou responsável nomeado (perguntas 8, 9, 27).
+- "Os pais que moram em outra cidade" em terceira pessoa. Em anúncio patrocinado, não usar "você mora longe" (política do Meta sobre atributo pessoal).
+- Sem "algo acontecer", sem "o pior", sem "queda".
+- Sem imagem de pessoa idosa.
+
+Riscos: verde quanto às respostas do cliente. Laranja se a GrandCare não tiver, quando o post sair, resposta para as três perguntas: aí o post vira pergunta que o seguidor faz a ela mesma. Por isso a P11 e a resposta 9 precisam andar logo atrás. Artigos citados: nenhum. Quem aprova: revisor e Edemilson (RT).
+```
+
+### Amostra C · Carrossel P16 — "Como conferir uma empresa de cuidadores antes de pagar"
+
+```
+Pilar / perfil / nível: Pilar 6 (Conferir antes de pagar) · Perfis 1 e 3 · nível 3 a 4 · etapa Confia
+Slides: 8 · Fonte legível no celular, um tema por slide · Imagem: nenhuma pessoa, só tipografia e ícones simples
+Situação: DEPENDE DE RESPOSTA. Perguntas 27 e 28 (a GrandCare precisa ter Coren, categoria, registros do serviço); 5, 8, 16 e 19 (as perguntas dos slides 5 a 7). Marcar [revisor] em toda norma.
+
+Capa (slide 1):
+"Antes de pagar a primeira diária: seis coisas para conferir numa empresa de cuidadores"
+
+Slide 2 · "1. Quem é a empresa"
+"Peça o CNPJ, o endereço e o nome de quem responde. O CNPJ tem consulta pública no site da Receita Federal. Peça o contrato por escrito antes de pagar."
+
+Slide 3 · "2. Quem responde pela enfermagem"
+"Se a empresa presta enfermagem, ela precisa de um enfermeiro responsável técnico. Peça o nome e o número do Coren, e confira no conselho do seu estado. [revisor: Resolução Cofen 782/2025, conferida em 13/10/2026]"
+
+Slide 4 · "3. Que registros o serviço tem"
+"Cuidado de saúde em casa tem regras da Anvisa e da vigilância sanitária (RDC 917/2024). Pergunte quais registros a empresa tem para o serviço que você vai contratar, e peça para ver. [revisor: aplicação ao serviço só de cuidador não confirmada]"
+
+Slide 5 · "4. O que acontece quando a cuidadora não vai"
+"Peça por escrito: em quanto tempo vem outra pessoa, quem avisa e de que forma. Resposta sem prazo é resposta incompleta."
+
+Slide 6 · "5. Como é o pagamento"
+"Pergunte: paga adiantado? Quantos meses? Quanto volta se o serviço não for prestado ou se o contrato terminar? Leia isso antes de assinar."
+
+Slide 7 · "6. Quem vai ficar com a sua família"
+"Pessoa fixa ou rodízio? A família conhece a cuidadora antes do primeiro plantão? O que está incluído no combinado: cuidado da pessoa ou também serviço da casa? E se a família quiser manter a cuidadora no futuro, o que o contrato diz?"
+
+Slide 8 · Último slide, próximo passo
+"Guarde as respostas, empresa por empresa. Comente CHECKLIST e enviamos a lista completa, com espaço para anotar, por direct."
+Rodapé do slide: "GrandCare · CNPJ 43.946.737/0001-04 · Responsável técnico: Edemilson Albarnas, enfermeiro, Coren-SC [A PREENCHER (27)]"
+
+Legenda do post:
+"Seis perguntas que valem para qualquer empresa de cuidadoras. A decisão fica mais fácil quando as respostas estão por escrito. Comente CHECKLIST para receber a lista completa por direct.
+
+GrandCare · CNPJ 43.946.737/0001-04
+Responsável técnico: Edemilson Albarnas, enfermeiro, Coren-SC [A PREENCHER (27)]"
+
+Obrigatórios de conformidade incluídos:
+- Nome, categoria e Coren do RT (Cofen 554/2017, art. 3º, conferido pelo revisor em 13/10/2026). Número pendente.
+- Sem afirmação sobre a GrandCare (nenhum prazo, nenhuma garantia, nenhum "nós temos").
+- Sem preço, sem concorrente, sem imagem de paciente.
+- Entrega do checklist por direct sem coleta de dado de saúde. Asset a produzir: a lista completa em uma página.
+
+Riscos: laranja a vermelho. Vermelho se o post sair e a GrandCare não apresentar Coren, registros e regra de falta quando uma família pedir: o conteúdo ensina a pedir o que ela precisa mostrar. Laranja pela citação de duas normas, que o revisor deve reabrir. Artigos citados: Cofen 782/2025 (art. 4º, conferido pelo revisor em 13/10/2026); RDC Anvisa 917/2024 (arts. 3º a 5º e 10 a 12, conferidos pelo revisor em 13/10/2026; a ligação com serviço só de cuidador é leitura da frente 5, SUPOSIÇÃO). Quem aprova: revisor, Edemilson Albarnas (RT) e, se o texto dos slides 3 e 4 mudar, advogado (30).
+```
+
+---
+
+## 9. Bio e destaques
+
+### Bio (proposta; o Instagram aceita 150 caracteres, conferir a contagem com o número do Coren)
+
+```
+Cuidadores de idosos e enfermagem em casa e no hospital
+RT: Edemilson Albarnas, enfermeiro, Coren-SC [A PREENCHER (27)]
+Florianópolis e região [A PREENCHER (13)]
+```
+
+Se passar do limite, a linha das cidades sai da bio e vai para o destaque "Como funciona" (cidades só depois da pergunta 13).
+
+Campos fixos: categoria "Serviços de saúde" ou equivalente `[A PREENCHER]`; CNPJ 43.946.737/0001-04 no campo de informações do negócio ou na última linha da bio (sugestão do método, FATO quanto ao CNPJ); botão de contato com o mesmo telefone do site e do Maps, que hoje divergem (pergunta 3).
+
+**O que sai:** "Profissionais Certificados", "Cuidadores Especializados" (a palavra "especializados" é superlativo vazio; a empresa se chama "Especialista em Home Care" na razão social, o que o `revisor` deve olhar), "Home Care" como prova de regularidade (pergunta 28) e "Especialista em lesões" ou "em feridas" na bio do Edemilson (título não confirmado, pergunta 27).
+
+**O que a bio ainda não diz:** "avaliação inicial gratuita com enfermeiro". É FATO quanto ao que o site declara (FAQ e agenda), mas depende de a agenda ser real e do horário de atendimento (pergunta 14). Entra quando o Rafael confirmar.
+
+### Link da bio
+
+**Decisão do Rafael.** O link atual leva ao formulário do portal. A pesquisa apontou formulário com dado de saúde sem aceite, Pixel carregado e política de privacidade contrária à prática (dossiê, seção 2; correções 2 e 3). Duas saídas: (a) corrigir o formulário antes de qualquer post de Confia; (b) trocar o link por um caminho direto ao WhatsApp oficial (que ainda precisa ser definido, pergunta 3) ou por uma página simples, sem coleta de dado de saúde. Recomendo (b) provisório. O `funnel-architect` desenha o destino definitivo. Até lá, o post de Confia entrega o checklist por direct e não empurra o seguidor ao formulário. Quem opera o portal e o CRM é a pergunta 1 (Androtech/Androclinic), que o Rafael responde.
+
+### Destaques (seis, em ordem)
+
+Cada destaque tem capa em tipografia, sem foto de paciente.
+
+1. **Antes de contratar.** Os carrosséis P03, P04, P16 em Stories, mais o checklist. Situação: o que for P03 e P04 pode sair hoje; P16 depende de 27, 28 e das respostas.
+2. **Quem responde pelo caso.** Edemilson Albarnas, enfermeiro, nome e Coren-SC na tela. Trajetória (anos de profissão, UTI) só com a versão única da pergunta 27. Sem "especialista".
+3. **Como funciona.** A avaliação inicial com o enfermeiro, as etapas até o primeiro plantão, o que a família recebe. Depende das perguntas 12, 13, 14, 10 e 11.
+4. **Longe de casa.** P09, P10 e, depois da pergunta 9, a P11.
+5. **Dúvidas.** Respostas às caixinhas (cuidador x enfermagem, o que está incluído, como começar). Só dúvida geral.
+6. **Preços e formatos.** Não criar até a pergunta 15 e a 16.
+
+**Fora até a pergunta 24:** destaque de avaliações e de depoimentos.
+
+---
+
+## 10. Calendário de quatro semanas
+
+Três posts de feed por semana, doze no mês, mais os Stories da seção 6. O calendário parte de dois cenários:
+- **Cenário 1 (semana 1):** só pautas que podem sair hoje. O trabalho nesta semana é produzir, aprovar e corrigir a bio.
+- **Cenário 2 (semanas 3 e 4):** pressupõe que o Coren (27) e, para a P16, os registros (28) cheguem até o fim da semana 2. Se não chegarem, as pautas dependentes saem da fila e entram as de reserva.
+
+**Semana 1 (primeira publicação só depois da bio corrigida, do revisor e do RT)**
+- Conhece · P03 Quanto custa e o que muda o valor (carrossel). Perfis 1, 2 e 3.
+- Conhece · P09 Três perguntas para pais em outra cidade (Reels). Perfil 2.
+- Gosta · P01 Sobra para um só (Reels). Perfil 1.
+- Stories: caixinha "O que você gostaria de saber antes de contratar?" e enquete "Quem cuida na sua família hoje?" (opções gerais, sem pedir dado de saúde).
+- Produção: o modelo de escala em uma página (ativo de P01 e P02).
+
+**Semana 2**
+- Conhece/Gosta · P15 O plano B quando a cuidadora não vem (Reels). Perfil 1. Gancho a olhar pelo `revisor`.
+- Gosta · P12 A mãe não aceita gente estranha em casa (Reels). Perfis 1 e 2.
+- Gosta · P02 A escala da família no papel (carrossel com o modelo). Perfil 1.
+- Stories: respostas às dúvidas da caixinha da semana 1. Nada de caso clínico.
+- Cobrar o Rafael: Coren (27), registros (28), pergunta 5, pergunta 9.
+
+**Semana 3 (supondo o Coren recebido)**
+- Conhece · P06 Cuidador ou técnico de enfermagem, com o Edemilson (Reels). Todos os perfis.
+- Conhece · P07 Alta do hospital: perguntas para a equipe (carrossel). Momento A.
+- Confia · P16 Como conferir uma empresa antes de pagar (carrossel) + checklist por direct. Só sai com 27 e 28, e com a bio corrigida.
+- Stories: repostagem do P16 com o próximo passo e a caixinha da semana.
+
+**Semana 4**
+- Conhece · P10 Como acompanhar os pais de outra cidade (carrossel). Perfil 2.
+- Gosta · P14 Um fim de semana por mês (Reels). Perfil 1 e cônjuge que cuida.
+- Confia · P17 Como é a avaliação inicial com o enfermeiro (Reels). Só com 27, 12, 13 e 14. Se não chegarem, trocar pela P08 (se 16 a 19 chegarem) ou pela P04.
+- Stories: balanço da caixinha e enquete sobre o tema que mais pediram.
+
+**Reserva (pode entrar a qualquer momento)**: P04 (cozinhar e limpar), P05 (autônoma, empresa ou casa de repouso, com advogado), P13 (demência, com 27).
+
+**Distribuição resultante (referência do método, não medida):** Conhece 6 (P03, P09, P15, P06, P07, P10), Gosta 4 (P01, P12, P02, P14), Confia 2 (P16, P17). P15 conta como Conhece. O perfil 1 está em quase todos os posts; o perfil 2 tem dois posts próprios (P09 e P10) e divide P03, P12 e P17 com o perfil 1.
+
+**Segundo mês:** concentrar nos dois pilares que melhor responderem em salvamentos, compartilhamentos e comentários com relato; abrir os posts de Confia que dependem das respostas (P08, P11, P18); começar o destaque de Preços e formatos só com a pergunta 15 e a 16.
+
+---
+
+## 11. Métricas por etapa
+
+Não há linha de base: tudo o que segue é `[medir]` e se mede da primeira publicação em diante. As metas numéricas só se definem depois de duas semanas de dados. Heurística do método (não é dado): ler por post, comparar posts do mesmo formato e do mesmo pilar, e cortar os dois pilares mais fracos do primeiro mês.
+
+**Conhece.** Alcance de não seguidores por post `[medir]`; seguidores ganhos por semana `[medir]`; compartilhamentos por alcance `[medir]`. Leitura: quais pilares trazem gente nova.
+
+**Gosta.** Salvamentos por alcance `[medir]`; comentários com relato (não só emoji) `[medir]`; respostas às caixinhas `[medir]`. Leitura: quais assuntos geram pauta nova. Cada pergunta repetida na caixinha vira pauta (fonte: o público, não o palpite).
+
+**Confia.** Pedidos do checklist por comentário ou direct `[medir]`; directs com pergunta concreta (preço, cidade, falta, contrato) `[medir]`; cliques no link da bio `[medir]`; mensagens no WhatsApp com origem Instagram `[medir]`. Depende de o destino registrar a origem (pergunta 1 e 33). Sem isso, contar à mão: cada contato perguntado "como chegou até nós?".
+
+**Compra.** Avaliações agendadas com origem Instagram `[medir]` e, depois, contratos fechados desses contatos `[medir]`. Fica fora do painel do orgânico até existir registro de origem.
+
+**Qualitativo:** o `revisor` ou o Rafael leem os comentários e directs a cada semana e marcam as objeções novas; elas alimentam a próxima rodada de pautas e o `02-avatar.md`.
+
+**Não medir como sucesso:** curtidas isoladas; o número de seguidores sem relação com cidade e perfil; alcance contra Anjos da Guarda ou Geração de Saúde (outra ordem de grandeza).
+
+---
+
+## 12. Pendências e o que a falta delas muda
+
+- `[A PREENCHER] (27)` Coren-SC, categoria e título do Edemilson, anos de profissão e de UTI numa versão só. **Sem isso, nenhum post com enfermagem ou com o Edemilson à câmera sai** (P06, P07, P13, P16, P17, P18), a bio não pode ser concluída e a linha perde o ativo que a diferencia. É a pendência mais barata de resolver e a que mais destrava.
+- `[A PREENCHER] (28)` Alvará, CNES e Plano de Atenção Domiciliar. Sem eles, o checklist P16 perde o slide 4 ou a GrandCare fica exposta a ele; "home care" não pode ser usado como prova de regularidade.
+- `[A PREENCHER] (5, 8)` Regra de reposição e aviso. Sem ela, nenhum post diz o que a GrandCare faz na falta. Os posts de Confia continuam sendo "o que perguntar" e perdem a segunda metade ("e a nossa resposta é esta").
+- `[A PREENCHER] (9)` Relato do plantão e canal direto. Sem ela, a P11 não existe e o M1, que já roda no Meta, afirma o que não está confirmado.
+- `[A PREENCHER] (10, 11)` Pessoa fixa, participação da família, preparo, introdução gradual (e a pergunta nova do avatar). Sem elas, P12 e P18 ficam só como orientação geral.
+- `[A PREENCHER] (6)` Modelo de contratação, e `(30)` advogado. Sem isso, P05 sai sem a parte trabalhista e nenhuma frase fala de encargos.
+- `[A PREENCHER] (15, 16, 17, 18, 19)` Formatos, preço, cobrança, reembolso, cláusula de ficar com a cuidadora, o que está incluído. Sem elas, P08 não sai e o destaque de Preços não existe.
+- `[A PREENCHER] (12, 13, 14)` Serviços prestados, cidades com equipe, horário. Sem elas, o destaque "Como funciona" e a P17 não saem, e o Story de Compra não existe.
+- `[A PREENCHER] (24)` Autorização das avaliações do Google e do vídeo do Sr. Carlos. Sem ela, nenhuma prova de terceiros e nenhum destaque de avaliações.
+- `[A PREENCHER] (32)` Origem das imagens dos vídeos. Muda o que se pode reaproveitar dos posts antigos.
+- `[A PREENCHER]` Capacidade de produção: quem grava, quem edita, horas do Edemilson. Muda a frequência. O plano assume 3 posts por semana (SUPOSIÇÃO).
+- `[A PREENCHER]` Leitura do perfil logado: frequência real, formatos, destaques, link atual, comentários, alcance. Muda o diagnóstico (seção 1) e pode mudar a ordem dos pilares.
+- `[medir]` Contatos por origem, agendamentos e fechamentos por canal (pergunta 33).
+
+---
+
+## 13. Decisões que dependem do Rafael
+
+1. **Link da bio:** manter o formulário (e corrigi-lo antes de qualquer post de Confia) ou trocar por um caminho direto provisório. Recomendo trocar (seção 9).
+2. **Quem opera o portal, o CRM e o Pixel** (relação com a Androtech/Androclinic, pergunta 1, `[A PREENCHER] (Rafael)`), porque define se a origem Instagram é registrada.
+3. **Os posts antigos:** pedir ao `revisor` que olhe os Reels de 15/10/2024 (depoimento), 22/01/2026 ("fisioterapia, fono") e 15/04/2026 ("com prescrição médica a GrandCare organiza tudo"), e decidir se ficam no feed. O que depende dessa decisão: coerência entre o que o feed antigo promete e o que o novo evita.
+4. **Vídeo M2 no Meta** (bomba-relógio): a linha editorial assume que ele sai do ar ou é refeito. A decisão é do Rafael com o `traffic-strategist`.
+5. **Edemilson à câmera:** disponibilidade e se ele aprova gravar após ter o Coren na tela. Sem ele, a linha funciona só com os posts sem rosto, que são os de Conhece e Gosta.
+6. **Prazo de publicação:** a primeira publicação só depois da bio corrigida, do `revisor` e do RT. Qualquer atraso empurra o calendário, não o contrário.
+
+---
+
+## 14. Checklist da skill
+
+- [x] Ponto de partida, com a data e o que não foi lido (seção 1)
+- [x] Objetivo e métrica de cada etapa (seção 2)
+- [x] Regras de redação, obrigatório e proibido (seção 4)
+- [x] Pilares com etapa, perfil, evidência, cuidado e próximo passo (seção 5)
+- [x] Formatos por etapa (seção 6)
+- [x] Pautas com fonte e situação (seção 7)
+- [x] Calendário dentro da capacidade assumida, marcada como `[A PREENCHER]` (seção 10)
+- [x] Conformidade aplicada: Cofen 554/2017, Coren-SC, RDC 917/2024, LGPD, CDC, política do Meta (seções 4, 5, 7, 8)
+- [ ] Passou pelo `revisor` e pelo RT: **ainda não**

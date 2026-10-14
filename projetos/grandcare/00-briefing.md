@@ -15,6 +15,7 @@ Marcas: **FATO** (com fonte), **PISTA** (a empresa falando de si ou trecho de bu
   - Entraram o cadastro na Receita (abertura em 20/10/2021, dois sócios), o funil atual, os anúncios ativos, os riscos de conformidade e a ligação com a Androtech/Androclinic.
   - O Reclame Aqui abriu reclamação a reclamação (só a busca bloqueia); o YouTube passou a bloquear depois de alguns acessos.
 - **v1.1 — 13/10/2026 (avatar).** Bloco 3 reescrito pelo @avatar-strategist a partir de `02-avatar.md`: perfil principal definido, pós-alta e demência viram momentos de entrada, a família que veio da autônoma entra no perfil 3, convênio fora como público de aquisição paga.
+- **v1.2 — 14/10/2026 (linha editorial).** @content-strategist criou `07-conteudo/linha-editorial.md` (rascunho, ainda sem revisão). Nenhum campo dos blocos 1 a 10 foi alterado; tom de voz e destino do link da bio seguem provisórios até o brand-architect e o funnel-architect.
 
 ## Fontes de partida (dadas pelo Rafael)
 - Instagram: https://www.instagram.com/grandcarebr/ (bloqueado sem login)
