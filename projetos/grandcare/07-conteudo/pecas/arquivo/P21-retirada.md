@@ -1,3 +1,11 @@
+> **PEÇA RETIRADA DO LOTE 1 em 14/10/2026. Não publicar. Arquivada só para consulta.**
+>
+> Por que saiu (parecer do `revisor`, `../../../revisoes/pecas-lote-1-2026-10-14.md`, B1 e A10):
+> 1. A legenda dizia "O tema também aparece em famílias que convivem com a demência." Com o vídeo falando de "a pessoa recusa ajuda" e mandando o assunto ao médico, a frase ligava recusa de ajuda à demência: sinal de alerta por associação, o mesmo desenho que a passada 3 barrou em P22, e afirmação factual geral sem fonte.
+> 2. A peça repetia P12: "quem conversa começa ouvindo" e "o primeiro passo é pequeno, com a família junto" são os passos de P12, e os dois ganchos terminavam em "Por onde?". A própria linha editorial mandava P21 sair ou fundir com P12 se repetisse.
+> 3. O que era novo, "a família combina quem vai conversar antes", passou para P12 (sem demência e sem sinal de alerta). "Levar o assunto à consulta" não foi aproveitado: fica para o RT avaliar em outra peça do pilar 7, se o Rafael quiser.
+> 4. Status anterior ("depende do RT") substituído por: retirada. O texto abaixo é o original, sem correção.
+
 # P21 · A pessoa recusa ajuda: por onde começar a conversa em família
 
 Lote 1 · 14/10/2026 · @content-strategist · Pauta: `linha-editorial.md` (v1.5), seção 7, pilar 7, P21.
