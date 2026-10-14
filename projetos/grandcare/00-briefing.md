@@ -176,3 +176,5 @@ Pendências do cliente que travam peças:
 - Retirada dos depoimentos de modelo e dos números sem base: trava qualquer peça que hoje leve ao site.
 - Modelo de contratação da equipe: trava promessas sobre substituição, equipe própria e encargos.
 Lista completa e priorizada: `01-pesquisa/perguntas-para-a-grandcare.md`.
+
+- 14/10/2026: linha editorial v1.7 e lote 1 de peças ajustados conforme a terceira passada do `revisor` (V1 a V6). V1 (P14) e V5 (P01, legenda do post) mudam texto de post e voltam ao `revisor` só nessas linhas.

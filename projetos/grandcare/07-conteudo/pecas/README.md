@@ -1,8 +1,10 @@
 # Lote 1 de peças · Instagram GrandCare (@grandcarebr)
 
-14/10/2026 · @content-strategist · Base: `../linha-editorial.md` v1.6 e as quatro passadas do `revisor` (`../../revisoes/linha-editorial-2026-10-14*.md`). Nicho de saúde regulada. **Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico (RT).**
+14/10/2026 · @content-strategist · Base: `../linha-editorial.md` v1.7 e as quatro passadas do `revisor` (`../../revisoes/linha-editorial-2026-10-14*.md`). Nicho de saúde regulada. **Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico (RT).**
 
 Corrigido em 14/10/2026 conforme o parecer do `revisor` (`../../revisoes/pecas-lote-1-2026-10-14.md`). O lote passou de oito para **sete peças**: P21 saiu (arquivada em `arquivo/P21-retirada.md`). Volta ao `revisor` só nos trechos alterados (B1 a B4, A1, A3, A7, A12, A13, A14). Segunda passada aplicada em 14/10/2026 (`../../revisoes/pecas-lote-1-2026-10-14-passada-2.md`, A1 a A9): linha editorial v1.6 alinhada às peças; ajustes de poucas palavras em P10, P12, P14, P19 e P22; "paga ou não" cortado de P01 (Amostra A da linha).
+
+Terceira passada aplicada em 14/10/2026 (`../../revisoes/pecas-lote-1-2026-10-14-passada-3.md`, V1 a V6; linha v1.7). Voltam ao `revisor` só as linhas que mudam texto de post: P14, slide 7 e legenda ("para quem pode dividir o cuidado"), e P01, legenda do post ("onde ainda falta alguém").
 
 "Liberada para o RT" quer dizer que a peça pode seguir ao enfermeiro responsável técnico, com as condições da própria peça e da seção "Antes de qualquer publicação" abaixo. **Não** quer dizer "pode publicar".
 
@@ -11,7 +13,7 @@ Corrigido em 14/10/2026 conforme o parecer do `revisor` (`../../revisoes/pecas-l
 | Peça | Formato | Etapa · pilar | Status |
 |---|---|---|---|
 | P02 A escala da família no papel | carrossel, 6 slides | Gosta · 1 | liberada para o RT. Condição: modelo em uma página produzido; slide 5 só para leitura, arquivo por direct em P01 |
-| P04 O cuidador pode cozinhar e limpar a casa? | Reels, 32 s | Conhece · 2 | aguardando advogado (30) ou decisão registrada do Rafael |
+| P04 O cuidador pode cozinhar e limpar a casa? | Reels, 32 s | Conhece · 2 | liberada para o RT (texto); publicação travada até advogado (30) ou decisão do Rafael por escrito (data, quem decidiu, motivo) |
 | P10 Pais em outra cidade: saber do dia sem ligar toda hora | carrossel, 7 slides | Conhece · 4 | liberada para o RT. Condição para ir ao ar: M1 corrigido ou decisão registrada do Rafael |
 | P12 "Minha mãe não aceita gente estranha em casa" | Reels, 33 s | Gosta · 5 | liberada para o RT |
 | P14 Um fim de semana por mês para quem cuida | carrossel, 7 slides | Gosta · 1 | liberada para o RT |
@@ -41,12 +43,12 @@ Formatos por semana: semana 1 com 2 carrosséis e 1 Reels (P01 fora deste lote);
 ## Pendências comuns a todas as peças
 
 1. **Nome e bio do perfil.** Tirar "RT - Edemilson A." do nome e a linha de "RT" da bio, e "Profissionais Certificados" e "Cuidadores Especializados", até haver Coren (linha, seção 9). CNPJ no campo de informações do negócio. Todas as sete peças dependem disso.
-2. **Coren do Edemilson (pergunta 27).** Nenhuma peça do lote tem o Edemilson à câmera nem fala de enfermagem, então nenhuma leva o número no texto. A 27 pesa sobre todas pela leitura ampla do art. 2º, I da Cofen 554/2017 (linha, seção 4, item 2), que é leitura, não certeza. Enquanto a 27 estiver aberta, a validação do RT por escrito fica fragilizada. **Anuência:** a validação por escrito do RT, que a linha exige para toda peça, é "anuência" no sentido do art. 2º, I da Cofen 554/2017 (anúncio é a comunicação de atividade profissional "de iniciativa, participação e/ou anuência" do profissional de enfermagem). É leitura do `revisor`, não conclusão: levar ao RT e ao Coren-SC, junto com a pergunta 27, a questão se a validação por escrito torna a peça anúncio de enfermagem e pede Coren (art. 3º).
+2. **Coren do Edemilson (pergunta 27).** Nenhuma peça do lote tem o Edemilson à câmera nem fala de enfermagem, então nenhuma leva o número no texto, salvo se a voz em off de P04 e P12 for a dele (pendência 8; a voz em off ainda está por decidir). A 27 pesa sobre todas pela leitura ampla do art. 2º, I da Cofen 554/2017 (linha, seção 4, item 2), que é leitura, não certeza. Enquanto a 27 estiver aberta, a validação do RT por escrito fica fragilizada. **Anuência:** a validação por escrito do RT, que a linha exige para toda peça, é "anuência" no sentido do art. 2º, I da Cofen 554/2017 (anúncio é a comunicação de atividade profissional "de iniciativa, participação e/ou anuência" do profissional de enfermagem). É leitura do `revisor`, não conclusão: levar ao RT e ao Coren-SC, junto com a pergunta 27, a questão se a validação por escrito torna a peça anúncio de enfermagem e pede Coren (art. 3º).
 3. **Leitura do art. 2º, I levada ao RT** e, se ele tiver dúvida, ao Coren-SC (linha, seção 4, item 2). Resposta registrada por escrito.
 4. **Lote único de validação do RT, antes da primeira publicação** (linha, seção 10): P01, P02, P04, P10, P12, P14, P19 e P22: oito peças com texto escrito (P21 saiu; P20 não está escrita e fica fora do lote). Cada arquivo traz a lista de pontos que ele deve olhar. O RT valida organização e linguagem; P22 (diagnóstico e consulta médica) pode pedir um médico.
 5. **`revisor`.** Passada nas sete peças; depois da correção, só nos trechos alterados, com a norma reaberta na semana da publicação, se alguma for citada (nenhuma é, neste lote).
 6. **Ativos a produzir:** o modelo de escala em uma página (P01 e P02), pronto antes de P01 ir ao ar, e a entrega do modelo por direct sem coleta de dado de saúde. Diagramação dos carrosséis (rodapé de P22 legível no celular; tabela de P02 legível) e gravação dos Reels (texto na tela e voz, sem rosto).
-7. **Respostas-padrão prontas na conta:** comentário ou direct com dúvida clínica, com dado de saúde de terceiro e com "quanto custa?" ou "vocês fazem isso?" (linha, seção 4, itens 7, 11 e 12). Valem para todas as peças. Nenhuma peça do lote convida comentário: P12 trocou "comente" por "envie".
+7. **Respostas-padrão prontas na conta:** comentário ou direct com dúvida clínica, com dado de saúde de terceiro e com "quanto custa?" ou "vocês fazem isso?" (linha, seção 4, itens 7, 11 e 12). Valem para todas as peças. Apenas P01 (Amostra A, na linha) convida a comentar, e só a palavra ESCALA, que dispara o envio do modelo por direct; não pede relato de caso nem dado de saúde. As demais peças deste lote de arquivos não convidam comentário (P12 trocou "comente" por "envie").
 8. **Voz em off de P04 e P12:** de quem é? **Sem decisão do Rafael.** Se for a do Edemilson, ele participa do conteúdo e isso pesa sobre o art. 2º, I (leitura do `revisor`, A15). Registrar de quem é a voz de cada Reels antes de gravar. **Se a voz em off de P04 e P12 for a do Edemilson, a regra 2 da linha pede nome, Coren e categoria na tela, e a pergunta 27 sem resposta trava as duas peças.**
 
 ## Decisões do Rafael ligadas ao lote
