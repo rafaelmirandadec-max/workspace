@@ -54,6 +54,7 @@ Diga o que foi feito e onde está, as decisões que dependem dele, as pendência
 - Português brasileiro correto, direto, sem jargão de marketing.
 - Lê melhor texto corrido e cartões do que tabelas largas.
 - Quer ver o que é fato, o que é pista e o que é suposição.
+- Quer receber no Google Drive os documentos e peças que pedir (autorização dada em 14/10/2026). Fica na pasta do cliente, em subpastas espelhando `projetos/<cliente>/` (ex.: GrandCare > 07 Conteúdo, Revisões). O Drive guarda cópias e não se atualiza sozinho: ao entregar versão nova, envie-a, mova a antiga para uma subpasta "Arquivo (versões antigas)" e não apague nada sem ele pedir. Dado pessoal de leads e clientes não vai para o Drive nem para o repositório.
 
 ## Manutenção do squad
 
