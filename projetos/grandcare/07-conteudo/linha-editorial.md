@@ -1,9 +1,9 @@
 # Linha editorial do Instagram — GrandCare (@grandcarebr)
 
-Versão 1.4 · 14/10/2026 · Responsável: @content-strategist. Linha editorial do Instagram da GrandCare, nicho de saúde regulada, corrigida conforme a terceira passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-3.md`); o que cada versão mudou está no histórico, no fim do arquivo.
+Versão 1.5 · 14/10/2026 · Responsável: @content-strategist. Linha editorial do Instagram da GrandCare, nicho de saúde regulada, corrigida conforme a quarta passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-4.md`); o que cada versão mudou está no histórico, no fim do arquivo.
 Base: `00-briefing.md` (v1.1), `02-avatar.md`, `01-pesquisa/dossie.md`, frentes 1, 2 e 4, `01-pesquisa/perguntas-para-a-grandcare.md`, `revisoes/perguntas-para-a-grandcare-2026-10-13.md` e a planilha de leads de 14/10/2026 (só tendências, ver seção 1A). Método: skills `conteudo-organico` e `conformidade`. O `04-funil.md` e o `05-voz.md` não existem; o tom de voz e o destino dos posts são provisórios.
 
-**Status: v1.4, a caminho da conferência do `revisor` em P22, nos ganchos de P01, P10, P19 e P20, na seção 1A, no pilar 5, na seção 10 (lote do RT) e na Amostra A. Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico. Nicho de saúde regulada.**
+**Status: v1.5, a caminho da conferência do `revisor` nos ganchos de P01, P10, P13 e P20, na seção 1A, no Proibido 8 e no tom de voz (seção 4), no pilar 5, nas Fontes de P19 a P22 e na Amostra A. Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico. Nicho de saúde regulada.**
 
 Marcas: **FATO** (fonte lida), **PISTA** (a empresa falando de si ou trecho de busca), **SUPOSIÇÃO** (leitura minha, com o apoio dito), `[A PREENCHER]` (só a GrandCare ou o Rafael respondem; o número entre parênteses é o da pergunta em `perguntas-para-a-grandcare.md`), `[medir]`.
 
@@ -44,13 +44,13 @@ Três travas pesam mais que o resto. A primeira é o Coren do Edemilson (pergunt
 
 ## 1A. Dados dos leads (14/10/2026)
 
-**Fonte:** planilha "formularios-cliente-20261014-1130", exportação de 14/10/2026 dos formulários de cliente da GrandCare, cerca de 290 linhas, com colunas de nome, para quem é o cuidado, idade, situação descrita e diagnóstico. Foi lida à mão pela conversa principal, não por contagem. **Todos os números abaixo são estimativa, a confirmar com contagem exata (CSV).** São PISTA: a leitura foi feita pela conversa principal e repassada a mim; não abri a planilha. Nome, telefone e trecho identificável de pessoa não foram copiados para este repositório (dado de saúde, LGPD); só entram tendências e vocabulário genérico. A coluna "para quem é o cuidado" não foi usada: o Rafael a considera pouco confiável (provável valor padrão do formulário). Esta seção não tira nenhuma conclusão sobre quem é o paciente nem sobre quem preenche.
+**Fonte:** planilha "formularios-cliente-20261014-1130", exportação de 14/10/2026 dos formulários de cliente da GrandCare, cerca de 290 linhas, com colunas de nome, para quem é o cuidado, idade, situação descrita e diagnóstico. Foi lida à mão e repassada ao `content-strategist`, não por contagem. **Todos os números abaixo são estimativa, a confirmar com contagem exata (CSV).** São PISTA: não abri a planilha. Nome, telefone e trecho identificável de pessoa não foram copiados para este repositório (dado de saúde, LGPD); só entram tendências e vocabulário genérico. A coluna "para quem é o cuidado" não foi usada: o Rafael a considera pouco confiável (provável valor padrão do formulário). Esta seção não tira nenhuma conclusão sobre quem é o paciente nem sobre quem preenche.
 
 **O que a planilha mostra (PISTA, estimativa):**
 - São pedidos de cuidado para terceiros. Não há candidato a vaga nas linhas lidas. Há linhas repetidas e linhas que parecem digitadas por atendente, então o total de pedidos é menor que o de linhas.
 - **Demência e Alzheimer são o motivo mais frequente: cerca de um terço dos pedidos.** Depois vêm AVC, Parkinson, pós-cirurgia ou fratura de fêmur e câncer, cada um na casa de 15 a 25 casos.
-- A maioria pede cuidador para banho, higiene, medicação, supervisão e companhia. O vocabulário que se repete é "não pode ficar sozinho(a)", "fica sozinha o dia todo", "tem que ter alguém junto" e "um pouco de vida para quem cuida" (nas linhas, em primeira pessoa). Só cerca de 13 casos têm necessidade clínica clara (sonda, traqueostomia, gastrostomia, colostomia, cateter, oxigênio, ferida por pressão).
-- Cerca de 12 pedidos são para pessoas de 20 a 60 anos com deficiência (tetraplegia, paralisia cerebral, autismo, ELA, cadeirante). Não se sabe se a GrandCare atende esse público.
+- A maioria pede cuidador para banho, higiene, medicação, supervisão e companhia. O vocabulário que se repete inclui "não pode ficar sozinho(a)" e "tem que ter alguém junto", além de pedidos de companhia durante o dia todo e de tempo para si de quem cuida (esses dois descritos aqui, sem a frase das linhas, que está em primeira pessoa). Só uma minoria, cerca de 13 casos, tem necessidade clínica clara, sem detalhar de qual tipo.
+- Há também um grupo pequeno de pedidos para pessoas com deficiência que não são idosas, sem número aqui. Não se sabe se a GrandCare atende esse público.
 - Alguns leads têm baixa intenção (saúde boa, só companhia, só informação de preço para se planejar). Preço aparece em texto livre ("qual é o custo?", "quero saber de planos e valores"). Os horários pedidos mais comuns são 24h e segunda a sexta em horário comercial. Os endereços citados são da Grande Florianópolis.
 
 **O que a planilha não mostra:** data, cidade, origem do lead, serviço ou horário contratado, nem se o lead virou cliente. Por isso não dá para calcular conversão, nem para confirmar que o perfil 1 ou o perfil 2 é o que mais chama. **O perfil principal (seção 3) não muda.** Também não dá para dizer que quem pede pelo formulário é o mesmo público que segue o Instagram: são pessoas que já conhecem a GrandCare (SUPOSIÇÃO).
@@ -58,13 +58,13 @@ Três travas pesam mais que o resto. A primeira é o Coren do Edemilson (pergunt
 **O que isso muda na linha (SUPOSIÇÃO, apoiada na leitura acima):**
 1. Demência ganha frente própria: pilar 7 e pautas P19 a P22. O tema já aparecia como Momento B e como P13; a planilha indica que merece mais que uma pauta.
 2. Como a maior parte dos pedidos é de companhia, higiene e supervisão, e só uma minoria é clínica, as pautas de cuidador (que dependem menos do Coren) vêm antes no calendário. As de enfermagem (P06, P07, P13, P17) ficam para depois. Isso é ordem de produção, não corte: a decisão sobre o Coren (pergunta 27) continua pendente.
-3. O vocabulário do público entra nos ganchos de P01 e P19 a P22 e no corpo de P20, como expressão curta e genérica, pelo critério da seção 4 (Proibido 8). Os ganchos de P01, P19 e P20 vão ao RT (seção 7).
-4. **Oportunidade registrada, sem pauta: público com deficiência (20 a 60 anos).** Depende da pergunta 12, que hoje trata de serviços prestados (cuidador, enfermagem, fisioterapia, fonoaudiologia) e não diz se esse público é atendido; talvez precise de uma pergunta nova, a numerar pelo coordenador. Sem a resposta, nenhuma pauta, nenhum gancho e nenhuma imagem sobre o tema. Se for atendido, a pauta passa pelo RT e pelo `revisor`, com cuidado de linguagem e de imagem.
+3. Da planilha entra pouco vocabulário, sempre como expressão curta e genérica, pelo critério da seção 4 (Proibido 8). P19 parafraseia "tem que ter alguém junto" ("alguém precisa estar junto"); o corpo de P20 usa "tempo para quem cuida", que é adaptação (seção 4, tom de voz). O gancho de P01 usa "sobra para uma pessoa só", que vem do YouTube, não da planilha. P21 e P22 não usam expressão da planilha. Os ganchos de P01, P19 e P20 vão ao RT (seção 7).
+4. **Oportunidade registrada, sem pauta: público com deficiência que não é idoso.** Depende da pergunta 12, que hoje trata de serviços prestados (cuidador, enfermagem, fisioterapia, fonoaudiologia) e não diz se esse público é atendido; talvez precise de uma pergunta nova, a numerar. Sem a resposta, nenhuma pauta, nenhum gancho e nenhuma imagem sobre o tema. Se for atendido, a pauta passa pelo RT e pelo `revisor`, com cuidado de linguagem e de imagem.
 5. Preço: aparece em texto livre nos formulários, o que reforça que o seguidor tende a perguntar "quanto custa?" (SUPOSIÇÃO; a planilha mostra que o lead pergunta, não que o seguidor pergunte). P03 continua "depende de resposta" (seção 7) e a resposta-padrão da seção 4, item 12, vale para todo post.
 
 **Cuidado de LGPD (planilha).**
 - Finalidade: a planilha reúne dados de formulário preenchidos para pedir contato, e agora serve à pesquisa de conteúdo, que é outra finalidade. Daqui só sai leitura agregada (tendência e vocabulário). A planilha fica com a GrandCare e o Rafael, fora do repositório (a busca no repositório não a encontra). Dado anonimizado e agregado deixa de ser dado pessoal (LGPD, art. 12, citado de memória, sem abrir o texto). Se o uso novo cabe no aviso do formulário é pergunta para o Rafael e para o advogado (30).
-- Contagens pequenas: os números de condições raras e de necessidade clínica (cerca de 12 pessoas de 20 a 60 anos com deficiência; cerca de 13 com necessidade clínica) já estão neste arquivo. Sem nome, telefone nem cidade, o risco de reidentificação é baixo. Manter assim: não detalhar mais, não cruzar condição com idade ou bairro e não levar nenhum desses números a peça.
+- Contagens pequenas: o grupo com deficiência fica sem número e a necessidade clínica (cerca de 13 casos) fica sem lista de procedimentos, para não cruzar condição com idade ou bairro. Sem nome, telefone nem cidade, o risco de reidentificação é baixo. Manter assim: não acrescentar detalhe e não levar nenhum desses números a peça.
 
 **Pendência: contagem exata (CSV).** Contar por motivo, por faixa de idade, por pedido de horário e por necessidade clínica, e descontar linhas repetidas e de atendente. Fazer a contagem fora do repositório, ou guardar aqui só o resultado agregado, sem linha individual. Enquanto isso, nenhum número desta seção vai para legenda, slide ou resposta a seguidor.
 
@@ -129,7 +129,7 @@ Valem para todo post, legenda, Story, comentário e direct. A base é a skill `c
 5. **Medo como motor:** "bomba-relógio", lista de riscos (queda, infecção, ferida, hospitalização), "pode piorar", "e se algo acontecer", "o pior". O vídeo M2 foi apontado como problema e não é referência. A dor entra como situação do cotidiano (a escala, o dia de trabalho perdido), não como ameaça à vida do idoso.
 6. **Pergunta ou frase que afirme condição de quem lê:** "Seu pai tem Alzheimer?", "você está esgotada", "você sofre de burnout". Alzheimer e demência só como tema informativo, nunca como pergunta, afirmação sobre o leitor ou ameaça.
 7. **Antes e depois, imagem de paciente identificável, vídeo de paciente, prontuário, print de conversa de cliente.**
-8. **Atacar concorrente** ou usar reclamação de empresa como prova. As falas do Reclame Aqui e do Reddit servem para entender o público e tirar vocabulário; não viram citação em post, e nome de pessoa nunca aparece. **Vocabulário da planilha de leads (formulário privado) só entra como expressão curta e genérica, com este critério verificável:** até cerca de cinco palavras; de uso corrente, isto é, existe também fora da planilha; sem diagnóstico, nome, idade nem detalhe que ligue a um caso; sem aspas no post; e que não seja a frase mais característica de um relato. O `revisor` e o RT podem vetar qualquer expressão.
+8. **Atacar concorrente** ou usar reclamação de empresa como prova. As falas do Reclame Aqui e do Reddit servem para entender o público e tirar vocabulário; não viram citação em post, e nome de pessoa nunca aparece. **Vocabulário da planilha de leads (formulário privado) só entra como expressão curta e genérica, com este critério verificável:** até cerca de cinco palavras; de uso corrente, isto é, existe também fora da planilha (a fonte externa de cada expressão usada está no tom de voz, abaixo; sem fonte, a expressão fica marcada "uso corrente: SUPOSIÇÃO"); sem diagnóstico, nome, idade nem detalhe que ligue a um caso; sem aspas no post; e que não seja a frase mais característica de um relato. Este último item é de julgamento, não de teste: o veto é do `revisor` e do RT, que podem vetar qualquer expressão.
 9. **Prometer isenção trabalhista** ou afirmar "a família fica livre de encargos" (pergunta 6 e advogado).
 10. **Nome de medicamento ou princípio ativo** no post. Escrever "medicação injetável", não o nome do remédio.
 11. **Dizer que a GrandCare atende convênio** ou sugerir que o plano paga (pergunta 20). **Chamar o serviço de "home care" como prova de regularidade** antes da pergunta 28.
@@ -141,7 +141,7 @@ Valem para todo post, legenda, Story, comentário e direct. A base é a skill `c
 
 Matéria-prima: as legendas do vídeo do site e os roteiros de M1 e M3 (frentes 1 e 3), onde o fundador fala como quem já foi cuidador. SUPOSIÇÃO, a confirmar com o `brand-architect`.
 
-- **Fala de quem esteve na casa:** frases curtas, concretas, no vocabulário do público: cuidadora, plantão, escala, pessoa fixa, reposição, "ficou sem cuidadora", "sobra para um só". Pela planilha de leads (seção 1A, PISTA, estimativa), também "não pode ficar sozinho(a)", "tem que ter alguém junto" e "tempo para quem cuida". Entram só pelo critério do Proibido 8 e, quando falam de quanta supervisão a pessoa precisa, em formulação condicionada ("quando a equipe de saúde diz que…"), nunca como afirmação do perfil. Não valem como prova de que a maioria do público pensa assim. Sem "anamnese" (palavra da empresa); usar "avaliação" ou "conversa com o enfermeiro".
+- **Fala de quem esteve na casa:** frases curtas, concretas, no vocabulário do público: cuidadora, plantão, escala, pessoa fixa, reposição, "ficou sem cuidadora", "sobra para um só". Da planilha de leads (seção 1A, PISTA, estimativa) vêm "não pode ficar sozinho(a)" e "tem que ter alguém junto"; nenhum post usa essas duas ao pé da letra (P19 parafraseia a segunda). "Tempo para quem cuida" é adaptação minha de um pedido de tempo para si de quem cuida, não expressão da planilha. Fonte de uso corrente fora da planilha, expressão por expressão: "sobra para um só" (e a variante "sobra para uma pessoa só", usada no gancho de P01): comentário de YouTube, FATO (dossiê e frente 4); "não pode ficar sozinho(a)": só uma forma próxima ("não tem condições de ficar sozinha") numa reclamação de família a uma empresa concorrente (frente 2), FATO quanto à fala, e a expressão exata fora da planilha fica "uso corrente: SUPOSIÇÃO"; "tem que ter alguém junto" e "tempo para quem cuida": sem fonte externa lida, "uso corrente: SUPOSIÇÃO". Entram só pelo critério do Proibido 8 e, quando falam de quanta supervisão a pessoa precisa, em formulação que atribui a decisão à equipe de saúde ("quando a equipe de saúde diz que…" ou "pede…"), nunca como afirmação do perfil. Não valem como prova de que a maioria do público pensa assim. Sem "anamnese" (palavra da empresa); usar "avaliação" ou "conversa com o enfermeiro".
 - **Franco sobre o que é difícil**, na linha do M3 ("é normal acontecer… acontece em todas as empresas"), sem se defender e sem prometer.
 - **Dá a ferramenta antes de pedir contato:** folha, lista de perguntas, modelo.
 - **Sem consolo em excesso e sem dramatização.** Sem "carinho" como diferencial, sem adjetivo empilhado.
@@ -152,7 +152,7 @@ Matéria-prima: as legendas do vídeo do site e os roteiros de M1 e M3 (frentes 
 
 ## 5. Pilares
 
-Sete pilares (o sétimo entrou na v1.3). Cada um tem um cartão com os campos do método. As pautas da seção 7 saem deles.
+Sete pilares. Cada um tem um cartão com os campos do método. As pautas da seção 7 saem deles.
 
 **Pilar 1 — Sobra para um só**
 - Etapa: Gosta.
@@ -192,12 +192,12 @@ Sete pilares (o sétimo entrou na v1.3). Cada um tem um cartão com os campos do
 
 **Pilar 5 — Em casa, com quem ela aceite**
 - Etapa: Gosta.
-- Para quem: perfis 1 e 2; Momentos A e B; nível 2.
+- Para quem: perfis 1 e 2; Momento A (alta); nível 2. O Momento B (diagnóstico de demência) fica no pilar 7.
 - O que é: a mãe ou o pai que não aceita gente estranha em casa, a conversa em família, o começo gradual, a alta do hospital como tema de organização, sem clínica. O diagnóstico de demência fica no pilar 7.
 - Por que existe: seis falas de recusa em três fontes; autocomplete "como convencer um idoso a aceitar um cuidador", "o que fazer quando o idoso não aceita ajuda" (FATO). Nenhum concorrente lido trata disso (SUPOSIÇÃO, frente 2).
 - Formato: Reels, carrossel, Stories com caixinha.
 - Cuidado: sem imagem de idoso com demência; "Alzheimer" e "demência" só como tema; sem conselho de manejo comportamental que seja clínico sem validação do RT; não dizer que a GrandCare faz introdução gradual antes de ela existir por escrito (perguntas 10 e 39). O tema demência em si fica no pilar 7; aqui a recusa é tratada sem citá-la (P12).
-- Próximo passo: salvar; comentar o caso. (Em P12 a chamada é de comentário; o item 11 da seção 4 cobre o relato de saúde de terceiro.)
+- Próximo passo: salvar; comentar o caso. (Só P12 usa a chamada de comentário, porque não cita demência; o item 11 da seção 4 cobre o relato de saúde de terceiro. Nenhuma outra pauta do pilar repete essa chamada.)
 
 **Pilar 6 — Conferir antes de pagar**
 - Etapa: Confia.
@@ -221,7 +221,7 @@ Sete pilares (o sétimo entrou na v1.3). Cada um tem um cartão com os campos do
 
 ## 6. Distribuição por etapa e formatos
 
-**Distribuição inicial** (referência do método, não medida): 50% Conhece, 30% Gosta, 20% Confia; Compra em Stories. Em 12 posts de feed no mês, seriam 6 Conhece, 4 Gosta e 2 Confia. Com o calendário da v1.4 (seção 10), o primeiro mês tem 11 posts, 5 Conhece, 5 Gosta e 1 Confia, porque as pautas de Confia dependem de respostas e do Coren e as de enfermagem foram adiadas. O primeiro mês testa seis dos sete pilares; o pilar 3 (cuidador ou enfermagem) fica para o segundo mês, depois do Coren. O segundo mês concentra no que respondeu.
+**Distribuição inicial** (referência do método, não medida): 50% Conhece, 30% Gosta, 20% Confia; Compra em Stories. Em 12 posts de feed no mês, seriam 6 Conhece, 4 Gosta e 2 Confia. Com o calendário da seção 10, o primeiro mês tem 11 posts, 5 Conhece, 5 Gosta e 1 Confia, porque as pautas de Confia dependem de respostas e do Coren e as de enfermagem foram adiadas. O primeiro mês testa seis dos sete pilares; o pilar 3 (cuidador ou enfermagem) fica para o segundo mês, depois do Coren. O segundo mês concentra no que respondeu.
 
 **Formatos por etapa**
 - **Conhece:** Reels de 30 a 40 s com um tema por vídeo, gancho na pergunta ou na situação do público (nunca "oi, pessoal"); carrossel de 5 a 8 slides com capa que faz a pergunta do público. Sem preço e sem pedido de compra.
@@ -237,7 +237,7 @@ Sete pilares (o sétimo entrou na v1.3). Cada um tem um cartão com os campos do
 
 ## 7. Pautas iniciais
 
-Vinte e duas pautas (P01 a P18 e, na v1.3, P19 a P22 do pilar 7). Cada uma traz etapa, perfil (o principal vem primeiro), formato, gancho, chamada (uma só), fonte e situação. **A situação tem duas respostas só:**
+Vinte e duas pautas (P01 a P18 e P19 a P22, do pilar 7). Cada uma traz etapa, perfil (o principal vem primeiro), formato, gancho, chamada (uma só), fonte e situação. **A situação tem duas respostas só:**
 
 - **Pode publicar assim que o nome e a bio do perfil estiverem corrigidos:** educativa, sem afirmar nada da operação da GrandCare, sem expor a operação (não leva o seguidor a perguntar "e a GrandCare?"), sem tema clínico que exija voz de profissional de saúde, sem menção a serviço de enfermagem. Ainda precisa de `revisor` e de aprovação do RT. A condição do nome e da bio é a da seção 9: tirar "RT - Edemilson A." do nome e a linha de "RT" da bio até haver Coren (a leitura do art. 3º da Cofen 554/2017 que sustenta isso é uma leitura, não certeza; seção 4, item 2).
 - **Depende de resposta:** a pergunta que destrava vem indicada. Se a resposta for negativa, a pauta muda como descrito. **Tema de demência começa sempre aqui** e só passa a "pode publicar" com a validação do RT por escrito.
@@ -246,9 +246,9 @@ Ganchos usam a situação do público, nunca a condição de quem lê. A fonte d
 
 **P01 · Sobra para um só**
 Etapa Gosta · Perfil 1 · Reels (texto na tela e voz, sem rosto)
-Gancho: "Quando tem que ter alguém junto, em muitas casas é uma pessoa só." (13 palavras; condicionado, sem afirmar quanta supervisão a pessoa precisa. **O RT deve olhar este gancho, junto com os de P19 e P20.**)
+Gancho: "Quando a família precisa dividir quem fica junto, em muitas casas sobra para uma pessoa só." (16 palavras, cerca de 6 s de fala; fala de dividir a presença na família e não diz quanta supervisão a pessoa precisa nem quem decide isso. **O RT deve olhar este gancho, junto com os de P19 e P20.**)
 Chamada: comentar "ESCALA" para o modelo da folha.
-Fonte: comentários do YouTube e conversas do Reddit sobre irmãos que não dividem; autocomplete "meus irmãos não ajudam a cuidar dos pais"; vocabulário "tem que ter alguém junto" da planilha de leads (seção 1A, PISTA; cinco palavras, dentro do critério do Proibido 8). O gancho não afirma que a maioria das famílias vive assim: "em muitas casas" é a forma do método, sem número.
+Fonte: comentários do YouTube e conversas do Reddit sobre irmãos que não dividem; autocomplete "meus irmãos não ajudam a cuidar dos pais"; vocabulário "sobra para um só" (comentário de YouTube, FATO; no gancho, "sobra para uma pessoa só", cinco palavras, dentro do critério do Proibido 8). O gancho não afirma que a maioria das famílias vive assim: "em muitas casas" é a forma do método, sem número.
 Situação: **pode publicar assim que o nome e a bio estiverem corrigidos.** Roteiro completo na seção 8. Precisa do modelo de escala em uma página pronto.
 
 **P02 · A escala da família no papel**
@@ -314,7 +314,7 @@ Situação: **depende de resposta: 5, 8, 9 e 27.** As três perguntas do roteiro
 
 **P10 · Pais em outra cidade: como saber o que acontece em casa sem ligar toda hora**
 Etapa Conhece · Perfil 2 · nível 2, por isso é o primeiro do perfil 2 · Carrossel
-Gancho (capa): "Pais em outra cidade: como saber como foi o dia sem ligar toda hora?"
+Gancho (capa): "Pais em outra cidade: como saber do dia sem ligar toda hora?"
 Conteúdo: combinar um caderno de plantão ou um relato por mensagem em horário fixo com quem cuida, definir um nome para ligar, dividir com o irmão que está perto o que cada um acompanha. Educativo, geral.
 Chamada: salvar.
 Fonte: "ficamos sempre no escuro"; desejo de saber o que aconteceu no turno (blog Filhas da Mãe, Reddit). O gancho fala de quem mora longe em terceira pessoa e não afirma onde o leitor mora; sem "sozinho" nem "o dia todo", que levariam à imagem de abandono (medo como motor), e sem pressupor que já há alguém com os pais (nível 2).
@@ -337,7 +337,7 @@ Situação: **pode publicar assim que o nome e a bio estiverem corrigidos**, com
 
 **P13 · Diagnóstico de demência na família: por onde organizar a casa**
 Etapa Conhece · Momento B (perfis 1 e 2) · Carrossel assinado pelo Edemilson ou Reels com ele à câmera
-Gancho (capa): "Diagnóstico de demência na família: o que organizar nas primeiras semanas?"
+Gancho (capa): "Diagnóstico de demência na família: o que organizar primeiro?"
 Conteúdo: reunir a documentação médica, definir quem decide, conversar com a equipe que acompanha, combinar a escala, conhecer as opções de cuidado. Sem descrever sintomas nem estágios, sem imagem de idoso.
 Chamada: salvar.
 Fonte: Alzheimer é o diagnóstico mais citado; diagnóstico recente como momento de contratar (Reclame Aqui, Levens).
@@ -382,22 +382,24 @@ Chamada: salvar. Se o Edemilson aparecer à câmera, vale o mesmo cuidado de P17
 Fonte: critério "essa pessoa sabe o que está fazendo?" (objeção 4); M3 (PISTA).
 Situação: **depende de resposta: 10 e 11** (cuidadora fixa e preparo) e 27.
 
-### Pilar 7 — demência na família (pautas novas da v1.3)
+### Pilar 7 — demência na família (P19 a P22)
 
-Na dúvida, as quatro pautas abaixo ficam em **"depende de resposta"**. A resposta que falta é a validação do RT por escrito, que aqui pesa mais que nas outras: demência é tema de saúde, com risco de virar manejo clínico, de afirmar condição de quem lê e de convidar a relato de saúde de terceiro (parecer de 14/10/2026 e pergunta 39). Nenhuma menciona enfermagem nem exige o Edemilson à câmera; pela leitura da seção 4, item 2, isso as deixa fora da 27, a menos que ele apareça. Se o perfil inteiro for lido como anúncio de enfermagem (Cofen 554/2017, art. 2º, I), a 27 pesa sobre elas também. Todas são educativas, em terceira pessoa, sem imagem de pessoa idosa, com chamada que não pede relato do caso (seção 4, item 13). Fontes: planilha de leads (seção 1A; PISTA, estimativa) para o vocabulário e para o peso do tema, e o Momento B do `02-avatar.md`. O "perfil principal 1" de cada pauta vem da seção 3, não da planilha. **O RT deve olhar os ganchos de P01, P19 e P20:** os três tratam de quanta companhia a pessoa precisa e estão em formulação condicionada. O autocomplete dessas perguntas não foi lido: SUPOSIÇÃO de que há busca.
+Na dúvida, as quatro pautas abaixo ficam em **"depende de resposta"**. A resposta que falta é a validação do RT por escrito, que aqui pesa mais que nas outras: demência é tema de saúde, com risco de virar manejo clínico, de afirmar condição de quem lê e de convidar a relato de saúde de terceiro (parecer de 14/10/2026 e pergunta 39). Nenhuma menciona enfermagem nem exige o Edemilson à câmera. Pela leitura estreita do item 2 da seção 4 (só o post que fala de enfermagem, ou com o Edemilson à câmera, leva o Coren), a 27 não pesa sobre elas, a menos que ele apareça. Pela leitura ampla (o perfil inteiro como anúncio de enfermagem, Cofen 554/2017, art. 2º, I), a 27 pesa sobre todas e sobre o calendário inteiro, não só sobre as de demência. Todas são educativas, em terceira pessoa, sem imagem de pessoa idosa, com chamada que não pede relato do caso (seção 4, item 13). Fontes: planilha de leads (seção 1A; PISTA, estimativa) para o vocabulário e para o peso do tema, e o Momento B do `02-avatar.md`. O "perfil principal 1" de cada pauta vem da seção 3, não da planilha. **O RT deve olhar os ganchos de P01, P19 e P20.** P20 trata de quanta companhia a pessoa precisa e atribui a decisão à equipe de saúde. P19 diz "quando alguém precisa estar junto" sem dizer quem decide (a redação é condicional, mas "alguém" fica em aberto). P01 não fala de supervisão: fala de dividir a presença na família. O autocomplete dessas perguntas não foi lido: SUPOSIÇÃO de que há busca.
 
 **P19 · Uma rotina escrita para a casa**
 Etapa Conhece · Perfil principal 1 (perfil 2 também) · Momento B · nível 2 · Carrossel (6 slides)
-Gancho (capa): "Quando alguém precisa estar junto em cada horário, como escrever a rotina da casa em família?" (versão final do RT)
+Gancho (capa): "Quando alguém precisa estar junto em cada horário, como escrever a rotina da casa em família?" (o RT ainda não viu)
 Conteúdo: uma folha com os horários do dia e, ao lado de cada um, quem está junto; quem leva a consultas; onde ficam documentos e contatos; um caderno de recados para quem reveza. É organização da família, não rotina clínica: sem horário de medicação, sem banho nem alimentação como técnica, sem dica de "como a pessoa reage".
 Chamada: salvar.
+Fonte: planilha de leads para o peso do tema (demência, cerca de um terço dos pedidos; PISTA, estimativa, seção 1A) e Momento B do `02-avatar.md` (FATO). Que haja busca própria por "rotina da casa" para quem tem demência não foi lido: SUPOSIÇÃO.
 Situação: **depende de resposta: validação do RT por escrito** (rotina de quem tem demência pode ser lida como orientação de cuidado). Se o RT confirmar que é organização e não manejo, a pauta passa a "pode publicar assim que o nome e a bio estiverem corrigidos". Não afirma nada da GrandCare.
 
 **P20 · Quando a pessoa não pode ficar sozinha: dividir as horas**
 Etapa Conhece · Perfil principal 1 · Momento B · nível 2 · Reels (texto na tela e voz, sem rosto)
-Gancho: "Quando a equipe de saúde diz que a pessoa não pode ficar sozinha, como a família divide as horas?" (versão final do RT)
+Gancho: "Quando a equipe de saúde pede companhia, como dividir as horas?" (11 palavras, cerca de 4 s de fala; a decisão sobre a companhia fica com a equipe de saúde; o RT ainda não viu)
 Conteúdo: contar em horas quanto do dia está sem ninguém, listar quem pode cobrir um turno (família, vizinho, amigo), combinar com antecedência, escrever e reavaliar a cada mês. Fala de "tempo para quem cuida" só em terceira pessoa. Sem "o dia todo" aplicado ao leitor, sem risco de queda ou fuga, sem "e se acontecer".
 Chamada: enviar a quem divide o cuidado.
+Fonte: vocabulário "não pode ficar sozinho(a)" da planilha de leads (PISTA, seção 1A), que no título da pauta aparece como tema e não entra no gancho; "tempo para quem cuida" é adaptação (seção 4, tom de voz). Busca própria pelo tema não lida: SUPOSIÇÃO.
 Situação: **depende de resposta: validação do RT por escrito** (o tema da supervisão de pessoa com demência é de segurança e o RT decide o que pode ser dito), **e 14 e 15** se o post citar contratar horas (formato e horário da GrandCare; leva o seguidor a perguntar "e vocês cobrem?"). Motivo de ser "depende" mesmo sem citar a empresa: o gancho toca em risco por omissão e o tom precisa do RT para não virar medo. Sem o trecho de contratar horas, só o RT. Sem esse trecho, P20 é a reserva de P22 no lote do RT (seção 10).
 
 **P21 · A pessoa recusa ajuda: por onde começar a conversa em família**
@@ -405,6 +407,7 @@ Etapa Gosta · Perfil principal 1 (perfil 2 também) · Momento B · nível 2 ·
 Gancho: "Quando a pessoa recusa ajuda, a conversa em família começa antes. Por onde?"
 Conteúdo: combinar antes quem conversa; ouvir o motivo; começar com ajuda pequena e com a família presente; levar o assunto ao médico que acompanha. A demência aparece só como contexto, em terceira pessoa. Qualquer conduta de manejo (o que dizer, o que evitar na hora da recusa) fica `[validar com o RT]` ou sai. Difere de P12: P12 não cita demência; esta trata do tema com os limites do pilar 7.
 Chamada: salvar. Sem "comente como foi na sua família".
+Fonte: autocomplete "como convencer um idoso a aceitar um cuidador" e "o que fazer quando o idoso não aceita ajuda" (FATO, 13/10/2026); a ligação com demência vem da planilha de leads (PISTA, estimativa) e do Momento B do avatar.
 Situação: **depende de resposta: validação do RT por escrito** (manejo comportamental na demência). A versão que diz como a GrandCare faz a introdução gradual depende das **perguntas 39 e 10**. Se o RT já tiver validado P12, vale conferir se P21 repete o conteúdo; se repetir, P21 sai ou funde com P12.
 
 **P22 · Consulta sobre demência: o que levar e o que perguntar ao médico**
@@ -412,9 +415,10 @@ Etapa Conhece · Perfil principal 1 (perfil 2 também) · Momento B · nível 2 
 Gancho (capa): "Consulta sobre demência: o que levar e o que perguntar ao médico?"
 Conteúdo: levar o histórico e a lista dos remédios em uso (sem nome de remédio no post), dizer ao médico quem convive com a pessoa, anotar as dúvidas da família e as respostas, perguntar quem acompanha depois e como a família se organiza em casa. **Sem lista de sinais, sem estágio, sem prazo, sem descrever o que a família observa e sem dizer "se a pessoa faz X, procure".** O post trata só do preparo da consulta de quem já tem acompanhamento; não diz quando procurar atendimento nem comenta dúvida sobre memória ou comportamento. Se o Rafael quiser falar a quem ainda não tem diagnóstico, a pauta passa a ser outra e vai ao RT e a um médico.
 Chamada: salvar para levar à consulta.
-Situação: **depende de resposta: validação do RT por escrito** (orientação de preparo de consulta é conteúdo de saúde; o RT valida organização e linguagem, e o conteúdo sobre diagnóstico e consulta médica pode pedir um médico) e revisão do `revisor` quanto a medo e diagnóstico. A pauta é feita sem enfermagem e sem o Edemilson à câmera; se ele aparecer, entra a **27**. Não afirma nada da GrandCare.
+Fonte: **SUPOSIÇÃO, sem demanda lida.** Nenhuma busca, comentário ou pergunta de público sobre preparo de consulta foi lido; o tema vem da relevância de demência na planilha de leads (PISTA) e do Momento B. Ao escrever os slides, as "perguntas ao médico" ficam em organização (quem acompanha, próximos passos, como a família se organiza) e não entram em prognóstico, dose, exame ou tratamento; o RT e um médico decidem o que mais cabe.
+Situação: **depende de resposta: validação do RT por escrito** (orientação de preparo de consulta é conteúdo de saúde; o RT valida organização e linguagem, e o conteúdo sobre diagnóstico e consulta médica pode pedir um médico) e revisão do `revisor` quanto a medo e diagnóstico. A pauta é feita sem enfermagem e sem o Edemilson à câmera. A **27** entra se ele aparecer ou se valer a leitura ampla do art. 2º, I (seção 4, item 2), pela qual o perfil inteiro é anúncio de enfermagem. Não afirma nada da GrandCare.
 
-**Resumo.** Podem sair assim que o nome e a bio estiverem corrigidos, com `revisor` e RT: P01 (o RT olha o gancho), P02, P04, P10, P12 e P14 (seis). Dependem de resposta (dezesseis): P03 (15, 19, 27, RT), P05 (30, 6), P06 (27, 12, RT), P07 (27, RT), P08 (16, 17, 18), P09 (5, 8, 9, 27), P11 (9, 8, 14), P13 (27, RT), P15 (5, 8, RT), P16 (27, 28, 5, 8, 10, 16, 17, 18, 19), P17 (27, 12, 13, 14, 28), P18 (10, 11, 27), P19 (RT, gancho), P20 (RT, gancho; 14 e 15 se citar horas contratadas), P21 (RT; 39 e 10 para a versão da GrandCare) e P22 (RT; 27 se o Edemilson aparecer). Total: 22 pautas, 6 + 16.
+**Resumo.** Podem sair assim que o nome e a bio estiverem corrigidos, com `revisor` e RT: P01 (o RT olha o gancho), P02, P04, P10, P12 e P14 (seis). Dependem de resposta (dezesseis): P03 (15, 19, 27, RT), P05 (30, 6), P06 (27, 12, RT), P07 (27, RT), P08 (16, 17, 18), P09 (5, 8, 9, 27), P11 (9, 8, 14), P13 (27, RT), P15 (5, 8, RT), P16 (27, 28, 5, 8, 10, 16, 17, 18, 19), P17 (27, 12, 13, 14, 28), P18 (10, 11, 27), P19 (RT, gancho), P20 (RT, gancho; 14 e 15 se citar horas contratadas), P21 (RT; 39 e 10 para a versão da GrandCare) e P22 (RT; 27 se o Edemilson aparecer ou se valer a leitura ampla do art. 2º, I, que pesa sobre todas as pautas). Total: 22 pautas, 6 + 16.
 
 **Ordem pelo nível de consciência no perfil 2:** P10 (nível 2) antes de P09 (nível 3 a 4). P09 só entra quando as respostas chegarem.
 
@@ -431,11 +435,11 @@ Pilar / perfil / nível: Pilar 1 (Sobra para um só) · Perfil 1 · nível 2 · 
 Duração: 40 s · Formato: texto na tela, voz em off e mãos escrevendo numa folha de papel. Sem rosto de paciente, sem rosto de enfermeiro.
 Situação: pode publicar assim que o nome e a bio do perfil estiverem corrigidos (depois do revisor e do RT).
 
-Gancho (0 a 5 s), texto exato na tela e na fala (13 palavras, cerca de 2,6 por segundo; o RT olha este gancho):
-"Quando tem que ter alguém junto, em muitas casas é uma pessoa só."
+Gancho (0 a 6 s), texto exato na tela e na fala (16 palavras, cerca de 2,7 por segundo; o RT olha este gancho):
+"Quando a família precisa dividir quem fica junto, em muitas casas sobra para uma pessoa só."
 
 Desenvolvimento (uma ideia só: escrever a escala muda a conversa):
-(5 a 12 s) "Muitas vezes, o que falta é combinado: ninguém escreveu quem faz o quê."
+(6 a 12 s) "Muitas vezes, o que falta é combinado: ninguém escreveu quem faz o quê."
 (12 a 27 s) "Pegue uma folha e divida a semana em manhã, tarde e noite. Escreva quem leva ao médico, quem cobre a noite, quem compra os remédios. Onde ninguém puder, escreva a palavra buraco."
 (27 a 35 s) "Os buracos mostram quanto de ajuda falta, paga ou não. Com a folha na mão, a conversa em família começa pela conta."
 
@@ -443,28 +447,29 @@ Fechamento e próximo passo (35 a 40 s), uma chamada só (9 palavras em 5 s):
 Fala e tela: "Quer o modelo da folha em branco? Comente ESCALA."
 
 Legenda na tela, palavra por palavra, conferida contra a fala acima, em blocos de 3 a 6 palavras:
-1. "Quando tem que ter alguém junto,"
-2. "em muitas casas"
-3. "é uma pessoa só."
-4. "Muitas vezes, o que falta"
-5. "é combinado: ninguém escreveu"
-6. "quem faz o quê."
-7. "Pegue uma folha"
-8. "e divida a semana"
-9. "em manhã, tarde e noite."
-10. "Escreva quem leva ao médico,"
-11. "quem cobre a noite,"
-12. "quem compra os remédios."
-13. "Onde ninguém puder,"
-14. "escreva a palavra buraco."
-15. "Os buracos mostram"
-16. "quanto de ajuda falta,"
-17. "paga ou não."
-18. "Com a folha na mão,"
-19. "a conversa em família"
-20. "começa pela conta."
-21. "Quer o modelo"
-22. "da folha em branco? Comente ESCALA."
+1. "Quando a família precisa"
+2. "dividir quem fica junto,"
+3. "em muitas casas"
+4. "sobra para uma pessoa só."
+5. "Muitas vezes, o que falta"
+6. "é combinado: ninguém escreveu"
+7. "quem faz o quê."
+8. "Pegue uma folha"
+9. "e divida a semana"
+10. "em manhã, tarde e noite."
+11. "Escreva quem leva ao médico,"
+12. "quem cobre a noite,"
+13. "quem compra os remédios."
+14. "Onde ninguém puder,"
+15. "escreva a palavra buraco."
+16. "Os buracos mostram"
+17. "quanto de ajuda falta,"
+18. "paga ou não."
+19. "Com a folha na mão,"
+20. "a conversa em família"
+21. "começa pela conta."
+22. "Quer o modelo"
+23. "da folha em branco? Comente ESCALA."
 
 Legenda do post:
 "Escrever a escala da semana mostra quantas horas estão sem ninguém. É a partir dessa conta que a família decide quem faz, quem divide e o que vale pagar. O modelo em branco vai por direct para quem comentar ESCALA.
@@ -481,7 +486,7 @@ Obrigatórios de conformidade:
 Riscos: verde quanto às respostas do cliente (nada depende delas). Laranja pelo nome e pela bio do perfil (nome com "RT" sem Coren; bio antiga com "Profissionais Certificados"). Artigos citados no post: nenhum. Quem aprova: revisor e Edemilson Albarnas (RT).
 ```
 
-Observação: o gancho vem do vocabulário "sobra para um só" (YouTube, FATO) e de "tem que ter alguém junto" (planilha de leads, PISTA, seção 1A), em formulação condicionada, sem citar comentário nem pessoa. Contagem da v1.4, para o `revisor` conferir: gancho 13 palavras (0 a 5 s); desenvolvimento 13, 32 e 22 palavras; fechamento 9 palavras (5 s); total 89 palavras em 40 s. A legenda tem 22 blocos de 3 a 6 palavras e reproduz a fala na ordem, sem corte; o bloco 22 reúne as duas últimas frases. O trecho de 27 a 35 s (22 palavras em 8 s, 2,75 por segundo) é o mais corrido. A legenda do post continua igual à da v1.2.
+Observação: o gancho vem do vocabulário "sobra para um só" (YouTube, FATO), sem citar comentário nem pessoa, e não afirma quanta supervisão alguém precisa. Contagem: gancho 16 palavras (0 a 6 s); desenvolvimento 13, 32 e 22 palavras; fechamento 9 palavras (5 s); total 92 palavras em 40 s. A legenda tem 23 blocos de 3 a 6 palavras e reproduz a fala na ordem, sem corte; o último bloco reúne o fim de uma frase e a outra inteira. O trecho de 27 a 35 s (22 palavras em 8 s, 2,75 por segundo) é o mais corrido.
 
 ### Amostra B · Reels P09 — "Pais em outra cidade: três perguntas antes de contratar"
 
@@ -644,7 +649,7 @@ Cada destaque tem capa em tipografia, sem foto de paciente.
 
 ## 10. Calendário de quatro semanas
 
-O plano é de três posts de feed por semana, mais os Stories da seção 6. **Ordem da v1.3:** primeiro as pautas liberadas (cuidador e família, sem enfermagem), depois as de demência que dependem só da validação do RT, e só no fim as que dependem de respostas da GrandCare. As pautas de enfermagem (P06, P07, P13 e P17) saem do primeiro mês e ficam para depois do Coren (pergunta 27). Motivo: a planilha de leads mostra que a maior parte dos pedidos é de companhia, higiene e supervisão, e só uma minoria é clínica (seção 1A, PISTA, estimativa); isso é razão de ordem de produção, não de corte. Só entram no calendário as pautas que podem sair com o nome e a bio corrigidos (P01, P02, P04, P10, P12 e P14) e, a partir da semana 3, as que dependem de validação do RT ou de respostas, com a condição escrita ao lado. Pauta que depende de resposta da GrandCare não completa semana vazia. O mês fecha com onze posts, não doze.
+O plano é de três posts de feed por semana, mais os Stories da seção 6. **Ordem:** primeiro as pautas liberadas (cuidador e família, sem enfermagem), depois as de demência que dependem só da validação do RT, e só no fim as que dependem de respostas da GrandCare. As pautas de enfermagem (P06, P07, P13 e P17) saem do primeiro mês e ficam para depois do Coren (pergunta 27). Motivo: a planilha de leads mostra que a maior parte dos pedidos é de companhia, higiene e supervisão, e só uma minoria é clínica (seção 1A, PISTA, estimativa); isso é razão de ordem de produção, não de corte. Só entram no calendário as pautas que podem sair com o nome e a bio corrigidos (P01, P02, P04, P10, P12 e P14) e, a partir da semana 3, as que dependem de validação do RT ou de respostas, com a condição escrita ao lado. Pauta que depende de resposta da GrandCare não completa semana vazia. O mês fecha com onze posts, não doze.
 
 **Aviso de estoque e lote do RT:** as seis pautas liberadas cobrem só as semanas 1 e 2; da semana 3 em diante tudo depende de validação do RT ou de respostas. Recomendação ao Rafael: pedir ao Edemilson **um lote único de validação por escrito, antes da primeira publicação** (não na semana 2, que seria tarde para a semana 3): as seis liberadas (P01, P02, P04, P10, P12 e P14), mais P19, P21 e P22, e P20 sem o trecho de horas contratadas, que serve de reserva se P22 cair. O RT valida organização do cuidado e linguagem; não valida conteúdo sobre diagnóstico e consulta médica (P22), que pode pedir um médico. A cobrança entra já na semana 1. Ressalva: enquanto a pergunta 27 (Coren, categoria) estiver aberta, a validação do RT por escrito fica fragilizada, porque não se sabe em que qualidade profissional ele valida. A decisão é do Rafael.
 
@@ -665,7 +670,7 @@ A primeira publicação só sai depois do nome e da bio corrigidos, do `revisor`
 - Stories: respostas às dúvidas da caixinha da semana 1. Nada de caso clínico.
 - Cobrar o Rafael e a GrandCare: Coren (27), registros (28), 5, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18 e 19, advogado (30), e a 39 (introdução gradual); a 6 também, se P05 entrar. A 12 destrava P06; a 12, 13 e 14, P17 e P11; a 15 e a 19, P03; a 14 e a 15, o trecho de horas contratadas de P20.
 
-**Semana 3 (demência, só com a validação do RT por escrito; pela leitura da seção 4, item 2, sem enfermagem nem o Edemilson à câmera)**
+**Semana 3 (demência, só com a validação do RT por escrito; sem enfermagem nem o Edemilson à câmera, o que as deixa fora da 27 só pela leitura estreita da seção 4, item 2)**
 - Conhece · P19 Uma rotina escrita para a casa (carrossel). Precisa da validação do RT.
 - Conhece · P22 Consulta sobre demência: o que levar e o que perguntar ao médico (carrossel). Precisa da validação do RT e do `revisor` (medo e diagnóstico).
 - Capacidade: dois posts, ambos sem rosto e sem o Edemilson à câmera. A capacidade de produção segue `[A PREENCHER]`.
@@ -716,7 +721,7 @@ Não há linha de base: tudo o que segue é `[medir]` e se mede da primeira publ
 - `[A PREENCHER] (10, 11, 39)` Pessoa fixa, participação da família, preparo e introdução gradual (a 39 é a pergunta nova, acrescentada em 14/10/2026 a `perguntas-para-a-grandcare.md`; ainda não foi enviada à GrandCare). Sem elas, P12 e P21 saem só como orientação geral, sem a parte da GrandCare; P18 não existe, porque descreve o processo da casa.
 - `[A PREENCHER]` Validação do RT, por escrito, em lote único antes da primeira publicação: as seis liberadas, P19, P21, P22 e P20 sem horas contratadas (inclui o olhar sobre os ganchos de P01, P19 e P20). Sem ela, nada sai; sem a parte de demência, a semana 3 fica sem posts de feed. Fica fragilizada enquanto a 27 estiver aberta.
 - `[A PREENCHER]` Contagem exata da planilha de leads (CSV), feita fora do repositório ou guardada só em agregado (seção 1A). Sem ela, nenhum número da planilha vai para peça, e o peso de demência (cerca de um terço) e a ordem do calendário seguem como estimativa.
-- `[A PREENCHER] (12, ampliada)` Se a GrandCare atende pessoas de 20 a 60 anos com deficiência. A pergunta 12 trata de serviços e talvez não cubra isso; pode ser preciso um item novo, a numerar pelo coordenador. Sem a resposta, o tema fica como oportunidade registrada, sem pauta.
+- `[A PREENCHER] (12, ampliada)` Se a GrandCare atende pessoas com deficiência que não são idosas. A pergunta 12 trata de serviços e talvez não cubra isso; pode ser preciso um item novo, a numerar. Sem a resposta, o tema fica como oportunidade registrada, sem pauta.
 - `[A PREENCHER] (6)` Modelo de contratação, e `(30)` advogado. Sem isso, P05 sai sem a parte trabalhista, a frase do "foco do trabalho" não entra em P04 e nenhuma frase fala de encargos.
 - `[A PREENCHER] (15, 16, 17, 18, 19)` Formatos, preço, cobrança, reembolso, cláusula de ficar com a cuidadora, o que está incluído. Sem elas, P03 (15, 19), P08 (16, 17, 18) e P16 não saem e o destaque de Preços não existe.
 - `[A PREENCHER] (12, 13, 14)` Serviços prestados, cidades com equipe, horário. Sem elas, o destaque "Como funciona" e a P17 não saem (a 12 também trava a P06), e o Story de Compra não existe.
@@ -742,8 +747,8 @@ Esta seção é recomendação; a decisão é do Rafael. Nenhum item abaixo foi 
    - Post de 02/07/2024: traz um terceiro WhatsApp (48 9 9676-0234) e a pergunta 3 (contatos oficiais) está aberta. Arquivar ou editar o telefone.
    A frase do Reels de 22/01/2026 segue como material de partida do pilar Gosta (seção 1, item 4); isso é sobre a tese, não decide o que fazer com o vídeo.
 6. **Condição para a primeira publicação nova:** recomendo que ela só saia depois (a) do nome e da bio corrigidos, (b) do `revisor` e do RT e (c) das ações dos itens 3 a 5, ou de uma decisão do Rafael de manter algum item, com o motivo registrado e levado ao `revisor`. Qualquer atraso empurra o calendário, não o contrário. Se o Rafael decidir publicar antes de (c), o feed novo sai ao lado de conteúdo antigo que esta própria linha classifica como problema.
-7. **Edemilson à câmera:** disponibilidade e se ele aprova gravar após ter o Coren na tela. Sem ele, a linha funciona só com os posts sem rosto, que são os de Conhece e Gosta. Na v1.3 nenhum post do primeiro mês depende dele à câmera.
-8. **Planilha de leads (v1.3):** decidir quem faz a contagem exata e onde ela fica guardada (dado de saúde, LGPD), se a GrandCare atende o público com deficiência (pergunta 12 ampliada) e se o RT valida em um lote único, antes da primeira publicação, as seis liberadas e os posts de demência (seção 10). Não sei se a planilha vem do formulário do link da bio (SUPOSIÇÃO de que pode vir, pelo nome "formulários de cliente"); se vier, a recomendação da seção 9 sobre esse formulário (dado de saúde sem aceite) ganha peso.
+7. **Edemilson à câmera:** disponibilidade e se ele aprova gravar após ter o Coren na tela. Sem ele, a linha funciona só com os posts sem rosto, que são os de Conhece e Gosta. Nenhum post do primeiro mês depende dele à câmera.
+8. **Planilha de leads:** decidir quem faz a contagem exata e onde ela fica guardada (dado de saúde, LGPD), se a GrandCare atende o público com deficiência (pergunta 12 ampliada) e se o RT valida em um lote único, antes da primeira publicação, as seis liberadas e os posts de demência (seção 10). Não sei se a planilha vem do formulário do link da bio (SUPOSIÇÃO de que pode vir, pelo nome "formulários de cliente"); se vier, a recomendação da seção 9 sobre esse formulário (dado de saúde sem aceite) ganha peso.
 
 ---
 
@@ -758,10 +763,10 @@ Esta seção é recomendação; a decisão é do Rafael. Nenhum item abaixo foi 
 - [x] Calendário dentro da capacidade assumida, marcada como `[A PREENCHER]` (seção 10)
 - [x] Conformidade aplicada: Cofen 554/2017, Coren-SC, RDC 917/2024, LGPD, CDC, política do Meta (seções 4, 5, 7, 8)
 - [x] Revisão do `revisor` de 14/10/2026 aplicada (B1 a B4; na segunda passada, N1, N2 e os avisos A1, A2, A3, A4, A5, A8 e A9 em parte); conferência pontual pendente
-- [x] v1.3: planilha de leads lida como tendência, sem dado identificável e sem a coluna "para quem é o cuidado" (seção 1A)
-- [x] v1.3: pilar 7 e P19 a P22 com a regra de demência do parecer (tema informativo, sem pergunta ao leitor, sem chamada que peça relato de saúde de terceiro)
-- [x] v1.4: terceira passada do `revisor` aplicada (B1 e A1 a A11; o que ficou de fora está no histórico)
-- [ ] Passou pelo `revisor` (conferência de P22, ganchos de P01, P10, P19 e P20, seção 1A e Amostra A) e pelo RT: **ainda não**
+- [x] Planilha de leads lida como tendência, sem dado identificável e sem a coluna "para quem é o cuidado" (seção 1A)
+- [x] Pilar 7 e P19 a P22 com a regra de demência do parecer (tema informativo, sem pergunta ao leitor, sem chamada que peça relato de saúde de terceiro)
+- [x] Terceira e quarta passadas do `revisor` aplicadas (o que ficou de fora está no histórico)
+- [ ] Passou pelo `revisor` (conferência dos ganchos de P01, P10, P13 e P20, seção 1A, Proibido 8, Fontes de P19 a P22 e Amostra A) e pelo RT: **ainda não**
 
 ---
 
@@ -771,4 +776,26 @@ Esta seção é recomendação; a decisão é do Rafael. Nenhum item abaixo foi 
 - **v1.1 — 14/10/2026.** Correção conforme o parecer do `revisor` (`revisoes/linha-editorial-2026-10-14.md`). B1: "pode publicar hoje" passa a "pode publicar assim que o nome e a bio estiverem corrigidos", só para P01, P02, P03, P04, P10, P12 e P14; P09 e P15 vão para "depende de resposta"; calendário refeito. B2: seção 13 reescrita como recomendação que depende da decisão do Rafael. B3: bio refeita, com versão provisória e versão para depois da 27. B4: frase de P01 trocada e legenda alinhada à fala. Avisos tratados: A1, A3, A4, A5 (perfil principal em cada pauta), A6, A7, A8 (marcas tiradas dos slides), A9, A10, A11, A12, A13, A14, A15 (nota em P05) e A17 (semana 3). Não tratados nesta versão: A2 (decisão de tom do `brand-architect`; usei o plural "muitas casas" no texto), A16 (caixinhas, directs e dado de saúde de terceiros) e A18 (jargão do método). Pergunta 39 (introdução gradual) acrescentada à lista de perguntas.
 - **v1.2 — 14/10/2026.** Correção conforme a segunda passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-2.md`). N1: P03 passa de "pode publicar" para "depende de resposta" (15, 19, 27 e RT), porque cita enfermagem e leva a "e quanto custa na GrandCare?"; fica fora da semana 1, que passa a P10, P01 e P02, e entra na reserva; resumo da seção 7, calendário, distribuição, destaque 1 e pendências ajustados (seis "pode publicar", doze "depende"). N2: "a leitura será submetida ao RT"; a certeza da linha 16 virou recomendação; a abertura da seção 13 não atribui decisão ao Rafael. A1/A10: respostas-padrão na seção 4 (itens 11 e 12) para dado de saúde de terceiro e para "quanto custa?" e "vocês fazem isso?". A2: dito que o risco do art. 2º, I não depende da sigla "RT". Fonte de Anjos da Guarda no pilar 3 trocada. A3: legenda de P09 refeita contra a fala. A4: cobranças da semana 2 com 12, 13, 14 e 15 (e a 6 se P05 entrar). A5: seção 12 e data dos artigos alinhadas. A9: "três travas". Não tratados nesta versão: A1 em P04 (advogado ver o post inteiro) e P14/P10 (olhar do RT), A6 (perfil principal em P07, P13 e P17), A7 (risco de autopromoção do conteúdo todo em P17 e P18), repetição de "Em muitas" na legenda de P01, e o aviso ao `researcher` e ao `avatar-strategist` sobre "metade da praça só tem cuidador".
 - **v1.3 — 14/10/2026.** Leitura da planilha de leads reais da GrandCare (exportação de 14/10/2026, cerca de 290 linhas; leitura à mão, números aproximados, contagem exata pendente). Nenhuma correção dos pareceres foi desfeita. (1) Pilar 7, demência na família, e quatro pautas novas, P19 a P22, todas "depende de resposta" (validação do RT por escrito; P20 também 14 e 15 se citar horas; P21 também 39 e 10 na versão da GrandCare), com a regra 13 na seção 4. (2) Calendário reordenado: P04 sobe para a semana 2; semana 3 com P19 e P22; semana 4 com P21, P16 e P09; P06, P07, P13 e P17 adiadas para depois do Coren; mês com 11 posts (5 Conhece, 5 Gosta, 1 Confia); aviso de que o estoque liberado acaba na semana 2. (3) Vocabulário do público nos ganchos de P01 (com a Amostra A refeita: gancho de 12 palavras, 23 blocos de legenda, 36 a 39 s, e "Muitas vezes" no lugar de "Em muitas famílias"), P10 e P19 a P22. (4) Oportunidade sem pauta: público com deficiência, depende da pergunta 12 ampliada; P03 segue "depende" com a frase de que o seguidor tende a perguntar "quanto custa?". (5) Seção 1A, dados dos leads, sem nome, telefone nem trecho identificável e sem uso da coluna "para quem é o cuidado". (6) Cabeçalho, contagens (22 pautas, 6 "pode publicar", 16 "depende"), distribuição, pendências e seção 13 atualizados. Não tratados nesta versão: A1 em P04 e P14 (advogado e RT), A6 em P07, P13 e P17 (perfil principal), A7 (autopromoção em P17 e P18) e o aviso ao `researcher` e ao `avatar-strategist` sobre "metade da praça".
-- **v1.4 — 14/10/2026.** Correção conforme a terceira passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-3.md`). B1: P22 com capa "Consulta sobre demência: o que levar e o que perguntar ao médico?", sem a frase sobre dúvida de memória ou comportamento e sem "o que a família observa"; P19 a P21 e os roteiros conferidos contra a regra 13. A1: ganchos de P01, P19 e P20 em formulação condicionada, com o olhar do RT marcado. A2: diferença entre P13 e P22 explicada e "nenhuma depende do Coren" trocada pela leitura da seção 4, item 2. A3: tema de demência começa em "depende" (seção 7). A4: "São pedidos de cuidado para terceiros" e origem do perfil 1 nas seções 3 e 7. A5: cuidado de LGPD em 1A (finalidade e contagens pequenas). A6: critério verificável para expressão curta e genérica (Proibido 8); "um pouco de vida para quem cuida" virou "tempo para quem cuida", por passar de cinco palavras. A7: capa de P10 encurtada. A8: Amostra A com legenda de 22 blocos, gancho de 5 s e 40 s no total. A9: lote único do RT antes da primeira publicação, com a cobrança na semana 1. A10: demência fora do "O que é" do pilar 5 e dentro do pilar 7. A11: resíduos de produção retirados e cabeçalho reduzido. Não alterado por não constar do parecer: o "Momento B" no "Para quem" do pilar 5. Os avisos antigos da v1.3 seguem sem tratamento (A1 em P04 e P14, A6 em P07, P13 e P17, A7 em P17 e P18).
+- **v1.4 — 14/10/2026.** Correção conforme a terceira passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-3.md`):
+  - B1: P22 com capa "Consulta sobre demência: o que levar e o que perguntar ao médico?", sem a frase sobre dúvida de memória ou comportamento e sem "o que a família observa"; P19 a P21 e os roteiros conferidos contra a regra 13.
+  - A1: ganchos de P01, P19 e P20 em formulação condicionada, com o olhar do RT marcado.
+  - A2: diferença entre P13 e P22 explicada; "nenhuma depende do Coren" trocada pela leitura da seção 4, item 2.
+  - A3 e A4: tema de demência começa em "depende"; "São pedidos de cuidado para terceiros" e origem do perfil 1 nas seções 3 e 7.
+  - A5 e A6: cuidado de LGPD em 1A; critério verificável para expressão curta e genérica (Proibido 8); "um pouco de vida para quem cuida" virou "tempo para quem cuida", por passar de cinco palavras.
+  - A7 e A8: capa de P10 encurtada; Amostra A com legenda de 22 blocos, gancho de 5 s e 40 s no total.
+  - A9 e A10: lote único do RT antes da primeira publicação, com a cobrança na semana 1; demência fora do "O que é" do pilar 5 e dentro do pilar 7.
+  - A11: resíduos de produção retirados e cabeçalho reduzido.
+  - Fora: o "Momento B" no "Para quem" do pilar 5 (tratado na v1.5). Os avisos antigos da v1.3 seguem sem tratamento (A1 em P04 e P14, A6 em P07, P13 e P17, A7 em P17 e P18).
+- **v1.5 — 14/10/2026.** Correção conforme a quarta passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-4.md`):
+  - A1: gancho de P01 passa para a redação sugerida pelo revisor ("Quando a família precisa dividir quem fica junto, em muitas casas sobra para uma pessoa só."), que deixa de falar de supervisão; Amostra A refeita (gancho de 16 palavras em 6 s, 23 blocos de legenda, 92 palavras em 40 s, uma chamada). O texto que dizia que os três ganchos eram "condicionados" agora diz o que vale para cada um.
+  - A2: gancho de P20 encurtado para 11 palavras, mantendo a decisão com a equipe de saúde.
+  - A3: fonte de "uso corrente" por expressão no tom de voz; "tempo para quem cuida" declarado adaptação; frase entre aspas de primeira pessoa tirada da seção 1A; item de julgamento do Proibido 8 declarado; lista de pautas que usam o vocabulário corrigida.
+  - A4: seção 1A sem cruzar condição com idade (retirados "cerca de 12" com as condições, a lista de procedimentos e a faixa etária).
+  - A5: "Momento B" saiu do "Para quem" do pilar 5.
+  - A6: leituras estreita e ampla do art. 2º, I, escritas no cabeçalho do pilar 7, na semana 3, em P22 e no resumo.
+  - A7: linha "Fonte" em P19 a P22; P22 marcada SUPOSIÇÃO; limite das "perguntas ao médico" registrado.
+  - A8: prazo "nas primeiras semanas" tirado do gancho de P13.
+  - A9: resíduos de produção e menções de versão fora do histórico retirados.
+  - A10: capa de P10 sem a repetição de "como"; este histórico em itens.
+  - Alterado além do parecer: "(versão final do RT)" nos ganchos de P19 e P20 virou "o RT ainda não viu", porque sugeria uma aprovação que não houve.
+  - Ficou de fora: o art. 12 da LGPD segue citado de memória; a planilha de leads segue não conferida.

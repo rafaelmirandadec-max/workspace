@@ -19,6 +19,7 @@ Marcas: **FATO** (com fonte), **PISTA** (a empresa falando de si ou trecho de bu
 - **v1.3 — 14/10/2026 (linha editorial v1.1).** @content-strategist corrigiu `07-conteudo/linha-editorial.md` conforme o parecer do revisor de 14/10/2026 e acrescentou a pergunta 39 (introdução gradual) a `01-pesquisa/perguntas-para-a-grandcare.md`. Nenhum bloco do briefing foi alterado; a pausa do M2 e o arquivamento de posts antigos são recomendações que aguardam decisão do Rafael.
 - **v1.4 — 14/10/2026 (linha editorial v1.3).** @content-strategist atualizou `07-conteudo/linha-editorial.md` com a leitura aproximada de uma planilha de leads de 14/10/2026 (demência como frente própria, calendário reordenado, vocabulário do público; contagem exata pendente). Nenhum bloco do briefing foi alterado.
 - **v1.5 — 14/10/2026 (linha editorial v1.4).** @content-strategist corrigiu `07-conteudo/linha-editorial.md` conforme a terceira passada do revisor (pauta P22, ganchos de P01, P19 e P20, seção 1A, lote único de validação do RT). Nenhum bloco do briefing foi alterado.
+- **v1.6 — 14/10/2026 (linha editorial v1.5).** @content-strategist corrigiu `07-conteudo/linha-editorial.md` conforme a quarta passada do revisor (ganchos de P01, P10, P13 e P20, vocabulário do público, seção 1A, fontes de P19 a P22). Nenhum bloco do briefing foi alterado.
 
 ## Fontes de partida (dadas pelo Rafael)
 - Instagram: https://www.instagram.com/grandcarebr/ (bloqueado sem login)
