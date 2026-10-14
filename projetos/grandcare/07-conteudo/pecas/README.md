@@ -1,8 +1,8 @@
 # Lote 1 de peças · Instagram GrandCare (@grandcarebr)
 
-14/10/2026 · @content-strategist · Base: `../linha-editorial.md` v1.5 e as quatro passadas do `revisor` (`../../revisoes/linha-editorial-2026-10-14*.md`). Nicho de saúde regulada. **Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico (RT).**
+14/10/2026 · @content-strategist · Base: `../linha-editorial.md` v1.6 e as quatro passadas do `revisor` (`../../revisoes/linha-editorial-2026-10-14*.md`). Nicho de saúde regulada. **Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico (RT).**
 
-Corrigido em 14/10/2026 conforme o parecer do `revisor` (`../../revisoes/pecas-lote-1-2026-10-14.md`). O lote passou de oito para **sete peças**: P21 saiu (arquivada em `arquivo/P21-retirada.md`). Volta ao `revisor` só nos trechos alterados (B1 a B4, A1, A3, A7, A12, A13, A14).
+Corrigido em 14/10/2026 conforme o parecer do `revisor` (`../../revisoes/pecas-lote-1-2026-10-14.md`). O lote passou de oito para **sete peças**: P21 saiu (arquivada em `arquivo/P21-retirada.md`). Volta ao `revisor` só nos trechos alterados (B1 a B4, A1, A3, A7, A12, A13, A14). Segunda passada aplicada em 14/10/2026 (`../../revisoes/pecas-lote-1-2026-10-14-passada-2.md`, A1 a A9): linha editorial v1.6 alinhada às peças; ajustes de poucas palavras em P10, P12, P14, P19 e P22; "paga ou não" cortado de P01 (Amostra A da linha).
 
 "Liberada para o RT" quer dizer que a peça pode seguir ao enfermeiro responsável técnico, com as condições da própria peça e da seção "Antes de qualquer publicação" abaixo. **Não** quer dizer "pode publicar".
 
@@ -23,7 +23,7 @@ Retirada do lote: **P21 A pessoa recusa ajuda** (`arquivo/P21-retirada.md`). Mot
 Fora deste lote:
 - P01 já tem texto completo na Amostra A da linha (seção 8). Entra na semana 1.
 - P09 e P16 dependem de respostas da GrandCare (5, 8, 9 e 27; 27, 28 e outras). Não foram escritas. A Amostra B e a Amostra C da linha seguem retidas.
-- P20 não foi pedida. É a reserva de P22 no lote do RT, sem o trecho de horas contratadas.
+- P20 **não foi escrita e está fora do lote do RT.** Só será escrita, sem o trecho de horas contratadas, como reserva se P22 cair.
 - P03, P05 a P08, P11, P13, P15, P17 e P18 dependem de respostas ou do Coren e ficam para depois.
 
 ## Ordem de publicação sugerida (calendário da linha, seção 10)
@@ -32,7 +32,7 @@ Fora deste lote:
 
 **Semana 2:** P12 (Reels) · P14 (carrossel) · P04 (Reels). P04 só sai com o advogado (30) ou a decisão registrada do Rafael; sem isso, a semana fica com P12 e P14.
 
-**Semana 3:** P19 (carrossel) · P22 (carrossel). Só com a validação do RT por escrito. Se P22 cair, entra P20 sem horas contratadas (ainda não escrita). Se o RT não validar nenhuma, a semana fica sem posts de feed e o Rafael decide se a pausa entra como Stories.
+**Semana 3:** P19 (carrossel) · P22 (carrossel). Só com a validação do RT por escrito. Se P22 cair, P20 é escrita sem horas contratadas e entra como reserva (hoje não existe texto). Se o RT não validar nenhuma, a semana fica sem posts de feed e o Rafael decide se a pausa entra como Stories.
 
 **Semana 4:** nenhuma peça deste lote (P21 saiu). P16 e P09 só entram se as respostas chegarem. Não entra pauta de "depende" para completar a semana; o Rafael decide se a pausa entra como Stories.
 
@@ -43,11 +43,11 @@ Formatos por semana: semana 1 com 2 carrosséis e 1 Reels (P01 fora deste lote);
 1. **Nome e bio do perfil.** Tirar "RT - Edemilson A." do nome e a linha de "RT" da bio, e "Profissionais Certificados" e "Cuidadores Especializados", até haver Coren (linha, seção 9). CNPJ no campo de informações do negócio. Todas as sete peças dependem disso.
 2. **Coren do Edemilson (pergunta 27).** Nenhuma peça do lote tem o Edemilson à câmera nem fala de enfermagem, então nenhuma leva o número no texto. A 27 pesa sobre todas pela leitura ampla do art. 2º, I da Cofen 554/2017 (linha, seção 4, item 2), que é leitura, não certeza. Enquanto a 27 estiver aberta, a validação do RT por escrito fica fragilizada. **Anuência:** a validação por escrito do RT, que a linha exige para toda peça, é "anuência" no sentido do art. 2º, I da Cofen 554/2017 (anúncio é a comunicação de atividade profissional "de iniciativa, participação e/ou anuência" do profissional de enfermagem). É leitura do `revisor`, não conclusão: levar ao RT e ao Coren-SC, junto com a pergunta 27, a questão se a validação por escrito torna a peça anúncio de enfermagem e pede Coren (art. 3º).
 3. **Leitura do art. 2º, I levada ao RT** e, se ele tiver dúvida, ao Coren-SC (linha, seção 4, item 2). Resposta registrada por escrito.
-4. **Lote único de validação do RT, antes da primeira publicação** (linha, seção 10): P01, P02, P04, P10, P12, P14, P19, P22 e P20 sem horas contratadas (P21 saiu). Cada arquivo traz a lista de pontos que ele deve olhar. O RT valida organização e linguagem; P22 (diagnóstico e consulta médica) pode pedir um médico.
+4. **Lote único de validação do RT, antes da primeira publicação** (linha, seção 10): P01, P02, P04, P10, P12, P14, P19 e P22: oito peças com texto escrito (P21 saiu; P20 não está escrita e fica fora do lote). Cada arquivo traz a lista de pontos que ele deve olhar. O RT valida organização e linguagem; P22 (diagnóstico e consulta médica) pode pedir um médico.
 5. **`revisor`.** Passada nas sete peças; depois da correção, só nos trechos alterados, com a norma reaberta na semana da publicação, se alguma for citada (nenhuma é, neste lote).
 6. **Ativos a produzir:** o modelo de escala em uma página (P01 e P02), pronto antes de P01 ir ao ar, e a entrega do modelo por direct sem coleta de dado de saúde. Diagramação dos carrosséis (rodapé de P22 legível no celular; tabela de P02 legível) e gravação dos Reels (texto na tela e voz, sem rosto).
 7. **Respostas-padrão prontas na conta:** comentário ou direct com dúvida clínica, com dado de saúde de terceiro e com "quanto custa?" ou "vocês fazem isso?" (linha, seção 4, itens 7, 11 e 12). Valem para todas as peças. Nenhuma peça do lote convida comentário: P12 trocou "comente" por "envie".
-8. **Voz em off de P04 e P12:** de quem é? **Sem decisão do Rafael.** Se for a do Edemilson, ele participa do conteúdo e isso pesa sobre o art. 2º, I (leitura do `revisor`, A15). Registrar de quem é a voz de cada Reels antes de gravar.
+8. **Voz em off de P04 e P12:** de quem é? **Sem decisão do Rafael.** Se for a do Edemilson, ele participa do conteúdo e isso pesa sobre o art. 2º, I (leitura do `revisor`, A15). Registrar de quem é a voz de cada Reels antes de gravar. **Se a voz em off de P04 e P12 for a do Edemilson, a regra 2 da linha pede nome, Coren e categoria na tela, e a pergunta 27 sem resposta trava as duas peças.**
 
 ## Decisões do Rafael ligadas ao lote
 

@@ -20,6 +20,7 @@ Marcas: **FATO** (com fonte), **PISTA** (a empresa falando de si ou trecho de bu
 - **v1.4 — 14/10/2026 (linha editorial v1.3).** @content-strategist atualizou `07-conteudo/linha-editorial.md` com a leitura aproximada de uma planilha de leads de 14/10/2026 (demência como frente própria, calendário reordenado, vocabulário do público; contagem exata pendente). Nenhum bloco do briefing foi alterado.
 - **v1.5 — 14/10/2026 (linha editorial v1.4).** @content-strategist corrigiu `07-conteudo/linha-editorial.md` conforme a terceira passada do revisor (pauta P22, ganchos de P01, P19 e P20, seção 1A, lote único de validação do RT). Nenhum bloco do briefing foi alterado.
 - **v1.6 — 14/10/2026 (linha editorial v1.5).** @content-strategist corrigiu `07-conteudo/linha-editorial.md` conforme a quarta passada do revisor (ganchos de P01, P10, P13 e P20, vocabulário do público, seção 1A, fontes de P19 a P22). Nenhum bloco do briefing foi alterado.
+- **v1.7 — 14/10/2026 (linha editorial v1.6).** @content-strategist alinhou `07-conteudo/linha-editorial.md` (seção 7, calendário, resumo, Amostra A, checklist) às peças do lote 1 depois da segunda passada do revisor sobre as peças; ajustes de poucas palavras nas peças; P20 fora do lote do RT. Nenhum bloco do briefing foi alterado.
 
 ## Fontes de partida (dadas pelo Rafael)
 - Instagram: https://www.instagram.com/grandcarebr/ (bloqueado sem login)
