@@ -1,6 +1,6 @@
 # Perguntas para a GrandCare
 
-13/10/2026 · @researcher · Base: `dossie.md` e as cinco frentes desta pasta
+13/10/2026 · @researcher · Base: `dossie.md` e as cinco frentes desta pasta · 14/10/2026: acrescentada a pergunta 39 (grupo G)
 
 Este arquivo tem duas partes. A **parte 1** traz as perguntas que só a GrandCare responde, agrupadas e numeradas em sequência; cada uma diz o que a resposta destrava. A **parte 2** traz as correções que a GrandCare deveria fazer já, antes de qualquer campanha nova, porque hoje expõem a empresa ou travam peças.
 
@@ -138,6 +138,11 @@ Destrava: o histórico do briefing e evita repetir o que falhou.
 
 **38. (P3)** Há meta de novos contratos por mês e capacidade de equipe para absorvê-los?
 Destrava: as metas do briefing e o limite de quanto tráfego faz sentido comprar.
+
+### G. Acrescentadas em 14/10/2026
+
+**39. (P2)** A GrandCare faz introdução gradual da cuidadora quando o idoso recusa ajuda? Como é feita, e há um caso real que possa ser contado com autorização?
+Destrava: a objeção "minha mãe não aceita gente estranha em casa" (objeção 5 do avatar) e o Momento B; a versão do post P12 que fala da GrandCare. Origem: pergunta sugerida no `02-avatar.md`, ainda não enviada à GrandCare.
 
 ---
 
