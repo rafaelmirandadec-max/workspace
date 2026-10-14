@@ -1,9 +1,9 @@
 # Linha editorial do Instagram — GrandCare (@grandcarebr)
 
-Versão 1.1 · 14/10/2026 · Responsável: @content-strategist · Pedido do Rafael Miranda: "Monte uma linha editorial da GrandCare". A v1.1 corrige a v1 conforme o parecer do `revisor` de 14/10/2026 (`revisoes/linha-editorial-2026-10-14.md`): bloqueios B1 a B4 e a maior parte dos avisos (os que não foram tratados estão no histórico, no fim do arquivo).
+Versão 1.2 · 14/10/2026 · Responsável: @content-strategist · Pedido do Rafael Miranda: "Monte uma linha editorial da GrandCare". A v1.1 corrigiu a v1 conforme o parecer do `revisor` de 14/10/2026 (`revisoes/linha-editorial-2026-10-14.md`). A v1.2 corrige os bloqueios N1 e N2 e os avisos da segunda passada (`revisoes/linha-editorial-2026-10-14-passada-2.md`); o que não foi tratado está no histórico, no fim do arquivo.
 Base: `00-briefing.md` (v1.1), `02-avatar.md`, `01-pesquisa/dossie.md`, frentes 1, 2 e 4, `01-pesquisa/perguntas-para-a-grandcare.md` e `revisoes/perguntas-para-a-grandcare-2026-10-13.md`. Método: skills `conteudo-organico` e `conformidade`. O `04-funil.md` e o `05-voz.md` não existem; o tom de voz e o destino dos posts são provisórios.
 
-**Status: v1.1, corrigida, a caminho da segunda leitura do `revisor`. Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico. Nicho de saúde regulada.**
+**Status: v1.2, corrigida, a caminho da conferência pontual do `revisor`. Nada daqui vai a público antes do `revisor` e da aprovação do enfermeiro responsável técnico. Nicho de saúde regulada.**
 
 Marcas: **FATO** (fonte lida), **PISTA** (a empresa falando de si ou trecho de busca), **SUPOSIÇÃO** (leitura minha, com o apoio dito), `[A PREENCHER]` (só a GrandCare ou o Rafael respondem; o número entre parênteses é o da pergunta em `perguntas-para-a-grandcare.md`), `[medir]`.
 
@@ -13,7 +13,7 @@ Marcas: **FATO** (fonte lida), **PISTA** (a empresa falando de si ou trecho de b
 
 O perfil trabalha para uma coisa: fazer a filha ou o filho que mora perto (perfil 1) reconhecer a própria situação, salvar e compartilhar o que ensina, e chegar ao primeiro contato já sabendo o que perguntar a uma empresa de cuidadoras, a GrandCare inclusive. O filho que mora longe (perfil 2) vem em segundo, com dois posts próprios por mês. A linha tem seis pilares, e o centro dela é o que o público pede e quase nenhum concorrente local ensina: perguntar antes de pagar o que acontece quando a cuidadora falta, quem avisa, quem responde pelo caso e o que está no contrato. Como a regra de reposição, o modelo de contratação, o preço e as provas da GrandCare ainda não foram respondidos, **todo post afirma o que o público deve perguntar, nenhum afirma o que a GrandCare entrega**. Quando as respostas chegarem, os posts de Confia passam a mostrar a resposta da GrandCare; até lá, mostram a pergunta.
 
-Duas travas pesam mais que o resto. A primeira é o Coren do Edemilson (pergunta 27): sem número e categoria, nenhum post com enfermagem pode sair, e o nome e a bio atuais do perfil (que trazem "RT") não podem continuar. Enquanto não houver Coren, a saída é tirar "RT - Edemilson A." do nome e a linha de "RT" da bio (seção 9). A segunda é o destino do link da bio: hoje ele leva a um formulário que a pesquisa apontou como problema de LGPD e de Pixel. Recomendo não mandar tráfego novo para lá enquanto não for corrigido. A terceira trava é o que já está no ar (vídeos de anúncio e posts antigos): a seção 13 recomenda pausar e arquivar alguns antes da primeira publicação nova. Tudo isso é recomendação; a decisão é do Rafael.
+Três travas pesam mais que o resto. A primeira é o Coren do Edemilson (pergunta 27): sem número e categoria, nenhum post com enfermagem pode sair, e recomendo que o nome e a bio atuais do perfil (que trazem "RT") não continuem. Enquanto não houver Coren, a saída é tirar "RT - Edemilson A." do nome e a linha de "RT" da bio (seção 9). A segunda é o destino do link da bio: hoje ele leva a um formulário que a pesquisa apontou como problema de LGPD e de Pixel. Recomendo não mandar tráfego novo para lá enquanto não for corrigido. A terceira trava é o que já está no ar (vídeos de anúncio e posts antigos): a seção 13 recomenda pausar e arquivar alguns antes da primeira publicação nova. Tudo isso é recomendação; a decisão é do Rafael.
 
 ---
 
@@ -74,12 +74,12 @@ Cada etapa tem uma entrega só. Não há linha de base medida; as metas numéric
 
 ## 4. Regras de redação
 
-Valem para todo post, legenda, Story, comentário e direct. A base é a skill `conformidade`, o Bloco 9 e o Bloco 10 do briefing, `02-avatar.md` e o parecer do `revisor` de 13/10/2026. É lista de pontos de atenção, não parecer jurídico; artigos que cito foram conferidos pelo `revisor` no texto oficial em 13/10/2026 (parecer em `revisoes/`) e voltam ao `revisor` antes de ir para legenda.
+Valem para todo post, legenda, Story, comentário e direct. A base é a skill `conformidade`, o Bloco 9 e o Bloco 10 do briefing, `02-avatar.md` e o parecer do `revisor` de 13/10/2026. É lista de pontos de atenção, não parecer jurídico; artigos que cito foram conferidos pelo `revisor` no texto oficial em 13/10/2026 (os arts. 2º, 3º, 4º, 5º e 9º da Cofen 554/2017 foram reabertos em 14/10/2026, sem mudança de texto; pareceres em `revisoes/`) e voltam ao `revisor` antes de ir para legenda.
 
 ### Obrigatório
 
 1. **Passar pelo `revisor` e pela aprovação do enfermeiro responsável técnico antes de publicar.** Em nicho regulado, sempre. Para tema jurídico (vínculo trabalhista, obrigação de sustento, direito ao plano), também pelo advogado (pergunta 30).
-2. **Post que fala de enfermagem, ou tem o enfermeiro à câmera:** nome, número de inscrição no Coren-SC e categoria do profissional, na legenda e, em vídeo, na tela (Cofen 554/2017, art. 3º). Hoje: Edemilson Albarnas, enfermeiro, Coren-SC `[A PREENCHER]` (27). Sem o número, o post não sai. **Isto é uma leitura, não certeza:** leio que o Coren é exigido nos posts que mencionam enfermagem. Mas o art. 2º, I, define anúncio como a comunicação ao público de atividade profissional "de iniciativa, participação e/ou anuência do profissional de enfermagem", e o perfil se chama "GrandCare | RT - Edemilson A.". Pode-se ler, então, que o perfil inteiro é anúncio de enfermagem. Por isso a regra do método, até haver Coren, é tirar "RT" do nome e da bio, e todas as pautas liberadas dependem disso. A leitura foi submetida ao RT; na dúvida dele, o Coren-SC responde (art. 5º da mesma norma). Texto do artigo 3º lido pelo `revisor` no site do Cofen em 14/10/2026.
+2. **Post que fala de enfermagem, ou tem o enfermeiro à câmera:** nome, número de inscrição no Coren-SC e categoria do profissional, na legenda e, em vídeo, na tela (Cofen 554/2017, art. 3º). Hoje: Edemilson Albarnas, enfermeiro, Coren-SC `[A PREENCHER]` (27). Sem o número, o post não sai. **Isto é uma leitura, não certeza:** leio que o Coren é exigido nos posts que mencionam enfermagem. Mas o art. 2º, I, define anúncio como a comunicação ao público de atividade profissional "de iniciativa, participação e/ou anuência do profissional de enfermagem", e o perfil se chama "GrandCare | RT - Edemilson A.". Pode-se ler, então, que o perfil inteiro é anúncio de enfermagem. Por isso a regra do método, até haver Coren, é tirar "RT" do nome e da bio, e todas as pautas liberadas dependem disso. **Tirar "RT" só reduz a ligação visível com o enfermeiro; o risco da leitura do art. 2º, I não depende da sigla**, porque o perfil é de uma empresa de propriedade dele. O enquadramento continua sendo decisão do RT e do Coren-SC, e o rótulo "pode publicar" já pressupõe essa resposta. A leitura será submetida ao RT antes da primeira publicação; na dúvida dele, ele consulta o Coren-SC (art. 5º da mesma norma). Texto do artigo 3º lido pelo `revisor` no site do Cofen em 14/10/2026.
 3. **CNPJ (43.946.737/0001-04, FATO, Receita) no campo de informações do negócio, não na bio** (a bio tem limite de 150 caracteres). A linha de responsável técnico só entra na bio quando houver o número do Coren, e sem a sigla "RT" (seção 9). Sugestão do método, não exigência que eu tenha conferido.
 4. **Em tema de saúde, falar da situação e da causa em terceira pessoa:** "muitas famílias", "quem cuida", "a pessoa". Não diagnosticar nem afirmar a condição de quem lê.
 5. **Afirmação técnica ou clínica fica marcada `[validar com o RT]` até o Edemilson aprovar por escrito.** Isso vale para todas as pautas que falam de procedimento, medicação, demência e alta.
@@ -88,6 +88,8 @@ Valem para todo post, legenda, Story, comentário e direct. A base é a skill `c
 8. **Material gratuito entregue sem pedir dado de saúde.** O checklist vai por direct, sem formulário. Se for coletar e-mail ou telefone, consentimento claro para contato (LGPD). Nenhum pedido de sintoma, diagnóstico ou remédio em uso, em comentário, direct ou caixinha.
 9. **Imagens:** mãos, objetos, ilustração, texto na tela, o enfermeiro de jaleco com autorização dele. Nada de paciente identificável, de idoso com demência, nem de foto de banco que sugira um paciente real. A origem das imagens dos vídeos atuais está em aberto (pergunta 32).
 10. **Uma chamada por post.** Os pilares listam mais de um próximo passo possível; cada post usa um só, o que a seção 7 indica. Em post com o Edemilson à câmera, a chamada é de conteúdo (salvar), nunca de contratação (ver P17 e P18).
+11. **Resposta-padrão a comentário ou direct com dado de saúde de terceiro** (relato com diagnóstico, remédio ou situação clínica de uma pessoa, inclusive na chamada de P12 e nas caixinhas). Não responder o caso, não repostar o relato, não guardar o conteúdo em CRM nem em planilha. Resposta sugerida: "Obrigado por contar. Por aqui não conseguimos orientar um caso específico; a equipe de saúde que acompanha é quem pode avaliar." Se a pessoa colocou nome ou foto de terceiro, pedir ao RT e ao Rafael que decidam se o comentário fica visível. O comentário que o seguidor publica é dele; o perfil não o transforma em conteúdo sem autorização.
+12. **Resposta-padrão a "quanto custa?" e "vocês fazem isso?"** Não responder com afirmação sobre a operação (preço, prazo, reposição, serviço, cidade, horário). Enquanto as respostas das perguntas 5, 8, 12, 13, 14, 15 e 19 não existirem, a resposta é só: "Obrigado pela pergunta. Essa informação não passamos por comentário." Quando as respostas existirem e o RT as aprovar, a resposta encaminha ao canal oficial de contato (telefone e WhatsApp definidos na pergunta 3), sem número no comentário. Essa resposta vale para todo post, inclusive os "pode publicar".
 
 ### Proibido
 
@@ -145,7 +147,7 @@ Seis pilares. Cada um tem um cartão com os campos do método. As pautas da seç
 - Etapa: Conhece, com chegada em Confia.
 - Para quem: todos os perfis; Momento A (alta); nível 2 a 3.
 - O que é: a diferença entre cuidador e técnico de enfermagem em linguagem simples, e por que sonda, curativo e medicação injetável não são do cuidador (Coren-SC, Parecer 002/2015, FATO conforme frente 5). A voz é a do Edemilson.
-- Por que existe: autocomplete "cuidador de idosos x técnico de enfermagem", "pode aplicar insulina", "pode fazer curativo", "precisa de coren" (FATO). A GrandCare diz oferecer cuidador e enfermagem (PISTA, o que o site diz; o serviço real depende da pergunta 12), mas isso não a diferencia: Ravivare (enfermeiros supervisionam), Suavitate (técnicos e enfermeiros), Zathos (fundada por enfermeira) e Anjos da Guarda também têm enfermagem (dossiê e parecer do `revisor` de 14/10/2026). A frase "metade da praça só tem cuidador" está no dossiê e no avatar, mas não bate com essa lista: fica fora dos posts (sem fonte). O que talvez diferencie é mostrar o enfermeiro que responde pelo caso: SUPOSIÇÃO, apoiada na leitura dos concorrentes (poucas empresas locais mostram esse profissional); a testar com a primeira leitura logada dos perfis.
+- Por que existe: autocomplete "cuidador de idosos x técnico de enfermagem", "pode aplicar insulina", "pode fazer curativo", "precisa de coren" (FATO). A GrandCare diz oferecer cuidador e enfermagem (PISTA, o que o site diz; o serviço real depende da pergunta 12), mas isso não a diferencia: Ravivare (enfermeiros supervisionam), Suavitate (técnicos e enfermeiros), Zathos (fundada por enfermeira) e Anjos da Guarda também têm enfermagem (frente 2 e dossiê; no caso de Anjos da Guarda, pelo nome da empresa e das fichas, não por descrição de serviço lida). A frase "metade da praça só tem cuidador" está no dossiê e no avatar, mas não bate com essa lista: fica fora dos posts (sem fonte). O que talvez diferencie é mostrar o enfermeiro que responde pelo caso: SUPOSIÇÃO, apoiada na leitura dos concorrentes (poucas empresas locais mostram esse profissional); a testar com a primeira leitura logada dos perfis.
 - Formato: Reels com o Edemilson, carrossel.
 - Cuidado: **conteúdo de enfermagem, leva nome, Coren e categoria (pendência 27).** Afirmação técnica validada por ele. Não citar o Parecer antes de o `revisor` reabrir o texto. "Insulina" vira "medicação injetável".
 - Próximo passo: salvar; pedir o checklist.
@@ -224,7 +226,7 @@ Gancho (capa): "Quanto custa uma cuidadora? Depende de seis coisas. Quais?"
 Conteúdo: horas por dia, dia útil ou fim de semana, noite, nível de dependência, cuidador ou enfermagem, empresa ou contratação direta. Sem número da GrandCare e sem tabela de terceiros. O último slide sugere perguntar, em qualquer empresa, o que está incluído no valor.
 Chamada: salvar.
 Fonte: autocomplete "quanto custa uma cuidadora de idosos" (por dia, por mês, à noite, 24 horas); a busca de preço é a mais disputada.
-Situação: **pode publicar assim que o nome e a bio estiverem corrigidos**, sem preço. A versão com a faixa de preço da GrandCare depende da pergunta 15 e é outra pauta.
+Situação: **depende de resposta: 15 e 19, 27 e validação do RT.** Motivo, em uma frase: o fator "cuidador ou enfermagem" é menção a enfermagem (leva Coren, e sem o número o post não sai), e um post sobre preço leva o seguidor a perguntar "e quanto custa na GrandCare?", pergunta que depende da 15 (preço) e da 19 (o que está incluído). Por isso P03 saiu de "pode publicar" e da semana 1: a opção mais segura foi não deixar liberada uma pauta que a própria definição acima exclui. O tema preço exige conferir, antes de publicar, a resposta da GrandCare a "quanto custa?" e a resposta-padrão da seção 4 (item 12). Versão que poderia sair antes: sem o fator "cuidador ou enfermagem" (cinco fatores, capa ajustada) e sem o último slide, ainda dependente de 15 e 19. A faixa de preço da GrandCare é outra pauta e depende da 15.
 
 **P04 · O cuidador pode cozinhar e limpar a casa?**
 Etapa Conhece · Perfil 1 · Reels
@@ -342,7 +344,7 @@ Chamada: salvar. Se o Edemilson aparecer à câmera, vale o mesmo cuidado de P17
 Fonte: critério "essa pessoa sabe o que está fazendo?" (objeção 4); M3 (PISTA).
 Situação: **depende de resposta: 10 e 11** (cuidadora fixa e preparo) e 27.
 
-**Resumo.** Podem sair assim que o nome e a bio estiverem corrigidos, com `revisor` e RT: P01, P02, P03, P04, P10, P12 e P14 (sete). Dependem de resposta (onze): P05 (30, 6), P06 (27, 12, RT), P07 (27, RT), P08 (16, 17, 18), P09 (5, 8, 9, 27), P11 (9, 8, 14), P13 (27, RT), P15 (5, 8, RT), P16 (27, 28, 5, 8, 10, 16, 17, 18, 19), P17 (27, 12, 13, 14, 28) e P18 (10, 11, 27).
+**Resumo.** Podem sair assim que o nome e a bio estiverem corrigidos, com `revisor` e RT: P01, P02, P04, P10, P12 e P14 (seis). Dependem de resposta (doze): P03 (15, 19, 27, RT), P05 (30, 6), P06 (27, 12, RT), P07 (27, RT), P08 (16, 17, 18), P09 (5, 8, 9, 27), P11 (9, 8, 14), P13 (27, RT), P15 (5, 8, RT), P16 (27, 28, 5, 8, 10, 16, 17, 18, 19), P17 (27, 12, 13, 14, 28) e P18 (10, 11, 27).
 
 **Ordem pelo nível de consciência no perfil 2:** P10 (nível 2) antes de P09 (nível 3 a 4). P09 só entra quando as respostas chegarem.
 
@@ -435,19 +437,22 @@ Legenda na tela, palavra por palavra, por blocos de 3 a 6 palavras:
 1. "Pais em outra cidade:"
 2. "três perguntas"
 3. "antes de contratar."
-4. "1. Como fico sabendo"
+4. "Primeira: como eu fico sabendo"
 5. "o que aconteceu no plantão?"
-6. "Peça para ver o relato."
-7. "2. Se a cuidadora não puder ir,"
-8. "quem me avisa e quando?"
-9. "Quem vem no lugar?"
-10. "Peça por escrito."
-11. "3. Quem responde pelo caso?"
-12. "Um nome, um número"
-13. "e a profissão da pessoa."
-14. "Salve este vídeo"
-15. "e leve as três perguntas"
-16. "para a conversa com a empresa."
+6. "Peça para ver como é o relato:"
+7. "por escrito ou por áudio,"
+8. "e em que horário chega."
+9. "Segunda: se a cuidadora"
+10. "não puder ir, quem me avisa,"
+11. "com quanto tempo de antecedência,"
+12. "e quem vem no lugar?"
+13. "Peça a resposta por escrito."
+14. "Terceira: quem responde pelo caso?"
+15. "Um nome, um número para ligar"
+16. "e a profissão da pessoa."
+17. "Salve este vídeo"
+18. "e leve as três perguntas"
+19. "para a conversa com a empresa."
 
 Legenda do post:
 "Quem está longe decide com menos informação. Estas três perguntas valem para qualquer empresa de cuidadoras e servem para comparar as respostas de cada uma. Salve para a hora da conversa.
@@ -521,7 +526,7 @@ Riscos: laranja a vermelho. Vermelho se o post sair e a GrandCare não apresenta
 
 ### Nome e bio do perfil (proposta; limite de 150 caracteres)
 
-Condição de todas as pautas liberadas: o nome e a bio precisam estar corrigidos. Enquanto não houver Coren (pergunta 27), tirar "RT - Edemilson A." do nome e a linha de "RT" da bio. A razão está na seção 4, item 2, e é uma leitura da Cofen 554/2017, não certeza.
+Condição de todas as pautas liberadas: o nome e a bio precisam estar corrigidos. Enquanto não houver Coren (pergunta 27), tirar "RT - Edemilson A." do nome e a linha de "RT" da bio. A razão está na seção 4, item 2, e é uma leitura da Cofen 554/2017, não certeza. Corrigir nome e bio reduz a ligação visível com o enfermeiro, mas não resolve sozinho: o perfil é de uma empresa de propriedade dele, e o enquadramento é decisão do RT e do Coren-SC.
 
 **Nome do perfil (provisório):** `GrandCare`
 
@@ -558,7 +563,7 @@ Campos fixos: categoria "Serviços de saúde" ou equivalente `[A PREENCHER]`; CN
 
 Cada destaque tem capa em tipografia, sem foto de paciente.
 
-1. **Antes de contratar.** P03 e P04 (em Stories) e, depois, P16 e o checklist. Situação: P03 e P04 saem com o nome e a bio corrigidos; P16 depende de 27, 28 e das respostas.
+1. **Antes de contratar.** P04 (em Stories) e, depois, P03, P16 e o checklist. Situação: P04 sai com o nome e a bio corrigidos; P03 depende de 15, 19 e 27; P16 depende de 27, 28 e das respostas.
 2. **Quem responde pelo caso.** Edemilson Albarnas, enfermeiro, nome e Coren-SC na tela. Trajetória (anos de profissão, UTI) só com a versão única da pergunta 27. Sem "especialista". Depende das mesmas respostas.
 3. **Como funciona.** A avaliação inicial com o enfermeiro, as etapas até o primeiro plantão, o que a família recebe. Depende das perguntas 12, 13, 14, 10 e 11.
 4. **Longe de casa.** P10 e, depois das perguntas 5, 8, 9 e 27, a P09 e, depois da 9, a P11. P09 sai do destaque até as respostas.
@@ -571,23 +576,22 @@ Cada destaque tem capa em tipografia, sem foto de paciente.
 
 ## 10. Calendário de quatro semanas
 
-Três posts de feed por semana, doze no mês, mais os Stories da seção 6. Só entram no calendário as pautas que podem sair com o nome e a bio corrigidos (P01, P02, P03, P04, P10, P12 e P14) e, a partir da semana 3, as que dependem do Coren e de respostas, com a condição escrita ao lado. Pauta que depende de resposta não completa semana vazia.
+O plano é de três posts de feed por semana, doze no mês, mais os Stories da seção 6. Com P03 fora da semana 1, a semana 2 fica com dois posts e o mês, com onze, até as respostas chegarem; P03 entra assim que 15, 19 e 27 existirem. Só entram no calendário as pautas que podem sair com o nome e a bio corrigidos (P01, P02, P04, P10, P12 e P14) e, a partir da semana 3, as que dependem do Coren e de respostas, com a condição escrita ao lado. Pauta que depende de resposta não completa semana vazia.
 
 A primeira publicação só sai depois do nome e da bio corrigidos, do `revisor` e do RT. Recomendo também que ela espere as ações da seção 13 (pausar o M2, arquivar posts antigos); isso depende da decisão do Rafael.
 
 **Semana 1 (o trabalho antes da publicação é corrigir nome e bio, produzir o modelo de escala e passar pelo `revisor` e pelo RT)**
-- Conhece · P03 Quanto custa e o que muda o valor (carrossel). Perfil principal 1.
 - Conhece · P10 Como acompanhar os pais de outra cidade (carrossel). Perfil 2, nível 2.
 - Gosta · P01 Sobra para um só (Reels). Perfil 1.
+- Gosta · P02 A escala da família no papel (carrossel com o modelo). Perfil 1. Usa o mesmo modelo de P01.
 - Stories: caixinha "O que você gostaria de saber antes de contratar?" e enquete "Quem cuida na sua família hoje?" (opções gerais, sem pedir dado de saúde).
 - Produção: o modelo de escala em uma página (ativo de P01 e P02).
 
 **Semana 2**
-- Gosta · P02 A escala da família no papel (carrossel com o modelo). Perfil 1.
 - Gosta · P12 A mãe não aceita gente estranha em casa (Reels). Perfil principal 1. Com validação do RT.
 - Gosta · P14 Um fim de semana por mês (Reels ou carrossel). Perfil 1.
 - Stories: respostas às dúvidas da caixinha da semana 1. Nada de caso clínico.
-- Cobrar o Rafael e a GrandCare: Coren (27), registros (28), 5, 8, 9, 10, 16, 17, 18 e 19, advogado (30), e a 39 (introdução gradual).
+- Cobrar o Rafael e a GrandCare: Coren (27), registros (28), 5, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18 e 19, advogado (30), e a 39 (introdução gradual); a 6 também, se P05 entrar. A 12 destrava P06; a 12, 13 e 14, P17 e P11; a 15 e a 19, P03.
 
 **Semana 3 (supondo o Coren recebido até o fim da semana 2)**
 - Conhece · P06 Cuidador ou técnico de enfermagem, com o Edemilson (Reels). Precisa de 27, 12 e RT.
@@ -603,9 +607,9 @@ A primeira publicação só sai depois do nome e da bio corrigidos, do `revisor`
 - Confia · P17 Como é a avaliação inicial com o enfermeiro (Reels). Precisa de 27, 12, 13, 14 e 28, e sem convite para contratar no vídeo. Se as respostas não chegarem, entra P15 (se 5 e 8 chegarem, com RT) ou a pauta da reserva que estiver liberada.
 - Stories: balanço da caixinha e enquete sobre o tema que mais pediram.
 
-**Reserva** (nenhuma pauta liberada sobra; entra quando as respostas chegarem, a qualquer momento): P15 (5, 8, RT), P08 (16, 17, 18), P11 (9, 8, 14), P05 (30, 6), P13 (27, RT), P18 (10, 11, 27).
+**Reserva** (nenhuma pauta liberada sobra; entra quando as respostas chegarem, a qualquer momento): P03 (15, 19, 27, RT), P15 (5, 8, RT), P08 (16, 17, 18), P11 (9, 8, 14), P05 (30, 6), P13 (27, RT), P18 (10, 11, 27).
 
-**Distribuição resultante (referência do método, não medida), se tudo entrar:** Conhece 6 (P03, P10, P06, P07, P04, P09), Gosta 4 (P01, P02, P12, P14), Confia 2 (P16, P17). Se P15 entrar no lugar de P17: Conhece 7, Gosta 4, Confia 1. O perfil 1 está em quase todos os posts; o perfil 2 tem dois posts próprios (P10 na semana 1, P09 na semana 4) e divide P03 e P12 com o perfil 1.
+**Distribuição resultante (referência do método, não medida), se tudo entrar:** Conhece 5 (P10, P06, P07, P04, P09), Gosta 4 (P01, P02, P12, P14), Confia 2 (P16, P17): onze posts. Com P03 na reserva, entrando como décimo segundo, Conhece 6, o que fecha 6, 4 e 2. Se P15 entrar no lugar de P17: Conhece 6, Gosta 4, Confia 1. O perfil 1 está em quase todos os posts; o perfil 2 tem dois posts próprios (P10 na semana 1, P09 na semana 4) e divide P12 com o perfil 1.
 
 **Segundo mês:** concentrar nos dois pilares que melhor responderem em salvamentos, compartilhamentos e comentários com relato; abrir os posts de Confia que dependem das respostas (P08, P11, P18); começar o destaque de Preços e formatos só com a pergunta 15 e a 16.
 
@@ -631,14 +635,14 @@ Não há linha de base: tudo o que segue é `[medir]` e se mede da primeira publ
 
 ## 12. Pendências e o que a falta delas muda
 
-- `[A PREENCHER] (27)` Coren-SC, categoria e título do Edemilson, anos de profissão e de UTI numa versão só. **Sem isso, nenhum post com enfermagem ou com o Edemilson à câmera sai** (P06, P07, P13, P16, P17, P18, e P09, P11 se citarem o enfermeiro responsável), a bio fica na versão provisória, sem a linha do enfermeiro, e o nome do perfil fica sem "RT". A linha perde o ativo que a diferencia. É a pendência mais barata de resolver e a que mais destrava.
+- `[A PREENCHER] (27)` Coren-SC, categoria e título do Edemilson, anos de profissão e de UTI numa versão só. **Sem isso, nenhum post com enfermagem ou com o Edemilson à câmera sai** (P03, P06, P07, P13, P16, P17, P18, P09, e P11 se citar o enfermeiro responsável), a bio fica na versão provisória, sem a linha do enfermeiro, e o nome do perfil fica sem "RT". A linha perde o ativo que a diferencia. É a pendência mais barata de resolver e a que mais destrava.
 - `[A PREENCHER] (28)` Alvará, CNES e Plano de Atenção Domiciliar. Sem eles, o checklist P16 perde o slide 4 ou a GrandCare fica exposta a ele; "home care" não pode ser usado como prova de regularidade.
 - `[A PREENCHER] (5, 8)` Regra de reposição e aviso. Sem ela, P09 e P15 não saem e nenhum post diz o que a GrandCare faz na falta. Os posts de Confia continuam sendo "o que perguntar" e perdem a segunda metade ("e a nossa resposta é esta").
 - `[A PREENCHER] (9)` Relato do plantão e canal direto. Sem ela, a P09 e a P11 não saem e o M1, que já roda no Meta, afirma o que não está confirmado.
-- `[A PREENCHER] (10, 11, 39)` Pessoa fixa, participação da família, preparo e introdução gradual (a 39 é a pergunta nova, acrescentada em 14/10/2026 a `perguntas-para-a-grandcare.md`; ainda não foi enviada à GrandCare). Sem elas, P12 e P18 ficam só como orientação geral.
+- `[A PREENCHER] (10, 11, 39)` Pessoa fixa, participação da família, preparo e introdução gradual (a 39 é a pergunta nova, acrescentada em 14/10/2026 a `perguntas-para-a-grandcare.md`; ainda não foi enviada à GrandCare). Sem elas, P12 sai só como orientação geral; P18 não existe, porque descreve o processo da casa.
 - `[A PREENCHER] (6)` Modelo de contratação, e `(30)` advogado. Sem isso, P05 sai sem a parte trabalhista, a frase do "foco do trabalho" não entra em P04 e nenhuma frase fala de encargos.
-- `[A PREENCHER] (15, 16, 17, 18, 19)` Formatos, preço, cobrança, reembolso, cláusula de ficar com a cuidadora, o que está incluído. Sem elas, P08 (16, 17, 18) e P16 não saem e o destaque de Preços não existe.
-- `[A PREENCHER] (12, 13, 14)` Serviços prestados, cidades com equipe, horário. Sem elas, o destaque "Como funciona" e a P17 não saem, e o Story de Compra não existe.
+- `[A PREENCHER] (15, 16, 17, 18, 19)` Formatos, preço, cobrança, reembolso, cláusula de ficar com a cuidadora, o que está incluído. Sem elas, P03 (15, 19), P08 (16, 17, 18) e P16 não saem e o destaque de Preços não existe.
+- `[A PREENCHER] (12, 13, 14)` Serviços prestados, cidades com equipe, horário. Sem elas, o destaque "Como funciona" e a P17 não saem (a 12 também trava a P06), e o Story de Compra não existe.
 - `[A PREENCHER] (24)` Autorização das avaliações do Google e do vídeo do Sr. Carlos. Sem ela, nenhuma prova de terceiros e nenhum destaque de avaliações, e o Reels do Sr. Carlos fica arquivado (seção 13, se o Rafael decidir).
 - `[A PREENCHER] (32)` Origem das imagens dos vídeos. Muda o que se pode reaproveitar dos posts antigos.
 - `[A PREENCHER]` Capacidade de produção: quem grava, quem edita, horas do Edemilson. Muda a frequência. O plano assume 3 posts por semana (SUPOSIÇÃO).
@@ -649,7 +653,7 @@ Não há linha de base: tudo o que segue é `[medir]` e se mede da primeira publ
 
 ## 13. Decisões que dependem do Rafael
 
-O Rafael aprovou apenas a correção desta linha. Ele **ainda não decidiu** pausar o M2 nem arquivar posts antigos: tudo o que está abaixo é recomendação, não ação feita. Origem do que se sabe sobre os vídeos e os posts: **trechos de busca e transcrições das frentes 1 e 3 e do avatar (PISTA)**. Ninguém do squad abriu o Instagram nem assistiu aos vídeos. **Antes de decidir, o Rafael precisa abrir cada vídeo e cada post logado, no próprio perfil e no Gerenciador de Anúncios**, e conferir o texto e o que aparece na tela.
+Esta seção é recomendação; a decisão é do Rafael. Nenhum item abaixo foi decidido nem executado, inclusive pausar o M2 e arquivar posts antigos. Origem do que se sabe sobre os vídeos e os posts: **trechos de busca e transcrições das frentes 1 e 3 e do avatar (PISTA)**. Ninguém do squad abriu o Instagram nem assistiu aos vídeos. **Antes de decidir, o Rafael precisa abrir cada vídeo e cada post logado, no próprio perfil e no Gerenciador de Anúncios**, e conferir o texto e o que aparece na tela.
 
 1. **Link da bio:** manter o formulário (e corrigi-lo antes de qualquer post de Confia) ou trocar por um caminho direto provisório. Recomendo trocar (seção 9).
 2. **Quem opera o portal, o CRM e o Pixel** (relação com a Androtech/Androclinic, pergunta 1, `[A PREENCHER] (Rafael)`), porque define se a origem Instagram é registrada.
@@ -675,8 +679,8 @@ O Rafael aprovou apenas a correção desta linha. Ele **ainda não decidiu** pau
 - [x] Pautas com fonte e situação (seção 7)
 - [x] Calendário dentro da capacidade assumida, marcada como `[A PREENCHER]` (seção 10)
 - [x] Conformidade aplicada: Cofen 554/2017, Coren-SC, RDC 917/2024, LGPD, CDC, política do Meta (seções 4, 5, 7, 8)
-- [x] Revisão do `revisor` de 14/10/2026 aplicada (bloqueios B1 a B4 e avisos); segunda leitura pendente
-- [ ] Passou pelo `revisor` (segunda leitura) e pelo RT: **ainda não**
+- [x] Revisão do `revisor` de 14/10/2026 aplicada (B1 a B4; na segunda passada, N1, N2 e os avisos A1, A2, A3, A4, A5, A8 e A9 em parte); conferência pontual pendente
+- [ ] Passou pelo `revisor` (conferência das linhas alteradas) e pelo RT: **ainda não**
 
 ---
 
@@ -684,3 +688,4 @@ O Rafael aprovou apenas a correção desta linha. Ele **ainda não decidiu** pau
 
 - **v1 — 14/10/2026.** Rascunho do @content-strategist.
 - **v1.1 — 14/10/2026.** Correção conforme o parecer do `revisor` (`revisoes/linha-editorial-2026-10-14.md`). B1: "pode publicar hoje" passa a "pode publicar assim que o nome e a bio estiverem corrigidos", só para P01, P02, P03, P04, P10, P12 e P14; P09 e P15 vão para "depende de resposta"; calendário refeito. B2: seção 13 reescrita como recomendação que depende da decisão do Rafael. B3: bio refeita, com versão provisória e versão para depois da 27. B4: frase de P01 trocada e legenda alinhada à fala. Avisos tratados: A1, A3, A4, A5 (perfil principal em cada pauta), A6, A7, A8 (marcas tiradas dos slides), A9, A10, A11, A12, A13, A14, A15 (nota em P05) e A17 (semana 3). Não tratados nesta versão: A2 (decisão de tom do `brand-architect`; usei o plural "muitas casas" no texto), A16 (caixinhas, directs e dado de saúde de terceiros) e A18 (jargão do método). Pergunta 39 (introdução gradual) acrescentada à lista de perguntas.
+- **v1.2 — 14/10/2026.** Correção conforme a segunda passada do `revisor` (`revisoes/linha-editorial-2026-10-14-passada-2.md`). N1: P03 passa de "pode publicar" para "depende de resposta" (15, 19, 27 e RT), porque cita enfermagem e leva a "e quanto custa na GrandCare?"; fica fora da semana 1, que passa a P10, P01 e P02, e entra na reserva; resumo da seção 7, calendário, distribuição, destaque 1 e pendências ajustados (seis "pode publicar", doze "depende"). N2: "a leitura será submetida ao RT"; a certeza da linha 16 virou recomendação; a abertura da seção 13 não atribui decisão ao Rafael. A1/A10: respostas-padrão na seção 4 (itens 11 e 12) para dado de saúde de terceiro e para "quanto custa?" e "vocês fazem isso?". A2: dito que o risco do art. 2º, I não depende da sigla "RT". Fonte de Anjos da Guarda no pilar 3 trocada. A3: legenda de P09 refeita contra a fala. A4: cobranças da semana 2 com 12, 13, 14 e 15 (e a 6 se P05 entrar). A5: seção 12 e data dos artigos alinhadas. A9: "três travas". Não tratados nesta versão: A1 em P04 (advogado ver o post inteiro) e P14/P10 (olhar do RT), A6 (perfil principal em P07, P13 e P17), A7 (risco de autopromoção do conteúdo todo em P17 e P18), repetição de "Em muitas" na legenda de P01, e o aviso ao `researcher` e ao `avatar-strategist` sobre "metade da praça só tem cuidador".
