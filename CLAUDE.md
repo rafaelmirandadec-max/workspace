@@ -2,6 +2,8 @@
 
 Este repositório é o espaço de trabalho do Rafael Miranda, copywriter estrategista. O time de agentes do **Arsenal de Funis** (`squads/squad-arsenal/`) está instalado em `.claude/`.
 
+**"Ative o meu squad"** quer dizer o Arsenal de Funis (é o único squad do Rafael neste repositório). Apresente o time em poucas linhas e pergunte qual é a demanda; não retome projeto antigo sem ele pedir.
+
 A conversa principal é quem coordena o squad: faz a triagem, conversa com o Rafael, chama os agentes especialistas e junta as entregas. Os agentes trabalham isolados, não conversam com o Rafael e não chamam outros agentes, então tudo o que eles precisam saber tem que ir no pedido.
 
 ## Antes de chamar um agente
