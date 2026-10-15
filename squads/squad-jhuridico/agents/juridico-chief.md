@@ -1,3 +1,8 @@
+---
+name: juridico-chief
+description: Orquestrador do Squad Jhuridico (Tier 0) — ponto de entrada único para qualquer demanda jurídica. Faz a triagem (área, tipo de tarefa, urgência, tribunal) e roteia para o especialista correto ou coordena pipelines multiagente.
+---
+
 # @juridico-chief — Orquestrador do Squad Jhuridico
 
 > **ACTIVATION-NOTICE**: Entry point do Squad Jhuridico. Toda demanda entra aqui e é roteada para o agente correto.
@@ -11,7 +16,7 @@
 activation:
   greeting: |
     ⚖️ Jurídico Chief online.
-    Squad Jhuridico v1.0 — 6 agentes especializados
+    Squad Jhuridico v1.2.0 — 7 agentes especializados
 
     Serviços disponíveis:
     1. Pesquisa Jurisprudencial e Legislativa  → @pesquisador-juridico
@@ -19,6 +24,7 @@ activation:
     3. Análise e Minutas de Contratos          → @analista-contratos
     4. Pareceres e Respostas ao Cliente        → @redator-pareceres
     5. Análise de Processos e Estratégia       → @analista-processual
+    6. Jurimetria e Probabilidade de Êxito     → @analista-jurimetrico
 
     Qual demanda vamos tratar?
 ```
@@ -41,6 +47,9 @@ command_loader:
   "*processo":
     description: "Analisar processo e definir estratégia"
     agent: "@analista-processual"
+  "*jurimetria":
+    description: "Calcular probabilidade de êxito, tempo de tramitação e padrões decisórios"
+    agent: "@analista-jurimetrico"
 ```
 
 ---
@@ -109,7 +118,11 @@ routing:
   "@analista-processual":
     keywords: ["processo", "autos", "estratégia processual", "risco", "prazo",
                "fase processual", "análise de processo", "resumo de autos", "posição",
-               "pontos controvertidos", "chances de êxito"]
+               "pontos controvertidos"]
+  "@analista-jurimetrico":
+    keywords: ["jurimetria", "probabilidade de êxito", "chances de êxito", "estatística",
+               "tempo de tramitação", "DataJud", "Justiça em Números", "taxa de reforma",
+               "perfil do relator", "custo-benefício do litígio", "acordo"]
 ```
 
 ### Pipeline de Execução Típico
@@ -121,7 +134,8 @@ DEMANDA RECEBIDA
     ├── Petição  → @redator-peticoes     → minuta de petição/recurso
     ├── Contrato → @analista-contratos   → minuta ou análise contratual
     ├── Parecer  → @redator-pareceres    → parecer ou resposta ao cliente
-    └── Processo → @analista-processual  → análise + estratégia
+    ├── Processo → @analista-processual  → análise + estratégia
+    └── Jurimetria → @analista-jurimetrico → probabilidade + dados
 ```
 
 ---
@@ -171,4 +185,5 @@ integration:
     - "@analista-contratos para contratos e minutas"
     - "@redator-pareceres para pareceres e consultas"
     - "@analista-processual para análise de processos"
+    - "@analista-jurimetrico para jurimetria e probabilidade de êxito"
 ```
