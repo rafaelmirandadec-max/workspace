@@ -817,4 +817,4 @@ Esta seção é recomendação; a decisão é do Rafael. Nenhum item abaixo foi 
   - V2 está no README (pendências 2 e 7).
   - Volta ao `revisor` só V1 (P14, slide 7 e legenda) e V5 (P01, legenda do post). Os demais avisos são de alinhamento.
 - **v1.7 + estudo de iscas alternativas, aguardando escolha — 14/10/2026.** Estudo em `07-conteudo/isca-alternativas.md`. Nenhuma outra parte desta linha nem das peças foi alterada.
-- **v1.7 + copys CGCC em arquivo à parte, aguardando revisor — 15/10/2026.** Arquivo: `07-conteudo/copys-cgcc.md`.
+- **v1.7 + copys CGCC v2 corrigidas, aguardando conferência — 15/10/2026.** Arquivo: `07-conteudo/copys-cgcc.md`.
