@@ -86,7 +86,7 @@ Rodapé da arte: **Morar longe é viver de notícia curta.**
 
 **Roteiro**
 - 0–3 s. Fala: "Quanto custa cuidar de um pai em casa?" Tela: Quanto custa cuidar / de um pai em casa?
-- 3–8 s. Fala: "Quase ninguém fez essa conta antes de precisar." Tela: Quase ninguém fez essa conta / antes de precisar.
+- 3–8 s. Fala: "Tem família que nunca fez essa conta antes de precisar." Tela: Tem família que nunca fez / essa conta antes de precisar.
 - 8–17 s. Fala: "Depois vem a rotina: a aposentadoria do pai entra, os filhos completam e, no fim do mês, alguém passa o cartão para fechar." Tela: Depois vem a rotina: / a aposentadoria do pai entra, / os filhos completam / e, no fim do mês, / alguém passa o cartão para fechar.
 - 17–24 s. Fala: "Tem família que só fala disso quando já apertou." Tela: Tem família que só fala / disso quando já apertou.
 - 24–34 s. Fala: "Falar de dinheiro nessa hora faz parte de cuidar. Saber o que a casa aguenta pagar, mês a mês, evita decisão na pressa." Tela: Falar de dinheiro nessa hora / faz parte de cuidar. / Saber o que a casa / aguenta pagar, mês a mês, / evita decisão na pressa.
@@ -130,7 +130,7 @@ Faz quem já segue sentir que alguém entende a casa dela. Volta, salva, manda p
 
 **Telas**
 1. Tem pai e mãe que pedem para ficar em casa. **Não querem sair do lugar deles.**
-2. Ficar em casa é um desejo antigo. Em casa, as coisas têm lugar, o dia tem hora e o café tem o gosto de sempre.
+2. Tem pai e mãe para quem ficar em casa vale muito. Em casa, as coisas têm lugar, o dia tem hora e o café tem o gosto de sempre.
 3. Tem família que tenta cuidar em casa pelo tempo que for possível. Cada uma tem seus motivos.
 4. **Enquete:** Seus pais já disseram que querem ficar em casa? [Sim] [Ainda não falamos disso]
 5. Qualquer que seja a resposta, falar cedo ajuda a família a escolher com calma.
@@ -154,7 +154,7 @@ Faz quem já segue sentir que alguém entende a casa dela. Volta, salva, manda p
 - 24–31 s. Fala: "Uma folha simples ajuda: o que a família espera, o que ficou combinado e o que ainda precisa de conversa." Tela: Uma folha simples ajuda: / o que a família espera, / o que ficou combinado / e o que ainda / precisa de conversa.
 - 31–35 s. Fala: "Envie para quem está perto de contratar." Tela: Envie para quem está / perto de contratar.
 
-**Legenda:** O mal-estar do primeiro dia quase sempre vem de um combinado que não existiu. Quem escreve antes conversa com mais calma depois.
+**Legenda:** O mal-estar do primeiro dia costuma vir de um combinado que não existiu. Quem escreve antes conversa com mais calma depois.
 **Chamada:** Envie para quem está perto de contratar.
 **Hashtags:** #CuidadoDeIdosos #CuidadoraDeIdosos #CuidadoEmCasa #Florianopolis
 
@@ -169,7 +169,7 @@ Faz quem já segue sentir que alguém entende a casa dela. Volta, salva, manda p
 Uma manhã boa para quem cuida, de longe ou de perto:
 quem chega já conhece a casa, e a sua mãe conhece quem chega.
 
-**Legenda:** Para muita família, o que mais acalma é a mesma pessoa, no mesmo horário, que já conhece o jeito da casa. Marque alguém que entenderia o valor disso.
+**Legenda:** Tem família para quem o que acalma é a mesma pessoa, no mesmo horário, que já conhece o jeito da casa. Marque alguém que entenderia o valor disso.
 **Chamada:** Marque quem entenderia.
 **Hashtags:** #CuidadoDeIdosos #CuidadoEmCasa #FamiliaECuidado #Florianopolis
 
