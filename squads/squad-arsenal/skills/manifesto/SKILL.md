@@ -45,7 +45,7 @@ O que muda em relação ao de convocação:
 - **Amplia em vez de filtrar:** "Não importa se você corre maratonas ou está só começando." A marca quer todo mundo que se reconhece na identidade.
 - **A última frase é o título ou o slogan:** "Você tem corrida na veia." / "…e você vai estar. [Keep Walking]".
 
-**Manifesto de convocação** (Wendell Carvalho "5 Liberdades", "Eu mereço", "Ou você domina o tempo" e "O Manifesto"; Cardoso Mundo "O renascimento"; "A Grande Mudança"; "Investimento Perfeito"; DevClub).
+**Manifesto de convocação** (Wendell Carvalho "5 Liberdades", "Eu mereço", "Ou você domina o tempo" e "O Manifesto"; Cardoso Mundo "O renascimento"; "A Grande Mudança"; "Investimento Perfeito").
 De 2 a 15 minutos, falado pelo especialista olhando para a câmera. Leva o público da dor até uma decisão e termina com o convite para um evento gratuito, com nome, data e o que a pessoa ganha. É o formato de anúncio de captação de lançamento.
 
 **Manifesto-credo ou juramento** ("Por uma empresa sem caos").
@@ -94,7 +94,7 @@ Todo manifesto é contra alguma coisa. O inimigo dá direção à raiva e tira o
 - **Um sistema:** a mídia alarmista, os falsos profetas, a escola que ensina Bhaskara e não ensina dinheiro, o chefe (5 Liberdades).
 - **Algo dentro da pessoa:** o cérebro preguiçoso que repete padrões de luta e fuga (A Grande Mudança).
 - **Uma ideia aceita:** a crença de que previsibilidade é segurança (Eu mereço).
-- **Uma mudança no mundo:** a revolução que vai substituir quem não se adaptar (DevClub, pelo título).
+- **Uma mudança no mundo:** a revolução que vai substituir quem não se adaptar (exemplo hipotético; o vídeo do DevClub não foi analisado).
 - **Uma indústria:** os "devoradores de atenção" que entregam pequenas doses de dopamina; "suas prisões já não têm paredes nem grades" (Ou você domina o tempo).
 - **Um sentimento coletivo:** o medo de tentar, de arriscar, de sonhar, do amor (O renascimento).
 
@@ -396,4 +396,4 @@ Recursos: elogio direto ("você é linda, poderosa, corajosa"), gancho do ano ("
 Cuidados: menciona ideação suicida sem indicar ajuda; promete "curar todas as suas feridas do passado".
 Lição: o vocabulário religioso funciona porque é a voz do especialista e a do público; num público laico, o mesmo texto afasta.
 
-**Ainda não analisados:** DevClub, "Descubra como sobreviver à revolução que vai te substituir"; Pedro Calabrez e Hermann Greb (arquivos no Drive, sem título visível). Quando houver transcrição, acrescente um cartão para cada um.
+A base de exemplos foi fechada pelo Rafael em 16/10/2026 com estes dez manifestos. Os vídeos do DevClub, de Pedro Calabrez e de Hermann Greb ficaram de fora por decisão dele. Novos exemplos entram como cartões nesta seção e com o texto em `exemplos.md`.
