@@ -7,13 +7,14 @@ O briefing completo, a pesquisa e as peças anteriores estão no Google Drive do
 
 ## Versões
 - **v0.1 — 16/10/2026.** Resumo criado pela coordenação para a demanda do manifesto do Novembro Azul.
+- **v0.2 — 16/10/2026.** Dado da SBU corrigido conforme o parecer do revisor (amostra de 1.500, não população).
 
 ## O que é
 Telemedicina de saúde sexual masculina: disfunção erétil (DE), ejaculação precoce (EP) e falta de libido. Consulta online por vídeo (R$ 196 ou R$ 197; os dois valores circulam, pendência 3), presencial em Alphaville/SP a confirmar, tratamento prescrito depois da consulta (FATO, briefing). Instagram @androclinic.saude, cerca de 59–60 mil seguidores. Cerca de 99% da aquisição é tráfego pago (PISTA, plano de 30 dias). Nicho regulado: saúde.
 
 ## Público principal para esta peça
 Perfil B: homem de 45 a 65 anos, na maioria casado, muitas vezes com hipertensão ou diabetes, que já tomou o remédio da farmácia e não resolveu (SUPOSIÇÃO do strategist, sem dado de base). Emoção dominante: vergonha que vira desconfiança; a mensagem deve tocar **alívio de ser entendido**, não esperança de cura. Valores: provedor e protetor da família; o silêncio faz parte do código ("cuidar de si é cuidar de quem depende dele").
-Dado com fonte: pesquisa da SBU de julho de 2024, 52% dos homens de 40 anos ou mais já tiveram dificuldade para manter a ereção (via Tribuna de Minas e TNH1).
+Dado com fonte (conferido pelo revisor em 16/10/2026 no comunicado da SBU de 09/07/2024, Portal da Urologia): 52% dos 1.500 participantes, homens acima de 40 anos ouvidos por aplicativo, responderam sim a "já falhou na hora H?". Pesquisa de 2023, divulgada em julho de 2024, financiada pelo Laboratório Adium. É a amostra, não a população: escrever "numa pesquisa da SBU com 1.500 homens acima de 40 anos, 52% disseram…".
 Linguagem do público: broxei, ereção fraca, perco a ereção, na hora H, azulzinho, tadala, "é só a idade", "será que é normal?", "vão me empurrar um pacote?".
 
 ## Big idea e mecanismo (decididos no documento de respostas)
