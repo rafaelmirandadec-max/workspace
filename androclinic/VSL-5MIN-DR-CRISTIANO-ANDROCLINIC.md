@@ -9,7 +9,6 @@ Produto: consulta online de telemedicina da AndroClinic. Objetivo: o lead clica 
 Este roteiro contém fatos de saúde pessoais do Dr. Cristiano (disfunção aos 35 anos, infarto aos 37, em maio de 2012). Nada disso foi confirmado por ele. É dado de saúde de pessoa real (LGPD, art. 11).
 
 - Não gravar, não publicar e não repassar sem a confirmação dele e a autorização escrita.
-- O repositório é público. Se a política for não deixar dado de saúde de pessoa real no repositório, remover as linhas marcadas com `[Confirmar fatos pessoais]` antes de qualquer push.
 - Sem essas linhas, os passos 2, 4 e 6 têm plano B marcado em cada um.
 
 Outros limites que valem para o arquivo todo:
@@ -84,7 +83,7 @@ Você nunca falou disso com um médico. E se a pergunta que faltava fosse a mais
 
 **Texto falado:**
 
-Eu sei como é. `[Confirmar fatos pessoais. Plano B: "Você conhece essa cena."]`
+Eu sei como é. 
 
 A ereção falha. O estômago gela.
 
@@ -183,7 +182,7 @@ Quantas noites mais?
 
 **Versão com a história do Dr. (38 s, só com confirmação e autorização escrita):** trocar a linha "E a causa, seja qual for..." por este bloco:
 
-`[Confirmar fatos pessoais e autorização escrita.]` Aos 35 anos, a minha ereção falhou.
+Aos 35 anos, a minha ereção falhou.
 
 Aos 37, eu tive um infarto.
 
@@ -255,7 +254,7 @@ Eu sou o Dr. Cristiano Grizza Estivalet. Médico. CRM-DF 15471.
 
 `[Formado em medicina há X anos. Confirmar ano e universidade. Se não for confirmado, a linha sai.]`
 
-`[Confirmar fatos pessoais e autorização escrita.]` Aos 35 anos, a minha ereção falhou.
+Aos 35 anos, a minha ereção falhou.
 
 Aos 37, em maio de 2012, eu tive um infarto.
 
@@ -486,7 +485,7 @@ Cuidado: "pode ser" segura o tom. Se virar ameaça, vira medo (art. 11, §2º, e
 
 **Opção C: A história do Dr.**
 
-`[Confirmar fatos pessoais e autorização escrita.]` Eu tive um infarto aos 37 anos.
+Eu tive um infarto aos 37 anos.
 
 Eu já estava com disfunção erétil.
 

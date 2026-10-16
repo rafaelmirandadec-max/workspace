@@ -59,7 +59,7 @@ Gancho: Dia 18 de outubro é o Dia do Médico. Hoje eu conto quando eu fui o pac
 
 Fala:
 
-`[Confirmar fatos pessoais, ordem e autorização escrita.]` Aos 35 anos, a minha ereção falhou.
+Aos 35 anos, a minha ereção falhou.
 
 Aos 37, eu tive um infarto.
 
