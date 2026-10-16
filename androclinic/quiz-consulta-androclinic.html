@@ -522,7 +522,10 @@ function calcularAreas(r){
 function montarUrgencia(r, areas){
   var itens = [];
   var s = r.saude || [], t = r.tentou || [];
-  var total = areas.reduce(function(acc, a){ return acc + a.pontos; }, 0);
+  /* Conta cada resposta uma vez só, mesmo quando ela aparece em duas áreas (ex.: sono ruim, diabetes). */
+  var vistos = {};
+  areas.forEach(function(a){ a.motivos.forEach(function(m){ vistos[m] = true; }); });
+  var total = Object.keys(vistos).length;
   var circ = s.indexOf('pressao') > -1 || s.indexOf('diabetes') > -1 || s.indexOf('colesterol') > -1;
   if (circ) itens.push('Pressão, diabetes e colesterol já pedem acompanhamento médico. Quando a ereção também muda, vale contar ao médico sem esperar.');
   if (r.tempo === '1a3a' || r.tempo === 'mais3a') itens.push('Isso já dura mais de um ano. Quanto mais tempo passa, mais o assunto pesa na cabeça e na relação.');

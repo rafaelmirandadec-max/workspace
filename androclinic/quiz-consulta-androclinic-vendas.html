@@ -314,7 +314,7 @@
             <path d="M 16 100 A 84 84 0 0 1 184 100" fill="none" stroke="var(--fundo-2)" stroke-width="18" stroke-linecap="round"/>
             <path id="medidor-arco" d="M 16 100 A 84 84 0 0 1 184 100" fill="none" stroke="var(--azul)" stroke-width="18" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100"/>
           </svg>
-          <div class="medidor-valor"><span id="medidor-pontos">0</span><small id="medidor-de">de 15 pontos</small></div>
+          <div class="medidor-valor"><span id="medidor-pontos">0</span><small id="medidor-de">de 12 pontos</small></div>
         </div>
         <p class="placar-linha">Prioridade para conversar com o médico: <strong id="prioridade">Inicial</strong></p>
         <p class="placar-linha">Seu ponto de maior atenção: <strong id="ponto-maior">-</strong></p>
@@ -767,7 +767,10 @@ function calcularAreas(r){
 function montarUrgencia(r, areas){
   var itens = [];
   var s = r.saude || [], t = r.tentou || [];
-  var total = areas.reduce(function(acc, a){ return acc + a.pontos; }, 0);
+  /* Conta cada resposta uma vez só, mesmo quando ela aparece em duas áreas (ex.: sono ruim, diabetes). */
+  var vistos = {};
+  areas.forEach(function(a){ a.motivos.forEach(function(m){ vistos[m] = true; }); });
+  var total = Object.keys(vistos).length;
   var circ = s.indexOf('pressao') > -1 || s.indexOf('diabetes') > -1 || s.indexOf('colesterol') > -1;
   if (circ) itens.push('Pressão, diabetes e colesterol já pedem acompanhamento médico. Quando a ereção também muda, vale contar ao médico sem esperar.');
   if (r.tempo === '1a3a' || r.tempo === 'mais3a') itens.push('Isso já dura mais de um ano. Quanto mais tempo passa, mais o assunto pesa na cabeça e na relação.');
@@ -945,7 +948,7 @@ function juntar(lista){
       d.appendChild(el('p', {'class':'area-motivos'}, a.pontos ? 'Pelas suas respostas: ' + juntar(a.motivos) + '.' : 'Nada marcado nesta área. O médico confirma na conversa.'));
       mapa.appendChild(d);
     });
-    var maxTotal = areas.reduce(function(acc, a){ return acc + a.max; }, 0);
+    var maxTotal = 12; /* máximo de respostas diferentes que somam ponto no mapa */
     document.getElementById('medidor-pontos').textContent = urg.total;
     document.getElementById('medidor-de').textContent = 'de ' + maxTotal + ' pontos';
     var pct = Math.max(4, Math.round(urg.total / maxTotal * 100));
