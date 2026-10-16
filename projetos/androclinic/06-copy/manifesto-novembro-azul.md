@@ -2,7 +2,7 @@
 
 Peça: manifesto em vídeo, falado pelo Dr. Cristiano Estivalet olhando para a câmera.
 Canal: orgânico (Instagram) e pago (Meta Ads).
-Versão do arquivo: **v1.1, 16/10/2026, copywriter.** Vai para nova leitura do `revisor` e para o advogado do cliente antes de ir ao ar.
+Versão do arquivo: **v1.2, 16/10/2026.** Liberada com avisos pelo `revisor` (releitura no fim do parecer). Vai para o advogado do cliente antes de ir ao ar.
 Parecer aplicado: `projetos/androclinic/revisoes/manifesto-novembro-azul-2026-10-16.md` (mantido).
 
 Mote proposto para a campanha: **"O check-up completo inclui a ereção."**
@@ -10,6 +10,8 @@ Mote proposto para a campanha: **"O check-up completo inclui a ereção."**
 ---
 
 ## Nota de versão
+
+**v1.2, 16/10/2026 (coordenação).** Dois ajustes de uma linha pedidos na releitura do revisor: "Sem sala de espera" virou "Sem ir até um consultório" (a plataforma pode ter sala de espera virtual, e a imagem mostra a tela de espera); na versão A, "com o médico dele" virou "com o próprio médico", porque o "dele" tinha ficado sem referente. A versão B passa de 304 para 305 palavras.
 
 **v1.1, 16/10/2026.** Esta versão aplica o parecer do revisor, que bloqueou as duas versões da v1, e o pedido do Rafael: "Escreva sem essas Pendências". As duas versões agora podem ir ao ar sem esperar nenhuma resposta da clínica. A única exceção é o rodapé legal, que é obrigação do CFM e não copy.
 
@@ -146,7 +148,7 @@ Mote proposto para a campanha: **"O check-up completo inclui a ereção."**
 *Imagem:* de apoio, um calendário de mesa aberto em novembro, com um laço azul pequeno preso nele. É o único quadro com o laço. Volta para o Dr.
 *Fala:*
 > Novembro é mês de ir ao médico.
-> Fazer o check-up. Falar da próstata com o médico dele.
+> Fazer o check-up. Falar da próstata com o próprio médico.
 > E falar também do assunto que ele sempre guarda.
 
 **Bloco 7 · Assinatura**
@@ -179,7 +181,7 @@ Mote proposto para a campanha: **"O check-up completo inclui a ereção."**
 # VERSÃO B — Manifesto de convocação
 
 **Tipo:** manifesto de convocação. O ato é agendar a consulta online.
-**Duração estimada:** 304 palavras faladas, cerca de 2min10s a 140 palavras por minuto (referência do método, não medido). Com os respiros, cerca de 2min20s.
+**Duração estimada:** 305 palavras faladas, cerca de 2min10s a 140 palavras por minuto (referência do método, não medido). Com os respiros, cerca de 2min20s.
 **Nível de consciência:** 2, levando ao 3 (SUPOSIÇÃO).
 **Etapa do funil:** topo para meio, do anúncio frio ao agendamento.
 **Virada em uma frase:** "O comprimido não pergunta. O médico pergunta."
@@ -271,7 +273,7 @@ A fala do Dr. vai em off; depois ele volta à câmera.
 > Ou dá para perguntar.
 > Na AndroClinic, a consulta sobre esse assunto é online.
 > O homem conversa com o médico por vídeo, de onde estiver.
-> Sem sala de espera. Sem encontrar conhecido no corredor.
+> Sem ir até um consultório. Sem encontrar conhecido no corredor.
 > O médico pergunta. E ouve.
 
 **Bloco 9 · Âncora e convite**
@@ -328,7 +330,7 @@ A fala do Dr. vai em off; depois ele volta à câmera.
 - [x] **Inimigo concreto** (silêncio, "é só a idade", comprimido sem pergunta). Na B, a absolvição vem antes da cobrança.
 - [x] **Espelho com cenas concretas** e frases do público entre aspas.
 - [x] **Crença em primeira pessoa** na B.
-- [x] **Caminho em cenas** (de casa, por vídeo, sem sala de espera), sem prometer o que a consulta faz.
+- [x] **Caminho em cenas** (de casa, por vídeo, sem ir até um consultório), sem prometer o que a consulta faz.
 - [x] **Convite com ato pequeno** (agendar). Sem preço, por decisão. Sem data, por decisão do Rafael.
 - [x] **Um refrão.** Duas imagens fortes: quem cuida de todo mundo e o "aguentar calado".
 - [x] **Respiros marcados**, três por versão. Nenhum respiro faz papel de clímax de medo.
@@ -348,9 +350,9 @@ A fala do Dr. vai em off; depois ele volta à câmera.
 - **Medo (art. 11, §2º, "e"):** sem infarto, sem coração, sem "aviso de outra coisa". A ligação com a saúde é só "quando ela muda, vale investigar com um médico".
 - **Afirmação clínica:** só conhecimento geral (a ereção depende de circulação, nervos, hormônios e da cabeça), sem frequência e sem diagnóstico.
 - **Dado estatístico (art. 11, §2º, "c"):** nenhum número na peça.
-- **Promessas (art. 11, XII; CDC, art. 37):** nenhuma promessa de resultado e nenhuma frase sobre o que a consulta decide, investiga ou prescreve. "Receita", "retorno" e "preço" não aparecem. O que se diz da consulta é fato do briefing: é online, por vídeo. "Sem sala de espera" decorre de ser por vídeo.
+- **Promessas (art. 11, XII; CDC, art. 37):** nenhuma promessa de resultado e nenhuma frase sobre o que a consulta decide, investiga ou prescreve. "Receita", "retorno" e "preço" não aparecem. O que se diz da consulta é fato do briefing: é online, por vídeo. "Sem ir até um consultório" decorre de ser por vídeo.
 - **Não especialista e doença específica (art. 11, I):** o Dr. não diz "eu trato" nem "na consulta, eu…". Fala "uma boa consulta" (A) e "eu acredito" (B). Se a soma "médico sem RQE + peça sobre ereção + convite" basta é pergunta para o advogado, e vale para a marca inteira.
-- **Próstata:** só em "falar da próstata com o médico dele" (A) e "converse sobre a próstata com o seu médico" (B). Sem lista de rotina, idade, regra de rastreamento ou exame atribuído à AndroClinic.
+- **Próstata:** só em "falar da próstata com o próprio médico" (A) e "converse sobre a próstata com o seu médico" (B). Sem lista de rotina, idade, regra de rastreamento ou exame atribuído à AndroClinic.
 - **A consulta não se confunde com o check-up:** "a consulta sobre esse assunto", depois de um respiro. O laço fica longe da marca.
 - **Medicamento (Lei 9.294/1996 e política da Meta):** nenhum nome de remédio, nenhum comprimido na tela e nenhum elemento azul ligado a medicamento. "Tenta resolver" não dá crédito ao comprimido.
 - **Atributos pessoais (Meta):** o homem do espelho está sempre em terceira pessoa. O "você" só aparece em ordens neutras: vá ao médico, faça o check-up, converse, agende.
@@ -366,7 +368,7 @@ A fala do Dr. vai em off; depois ele volta à câmera.
 
 - **Art. 11, I.** É o único risco de conformidade que a copy não resolve sozinha. Vai no parecer do advogado.
 - **"Novembro Azul" e o laço.** Não foi conferido se têm registro de marca. Pelo uso que a peça faz (só o nome do mês e o laço no calendário), o risco é baixo.
-- **"Sem sala de espera. Sem encontrar conhecido no corredor."** Vale o revisor confirmar que isso é lido como característica de qualquer consulta por vídeo, e não como promessa de privacidade.
+- **"Sem ir até um consultório. Sem encontrar conhecido no corredor."** O revisor confirmou em 16/10/2026 que é lido como característica de consulta por vídeo, não como promessa de sigilo. Não acrescentar "sigilo total", "100% privado" ou "ninguém fica sabendo" na peça nem na página de destino.
 
 ## Revisão própria
 

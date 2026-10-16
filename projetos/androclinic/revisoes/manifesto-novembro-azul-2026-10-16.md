@@ -209,3 +209,41 @@ São 376 palavras faladas (contei; o arquivo diz 383), cerca de 2min40s a 140 pa
 2. **Decisões principais:** as duas versões estão bloqueadas como estão. Os bloqueios comuns são a história sem autorização, o infarto usado como clímax de medo (CFM art. 11, §2º, "e", conferido) e o rodapé sem o registro da clínica e o CRM do diretor técnico (art. 5º, conferido). Só a B tem mais dois: o dado da SBU generalizado (a fonte primária diz "52% dos 1.500 participantes acima de 40 anos disseram que já falharam na hora H", pesquisa de 2023 divulgada em julho de 2024) e as promessas "a decisão continua sendo sua" e "a conversa é sobre a causa", que dependem da P4. As versões sem a história, com essas correções, ficam liberadas com avisos. Os avisos principais: tirar a próstata da lista "pressão, açúcar no sangue e próstata"; trocar as imagens da porta do quarto, do homem no carro na garagem e de qualquer comprimido azul; e evitar que o laço azul fique junto da marca.
 3. **Pendências:** a autorização escrita do Dr. (decide se a história entra); o registro da clínica no CRM e o nome e CRM do diretor técnico (pendência h; impede a publicação); a P4 e o que a consulta faz com a causa (decide se as frases de decisão e de causa ficam); a P2 e a P7, com o parecer do advogado sobre o art. 11, I (vale para a marca inteira); uma eventual inscrição do Dr. no CRM-SP; a validação das afirmações clínicas por alguém além do próprio Dr.; a P6 e a P3 para o destino do pago. Corrigir o dado da SBU também no `00-briefing.md`.
 4. **Próxima fase:** o `copywriter` aplica as correções (ou o Rafael decide entre a versão com e sem a história). Depois, nova leitura rápida do `revisor` e envio ao advogado. O `traffic-strategist` entra em seguida para o corte curto da B, o público de 18 anos ou mais e a página de destino.
+
+---
+
+## Releitura da v1.1 — 16/10/2026
+
+Foi uma leitura rápida da v1.1 contra este parecer, não uma revisão completa. Não reli o texto oficial do CFM nem as páginas da Meta. Valem as leituras feitas acima.
+
+**Veredito**
+- **Versão A: liberada com avisos.** Só vai ao ar com o rodapé preenchido e o parecer do advogado.
+- **Versão B: liberada com avisos.** Mesmas duas condições.
+- O rodapé ainda é marcador, e a lei o exige (art. 5º). Enquanto ele não for preenchido, nenhuma das duas pode ser publicada. O texto da peça não tem mais bloqueio.
+
+**Bloqueios do parecer: todos resolvidos.**
+- A1/B1 e A2/B2: a história e o infarto saíram, e nenhum momento de medo entrou no lugar. A única ligação com a saúde que ficou é "Quando ela muda, vale investigar com um médico".
+- A3/B5: o modelo do rodapé agora pede o registro da clínica e o diretor técnico com CRM.
+- B3: o dado da SBU saiu. "Esse homem não está sozinho" ficou sem número, o que é aceitável.
+- B4: as frases que dependiam da P4 saíram. O que se diz da consulta (online, por vídeo) é fato do briefing.
+
+**Avisos do parecer**
+- **Resolvidos:** A4, A5, A6, A7, A8, A9, B8, B9, B10, B11, B12, B13, C1 (as causas viraram conhecimento médico geral, sem frequência) e C3. B14 e B15 foram passados ao `traffic-strategist`.
+- **Continuam abertos:**
+  - B6/B7 (art. 11, I): a copy não resolve sozinha; vai ao advogado, como já estava dito.
+  - C2: confirmar se o Dr. tem inscrição no CRM-SP, caso atenda presencialmente em Alphaville.
+  - A10: o mote "O check-up completo inclui a ereção" ainda precisa da aprovação do Rafael.
+
+**Problemas novos (avisos)**
+1. **"Sem sala de espera" contradiz a própria imagem.** O Bloco 8 da B diz "Se mostrar a tela, só a tela de espera". Se a plataforma tem sala de espera virtual, a frase é literalmente falsa. Sugestão: tirar "Sem sala de espera." e ficar só com "Sem encontrar conhecido no corredor.", ou confirmar com a clínica que não há espera.
+2. **Promessa de privacidade (pergunta 3).** "Sem encontrar conhecido no corredor" é lido como característica de qualquer consulta por vídeo, não como garantia de sigilo de dados. O risco é baixo. Ele sobe se a peça ou a página de destino somarem palavras como "sigilo total", "100% privado" ou "ninguém fica sabendo": aí vira promessa sobre o tratamento de dados de saúde (LGPD), que a clínica teria de sustentar. Do jeito que está, passa. "De onde estiver" também passa.
+3. **"O médico dele" ficou sem referente na A.** O Bloco 6 agora diz "Novembro é mês de ir ao médico. / Fazer o check-up. Falar da próstata com o médico dele." Antes, "o homem" era o sujeito; com a troca para "mês de ir", ninguém mais na frase é o "dele", e o referente mais próximo é o "ele" do Bloco 2. Sugestão: "com o seu médico", como já está na legenda e na B.
+4. **O corte curto do pago precisa de leitura própria.** O próprio arquivo diz isso. Sem a absolvição, o corte vai do espelho direto para a virada. Revisar quando o corte existir.
+
+**Contagens:** contei 155 palavras faladas na A (o arquivo diz 159) e 302 na B (o arquivo diz 304). A diferença não muda a duração.
+
+**Resumo para a coordenação**
+1. **Entregue:** esta seção, acrescentada ao parecer.
+2. **Decisões:** A e B estão liberadas com avisos. A publicação depende do rodapé preenchido e do parecer do advogado.
+3. **Pendências:** o rodapé (pendência h); o parecer do advogado, com o art. 11, I, para a marca inteira; o CRM-SP, se o Dr. atender em Alphaville; a aprovação do mote pelo Rafael; a confirmação de que a consulta não tem sala de espera virtual, se a frase ficar.
+4. **Próxima fase:** o `copywriter` faz dois ajustes de uma linha (os itens 1 e 3 acima). Depois vem o envio ao advogado e, em paralelo, o corte curto do `traffic-strategist`, que volta para o `revisor`.
