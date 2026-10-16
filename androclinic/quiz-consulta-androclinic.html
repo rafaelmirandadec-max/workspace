@@ -103,6 +103,15 @@
   .lista-roteiro li{margin:0 0 10px 0;}
   .areas{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px 0;padding:0;list-style:none;}
   .areas li{background:var(--azul-claro);color:var(--azul);font-weight:bold;border-radius:20px;padding:6px 14px;font-size:0.95rem;}
+  .area{margin:0 0 16px 0;}
+  .area-topo{display:flex;justify-content:space-between;gap:10px;font-weight:bold;margin:0 0 6px 0;}
+  .area-nivel{color:var(--azul-2);font-size:0.95rem;}
+  .area-barra{height:16px;background:var(--fundo-2);border:1px solid var(--borda);border-radius:8px;overflow:hidden;}
+  .area-barra span{display:block;height:100%;background:var(--azul);}
+  .area-motivos{font-size:0.95rem;color:var(--tinta-suave);margin:6px 0 0 0;}
+  .nota-mapa{font-size:0.9rem;color:var(--tinta-suave);margin:4px 0 0 0;}
+  .cartao.alerta{border:2px solid #8A5A00;background:#FFF8EA;}
+  .cartao.alerta .rotulo,.cartao.alerta h3{color:#6B4500;}
   .convite{background:var(--azul);color:#fff;border-radius:12px;padding:24px 20px;margin:26px 0 18px 0;}
   .convite h3{color:#fff;font-size:1.4rem;}
   .convite p{color:#E6ECF2;}
@@ -227,10 +236,16 @@
       <p id="perfil-espelho"></p>
     </div>
 
+    <div class="cartao destaque">
+      <p class="rotulo">Sua avaliação</p>
+      <h3 id="avaliacao-titulo"></h3>
+      <p>A ereção depende de quatro áreas. Este é o mapa das suas respostas em cada uma. Quanto mais cheia a barra, mais pontos você tem para conversar com o médico.</p>
+      <div id="mapa-areas"></div>
+      <p class="nota-mapa">O mapa não mostra a causa. Mostra onde estão os assuntos da sua consulta.</p>
+    </div>
+
     <div class="cartao">
-      <p class="rotulo">O que o médico olha</p>
-      <p>A ereção depende de quatro áreas. Na consulta, o médico conversa com você sobre cada uma.</p>
-      <ul class="areas"><li>Circulação</li><li>Nervos</li><li>Hormônios</li><li>Cabeça</li></ul>
+      <p class="rotulo">Na consulta</p>
       <p id="perfil-consulta"></p>
     </div>
 
@@ -238,6 +253,12 @@
       <p class="rotulo">Leve para a consulta</p>
       <h3>Pelas suas respostas, conte isto ao médico:</h3>
       <ol class="lista-roteiro" id="lista-roteiro"></ol>
+    </div>
+
+    <div class="cartao alerta">
+      <p class="rotulo">Por que não esperar</p>
+      <h3 id="urgencia-titulo"></h3>
+      <ul class="lista-roteiro" id="lista-urgencia"></ul>
     </div>
 
     <div class="convite" id="convite">
@@ -282,6 +303,8 @@ LEIA ANTES DE PUBLICAR
    - "A ereção depende de quatro áreas: circulação, nervos, hormônios e cabeça."
    - Os textos de alerta do rodapé do resultado (pronto-socorro).
    - Os textos de cada perfil e os itens do roteiro.
+   - O mapa das quatro áreas (quais respostas contam em cada área).
+   - O bloco "Por que não esperar" e a sugestão de prazo para agendar.
 3) Eventos de rastreamento (window.dataLayer e fbq, se existirem):
    QuizIniciado, QuizConcluido, LeadCapturado, CliqueAgendar, CliqueWhatsApp.
    Os eventos levam só o perfil. Nenhuma resposta de saúde vai para
@@ -464,6 +487,58 @@ function montarItensRoteiro(r){
   return itens;
 }
 
+/* Mapa das quatro áreas: conta pontos para conversar, não mede doença. */
+function calcularAreas(r){
+  var s = r.saude || [], h = r.habitos || [], t = r.tentou || [];
+  function tem(lista, v){ return lista.indexOf(v) > -1; }
+  var areas = [
+    {nome:'Circulação', max:5, motivos:[]},
+    {nome:'Nervos', max:3, motivos:[]},
+    {nome:'Hormônios', max:3, motivos:[]},
+    {nome:'Cabeça', max:4, motivos:[]}
+  ];
+  var C = areas[0].motivos, N = areas[1].motivos, H = areas[2].motivos, K = areas[3].motivos;
+  if (tem(s,'pressao')) C.push('pressão alta');
+  if (tem(s,'diabetes')){ C.push('diabetes'); N.push('diabetes'); H.push('diabetes'); }
+  if (tem(s,'colesterol')) C.push('colesterol alto');
+  if (tem(h,'fumo')) C.push('cigarro');
+  if (tem(h,'parado')) C.push('pouco movimento');
+  if (tem(h,'alcool')) N.push('bebida frequente');
+  if (tem(s,'remedio')) N.push('remédio de uso diário');
+  if (tem(s,'sem_exame')) H.push('exames atrasados');
+  if (r.acontece === 'outro') H.push('dúvida sobre desejo ou ejaculação');
+  if (r.cabeca === 'sono' || r.cabeca === 'ambos'){ H.push('sono ruim'); K.push('sono ruim'); }
+  if (r.cabeca === 'estresse' || r.cabeca === 'ambos') K.push('estresse ou medo de falhar');
+  if (r.acontece === 'quase_sempre') K.push('já evita a situação');
+  if (r.conversa === 'ninguem') K.push('nunca falou com ninguém');
+  areas.forEach(function(a){
+    a.pontos = a.motivos.length;
+    a.nivel = a.pontos === 0 ? 'Poucos pontos' : (a.pontos >= 2 ? 'Muitos pontos' : 'Alguns pontos');
+    a.pct = Math.max(6, Math.min(100, Math.round(a.pontos / a.max * 100)));
+  });
+  return areas;
+}
+
+function montarUrgencia(r, areas){
+  var itens = [];
+  var s = r.saude || [], t = r.tentou || [];
+  var total = areas.reduce(function(acc, a){ return acc + a.pontos; }, 0);
+  var circ = s.indexOf('pressao') > -1 || s.indexOf('diabetes') > -1 || s.indexOf('colesterol') > -1;
+  if (circ) itens.push('Pressão, diabetes e colesterol já pedem acompanhamento médico. Quando a ereção também muda, vale contar ao médico sem esperar.');
+  if (r.tempo === '1a3a' || r.tempo === 'mais3a') itens.push('Isso já dura mais de um ano. Quanto mais tempo passa, mais o assunto pesa na cabeça e na relação.');
+  if (t.indexOf('comprimido') > -1) itens.push('Comprimido sem consulta não mostra a causa. E nem todo remédio combina com outro. Quem avalia isso é o médico.');
+  if (t.indexOf('medico') > -1) itens.push('Você já tentou uma vez. Esperar mais não muda o resultado. Uma nova conversa, começando pela causa, pode mudar.');
+  if (s.indexOf('sem_exame') > -1) itens.push('Faz tempo que você não faz exames. A consulta é a chance de colocar isso em dia.');
+  if (r.conversa === 'ninguem') itens.push('Você carrega isso sozinho. Cada mês em silêncio é mais um mês de dúvida.');
+  if (!itens.length) itens.push('Você está no melhor momento para conversar: cedo, com calma e sem pressa.');
+  var forte = total >= 5 || circ || r.tempo === 'mais3a';
+  return {
+    total: total,
+    titulo: forte ? 'Sugestão: agende a sua consulta ainda esta semana.' : 'Sugestão: agende a sua consulta nos próximos dias.',
+    itens: itens
+  };
+}
+
 function juntar(lista){
   if (lista.length < 2) return lista.join('');
   return lista.slice(0, -1).join(', ') + ' e ' + lista[lista.length - 1];
@@ -605,6 +680,31 @@ function juntar(lista){
     var ol = document.getElementById('lista-roteiro');
     ol.innerHTML = '';
     montarItensRoteiro(respostas).forEach(function(t){ ol.appendChild(el('li', {}, t)); });
+
+    var areas = calcularAreas(respostas);
+    var urg = montarUrgencia(respostas, areas);
+    document.getElementById('avaliacao-titulo').textContent = urg.total === 1
+      ? 'Você tem 1 ponto para conversar com o médico.'
+      : 'Você tem ' + urg.total + ' pontos para conversar com o médico.';
+    var mapa = document.getElementById('mapa-areas');
+    mapa.innerHTML = '';
+    areas.forEach(function(a){
+      var d = el('div', {'class':'area'});
+      var topo = el('div', {'class':'area-topo'});
+      topo.appendChild(el('span', {}, a.nome));
+      topo.appendChild(el('span', {'class':'area-nivel'}, a.nivel));
+      d.appendChild(topo);
+      var barra = el('div', {'class':'area-barra', role:'img', 'aria-label': a.nome + ': ' + a.nivel});
+      var cheio = el('span', {}); cheio.style.width = a.pct + '%';
+      barra.appendChild(cheio);
+      d.appendChild(barra);
+      d.appendChild(el('p', {'class':'area-motivos'}, a.pontos ? 'Pelas suas respostas: ' + juntar(a.motivos) + '.' : 'Nada marcado nesta área. O médico confirma na conversa.'));
+      mapa.appendChild(d);
+    });
+    document.getElementById('urgencia-titulo').textContent = urg.titulo;
+    var lu = document.getElementById('lista-urgencia');
+    lu.innerHTML = '';
+    urg.itens.forEach(function(t){ lu.appendChild(el('li', {}, t)); });
     return chave;
   }
 
