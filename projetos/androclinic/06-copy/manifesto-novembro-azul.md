@@ -2,36 +2,69 @@
 
 Peça: manifesto em vídeo, falado pelo Dr. Cristiano Estivalet olhando para a câmera.
 Canal: orgânico (Instagram) e pago (Meta Ads).
-Versão do arquivo: v1, 16/10/2026, copywriter. Vai para o `revisor` e para o advogado do cliente antes de ir ao ar.
+Versão do arquivo: **v1.1, 16/10/2026, copywriter.** Vai para nova leitura do `revisor` e para o advogado do cliente antes de ir ao ar.
+Parecer aplicado: `projetos/androclinic/revisoes/manifesto-novembro-azul-2026-10-16.md` (mantido).
 
-Mote da campanha proposto: **"O check-up completo inclui a ereção."**
+Mote proposto para a campanha: **"O check-up completo inclui a ereção."**
+
+---
+
+## Nota de versão
+
+**v1.1, 16/10/2026.** Esta versão aplica o parecer do revisor, que bloqueou as duas versões da v1, e o pedido do Rafael: "Escreva sem essas Pendências". As duas versões agora podem ir ao ar sem esperar nenhuma resposta da clínica. A única exceção é o rodapé legal, que é obrigação do CFM e não copy.
+
+**O que saiu e por quê**
+
+1. **A história do Dr. saiu, sem anexo.** Ela não tem autorização escrita e é dado de saúde dele. Na montagem da v1, o infarto virava clímax de medo, o que o CFM 2.336/2023, art. 11, §2º, "e", proíbe "mesmo que para fatos conhecidos" (o revisor conferiu no texto oficial). Nenhum momento de medo entrou no lugar.
+2. **Saíram as frases que dependiam da operação (P4):** "a conversa é sobre a causa", "quem decide o próximo passo é ele", "a decisão continua sendo sua", "é uma conversa" e "no tempo dele". A palavra "receita" também saiu: "a pergunta vem antes da receita" virou "a pergunta vem antes de qualquer comprimido".
+3. **Saiu o dado da SBU.** O espaço dele ficou com a absolvição: "o que ele guarda é assunto de saúde" e "como se calar fosse cuidar da família".
+4. **As causas viraram conhecimento médico geral, sem frequência.** O texto diz só que a ereção depende de circulação, nervos, hormônios e da cabeça e que, quando ela muda, vale investigar com um médico. Saíram "muitas vezes, a ereção que falha não é o problema" e "o corpo avisando de outra coisa".
+5. **Saíram os marcadores da fala e do lettering**, junto com a ação de novembro. A convocação fecha em "Agende sua consulta online na AndroClinic."
+6. **Rodapé legal:** fica numa linha separada no fim de cada versão. É o único marcador do arquivo.
+7. **Viradas reescritas para não depender do que saiu.**
+   - **A:** "Mudança no corpo não é para guardar. É para perguntar." Ela responde ao "ele guarda" do espelho.
+   - **B:** "O comprimido não pergunta. O médico pergunta." É a big idea, sem apoio clínico além do conhecimento geral.
+
+**Avisos do parecer aplicados**
+- A próstata saiu da lista de rotina do check-up e aparece só em "converse com o seu médico".
+- A consulta da AndroClinic agora é dita como "a consulta sobre esse assunto", depois de um respiro que a separa do check-up.
+- O laço azul só aparece no calendário, e a tela final tem dois quadros: o mote sem logotipo e a marca sem laço.
+- Três imagens trocadas: a porta do quarto, o homem no carro na garagem e qualquer comprimido.
+- "Quase ninguém" virou "muito homem deixa de…".
+- "Resolve com um comprimido" virou "tenta resolver".
+- O molde "não é X, é Y" ficou só na virada.
+- "Perguntar pode ser mais simples do que parece" foi cortada.
+- "Mês de o homem ir" virou "mês de ir".
+- "Closed caption" virou "legenda".
+- Contagem de palavras refeita.
 
 ---
 
 ## Cabeçalho comum
 
-**Perfil:** Perfil B do briefing: homem de 45 a 65 anos, na maioria casado, provedor, que se cala sobre o assunto. Muitas vezes com hipertensão ou diabetes e já tentou o comprimido da farmácia (SUPOSIÇÃO do strategist, sem dado de base, conforme `00-briefing.md`).
-
-**Big idea:** "O comprimido não pergunta. O médico pergunta." (decidida no projeto).
-**Ângulo:** a ereção como sinal de saúde e, portanto, assunto de check-up. É a ponte com o Novembro Azul. Pela pesquisa, nenhum concorrente usa esse ângulo (PISTA, briefing).
-**Inimigo:** o silêncio, a desculpa "é só a idade" e o comprimido que trata o aviso sem perguntar por quê. Nunca o público, nunca outra clínica ou outro médico.
-**Emoção:** alívio de ser entendido. Não é esperança de cura.
+**Perfil:** Perfil B do briefing: homem de 45 a 65 anos, na maioria casado, provedor, que se cala sobre o assunto (SUPOSIÇÃO do strategist, sem dado de base).
+**Big idea:** "O comprimido não pergunta. O médico pergunta."
+**Ângulo:** a ereção como assunto de saúde e de check-up, que é a ponte com o Novembro Azul.
+**Inimigo:** o silêncio, a desculpa "é só a idade" e o comprimido tomado sem perguntar por quê. Nunca o público, nunca outra clínica ou outro médico.
+**Emoção:** alívio de ser entendido.
 
 **Suposições**
-- Não existem `02-avatar.md`, `05-voz.md` nem `01-pesquisa/` no repositório. A voz segue o tom descrito no briefing (o médico que explica e deixa o paciente decidir; técnico↔acessível 75, sério↔divertido 25). A voz é SUPOSIÇÃO até existir o Perfil de Comunicação.
-- As frases do público entre aspas ("é só a idade", "será que é normal?") vêm da lista de linguagem do público do `00-briefing.md`, que resume o dossiê do Drive. Não li as citações originais.
-- As quatro causas (circulação, hormônio, nervos, cabeça) são afirmação clínica do Dr. e ainda precisam ser validadas pelo diretor técnico (briefing).
-- Troquei o "raramente" da ideia de fundo ("a ereção que falha raramente é o problema") por **"muitas vezes"**. "Raramente" é uma afirmação de frequência sem fonte, e "muitas vezes" diz o mesmo sem isso. Se o diretor técnico sustentar o "raramente" com fonte, dá para voltar.
-- A história do Dr. está nas duas versões só com os fatos do briefing: disfunção erétil aos 35, infarto aos 37 e, aos 37, a espera numa sala de urologista cheia de homens de 60 e 70 anos. Não liguei uma coisa à outra no caso dele e não acrescentei nenhum detalhe. Só vai ao ar com autorização por escrito `[A PREENCHER]`. A troca de frases para o caso de ele não autorizar está em cada versão.
+- Não existem `02-avatar.md` nem `05-voz.md`. A voz segue o tom do briefing: o médico que explica e deixa o paciente decidir (SUPOSIÇÃO).
+- As frases do público entre aspas ("é só a idade", "será que é normal?") vêm da lista de linguagem do `00-briefing.md`.
+- "A ereção depende de circulação, nervos, hormônios e da cabeça" é dito como conhecimento médico geral, sem frequência e sem afirmar causa em ninguém.
+- "Esse homem não está sozinho" é dito sem número, como acolhimento.
 
-**Identificação na tela durante toda a peça (as duas versões):**
-`Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471`
-Rodapé no último quadro: `AndroClinic · [registro da clínica no CRM] · Diretor técnico: [diretor técnico]`
-Observação: o briefing diz que o diretor técnico é o próprio Dr. Cristiano (FATO, site). Mantive o marcador porque o Rafael pediu e porque o registro da clínica ainda está pendente (pendência h).
+**Identificação na tela durante toda a peça:** `Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471`
 
-**Legenda na tela (closed caption):** recomendo legenda em toda a fala, porque muita gente assiste sem som. O "52%" da versão B aparece com a fonte no lettering.
+**Legenda:** legenda na tela em toda a fala, porque muita gente assiste sem som.
 
-**Imagem:** só o Dr. gravado e imagens de apoio filmadas pela equipe (objetos, ambientes, mãos). Sem banco de imagem, sem rosto gerado por IA e sem paciente. Se houver ator, precisa de autorização de uso de imagem, e ele não pode ser apresentado como paciente.
+**Imagem:**
+- Só o Dr. gravado e imagens de apoio filmadas pela equipe: objetos, ambientes, mãos.
+- Sem banco de imagem, sem rosto gerado por IA e sem paciente. Ator, só com autorização de uso de imagem e nunca apresentado como paciente.
+- **Nenhum comprimido na tela.**
+- **Nenhum quarto, cama ou porta de quarto.**
+- **Nenhum homem sozinho em carro ou garagem.**
+- **O laço azul só no calendário**, nunca no mesmo quadro que o logotipo.
 
 ---
 ---
@@ -39,34 +72,34 @@ Observação: o briefing diz que o diretor técnico é o próprio Dr. Cristiano 
 # VERSÃO A — Manifesto de marca
 
 **Tipo:** manifesto de marca.
-**Duração estimada:** 165 palavras, cerca de 1min10s a 140 palavras por minuto (referência do método, não medido). Com os respiros, de 1min15s a 1min20s. Sem a história: 161 palavras, mesma faixa.
-**Nível de consciência:** 2, consciente do problema e não da causa (SUPOSIÇÃO). Ele sabe que algo mudou e acha que é a idade. Se o público real estiver no nível 1 (nem associa a mudança a um problema), a peça funciona do mesmo jeito, porque abre pela identidade e não pelo sintoma.
+**Duração estimada:** 159 palavras faladas, cerca de 1min08s a 140 palavras por minuto (referência do método, não medido). Com os respiros, cerca de 1min15s.
+**Nível de consciência:** 2, consciente do problema e não da causa (SUPOSIÇÃO). Se o público estiver no nível 1, a peça funciona igual, porque abre pela identidade.
 **Etapa do funil:** topo, posicionamento e alcance. Sem oferta, preço ou chamada para consulta.
-**Virada em uma frase:** muitas vezes, a ereção que falha não é o problema; é o corpo avisando de outra coisa.
-**Refrão:** não há refrão repetido. Quem amarra a peça é a palavra "pergunta" (pergunta para si, não pergunta para ninguém, o comprimido não pergunta, a pergunta importa). A frase de abertura volta no fecho.
-**Assinatura e mote:** "O check-up completo inclui a ereção."
+**Virada em uma frase:** "Mudança no corpo não é para guardar. É para perguntar."
+**Refrão:** não tem refrão repetido. A peça é amarrada por duas palavras, "guarda" e "pergunta", e a abertura volta no fecho.
+**Assinatura:** "O check-up completo inclui a ereção."
 
 ### Viradas candidatas
-1. **"Muitas vezes, a ereção que falha não é o problema. É o corpo avisando de outra coisa." (escolhida)** Na peça de marca não há tempo para preparar a virada, e esta muda o sentido do sintoma numa frase só.
-2. "O comprimido não pergunta. O médico pergunta." Fica para a versão B. Sozinha, num filme de marca, soa como comparação de produto.
-3. "Calar não é ser forte. É deixar o aviso sem resposta." Mexe com o código do provedor, mas encosta em culpa e em medo.
+1. **"Mudança no corpo não é para guardar. É para perguntar." (escolhida)** Pega o "ele guarda" do espelho e inverte o sentido. Não faz afirmação clínica e leva direto à assinatura.
+2. "Aviso não é para guardar. É para investigar." Saiu porque chamar a ereção de "aviso", num filme sem contexto clínico, puxa a leitura para o medo.
+3. "O comprimido não pergunta. O médico pergunta." É a big idea e está na versão B. Num filme de marca curto, soa como comparação de produto.
 
 ### Aberturas candidatas
-1. **"Tem homem que cuida de todo mundo." (escolhida)** É elogio de identidade, como na Nike: o homem se reconhece pelo que ele é, não pelo que ele sofre. Também não diz nada sobre a condição de quem assiste, o que importa para o Meta.
-2. "Todo novembro, alguém lembra o homem de ir ao médico." Faz a ponte cedo, mas começa pela campanha e não pela pessoa.
-3. "Existe uma pergunta que quase nenhum homem ouve." Gera curiosidade, mas o "quase nenhum" é uma afirmação sem fonte.
+1. **"Tem homem que cuida de todo mundo." (escolhida)** Elogia a identidade e não diz nada sobre a condição de quem assiste.
+2. "Todo novembro, alguém lembra o homem de ir ao médico." Começa pela campanha, não pela pessoa.
+3. "Existe uma pergunta que quase nenhum homem ouve." O "quase nenhum" é uma afirmação sem fonte.
 
 ### Mote: opções ranqueadas
-1. **"O check-up completo inclui a ereção."** É a ponte com o Novembro Azul virada em frase. Não promete resultado, não fala de desempenho e serve de lettering, legenda e título da campanha.
-2. "Quem cuida de todo mundo também entra na lista." Mais emocional, mas não cita o Novembro Azul nem o assunto. Funciona como frase de apoio.
-3. "O comprimido não pergunta. O médico pergunta." É a big idea da marca e vale o ano todo. Para novembro, a opção 1 é mais específica.
+1. **"O check-up completo inclui a ereção."** É a ponte com o Novembro Azul numa frase. Não promete resultado e serve de lettering, legenda e título.
+2. "Quem cuida de todo mundo também entra na lista." Mais emocional, mas não fala do assunto nem do mês.
+3. "O comprimido não pergunta. O médico pergunta." Vale o ano todo; para novembro, é menos específica.
 
 ---
 
 ## Roteiro A — texto final
 
 **Bloco 1 · Abertura e espelho**
-*Imagem:* manhã, imagens curtas de apoio: mão pegando a chave do carro, uma mochila de escola no banco de trás, um boleto preso na geladeira com ímã. Música baixa.
+*Imagem:* manhã. Imagens curtas de apoio: a mão pega a chave do carro no aparador; uma mochila de escola perto da porta de casa; um boleto preso na geladeira com ímã. Música baixa.
 *Fala (em off, depois o Dr. entra na câmera):*
 > Tem homem que cuida de todo mundo.
 > Do filho. Da mãe. Da conta do fim do mês.
@@ -84,103 +117,101 @@ Observação: o briefing diz que o diretor técnico é o próprio Dr. Cristiano 
 > E não pergunta para mais ninguém.
 
 **Bloco 3 · O inimigo**
-*Imagem:* de apoio, uma cartela de comprimidos genérica, sem marca e sem nome, sobre uma pia ou mesa. Volta para o Dr.
+*Imagem:* de apoio, uma sacola de farmácia branca, sem logotipo e fechada, sobre a mesa da cozinha. Não aparece comprimido. Volta para o Dr.
 *Fala:*
-> Às vezes, resolve com um comprimido.
+> Às vezes, tenta resolver com um comprimido.
 > Só que o comprimido não pergunta por quê.
 
 **[respiro 2 · pausa de 1 segundo antes da virada]**
 
 **Bloco 4 · A virada**
-*Imagem:* o Dr. na câmera, mais perto. Nas quatro palavras, lettering simples e uma palavra por vez: CIRCULAÇÃO · HORMÔNIO · NERVOS · CABEÇA.
+*Imagem:* o Dr. na câmera, mais perto. Lettering simples, uma palavra por vez: CIRCULAÇÃO · NERVOS · HORMÔNIOS · CABEÇA. Na última frase, lettering: **Não é para guardar. É para perguntar.**
 *Fala:*
 > E a pergunta importa.
-> Muitas vezes, a ereção que falha não é o problema.
-> É o corpo avisando de outra coisa.
-> Na circulação. No hormônio. Nos nervos. Na cabeça.
-> Pode ser um aviso. E aviso vale investigar.
+> A ereção depende de muita coisa: circulação, nervos, hormônios, cabeça.
+> Quando ela muda, vale investigar com um médico.
+> Mudança no corpo não é para guardar.
+> É para perguntar.
 
-**Bloco 5 · O médico (com a história)**
-*Imagem:* o Dr. na câmera, sem música. Ele olha para a câmera e não sorri.
+**Bloco 5 · O médico**
+*Imagem:* o Dr. na câmera, calmo. A música continua baixa.
 *Fala:*
 > Eu sou médico.
-> E já estive do outro lado.
-> Aos 35 anos, tive disfunção erétil.
-> Aos 37, um infarto.
+> E sei que esse assunto não sai fácil.
+> Por isso, uma boa consulta começa por uma pergunta.
 
-**[respiro 3 · silêncio de 2 segundos, sem música e sem corte. É o momento mais forte da peça. Não comentar.]**
+**[respiro 3 · 1 segundo. Troca de tom, a música sobe.]**
 
 **Bloco 6 · A ponte com o Novembro Azul**
-*Imagem:* de apoio, um calendário de mesa ou de parede aberto em novembro. O laço azul aparece pela primeira vez, discreto. Volta para o Dr.; a música volta e sobe.
+*Imagem:* de apoio, um calendário de mesa aberto em novembro, com um laço azul pequeno preso nele. É o único quadro com o laço. Volta para o Dr.
 *Fala:*
-> Novembro é o mês de o homem ir ao médico.
+> Novembro é mês de ir ao médico.
 > Fazer o check-up. Falar da próstata com o médico dele.
 > E falar também do assunto que ele sempre guarda.
 
 **Bloco 7 · Assinatura**
-*Imagem:* a primeira cena volta: a mão pega a chave do carro, mas agora é de tarde, e o homem sai (de costas, sem mostrar o rosto). Corte para o Dr. na câmera, firme, na última frase. Tela final com o mote, o laço azul, a marca e o rodapé.
+*Imagem:* a primeira cena volta: a mão pega a chave do carro no aparador, agora à tarde, e a porta da rua se abre. O homem aparece de costas, sem rosto. Corte para o Dr. na última frase, firme.
 *Fala:*
 > Quem cuida de todo mundo também entra na lista.
 > O check-up completo inclui a ereção.
 
-*Lettering final:* **O check-up completo inclui a ereção.** · Novembro Azul · AndroClinic
-*Rodapé:* Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471 · AndroClinic · [registro da clínica no CRM] · Diretor técnico: [diretor técnico]
-
-### Se o Dr. não autorizar a história: troca na versão A
-Sai o Bloco 5 inteiro e entra este. O respiro 3 fica, mais curto (1 segundo).
-
-> Eu sou médico.
-> E sei que esse assunto não sai fácil.
-> Por isso, na consulta, eu começo perguntando.
-
-O texto continua de pé: a virada (Bloco 4) e a ponte (Bloco 6) não dependem da história. Perde-se a prova vivida, e a peça fica mais calma.
+*Tela final, em dois quadros separados:*
+- **Quadro 1 (sem logotipo):** "O check-up completo inclui a ereção." · "Novembro Azul: converse com o seu médico."
+- **Quadro 2 (sem laço):** logotipo AndroClinic · Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471 · rodapé abaixo.
 
 ### Legenda do post (A)
-> Novembro é o mês de o homem ir ao médico. Faça o seu check-up e converse sobre a próstata com o seu médico.
-> E leve junto o assunto que quase ninguém leva. A ereção também é assunto de saúde.
+> Novembro é mês de ir ao médico. Faça o seu check-up e converse sobre a próstata com o seu médico.
+> E leve junto o assunto que muito homem deixa de fora. A ereção também é assunto de saúde.
 > O check-up completo inclui a ereção.
 >
 > Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471
-> AndroClinic · [registro da clínica no CRM] · Diretor técnico: [diretor técnico]
+> (+ rodapé obrigatório desta versão)
 > #NovembroAzul
 
-Para o pago, a mesma legenda serve como texto principal. Título do anúncio: "O check-up completo inclui a ereção". Sem botão de agendamento (é peça de marca); se for obrigatório escolher, use "Saiba mais" levando ao perfil ou a uma página institucional, sem oferta.
+**Pago:** a mesma legenda vai como texto principal. Título do anúncio: "O check-up completo inclui a ereção". É peça de marca: se a plataforma exigir botão, use "Saiba mais" levando ao perfil ou a uma página institucional sem oferta.
+
+**Rodapé obrigatório (CFM 2.336/2023, art. 5º), no quadro 2 e na legenda:**
+`[rodapé obrigatório, preencher antes de publicar: AndroClinic · registro da clínica no CRM-UF · diretor técnico: nome, MÉDICO, CRM-UF número]`
 
 ---
 ---
 
 # VERSÃO B — Manifesto de convocação
 
-**Tipo:** manifesto de convocação, com o ato de agendar a consulta online.
-**Duração estimada:** 383 palavras, cerca de 2min45s a 140 palavras por minuto (referência do método, não medido). Com os respiros, perto de 2min55s. Sem a história: cerca de 356 palavras, 2min35s.
-**Nível de consciência:** 2, consciente do problema e não da causa (SUPOSIÇÃO). A peça leva do 2 ao 3: mostra que o caminho é investigar a causa com um médico. Se o público já estiver no nível 3 (sabe que precisa de médico e não foi), dá para cortar o Bloco 4 e chegar mais cedo ao convite.
-**Etapa do funil:** topo para meio, do anúncio frio direto ao agendamento da consulta online.
-**Virada em uma frase:** "O comprimido não pergunta. O médico pergunta." Ela é apoiada por "muitas vezes, a ereção que falha não é o problema; é o aviso".
-**Refrão:** "O check-up completo inclui a ereção" (duas vezes: na ponte e no lettering). "Pergunta" é a palavra que amarra o texto.
+**Tipo:** manifesto de convocação. O ato é agendar a consulta online.
+**Duração estimada:** 304 palavras faladas, cerca de 2min10s a 140 palavras por minuto (referência do método, não medido). Com os respiros, cerca de 2min20s.
+**Nível de consciência:** 2, levando ao 3 (SUPOSIÇÃO).
+**Etapa do funil:** topo para meio, do anúncio frio ao agendamento.
+**Virada em uma frase:** "O comprimido não pergunta. O médico pergunta."
+**Refrão:** "O check-up completo inclui a ereção." As palavras que amarram a peça são "pergunta" e "guardar".
 **Frase-âncora:** "Quem cuida de todo mundo também entra na lista."
 
 ### Viradas candidatas
-1. **"O comprimido não pergunta. O médico pergunta." (escolhida)** É a big idea da marca e leva direto ao ato (consulta = alguém que pergunta), o que a versão de convocação precisa.
-2. "Muitas vezes, a ereção que falha não é o problema. É o aviso." Entra logo depois da 1, como explicação. Sozinha, não leva à consulta.
-3. "Ninguém ensinou o homem a falar disso. Ensinaram a aguentar calado." Ficou como absolvição, não como virada, porque explica o silêncio sem mudar o sentido do sintoma.
+1. **"O comprimido não pergunta. O médico pergunta." (escolhida)** É a big idea e leva direto ao ato: a consulta é onde alguém pergunta. Não depende de dado nem de afirmação clínica. É a única antítese da peça.
+2. "Mudança no corpo não é para guardar. É para perguntar." Ficou na versão A. Aqui, junto com a 1, seriam duas antíteses seguidas.
+3. "Ninguém ensinou o homem a falar disso. Ensinaram a aguentar calado." Ficou como absolvição, porque explica o silêncio sem levar ao médico.
 
 ### Aberturas candidatas
-1. **"Tem um assunto que muito homem não leva ao médico. Nem em novembro…" (escolhida)** Gera curiosidade, liga ao Novembro Azul no primeiro segundo e fala do homem em terceira pessoa, sem insinuar a condição de quem assiste.
-2. "Segundo a Sociedade Brasileira de Urologia, em 2024, 52% dos homens de 40 anos ou mais…" É forte, mas abrir com o dado no primeiro segundo de um anúncio de saúde sexual aumenta o risco de reprovação no Meta e soa a reportagem. O dado ficou para a absolvição.
-3. "Todo novembro, alguém lembra o homem de se cuidar." Boa ponte, mas sem a curiosidade de "um assunto".
+1. **"Tem um assunto que muito homem não leva ao médico. Nem em novembro…" (escolhida)** Gera curiosidade, liga ao mês no primeiro segundo e fala do homem em terceira pessoa.
+2. "Todo novembro, alguém lembra o homem de se cuidar." Faz a ponte, mas sem curiosidade.
+3. "Tem homem que cuida de todo mundo." Está na versão A. Repetir encurtaria o caminho entre as duas, mas a B precisa de um gancho de anúncio.
 
 ---
 
 ## Roteiro B — texto final
 
 **Bloco 1 · Abertura**
-*Imagem:* o Dr. na câmera, plano médio, no consultório ou escritório real dele. Música baixa ou nenhuma.
+*Imagem:* o Dr. na câmera, plano médio, no ambiente real de trabalho dele. Pouca música ou nenhuma.
 *Fala:*
 > Tem um assunto que muito homem não leva ao médico.
 > Nem em novembro, quando todo mundo lembra o homem de se cuidar.
 
 **Bloco 2 · Espelho**
-*Imagem:* imagens curtas de apoio, sem rosto: um homem sozinho no carro parado na garagem, de motor desligado; a tela de um celular acesa no escuro, em cima do criado-mudo; uma cartela de comprimidos genérica, sem marca, na gaveta. Fala do Dr. em off, depois ele volta à câmera.
+*Imagem:* imagens curtas de apoio, sem rosto:
+- um homem à mesa da cozinha, de manhã, de costas, com o café e as chaves do lado;
+- a tela de um celular acesa no escuro, sobre a mesa da sala;
+- uma sacola de farmácia branca, sem logotipo e fechada, sendo guardada numa gaveta, sem comprimido à vista.
+A fala do Dr. vai em off; depois ele volta à câmera.
 *Fala:*
 > Ele cuida de todo mundo. De si, por último.
 > Ele percebe que alguma coisa mudou.
@@ -188,172 +219,168 @@ Para o pago, a mesma legenda serve como texto principal. Título do anúncio: "O
 > Não comenta com a esposa. Não comenta com o amigo. Com o médico, menos ainda.
 > Pensa: "é só a idade".
 > De madrugada, digita no celular: "será que é normal?"
-> Às vezes, compra um comprimido e segue a vida.
+> Às vezes, tenta resolver com um comprimido e segue a vida.
 
-**[respiro 1 · corte seco para o Dr., a música sai. Tom mais acolhedor.]**
+**[respiro 1 · corte seco para o Dr., a música sai. Tom acolhedor.]**
 
 **Bloco 3 · Absolvição**
-*Imagem:* o Dr. na câmera. Lettering durante o dado: **52% dos homens de 40 anos ou mais** · Fonte: Sociedade Brasileira de Urologia, 2024.
+*Imagem:* o Dr. na câmera.
 *Fala:*
 > Esse homem não está sozinho.
-> Segundo a Sociedade Brasileira de Urologia, em 2024, 52% dos homens de 40 anos ou mais já tiveram dificuldade para manter a ereção.
-> Mais da metade.
-> Não é vergonha. É saúde.
+> O que ele guarda é assunto de saúde.
 > E ninguém ensinou o homem a falar disso. Ensinaram a aguentar calado.
+> Como se calar fosse cuidar da família.
 
 **Bloco 4 · O inimigo e o porquê**
-*Imagem:* o Dr. na câmera. Lettering simples, uma palavra por vez: CIRCULAÇÃO · HORMÔNIO · NERVOS · CABEÇA.
+*Imagem:* o Dr. na câmera. Lettering, uma palavra por vez: CIRCULAÇÃO · NERVOS · HORMÔNIOS · CABEÇA.
 *Fala:*
 > O silêncio, o "é só a idade" e o comprimido sem pergunta têm uma coisa em comum.
 > Nenhum deles quer saber por quê.
-> E a ereção depende de muita coisa ao mesmo tempo. Da circulação. Do hormônio. Dos nervos. Da cabeça.
-> Quando ela muda, pode ser um desses pontos pedindo atenção.
+> E a ereção depende de muita coisa ao mesmo tempo. Da circulação. Dos nervos. Dos hormônios. Da cabeça.
 
-**[respiro 2 · pausa de 1 a 2 segundos. O Dr. se aproxima da câmera (ou a câmera fecha nele).]**
+**[respiro 2 · pausa de 1 a 2 segundos. A câmera fecha no Dr.]**
 
 **Bloco 5 · A virada**
-*Imagem:* plano fechado no Dr. Lettering na primeira frase: **O comprimido não pergunta. O médico pergunta.**
+*Imagem:* plano fechado no Dr. Lettering: **O comprimido não pergunta. O médico pergunta.**
 *Fala:*
 > O comprimido não pergunta.
 > O médico pergunta.
-> Porque, muitas vezes, a ereção que falha não é o problema. É o aviso.
+> Quando a ereção muda, vale investigar com um médico.
 
-**Bloco 6 · Crença e história**
-*Imagem:* o Dr. na câmera, sem música até o fim da história.
+**Bloco 6 · Crença**
+*Imagem:* o Dr. na câmera, calmo.
 *Fala:*
-> Eu sou médico. E já estive na cadeira do paciente.
-> Aos 35 anos, tive disfunção erétil. Aos 37, tive um infarto.
-> E, nesse mesmo ano, esperei numa sala de urologista cheia de homens de 60 e 70 anos.
-
-**[pausa de 2 segundos, sem comentário]**
-
-> Eu acredito que a pergunta vem antes da receita.
-> E que ereção é assunto de check-up, como a pressão, o açúcar no sangue e a próstata.
+> Eu sou médico.
+> Eu acredito que a pergunta vem antes de qualquer comprimido.
+> Que nenhum homem precisa ter vergonha de responder. Nem de perguntar.
+> E que ereção é assunto de check-up, como a pressão e o açúcar no sangue.
 
 **Bloco 7 · A ponte com o Novembro Azul**
-*Imagem:* de apoio, um calendário aberto em novembro e o laço azul. Volta para o Dr.; a música entra baixa.
+*Imagem:* de apoio, um calendário aberto em novembro com um laço azul pequeno. É o único quadro com o laço. Volta para o Dr.; a música entra baixa.
 *Fala:*
 > Então, neste novembro, vá ao médico. Faça o check-up. Converse sobre a próstata com o seu médico.
-> E leve junto a pergunta que quase ninguém faz.
+> E leve junto a pergunta que muito homem deixa de fazer.
 > O check-up completo inclui a ereção.
 
-**[respiro 3 · a música sobe. Tom mais leve e prático.]**
+**[respiro 3 · a música sobe. Tom mais leve e prático. A pausa separa o check-up com o médico dele da consulta da AndroClinic.]**
 
-**Bloco 8 · Duas escolhas e visão**
-*Imagem:* de apoio, sem rosto de paciente: um notebook aberto numa mesa de casa, uma porta de quarto se fechando devagar, uma xícara ao lado do notebook. Se mostrar a tela, só a tela de espera da consulta, sem dado de paciente.
+**Bloco 8 · Duas escolhas e o caminho**
+*Imagem:* de apoio, sem rosto de paciente: um notebook aberto na mesa de um escritório de casa, com estante ao fundo; uma xícara ao lado; a mão ajusta o fone de ouvido. Se mostrar a tela, só a tela de espera, sem dado de paciente.
 *Fala:*
 > Dá para continuar guardando.
 > Ou dá para perguntar.
-> Perguntar pode ser mais simples do que parece.
-> Na AndroClinic, a consulta é online, por vídeo. O homem fala de casa, com a porta fechada, no tempo dele.
-> O médico pergunta. Ouve. E a conversa é sobre a causa, não só sobre o sintoma.
-> No fim, quem decide o próximo passo é ele.
+> Na AndroClinic, a consulta sobre esse assunto é online.
+> O homem conversa com o médico por vídeo, de onde estiver.
+> Sem sala de espera. Sem encontrar conhecido no corredor.
+> O médico pergunta. E ouve.
 
 **Bloco 9 · Âncora e convite**
-*Imagem:* o Dr. na câmera, firme e calmo. Tela final com o lettering de CTA, o mote, o laço azul e o rodapé.
+*Imagem:* o Dr. na câmera, firme e calmo. Tela final em dois quadros.
 *Fala:*
 > Quem cuida de todo mundo também entra na lista.
-> Agende a sua consulta online na AndroClinic.
-> [A PREENCHER: ação de novembro, se houver live ou data]
-> É uma conversa. A decisão continua sendo sua.
+> Agende sua consulta online na AndroClinic.
 
 *Lettering de CTA:*
-- **Orgânico (Reels/feed):** "Agende a sua consulta online · link na bio"
-- **Pago (Meta Ads):** "Agende a sua consulta online · toque em Saiba mais"
-*Tela final:* **O check-up completo inclui a ereção.** · Novembro Azul · AndroClinic
-*Rodapé:* Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471 · AndroClinic · [registro da clínica no CRM] · Diretor técnico: [diretor técnico]
+- **Orgânico (Reels e feed):** "Agende sua consulta online · link na bio"
+- **Pago (Meta Ads):** "Agende sua consulta online · toque em Saiba mais"
 
-Sobre o `[A PREENCHER]`: se houver live, escreva uma frase só, com o nome e a data, por exemplo "E no dia [data], às [hora], eu faço uma live sobre isso no Instagram." Se não houver ação, apague a linha; o texto fecha sem ela.
-
-### Se o Dr. não autorizar a história: troca na versão B
-Sai o Bloco 6 inteiro (história, pausa e as duas frases de crença) e entra este. A pausa sai.
-
-> Eu sou médico.
-> Eu acredito que a pergunta vem antes da receita.
-> Que nenhum homem precisa ter vergonha de responder.
-> E que ereção é assunto de check-up, como a pressão, o açúcar no sangue e a próstata.
-
-O texto continua de pé: o "Então, neste novembro…" do Bloco 7 segue a crença do mesmo jeito. Perde-se a prova vivida e ganha-se uma frase de alívio ("nenhum homem precisa ter vergonha de responder").
+*Tela final, em dois quadros separados:*
+- **Quadro 1 (sem logotipo):** o lettering de CTA.
+- **Quadro 2 (sem laço):** logotipo AndroClinic · Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471 · rodapé abaixo.
 
 ### Legenda do post (B)
 **Orgânico:**
 > Tem um assunto que muito homem não leva ao médico, nem em novembro.
-> Neste Novembro Azul, faça o seu check-up e converse sobre a próstata com o seu médico. E leve junto a pergunta que quase ninguém faz.
+> Neste Novembro Azul, faça o seu check-up e converse sobre a próstata com o seu médico. E leve junto a pergunta que muito homem deixa de fazer.
 > O check-up completo inclui a ereção.
-> Consulta online, por vídeo: link na bio.
+> Na AndroClinic, a consulta sobre esse assunto é online, por vídeo. Agende pelo link na bio.
 >
 > Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471
-> AndroClinic · [registro da clínica no CRM] · Diretor técnico: [diretor técnico]
+> (+ rodapé obrigatório desta versão)
 > #NovembroAzul
 
-**Pago (texto principal):** o mesmo, trocando "link na bio" por "toque em Saiba mais".
+**Pago (texto principal):** o mesmo, trocando "Agende pelo link na bio" por "Toque em Saiba mais e agende".
 **Título do anúncio:** "O check-up completo inclui a ereção" · **Botão:** Saiba mais.
+
+**Rodapé obrigatório (CFM 2.336/2023, art. 5º), no quadro 2 e na legenda:**
+`[rodapé obrigatório, preencher antes de publicar: AndroClinic · registro da clínica no CRM-UF · diretor técnico: nome, MÉDICO, CRM-UF número]`
+
+### Para o `traffic-strategist` (avisos B14 e B15 do parecer)
+- **Público:** 18 anos ou mais. É a política da Meta para saúde sexual.
+- **Página de destino do "Saiba mais":** tem que mostrar o preço com clareza (CDC, art. 31) e não pode ter oferta de medicamento. É da página, não da peça.
+- **Corte curto para o pago:** 2min20s é longo para anúncio frio. Sugestão para um corte de 60 a 90 segundos:
+  - o Bloco 1;
+  - o Bloco 2 só com as linhas "Ele percebe…", "Pensa…" e "Às vezes…";
+  - o Bloco 5;
+  - o Bloco 7;
+  - o Bloco 8 a partir de "Na AndroClinic";
+  - o Bloco 9.
+
+  O corte precisa de nova leitura do revisor, porque tira a absolvição.
 
 ---
 ---
 
 ## Checklist da skill de manifesto
 
-- [x] Tipo definido e duração estimada (A: marca, cerca de 1min15s; B: convocação, cerca de 2min50s).
-- [x] Uma virada clara. A: a ereção como aviso. B: "O comprimido não pergunta. O médico pergunta."
-- [x] Inimigo nomeado e concreto (silêncio, "é só a idade", comprimido sem pergunta). Absolvição antes da cobrança em B ("ninguém ensinou o homem a falar disso"). Em A, peça de marca, não há cobrança.
-- [x] Espelho com cenas concretas e frases do público entre aspas, tiradas da lista de linguagem do briefing (não das citações originais da pesquisa, que estão no Drive).
-- [x] Crença em primeira pessoa (B: "Eu acredito que a pergunta vem antes da receita").
-- [x] Visão em cenas concretas e de processo, sem resultado: a porta fechada, de casa, no tempo dele, a decisão é dele.
-- [~] Convite com ato pequeno (agendar a consulta online). Sem preço, por decisão; data só se houver ação `[A PREENCHER]`.
-- [x] Um refrão. Imagens fortes: a lista de quem cuida de todo mundo e o "aguentar calado". Duas, não mais.
-- [x] Respiros marcados (três em cada versão).
-- [x] Número só com fonte (SBU, 2024). Nenhuma prova, depoimento ou caso inventado.
-- [x] Promessa coberta pela oferta: só se promete uma conversa por vídeo em que o médico pergunta e o paciente decide. Falta confirmar com a clínica que a consulta investiga a causa (ver riscos).
-- [~] Leitura em voz alta: feita na escrita, cronometrada pela contagem de palavras. Falta o Dr. ler em voz alta e cronometrar de verdade.
-- [x] Lettering e CTA por canal (B). A não tem CTA de consulta, por decisão.
+- [x] **Tipo e duração definidos.** A: marca, cerca de 1min15s. B: convocação, cerca de 2min20s. Contagem feita palavra por palavra, com "check-up" contando como uma palavra.
+- [x] **Uma virada clara por versão**, sem história, dado ou promessa de operação.
+- [x] **Inimigo concreto** (silêncio, "é só a idade", comprimido sem pergunta). Na B, a absolvição vem antes da cobrança.
+- [x] **Espelho com cenas concretas** e frases do público entre aspas.
+- [x] **Crença em primeira pessoa** na B.
+- [x] **Caminho em cenas** (de casa, por vídeo, sem sala de espera), sem prometer o que a consulta faz.
+- [x] **Convite com ato pequeno** (agendar). Sem preço, por decisão. Sem data, por decisão do Rafael.
+- [x] **Um refrão.** Duas imagens fortes: quem cuida de todo mundo e o "aguentar calado".
+- [x] **Respiros marcados**, três por versão. Nenhum respiro faz papel de clímax de medo.
+- [x] **Nenhum número.** Nenhuma prova, depoimento ou caso.
+- [x] **Promessa coberta pelo que é fato:** consulta online, por vídeo (briefing). **Conformidade aplicada.**
+- [~] **Leitura em voz alta:** feita na escrita. Falta o Dr. ler e cronometrar.
+- [x] **Lettering e CTA por canal** na B. A A não tem CTA de consulta, por decisão.
+- [x] **Antítese "não é X, é Y" só na virada.** Na A, uma vez. Na B, a big idea é a única.
 
 ## Autoverificação de conformidade
 
-**Obrigatórios incluídos:** nome, CRM com UF e a palavra MÉDICO na tela o tempo todo e na legenda. Nome da clínica, registro no CRM e diretor técnico no rodapé, como marcadores a preencher. Nenhuma especialidade citada; o Dr. só se apresenta como "médico".
+**Obrigatórios**
+- **Identificação do médico:** nome, CRM com UF e a palavra MÉDICO na tela o tempo todo e na legenda (CFM 2.336/2023, art. 4º, I). Nenhuma especialidade citada.
+- **Rodapé da clínica (art. 5º, I):** registro no CRM e diretor técnico com CRM, na linha obrigatória de cada versão. Preencher antes de publicar.
 
-**Itens conferidos no texto:**
-- Sem garantia, cura, "definitivo" ou prazo de efeito. A única promessa é de processo: perguntar, ouvir, investigar a causa, deixar a decisão com o paciente.
-- Sem nome de remédio, princípio ativo, fórmula, manipulado ou farmácia. O "comprimido" aparece genérico, e a imagem é uma cartela sem marca.
-- Sem preço, desconto, gratuidade ou escassez.
-- Sem medo como motor. A ligação com o corpo é dita como "pode ser um aviso", "vale investigar" e "pedindo atenção". O infarto aparece uma vez, como fato da história do Dr., sem ligação causal e sem frase de ameaça.
-- Sem pergunta de diagnóstico e sem afirmar a condição de quem assiste. O homem que guarda o assunto aparece sempre na terceira pessoa ("ele", "esse homem", "o homem"). O "você" só aparece em ordens neutras: vá ao médico, faça o check-up, agende.
-- Sem desempenho, potência, prazer ou performance. A ereção aparece como assunto de saúde e de check-up.
-- Sem autopromoção ("referência", "o melhor", "excelência"), sem depoimento, sem nota do Reclame Aqui, sem contador de pacientes.
-- Próstata: a peça só manda o homem conversar sobre a próstata "com o seu médico" e diz que a próstata é assunto de check-up. Não afirma idade nem regra de rastreamento e não sugere que a AndroClinic faz exame de próstata. Por isso não precisei do `[CONFERIR: recomendação da SBU/INCA]`.
-- Sem vocabulário vedado. O "broxei" da pesquisa ficou de fora de propósito, por causa da regra do Meta.
-- Sem clichê de lançamento ("melhor versão", "tomar as rédeas", "vida épica").
+**O que foi conferido no texto**
+- **Medo (art. 11, §2º, "e"):** sem infarto, sem coração, sem "aviso de outra coisa". A ligação com a saúde é só "quando ela muda, vale investigar com um médico".
+- **Afirmação clínica:** só conhecimento geral (a ereção depende de circulação, nervos, hormônios e da cabeça), sem frequência e sem diagnóstico.
+- **Dado estatístico (art. 11, §2º, "c"):** nenhum número na peça.
+- **Promessas (art. 11, XII; CDC, art. 37):** nenhuma promessa de resultado e nenhuma frase sobre o que a consulta decide, investiga ou prescreve. "Receita", "retorno" e "preço" não aparecem. O que se diz da consulta é fato do briefing: é online, por vídeo. "Sem sala de espera" decorre de ser por vídeo.
+- **Não especialista e doença específica (art. 11, I):** o Dr. não diz "eu trato" nem "na consulta, eu…". Fala "uma boa consulta" (A) e "eu acredito" (B). Se a soma "médico sem RQE + peça sobre ereção + convite" basta é pergunta para o advogado, e vale para a marca inteira.
+- **Próstata:** só em "falar da próstata com o médico dele" (A) e "converse sobre a próstata com o seu médico" (B). Sem lista de rotina, idade, regra de rastreamento ou exame atribuído à AndroClinic.
+- **A consulta não se confunde com o check-up:** "a consulta sobre esse assunto", depois de um respiro. O laço fica longe da marca.
+- **Medicamento (Lei 9.294/1996 e política da Meta):** nenhum nome de remédio, nenhum comprimido na tela e nenhum elemento azul ligado a medicamento. "Tenta resolver" não dá crédito ao comprimido.
+- **Atributos pessoais (Meta):** o homem do espelho está sempre em terceira pessoa. O "você" só aparece em ordens neutras: vá ao médico, faça o check-up, converse, agende.
+- **Conteúdo sugestivo e imagem de risco (Meta):** sem quarto, cama ou porta de quarto. Sem homem sozinho em carro ou garagem.
+- **Autopromoção:** nenhum "referência", "melhor" ou depoimento.
+- **Frases sem fonte:** nenhum "quase ninguém". "Muito homem" e "esse homem não está sozinho" são observação, não estatística.
 
-**Artigos citados:** CFM 2.336/2023, art. 11, §2º, "e" (medo e insegurança), como está lido no projeto. **Não conferi no texto oficial nesta tarefa.**
+**Artigos citados:** CFM 2.336/2023, arts. 4º, 5º e 11, conferidos no texto oficial pelo revisor (parecer de 16/10/2026). Não reli o texto oficial nesta versão.
 
-**Quem precisa aprovar:** o Dr. Cristiano (autorização escrita da história e validação das quatro causas como diretor técnico), o advogado da saúde do cliente (pendência P7) e o `revisor`.
+**Quem aprova:** o advogado da saúde do cliente e o `revisor` (nova leitura).
 
-## O que pode ser bloqueio para o revisor
+## Pontos para o revisor
 
-1. **VERMELHO: história do Dr. sem autorização escrita.** Enquanto ela não existir, só a troca sem a história pode ir ao ar. As duas trocas estão prontas.
-2. **LARANJA: disfunção erétil seguida de infarto, com pausa.** Mesmo sem ligação causal dita, alguém pode ler como ameaça (medo ou insegurança, CFM). Se o advogado achar arriscado: manter só "Aos 35 anos, tive disfunção erétil", tirar o infarto e deixar a pausa. Mas aí a história perde boa parte da força.
-3. **LARANJA: afirmação clínica.** "Muitas vezes, a ereção que falha não é o problema; é o aviso" e as quatro causas precisam da validação do diretor técnico. Troquei "raramente" por "muitas vezes" de propósito.
-4. **LARANJA: médico sem RQE numa peça sobre disfunção erétil.** O briefing proíbe o não especialista dizer que trata doença específica. O Dr. nunca diz "eu trato"; ele diz "sou médico", "eu acredito" e "na consulta, eu começo perguntando" (troca da A). O convite é para a consulta da clínica. O advogado precisa dizer se isso basta. A frase "na consulta, eu começo perguntando" (troca da A) é a que mais o põe no papel de quem atende o caso.
-5. **LARANJA: "sala de urologista".** A palavra aparece na história, com o Dr. no papel de paciente. O risco de alguém achar que ele é urologista é baixo, mas o revisor deve olhar. Se incomodar: "esperei numa sala de consultório cheia de homens de 60 e 70 anos". Só que isso muda a fonte, então precisa do aval do Dr.
-6. **LARANJA: dado da SBU.** Chegou ao projeto por notícia (Tribuna de Minas e TNH1), não pela publicação da SBU. Conferir a fonte primária e a redação exata ("dificuldade para manter a ereção", "40 anos ou mais", julho de 2024) antes de ir ao ar.
-7. **LARANJA: política do Meta para saúde sexual.** A peça fala de ereção como saúde e não fala de desempenho. Mesmo assim, saúde sexual tem restrição de idade (18+) e passa por revisão mais dura. Em B, a frase do dado e o "disfunção erétil" da história são os pontos mais sensíveis. A troca sem a história deixa a versão B mais leve para o pago.
-8. **LARANJA: promessa operacional da versão B.** "A conversa é sobre a causa, não só sobre o sintoma" e "quem decide o próximo passo é ele" precisam bater com a operação real. A pendência P4 (receita sem compra) importa aqui: se a consulta empurrar a compra numa farmácia do grupo, a frase "a decisão continua sendo sua" não se sustenta.
-9. **LARANJA: rodapé incompleto.** Registro da clínica no CRM e diretor técnico `[A PREENCHER]` (pendência h). Sem isso a peça não vai ao ar.
-10. **VERDE: "O comprimido não pergunta".** Critica a automedicação, não o remédio nem outro médico. Vale o revisor conferir que nenhuma imagem mostra marca ou embalagem identificável.
+- **Art. 11, I.** É o único risco de conformidade que a copy não resolve sozinha. Vai no parecer do advogado.
+- **"Novembro Azul" e o laço.** Não foi conferido se têm registro de marca. Pelo uso que a peça faz (só o nome do mês e o laço no calendário), o risco é baixo.
+- **"Sem sala de espera. Sem encontrar conhecido no corredor."** Vale o revisor confirmar que isso é lido como característica de qualquer consulta por vídeo, e não como promessa de privacidade.
 
 ## Revisão própria
 
-Fiz acentuação e crase, troquei a próclise do início da frase da versão A por "Ele se pergunta" e li em voz alta procurando tropeços. "Mês de o homem ir" está na norma culta. Na fala, o Dr. pode dizer "do homem" sem problema; o lettering não mostra essa frase. Procurei marcas de texto de IA: os blocos têm tamanhos diferentes, não há adjetivos empilhados nem transições do tipo "além disso", e o fecho não repete a abertura (devolve a abertura com outro sentido).
+- **Português:** acentuação e crase conferidas.
+- **Leitura em voz alta:** "mês de ir" no lugar de "mês de o homem ir"; "uma boa consulta começa por uma pergunta" sai sem tropeço.
+- **Marcas de texto de IA:**
+  - a antítese ficou só na virada;
+  - a frase de enchimento foi cortada;
+  - os blocos têm tamanhos diferentes;
+  - o fecho devolve a abertura com outro sentido.
 
 ---
 
-## Pendências e o que dependem delas
+## Pendências
 
-- **Autorização escrita do Dr. para a história** `[A PREENCHER]`. Sem ela, vão ao ar as trocas sem a história.
-- **Validação das quatro causas e da frase da virada** pelo diretor técnico. Sem ela, o Bloco 4 da B e as quatro palavras da A ficam em risco. Se for preciso cortar, a A fica com "É o corpo avisando de outra coisa" e a B perde o Bloco 4 (cerca de 50 palavras).
-- **Registro da clínica no CRM e diretor técnico** (pendência h). Impede a publicação.
-- **Fonte primária do dado da SBU.** Sem ela, tirar o dado da B: o Bloco 3 fica de pé com "Esse homem não está sozinho. Não é vergonha. É saúde."
-- **Ação de novembro (live ou data)** `[A PREENCHER]`. Opcional, não muda a estrutura.
-- **P4 (receita sem compra) e confirmação de que a consulta investiga a causa.** Sustentam as frases da visão da B.
-- **P7, parecer do advogado da saúde.** Obrigatório antes de ir ao ar.
-- **Leitura em voz alta pelo Dr. e cronometragem real.**
+- **Rodapé obrigatório** (CFM 2.336/2023, art. 5º): registro da clínica no CRM e diretor técnico com CRM. Preencher antes de publicar, nas duas versões.
+- **Parecer do advogado da saúde do cliente.** É obrigatório para peça de saúde e não depende da copy.
