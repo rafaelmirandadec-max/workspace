@@ -703,7 +703,7 @@ Então, temos, por exemplo, doença de charco, pode causar disfunção erétil n
 
 E essa causa vascular tem a ver com níveis altos de colesterol no sangue, diabetes também, consumo de cigarro, colesterol alto, e tem a ver também, claro, com a genética. Genética de cada um.
 
-**[ATENÇÃO: história pessoal já confirmada e pública; junto de artérias o infarto soa como medo. Decidir na edição]** Genética onde muitas pessoas na sua família têm infarto ou derrame cerebral, você vai ter mais chance de ter disfunção erétil por causa vascular, tá?
+Genética onde muitas pessoas na sua família têm infarto ou derrame cerebral, você vai ter mais chance de ter disfunção erétil por causa vascular, tá?
 
 E a quarta causa, a causa hormonal, pode ser ligado a testosterona baixa, pode ser ligado, olha só, ao estradiol baixo, certo? A lastradionoma é um hormônio feminino, é um hormônio que é produzido em maior quantidade pelas mulheres. Mas nós produzimos todos os hormônios, tanto homens quanto mulheres, produzem todos os hormônios, só que em proporções diferentes. Quando a gente está com muito baixo estradiol, a nossa libido, a nossa ereção piora, certo?
 
