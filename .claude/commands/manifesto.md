@@ -7,11 +7,11 @@ description: "Manifesto — copy de crença e convocação: tipos (marca, convoc
 ```yaml
 skill:
   id: manifesto
-  version: "1.0.0"
+  version: "1.1.0"
   updated: "2026-10-16"
   category: copy-e-conversao
   agents: ["copywriter", "content-strategist", "brand-architect", "funnel-architect", "revisor"]
-  base: "5 manifestos de lançamento enviados pelo Rafael (texto integral em exemplos.md) e os títulos de 8 vídeos de referência"
+  base: "5 manifestos de lançamento e 2 de marca (Johnnie Walker e Nike) enviados pelo Rafael; texto integral em exemplos.md"
 ```
 
 ---
@@ -35,7 +35,15 @@ Onde se usa: vídeo de captação para evento gratuito (o uso mais comum no Bras
 ## 2. Os três tipos
 
 **Manifesto de marca** (Nike "Corrida na veia", Johnnie Walker "Daqui a 5 anos").
-De 45 segundos a 2 minutos. Não tem oferta nem convite com data. A imagem e a trilha fazem metade do trabalho, então o texto é curto, cheio de pausas e de frases que valem sozinhas. Termina na assinatura da marca ou no slogan. Serve para dizer quem a marca é e quem é o cliente dela.
+De 30 segundos a 1 minuto e meio; os dois exemplos têm menos de 150 palavras. Não tem oferta nem convite com data. A imagem e a trilha fazem metade do trabalho, então o texto é curto, cheio de pausas e de frases que valem sozinhas. Termina na assinatura da marca ou no slogan. Serve para dizer quem a marca é e quem é o cliente dela.
+
+O que muda em relação ao de convocação:
+- **Não agita dor.** Em vez de mostrar a vida ruim do público, mostra quem ele já é (Nike: "o tipo de corredor que você é") ou quem ele vai ser (Johnnie Walker: "você vai conquistar tudo que sonhou"). É elogio de identidade e esperança, não diagnóstico.
+- **O inimigo é pequeno e interno:** as desculpas, a dor, ficar para trás, quem duvidou de você. Nada de sistema ou conspiração.
+- **A virada vem cedo e é uma revelação:** o que tira você da cama não é o despertador; quem está falando com você é você mesmo, daqui a cinco anos.
+- **O produto aparece de lado, se aparecer:** na Nike, só "o laço" do tênis; no Johnnie Walker, só o slogan no fim.
+- **Amplia em vez de filtrar:** "Não importa se você corre maratonas ou está só começando." A marca quer todo mundo que se reconhece na identidade.
+- **A última frase é o título ou o slogan:** "Você tem corrida na veia." / "…e você vai estar. [Keep Walking]".
 
 **Manifesto de convocação** (Wendell Carvalho "5 Liberdades" e "Eu mereço", "A Grande Mudança", "Investimento Perfeito", DevClub).
 De 2 a 15 minutos, falado pelo especialista olhando para a câmera. Leva o público da dor até uma decisão e termina com o convite para um evento gratuito, com nome, data e o que a pessoa ganha. É o formato de anúncio de captação de lançamento.
@@ -104,6 +112,10 @@ Manifesto de marca pula este movimento.
 - "A única medida racional do sucesso é se comparar com quem você era ontem." (A Grande Mudança)
 - "O seu dinheiro está diminuindo a cada dia" na poupança, que todo mundo trata como lugar seguro. (Investimento Perfeito)
 - "A liberdade que você sonha está condicionada à quantia de dinheiro que você é capaz de fazer." (5 Liberdades)
+- "Todo dia você acha que foi acordado pelo despertador, mas o que tira você da cama é o que corre nas suas veias." (Nike: inverte a causa de um gesto banal)
+- "Eu não posso fazer isso… porque eu sou você daqui a 5 anos." (Johnnie Walker: revela quem está falando)
+
+No manifesto de marca a virada costuma vir na primeira ou na segunda frase, porque não há tempo para preparar.
 
 Antes de escrever o resto, escreva três candidatas a virada e escolha uma. Ela costuma virar o título, o refrão ou a frase final.
 
@@ -167,6 +179,10 @@ Uma frase-âncora antes do convite ajuda a fixar a mensagem: "Você pode ter esq
 
 **Concreto no lugar de abstrato.** Troque "qualidade de vida" por "escolher onde seus filhos vão estudar e quantas atividades extracurriculares eles vão fazer". Troque "liberdade" por "ficar em casa quando quiser sem que isso pese no orçamento".
 
+**Narrador revelado.** Quem fala só se apresenta no meio do texto, e isso muda o sentido de tudo o que veio antes. No Johnnie Walker, a voz promete esperança, diz "mas eu não posso fazer isso…", segura a pausa e revela: "porque eu sou você daqui a 5 anos". Outras vozes possíveis: o filho que você ainda vai ter, o cliente que você vai atender, a versão sua que desistiu. Funciona melhor em peça curta, onde a revelação não demora.
+
+**Expressão popular como título e refrão.** A Nike pega "ter X na veia" e repete "o que corre nas suas veias" ao longo do texto até fechar com "Você tem corrida na veia". A expressão já está na boca do público, então o título gruda sem esforço. Procure na pesquisa do público expressões assim que caibam no produto.
+
 **Onomatopeia e oralidade.** "Tik, tak", "Sim. O teu cérebro é preguiçoso. O meu também é." O manifesto é escrito para ser ouvido; frase que só funciona lida não serve.
 
 ---
@@ -176,7 +192,7 @@ Uma frase-âncora antes do convite ajuda a fixar a mensagem: "Você pode ter esq
 - Frases curtas. Uma ideia por frase. Reticências e quebras de linha marcam a pausa da fala.
 - Marque no roteiro os **respiros**: momentos em que o ritmo cai, o tom muda e a música pode entrar. "5 Liberdades" marca três: "(Primeiro respiro para quebra de ritmo)". Coloque um antes da absolvição, um antes da virada e um antes da visão.
 - O tom sobe ao longo do texto: começa baixo e próximo no espelho, endurece no inimigo, cai na virada, sobe na visão e fecha firme no convite.
-- Para estimar a duração, a referência do método é de 130 a 150 palavras por minuto de fala (benchmark, não medido). Manifesto de marca tem de 100 a 250 palavras. Convocação curta para anúncio, de 300 a 700. Convocação longa, como "5 Liberdades", passa de 1.500.
+- Para estimar a duração, a referência do método é de 130 a 150 palavras por minuto de fala (benchmark, não medido). Manifesto de marca tem de 80 a 200 palavras (os dois exemplos ficam abaixo de 150). Convocação curta para anúncio, de 300 a 700. Convocação longa, como "5 Liberdades", passa de 1.500.
 - Leia em voz alta, cronometrando. Onde tropeçar, corte ou reescreva.
 - Entregue com o roteiro: o lettering final ("Inscreva-se gratuitamente clicando em Saiba Mais / no link da bio / no link da descrição"), uma versão por canal.
 - No manifesto de marca, escreva o texto junto com a descrição das imagens, em duas colunas ou em blocos (imagem / fala). A frase precisa deixar espaço para a imagem.
@@ -276,7 +292,7 @@ Toda versão que vai a público passa pelo `revisor`.
 
 ## 11. Os exemplos, em cartões
 
-Texto integral dos cinco manifestos em `squads/squad-arsenal/skills/manifesto/exemplos.md`.
+Texto integral dos sete manifestos em `squads/squad-arsenal/skills/manifesto/exemplos.md`.
 
 **A Grande Mudança** (convocação, evento gratuito de 7 dias, 2022; autor não informado no texto)
 Abertura: bastidores contra o palco dos outros, com o refrão "E nós não".
@@ -313,5 +329,21 @@ Virada: "começamos a confundir segurança com previsibilidade"; segurança é t
 Convite: comentar "Eu mereço", virar parte de um "movimento".
 Lição: dá para fazer um manifesto inteiro com uma cena, uma virada e uma palavra de ordem.
 
+**Daqui a 5 anos — Johnnie Walker** (marca, cerca de 50 segundos e 80 palavras; transcrição automática enviada pelo Rafael)
+Abertura: "Eu sei, você é um sonhador. Mas quando vai realizar os seus sonhos?" Reconhece o desejo e cobra com delicadeza na mesma frase.
+Espelho: o que o público quer (novos desafios, que descubram seu talento, silenciar quem duvidou), não o que ele sofre.
+Virada: a voz se revela como o próprio espectador daqui a cinco anos, depois de uma pausa em "mas eu não posso fazer isso…".
+Fecho: "Só queria que você estivesse aqui para ver. E você vai estar." O "vai estar" leva ao slogan, que diz para continuar andando.
+Lição: uma única ideia de roteiro (a carta do futuro) sustenta a peça inteira; não há inimigo além da dúvida.
+
+**Corrida na veia — Nike** (marca, menos de 150 palavras; transcrição automática com trechos ilegíveis)
+Abertura e virada juntas: não é o despertador que tira você da cama, é o que corre nas suas veias.
+Refrão: "o que corre nas suas veias", quatro vezes, até "você tem corrida na veia".
+Identidade: "tem a ver com o tipo de corredor que você é", "você é diferente", "você não aceita ficar para trás". Nenhuma dor do público, só elogio.
+Inimigo: as dores e as desculpas, que "não comovem" quem tem corrida na veia.
+Amplia: "não importa se você corre maratonas ou está só começando, essa força está lá, só esperando o laço".
+Fecho: "Uma história que não vem só dos pés, vem da alma. Você tem corrida na veia."
+Lição: o produto aparece uma vez, como objeto (o laço do tênis); a peça vende o tipo de pessoa que usa.
+
 **Vídeos de referência que ainda não foram analisados** (o YouTube bloqueou a leitura e os arquivos do Drive não abriram; só os títulos foram conferidos):
-Johnnie Walker, "Daqui a 5 anos" (marca); Nike, "Corrida na veia" (marca); Wendell Carvalho, "Manifesto" e "Ou você domina o tempo ou é dominado por ele"; Cardoso Mundo, "O manifesto — O renascimento"; DevClub, "Descubra como sobreviver à revolução que vai te substituir"; Pedro Calabrez e Hermann Greb (arquivos no Drive, sem título visível). Quando houver transcrição, acrescente um cartão para cada um, principalmente para os dois de marca, que são o tipo menos representado aqui.
+Wendell Carvalho, "Manifesto" e "Ou você domina o tempo ou é dominado por ele"; Cardoso Mundo, "O manifesto — O renascimento"; DevClub, "Descubra como sobreviver à revolução que vai te substituir"; Pedro Calabrez e Hermann Greb (arquivos no Drive, sem título visível). Quando houver transcrição, acrescente um cartão para cada um.

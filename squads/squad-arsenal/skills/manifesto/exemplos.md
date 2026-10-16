@@ -1,6 +1,6 @@
 # Manifestos de referência
 
-Textos enviados pelo Rafael em 16/10/2026, reproduzidos como recebidos (com os erros de digitação e de transcrição do original). Material de estudo: não copie frases para peças de clientes. A análise está em `SKILL.md`, seção 11.
+Textos enviados pelo Rafael em 16/10/2026 (os de marca, Johnnie Walker e Nike, logo depois dos outros), reproduzidos como recebidos (com os erros de digitação e de transcrição do original). Material de estudo: não copie frases para peças de clientes. A análise está em `SKILL.md`, seção 11.
 
 Vídeos indicados como referência (só os títulos foram conferidos, via oEmbed, em 16/10/2026):
 
@@ -531,3 +531,46 @@ Se tudo que te disse até agora fez sentido para você, o que mais desejo é ouv
 Você não estará sozinho nessa jornada. Nos próximos dias, estarei aqui para te ajudar a buscar esse merecimento e elevar seu nível.
 
 Se você faz parte desse movimento de pessoas que querem mais, escreva abaixo. Vamos fazer barulho juntos para que todos saibam que sim, você merece e está buscando. Vamos lá!
+
+---
+
+## Manifesto 6 — Johnnie Walker, "Daqui a 5 anos" (marca)
+
+Transcrição automática do YouTube, como recebida:
+
+> 0:08 eu sei você é um sonhador mas quando vai realizar os seus 0:17 sonhos você gostaria de ter novos desafios gostaria que descobrissem seus talentos e eu queria te dar esperança te 0:25 contar como um dia você vai se levantar aproveitar sua chance silenciar quem duvidou de você mas eu não posso 0:33 fazer isso me porque eu sou você daqui a 5 0:41 anos você pode não saber mas vai conquistar tudo que sonhou só queria que você tivesse aqui para 0:50 ver e você vai 0:52 [Música] 0:54 estar Walker
+
+Leitura reconstruída (pontuação e correções são SUPOSIÇÃO; o fecho provavelmente é o slogan "Keep Walking"):
+
+Eu sei. Você é um sonhador.
+Mas quando vai realizar os seus sonhos?
+Você gostaria de ter novos desafios. Gostaria que descobrissem seus talentos.
+E eu queria te dar esperança. Te contar como um dia você vai se levantar, aproveitar sua chance, silenciar quem duvidou de você.
+Mas eu não posso fazer isso…
+Porque eu sou você daqui a 5 anos.
+Você pode não saber, mas vai conquistar tudo que sonhou.
+Só queria que você estivesse aqui para ver.
+E você vai… [música] …estar.
+[Keep] Walking.
+
+---
+
+## Manifesto 7 — Nike, "Corrida na veia" (marca)
+
+Transcrição automática, como recebida:
+
+> i todo dia você acha que foi cortado pelo despertador mas o que tira você da câmera que corre nas suas veias [Música] isso não tem nada a ver com concepção e tem a ver com o tipo de corredor que você é o que corre nas suas filhas não se comove com dores com desculpas a hashtag partido na você não é movido a isso você é diferente um som que você gosta de viver aqui não é deforma a você quer ser mais rápido que o celular você não aceitar ficar para trás tudo culpa do que ocorre nas suas veias não importa se você correr maratonas estar só começando essa força lá só esperando o laço para aumentar sua história de ônibus uma história que não vêm só dos pés vem da alma você tem corrida na veia
+
+Leitura reconstruída (SUPOSIÇÃO; entre colchetes os trechos que a transcrição não deixa ler com segurança):
+
+Todo dia você acha que foi acordado pelo despertador.
+Mas o que tira você da cama é o que corre nas suas veias.
+Isso não tem nada a ver com [concepção? condição?] e tem a ver com o tipo de corredor que você é.
+O que corre nas suas veias não se comove com dores, com desculpas, [com a hashtag "partiu…"?].
+Você não é movido a isso. Você é diferente.
+[trecho ilegível: "um som que você gosta de viver aqui não é deforma"]
+Você quer ser mais rápido que [o seu recorde? o celular?]. Você não aceita ficar para trás.
+Tudo culpa do que corre nas suas veias.
+Não importa se você corre maratonas ou está só começando: essa força está lá, só esperando o laço para [aumentar? escrever?] sua história [de/com Nike?].
+Uma história que não vem só dos pés. Vem da alma.
+Você tem corrida na veia.
