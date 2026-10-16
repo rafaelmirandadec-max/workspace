@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Roteiro da Consulta AndroClinic. Responda 7 perguntas e descubra o que contar ao médico na sua consulta por videochamada.">
+<title>Resultado e Consulta | AndroClinic</title>
+<style>
+  :root{
+    --fundo:#F3F5F7;
+    --fundo-2:#E6EBF0;
+    --papel:#FFFFFF;
+    --azul:#16324F;
+    --azul-2:#21486F;
+    --azul-claro:#DCE6F0;
+    --borda:#B7C4D1;
+    --tinta:#14202C;
+    --tinta-suave:#3E4C5A;
+    --verde:#1E5B3A;
+    --erro:#9A2E22;
+  }
+  *{box-sizing:border-box;}
+  [hidden]{display:none !important;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--fundo);
+    color:var(--tinta);
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:19px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:0 16px 64px 16px;}
+
+  .topo{background:var(--azul);color:#fff;padding:16px 0;margin-bottom:24px;}
+  .topo .wrap{padding-bottom:0;display:flex;justify-content:space-between;align-items:center;gap:12px;}
+  .marca{font-weight:bold;font-size:1.1rem;letter-spacing:0.02em;}
+  .selo{font-size:0.8rem;opacity:0.9;}
+
+  .progresso{margin:0 0 26px 0;}
+  .etapa{font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--azul-2);margin:0 0 8px 0;font-weight:bold;}
+  .barra{height:10px;background:var(--fundo-2);border:1px solid var(--borda);border-radius:6px;overflow:hidden;}
+  .barra span{display:block;height:100%;width:0;background:var(--azul);transition:width .35s ease;}
+
+  .tela{display:none;}
+  .tela.ativa{display:block;animation:entra .28s ease both;}
+  @keyframes entra{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+  @media (prefers-reduced-motion: reduce){.tela.ativa{animation:none;}.barra span{transition:none;}}
+
+  h1{font-size:2rem;line-height:1.2;color:var(--azul);margin:0 0 16px 0;}
+  h2{font-size:1.5rem;line-height:1.3;color:var(--azul);margin:0 0 8px 0;}
+  h3{font-size:1.2rem;line-height:1.35;color:var(--azul);margin:0 0 10px 0;}
+  p{margin:0 0 14px 0;}
+  .apoio{color:var(--tinta-suave);}
+  .rotulo{font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--azul-2);font-weight:bold;margin:0 0 6px 0;}
+  .tese{border-left:6px solid var(--azul);background:var(--papel);padding:16px 18px;font-size:1.2rem;line-height:1.45;color:var(--azul);margin:0 0 22px 0;font-weight:bold;}
+  .tempo{font-size:0.95rem;color:var(--tinta-suave);margin:0 0 22px 0;}
+
+  .opcoes{list-style:none;margin:0 0 22px 0;padding:0;}
+  .opcoes li{margin:0 0 12px 0;}
+  .opcao{
+    display:block;width:100%;min-height:56px;text-align:left;
+    font:inherit;color:var(--tinta);background:var(--papel);
+    border:2px solid var(--borda);border-radius:8px;
+    padding:15px 16px 15px 56px;position:relative;cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .opcao .marcador{position:absolute;left:16px;top:16px;width:26px;height:26px;border:2px solid var(--borda);border-radius:50%;background:var(--fundo);}
+  .opcao[role="checkbox"] .marcador{border-radius:5px;}
+  .opcao .marcador::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:transparent;}
+  .opcao[role="checkbox"] .marcador::after{border-radius:2px;}
+  .opcao[aria-checked="true"]{border-color:var(--azul);background:var(--azul-claro);box-shadow:inset 5px 0 0 0 var(--azul);}
+  .opcao[aria-checked="true"] .marcador{border-color:var(--azul);background:#fff;}
+  .opcao[aria-checked="true"] .marcador::after{background:var(--azul);}
+  .opcao:focus-visible,.btn:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--azul-2);outline-offset:2px;}
+
+  .acoes{display:flex;flex-direction:column;gap:10px;margin-top:8px;}
+  .btn{display:block;width:100%;min-height:56px;font:inherit;font-weight:bold;font-size:1.05rem;border-radius:8px;padding:15px 20px;cursor:pointer;text-align:center;text-decoration:none;-webkit-tap-highlight-color:transparent;}
+  .btn-principal{background:var(--azul);color:#fff;border:2px solid var(--azul);}
+  .btn-principal:disabled{background:var(--borda);border-color:var(--borda);color:#55606B;cursor:not-allowed;}
+  .btn-secundario{background:transparent;color:var(--azul);border:2px solid var(--borda);}
+  .btn-cta{background:var(--verde);border-color:var(--verde);color:#fff;font-size:1.15rem;min-height:64px;}
+
+  .campo{margin:0 0 18px 0;}
+  .campo label{display:block;font-weight:bold;margin:0 0 6px 0;}
+  .campo .dica{font-size:0.9rem;color:var(--tinta-suave);margin:-2px 0 6px 0;}
+  input[type="text"],input[type="tel"],input[type="email"],textarea{
+    width:100%;font:inherit;color:var(--tinta);background:var(--papel);
+    border:2px solid var(--borda);border-radius:8px;padding:14px;min-height:56px;
+  }
+  textarea{resize:vertical;}
+  .msg-erro{display:none;color:var(--erro);font-size:0.95rem;margin:6px 0 0 0;font-weight:bold;}
+  .campo.erro input,.campo.erro textarea{border-color:var(--erro);}
+  .campo.erro .msg-erro{display:block;}
+  .consentimento{display:flex;gap:12px;align-items:flex-start;font-weight:normal !important;font-size:0.95rem;line-height:1.5;cursor:pointer;}
+  .consentimento input{width:26px;height:26px;flex:0 0 26px;margin:2px 0 0 0;}
+
+  .cartao{background:var(--papel);border:1px solid var(--borda);border-radius:10px;padding:20px 18px;margin:0 0 18px 0;}
+  .cartao.destaque{border:2px solid var(--azul);}
+  .lista-roteiro{margin:0;padding:0 0 0 22px;}
+  .lista-roteiro li{margin:0 0 10px 0;}
+  .areas{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px 0;padding:0;list-style:none;}
+  .areas li{background:var(--azul-claro);color:var(--azul);font-weight:bold;border-radius:20px;padding:6px 14px;font-size:0.95rem;}
+  .area{margin:0 0 16px 0;}
+  .area-topo{display:flex;justify-content:space-between;gap:10px;font-weight:bold;margin:0 0 6px 0;}
+  .area-nivel{color:var(--azul-2);font-size:0.95rem;}
+  .area-barra{height:16px;background:var(--fundo-2);border:1px solid var(--borda);border-radius:8px;overflow:hidden;}
+  .area-barra span{display:block;height:100%;background:var(--azul);}
+  .area-motivos{font-size:0.95rem;color:var(--tinta-suave);margin:6px 0 0 0;}
+  .nota-mapa{font-size:0.9rem;color:var(--tinta-suave);margin:4px 0 0 0;}
+  .cartao.alerta{border:2px solid #8A5A00;background:#FFF8EA;}
+  .cartao.alerta .rotulo,.cartao.alerta h3{color:#6B4500;}
+  .convite{background:var(--azul);color:#fff;border-radius:12px;padding:24px 20px;margin:26px 0 18px 0;}
+  .convite h3{color:#fff;font-size:1.4rem;}
+  .convite p{color:#E6ECF2;}
+  .convite ul{margin:0 0 18px 0;padding:0 0 0 20px;color:#fff;}
+  .convite li{margin:0 0 6px 0;}
+  .preco{font-size:1.1rem;font-weight:bold;color:#fff;margin:0 0 14px 0;}
+  .convite .btn-secundario{color:#fff;border-color:#7F97AF;margin-top:10px;}
+  .ressalva{font-size:0.92rem;color:var(--tinta-suave);border-top:1px solid var(--borda);padding-top:16px;margin-top:22px;}
+  .rodape{font-size:0.85rem;color:var(--tinta-suave);margin-top:28px;}
+
+  body{overflow-x:hidden;}
+  .placar{text-align:center;border:2px solid var(--azul);}
+  .medidor{position:relative;max-width:300px;margin:4px auto 10px auto;aspect-ratio:200/112;}
+  .medidor-valor{position:absolute;left:0;right:0;bottom:2px;text-align:center;line-height:1.1;}
+  .medidor-valor span{display:block;font-size:3rem;font-weight:bold;color:var(--azul);}
+  .medidor-valor small{font-size:0.95rem;color:var(--tinta-suave);}
+  #medidor-arco{transition:stroke-dasharray .9s ease;}
+  @media (prefers-reduced-motion: reduce){#medidor-arco{transition:none;}}
+  .placar-linha{font-size:1.1rem;margin:0 0 8px 0;}
+  .placar-linha strong{color:var(--azul);}
+  .placar-linha strong.alta{color:#8A3B12;}
+  .placar-nota{font-size:0.88rem;color:var(--tinta-suave);margin:12px 0 0 0;}
+  .roteiro-fechado summary{cursor:pointer;list-style:none;min-height:48px;}
+  .roteiro-fechado summary::-webkit-details-marker{display:none;}
+  .roteiro-fechado summary strong{color:var(--azul);text-decoration:underline;}
+  .roteiro-fechado[open] summary{margin-bottom:12px;}
+  .roteiro-fechado .btn{margin-top:12px;}
+  .seta-rolar{display:block;text-align:center;font-weight:bold;color:var(--azul);text-decoration:none;margin:26px 0 30px 0;}
+  .seta-rolar span{display:block;font-size:2rem;line-height:1;animation:pula 1.6s ease-in-out infinite;}
+  @keyframes pula{0%,100%{transform:translateY(0);}50%{transform:translateY(6px);}}
+  @media (prefers-reduced-motion: reduce){.seta-rolar span{animation:none;}}
+
+  .faixa{margin:0 calc(50% - 50vw);padding:40px max(16px, calc(50vw - 340px));}
+  .faixa-escura{background:var(--azul);color:#fff;}
+  .faixa-escura h2,.faixa-escura h3{color:#fff;}
+  .faixa-escura p{color:#E6ECF2;}
+  .faixa-clara{background:var(--papel);}
+  .rotulo.claro{color:#BFD0E0;}
+  .titulo-grande{font-size:1.9rem;line-height:1.2;margin-bottom:14px;}
+  .vsl{position:relative;width:100%;aspect-ratio:16/9;background:#0E2238;border-radius:10px;overflow:hidden;margin:18px 0 10px 0;border:2px solid #3B5876;}
+  .vsl iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .vsl-vazio{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:16px;gap:6px;color:#E6ECF2;}
+  .vsl-vazio span{font-size:0.9rem;opacity:0.85;}
+  .assinatura-medico{font-size:0.95rem;margin:0 0 18px 0;}
+  .grade-sintomas{display:grid;grid-template-columns:1fr;gap:12px;margin:16px 0;}
+  @media (min-width:560px){.grade-sintomas{grid-template-columns:1fr 1fr;}}
+  .sintoma{background:var(--papel);border:2px solid var(--borda);border-radius:10px;padding:16px;}
+  .sintoma strong{display:block;color:var(--azul);font-size:1.1rem;margin-bottom:4px;}
+  .sintoma span{display:block;color:var(--tinta-suave);}
+  .sintoma.marcado{border-color:var(--azul);background:var(--azul-claro);}
+  .sintoma.marcado::after{content:"Parecido com o que você respondeu";display:block;margin-top:8px;font-size:0.85rem;font-weight:bold;color:var(--azul);}
+  .causas{margin:0 0 18px 0;padding:0 0 0 24px;}
+  .causas li{margin:0 0 12px 0;}
+  .citacao{margin:0 0 18px 0;padding:16px 18px;border-left:6px solid var(--verde);background:var(--fundo);}
+  .citacao p{font-size:1.2rem;font-weight:bold;color:var(--azul);margin:0 0 6px 0;}
+  .citacao cite{font-style:normal;font-size:0.9rem;color:var(--tinta-suave);}
+  .passos{list-style:none;margin:16px 0 0 0;padding:0;}
+  .passos li{display:flex;gap:14px;align-items:flex-start;margin:0 0 16px 0;}
+  .passo-num{flex:0 0 44px;height:44px;border-radius:50%;background:var(--azul);color:#fff;font-weight:bold;font-size:1.2rem;display:flex;align-items:center;justify-content:center;}
+  .medico{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;margin:12px 0 14px 0;}
+  .medico-foto{flex:0 0 120px;height:150px;border-radius:10px;background:var(--fundo-2) center/cover no-repeat;border:1px solid var(--borda);display:flex;align-items:center;justify-content:center;color:var(--tinta-suave);font-size:0.85rem;}
+  .medico > div:last-child{flex:1 1 240px;}
+  .medico-crm{font-weight:bold;color:var(--azul-2);}
+  .selos{list-style:none;margin:10px 0 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px;}
+  .selos li{background:var(--azul-claro);color:var(--azul);font-weight:bold;border-radius:20px;padding:6px 14px;font-size:0.95rem;}
+  .lista-check{list-style:none;margin:12px 0 0 0;padding:0;}
+  .lista-check li{position:relative;padding:0 0 0 34px;margin:0 0 12px 0;}
+  .lista-check li::before{content:"";position:absolute;left:4px;top:6px;width:12px;height:18px;border:solid var(--verde);border-width:0 4px 4px 0;transform:rotate(45deg);}
+  .oferta{background:#fff;color:var(--tinta);border-radius:12px;padding:22px 18px;margin-top:18px;}
+  .oferta p{color:var(--tinta);}
+  .oferta-nome{font-weight:bold;font-size:1.15rem;color:var(--azul) !important;}
+  .oferta ul{margin:0 0 16px 0;padding:0 0 0 22px;}
+  .oferta li{margin:0 0 6px 0;}
+  .oferta .preco{color:var(--azul) !important;font-size:1.5rem;}
+  .oferta .btn-secundario{margin-top:10px;}
+  .faq details{background:var(--papel);border:1px solid var(--borda);border-radius:8px;margin:0 0 10px 0;padding:0 16px;}
+  .faq summary{cursor:pointer;font-weight:bold;color:var(--azul);padding:16px 0;min-height:48px;}
+  .faq details p{margin:0 0 16px 0;}
+  .final{text-align:center;}
+  .final .btn{margin-top:10px;}
+  .barra-fixa{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(243,245,247,0.97);border-top:1px solid var(--borda);padding:10px 16px calc(10px + env(safe-area-inset-bottom));}
+  .barra-fixa .btn{max-width:680px;margin:0 auto;min-height:56px;}
+  body.com-barra main{padding-bottom:96px;}
+
+  @media print{
+    .topo,.progresso,.acoes,#pagina-agendamento,.barra-fixa,.seta-rolar,#btn-imprimir{display:none !important;}
+    .roteiro-fechado{display:block;}
+    body{background:#fff;}
+    .cartao{break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <span class="marca">AndroClinic</span>
+    <span class="selo">Roteiro da Consulta</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="progresso" id="progresso" hidden>
+    <p class="etapa" id="etapa-texto">Etapa 1 de 9</p>
+    <div class="barra" role="progressbar" aria-valuemin="0" aria-valuemax="9" aria-valuenow="1" aria-label="Progresso">
+      <span id="barra-preenchida"></span>
+    </div>
+  </div>
+
+  <!-- ABERTURA -->
+  <section class="tela ativa" id="tela-abertura" aria-labelledby="titulo-abertura">
+    <h1 id="titulo-abertura">O que você precisa contar ao médico?</h1>
+    <p class="tese">O comprimido não pergunta. O médico pergunta.</p>
+    <p>Muitos homens chegam à consulta sem saber por onde começar. Ficam com vergonha. Esquecem o principal. E saem sem entender por que isso acontece.</p>
+    <p>Este roteiro organiza o que você vai contar ao médico. São 7 perguntas rápidas. No fim, você recebe o seu roteiro pessoal para a consulta.</p>
+    <p class="tempo">Leva cerca de 2 minutos. Suas respostas ficam em sigilo. Não existe resposta certa. Existe a resposta honesta.</p>
+    <div class="acoes">
+      <button type="button" class="btn btn-principal" id="btn-comecar">Montar meu roteiro</button>
+    </div>
+  </section>
+
+  <!-- PERGUNTAS (geradas pelo script) -->
+  <div id="telas-perguntas"></div>
+
+  <!-- PERGUNTA ABERTA -->
+  <section class="tela" id="tela-aberta" aria-labelledby="titulo-aberta">
+    <p class="rotulo">Com suas palavras</p>
+    <h2 id="titulo-aberta">Se você pudesse fazer uma pergunta ao médico, qual seria?</h2>
+    <p class="apoio">Escreva do jeito que vier. Se preferir, deixe em branco.</p>
+    <div class="campo">
+      <label for="resposta-aberta">Sua pergunta</label>
+      <textarea id="resposta-aberta" rows="5" maxlength="600"></textarea>
+    </div>
+    <div class="acoes">
+      <button type="button" class="btn btn-principal" id="btn-aberta">Continuar</button>
+      <button type="button" class="btn btn-secundario" data-voltar>Voltar</button>
+    </div>
+  </section>
+
+  <!-- CAPTURA -->
+  <section class="tela" id="tela-captura" aria-labelledby="titulo-captura">
+    <p class="rotulo">Última etapa</p>
+    <h2 id="titulo-captura">Seu roteiro está pronto.</h2>
+    <p class="apoio">Ele aparece aqui mesmo, assim que você enviar. Também mandamos uma cópia no seu WhatsApp.</p>
+
+    <form id="form-captura" novalidate>
+      <div class="campo" id="campo-nome">
+        <label for="nome">Como você quer ser chamado</label>
+        <input type="text" id="nome" name="nome" autocomplete="given-name">
+        <p class="msg-erro" id="erro-nome">Escreva seu primeiro nome.</p>
+      </div>
+
+      <div class="campo" id="campo-whatsapp">
+        <label for="whatsapp">WhatsApp com DDD</label>
+        <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" inputmode="numeric" placeholder="(00) 00000-0000" maxlength="16">
+        <p class="msg-erro" id="erro-whatsapp">Informe o número com DDD, no formato (11) 91234-5678.</p>
+      </div>
+
+      <div class="campo" id="campo-email">
+        <label for="email">E-mail (opcional)</label>
+        <input type="email" id="email" name="email" autocomplete="email" inputmode="email">
+        <p class="msg-erro" id="erro-email">Confira o e-mail: falta o arroba ou o domínio.</p>
+      </div>
+
+      <div class="campo" id="campo-idade">
+        <label class="consentimento" for="idade">
+          <input type="checkbox" id="idade" name="idade">
+          <span>Tenho 18 anos ou mais.</span>
+        </label>
+        <p class="msg-erro">Este roteiro é só para maiores de 18 anos.</p>
+      </div>
+
+      <div class="campo" id="campo-consent">
+        <label class="consentimento" for="consentimento">
+          <input type="checkbox" id="consentimento" name="consentimento">
+          <span>Autorizo a AndroClinic a usar minhas respostas para montar o meu roteiro e a falar comigo por WhatsApp e e-mail sobre a consulta. Sei que as respostas são informações sobre a minha saúde. Elas ficam em sigilo e servem só para isso. Posso pedir a exclusão dos meus dados quando quiser.</span>
+        </label>
+        <p class="msg-erro">É preciso marcar a autorização para ver o roteiro.</p>
+      </div>
+
+      <div class="acoes">
+        <button type="submit" class="btn btn-principal" id="btn-enviar">Ver meu roteiro</button>
+        <button type="button" class="btn btn-secundario" data-voltar>Voltar</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- RESULTADO + PÁGINA DE AGENDAMENTO -->
+  <section class="tela" id="tela-resultado" aria-labelledby="titulo-resultado" tabindex="-1">
+
+    <!-- BLOCO 1: RESULTADO -->
+    <div id="bloco-resultado">
+      <p class="rotulo">Seu resultado está pronto</p>
+      <h1 id="titulo-resultado">Aqui está o seu resultado</h1>
+
+      <div class="cartao placar">
+        <div class="medidor" aria-hidden="true">
+          <svg viewBox="0 0 200 112" width="100%" height="100%">
+            <path d="M 16 100 A 84 84 0 0 1 184 100" fill="none" stroke="var(--fundo-2)" stroke-width="18" stroke-linecap="round"/>
+            <path id="medidor-arco" d="M 16 100 A 84 84 0 0 1 184 100" fill="none" stroke="var(--azul)" stroke-width="18" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100"/>
+          </svg>
+          <div class="medidor-valor"><span id="medidor-pontos">0</span><small id="medidor-de">de 15 pontos</small></div>
+        </div>
+        <p class="placar-linha">Prioridade para conversar com o médico: <strong id="prioridade">Inicial</strong></p>
+        <p class="placar-linha">Seu ponto de maior atenção: <strong id="ponto-maior">-</strong></p>
+        <p class="placar-nota">Resultado calculado a partir das suas respostas. É uma autoavaliação. Não é diagnóstico.</p>
+      </div>
+
+      <div class="cartao destaque">
+        <p class="rotulo" id="area-rotulo">O que isso quer dizer</p>
+        <h3 id="area-titulo"></h3>
+        <p id="area-texto"></p>
+        <p class="apoio" id="perfil-espelho"></p>
+      </div>
+
+      <div class="cartao">
+        <p class="rotulo">Seu mapa das quatro áreas</p>
+        <h3 id="avaliacao-titulo"></h3>
+        <div id="mapa-areas"></div>
+        <p class="nota-mapa">O mapa não mostra a causa. Mostra onde estão os assuntos da sua consulta.</p>
+      </div>
+
+      <div class="cartao alerta">
+        <p class="rotulo">Por que não esperar</p>
+        <h3 id="urgencia-titulo"></h3>
+        <ul class="lista-roteiro" id="lista-urgencia"></ul>
+      </div>
+
+      <details class="cartao roteiro-fechado">
+        <summary><span class="rotulo">Seu roteiro para a consulta</span><br><strong>Ver o que contar ao médico</strong></summary>
+        <ol class="lista-roteiro" id="lista-roteiro"></ol>
+        <button type="button" class="btn btn-secundario" id="btn-imprimir">Salvar o roteiro em PDF</button>
+      </details>
+
+      <a class="seta-rolar" href="#pagina-agendamento">Role para ver o próximo passo<span aria-hidden="true">&#8595;</span></a>
+    </div>
+
+    <!-- BLOCO 2: PÁGINA DE AGENDAMENTO -->
+    <div id="pagina-agendamento">
+
+      <div class="faixa faixa-escura">
+        <p class="rotulo claro">Consulta online em saúde sexual masculina</p>
+        <h2 class="titulo-grande">O comprimido não pergunta. O médico pergunta.</h2>
+        <p>Consulta com médico, por videochamada, de onde você estiver. Com sigilo e sem sala de espera.</p>
+        <div class="vsl" id="vsl">
+          <div class="vsl-vazio" id="vsl-vazio">
+            <strong>VSL de 5 minutos do Dr. Cristiano</strong>
+            <span>Cole o link do vídeo em CONFIG.VSL_URL.</span>
+          </div>
+        </div>
+        <p class="assinatura-medico">Dr. Cristiano Grizza Estivalet. MÉDICO. CRM-DF 15471.</p>
+        <a class="btn btn-cta js-agendar" data-posicao="vsl" href="#" rel="noopener">Quero agendar minha consulta</a>
+      </div>
+
+      <div class="faixa">
+        <h2>Você se identifica com algum destes?</h2>
+        <div class="grade-sintomas" id="grade-sintomas">
+          <div class="sintoma" data-sintoma="ereção"><strong>Ereção que falha</strong><span>Começa bem e cai no meio. Ou nem chega a firmar.</span></div>
+          <div class="sintoma" data-sintoma="desejo"><strong>Pouco desejo</strong><span>A vontade foi embora junto com a disposição.</span></div>
+          <div class="sintoma" data-sintoma="ejaculação"><strong>Ejaculação rápida</strong><span>Desde sempre, ou começou depois dos 40.</span></div>
+          <div class="sintoma" data-sintoma="cansaço"><strong>Cansaço e sono ruim</strong><span>Acorda cansado. O dia pesa. A noite também.</span></div>
+        </div>
+        <p class="apoio">Tudo isso tem conversa. E nenhum desses assuntos é pequeno demais para uma consulta.</p>
+      </div>
+
+      <div class="faixa faixa-clara">
+        <h2>Por que o comprimido sozinho não resolve</h2>
+        <p>A ereção depende de quatro áreas. Quando uma delas muda, a ereção muda junto.</p>
+        <ol class="causas">
+          <li><strong>Circulação.</strong> O sangue precisa chegar e ficar. Pressão, diabetes, colesterol e cigarro mexem nas artérias.</li>
+          <li><strong>Nervos.</strong> O sinal sai do cérebro e desce pelos nervos. Diabetes e cirurgias na região podem atrapalhar o caminho.</li>
+          <li><strong>Hormônios.</strong> Testosterona e outros hormônios mexem no desejo e na ereção.</li>
+          <li><strong>Cabeça.</strong> Ansiedade e medo de falhar soltam adrenalina. E a adrenalina atrapalha a ereção.</li>
+        </ol>
+        <blockquote class="citacao">
+          <p>"Disfunção erétil não é doença. É o sinal ou sintoma de alguma coisa maior."</p>
+          <cite>Dr. Cristiano Grizza Estivalet, MÉDICO, CRM-DF 15471</cite>
+        </blockquote>
+        <p>O remédio que serve para um pode não servir para outro. Por isso a consulta começa pela pergunta, antes de qualquer receita.</p>
+        <a class="btn btn-cta js-agendar" data-posicao="causas" href="#" rel="noopener">Quero conversar com um médico</a>
+      </div>
+
+      <div class="faixa">
+        <h2>Como funciona a consulta online</h2>
+        <ol class="passos">
+          <li><span class="passo-num">1</span><div><strong>Você agenda.</strong> Escolhe o dia e o horário que cabem na sua rotina.</div></li>
+          <li><span class="passo-num">2</span><div><strong>Conversa com o médico.</strong> Por videochamada, só você e ele. Leve o seu roteiro.</div></li>
+          <li><span class="passo-num">3</span><div><strong>Entende o seu caso.</strong> O médico explica o que está olhando e o que faz sentido para você.</div></li>
+          <li><span class="passo-num">4</span><div><strong>Segue com acompanhamento.</strong> Se precisar de exames, o médico pede. Você faz na sua cidade.</div></li>
+        </ol>
+      </div>
+
+      <div class="faixa faixa-clara">
+        <h2>Quem atende</h2>
+        <div class="medico">
+          <div class="medico-foto" id="medico-foto" aria-hidden="true">Foto do Dr.</div>
+          <div>
+            <h3>Dr. Cristiano Grizza Estivalet</h3>
+            <p class="medico-crm">MÉDICO. CRM-DF 15471.</p>
+            <p>Trabalha só com saúde sexual masculina desde 2015. Atende por telemedicina pacientes de todo o Brasil.</p>
+            <p class="apoio">Ele também já esteve do outro lado, na sala de espera. Sabe como esse assunto pesa.</p>
+          </div>
+        </div>
+        <p>Antes de agendar, confira o médico no site do Conselho Federal de Medicina. Basta buscar o nome e o CRM.</p>
+        <ul class="selos" id="prova-social" hidden></ul>
+      </div>
+
+      <div class="faixa">
+        <h2>Sigilo do começo ao fim</h2>
+        <ul class="lista-check">
+          <li>Consulta por vídeo, de casa, do carro ou do trabalho.</li>
+          <li>Sem sala de espera. Ninguém vê você entrar.</li>
+          <li>Sigilo médico, como em qualquer consultório.</li>
+          <li>Pedido de exames digital, para fazer no laboratório da sua cidade.</li>
+        </ul>
+      </div>
+
+      <div class="faixa faixa-escura" id="oferta">
+        <p class="rotulo claro">O próximo passo</p>
+        <h2 class="titulo-grande" id="convite-titulo">Seu roteiro está pronto. Falta a conversa.</h2>
+        <p id="convite-texto"></p>
+        <div class="oferta">
+          <p class="oferta-nome">Consulta por videochamada em saúde sexual masculina</p>
+          <ul>
+            <li>Conversa individual com médico identificado por nome e CRM.</li>
+            <li>Avaliação das quatro áreas: circulação, nervos, hormônios e cabeça.</li>
+            <li>Pedido de exames, se o médico achar necessário.</li>
+            <li>Sigilo médico.</li>
+          </ul>
+          <p class="preco" id="preco" hidden></p>
+          <a class="btn btn-cta js-agendar" data-posicao="oferta" href="#" rel="noopener">Agendar minha consulta por videochamada</a>
+          <a class="btn btn-secundario" id="btn-whatsapp" href="#" rel="noopener" hidden>Prefiro tirar uma dúvida no WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="faixa">
+        <h2>Dúvidas comuns</h2>
+        <div class="faq">
+          <details><summary>É sigiloso mesmo?</summary><p>Sim. A consulta segue o sigilo médico. Ela acontece por vídeo, só entre você e o médico.</p></details>
+          <details><summary>Como é uma consulta por vídeo?</summary><p>Igual a uma conversa no consultório, mas pela tela. O médico pergunta sobre a sua saúde, a sua rotina, o sono, os remédios que você usa e o que você já tentou.</p></details>
+          <details><summary>Preciso ter exames antes?</summary><p>Não precisa. Se você tiver exames recentes, leve. Se faltar algum, o médico pede, e você faz no laboratório da sua cidade.</p></details>
+          <details><summary>Vou sair com receita?</summary><p>Depende do seu caso. O médico só indica tratamento depois de entender a causa. Às vezes, o primeiro passo é um exame ou uma mudança na rotina.</p></details>
+          <details><summary>Tenho vergonha de falar sobre isso.</summary><p>É normal. Para o médico, é um assunto de saúde como outro qualquer. Ele vai no seu ritmo. O roteiro que você acabou de fazer ajuda a começar.</p></details>
+          <details><summary>Atende na minha cidade?</summary><p>A consulta é por telemedicina. Você pode fazer de qualquer lugar do Brasil com internet.</p></details>
+        </div>
+      </div>
+
+      <div class="faixa faixa-clara final">
+        <h2>Você já respondeu com honestidade. Agora, conte isso a um médico.</h2>
+        <a class="btn btn-cta js-agendar" data-posicao="final" href="#" rel="noopener">Agendar minha consulta</a>
+      </div>
+
+      <div class="ressalva">
+        <p>Este resultado não faz diagnóstico e não indica tratamento. Ele só organiza o que você vai contar ao médico. Cada caso é um caso.</p>
+        <p>Se você sentir dor no peito, falta de ar ou tiver uma ereção dolorosa que dura mais de 4 horas, não espere a consulta. Procure um pronto-socorro.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="rodape" id="rodape"></p>
+</main>
+
+<div class="barra-fixa" id="barra-fixa" hidden>
+  <a class="btn btn-cta js-agendar" data-posicao="barra" href="#" rel="noopener">Agendar minha consulta</a>
+</div>
+
+<!--
+=========================================================================
+LEIA ANTES DE PUBLICAR
+=========================================================================
+1) Preencha o bloco CONFIG no topo do script:
+   - AGENDAMENTO_LINK: link oficial de agendamento (P6: um domínio só).
+   - WHATSAPP_LINK: link wa.me oficial (P6). Vazio = botão some.
+   - PRECO_TEXTO: ex. "Consulta: R$ 197". Vazio = preço não aparece.
+     Só preencher depois de fechar a P3 (preço único).
+   - RODAPE: registro da clínica no CRM-UF e diretor técnico com CRM (P2, h).
+   - ENDPOINT: destino do lead (planilha, CRM, função serverless).
+   - VSL_URL: link de incorporação (embed) da VSL. Ex.: YouTube
+     "https://www.youtube.com/embed/ID", Vimeo, Panda ou o embed em
+     iframe do vturb. Vazio = aparece um quadro reservado.
+   - FOTO_MEDICO: link da foto do Dr. Cristiano. Vazio = quadro cinza.
+   - PROVA_SOCIAL: lista curta, só com números conferidos no dia.
+     Ex.: ['Mais de 60 mil seguidores', 'Nota 8,7 no Reclame Aqui'].
+     Vazio = o bloco some. Nada de depoimento de paciente (CFM).
+2) Pontos para o diretor técnico (P2) e o advogado (P7) aprovarem:
+   - "A ereção depende de quatro áreas: circulação, nervos, hormônios e cabeça."
+   - Os textos de alerta do rodapé do resultado (pronto-socorro).
+   - Os textos de cada perfil e os itens do roteiro.
+   - O mapa das quatro áreas (quais respostas contam em cada área).
+   - O bloco "Por que não esperar" e a sugestão de prazo para agendar.
+   - O medidor de pontos e a "Prioridade para conversar com o médico"
+     (Inicial, Moderada, Alta). Mede assuntos para conversar, não doença.
+   - Os textos do "ponto de maior atenção" (TEXTO_AREAS).
+   - A citação do Dr. ("Disfunção erétil não é doença...") e a frase
+     "já esteve do outro lado, na sala de espera". Precisa do ok dele.
+   - O que a consulta inclui (bloco da oferta) e a resposta "Vou sair
+     com receita?" do FAQ. Depende da P4 (como a operação funciona).
+   O que ficou de fora de propósito, mesmo existindo na página
+   andromens.com.br/saude: cronômetro, "últimas vagas", "R$ 500 por
+   R$ 196", depoimentos "antes e depois" e "resultados rápidos".
+   São vedados pela CFM 2.336/2023 (art. 11) e pelo CDC.
+3) Eventos de rastreamento (window.dataLayer e fbq, se existirem):
+   QuizIniciado, QuizConcluido, LeadCapturado, CliqueAgendar, CliqueWhatsApp.
+   Os eventos levam só o perfil. Nenhuma resposta de saúde vai para
+   plataforma de anúncio.
+4) SALVAR_LOCAL vem desligado de propósito: dado de saúde não deve ficar
+   guardado no navegador. Ligue só para teste.
+5) Sem ENDPOINT, o quiz funciona inteiro e mostra o payload no console.
+=========================================================================
+-->
+
+<script>
+var CONFIG = {
+  ENDPOINT: '',
+  AGENDAMENTO_LINK: '#',
+  WHATSAPP_LINK: '',
+  PRECO_TEXTO: '',
+  VSL_URL: '',
+  FOTO_MEDICO: '',
+  PROVA_SOCIAL: [],
+  RODAPE: 'AndroClinic. [Registro da clínica no CRM-UF]. Diretor técnico: [nome, CRM]. Conteúdo educativo, sem diagnóstico individual. Maiores de 18 anos.',
+  SALVAR_LOCAL: false,
+  CHAVE_LOCAL: 'androclinic_roteiro'
+};
+
+/* Perguntas. tipo: 'um' (escolha única) ou 'varios' (várias). exclusiva: limpa as outras. */
+var PERGUNTAS = [
+  {
+    id: 'acontece', tipo: 'um',
+    titulo: 'Nos últimos meses, qual frase está mais perto do que acontece com você?',
+    apoio: 'Escolha a que mais parece com a sua vida hoje.',
+    opcoes: [
+      {v:'as_vezes', t:'Às vezes falha. Na maioria das vezes, vai bem.'},
+      {v:'frequente', t:'Tem falhado com frequência. Já virou preocupação.'},
+      {v:'quase_sempre', t:'Quase sempre falha. Já evito a situação.'},
+      {v:'outro', t:'Meu ponto é outro: desejo, ejaculação ou outra dúvida.'}
+    ]
+  },
+  {
+    id: 'tempo', tipo: 'um',
+    titulo: 'Há quanto tempo isso acontece?',
+    apoio: 'Uma estimativa já ajuda.',
+    opcoes: [
+      {v:'menos3m', t:'Menos de 3 meses.'},
+      {v:'3a12m', t:'De 3 meses a 1 ano.'},
+      {v:'1a3a', t:'De 1 a 3 anos.'},
+      {v:'mais3a', t:'Mais de 3 anos.'}
+    ]
+  },
+  {
+    id: 'tentou', tipo: 'varios',
+    titulo: 'O que você já tentou?',
+    apoio: 'Pode marcar mais de uma.',
+    opcoes: [
+      {v:'nada', t:'Nada ainda.', exclusiva:true},
+      {v:'comprimido', t:'Comprimido sem consulta: de amigo, de farmácia ou da internet.'},
+      {v:'suplemento', t:'Suplemento ou produto natural.'},
+      {v:'medico', t:'Já fui ao médico, mas não resolveu.'},
+      {v:'nao_dizer', t:'Prefiro não dizer.', exclusiva:true}
+    ]
+  },
+  {
+    id: 'saude', tipo: 'varios',
+    titulo: 'Algum destes faz parte da sua vida hoje?',
+    apoio: 'Pode marcar mais de uma.',
+    opcoes: [
+      {v:'pressao', t:'Pressão alta.'},
+      {v:'diabetes', t:'Diabetes.'},
+      {v:'colesterol', t:'Colesterol alto.'},
+      {v:'remedio', t:'Uso algum remédio todo dia.'},
+      {v:'sem_exame', t:'Não sei. Faz tempo que não faço exames.'},
+      {v:'nenhum', t:'Nenhum destes.', exclusiva:true}
+    ]
+  },
+  {
+    id: 'cabeca', tipo: 'um',
+    titulo: 'Como andam o sono e a cabeça?',
+    apoio: 'Pense nas últimas semanas.',
+    opcoes: [
+      {v:'bem', t:'Durmo bem e ando tranquilo.'},
+      {v:'sono', t:'Durmo mal ou acordo cansado.'},
+      {v:'estresse', t:'Ando estressado, ansioso ou preocupado com o desempenho.'},
+      {v:'ambos', t:'As duas coisas.'}
+    ]
+  },
+  {
+    id: 'habitos', tipo: 'varios',
+    titulo: 'E a rotina?',
+    apoio: 'Pode marcar mais de uma.',
+    opcoes: [
+      {v:'fumo', t:'Fumo ou uso cigarro eletrônico.'},
+      {v:'alcool', t:'Bebo com frequência.'},
+      {v:'parado', t:'Quase não me movimento.'},
+      {v:'nenhum', t:'Nenhum destes.', exclusiva:true}
+    ]
+  },
+  {
+    id: 'conversa', tipo: 'um',
+    titulo: 'Com quem você já falou sobre isso?',
+    apoio: 'Só você vai ver esta resposta no roteiro.',
+    opcoes: [
+      {v:'ninguem', t:'Com ninguém.'},
+      {v:'parceria', t:'Só com a minha parceira ou parceiro.'},
+      {v:'amigo', t:'Com um amigo.'},
+      {v:'medico', t:'Com um médico.'}
+    ]
+  }
+];
+
+var PERFIS = {
+  faltou_porque: {
+    nome: 'Você já foi ao médico. Mas faltou o porquê.',
+    espelho: 'Você deu o primeiro passo. E ainda assim não resolveu. Talvez a consulta tenha sido rápida. Talvez ninguém tenha olhado o quadro inteiro. Não é culpa sua.',
+    consulta: 'Desta vez, vale uma conversa que comece pela causa. O médico pergunta antes de receitar. E explica o que está olhando.',
+    convite: 'Você já sabe que um remédio sozinho não responde tudo. Uma consulta que começa pelo porquê é o passo que faltou.'
+  },
+  sozinho: {
+    nome: 'Você tentou resolver sozinho.',
+    espelho: 'Você não ficou parado. Procurou um comprimido, um produto, uma saída. Faz sentido. Ninguém quer expor o assunto. O que faltou foi alguém perguntar por que isso acontece.',
+    consulta: 'Na consulta, o médico começa pelo porquê. Ele pergunta sobre a sua saúde, a sua rotina e o que você já usou. Só depois decide o que faz sentido para você.',
+    convite: 'Você já tentou no escuro. Agora, a conversa é com quem pode olhar a causa.'
+  },
+  silencio: {
+    nome: 'Você guardou isso por muito tempo.',
+    espelho: 'Muitos homens esperam. Esperam passar. Esperam a hora certa. Esperam ter coragem. Enquanto isso, o assunto fica pesado.',
+    consulta: 'Falar com um médico, com sigilo, é o jeito mais simples de tirar esse peso. Ele já ouviu essa conversa muitas vezes. Para ele, é um assunto de saúde como outro qualquer.',
+    convite: 'O mais difícil você já fez: respondeu com honestidade. Agora, conte isso a um médico.'
+  },
+  cedo: {
+    nome: 'Você está olhando para isso cedo.',
+    espelho: 'Você percebeu cedo e veio buscar informação. Isso é cuidado, não exagero.',
+    consulta: 'Uma conversa com o médico agora ajuda a entender o que está acontecendo, com calma e sem pressa.',
+    convite: 'Quem olha cedo decide com mais calma. Leve suas respostas a um médico.'
+  }
+};
+
+/* Texto do ponto de maior atenção. Educativo: não diz a causa de ninguém. */
+var TEXTO_AREAS = {
+  'Circulação': {
+    titulo: 'A circulação merece atenção na sua consulta.',
+    texto: 'A ereção depende do sangue que chega e fica. Pressão alta, diabetes, colesterol, cigarro e pouco movimento mexem nas artérias ao longo dos anos. Por isso, nas suas respostas, a circulação é o primeiro assunto para o médico olhar.'
+  },
+  'Nervos': {
+    titulo: 'Os nervos entram na sua conversa com o médico.',
+    texto: 'O sinal da ereção sai do cérebro e desce pelos nervos. Diabetes, bebida frequente e alguns remédios de uso diário podem atrapalhar esse caminho. O médico pergunta sobre isso com calma.'
+  },
+  'Hormônios': {
+    titulo: 'Os hormônios são um ponto para avaliar.',
+    texto: 'Testosterona e outros hormônios mexem no desejo e na ereção. Quando o desejo cai junto, o sono anda ruim ou faz tempo que não há exames, o médico avalia se precisa pedir algum.'
+  },
+  'Cabeça': {
+    titulo: 'A cabeça pesa nas suas respostas.',
+    texto: 'Ansiedade, estresse e medo de falhar soltam adrenalina. E a adrenalina atrapalha a ereção. Isso é comum, tem conversa e não é fraqueza.'
+  },
+  nenhum: {
+    titulo: 'Nenhuma área se destacou. E isso também é informação.',
+    texto: 'Você marcou poucos pontos. Mesmo assim, se algo mudou e te preocupa, vale conversar. Quem olha cedo decide com mais calma.'
+  }
+};
+
+function pontoMaior(areas){
+  var melhor = null;
+  areas.forEach(function(a){
+    if (!a.pontos) return;
+    if (!melhor || a.pontos / a.max > melhor.pontos / melhor.max) melhor = a;
+  });
+  return melhor;
+}
+
+/* ---- Lógica pura ---- */
+function calcularPerfil(r){
+  var tentou = r.tentou || [];
+  if (tentou.indexOf('medico') > -1) return 'faltou_porque';
+  if (tentou.indexOf('comprimido') > -1 || tentou.indexOf('suplemento') > -1) return 'sozinho';
+  if (r.tempo === '1a3a' || r.tempo === 'mais3a' || r.conversa === 'ninguem') return 'silencio';
+  return 'cedo';
+}
+
+function montarItensRoteiro(r){
+  var itens = [];
+  var mapaAcontece = {
+    as_vezes: 'Que às vezes falha, mas na maioria das vezes vai bem.',
+    frequente: 'Que tem falhado com frequência e isso já te preocupa.',
+    quase_sempre: 'Que quase sempre falha e você já evita a situação.',
+    outro: 'Qual é a sua dúvida principal: desejo, ejaculação ou outra.'
+  };
+  var mapaTempo = {menos3m:'menos de 3 meses', '3a12m':'de 3 meses a 1 ano', '1a3a':'de 1 a 3 anos', mais3a:'mais de 3 anos'};
+  if (r.acontece) itens.push(mapaAcontece[r.acontece]);
+  if (r.tempo) itens.push('Há quanto tempo: ' + mapaTempo[r.tempo] + '. E se começou de repente ou aos poucos.');
+
+  var t = r.tentou || [];
+  if (t.indexOf('comprimido') > -1) itens.push('Qual comprimido você usou, a dose e como foi. Sem vergonha: isso ajuda o médico.');
+  if (t.indexOf('suplemento') > -1) itens.push('O nome do suplemento ou produto que você usou.');
+  if (t.indexOf('medico') > -1) itens.push('O que já foi feito na consulta anterior. Se tiver exames ou receita, tenha à mão.');
+
+  var s = r.saude || [];
+  var cond = [];
+  if (s.indexOf('pressao') > -1) cond.push('pressão alta');
+  if (s.indexOf('diabetes') > -1) cond.push('diabetes');
+  if (s.indexOf('colesterol') > -1) cond.push('colesterol alto');
+  if (cond.length) itens.push('Que você tem ' + juntar(cond) + '. Isso tem a ver com a circulação, e o médico vai querer saber.');
+  if (s.indexOf('remedio') > -1) itens.push('A lista dos remédios que você usa todo dia. Leve a caixa ou a receita.');
+  if (s.indexOf('sem_exame') > -1) itens.push('Que faz tempo que você não faz exames. O médico avalia se precisa pedir algum.');
+
+  if (r.cabeca === 'sono' || r.cabeca === 'ambos') itens.push('Como anda o seu sono e se você acorda cansado.');
+  if (r.cabeca === 'estresse' || r.cabeca === 'ambos') itens.push('Se o estresse, a ansiedade ou o medo de falhar estão pesando.');
+
+  var h = r.habitos || [];
+  var hab = [];
+  if (h.indexOf('fumo') > -1) hab.push('o cigarro');
+  if (h.indexOf('alcool') > -1) hab.push('a bebida');
+  if (h.indexOf('parado') > -1) hab.push('a falta de movimento');
+  if (hab.length) itens.push('Sobre ' + juntar(hab) + '. Sem julgamento: faz parte do quadro.');
+
+  if (r.conversa === 'ninguem') itens.push('Que esta é a primeira vez que você fala disso. O médico vai no seu ritmo.');
+  if (r.aberta) itens.push('A sua pergunta: "' + r.aberta + '"');
+  return itens;
+}
+
+/* Mapa das quatro áreas: conta pontos para conversar, não mede doença. */
+function calcularAreas(r){
+  var s = r.saude || [], h = r.habitos || [], t = r.tentou || [];
+  function tem(lista, v){ return lista.indexOf(v) > -1; }
+  var areas = [
+    {nome:'Circulação', max:5, motivos:[]},
+    {nome:'Nervos', max:3, motivos:[]},
+    {nome:'Hormônios', max:3, motivos:[]},
+    {nome:'Cabeça', max:4, motivos:[]}
+  ];
+  var C = areas[0].motivos, N = areas[1].motivos, H = areas[2].motivos, K = areas[3].motivos;
+  if (tem(s,'pressao')) C.push('pressão alta');
+  if (tem(s,'diabetes')){ C.push('diabetes'); N.push('diabetes'); H.push('diabetes'); }
+  if (tem(s,'colesterol')) C.push('colesterol alto');
+  if (tem(h,'fumo')) C.push('cigarro');
+  if (tem(h,'parado')) C.push('pouco movimento');
+  if (tem(h,'alcool')) N.push('bebida frequente');
+  if (tem(s,'remedio')) N.push('remédio de uso diário');
+  if (tem(s,'sem_exame')) H.push('exames atrasados');
+  if (r.acontece === 'outro') H.push('dúvida sobre desejo ou ejaculação');
+  if (r.cabeca === 'sono' || r.cabeca === 'ambos'){ H.push('sono ruim'); K.push('sono ruim'); }
+  if (r.cabeca === 'estresse' || r.cabeca === 'ambos') K.push('estresse ou medo de falhar');
+  if (r.acontece === 'quase_sempre') K.push('já evita a situação');
+  if (r.conversa === 'ninguem') K.push('nunca falou com ninguém');
+  areas.forEach(function(a){
+    a.pontos = a.motivos.length;
+    a.nivel = a.pontos === 0 ? 'Poucos pontos' : (a.pontos >= 2 ? 'Muitos pontos' : 'Alguns pontos');
+    a.pct = Math.max(6, Math.min(100, Math.round(a.pontos / a.max * 100)));
+  });
+  return areas;
+}
+
+function montarUrgencia(r, areas){
+  var itens = [];
+  var s = r.saude || [], t = r.tentou || [];
+  var total = areas.reduce(function(acc, a){ return acc + a.pontos; }, 0);
+  var circ = s.indexOf('pressao') > -1 || s.indexOf('diabetes') > -1 || s.indexOf('colesterol') > -1;
+  if (circ) itens.push('Pressão, diabetes e colesterol já pedem acompanhamento médico. Quando a ereção também muda, vale contar ao médico sem esperar.');
+  if (r.tempo === '1a3a' || r.tempo === 'mais3a') itens.push('Isso já dura mais de um ano. Quanto mais tempo passa, mais o assunto pesa na cabeça e na relação.');
+  if (t.indexOf('comprimido') > -1) itens.push('Comprimido sem consulta não mostra a causa. E nem todo remédio combina com outro. Quem avalia isso é o médico.');
+  if (t.indexOf('medico') > -1) itens.push('Você já tentou uma vez. Esperar mais não muda o resultado. Uma nova conversa, começando pela causa, pode mudar.');
+  if (s.indexOf('sem_exame') > -1) itens.push('Faz tempo que você não faz exames. A consulta é a chance de colocar isso em dia.');
+  if (r.conversa === 'ninguem') itens.push('Você carrega isso sozinho. Cada mês em silêncio é mais um mês de dúvida.');
+  if (!itens.length) itens.push('Você está no melhor momento para conversar: cedo, com calma e sem pressa.');
+  var forte = total >= 5 || circ || r.tempo === 'mais3a';
+  return {
+    total: total,
+    forte: forte,
+    titulo: forte ? 'Sugestão: agende a sua consulta ainda esta semana.' : 'Sugestão: agende a sua consulta nos próximos dias.',
+    itens: itens
+  };
+}
+
+function juntar(lista){
+  if (lista.length < 2) return lista.join('');
+  return lista.slice(0, -1).join(', ') + ' e ' + lista[lista.length - 1];
+}
+
+/* ---- Interface ---- */
+(function(){
+  var respostas = {};
+  var telas = [];
+  var indiceAtual = 0;
+  var TOTAL = PERGUNTAS.length + 2;
+
+  function el(tag, attrs, texto){
+    var e = document.createElement(tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (texto) e.textContent = texto;
+    return e;
+  }
+
+  function montarPerguntas(){
+    var alvo = document.getElementById('telas-perguntas');
+    PERGUNTAS.forEach(function(p, i){
+      var sec = el('section', {'class':'tela', id:'tela-' + p.id, 'aria-labelledby':'titulo-' + p.id});
+      sec.appendChild(el('p', {'class':'rotulo'}, 'Pergunta ' + (i + 1) + ' de ' + PERGUNTAS.length));
+      sec.appendChild(el('h2', {id:'titulo-' + p.id}, p.titulo));
+      sec.appendChild(el('p', {'class':'apoio'}, p.apoio));
+      var ul = el('ul', {'class':'opcoes', role: p.tipo === 'um' ? 'radiogroup' : 'group', 'aria-labelledby':'titulo-' + p.id});
+      var btnSeguir = el('button', {type:'button', 'class':'btn btn-principal', disabled:'disabled'}, 'Continuar');
+
+      p.opcoes.forEach(function(o){
+        var li = el('li', {});
+        var b = el('button', {type:'button', 'class':'opcao', role: p.tipo === 'um' ? 'radio' : 'checkbox', 'aria-checked':'false', 'data-v':o.v});
+        b.appendChild(el('span', {'class':'marcador', 'aria-hidden':'true'}));
+        b.appendChild(document.createTextNode(o.t));
+        b.addEventListener('click', function(){
+          var botoes = ul.querySelectorAll('.opcao');
+          if (p.tipo === 'um'){
+            botoes.forEach(function(x){ x.setAttribute('aria-checked', 'false'); });
+            b.setAttribute('aria-checked', 'true');
+            respostas[p.id] = o.v;
+          } else {
+            var marcado = b.getAttribute('aria-checked') === 'true';
+            if (!marcado){
+              botoes.forEach(function(x){
+                var ox = p.opcoes.filter(function(q){ return q.v === x.getAttribute('data-v'); })[0];
+                if (o.exclusiva || ox.exclusiva) x.setAttribute('aria-checked', 'false');
+              });
+            }
+            b.setAttribute('aria-checked', marcado ? 'false' : 'true');
+            respostas[p.id] = [];
+            botoes.forEach(function(x){ if (x.getAttribute('aria-checked') === 'true') respostas[p.id].push(x.getAttribute('data-v')); });
+          }
+          var ok = p.tipo === 'um' ? !!respostas[p.id] : respostas[p.id].length > 0;
+          if (ok) btnSeguir.removeAttribute('disabled'); else btnSeguir.setAttribute('disabled', 'disabled');
+        });
+        li.appendChild(b);
+        ul.appendChild(li);
+      });
+      sec.appendChild(ul);
+      var acoes = el('div', {'class':'acoes'});
+      btnSeguir.addEventListener('click', avancar);
+      acoes.appendChild(btnSeguir);
+      var v = el('button', {type:'button', 'class':'btn btn-secundario', 'data-voltar':''}, 'Voltar');
+      acoes.appendChild(v);
+      sec.appendChild(acoes);
+      alvo.appendChild(sec);
+    });
+  }
+
+  function irPara(i){
+    telas[indiceAtual].classList.remove('ativa');
+    indiceAtual = i;
+    var t = telas[i];
+    t.classList.add('ativa');
+    atualizarProgresso();
+    window.scrollTo(0, 0);
+    var h = t.querySelector('h1, h2');
+    if (h){ h.setAttribute('tabindex', '-1'); h.focus({preventScroll:true}); }
+  }
+  function avancar(){ irPara(Math.min(indiceAtual + 1, telas.length - 1)); }
+  function voltar(){ irPara(Math.max(indiceAtual - 1, 0)); }
+
+  function atualizarProgresso(){
+    var prog = document.getElementById('progresso');
+    var ultimo = telas.length - 1;
+    if (indiceAtual === 0 || indiceAtual === ultimo){ prog.hidden = true; return; }
+    prog.hidden = false;
+    document.getElementById('etapa-texto').textContent = 'Etapa ' + indiceAtual + ' de ' + TOTAL;
+    document.getElementById('barra-preenchida').style.width = (indiceAtual / TOTAL * 100) + '%';
+    prog.querySelector('.barra').setAttribute('aria-valuenow', indiceAtual);
+  }
+
+  function digitos(v){ return (v || '').replace(/\D/g, ''); }
+  function mascara(v){
+    var d = digitos(v).slice(0, 11);
+    if (d.length <= 2) return d.length ? '(' + d : '';
+    if (d.length <= 6) return '(' + d.slice(0,2) + ') ' + d.slice(2);
+    if (d.length <= 10) return '(' + d.slice(0,2) + ') ' + d.slice(2,6) + '-' + d.slice(6);
+    return '(' + d.slice(0,2) + ') ' + d.slice(2,7) + '-' + d.slice(7);
+  }
+  function erro(id, tem){ document.getElementById(id).classList.toggle('erro', tem); }
+
+  function lerUtms(){
+    var p = new URLSearchParams(window.location.search), u = {};
+    ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){ u[k] = p.get(k) || ''; });
+    return u;
+  }
+
+  function evento(nome, dados){
+    try {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(Object.assign({event: nome}, dados || {}));
+      if (typeof window.fbq === 'function') window.fbq('trackCustom', nome, dados || {});
+    } catch(e){}
+  }
+
+  function enviar(payload){
+    console.log('[AndroClinic] lead', payload);
+    if (CONFIG.SALVAR_LOCAL){
+      try {
+        var l = JSON.parse(localStorage.getItem(CONFIG.CHAVE_LOCAL) || '[]');
+        l.push(payload); localStorage.setItem(CONFIG.CHAVE_LOCAL, JSON.stringify(l));
+      } catch(e){}
+    }
+    if (!CONFIG.ENDPOINT) return;
+    try {
+      fetch(CONFIG.ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload), mode:'cors'}).catch(function(){});
+    } catch(e){}
+  }
+
+  function renderizar(nome){
+    var chave = calcularPerfil(respostas);
+    var p = PERFIS[chave];
+    document.getElementById('titulo-resultado').textContent = nome + ', aqui está o seu resultado.';
+    document.getElementById('perfil-espelho').textContent = p.espelho;
+    document.getElementById('convite-texto').textContent = p.convite;
+    var ol = document.getElementById('lista-roteiro');
+    ol.innerHTML = '';
+    montarItensRoteiro(respostas).forEach(function(t){ ol.appendChild(el('li', {}, t)); });
+
+    var areas = calcularAreas(respostas);
+    var urg = montarUrgencia(respostas, areas);
+    document.getElementById('avaliacao-titulo').textContent = urg.total === 1
+      ? 'Você tem 1 ponto para conversar com o médico.'
+      : 'Você tem ' + urg.total + ' pontos para conversar com o médico.';
+    var mapa = document.getElementById('mapa-areas');
+    mapa.innerHTML = '';
+    areas.forEach(function(a){
+      var d = el('div', {'class':'area'});
+      var topo = el('div', {'class':'area-topo'});
+      topo.appendChild(el('span', {}, a.nome));
+      topo.appendChild(el('span', {'class':'area-nivel'}, a.nivel));
+      d.appendChild(topo);
+      var barra = el('div', {'class':'area-barra', role:'img', 'aria-label': a.nome + ': ' + a.nivel});
+      var cheio = el('span', {}); cheio.style.width = a.pct + '%';
+      barra.appendChild(cheio);
+      d.appendChild(barra);
+      d.appendChild(el('p', {'class':'area-motivos'}, a.pontos ? 'Pelas suas respostas: ' + juntar(a.motivos) + '.' : 'Nada marcado nesta área. O médico confirma na conversa.'));
+      mapa.appendChild(d);
+    });
+    var maxTotal = areas.reduce(function(acc, a){ return acc + a.max; }, 0);
+    document.getElementById('medidor-pontos').textContent = urg.total;
+    document.getElementById('medidor-de').textContent = 'de ' + maxTotal + ' pontos';
+    var pct = Math.max(4, Math.round(urg.total / maxTotal * 100));
+    var arco = document.getElementById('medidor-arco');
+    arco.setAttribute('stroke-dasharray', '0 100');
+    setTimeout(function(){ arco.setAttribute('stroke-dasharray', pct + ' 100'); }, 150);
+    var prioridade = urg.forte ? 'Alta' : (urg.total >= 3 ? 'Moderada' : 'Inicial');
+    var pEl = document.getElementById('prioridade');
+    pEl.textContent = prioridade;
+    pEl.className = urg.forte ? 'alta' : '';
+    arco.setAttribute('stroke', urg.forte ? '#8A3B12' : 'var(--azul)');
+    var maior = pontoMaior(areas);
+    document.getElementById('ponto-maior').textContent = maior ? maior.nome : 'nenhum em destaque';
+    var ta = TEXTO_AREAS[maior ? maior.nome : 'nenhum'];
+    document.getElementById('area-rotulo').textContent = maior ? 'Seu ponto de maior atenção: ' + maior.nome : 'O que isso quer dizer';
+    document.getElementById('area-titulo').textContent = ta.titulo;
+    document.getElementById('area-texto').textContent = ta.texto;
+
+    var marcar = {
+      'ereção': ['as_vezes','frequente','quase_sempre'].indexOf(respostas.acontece) > -1,
+      'desejo': respostas.acontece === 'outro',
+      'ejaculação': respostas.acontece === 'outro',
+      'cansaço': respostas.cabeca === 'sono' || respostas.cabeca === 'ambos'
+    };
+    document.querySelectorAll('.sintoma').forEach(function(s){
+      s.classList.toggle('marcado', !!marcar[s.getAttribute('data-sintoma')]);
+    });
+
+    document.getElementById('urgencia-titulo').textContent = urg.titulo;
+    var lu = document.getElementById('lista-urgencia');
+    lu.innerHTML = '';
+    urg.itens.forEach(function(t){ lu.appendChild(el('li', {}, t)); });
+    return chave;
+  }
+
+  function ligar(){
+    document.getElementById('btn-comecar').addEventListener('click', function(){ evento('QuizIniciado'); avancar(); });
+    document.addEventListener('click', function(e){ if (e.target.hasAttribute('data-voltar')) voltar(); });
+    document.getElementById('btn-aberta').addEventListener('click', function(){
+      respostas.aberta = document.getElementById('resposta-aberta').value.trim();
+      evento('QuizConcluido');
+      avancar();
+    });
+    var w = document.getElementById('whatsapp');
+    w.addEventListener('input', function(){ w.value = mascara(w.value); });
+
+    document.getElementById('form-captura').addEventListener('submit', function(e){
+      e.preventDefault();
+      var nome = document.getElementById('nome').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var zap = digitos(w.value);
+      var eNome = nome.length < 2;
+      var eZap = !(zap.length === 10 || zap.length === 11);
+      var eEmail = email !== '' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      var eIdade = !document.getElementById('idade').checked;
+      var eCons = !document.getElementById('consentimento').checked;
+      erro('campo-nome', eNome); erro('campo-whatsapp', eZap); erro('campo-email', eEmail);
+      erro('campo-idade', eIdade); erro('campo-consent', eCons);
+      if (eNome || eZap || eEmail || eIdade || eCons) return;
+
+      var primeiro = nome.split(/\s+/)[0];
+      var perfil = renderizar(primeiro);
+      enviar({
+        data: new Date().toISOString(),
+        nome: nome, whatsapp: w.value, whatsapp_digitos: zap, email: email,
+        perfil: perfil, respostas: respostas,
+        consentimento_lgpd: true, maior_18: true,
+        utm: lerUtms(), origem: 'roteiro-consulta'
+      });
+      evento('LeadCapturado', {perfil: perfil});
+      avancar();
+    });
+
+    document.querySelectorAll('.js-agendar').forEach(function(ag){
+      ag.href = CONFIG.AGENDAMENTO_LINK;
+      ag.addEventListener('click', function(){
+        evento('CliqueAgendar', {perfil: calcularPerfil(respostas), posicao: ag.getAttribute('data-posicao')});
+      });
+    });
+    if (CONFIG.VSL_URL){
+      var vsl = document.getElementById('vsl');
+      document.getElementById('vsl-vazio').remove();
+      vsl.appendChild(el('iframe', {src: CONFIG.VSL_URL, title: 'Vídeo do Dr. Cristiano Estivalet', allow: 'autoplay; fullscreen; picture-in-picture', allowfullscreen: '', loading: 'lazy'}));
+    }
+    if (CONFIG.FOTO_MEDICO){
+      var foto = document.getElementById('medico-foto');
+      foto.style.backgroundImage = 'url("' + CONFIG.FOTO_MEDICO + '")';
+      foto.textContent = '';
+    }
+    if (CONFIG.PROVA_SOCIAL.length){
+      var ps = document.getElementById('prova-social');
+      CONFIG.PROVA_SOCIAL.forEach(function(x){ ps.appendChild(el('li', {}, x)); });
+      ps.hidden = false;
+    }
+    var barra = document.getElementById('barra-fixa');
+    var bloco1 = document.getElementById('bloco-resultado');
+    var oferta = document.getElementById('oferta');
+    function checarBarra(){
+      var ativo = document.getElementById('tela-resultado').classList.contains('ativa');
+      var passou = ativo && bloco1.getBoundingClientRect().bottom < 0;
+      var r = oferta.getBoundingClientRect();
+      var naOferta = r.top < window.innerHeight && r.bottom > 0;
+      var mostrar = passou && !naOferta;
+      barra.hidden = !mostrar;
+      document.body.classList.toggle('com-barra', ativo);
+    }
+    window.addEventListener('scroll', checarBarra, {passive: true});
+    window.addEventListener('resize', checarBarra);
+    if (CONFIG.WHATSAPP_LINK){
+      var bz = document.getElementById('btn-whatsapp');
+      bz.href = CONFIG.WHATSAPP_LINK; bz.hidden = false;
+      bz.addEventListener('click', function(){ evento('CliqueWhatsApp'); });
+    }
+    if (CONFIG.PRECO_TEXTO){
+      var pr = document.getElementById('preco');
+      pr.textContent = CONFIG.PRECO_TEXTO; pr.hidden = false;
+    }
+    document.getElementById('btn-imprimir').addEventListener('click', function(){ window.print(); });
+    document.getElementById('rodape').textContent = CONFIG.RODAPE;
+  }
+
+  montarPerguntas();
+  telas = Array.prototype.slice.call(document.querySelectorAll('.tela'));
+  ligar();
+})();
+</script>
+</body>
+</html>
