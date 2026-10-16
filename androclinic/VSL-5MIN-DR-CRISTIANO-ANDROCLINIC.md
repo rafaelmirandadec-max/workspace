@@ -4,13 +4,6 @@ Rascunho para gravação. Recuperado do histórico da sessão de 07/10/2026. Nad
 
 Produto: consulta online de telemedicina da AndroClinic. Objetivo: o lead clica e agenda. Método: 10 passos. Voz: Dr. Cristiano Grizza Estivalet, em primeira pessoa. Público: homem de 45 a 65 anos que já tentou e não resolveu (nível 3 de consciência). Etapa: Compra, fim do CGCC.
 
-## Aviso antes de abrir este arquivo
-
-Este roteiro contém fatos de saúde pessoais do Dr. Cristiano (disfunção aos 35 anos, infarto aos 37, em maio de 2012). Nada disso foi confirmado por ele. É dado de saúde de pessoa real (LGPD, art. 11).
-
-- Não gravar, não publicar e não repassar sem a confirmação dele e a autorização escrita.
-- Sem essas linhas, os passos 2, 4 e 6 têm plano B marcado em cada um.
-
 Outros limites que valem para o arquivo todo:
 - Sem promessa de resultado, sem depoimento de paciente, sem antes e depois (CFM 2.336/2023, art. 11 e art. 14).
 - Sem nome de medicamento (RDC 96).
