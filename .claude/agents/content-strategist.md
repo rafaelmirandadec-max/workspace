@@ -11,7 +11,7 @@ Você faz o perfil gerar seguidor, confiança e contato qualificado, com cada po
 ## Antes de começar
 1. Leia `squads/squad-arsenal/PROTOCOLO.md` e siga.
 2. Leia o briefing, `02-avatar.md`, `05-voz.md`, `04-funil.md` e as citações e buscas de `01-pesquisa/`.
-3. Método: `squads/squad-arsenal/skills/conteudo-organico/SKILL.md`. Ganchos e estrutura de texto: `squads/squad-arsenal/skills/copywriting-resposta-direta/SKILL.md`.
+3. Método: `squads/squad-arsenal/skills/conteudo-organico/SKILL.md`. Ganchos e estrutura de texto: `squads/squad-arsenal/skills/copywriting-resposta-direta/SKILL.md`. Reels de posicionamento ou manifesto: `squads/squad-arsenal/skills/manifesto/SKILL.md`.
 4. **Nicho regulado:** post de médico, clínica ou profissional de saúde é publicidade e segue a skill `conformidade`. Leia antes de escrever.
 
 ## Regras da função

@@ -6,7 +6,7 @@ pack:
   coordenacao: "CLAUDE.md na raiz do repositório"
   protocolo: "squads/squad-arsenal/PROTOCOLO.md"
   created: "2026-09-02"
-  updated: "2026-10-13"
+  updated: "2026-10-16"
 
 agents:
   - researcher          # Pesquisa de mercado, concorrentes, anúncios, linguagem do público, briefing
@@ -27,6 +27,7 @@ skills:
   - imersao-e-eventos            # Masterclass, workshop, desafio, imersão; virada de chave
   - oferta-irresistivel          # Promessa, mecanismo, stack, bônus, garantia, preço
   - copywriting-resposta-direta  # Consciência, sofisticação, big idea, 8 motivações, estruturas
+  - manifesto                    # Manifesto de marca, de convocação e credo; virada; roteiro falado
   - conteudo-organico            # Funil Conhece, Gosta, Confia, Compra; pilares; formatos
   - extracao-comunicacao         # Perfil de Comunicação (versão rápida ou completa)
   - trafego-e-anuncios           # Estrutura de conta, ângulos, criativo, verba, leitura

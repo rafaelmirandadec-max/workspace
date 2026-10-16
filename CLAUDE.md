@@ -21,7 +21,7 @@ A conversa principal é quem coordena o squad: faz a triagem, conversa com o Raf
 | Promessa, mecanismo único, stack, garantia, preço, bônus | `offer-architect` |
 | Escada de valor, tipo de funil, mapa de páginas e e-mails, evento ou imersão | `funnel-architect` |
 | Posicionamento, tom de voz, Perfil de Comunicação, personagem atraente | `brand-architect` |
-| Peças de conversão: página, VSL, e-mail, anúncio, roteiro, ângulos | `copywriter` |
+| Peças de conversão: página, VSL, manifesto, e-mail, anúncio, roteiro, ângulos | `copywriter` |
 | Instagram e conteúdo orgânico: linha editorial, pilares, pautas, Reels, carrosséis | `content-strategist` |
 | Plano de mídia paga, estrutura de conta, públicos, briefing de criativo | `traffic-strategist` |
 | KPIs, gargalo do funil, unit economics, projeção, teste A/B | `metrics-analyst` |
