@@ -247,3 +247,5 @@ Foi uma leitura rápida da v1.1 contra este parecer, não uma revisão completa.
 2. **Decisões:** A e B estão liberadas com avisos. A publicação depende do rodapé preenchido e do parecer do advogado.
 3. **Pendências:** o rodapé (pendência h); o parecer do advogado, com o art. 11, I, para a marca inteira; o CRM-SP, se o Dr. atender em Alphaville; a aprovação do mote pelo Rafael; a confirmação de que a consulta não tem sala de espera virtual, se a frase ficar.
 4. **Próxima fase:** o `copywriter` faz dois ajustes de uma linha (os itens 1 e 3 acima). Depois vem o envio ao advogado e, em paralelo, o corte curto do `traffic-strategist`, que volta para o `revisor`.
+
+**Aplicado (coordenação, v1.2):** os ajustes 1 e 3 entraram na v1.2. "Sem sala de espera" virou "Sem ir até um consultório". Na A, "com o médico dele" virou "com o próprio médico".
