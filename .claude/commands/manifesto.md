@@ -7,11 +7,11 @@ description: "Manifesto — copy de crença e convocação: tipos (marca, convoc
 ```yaml
 skill:
   id: manifesto
-  version: "1.1.0"
+  version: "1.2.0"
   updated: "2026-10-16"
   category: copy-e-conversao
   agents: ["copywriter", "content-strategist", "brand-architect", "funnel-architect", "revisor"]
-  base: "5 manifestos de lançamento e 2 de marca (Johnnie Walker e Nike) enviados pelo Rafael; texto integral em exemplos.md"
+  base: "8 manifestos de convocação e 2 de marca enviados pelo Rafael (Wendell Carvalho, Cardoso Mundo, Johnnie Walker, Nike e outros); texto integral em exemplos.md"
 ```
 
 ---
@@ -45,7 +45,7 @@ O que muda em relação ao de convocação:
 - **Amplia em vez de filtrar:** "Não importa se você corre maratonas ou está só começando." A marca quer todo mundo que se reconhece na identidade.
 - **A última frase é o título ou o slogan:** "Você tem corrida na veia." / "…e você vai estar. [Keep Walking]".
 
-**Manifesto de convocação** (Wendell Carvalho "5 Liberdades" e "Eu mereço", "A Grande Mudança", "Investimento Perfeito", DevClub).
+**Manifesto de convocação** (Wendell Carvalho "5 Liberdades", "Eu mereço", "Ou você domina o tempo" e "O Manifesto"; Cardoso Mundo "O renascimento"; "A Grande Mudança"; "Investimento Perfeito"; DevClub).
 De 2 a 15 minutos, falado pelo especialista olhando para a câmera. Leva o público da dor até uma decisão e termina com o convite para um evento gratuito, com nome, data e o que a pessoa ganha. É o formato de anúncio de captação de lançamento.
 
 **Manifesto-credo ou juramento** ("Por uma empresa sem caos").
@@ -68,6 +68,9 @@ A primeira frase tem que criar um incômodo ou uma curiosidade que só se resolv
 - **Revelação:** "Eu preciso tirar a venda dos seus olhos: já faz um tempo que você vem sendo enganado." (5 Liberdades)
 - **Dado:** "66 por cento dos donos de empresas buscam liberdade e autonomia." (Empresa sem caos)
 - **Observação de fora:** "Assim é como 99% das pessoas repetem o mesmo caminho…" (Eu mereço)
+- **Pergunta com conta:** "Quanto tempo ainda te resta? Hoje a expectativa de vida do brasileiro é de 76 anos…" (O Manifesto, Wendell). A pergunta abre e o número responde na vida da própria pessoa.
+- **Som ou imagem:** "Em meio ao mundo barulhento, o som do ponteiro de um relógio é o que você mais deve temer." (Ou você domina o tempo). Funciona muito bem em vídeo, porque o som pode tocar de verdade.
+- **Contexto coletivo:** "Estamos vivendo tempos de muita incerteza…", seguido de uma lista de males do mundo que afunila até "talvez você seja uma dessas mulheres". (O renascimento)
 
 O dado só entra com fonte. Se não houver, use outro tipo de abertura.
 
@@ -92,6 +95,8 @@ Todo manifesto é contra alguma coisa. O inimigo dá direção à raiva e tira o
 - **Algo dentro da pessoa:** o cérebro preguiçoso que repete padrões de luta e fuga (A Grande Mudança).
 - **Uma ideia aceita:** a crença de que previsibilidade é segurança (Eu mereço).
 - **Uma mudança no mundo:** a revolução que vai substituir quem não se adaptar (DevClub, pelo título).
+- **Uma indústria:** os "devoradores de atenção" que entregam pequenas doses de dopamina; "suas prisões já não têm paredes nem grades" (Ou você domina o tempo).
+- **Um sentimento coletivo:** o medo de tentar, de arriscar, de sonhar, do amor (O renascimento).
 
 Regra: **o inimigo nunca é o público**. Os bons manifestos absolvem antes de cobrar. "5 Liberdades" diz que a família instalou as crenças "sem maldade alguma, tentando te proteger". "A Grande Mudança" explica que o pessimismo é proteção do cérebro, herdada de quando era preciso fugir de predador. Só depois de absolver vem a responsabilidade: "não depende de ninguém, só depende da gente".
 
@@ -114,6 +119,8 @@ Manifesto de marca pula este movimento.
 - "A liberdade que você sonha está condicionada à quantia de dinheiro que você é capaz de fazer." (5 Liberdades)
 - "Todo dia você acha que foi acordado pelo despertador, mas o que tira você da cama é o que corre nas suas veias." (Nike: inverte a causa de um gesto banal)
 - "Eu não posso fazer isso… porque eu sou você daqui a 5 anos." (Johnnie Walker: revela quem está falando)
+- "O tempo não passa, ele apenas existe. Nós é que passamos." (Ou você domina o tempo: inverte quem é o sujeito da frase feita)
+- "Deus sempre coloca as melhores coisas da vida do outro lado do medo." (O renascimento: o medo deixa de ser sinal para parar e vira sinal de que o melhor está perto)
 
 No manifesto de marca a virada costuma vir na primeira ou na segunda frase, porque não há tempo para preparar.
 
@@ -176,6 +183,20 @@ Uma frase-âncora antes do convite ajuda a fixar a mensagem: "Você pode ter esq
 **Paradoxo.** "Você veio ao mundo para desapontar o seu pai, honrando-o." Provoca e faz pensar.
 
 **Identidade com nome.** Dar um nome a quem aceita a convocação: "comandante", "pessoas que querem mais", "movimento". O público passa a se ver pelo nome.
+
+**Símbolo de identidade.** Um animal, objeto ou figura que representa quem o público pode ser e que volta até o fim: "a leoa poderosa que vive dentro de você desperta" (O renascimento). O símbolo dá nome à comunidade e rende peças depois do manifesto. Escolha um que combine com o público e com a voz do especialista.
+
+**Conta da vida.** Transforma um dado frio numa conta sobre a vida de quem está assistindo: "Se você visita os seus pais uma vez ao ano, vai encontrá-los apenas mais 20 vezes na vida." / "Se você tem um filho de 5 anos e passa no máximo 3 horas com ele por dia, quando ele completar 18 anos seu tempo real com ele terá sido de menos de 2 anos corridos." (O Manifesto, Wendell). Faça a conta de verdade antes de usar (a do filho bate: 13 anos × 365 dias × 3 horas dá cerca de 1,6 ano) e diga de onde vem o dado de base.
+
+**Abertura que volta.** A imagem da abertura reaparece no meio ou no fim e fecha o círculo. Em "Ou você domina o tempo", o relógio de ponteiro do primeiro segundo volta como o relógio da escola, que ensinou a ler as horas mas não a usar o tempo. É ali que entra a absolvição: ninguém nos ensinou.
+
+**Anáfora "Toda vez que…".** Espelho em série, cada frase uma cena: "Toda vez que você escuta seu cônjuge reclamando que você está ausente… Toda vez que você perde uma conquista do seu filho… Toda vez que você está em um lugar pensando que deveria estar em outro…". Pode vir amarrada a um refrão ("Você sabe disso").
+
+**Visão no imperativo.** No lugar de "Chega de / A partir de agora", uma série de ordens que já são a decisão: "Escolha agora mais tempo de qualidade com as pessoas que você ama. Escolha agora produzir resultados… Escolha agora quem você será amanhã." (Ou você domina o tempo)
+
+**Tríade de provérbios.** Três imagens conhecidas que dizem a mesma coisa e preparam a virada: "Depois do deserto é que a terra prometida se encontra. Depois da tempestade é que o arco-íris mostra a sua beleza. Depois do choro é que vem a alegria." (O renascimento). Use só quando a linguagem é da voz do especialista e do público.
+
+**"Não importa…".** Uma série que tira do caminho tudo o que o público acha que o desqualifica: o que disseram, o que fizeram, o passado, os relacionamentos, até ter pensado em desistir (O renascimento). É a absolvição em forma de lista.
 
 **Concreto no lugar de abstrato.** Troque "qualidade de vida" por "escolher onde seus filhos vão estudar e quantas atividades extracurriculares eles vão fazer". Troque "liberdade" por "ficar em casa quando quiser sem que isso pese no orçamento".
 
@@ -253,7 +274,7 @@ LETTERING / CTA por canal:
 5. **Visão abstrata.** "Vida épica", "liberdade", "prosperidade" repetidos sem uma cena concreta.
 6. **Clichê de lançamento.** "Tomar as rédeas", "sair da zona de conforto", "vida épica", "melhor versão" sem algo que só este especialista diria. Pelo menos a virada e as imagens têm que ser próprias.
 7. **Prometer o que a oferta não entrega.** "Trabalhar com o que quiser, quando e como quiser" num evento de três dias é promessa que a operação não sustenta.
-8. **Número sem fonte.** "66% dos donos de empresa", "99% das pessoas". Só com fonte; senão, troque por cena ou observação.
+8. **Número sem fonte ou mito.** "66% dos donos de empresa", "99% das pessoas", "estudos apontam que…". Só com fonte; senão, troque por cena ou observação. Cuidado com mito que circula como dado: "a nossa atenção hoje é comparada à de um peixinho dourado" (Ou você domina o tempo) é uma afirmação muito contestada e não deve ser usada como fato.
 9. **Texto de IA.** Simetria, três adjetivos por frase, todo parágrafo do mesmo tamanho, "em um mundo cada vez mais…". Ver seção 8 da skill `copywriting-resposta-direta`.
 
 ---
@@ -267,6 +288,8 @@ Manifesto exagera por natureza, e por isso é a peça que mais esbarra em regra.
 - **Atributos pessoais em anúncio do Meta:** "Você está endividado?", "Você sofre de ansiedade?" afirma ou insinua uma condição da pessoa e pode ser reprovado. Em anúncio, prefira terceira pessoa ou cena ("Assim é como 99% das pessoas…").
 - **Religião e política:** citação bíblica, crítica a governo e à mídia dividem público e podem gerar rejeição ou restrição. Use só se fizer parte da voz real do especialista.
 - **Promessa de renda:** "gerar riqueza usando apenas o celular" precisa de ressalva e não pode sugerir resultado garantido.
+- **Suicídio e sofrimento psíquico:** "talvez até mesmo tenha pensado em desistir da vida" (O renascimento) toca num tema que exige cuidado. Se o público pede essa menção, trate com respeito, não use como gancho de venda e inclua o CVV (ligue 188, gratuito, 24 horas). Em anúncio, evite: a política do Meta restringe esse tipo de conteúdo.
+- **Promessa terapêutica:** "curar todas as suas feridas do passado" e falar de ansiedade e "transtornos emocionais" aproximam a peça de saúde mental. Evento de desenvolvimento pessoal não promete cura; se o especialista não é profissional de saúde, deixe isso claro na oferta.
 
 Toda versão que vai a público passa pelo `revisor`.
 
@@ -292,7 +315,7 @@ Toda versão que vai a público passa pelo `revisor`.
 
 ## 11. Os exemplos, em cartões
 
-Texto integral dos sete manifestos em `squads/squad-arsenal/skills/manifesto/exemplos.md`.
+Texto integral dos dez manifestos em `squads/squad-arsenal/skills/manifesto/exemplos.md`.
 
 **A Grande Mudança** (convocação, evento gratuito de 7 dias, 2022; autor não informado no texto)
 Abertura: bastidores contra o palco dos outros, com o refrão "E nós não".
@@ -345,5 +368,32 @@ Amplia: "não importa se você corre maratonas ou está só começando, essa for
 Fecho: "Uma história que não vem só dos pés, vem da alma. Você tem corrida na veia."
 Lição: o produto aparece uma vez, como objeto (o laço do tênis); a peça vende o tipo de pessoa que usa.
 
-**Vídeos de referência que ainda não foram analisados** (o YouTube bloqueou a leitura e os arquivos do Drive não abriram; só os títulos foram conferidos):
-Wendell Carvalho, "Manifesto" e "Ou você domina o tempo ou é dominado por ele"; Cardoso Mundo, "O manifesto — O renascimento"; DevClub, "Descubra como sobreviver à revolução que vai te substituir"; Pedro Calabrez e Hermann Greb (arquivos no Drive, sem título visível). Quando houver transcrição, acrescente um cartão para cada um.
+**O Manifesto — Wendell Carvalho** (convocação curta, cerca de 1min20 e 200 palavras; transcrição automática)
+Abertura: "Quanto tempo ainda te resta?", com a expectativa de vida de 76 anos (o vídeo não mostra a fonte; o IBGE é a referência para conferir).
+Recurso central: a conta da vida, com os pais (mais 20 encontros) e o filho (menos de 2 anos de convivência até os 18).
+Inimigo: o tempo perdido na cama e no feed.
+Fecho: "Chegou a hora de acordar pra realidade. Descubra o melhor da vida." Não tem evento nem data; serve de aquecimento ou de peça de posicionamento.
+Lição: um manifesto curto pode ser feito só com uma pergunta, duas contas e uma ordem.
+
+**Ou você domina o tempo ou é dominado por ele — Wendell Carvalho** (convocação, cerca de 8min30; evento gratuito "O Ponto de Virada")
+Abertura: o som do ponteiro do relógio, comparado aos passos de um juiz que vai perguntar "quem foi você, o que você realizou no tempo que lhe foi dado".
+Título: dilema "ou você domina o tempo ou é dominado por ele", dito logo depois da abertura.
+Espelho: refrão "você sabe disso" e anáfora "Toda vez que…", com cenas do cônjuge, do filho e do trabalho.
+Virada: "o tempo não passa, ele apenas existe; nós é que passamos", e nunca passamos tão rápido e tão desatentos.
+Inimigo: os devoradores de atenção, a dopamina, as prisões "sem paredes nem grades"; a troca de "um futuro de realizações por um presente de distrações".
+Absolvição: a escola ensinou a ler o relógio de ponteiro, não a usar o tempo (a abertura volta).
+Visão: seis vezes "Escolha agora…"; "quanto mais tempo você demora para escolher, menos tempo você vive".
+Convite: data (12 de julho), horário, duração de 4 horas, gratuito "somente para quem estiver ao vivo", e o passo a passo para ativar a notificação no YouTube. O nome do evento repete a expressão "virar o jogo" usada no texto.
+Fraqueza: dados de "estudos" sem fonte, um deles (o peixinho dourado) muito contestado; trecho de agitação longo.
+
+**O renascimento — Cardoso Mundo** (convocação, cerca de 3 minutos; público feminino e cristão; 2022)
+Abertura: contexto coletivo ("tempos de muita incerteza"), lista de males do mundo, afunila para "o mundo está com medo, as mulheres estão com medo" e depois para "talvez você seja uma dessas mulheres".
+Inimigo: o medo (de tentar, de arriscar, de sonhar, do amor).
+Virada: "Deus sempre coloca as melhores coisas da vida do outro lado do medo", com a tríade deserto, tempestade e choro.
+Absolvição: duas séries de "não importa…" (o que disseram, o que fizeram, o passado, os relacionamentos).
+Símbolo: a leoa que vive dentro de você e desperta; o evento é o "renascimento da mulher poderosa que você nasceu para ser".
+Recursos: elogio direto ("você é linda, poderosa, corajosa"), gancho do ano ("2022 pode não estar sendo do jeito que você gostaria, mas pode terminar como você nunca imaginou").
+Cuidados: menciona ideação suicida sem indicar ajuda; promete "curar todas as suas feridas do passado".
+Lição: o vocabulário religioso funciona porque é a voz do especialista e a do público; num público laico, o mesmo texto afasta.
+
+**Ainda não analisados:** DevClub, "Descubra como sobreviver à revolução que vai te substituir"; Pedro Calabrez e Hermann Greb (arquivos no Drive, sem título visível). Quando houver transcrição, acrescente um cartão para cada um.
