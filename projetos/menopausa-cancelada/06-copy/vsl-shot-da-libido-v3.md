@@ -240,7 +240,7 @@ Não tem glúten. E são dois sabores: melancia e morango com maracujá. [Se a m
 - A frase sobre outros produtos ("muito produto por aí fala fórmula exclusiva e não mostra nada"): aviso A3, pode ser lida como desqualificação de concorrente. Declarar a quantidade é obrigação, então a fala só diz que a marca mostra.
 - Na Q10, o trecho "os níveis diminuem com o passar dos anos" (está no rascunho): dito numa peça de venda, sugere que o produto repõe o que falta. A descrição da Q10 está com o advogado (A8). Entra só se ele liberar.
 - No ácido hialurônico, o trecho "presente na pele": a página no ar associava esse ingrediente a lubrificação, e a VSL vem logo depois da história da Ana. Ficou só "substância que o próprio corpo produz".
-- Nenhum ingrediente além do zinco e da B6 recebe função. As duas alegações seguem a redação do briefing (Anexo VII da IN 28/2018).
+- Nenhum ingrediente além do zinco e da B6 recebe função. As duas alegações seguem a redação do briefing (Anexo V da IN 28/2018).
 
 ---
 
