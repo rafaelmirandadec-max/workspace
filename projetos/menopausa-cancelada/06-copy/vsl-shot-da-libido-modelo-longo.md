@@ -1,6 +1,11 @@
 # VSL longa do Shot da Libido, na estrutura do modelo da lição 3 (23/10/2026)
 
-Roteiro para gravar e colocar no topo da página de vendas. Escrito pelo copywriter a partir do mapa do modelo (`fontes-drive/modelo-vsl-burn-mapa-da-estrutura.md`). **Ainda não revisado: segue para o `revisor` e para o advogado sanitário antes de gravar.** A VSL v3 (`vsl-shot-da-libido-v3.md`, 12 blocos, 12 minutos) continua existindo; esta é uma segunda versão, mais longa, com a conta "comida × dose" fora do texto principal.
+**Corrigida em 23/10/2026 conforme o parecer do revisor (`revisoes/vsl-shot-da-libido-modelo-longo-2026-10-23.md`), no próprio arquivo.** O que mudou:
+- **Bloqueios 1 a 4 corrigidos no texto:** "não mexe em hormônio" saiu de toda a peça (marcador de volta só com confirmação da responsável técnica); o bloco 11 passou a critério de interesse e segurança; a FAQ 4 virou "isso a gente não sabe responder" e ganhou terapia hormonal; a promessa de "rótulo inteiro / quantidade de cada um / é só isso" saiu, e entrou [CONFERIR O RÓTULO REAL] nos blocos de ingredientes e nas telas.
+- **Avisos de texto corrigidos:** rodapé completo fixo desde o bloco 2; bloco 12 sem a divisão corpo/produto; piscadelas regulatórias retiradas (blocos 10, 14, 17, 18); bloco 22 refeito; "durante anos" reclassificado como PISTA e reescrito; bloco 7 ajustado; "não é X, é Y" e "a gente prefere" reduzidos; conta por dia só no bloco 19, só à vista; "dose única" virou "um dosador, rótulo na mão"; bloco 8 na ordem da gravação; duração corrigida; notas sobre o 13A e sobre quem grava a voz. Também apliquei, por serem pequenos: "muitas vezes" nas generalizações (A8), "a partir de 19 anos" (A11), corte do "Montar isso sozinha" (A12), uma recapitulação a menos (bloco 9) e um só corte entre "valem mais que qualquer venda" e "perder uma venda" (A20).
+- **Não resolvem por texto (ver Pendências no fim):** L-citrulina isolada na IN 28/2018 (risco vermelho), nome do produto no Meta e a página (condição de publicação).
+
+**Ainda não liberado: segue para o `revisor` de novo, para o advogado sanitário e para a responsável técnica antes de gravar.** A VSL v3 (`vsl-shot-da-libido-v3.md`, 12 blocos, 12 minutos) continua existindo; esta é uma segunda versão, mais longa, com a conta "comida × dose" fora do texto principal.
 
 ## Cabeçalho
 
@@ -8,28 +13,30 @@ Roteiro para gravar e colocar no topo da página de vendas. Escrito pelo copywri
 
 **Etapa do funil:** página de vendas, topo da página, antes do bloco de oferta.
 
-**Big idea:** transparência e praticidade. Dez ingredientes, a quantidade de cada um no rótulo, um dosador num copo de água, uma vez por dia. A marca aposta em dizer mais do que o público espera: o rótulo inteiro e o que o produto não faz. É a Versão B do parecer do revisor.
+**Big idea:** transparência e praticidade. Os dez ingredientes da fórmula, as quantidades que o rótulo traz, um dosador num copo de água, uma vez por dia. A marca aposta em dizer mais do que o público espera: o que está no rótulo e o que o produto não faz. É a Versão B do parecer do revisor. A promessa de transparência só vale até onde o rótulo real a sustenta (ver [CONFERIR O RÓTULO REAL] nos blocos 13, 14 e 17).
 
 **Ângulo:** inimigo comum. No modelo, o vilão é o "modo padrão" do corpo. Aqui o vilão é a resposta "é da idade", que fecha a conversa, e a rotina que deixa a mulher por último. O reenquadramento é "o problema não é você" (palavra do público).
 
-**Duração estimada:** cerca de 3.300 palavras faladas, uns 22 minutos a 150 palavras por minuto (SUPOSIÇÃO de ritmo; medir na primeira leitura). O modelo é bem maior. O que falta nele é justamente o que não podemos usar: estudo, credencial, depoimento, escassez e ancoragem. Não completei com invenção.
+**Duração estimada:** cerca de 2.900 palavras faladas, uns 19 minutos a 150 palavras por minuto (contagem do revisor, sem colchetes e sem o 13A; SUPOSIÇÃO de ritmo, medir na primeira leitura). Os tempos entre parênteses em cada bloco vêm da primeira versão e somam 22:18 porque incluem pausas de tela; devem ser refeitos depois da primeira leitura. O 13A, se entrar, soma cerca de 40 s. O modelo é bem maior. O que falta nele é justamente o que não podemos usar: estudo, credencial, depoimento, escassez e ancoragem. Não completei com invenção.
+
+**Quem grava a voz (decisão antes da gravação):** o texto foi escrito para uma narradora da marca, sem nome. **Se a voz ou a imagem for a da Giovanna, a frase "Não é uma nutricionista" (bloco 3) cai** (seria dita por uma nutricionista), junto com "Obrigada por ficar até o fim" no tom de narradora externa, e o desenho da peça muda. Registrar a decisão no arquivo antes de gravar.
 
 ### (a) Como cada passo do modelo foi adaptado
 
-- **Passos 1 e 2 (título, abertura):** no lugar da "descoberta de Harvard", a curiosidade vem de uma promessa verdadeira: mostrar o rótulo inteiro e dizer o que o produto não faz. A abertura anuncia o que o vídeo entrega e promete uma revelação mais à frente (o laço da "pegadinha").
+- **Passos 1 e 2 (título, abertura):** no lugar da "descoberta de Harvard", a curiosidade vem de uma promessa verdadeira: mostrar o que está no rótulo e dizer o que o produto não faz. A abertura anuncia o que o vídeo entrega e promete uma revelação mais à frente (o laço da "pegadinha").
 - **Passo 3 (apresentador e credenciais):** a marca se apresenta, com razão social e CNPJ na tela, e diz que não fala como profissional de saúde. Sem número de clientes, sem mídia, sem CRN.
-- **Passos 4 a 6 (promessa, diferencial, futuro desejado):** a admissão de "parece mais um suplemento" fica, com a desconfiança tratada como justa. O diferencial é só o que a marca faz (dez ingredientes numa dose, tudo escrito). O futuro desejado é de rotina (um dosador, um copo de água, um momento do dia, perguntas na mão para a consulta), nunca de efeito no corpo.
-- **Passos 7 e 8 (dor, humildade):** a Ana, da v3, com o ginecologista logo depois. A humildade do especialista vira humildade da marca: ela sabe de um suplemento e não sabe o que acontece no corpo de cada mulher.
-- **Passo 9 (roteiro e laços abertos):** cinco laços, todos entregues: a pegadinha, as duas perguntas ao ginecologista, o que a marca aprendeu com as receitas, os três avisos de segurança e a conta por dia.
+- **Passos 4 a 6 (promessa, diferencial, futuro desejado):** a admissão de "parece mais um suplemento" fica, com a desconfiança tratada como justa. O diferencial é só o que a marca faz (dez ingredientes numa dose, quantidades no rótulo). O futuro desejado é de rotina (um dosador, um copo de água, um momento do dia, perguntas na mão para a consulta), nunca de efeito no corpo.
+- **Passos 7 e 8 (dor, humildade):** a Ana, da v3, com o ginecologista logo depois. A humildade do especialista vira humildade da marca: ela sabe de um suplemento e não sabe o que acontece no corpo de cada mulher, em cada caso.
+- **Passo 9 (roteiro e laços abertos):** cinco laços, todos entregues: a pegadinha, as duas perguntas ao ginecologista, a origem da ideia (as receitas), os três avisos de segurança e a conta por dia.
 - **Passos 10 a 12 (teto invisível, reapresentação, reenquadramento):** o teto é "é da idade". O reenquadramento é "o problema não é você".
-- **Passo 13 (mecanismo do problema):** o corpo aparece em terceira pessoa e o ginecologista vem imediatamente depois, antes de qualquer menção ao produto. Segue a rotina que deixa a mulher por último (linguagem da live).
-- **Passos 14 a 16 (por que as dietas falham, exceções, "você não está perdida"):** sem atacar dieta nem concorrente. Falam das receitas caseiras que as mulheres não conseguiam manter, a mulher que atravessa a fase sem incômodo (e a viúva feliz da live) e o caminho da consulta.
-- **Passo 17 (mecanismo da solução):** "dose única, rótulo aberto". Nome de trabalho, decisão do Rafael.
+- **Passo 13 (mecanismo do problema):** o corpo aparece em terceira pessoa, em geral, e o ginecologista vem logo depois. **O Shot já foi nomeado e mostrado nos blocos 2 a 5**, então não vale dizer que o produto só aparece depois do bloco 10; por isso o rodapé completo fica fixo desde o bloco 2. Segue a rotina que deixa a mulher por último (linguagem da live).
+- **Passos 14 a 16 (por que as dietas falham, exceções, "você não está perdida"):** sem atacar dieta nem concorrente. Falam das receitas caseiras que muita mulher não consegue manter, de quem não quer ou não precisa de nada disso (sem critério de sintoma) e do caminho da consulta.
+- **Passo 17 (mecanismo da solução):** "um dosador, rótulo na mão". Nome de trabalho, decisão do Rafael. Trocou "dose única, rótulo aberto", porque "dose única" em português é a dose tomada uma vez só.
 - **Passo 18 (prova científica):** vira "a prova que você mesma confere", com o rótulo. O vídeo avisa que não vai citar estudo.
-- **Passo 19 (a pegadinha):** no modelo, a pegadinha é a pimenta impossível. Aqui é o que o produto não faz. É a frase do bloco 8 da v3, **decisão pendente do Rafael**.
+- **Passo 19 (a pegadinha):** no modelo, a pegadinha é a pimenta impossível. Aqui é o que o produto não faz. É a frase do bloco 15, **decisão pendente do Rafael**.
 - **Passo 21 (história de criação):** as receitas que ninguém mantinha e a pergunta "não seria mais prático um medidor, um pozinho, água?". Versão B como padrão.
-- **Passos 22 e 23 (ingredientes, como tomar):** os dez ingredientes com as doses do briefing. Só o zinco e a B6 recebem a alegação, com a redação do briefing. Aviso de dose e três avisos de segurança.
-- **Passo 25 (preço):** oferta toda em colchetes. "Menos de R$ 4,40 por dia" uma única vez, como condicional.
+- **Passos 22 e 23 (ingredientes, como tomar):** os dez ingredientes da fórmula com as doses do briefing. Só o zinco e a B6 recebem a alegação, com a redação do briefing. Aviso de dose e três avisos de segurança.
+- **Passo 25 (preço):** oferta toda em colchetes. A conta por dia aparece uma única vez (bloco 19), só à vista e como condicional.
 - **Passo 26 (prova social):** só um colchete para relato autorizado sobre sabor ou rotina.
 - **Passos 27 a 30 (garantia, fechamento, FAQ, último chamado):** garantia em colchete. Fechamento com a pergunta "como foi o seu último fim de dia?" e duas opções (levar as perguntas ao ginecologista, ou clicar). FAQ de cinco perguntas. A de remédio nunca recebe "pode".
 
@@ -48,21 +55,23 @@ Roteiro para gravar e colocar no topo da página de vendas. Escrito pelo copywri
 
 ### (c) O que depende do advogado e do Rafael
 
-**Rafael decide:** (1) manter a frase "não é remédio, não mexe em hormônio e não trata ressecamento, calorão nem falta de vontade" (bloco 15); (2) o nome "dose única, rótulo aberto" para o mecanismo; (3) a admissão "não vamos citar estudo" (bloco 14); (4) a oferta inteira; (5) se a página adota a voz da marca (hoje ela fala como a Giovanna).
+**Rafael decide:** (1) a negativa do bloco 15 ("não é remédio e não trata ressecamento, calorão nem falta de vontade"); "não mexe em hormônio" ficou de fora e só volta com confirmação por escrito da responsável técnica; (2) o nome "um dosador, rótulo na mão" para o mecanismo; (3) a admissão "este vídeo não vai citar estudo" (bloco 14); (4) a oferta inteira; (5) quem grava a voz: a marca (como está escrito) ou a Giovanna (a peça muda, ver acima).
 
-**Advogado sanitário:** (1) a conta "comida × dose" (bloco 13A, opcional); (2) a sequência da peça inteira, em especial os blocos 6, 10 e 22; (3) a Giovanna citada pelo nome como fundadora; (4) o nome "Shot da Libido" e a descrição da Q10; (5) a L-citrulina isolada na IN 28/2018; (6) os bônus; (7) a frase do bloco 14 sobre a regra que permite uma frase de função para dois ingredientes. Detalhes no fim do arquivo.
+**Advogado sanitário:** (1) a conta "comida × dose" (bloco 13A, opcional); (2) a sequência da peça inteira, em especial os blocos 6, 10, 12 e 22, e as receitas dos blocos 11 e 16; (3) a Giovanna citada pelo nome como fundadora; (4) o nome "Shot da Libido" e a descrição da Q10; (5) a L-citrulina isolada na IN 28/2018; (6) os bônus. Detalhes no fim do arquivo.
 
 ---
 
 ## Títulos para a tela inicial (ranqueados)
 
-1. **"A gente vai mostrar o rótulo inteiro. E dizer o que o Shot da Libido não faz."** Subtítulo: "Dez ingredientes, a quantidade de cada um, um dosador por dia. E uma conversa que muita mulher depois dos 40 nunca teve com ninguém." Primeiro porque entrega curiosidade com uma promessa que dá para cumprir, e porque funciona para sofisticação 5 (ceticismo): quem já foi enganada responde a quem admite o limite.
+1. **"A gente vai mostrar o que está no rótulo. E dizer o que o Shot da Libido não faz."** Subtítulo: "Os dez ingredientes da fórmula, as quantidades que o rótulo traz, um dosador por dia. E uma conversa que muita mulher depois dos 40 nunca teve com ninguém." Primeiro porque entrega curiosidade com uma promessa que dá para cumprir, e porque funciona para sofisticação 5 (ceticismo): quem já foi enganada responde a quem admite o limite. (Troquei "o rótulo inteiro" por "o que está no rótulo", até o rótulo real ser conferido.)
 2. **"'É da idade' não é resposta."** Entra na dor do público e abre pela identificação (nível 2). Fica em segundo porque não diz nada sobre o produto, então perde quem chega do perfil já procurando o rótulo.
-3. **"Dez ingredientes. Uma dose. Tudo escrito no rótulo."** Claro e verificável, mas é o título que mais se parece com os de qualquer suplemento. Fica em terceiro por ser o mais genérico.
+3. **"Dez ingredientes. Um dosador. Tudo no rótulo."** Claro e verificável, mas é o título que mais se parece com os de qualquer suplemento. Fica em terceiro por ser o mais genérico. Só usar depois de conferir o rótulo real.
 
 ---
 
 ## Roteiro
+
+**Rodapé fixo em todo o vídeo, do bloco 2 ao fim, sempre que o produto estiver na tela e também nos blocos da Ana e do corpo (6 a 12):** "Suplemento alimentar. Não é medicamento. Não trata ressecamento, calorão nem falta de vontade." Só o bloco 1 (letras sobre fundo neutro, sem produto) fica sem o rodapé.
 
 ### BLOCO 1. Título e subtítulo (0:00 a 0:08)
 *Passo 1 do modelo.*
@@ -82,9 +91,9 @@ Nos próximos minutos, a gente vai falar sobre essa frase.
 
 E vai mostrar, sem pressa, o que tem dentro de um suplemento alimentar chamado Shot da Libido.
 
-Os dez ingredientes. A quantidade de cada um. E como se toma: um dosador num copo de água, uma vez por dia.
+Os dez ingredientes da fórmula. As quantidades que o rótulo traz. E como se toma: um dosador num copo de água, uma vez por dia.
 
-Este vídeo é longo de propósito. A gente quer que você saiba tudo antes de decidir qualquer coisa.
+Este vídeo é longo de propósito. A gente quer que você saiba tudo isso antes de decidir qualquer coisa.
 
 E tem uma parte que pode surpreender, num produto com esse nome...
 
@@ -92,7 +101,7 @@ A gente vai dizer o que ele não faz.
 
 Essa parte vem mais para a frente. Fica com a gente.
 
-> **Tela:** o pote do Shot da Libido ao lado de um dosador e um copo de água. No fim do bloco, o texto fixo "Suplemento alimentar. Não é medicamento." no rodapé, que permanece em todo o vídeo.
+> **Tela:** o pote do Shot da Libido ao lado de um dosador e um copo de água. **Rodapé completo fixo desde o início do bloco** (ver acima) e até o fim do vídeo.
 
 ---
 
@@ -107,9 +116,9 @@ Não é uma médica. Não é uma nutricionista. Ninguém aqui vai falar como pro
 
 Isso quer dizer que, em tudo o que for sobre o seu corpo, o seu ginecologista vem primeiro. A gente vai repetir isso mais de uma vez, e vai manter até o fim.
 
-Do nosso lado, a gente fala do que conhece: o produto.
-
 > **Tela:** logotipo da Menopausa Cancelada. Texto: "MENOPAUSA CANCELADA LTDA, CNPJ 47.019.967/0001-89". Depois, o ícone de consulta médica ao lado das palavras "Seu ginecologista vem primeiro".
+
+*Nota de voz:* se quem grava ou aparece for a Giovanna, a frase "Não é uma nutricionista" sai (seria dita por uma nutricionista) e o bloco precisa ser refeito com o advogado. Ver o cabeçalho. (Cortei também "Do nosso lado, a gente fala do que conhece: o produto", que repetia a divisão corpo/produto.)
 
 ---
 
@@ -120,15 +129,15 @@ Agora, uma admissão.
 
 A gente sabe como isso soa. Mais um suplemento, mais um vídeo, mais uma promessa.
 
-Se você já viu propaganda que prometia demais, ou já comprou alguma coisa que não deu o que dizia, a sua desconfiança é justa. A gente não vai pedir que você acredite em nada.
+Se você já viu propaganda que prometia demais, ou já comprou alguma coisa que não deu o que dizia, a sua desconfiança é justa.
 
-A gente vai pedir que você leia.
+Por isso a gente pede só uma coisa: que você leia.
 
 O Shot da Libido é um suplemento alimentar. Não é medicamento.
 
-E o que a gente promete neste vídeo é só o que está escrito e dá para conferir: o que tem dentro, quanto tem de cada ingrediente, como se toma, quanto custa e como pedir o dinheiro de volta.
+E o que a gente mostra neste vídeo é o que está escrito e dá para conferir: o que tem dentro, as quantidades que o rótulo traz, como se toma, quanto custa e como pedir o dinheiro de volta.
 
-> **Tela:** cinco cartões que aparecem um a um: "O que tem dentro", "Quanto de cada", "Como se toma", "Quanto custa", "Como pedir o dinheiro de volta".
+> **Tela:** cinco cartões que aparecem um a um: "O que tem dentro", "Quantidades do rótulo", "Como se toma", "Quanto custa", "Como pedir o dinheiro de volta".
 
 *Origem da linguagem:* a dor do público com propaganda enganosa e suplemento que não funcionou (frases F25 a F30 do avatar, citadas no briefing).
 
@@ -139,7 +148,7 @@ E o que a gente promete neste vídeo é só o que está escrito e dá para confe
 
 O que a gente tem para mostrar é simples.
 
-Dez ingredientes numa dose só. A quantidade de cada um escrita no rótulo, para você ler antes de tomar. Um dosador, um copo de água.
+Dez ingredientes da fórmula numa dose só. As quantidades que o rótulo traz, para você ler antes de tomar. Um dosador, um copo de água.
 
 Imagina isso na sua rotina.
 
@@ -186,7 +195,7 @@ Mas ela não conta isso para ninguém. Tem vergonha. E naquela noite dorme pensa
 
 Se você se reconheceu na Ana, este vídeo foi feito para você.
 
-> **Tela:** cenas de rotina, sem rosto identificável e sem nudez: relógio marcando 22h40, roupa no varal, celular com três chamadas da mãe, abajur. Texto fixo no canto durante todo o bloco: "Personagem e situação ilustrativos."
+> **Tela:** cenas de rotina, sem rosto identificável e sem nudez: relógio marcando 22h40, roupa no varal, celular com três chamadas da mãe, abajur. Texto fixo no canto durante todo o bloco: "Personagem e situação ilustrativos." **Rodapé completo fixo** (sem o pote na tela neste bloco, mas o nome já foi dito nos blocos 2 a 5).
 
 *Origem da linguagem:* "medo da próxima vez" e "você me ama ainda?" vêm da live. "Será que o problema sou eu?" e "tenho vergonha" são palavras do público no briefing.
 
@@ -201,26 +210,30 @@ Uma coisa sobre o que a gente sabe e o que não sabe.
 
 A gente sabe de um suplemento: o que tem dentro, quanto tem, como se toma.
 
-O que acontece no corpo de cada mulher, a gente não sabe. Quem examina e explica é o médico.
+O que acontece no corpo de cada mulher, em cada caso, a gente não sabe. Quem examina e explica é o médico.
 
 > **Tela:** duas colunas simples. "A gente sabe: o produto." "O seu médico sabe: o seu corpo."
+
+*Coerência com o bloco 10:* o bloco 10 só fala do que costuma acontecer, em geral, e termina mandando cada caso ao médico. Não explica o caso de ninguém.
 
 ---
 
 ### BLOCO 8. O caminho do vídeo (4:44 a 5:32, cerca de 48 s)
-*Passo 9. Os laços abertos são entregues nos blocos indicados entre parênteses (não são falados).*
+*Passo 9. Os laços abertos são entregues nos blocos indicados entre parênteses (não são falados). A lista segue a ordem em que o vídeo é gravado.*
 
 Então, o caminho do vídeo é este.
 
 Primeiro, a conversa que muita mulher não teve com ninguém, e a frase que fecha essa conversa. (blocos 9 e 10)
 
-Depois, o que a gente aprendeu ouvindo mulheres tentarem montar receitas caseiras. Isso explica por que o Shot existe. (blocos 11 e 16)
+Depois, as receitas caseiras que muita mulher tenta seguir. (bloco 11)
 
-Aí o rótulo: os dez ingredientes, um por um. (bloco 17)
+Aí o que é o Shot da Libido, e como ler um rótulo. (blocos 13 e 14)
 
 Depois, a parte que a gente prometeu: o que o Shot da Libido não faz. (bloco 15)
 
-Em seguida, como tomar e três avisos de segurança, que valem mais do que qualquer venda. (bloco 18)
+Em seguida, de onde veio a ideia do Shot, e os ingredientes um por um. (blocos 16 e 17)
+
+Depois, como tomar e três avisos de segurança, que vêm antes de qualquer compra. (bloco 18)
 
 E só no fim, quanto custa e como pedir o dinheiro de volta, se você não gostar. (blocos 19 e 21)
 
@@ -235,13 +248,13 @@ Vamos começar pela frase.
 
 "É da idade." "É normal." "Aguenta."
 
-Funciona como um teto invisível. Depois dela, a conversa acaba. A mulher não pergunta mais, e ninguém explica mais.
+Funciona como um teto invisível. Depois dela, a conversa muitas vezes acaba. A mulher não pergunta mais, e ninguém explica mais.
 
 Numa pesquisa do Ipsos, feita a pedido da Bayer com 800 brasileiras de 18 a 60 anos, metade disse que os sintomas da menopausa já tinham sido tratados como exagero ou como algo normal. [conferir fonte primária]
 
 A menopausa faz parte da vida, sim. Mas aceitar calada não precisa ser o caminho.
 
-Lembrando: quem fala é a Menopausa Cancelada. E a gente começa pelo que muita mulher conta, com as palavras dela. "Tenho vergonha." "Não tenho mais vontade." "Será que o problema sou eu?"
+E a gente começa pelo que muita mulher conta, com as palavras dela. "Tenho vergonha." "Não tenho mais vontade." "Será que o problema sou eu?"
 
 O problema não é você.
 
@@ -249,18 +262,18 @@ O que trava essa conversa é uma resposta pronta e uma rotina sem lugar para voc
 
 > **Tela:** as três frases aparecem uma de cada vez e são riscadas. Depois, o dado: "Metade das 800 brasileiras ouvidas disse que os sintomas da menopausa já tinham sido tratados como exagero ou algo normal. Ipsos, a pedido da Bayer, 2025." Se a fonte primária não for achada, cortar o parágrafo do dado e a legenda.
 
-*Origem da linguagem:* "tenho vergonha", "não tenho mais vontade" e "será que o problema sou eu?" vêm do briefing. A redação do dado segue o ajuste A21 do revisor (a base são 800 mulheres de 18 a 60 anos, não "as brasileiras").
+*Origem da linguagem:* "tenho vergonha", "não tenho mais vontade" e "será que o problema sou eu?" vêm do briefing. A redação do dado segue o ajuste A21 do revisor (a base são 800 mulheres de 18 a 60 anos, não "as brasileiras"). Tirei daqui o "Lembrando: quem fala é a Menopausa Cancelada" (ficam o bloco 3 e o 19).
 
 ---
 
 ### BLOCO 10. O que costuma acontecer, e quem cuida disso (6:32 a 8:16, cerca de 1 min 45 s)
-*Passo 13, o mecanismo do problema. O produto não aparece neste bloco, de propósito.*
+*Passo 13, o mecanismo do problema. O Shot não é mencionado neste bloco, mas o nome já apareceu nos blocos 2 a 5; por isso o rodapé completo segue fixo.*
 
-Agora, o que costuma acontecer no corpo. Em terceira pessoa, e só até onde uma marca pode falar.
+Agora, o que costuma acontecer no corpo, em geral. Em terceira pessoa. Cada caso é com o médico.
 
 Na menopausa, os ovários passam a produzir cada vez menos estrogênio. O estrogênio participa da hidratação da mucosa e da pele, e também do sono e do humor. Quando ele cai, o corpo inteiro pode sentir.
 
-Para muita mulher, isso aparece assim. A mucosa fica mais fina e mais seca, e então incomoda. Quando incomoda, a vontade vai embora. Vira um ciclo: dói, ela evita, se sente culpada e evita de novo.
+Para muita mulher, isso aparece assim. A mucosa fica mais fina e mais seca, e então incomoda. Quando incomoda, muitas vezes a vontade vai embora. Vira um ciclo: dói, ela evita, se sente culpada e evita de novo.
 
 O sono fica picado, muitas vezes por causa do calorão. A cabeça fica cheia. E a conversa com o parceiro trava, porque ninguém ensinou a falar disso.
 
@@ -278,7 +291,7 @@ A mulher se doa para todo mundo. E se deixa para depois.
 
 Bem quando o corpo pede mais atenção, sobra menos tempo para ela.
 
-> **Tela:** os quatro pontos como cartões curtos ("Mucosa mais fina e mais seca", "Sono picado", "Cabeça cheia", "Conversa que trava"). Depois, um cartão destacado: "Para levar à consulta com o ginecologista", com as duas perguntas, durante todo o tempo em que elas são faladas. Por último, a lista da rotina em cartões rápidos.
+> **Tela:** os quatro pontos como cartões curtos ("Mucosa mais fina e mais seca", "Sono picado", "Cabeça cheia", "Conversa que trava"). Depois, um cartão destacado: "Para levar à consulta com o ginecologista", com as duas perguntas, durante todo o tempo em que elas são faladas. Por último, a lista da rotina em cartões rápidos. Rodapé completo fixo.
 
 *Origem da linguagem:* o ciclo "dói, evita, culpa" e "se doa pro outro [...] deixa ela pra depois" vêm da live. A lista da rotina também.
 
@@ -295,25 +308,25 @@ Primeiro: "é da idade" não fecha a conversa. Segundo: o que acontece no corpo 
 
 Guarda esses três pontos. A partir daqui a conversa muda: agora é sobre o que a gente faz.
 
-Durante anos, a gente viu a mesma coisa se repetir. Mulheres tentando seguir receitas caseiras. Shot de manhã, shot de noite, pó com limão, três ou quatro farinhas misturadas, chá.
+Muita mulher tenta seguir receitas caseiras. Shot de manhã, shot de noite, pó com limão, três ou quatro farinhas misturadas, chá. [Confirmar com a marca: "pelo que a gente ouve, quase ninguém consegue manter". Se a marca não confirmar, cortar essa frase e a anterior fica como está.]
 
-E quase ninguém conseguia manter.
+Quando a rotina é feita de mercado, trabalho, filho, neto e mãe, uma receita com vários passos por dia disputa lugar com tudo o resto. E é a receita que perde.
 
-Preguiça não tinha nada a ver com isso. Quando a rotina é feita de mercado, trabalho, filho, neto e mãe, uma receita com vários passos por dia disputa lugar com tudo o resto. E é a receita que perde.
-
-A gente não conta isso para criticar ninguém que tenta. Conta porque foi daí que veio a ideia do Shot.
+Foi daí que veio a ideia do Shot.
 
 Agora, uma coisa honesta.
 
-Tem mulher que atravessa essa fase sem incômodo nenhum, e ótimo. Tem mulher de 70 anos, viúva e feliz, que olha para tudo isso e diz: "não preciso". Pode ser que não precise mesmo.
+Ninguém é obrigada a tomar um suplemento. Se você não quer, ou não precisa de nada disso, tudo bem.
 
-Se é o seu caso, o Shot da Libido provavelmente não é para você, e a gente prefere que você saiba disso agora.
+E tem quem não deve tomar: gestantes, lactantes e menores de 19 anos. Quem usa remédio de uso contínuo fala com o médico antes. Os avisos completos vêm mais para a frente.
 
-> **Tela:** a recapitulação em três cartões numerados. Depois, a lista das receitas (shot de manhã, shot de noite, pó com limão, farinhas, chá) em cartões que se acumulam até encher a tela. Na parte da exceção, nenhuma imagem, só o texto.
+> **Tela:** a recapitulação em três cartões numerados. Depois, a lista das receitas (shot de manhã, shot de noite, pó com limão, farinhas, chá) em cartões que se acumulam até encher a tela. Na parte final, nenhuma imagem, só o texto "Ninguém é obrigada a tomar um suplemento." Rodapé completo fixo.
 
-*Origem da linguagem:* as receitas e "três, quatro farinhas" vêm da live. A viúva feliz é a objeção da live ("sou viúva feliz").
+*Origem da linguagem:* as receitas e "três, quatro farinhas" vêm da live.
 
-*Nota para o advogado (A1c do parecer):* na live, essas receitas eram chamadas "o shot da libido do dia, o shot da libido da noite". Neste roteiro elas aparecem só como "shot de manhã, shot de noite", sem o termo "libido", e como histórico, não como argumento de efeito.
+*Mudanças desta versão:* o critério "atravessa essa fase sem incômodo / provavelmente não é para você" saiu (indicava o produto, por inversão, a quem tem incômodo). A viúva da live saiu junto. O novo critério é de interesse e de segurança. Saíram também "Durante anos, a gente viu" e "Preguiça não tinha nada a ver com isso".
+
+*Nota para o advogado (A1c e A5 do parecer):* na live, essas receitas eram chamadas "o shot da libido do dia, o shot da libido da noite". Neste roteiro elas aparecem só como "shot de manhã, shot de noite", sem o termo "libido", e como histórico, não como argumento de efeito. O bloco 16 liga "Shot de manhã, shot de noite" a "dessa pergunta nasceu o Shot da Libido"; o advogado deve olhar essa ligação.
 
 ---
 
@@ -322,11 +335,13 @@ Se é o seu caso, o Shot da Libido provavelmente não é para você, e a gente p
 
 Se você se reconheceu em alguma parte, você não está perdida.
 
-Para o corpo, existe um caminho: o consultório do seu ginecologista.
+Para o corpo, o caminho passa pelo consultório do seu ginecologista.
 
-Do nosso lado, a gente só pode falar do que é nosso: um suplemento, o que tem dentro e como se toma.
+E o Shot da Libido é um suplemento alimentar. Não é remédio e não trata ressecamento, calorão nem falta de vontade.
 
-> **Tela:** o cartão "Para levar à consulta" de novo, e depois o pote.
+> **Tela:** o cartão "Para levar à consulta" de novo, e depois o pote. Rodapé completo fixo.
+
+*Mudança:* a frase "Do nosso lado, a gente só pode falar do que é nosso" saiu. Ela dividia a mulher em duas metades (corpo para o médico, o resto para o produto) logo depois da dor, e "só pode falar" fazia piscadela regulatória.
 
 ---
 
@@ -337,22 +352,24 @@ Então, o que é o Shot da Libido?
 
 É um suplemento alimentar em pó. Cada dose tem 5 gramas.
 
-A ideia dele cabe em poucas palavras, e a gente chama de **dose única, rótulo aberto**. [Nome de trabalho. Rafael decide.]
+A ideia dele cabe em poucas palavras, e a gente chama de **um dosador, rótulo na mão**. [Nome de trabalho. Rafael decide.]
 
-Dose única: dez ingredientes reunidos num dosador só. Você coloca num copo de água, mexe e toma. Uma vez por dia.
+Um dosador: os dez ingredientes da fórmula reunidos em 5 gramas. Você coloca num copo de água, mexe e toma. Uma vez por dia.
 
-Rótulo aberto: a quantidade de cada ingrediente está escrita, em miligramas, para você ler antes de tomar.
+Rótulo na mão: as quantidades por ingrediente estão no rótulo, para você ler antes de tomar.
 
 Cada pote tem 30 doses. Um mês. Dois sabores: melancia e morango com maracujá. Sem glúten.
 
-É só isso. Não tem segredo.
+> **Tela:** o pote, o dosador e o rótulo, com a tabela legível. Os termos "Um dosador" e "Rótulo na mão" acendem quando são ditos. Selo "Sem glúten" só se estiver no rótulo. Rodapé completo fixo. **[CONFERIR O RÓTULO REAL: ordem, ingredientes que não são ativos, quantidade da beterraba]**
 
-> **Tela:** o pote, o dosador e o rótulo, com a tabela legível. Os termos "Dose única" e "Rótulo aberto" acendem quando são ditos. Selo "Sem glúten" só se estiver no rótulo.
+*Mudanças:* saíram "É só isso. Não tem segredo." e "a quantidade de cada ingrediente, em miligramas", porque a beterraba não tem quantidade no briefing e o pó, com dois sabores, quase certamente traz outros itens no rótulo. O nome "dose única" também saiu: em português lê-se "tomar uma vez só", o que contradiz as 30 doses do pote.
 
 ---
 
 ### BLOCO 13A. OPCIONAL. SÓ COM LIBERAÇÃO POR ESCRITO DO ADVOGADO (RDC 243/2018, art. 17, III e IV, com o art. 23 do DL 986/1969)
 *Não gravar sem o aval. Se for liberado, entra entre os blocos 13 e 14, e o revisor confere de novo.*
+
+**ATENÇÃO, CONTRADIÇÃO: se este bloco entrar, ele contradiz a frase do bloco 14 "Este vídeo não vai citar estudo nenhum", porque a legenda abaixo cita fontes. A frase do bloco 14 (e o parágrafo "Agora, uma palavra sobre prova...") precisa sair junto, e o revisor confere de novo.**
 
 Uma curiosidade para você fazer a conta em casa.
 
@@ -362,7 +379,7 @@ Para chegar a 100 miligramas só com comida, seriam uns 3 quilos de carne de boi
 
 E para chegar a 100 miligramas de trans-resveratrol só com vinho tinto, seriam uns 53 litros. Umas 70 garrafas.
 
-> **Tela:** um dosador ao lado de uma bandeja com 3 kg de carne. Cartões: "100 mg de coenzima Q10 = 3 kg de carne de boi", "100 mg de trans-resveratrol = 53 litros de vinho tinto (70 garrafas)". Rodapé: "Fontes: Linus Pauling Institute; Pravst et al., 2010; Mattila & Kumpulainen, 2001; Stervbo et al., 2007."
+> **Tela:** um dosador ao lado de uma bandeja com 3 kg de carne. Cartões: "100 mg de coenzima Q10 = 3 kg de carne de boi", "100 mg de trans-resveratrol = 53 litros de vinho tinto (70 garrafas)". Rodapé: "Fontes: Linus Pauling Institute; Pravst et al., 2010; Mattila & Kumpulainen, 2001; Stervbo et al., 2007." Rodapé completo fixo também aqui.
 
 *O que ficou de fora mesmo aqui:* o IBGE e a B6 (aviso A22), a citrulina na melancia (sem fonte conferida) e a frase "ninguém precisa" (ambígua, aviso do revisor). Para a pergunta do advogado, ver o fim do arquivo.
 
@@ -371,9 +388,9 @@ E para chegar a 100 miligramas de trans-resveratrol só com vinho tinto, seriam 
 ### BLOCO 14. A prova que você mesma confere (10:56 a 12:04, cerca de 1 min 10 s)
 *Passo 18. Sem estudo, a prova é o rótulo.*
 
-Agora, o ponto em que muito vídeo costuma citar estudos.
+Agora, uma palavra sobre prova.
 
-Este não vai citar nenhum. A gente prefere avisar do que deixar você achar que tem.
+Este vídeo não vai citar estudo nenhum. Melhor avisar do que deixar você achar que tem.
 
 O que a gente tem para mostrar é o rótulo. E ler um rótulo é uma coisa que você faz sozinha, com qualquer suplemento. Inclusive este.
 
@@ -381,19 +398,17 @@ Olha o que procurar.
 
 Primeiro, a porção. Aqui são 5 gramas, um dosador.
 
-Segundo, a quantidade de cada ingrediente, em miligramas. Se está escrita, você pode ler. E o seu médico também.
+Segundo, as quantidades por ingrediente. Se estão escritas, você pode ler. E o seu médico também.
 
 Terceiro, quantas doses tem o pote. Aqui, 30.
 
 Quarto, os avisos: quem não deve tomar, e quanto, no máximo, por dia.
 
-E uma coisa a mais. Para dois dos dez ingredientes, o zinco e a vitamina B6, a regra permite uma frase sobre a função. Você vai ouvir essas duas frases do jeito exato em que podem ser ditas. Para os outros oito, a gente só diz o que é e quanto tem.
+> **Tela:** o rótulo real, com quatro setas numeradas apontando para porção, quantidade por ingrediente, doses por pote e avisos. A cada número, o texto correspondente em letras grandes. Rodapé completo fixo. **[CONFERIR O RÓTULO REAL: ordem, ingredientes que não são ativos, quantidade da beterraba; e se o rótulo traz os dois avisos da seta 4]**
 
-> **Tela:** o rótulo real, com quatro setas numeradas apontando para porção, quantidade por ingrediente, doses por pote e avisos. A cada número, o texto correspondente em letras grandes.
+*Decisão do Rafael:* a frase "este vídeo não vai citar estudo nenhum" é honesta e prepara a confiança, mas é uma admissão forte. Se for cortada, o bloco ainda funciona a partir de "O que a gente tem para mostrar é o rótulo." E, se o 13A entrar, ela tem de sair (ver o 13A).
 
-*Decisão do Rafael:* a frase "este não vai citar nenhum [estudo]" é honesta e prepara a confiança, mas é uma admissão forte. Se for cortada, o bloco ainda funciona a partir de "O que a gente tem para mostrar é o rótulo."
-
-*Para o advogado:* a frase "a regra permite uma frase sobre a função" não cita a Anvisa de propósito, para não sugerir aprovação do produto.
+*Mudanças:* saiu o parágrafo "Para dois dos dez ingredientes... a regra permite uma frase sobre a função". Ele pressupunha que os outros oito fazem algo e que só não se pode contar. Saiu também "o ponto em que muito vídeo costuma citar estudos" (comparava com outros vídeos) e "a gente prefere avisar".
 
 ---
 
@@ -402,19 +417,21 @@ E uma coisa a mais. Para dois dos dez ingredientes, o zinco e a vitamina B6, a r
 
 Agora, a parte que a gente prometeu.
 
-O Shot da Libido é um suplemento alimentar. Ele não é remédio, não mexe em hormônio e não trata ressecamento, calorão nem falta de vontade.
+O Shot da Libido é um suplemento alimentar. Ele não é remédio e não trata ressecamento, calorão nem falta de vontade.
 
 Quem avalia e trata isso é o médico.
 
 Pode parecer estranho ouvir isso de uma marca, num produto com esse nome. Mas é melhor você saber agora do que descobrir depois.
 
-O que o Shot é: dez ingredientes, em quantidades escritas, numa dose que cabe na rotina.
+O que o Shot é: um suplemento alimentar com dez ingredientes, numa dose de 5 gramas que cabe na rotina.
 
 A decisão de tomar é sua. E, se você usa remédio de uso contínuo, é do seu médico também. Já já a gente fala disso.
 
 > **Tela:** a frase da negativa em texto grande, imóvel, durante pelo menos 8 segundos. Rodapé fixo: "Suplemento alimentar. Não é medicamento. Não trata ressecamento, calorão nem falta de vontade."
 
-*Nota:* esta é a principal defesa contra a leitura de efeito por sequência (aviso A1 do revisor). Se for cortada, o risco A1 volta inteiro. A frase exige o "não" três vezes; o revisor aceitou essa negativa como necessária.
+**[só voltar com "não mexe em hormônio" com confirmação por escrito da responsável técnica]** Essa frase saiu de toda a peça (fala, tela, rodapé, FAQ e cabeçalho). Não há nada na pasta que a sustente: o briefing não diz isso, não há laudo, e o público-alvo tem "medo do hormônio mas sem contraindicação", o que a transformaria em argumento de segurança.
+
+*Nota:* esta é a principal defesa contra a leitura de efeito por sequência (aviso A1 do revisor). Se for cortada, o risco A1 volta inteiro. O revisor aceitou a negativa de ressecamento, calorão e falta de vontade como necessária.
 
 ---
 
@@ -433,9 +450,9 @@ Dessa pergunta nasceu o Shot da Libido.
 
 [Só com confirmação da marca por escrito: "Ele levou seis meses para ficar pronto, entre testes de sabor e testes de qualidade."]
 
-> **Tela:** os cartões das receitas desaparecem um a um, até sobrar o dosador.
+> **Tela:** os cartões das receitas desaparecem um a um, até sobrar o dosador. Rodapé completo fixo.
 
-*Alternativa, SÓ SE O ADVOGADO LIBERAR (arts. 60 e 63 da Resolução CFN 599/2018) e a marca confirmar o título de fundadora:* trocar "a gente viu a mesma coisa se repetir" (bloco 11) por "A Menopausa Cancelada nasceu de um problema que a nossa fundadora, a Giovanna Agostini, viu se repetir durante anos. Ela montava receitas para as mulheres que acompanhava." Sem CRN, sem "nutricionista", sem recomendar kit. A Giovanna é citada uma única vez no vídeo.
+*Alternativa, SÓ SE O ADVOGADO LIBERAR (arts. 60 e 63 da Resolução CFN 599/2018) e a marca confirmar o título de fundadora:* acrescentar antes da pergunta: "A Menopausa Cancelada nasceu de um problema que a nossa fundadora, a Giovanna Agostini, viu se repetir. Ela montava receitas para as mulheres que acompanhava." Sem CRN, sem "nutricionista", sem recomendar kit, sem "durante anos" (não há data na pasta). A Giovanna é citada uma única vez no vídeo.
 
 *Origem da linguagem:* "um medidor, um pozinho, colocar na água e tomar todos os dias" e "seis meses" vêm da live (a pergunta é de uma fala dela, usada aqui pela marca).
 
@@ -444,7 +461,7 @@ Dessa pergunta nasceu o Shot da Libido.
 ### BLOCO 17. O rótulo, ingrediente por ingrediente (13:36 a 14:52, cerca de 1 min 15 s)
 *Passo 22. Sem estudo por ingrediente. Só o zinco e a B6 recebem alegação.*
 
-Então vamos ao rótulo. Cada dose de 5 gramas tem:
+Então vamos ao rótulo. Estes são os ingredientes da fórmula e as quantidades que o rótulo traz para cada dose de 5 gramas:
 
 900 miligramas de L-citrulina. Um aminoácido que ganhou esse nome porque foi encontrado primeiro na melancia.
 
@@ -466,15 +483,15 @@ Então vamos ao rótulo. Cada dose de 5 gramas tem:
 
 E beterraba em pó.
 
-Dez ingredientes. Sem glúten.
+Dez ingredientes da fórmula. Sem glúten.
 
-Nos oito ingredientes que não têm frase, a gente só disse o que são e quanto tem.
+**[CONFERIR O RÓTULO REAL: ordem, ingredientes que não são ativos, quantidade da beterraba]**. O texto falado não diz que estes são todos os itens do pote nem dá quantidade para a beterraba. Se o rótulo real trouxer a quantidade da beterraba ou outros ingredientes, a fala e a tela se refazem a partir dele.
 
-> **Tela:** o rótulo real. Cada ingrediente acende na tabela quando é citado. No zinco e na B6, a frase aparece escrita, palavra por palavra como na fala. No fim, os dois potes, um de cada sabor.
+> **Tela:** o rótulo real. Cada ingrediente acende na tabela quando é citado. No zinco e na B6, a frase aparece escrita, palavra por palavra como na fala. No fim, os dois potes, um de cada sabor. Rodapé completo fixo. **[CONFERIR O RÓTULO REAL: ordem, ingredientes que não são ativos, quantidade da beterraba]**
 
 *Ordem de leitura:* segue a do briefing. [Conferir se é a ordem do rótulo real.]
 
-*Para o advogado e a responsável técnica:* a L-citrulina isolada não aparece no Anexo I da IN 28/2018 consolidada (aviso A5, vermelho, no parecer). A descrição da Q10 está em "substância que o próprio corpo produz", sem "os níveis diminuem" (aviso A8). Nenhum ingrediente além do zinco e da B6 tem função. "Nome vindo da melancia" é fato amplamente documentado, não conferido em fonte nesta entrega; risco baixo.
+*Para o advogado e a responsável técnica:* a L-citrulina isolada não aparece no Anexo I da IN 28/2018 consolidada (aviso A5, vermelho, no parecer). A descrição da Q10 está em "substância que o próprio corpo produz", sem "os níveis diminuem" (aviso A8). Nenhum ingrediente além do zinco e da B6 tem função. "Nome vindo da melancia" é fato amplamente documentado, não conferido em fonte nesta entrega; risco baixo. Saiu a frase "Nos oito ingredientes que não têm frase, a gente só disse o que são e quanto tem", que pressupunha função nos outros oito.
 
 ---
 
@@ -483,7 +500,7 @@ Nos oito ingredientes que não têm frase, a gente só disse o que são e quanto
 
 Mais uma pausa, para fechar o que você viu.
 
-Dez ingredientes. A quantidade de cada um, escrita. Uma dose de 5 gramas. Nenhuma frase sobre o que eles fazem no seu corpo, a não ser as duas do zinco e da B6.
+Os dez ingredientes da fórmula. As quantidades que o rótulo traz. Uma dose de 5 gramas.
 
 Agora, como tomar.
 
@@ -495,28 +512,30 @@ Cada pote tem 30 doses. Um mês.
 
 Muita mulher passa o dia inteiro se dando para os outros e se deixando para depois. Esse momento pode ser só seu.
 
-Antes de começar, três avisos. Eles valem mais do que qualquer venda.
+Antes de começar, três avisos. Eles vêm antes de qualquer compra.
 
 O primeiro: o Shot da Libido é um suplemento alimentar. Não é medicamento e não substitui o seu médico.
 
 O segundo: ele não deve ser consumido por gestantes, lactantes e menores de 19 anos.
 
-O terceiro: se você toma remédio de uso contínuo, para pressão, coração, diabetes, tireoide, para afinar o sangue, ou para ansiedade e depressão, mostra o rótulo para o seu médico antes de começar.
+O terceiro: se você toma remédio de uso contínuo, para pressão, coração, diabetes, tireoide, para afinar o sangue, para ansiedade e depressão, ou se faz terapia hormonal, mostra o rótulo para o seu médico antes de começar. [Terapia hormonal: acréscimo do copywriter a pedido do revisor, ausente da lista do briefing; confirmar com a responsável técnica.]
 
 A gente prefere perder uma venda a ver você tomar alguma coisa sem segurança.
 
-> **Tela:** a mão colocando o dosador no copo e mexendo. Texto: "1 dosador (5 g) + 1 copo de água, 1 vez por dia. Não exceder a recomendação diária." Depois, os três avisos em texto, legíveis, por pelo menos 6 segundos cada.
+> **Tela:** a mão colocando o dosador no copo e mexendo. Texto: "1 dosador (5 g) + 1 copo de água, 1 vez por dia. Não exceder a recomendação diária." Depois, os três avisos em texto, legíveis, por pelo menos 6 segundos cada. Rodapé completo fixo.
 
 *Origem da linguagem:* "se dando para os outros e se deixando para depois" vem da live.
 
 *Tempo de preparo:* a página fala em "menos de 1 minuto" e em "dois minutos". Este roteiro não cita tempo. A página precisa escolher um.
+
+*Mudanças:* saiu "Nenhuma frase sobre o que eles fazem no seu corpo, a não ser as duas do zinco e da B6" (pressupunha função nos outros ingredientes). "A gente prefere" ficou só aqui, onde traz informação.
 
 ---
 
 ### BLOCO 19. Oferta, com a terceira recapitulação (16:24 a 17:32, cerca de 1 min 10 s)
 *Passo 25. Sem ancoragem inventada, sem comparação com serviço ou dieta. Tudo em colchetes.*
 
-Lembrando uma última vez: quem fala é a Menopausa Cancelada. Você viu o que tem dentro, quanto tem, como se toma e o que o Shot da Libido não faz.
+Lembrando uma última vez: quem fala é a Menopausa Cancelada. Você viu o que está no rótulo, como se toma e o que o Shot da Libido não faz.
 
 Se, depois de tudo isso, você quer começar, é assim.
 
@@ -524,7 +543,7 @@ Você escolhe [kits ou combo] no botão abaixo deste vídeo.
 
 O pote avulso sai por [preço avulso praticado]. Em [kits ou combo], você paga [preço], à vista, ou em [parcelas]. [Se houver juros: "No parcelado, o total fica em R$ __."]
 
-[Condicionado à oferta final: "No [kit], pago à vista, sai a menos de R$ 4,40 por dia." Aparece só aqui. Se a conta não fechar, usar "Sai a [preço por dia] por dia" ou cortar.]
+[Condicionado à oferta final, e só à vista: "Pagando à vista no [kit], a conta fecha em menos de R$ 4,40 por dia." **Esta é a única vez que a conta por dia aparece no vídeo.** Se a conta não fechar com a oferta final, usar o valor refeito ou cortar.]
 
 Você também recebe [bônus]. [Uma frase por bônus, descrevendo o que é, sem alegação de efeito. Treinamento da Libido e avaliação com a equipe ficam sem descrição até o advogado decidir.]
 
@@ -532,15 +551,13 @@ O frete [condição de frete], e o prazo de entrega aparece no checkout, com a d
 
 Na hora de pedir, você escolhe o sabor: melancia, morango com maracujá ou um de cada.
 
-[Opcional, só com levantamento de preço feito em farmácia ou e-commerce, com data: "Montar isso sozinha, comprando cada ingrediente separado, seriam vários potes e vários horários. Só a coenzima Q10 de 100 miligramas sai por R$ __ o pote."]
-
 [Urgência: só se a oferta tiver prazo real, confirmado por escrito pela marca. Se não tiver, não entra nada.]
 
-> **Tela:** os [kits ou combo] lado a lado, com [preço], [parcelas] e [bônus] de cada um, iguais aos do formulário da página. Setas para o botão.
+> **Tela:** os [kits ou combo] lado a lado, com [preço], [parcelas] e [bônus] de cada um, iguais aos do formulário da página. Setas para o botão. Rodapé completo fixo. A conta por dia, se aparecer na tela, leva a legenda "pagando à vista".
 
-*Nota sobre a conta de R$ 4,40:* R$ 789 ÷ 180 doses = R$ 4,38 (kit de 6 do rascunho, à vista). Com o combo da página no ar (3 potes por R$ 394, 90 doses) também dá R$ 4,38. Se a oferta mudar, refazer a conta.
+*Nota sobre a conta de R$ 4,40:* R$ 789 ÷ 180 doses = R$ 4,383 (kit de 6 do rascunho, à vista). Com o combo da página no ar (3 potes por R$ 394, 90 doses) dá R$ 4,378. Se a oferta mudar, refazer a conta. Com juros no parcelado, a conta diária não vale para o parcelado (CDC, arts. 30 e 31).
 
-*Preço da Q10 na live:* a Giovanna disse "de 60, 80 até R$ 100" ao vivo (PISTA). Não usar sem levantamento datado.
+*Cortado:* o opcional "Montar isso sozinha, comprando cada ingrediente separado..." (comparação com a compra avulsa de outros produtos, aviso A12 do revisor). O preço da Q10 dito na live ("de 60, 80 até R$ 100", PISTA) também não é usado.
 
 ---
 
@@ -549,7 +566,7 @@ Na hora de pedir, você escolhe o sabor: melancia, morango com maracujá ou um d
 
 [PROVA PERMITIDA: relato real, com nome e autorização por escrito, sobre sabor, praticidade ou rotina. Tema possível: "é o único suplemento que eu consigo tomar todo dia". Sem relato de efeito, sem antes e depois.]
 
-> **Tela:** nome e cidade da cliente e a frase do relato em texto, sem imagem de corpo.
+> **Tela:** nome e cidade da cliente e a frase do relato em texto, sem imagem de corpo. Rodapé completo fixo.
 
 *Se não houver relato autorizado, o bloco inteiro sai e o vídeo continua no bloco 21.*
 
@@ -564,30 +581,30 @@ Experimenta o Shot da Libido. Se você não gostar, por qualquer motivo, pede o 
 
 [Se houver bônus e a marca confirmar: "E os bônus continuam com você."]
 
-> **Tela:** selo "[garantia de 30 dias]" e, em texto, o [canal de reembolso] exato (e-mail, WhatsApp ou formulário).
+> **Tela:** selo "[garantia de 30 dias]" e, em texto, o [canal de reembolso] exato (e-mail, WhatsApp ou formulário). Rodapé completo fixo.
 
 ---
 
 ### BLOCO 22. Fechamento (18:10 a 19:22, cerca de 1 min 10 s)
-*Passo 28. Escolha entre duas opções e a pergunta final, sem humilhar e sem usar o medo como motor.*
+*Passo 28. Escolha entre duas opções e a pergunta final, sem humilhar, sem culpa e sem usar o medo como motor.*
 
 Lembra da Ana, que dormiu pensando "será que o problema sou eu"?
 
 O corpo dela tinha mudado, e ninguém tinha explicado isso para ela.
 
-Agora, uma pergunta para você. Pensa em como foi o seu último fim de dia. Coube nele um momento seu?
+Agora, uma pergunta para você: como foi o seu último fim de dia?
 
 Você tem dois caminhos.
 
 O primeiro é fechar este vídeo e levar para o seu ginecologista as duas perguntas. Isso já é um passo, e não custa nada.
 
-O segundo é clicar no botão abaixo, ler o rótulo inteiro com calma e escolher [kits ou combo] e o sabor.
-
-Nos dois casos, se você toma algum remédio de uso contínuo, o rótulo vai para o seu médico antes de você começar.
+O segundo é clicar no botão abaixo, ler o rótulo do pote com calma e escolher [kits ou combo] e o sabor. Se você toma algum remédio de uso contínuo, o rótulo vai para o seu médico antes de você começar.
 
 A escolha é sua.
 
-> **Tela:** a Ana de novo, só as mesmas cenas de rotina do bloco 6, sem rosto. Depois, dois cartões lado a lado: "Levar as perguntas ao ginecologista" e "Ler o rótulo e escolher". O segundo cartão leva ao botão.
+> **Tela:** a Ana, só as mesmas cenas de rotina do bloco 6, sem rosto, **apenas durante as duas primeiras frases**. Depois, tela neutra (fundo liso, sem cenas da Ana, sem pote) durante a pergunta e a apresentação dos dois caminhos. Só então os dois cartões lado a lado: "Levar as perguntas ao ginecologista" e "Ler o rótulo e escolher". O segundo cartão leva ao botão. Rodapé completo fixo.
+
+*Mudanças:* saiu "Coube nele um momento seu?", que já pressupunha a resposta (não coube) e era culpa branda. "Nos dois casos, o rótulo vai ao médico" foi corrigido: no primeiro caminho não há rótulo; a frase do remédio de uso contínuo ficou só no segundo. "Ler o rótulo inteiro" virou "ler o rótulo do pote". As cenas da Ana saem da tela antes do botão.
 
 *Cuidado A1a do revisor:* a volta da Ana termina em "ninguém tinha explicado isso para ela". O produto não entra no mesmo parágrafo que a dor da Ana.
 
@@ -598,25 +615,27 @@ A escolha é sua.
 
 **1. "Eu não tenho marido. Serve para mim?"**
 
-O vídeo falou muito de parceiro porque muita mulher traz isso. O Shot da Libido é um suplemento alimentar de uso diário, e o rótulo é o mesmo para qualquer mulher maior de 19 anos que possa tomar, com ou sem parceiro. A gente não vende o produto como resposta para a vida a dois.
+O vídeo falou muito de parceiro porque muita mulher traz isso. O Shot da Libido é um suplemento alimentar de uso diário, e o rótulo é o mesmo para qualquer mulher a partir de 19 anos que possa tomar, com ou sem parceiro.
 
 **2. "Eu não tenho tempo."**
 
-Um dosador, um copo de água, uma vez por dia, no horário que for melhor para você. Não tem receita, não tem lista, não tem vários potes.
+Um dosador, um copo de água, uma vez por dia, no horário que for melhor para você. O pote tem 30 doses.
 
 **3. "É caro?"**
 
-A gente não vai dizer que é barato. Isso quem decide é você, olhando a conta. A conta é esta: [preço], [parcelas], que dá [preço por dia] por dia. E, se você não gostar, tem a [garantia de 30 dias], pelo [canal de reembolso].
+Se é caro ou não, quem decide é você, olhando a conta. A conta é a que a gente mostrou na oferta: [preço], à vista, ou em [parcelas]. E, se você não gostar, tem a [garantia de 30 dias], pelo [canal de reembolso].
 
 **4. "Posso tomar com o meu remédio?"**
 
-Aqui a gente não pode dizer que pode. Quem responde isso é o seu médico. Leva o rótulo, com a quantidade de cada ingrediente, e pergunta. Foi por isso que o rótulo apareceu inteiro neste vídeo. Isso vale em especial para remédio de pressão, de coração, de diabetes, de tireoide, para afinar o sangue, e para ansiedade e depressão.
+Isso a gente não sabe responder, e ninguém aqui deve. Depende do remédio e do seu caso, e quem responde é o seu médico. Leva o rótulo do pote, com os ingredientes e as quantidades, e pergunta. Isso vale em especial para remédio de pressão, de coração, de diabetes, de tireoide, para afinar o sangue, para ansiedade e depressão, e para terapia hormonal.
 
 **5. "Como eu peço e quando chega?"**
 
 Você clica no botão abaixo deste vídeo, escolhe [kits ou combo] e o sabor, e preenche os seus dados. O frete [condição de frete], e o prazo aparece no checkout, com a data da transportadora.
 
-> **Tela:** cada pergunta em um cartão, com a resposta resumida em uma linha. Na pergunta 4, o rótulo em destaque e o texto "Mostre o rótulo ao seu médico antes de começar".
+> **Tela:** cada pergunta em um cartão, com a resposta resumida em uma linha. Na pergunta 4, o rótulo em destaque e o texto "Mostre o rótulo ao seu médico antes de começar". Rodapé completo fixo.
+
+*Mudanças:* FAQ 3 sem a conta por dia (ela fica só no bloco 19) e sem "não vai dizer que é barato"; FAQ 4 sem "aqui a gente não pode dizer que pode" (soava a "pode, mas a norma impede de dizer"); FAQ 1 sem "a gente não vende o produto como resposta..." e com "a partir de 19 anos"; FAQ 2 sem a lista "não tem receita, não tem lista".
 
 ---
 
@@ -625,13 +644,7 @@ Você clica no botão abaixo deste vídeo, escolhe [kits ou combo] e o sabor, e 
 
 Para fechar.
 
-Você viu o que tem dentro. Dez ingredientes, a quantidade de cada um, num dosador por dia.
-
-Você ouviu o que o Shot da Libido não faz.
-
-Você sabe como tomar, quem não deve tomar, e que o seu médico vem primeiro.
-
-E você sabe o que acontece se não gostar: [garantia de 30 dias].
+Você viu o que está no rótulo, ouviu o que o Shot da Libido não faz, e sabe como tomar. O seu médico vem primeiro. E, se você não gostar, tem [garantia de 30 dias].
 
 Se quiser começar, o botão está abaixo deste vídeo. Escolhe [kits ou combo], escolhe o sabor, e faz o pedido.
 
@@ -639,81 +652,94 @@ Se ainda não for a hora, tudo bem. Leva as duas perguntas para o seu ginecologi
 
 Obrigada por ficar até o fim.
 
-> **Tela:** o botão da página em destaque. Cartela final, legível, por pelo menos 8 segundos: "O Shot da Libido é um suplemento alimentar. Este produto não é um medicamento. Não deve ser consumido por gestantes, lactantes e menores de 19 anos. Não exceder a recomendação diária de consumo indicada na embalagem. Personagem e situação ilustrativos. MENOPAUSA CANCELADA LTDA, CNPJ 47.019.967/0001-89."
+> **Tela:** o botão da página em destaque. Cartela final, legível, por pelo menos 8 segundos: "O Shot da Libido é um suplemento alimentar. Este produto não é um medicamento. Não trata ressecamento, calorão nem falta de vontade. Não deve ser consumido por gestantes, lactantes e menores de 19 anos. Não exceder a recomendação diária de consumo indicada na embalagem. Personagem e situação ilustrativos. MENOPAUSA CANCELADA LTDA, CNPJ 47.019.967/0001-89."
+
+*Nota de voz:* "Obrigada" supõe narradora. Se for a Giovanna, rever (ver o cabeçalho).
 
 ---
 
-## O que foi aplicado do parecer da v3
+## O que foi aplicado do parecer da v3 (atualizado na correção de 23/10/2026)
 
 - **Bloqueio 1 (RDC 243, art. 17, III e IV):** a conta "comida × dose" saiu do texto principal. Ficou só o bloco 13A, opcional e marcado. Não há "o prato não alcança", comparação de B6, dado de IBGE nem "cabe numa dose" contra a comida.
-- **A1a:** a volta da Ana (bloco 22) termina em "ninguém tinha explicado isso para ela", sem produto no mesmo parágrafo.
-- **A1b:** "Nenhuma coisa sozinha resolve tudo isso" foi cortada. Ficou o ginecologista antes do produto, e o produto só aparece depois do bloco 10.
-- **A1c:** as receitas aparecem sem o termo "libido" e com nota ao advogado.
-- **A3:** sem comparação com concorrente em nenhum bloco.
-- **A13:** "O problema não é você" e a negativa do bloco 15 são as duas construções contrastivas mantidas. Não há "não é X, é Y" no restante.
-- **A17:** a Versão B é o padrão no bloco 11. A versão com o nome é alternativa marcada no bloco 16.
+- **A1a:** a volta da Ana (bloco 22) termina em "ninguém tinha explicado isso para ela", e as cenas da Ana saem da tela antes do botão.
+- **A1b (corrigido):** "Nenhuma coisa sozinha resolve tudo isso" foi cortada. **A nota anterior dizia que o produto só aparece depois do bloco 10; isso era falso.** O Shot é nomeado e mostrado desde o bloco 2. A ordem real é produto, dor íntima, corpo, ginecologista, produto, e por isso o rodapé completo ("Não trata ressecamento, calorão nem falta de vontade") fica fixo desde o bloco 2. Para o advogado, a sequência segue como laranja.
+- **A1c:** as receitas aparecem sem o termo "libido" e com nota ao advogado, agora também na lista final.
+- **A3:** sem comparação com concorrente em nenhum bloco; cortados também o "Montar isso sozinha" e "muito vídeo costuma citar estudos".
+- **A13 (reduzido, não zerado):** ficam duas construções contrastivas intencionais: "O problema não é você" e a negativa do bloco 15 (que traz o "não" de propósito). Foram reescritas as dos blocos 4, 11 e 23. Sobra, ainda, "Não é uma médica. Não é uma nutricionista" (bloco 3), que é lista de negação com função de identificação.
+- **A17:** a Versão B é o padrão no bloco 16. A versão com o nome é alternativa marcada.
 - **A21:** o dado do Ipsos usa 800 mulheres de 18 a 60 anos, e vale também na tela.
 - **A22:** sem IBGE.
 - **A25:** a enumeração do estrogênio foi refeita ("da mucosa e da pele, e também do sono e do humor").
 - **A26:** sem a frase da média de Q10 fora do bloco opcional.
 - **A15 e A16:** tom de conversa ("pensa", "olha", "mostra").
-- **Fechos de efeito:** sem "Cuidar de você também é isso", sem "merece ser entendido, não ignorado". "A gente prefere" aparece uma vez (bloco 18).
+- **Fechos de efeito:** sem "Cuidar de você também é isso", sem "merece ser entendido, não ignorado". **"A gente prefere" aparece uma vez (bloco 18).** (A nota anterior dizia isso, mas o texto tinha três.)
 
 ## Filtro de termos proibidos do briefing
 
-Busquei no texto falado e nas telas: "equilibra os hormônios", "equilíbrio hormonal", "alívio dos sintomas", "trata", "cura", "previne" fora da negativa do bloco 15, "aumenta a testosterona", "melhora" de circulação, lubrificação, libido ou orgasmo, "natural, sem contraindicação", "antes e depois", "Dra.", "Nº 1", "maior referência", "garantido", "resultado em 7 dias", "fórmula exclusiva". Nenhum aparece em alegação sobre o produto. Conferido por busca no arquivo. "Trata" e "tratamentos" só aparecem na negativa do bloco 15, em "quem avalia e trata isso é o médico" e nas perguntas ao ginecologista, nunca como efeito do produto. "Melhora" e "energia" não aparecem (a B6 só traz "metabolismo energético", na redação da alegação).
+Busquei no texto falado e nas telas: "equilibra os hormônios", "equilíbrio hormonal", "alívio dos sintomas", "trata", "cura", "previne" fora da negativa, "aumenta a testosterona", "melhora" de circulação, lubrificação, libido ou orgasmo, "natural, sem contraindicação", "antes e depois", "Dra.", "Nº 1", "maior referência", "garantido", "resultado em 7 dias", "fórmula exclusiva". Nenhum aparece em alegação sobre o produto. "Trata" e "tratamentos" só aparecem nas negativas (blocos 12, 15, rodapé e cartela), em "quem avalia e trata isso é o médico" e nas perguntas ao ginecologista, nunca como efeito do produto. "Hormônio" aparece só em "terapia hormonal" (lista de remédios) e na nota de pendência, nunca como afirmação sobre o produto. "Melhora" e "energia" não aparecem (a B6 só traz "metabolismo energético", na redação da alegação). Esta busca vale para o texto desta correção; refazer após a próxima edição.
 
 ## Fato, pista e suposição
 
 **FATO (fonte na pasta):**
 - Fórmula, doses, sabores, modo de uso, avisos e as duas alegações (briefing de 22/10/2026).
-- As receitas que as mulheres não conseguiam manter (rascunho da página, live).
 - Dado Ipsos/Bayer: 800 mulheres de 18 a 60 anos, metade disse que os sintomas já foram tratados como exagero ou algo normal (CNN Brasil, lida pelo revisor em 23/10/2026; fonte secundária).
-- Conta de preço: R$ 789 ÷ 180 = R$ 4,38 e R$ 394 ÷ 90 = R$ 4,38 (parecer da v3).
+- Conta de preço: R$ 789 ÷ 180 = R$ 4,383 e R$ 394 ÷ 90 = R$ 4,378 (parecer).
 - Dados do bloco 13A (3 a 6 mg de Q10 por dia na dieta; 3 kg de carne; 70 garrafas), com as fontes do parecer. Só valem se o advogado liberar.
 
-**PISTA (não conferido):**
+**PISTA (não conferido ou dito pela própria marca):**
+- **As receitas caseiras que muita mulher não consegue manter, e "pelo que a gente ouve, quase ninguém consegue manter" (blocos 6, 11 e 16).** Antes estava como FATO. Vem do rascunho da página e da live, e é a empresa falando de si; na página, o fato vem da Giovanna como nutricionista ("eu passei anos montando receitas para as minhas pacientes"). A marca não tem, na pasta, data de fundação nem histórico de acompanhamento. Por isso "durante anos" saiu, e a frase precisa de confirmação da marca.
 - O comunicado original da Ipsos/Bayer.
 - "Seis meses de testes" (fala da Giovanna na live).
 - "Aminoácido com nome vindo da melancia".
 - O título de "fundadora" (a marca precisa confirmar; o quadro societário público não mostra a Giovanna, parecer A18).
-- Os artigos do CFN e da RDC 243, citados do parecer do revisor; não os conferi no texto oficial.
+- Os artigos do CFN, da RDC 243 e do CDC, citados do parecer do revisor; não os conferi no texto oficial.
 - O preço da Q10 dito na live.
 
 **SUPOSIÇÃO:**
-- Ritmo de 150 palavras por minuto e duração de uns 22 minutos.
+- Ritmo de 150 palavras por minuto e duração de uns 19 minutos de fala.
 - Nível de consciência 2 a 3.
-- A frase do bloco 15 é aceitável para a marca (decisão do Rafael).
-- A admissão "este vídeo não vai citar estudo" ajuda a confiança do público com sofisticação 5.
-- O nome "dose única, rótulo aberto" funciona sem soar a slogan.
-- A pergunta "Coube nele um momento seu?" não é lida como culpa.
+- A negativa do bloco 15 é aceitável para a marca (decisão do Rafael).
+- A admissão "este vídeo não vai citar estudo nenhum" ajuda a confiança do público com sofisticação 5.
+- O nome "um dosador, rótulo na mão" funciona sem soar a slogan.
+- A fórmula do rótulo real traz os mesmos dez ingredientes do briefing, e a beterraba não tem quantidade informada.
 
 ## Pendências e o que a falta delas muda
 
-- **Oferta inteira** ([kits ou combo], [preço], [parcelas], [bônus], [preço por dia], [preço avulso praticado], [condição de frete]): sem ela, os blocos 19, 22, 23 e 24 não podem ser gravados. Os blocos 1 a 18 podem ser gravados antes, e a oferta entra como cena separada.
+**Não resolvem por texto (condição de gravação ou de publicação):**
+- **L-citrulina isolada na IN 28/2018 (risco vermelho):** o bloco 17 anuncia "900 miligramas de L-citrulina" em fala e tela, e o ingrediente isolado não aparece no Anexo I da IN 28/2018 consolidada. A fórmula é decisão do Rafael; a conferência é do advogado e da responsável técnica. Sem resolver, o bloco 17 não pode ir ao ar como está.
+- **Nome "Shot da Libido" no Meta:** a política de anúncios de saúde sexual e suplementos não foi conferida no texto oficial. O nome tem risco de reprovação em qualquer corte. Muda a escolha de cortes e de canal, não o texto da VSL.
+- **A página, como condição de publicação:** o rascunho da página (22/10/2026) contradiz esta VSL e precisa ser refeito antes de a VSL subir. Pontos: a voz da Giovanna ("Como nutricionista, eu passei anos...", "SIM, Giovanna!", "minha equipe"), o título "REVELADO O SEGREDO DA LIBIDO" (contra a transparência da peça), "3 kg de carne por dia cabem num único dosador" (e a tabela e o teste "faça em casa"), o "cafezinho" ("menos que um cafezinho"), "leitura essencial se você convive com ressecamento e desconforto na intimidade", "100% do valor diário" sem "de referência", "crianças" no aviso e "menos de 1 minuto" contra "dois minutos".
+- **Rótulo real da fórmula nova:** não há rótulo na pasta. Sem ele, não dá para confirmar a ordem, os ingredientes que não são ativos, a quantidade da beterraba e os dois avisos da seta 4 do bloco 14. Os blocos 13, 14 e 17 e as telas só se fecham depois dele.
+- **"Não mexe em hormônio":** fora da peça. Só volta com confirmação por escrito da responsável técnica, com base na fórmula.
+- **Terapia hormonal na lista de remédios** (bloco 18 e FAQ 4): confirmar com a responsável técnica; o briefing não a traz.
+- **Quem grava a voz:** a marca (como está) ou a Giovanna (o bloco 3 muda).
+- **Confirmação da marca** para "pelo que a gente ouve, quase ninguém consegue manter" (bloco 11) e para a Giovanna como fundadora (alternativa do bloco 16).
+
+**Já estavam pendentes e continuam:**
+- **Oferta inteira** ([kits ou combo], [preço], [parcelas], [bônus], [preço avulso praticado], [condição de frete]): sem ela, os blocos 19, 22, 23 e 24 não podem ser gravados. Os blocos 1 a 18 podem ser gravados antes, e a oferta entra como cena separada.
 - **[garantia de 30 dias] e [canal de reembolso]:** sem eles, os blocos 21, 23 e 24 não vão ao ar (CDC, art. 30).
 - **[conferir fonte primária]** do Ipsos: sem conferência, o parágrafo e a legenda saem do bloco 9.
 - **Seis meses de testes** (bloco 16): sem confirmação, a frase não entra.
 - **[PROVA PERMITIDA]** (bloco 20): sem relato autorizado, o bloco inteiro sai.
 - **Urgência** (bloco 19): sem prazo real confirmado, nada entra.
-- **Coerência com a página:** o rascunho da página fala como a Giovanna ("Como nutricionista, eu passei anos...", "SIM, Giovanna!", "a minha equipe"). Isso contradiz esta VSL e repete o bloqueio do CFN. A página também ainda tem "Descubra como 3 kg de carne por dia cabem num único dosador", a tabela e o teste "faça em casa", "leitura essencial se você convive com ressecamento e desconforto na intimidade", "100% do valor diário" sem "de referência", "crianças" no aviso e "menos de 1 minuto" contra "dois minutos". A VSL não deve subir numa página com esses pontos (parecer da v3, A24).
-- **Anexo da alegação:** o briefing diz "Anexo V da IN 28/2018"; a nota de v3 ainda citava "Anexo VII" (aviso A19 do parecer, já corrigido aqui).
+- **Anexo da alegação:** Anexo V da IN 28/2018, como no briefing.
+- **Tempos dos blocos:** refazer depois da primeira leitura em voz alta.
 
 ## O que precisa do advogado sanitário
 
-1. A conta "comida × dose" (bloco 13A): "A comparação de quantidade entre a dose e alimentos comuns, com fonte, cabe no art. 17, III e IV, da RDC 243/2018 combinado com o art. 23 do DL 986/1969?" Sem resposta por escrito, o bloco não é gravado.
-2. A sequência inteira, em especial os blocos 6, 10 e 22, e se a frase do bloco 15 basta para afastar a leitura de efeito por sequência.
-3. A Giovanna citada pelo nome como fundadora (arts. 60 e 63 da Resolução CFN 599/2018), a frase sobre as mulheres que ela acompanhava e a presença da imagem dela.
-4. Os bônus (Treinamento da Libido e avaliação com a equipe; arts. 57, 60 e 63).
-5. O nome "Shot da Libido", a descrição da Q10 e a L-citrulina isolada na IN 28/2018.
-6. A frase do bloco 14 ("a regra permite uma frase sobre a função") e a frase do bloco 17 ("nos oito ingredientes que não têm frase").
+1. A conta "comida × dose" (bloco 13A): "A comparação de quantidade entre a dose e alimentos comuns, com fonte, cabe no art. 17, III e IV, da RDC 243/2018 combinado com o art. 23 do DL 986/1969?" Sem resposta por escrito, o bloco não é gravado. Se entrar, a frase "Este vídeo não vai citar estudo nenhum" sai junto.
+2. A sequência inteira, em especial os blocos 6, 10, 12 e 22, e se a negativa do bloco 15 com o rodapé fixo basta para afastar a leitura de efeito por sequência.
+3. As receitas dos blocos 11 e 16 (origem em "o shot da libido do dia / da noite" da live) e a ligação "dessa pergunta nasceu o Shot da Libido".
+4. A Giovanna citada pelo nome como fundadora (arts. 60 e 63 da Resolução CFN 599/2018), a frase sobre as mulheres que ela acompanhava e a presença da imagem dela.
+5. Os bônus (Treinamento da Libido e avaliação com a equipe; arts. 57, 60 e 63).
+6. O nome "Shot da Libido", a descrição da Q10 e a L-citrulina isolada na IN 28/2018.
 7. A Resolução CFN 856/2026, que, segundo a LegisWeb, passa a valer em 23/01/2027 (PISTA).
 
-**Quem aprova depois:** a Giovanna, como responsável técnica pelo rótulo e pelas alegações.
+**Quem aprova depois:** a Giovanna, como responsável técnica pelo rótulo e pelas alegações, incluindo a confirmação sobre "hormônio" e a lista completa de ingredientes do rótulo.
 
 ## Registro de conformidade (skill `conformidade`, seção 9)
 
-- **Obrigatórios incluídos:** "suplemento alimentar, não é medicamento" no rodapé fixo; gestantes, lactantes e menores de 19 anos; remédio de uso contínuo; "não exceder a recomendação diária"; razão social e CNPJ; "personagem e situação ilustrativos".
-- **Riscos:** vermelho para a L-citrulina (A5) e para o bloco 13A sem liberação; laranja para a sequência (blocos 6, 10, 15 e 22), para o nome do produto e para a Giovanna nomeada; verde para os demais.
-- **Artigos citados:** RDC 243/2018 (art. 17, III e IV), DL 986/1969 (art. 23), Resolução CFN 599/2018 (arts. 57, 60 e 63), IN 28/2018, CDC (art. 30). Não conferi nenhum no texto oficial nesta entrega; as citações vêm do parecer do revisor, que os conferiu em 23/10/2026.
+- **Obrigatórios incluídos:** "suplemento alimentar, não é medicamento, não trata ressecamento, calorão nem falta de vontade" no rodapé fixo desde o bloco 2; gestantes, lactantes e menores de 19 anos; remédio de uso contínuo (com terapia hormonal, a confirmar); "não exceder a recomendação diária"; razão social e CNPJ; "personagem e situação ilustrativos".
+- **Riscos:** vermelho para a L-citrulina (A5) e para o bloco 13A sem liberação; laranja para a sequência (blocos 6, 10, 12, 15 e 22), para as receitas dos blocos 11 e 16, para o nome do produto e para a Giovanna nomeada; laranja também para a transparência, até o rótulo real ser conferido (CDC, art. 37, omissão); verde para os demais.
+- **Artigos citados:** RDC 243/2018 (art. 17, III e IV), DL 986/1969 (art. 23), Resolução CFN 599/2018 (arts. 57, 60 e 63), IN 28/2018, CDC (arts. 30, 31 e 37). Não conferi nenhum no texto oficial nesta entrega; as citações vêm do parecer do revisor, que os conferiu em 23/10/2026.
 - **Cortes para anúncio:** só os blocos 2 e 4 e, depois do ajuste, o 13. Os blocos 6, 9 a 12 e 22 afirmam a condição de quem assiste ou falam de intimidade e não servem como anúncio no Meta (A2).
