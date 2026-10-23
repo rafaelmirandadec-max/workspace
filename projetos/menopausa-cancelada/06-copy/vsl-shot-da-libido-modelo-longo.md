@@ -71,7 +71,7 @@
 
 ## Roteiro
 
-**Rodapé fixo em todo o vídeo, do bloco 2 ao fim, sempre que o produto estiver na tela e também nos blocos da Ana e do corpo (6 a 12):** "Suplemento alimentar. Não é medicamento. Não trata ressecamento, calorão nem falta de vontade." Só o bloco 1 (letras sobre fundo neutro, sem produto) fica sem o rodapé.
+**Rodapé fixo em todo o vídeo, sem exceção, do bloco 2 ao fim:** "Suplemento alimentar. Não é medicamento. Não trata ressecamento, calorão nem falta de vontade." Só o bloco 1 (letras sobre fundo neutro, sem produto) fica sem o rodapé.
 
 ### BLOCO 1. Título e subtítulo (0:00 a 0:08)
 *Passo 1 do modelo.*
@@ -627,7 +627,7 @@ Se é caro ou não, quem decide é você, olhando a conta. A conta é a que a ge
 
 **4. "Posso tomar com o meu remédio?"**
 
-Isso a gente não sabe responder, e ninguém aqui deve. Depende do remédio e do seu caso, e quem responde é o seu médico. Leva o rótulo do pote, com os ingredientes e as quantidades, e pergunta. Isso vale em especial para remédio de pressão, de coração, de diabetes, de tireoide, para afinar o sangue, para ansiedade e depressão, e para terapia hormonal.
+Isso a gente não sabe responder, e ninguém aqui está habilitado a responder. Depende do remédio e do seu caso, e quem responde é o seu médico. Leva o rótulo do pote, com os ingredientes e as quantidades, e pergunta. Isso vale em especial para remédio de pressão, de coração, de diabetes, de tireoide, para afinar o sangue, para ansiedade e depressão, e para terapia hormonal.
 
 **5. "Como eu peço e quando chega?"**
 
