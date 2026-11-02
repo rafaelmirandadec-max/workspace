@@ -1,40 +1,67 @@
-# Briefing — Menopausa Cancelada / Shot da Libido
+# Briefing — Menopausa Cancelada (Giovanna Agostini)
 
-Versão 0.1 — 2026-11-02. Rascunho montado a partir dos documentos do Drive do Rafael. Nada aqui foi confirmado com ele ainda.
+Versão 0.2 — 2026-11-02. Substitui a 0.1. Resume o que o Rafael já tem no Drive (pasta "2. menopausa-cancelada") e o que mudou depois. Nada foi copiado inteiro: o briefing completo de 10/10/2026 continua no Drive e é a referência para detalhe e fontes.
 
-## 1. O que existe
+Marcas: FATO (fonte conferida), PISTA (dito pela própria marca ou por resumo), SUPOSIÇÃO (leitura, sem fonte), `[A PREENCHER]`, `[medir]`.
 
-- **Marca / projeto:** Menopausa Cancelada. `[A PREENCHER]` Qual a relação com o Shot da Libido (marca-mãe, perfil, outro produto)?
-- **Produto (FATO, segundo a VSL V2 do Drive):** Shot da Libido, suplemento alimentar em pó, 10 ingredientes, 30 doses por pote, dois sabores (melancia; morango com maracujá). Dissolve em um copo d'água.
-- **Especialista:** Giovanna Agostini, nutricionista e chef de alimentação saudável. Coformuladora/apoio: Cátia Damasceno, fisioterapeuta e sexóloga (PISTA: "11 milhões de inscritos" precisa de print datado).
-- **Público (SUPOSIÇÃO, apoiada na VSL):** mulheres de 40 a 60 anos, perimenopausa e menopausa, com queda de desejo, ressecamento e dor na relação; sem tempo para rotina de receitas.
-- **Canal (PISTA):** anúncios que levam a uma página com VSL de cerca de 15 minutos (doc "ADS PARA A PÁGINA DE VENDAS"). Tráfego pago, a confirmar.
-- **Oferta atual (V2 da VSL):** pote avulso R$ 187,90; kit 2 meses R$ 289 (+ Treinamento da Libido, frete grátis); kit 4 meses R$ 548 (+ Femme Healthy); kit 6 meses R$ 789 (+ avaliação de exames com plano alimentar). Garantia de 30 dias.
-- **Mecanismo de venda:** "os dois lugares que a menopausa mexe" (a cabeça, onde o desejo nasce; e o caminho do sangue). Inimigo: "quatro receitas por dia" e a gaveta de cápsulas.
+## 1. O que é
 
-## 2. Material no Drive (fonte)
+- **Menopausa Cancelada** é a marca de conteúdo da nutricionista **Giovanna Agostini** (cerca de 1,4 milhão de seguidores no Instagram, PISTA: leitura de 26/10/2026). Não é um produto só: vende três frentes (briefing de 10/10):
+  1. Conteúdo e programa (lives às terças 19h30, área de membros com 8 módulos).
+  2. Acompanhamento nutricional de 12 meses por WhatsApp.
+  3. Suplementos próprios: Colágeno, Ômega 3, Femme Healthy e **Shot da Libido** (lançado em 07/10/2026), mais kits.
+- **Shot da Libido** (FATO pela VSL V2): pó em dose única, 10 ingredientes, 30 doses por pote, sabores melancia e morango com maracujá. Cátia Damasceno (fisioterapeuta e sexóloga) aparece como parceira (papel contratual `[A PREENCHER]`).
+- **Oferta do Shot na VSL V2 (29/10):** pote R$ 187,90; kit 2 meses R$ 289 (+ Treinamento da Libido); kit 4 meses R$ 548 (+ Femme Healthy); kit 6 meses R$ 789 (+ avaliação de exames com plano alimentar). Garantia de 30 dias. Frete grátis nos kits.
 
-- VSL Shot da Libido — V2 (mais recente, 29/10): 1sZK44_akqcxSomNYQ2BwhUCyG8FEYC57_GNM0I9JiqY
-- Roteiro no tom da Giovanna (26/10), VSL completa (27/10), VSL longa, VSL curta, 42 passos da VSL, transcrição da VSL
-- Ads para a página de vendas (2 versões)
-- "Melhorias para LP da Shot da Libido" (documento grande, ainda não lido)
-- Pastas de provas (estudos, prints de preço, IBGE) e "VSL LINKS PROVAS PARA EDIÇÃO"
+## 2. Público
 
-## 3. Pontos que o revisor deve olhar primeiro (SUPOSIÇÃO: leitura minha, sem parecer formal)
+- Mulheres de 45 a 60 anos (núcleo) e 40 a 44 (secundário), com sintomas de menopausa ou perimenopausa (SUPOSIÇÃO apoiada na pesquisa de 10/10).
+- Dor mais apoiada: não ser levada a sério ("é da idade"). Depois: sono, cansaço, humor, "não me reconheço", libido e ressecamento (PISTA, pesquisas encomendadas por marcas).
+- No Instagram, o conteúdo de fé e acolhimento engaja de 4 a 15 vezes mais que o técnico (FATO observado na análise de 26/10). Público com muitas mulheres evangélicas (SUPOSIÇÃO).
 
-Nicho regulado: suplemento alimentar (Anvisa, CDC, políticas de anúncio da Meta). Sinais na V2 e nos ads:
+## 3. Funil atual (análise do Instagram, 26/10)
 
-1. Fechamento da garantia promete efeito ("se você não sentir a energia voltar e a lubrificação natural aumentar"). Isso é alegação de resultado para suplemento.
-2. Título do AD 2 ("recuperar o desejo na menopausa") promete desfecho.
-3. Estudos com combinações ou formas de uso diferentes do produto (pinheiro marítimo + citrulina + arginina; ácido hialurônico em gel local; resveratrol em estudo de 2 anos) usados como prova do pote.
-4. O estudo italiano aparece com **8 semanas** na VSL V2 e com **4 semanas** nos ads. Conferir qual é o correto.
-5. "Milhares de mulheres já trocaram as quatro receitas": sem número de fonte. Depoimento marcado "SEM ARQUIVO"; nos ads há campos `[nome, cidade]` e `[1,5 milhão]`, `[10]` anos a confirmar.
-6. "Qualquer mulher pode usar tranquilamente": afirmação ampla; checar com o rótulo e a responsável técnica.
-7. Dado pessoal de depoimentos: só com autorização escrita e nunca no repositório.
+Reel com gancho (humor ou medo) → CTA por palavra-chave nos comentários (AULA, CORAÇÃO, LIBIDO, EU QUERO) → link no direct → **live grátis toda terça às 19h30** → oferta de kit com escassez → pós-live com depoimentos. Para o Shot, há também anúncio → página com VSL (cerca de 15 min) → compra.
 
-## 4. Pendências
+Leitura da análise: isca gratuita converte mais que convite para live (o reel com PDF teve 257 mil views e 4,2 mil comentários; os de oferta ficam em 100 a 250 curtidas).
 
-- `[A PREENCHER]` Demanda atual do Rafael (revisar a VSL, reescrever ads, melhorar a LP, montar funil, conteúdo orgânico?).
-- `[A PREENCHER]` Meta, verba, histórico de vendas e CPA/ROAS atuais. `[medir]`
-- `[A PREENCHER]` Registro do produto/rótulo, responsável técnica, alegações aprovadas.
-- `[A PREENCHER]` Concorrentes que o Rafael já monitora.
+## 4. Foco de trabalho em andamento (plano de 27 a 31/10)
+
+Medição da linha de base (vendas, % em kit, ticket médio, recompra 30/60/90 dias), rastreio da live, fluxos de reposição e de recuperação de Pix/carrinho (30 min, 24 h, 72 h), Reclame Aqui, privacidade (LGPD), Kit Rotina completa (Shot + Colágeno + Ômega 3), frete grátis por faixa, calendário de novembro com **Black Friday em 27/11**. Semana seguinte começa em 03/11.
+
+`[A PREENCHER]` Os números da linha de base (todas as células do plano estão em branco) e o resultado da live de 27/10.
+
+## 5. Conformidade (nicho regulado: suplemento + nutricionista)
+
+Bloqueios e riscos já levantados no Drive e na minha leitura da VSL (o `revisor` ainda não passou):
+
+1. **Nome da marca** lido como promessa de eliminar a menopausa. O briefing de 10/10 propõe ler "cancelada" como o cancelamento do "é da idade" (pergunta 4 aberta).
+2. **Nutricionista vendendo marca própria**: Código de Ética do CFN (Res. 599/2018 em vigor; Res. 856/2026 com vigência adiada, a confirmar). Pendente com o advogado sanitário.
+3. **Alegações do Shot**: garantia que promete efeito ("lubrificação natural aumentar"); título "recuperar o desejo"; comparação com alimentos (RDC 243/2018, art. 17); L-citrulina isolada na IN 28/2018; estudos com combinações ou formas de uso diferentes do pote.
+4. **Bônus de avaliação de exames** no kit de 6 meses (CFN 599/2018, art. 57).
+5. **Divergência de dado:** estudo italiano com 8 semanas na VSL V2 e 4 semanas nos ads.
+6. **Depoimentos:** marcados "SEM ARQUIVO" na VSL; campos em aberto nos ads (`[1,5 milhão]`, `[10]` anos, `[nome, cidade]`). Depoimentos antigos (2021–2023) com promessa de emagrecimento e cura nos destaques.
+7. **Anúncios do Meta:** o relatório da Biblioteca de Anúncios do Drive mistura anúncios de terceiros (outro anunciante) com os da marca; usar só os da marca.
+8. **Pendência registrada no plano de 27/10:** perguntas ao advogado sanitário enviadas na quinta, 29/10. `[A PREENCHER]` Resposta.
+
+## 6. Hipóteses do gargalo (SUPOSIÇÃO, do briefing de 10/10)
+
+- **H-A:** falta de prova e confiança no público frio.
+- **H-B:** distância entre o atendimento prometido e o entregue (14 de 26 reclamações lidas no Reclame Aqui tratam de acompanhamento e suporte).
+Nenhuma foi testada. Os dados de operação para separar as duas ainda não existem.
+
+## 7. Pendências que mudam a entrega
+
+| # | Pendência | O que a falta muda |
+|---|---|---|
+| 1 | Qual é a demanda desta rodada (Shot, live de terça, funil de recompra, Black Friday) | Define o primeiro agente |
+| 2 | Linha de base de vendas e resultado da live de 27/10 `[medir]` | Sem ela, nenhuma meta ou projeção é válida |
+| 3 | Parecer do advogado sanitário (nome, Shot, bônus, nutricionista vendendo marca) | Bloqueia subir campanha nova |
+| 4 | Registro/notificação dos suplementos, rótulo, responsável técnica | Bloqueia alegações do Shot |
+| 5 | CRN conferido da Giovanna e uso de "Dra." | Bloqueia peça com credencial |
+| 6 | Depoimentos reais com autorização por escrito (nunca no repositório com dado pessoal) | Prova social da VSL e dos ads |
+| 7 | Quem atende o acompanhamento e em quanto tempo | Testa H-B e a promessa do programa |
+
+## 8. Fontes no Drive (pasta "2. menopausa-cancelada")
+
+Briefing completo e frentes de pesquisa 1 a 7 (marca, concorrentes, anúncios, público, mercado e regulação, conteúdo/SEO, Reclame Aqui); Big Idea; avatar, consciência e objeções (29/09); funil da live de terça (tema sono); análise do Instagram (26/10); plano da semana 27 a 31/10; VSL do Shot em várias versões (V2 de 29/10) e pastas de provas; ads para a página de vendas; "Melhorias para LP da Shot da Libido" (ainda não lido).
