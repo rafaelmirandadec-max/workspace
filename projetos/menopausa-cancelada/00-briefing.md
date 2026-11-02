@@ -73,3 +73,4 @@ Briefing completo e frentes de pesquisa 1 a 7 (marca, concorrentes, anúncios, p
 - Lives às terças (SUPOSIÇÃO, pela rotina das 19h30): 03, 10, 17 e 24/11. Black Friday em 27/11.
 - Rafael pediu para tratar o jurídico como fora do foco desta rodada. As travas continuam registradas na seção 5 e o `revisor` passa antes de qualquer peça ir ao ar (regra do squad).
 - `[A PREENCHER]` Produto de cada semana, datas e horários finais, preço cheio e margem de cada produto, meta de faturamento, verba de mídia.
+- Funil do mês desenhado em `04-funil-black-november.md` (2026-11-02), com ordem de produtos e janelas semanais como SUPOSIÇÃO, aguardando decisões D1 a D5 do Rafael.
