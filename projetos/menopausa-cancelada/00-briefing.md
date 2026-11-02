@@ -74,3 +74,6 @@ Briefing completo e frentes de pesquisa 1 a 7 (marca, concorrentes, anúncios, p
 - Rafael pediu para tratar o jurídico como fora do foco desta rodada. As travas continuam registradas na seção 5 e o `revisor` passa antes de qualquer peça ir ao ar (regra do squad).
 - `[A PREENCHER]` Produto de cada semana, datas e horários finais, preço cheio e margem de cada produto, meta de faturamento, verba de mídia.
 - Funil do mês desenhado em `04-funil-black-november.md` (2026-11-02), com ordem de produtos e janelas semanais como SUPOSIÇÃO, aguardando decisões D1 a D5 do Rafael.
+
+### Decisão do Rafael (2026-11-02): ordem dos produtos
+Cada produto tem 1 semana de 50%, nesta ordem: **Colágeno (03/11), Ômega 3 (10/11), Femme Healthy (17/11), Shot da Libido (24/11)**. Falta decidir: o que acontece em 27/11 (Black Friday), se acompanhamento e área de membros entram, e a política para quem comprou em outubro.
