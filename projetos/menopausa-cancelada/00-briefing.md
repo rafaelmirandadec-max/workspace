@@ -77,3 +77,6 @@ Briefing completo e frentes de pesquisa 1 a 7 (marca, concorrentes, anúncios, p
 
 ### Decisão do Rafael (2026-11-02): ordem dos produtos
 Cada produto tem 1 semana de 50%, nesta ordem: **Colágeno (03/11), Ômega 3 (10/11), Femme Healthy (17/11), Shot da Libido (24/11)**. Falta decidir: o que acontece em 27/11 (Black Friday), se acompanhamento e área de membros entram, e a política para quem comprou em outubro.
+
+### Decisão do Rafael (2026-11-02): quem recebe o desconto
+Os 50% valem **para todo mundo**, não só para a lista de espera. A lista serve para avisar, levar à live e dar a vantagem de saber primeiro, sem preço exclusivo. Anúncios e mensagens não podem sugerir desconto só para quem entrou na lista.
