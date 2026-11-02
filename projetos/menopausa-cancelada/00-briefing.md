@@ -65,3 +65,11 @@ Nenhuma foi testada. Os dados de operação para separar as duas ainda não exis
 ## 8. Fontes no Drive (pasta "2. menopausa-cancelada")
 
 Briefing completo e frentes de pesquisa 1 a 7 (marca, concorrentes, anúncios, público, mercado e regulação, conteúdo/SEO, Reclame Aqui); Big Idea; avatar, consciência e objeções (29/09); funil da live de terça (tema sono); análise do Instagram (26/10); plano da semana 27 a 31/10; VSL do Shot em várias versões (V2 de 29/10) e pastas de provas; ads para a página de vendas; "Melhorias para LP da Shot da Libido" (ainda não lido).
+
+## 9. Campanha Black November (decisão do Rafael, 2026-11-02)
+
+- Novembro inteiro: **1 live por semana até o fim do mês**, com **50% de desconto em todos os produtos da Menopausa Cancelada**.
+- Captura: https://black.menopausacancelada.com/v2 (lista de espera por WhatsApp; semana do colágeno abre na aula de 03/11).
+- Lives às terças (SUPOSIÇÃO, pela rotina das 19h30): 03, 10, 17 e 24/11. Black Friday em 27/11.
+- Rafael pediu para tratar o jurídico como fora do foco desta rodada. As travas continuam registradas na seção 5 e o `revisor` passa antes de qualquer peça ir ao ar (regra do squad).
+- `[A PREENCHER]` Produto de cada semana, datas e horários finais, preço cheio e margem de cada produto, meta de faturamento, verba de mídia.
