@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="pt-BR" class="sem-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black November: metade do preço, cuidado inteiro</title>
+<meta name="description" content="Toda terça de novembro, às 19h30, a nutricionista Giovanna Agostini entra ao vivo com os produtos da marca a 50% de desconto. Live gratuita.">
+<meta property="og:title" content="Metade do preço. Cuidado inteiro.">
+<meta property="og:description" content="Toda terça de novembro, às 19h30, ao vivo e de graça. Produtos da marca com 50% de desconto.">
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --noite: #0e0c0b;
+    --noite-2: #1a1512;
+    --creme: #f7efe2;
+    --creme-2: #fffaf2;
+    --tinta: #2a1d12;
+    --tinta-suave: #5b4838;
+    --kraft: #e9cf9f;
+    --kraft-escuro: #b8925a;
+    --vermelho: #c0392b;
+    --ouro: #f2b759;
+    --botao: #b0420f;
+    --botao-hover: #8f350b;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--noite); color: var(--creme);
+    font-family: Georgia, "Times New Roman", serif; font-size: 19px; line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+  }
+  .ui { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  :focus-visible { outline: 3px solid var(--ouro); outline-offset: 3px; }
+  .claro :focus-visible { outline-color: #7a3d00; }
+  .miolo { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+  h1, h2 { line-height: 1.15; margin: 0 0 16px; font-weight: 700; }
+  p { margin: 0 0 16px; }
+
+  /* Rascunho: tire este bloco inteiro antes de publicar */
+  .rascunho { background: #ffe14d; color: #000; font: 600 15px/1.45 system-ui, sans-serif; padding: 10px 16px; }
+  .rascunho summary { cursor: pointer; min-height: 32px; }
+  .rascunho ul { margin: 8px 0 4px; padding-left: 20px; font-weight: 500; }
+  .pendente { background: #ffe14d; color: #000; padding: 1px 6px; border-radius: 4px; font: 600 .8em/1.45 system-ui, sans-serif; }
+
+  /* ===== Topo ===== */
+  .topo { padding: 36px 0 56px; background:
+      radial-gradient(ellipse 80% 50% at 50% 30%, rgba(242,183,89,.16), rgba(242,183,89,0) 70%), var(--noite); }
+  .selo { display: inline-block; font: 700 13px/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--noite); background: var(--ouro); padding: 8px 12px; border-radius: 4px; margin-bottom: 18px; }
+  .topo h1 { font-size: clamp(38px, 10.5vw, 64px); letter-spacing: -.01em; }
+  .topo h1 .corte { color: var(--ouro); }
+  .sub { font-size: 21px; color: #eadfcd; max-width: 34ch; }
+  .quando { font: 600 18px/1.4 system-ui, sans-serif; color: var(--creme); margin: 18px 0 22px; display: flex; gap: 12px; align-items: flex-start; }
+  .quando .bola { width: 12px; height: 12px; margin-top: 7px; border-radius: 50%; background: #e74c3c; box-shadow: 0 0 0 4px rgba(231,76,60,.25); flex: none; }
+  .botao { display: inline-flex; justify-content: center; align-items: center; min-height: 56px; padding: 14px 26px; border: 0; border-radius: 12px;
+    background: var(--botao); color: #fff; text-decoration: none; cursor: pointer; font: 700 19px/1.2 system-ui, sans-serif; }
+  .botao:hover { background: var(--botao-hover); }
+  .botao.cheio { width: 100%; }
+
+  /* Montagem: foto + etiqueta + tesoura */
+  .montagem { position: relative; width: min(300px, 78vw); margin: 44px auto 8px; }
+  .moldura { position: relative; border-radius: 160px 160px 18px 18px; overflow: hidden;
+    box-shadow: 0 0 0 5px var(--noite-2), 0 0 0 7px var(--kraft-escuro), 0 30px 60px rgba(0,0,0,.6); }
+  .moldura img { display: block; width: 100%; height: auto; }
+  .moldura::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14,12,11,0) 60%, rgba(14,12,11,.55)); }
+  .legenda { text-align: center; font: 600 15px/1.3 system-ui, sans-serif; color: #cdbfa9; margin-top: 18px; }
+
+  .etiqueta { position: absolute; left: -26px; bottom: 38px; width: 210px; height: 96px; transform: rotate(-9deg); z-index: 2; }
+  .metade { position: absolute; top: 0; height: 100%; width: 50%; background: var(--kraft); color: var(--tinta);
+    display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 22px rgba(0,0,0,.45);
+    transition: transform 1.1s cubic-bezier(.5,0,.75,1), opacity 1.1s; }
+  .metade b { font: 800 22px/1 system-ui, sans-serif; letter-spacing: .04em; }
+  .esq { left: 0; border-radius: 12px 0 0 12px; padding-left: 18px; }
+  .esq .furo { position: absolute; left: 12px; top: 50%; width: 12px; height: 12px; margin-top: -6px; border-radius: 50%; background: var(--noite); }
+  .esq .fio { position: absolute; left: -46px; top: 50%; width: 52px; height: 2px; background: #d8c3a0; transform: rotate(-18deg); transform-origin: right; }
+  .dir { right: 0; border-radius: 0 12px 12px 0; }
+  .dir .antes, .dir .depois { position: absolute; transition: opacity .4s .3s; }
+  .dir .depois { opacity: 0; color: var(--vermelho); font-size: 28px; }
+  .linha { position: absolute; left: 50%; top: -14px; bottom: -14px; border-left: 2px dashed rgba(42,29,18,.55); z-index: 3; }
+  .tesoura { position: absolute; left: 50%; top: -70px; width: 64px; height: 64px; margin-left: -32px; z-index: 4; transform: rotate(90deg);
+    transition: top 1.4s ease-in-out; filter: drop-shadow(0 4px 6px rgba(0,0,0,.5)); }
+  .lamina-a, .lamina-b { transform-origin: 32px 32px; }
+  .etiqueta.cortando .lamina-a { animation: abre-a .28s ease-in-out 5; }
+  .etiqueta.cortando .lamina-b { animation: abre-b .28s ease-in-out 5; }
+  @keyframes abre-a { 50% { transform: rotate(-16deg); } }
+  @keyframes abre-b { 50% { transform: rotate(16deg); } }
+  .etiqueta.cortando .tesoura, .etiqueta.cortada .tesoura { top: 110px; }
+  .etiqueta.cortada .tesoura { opacity: 0; transition: top 1.4s ease-in-out, opacity .4s .2s; }
+  .etiqueta.cortada .esq { transform: translate(-40px, 260px) rotate(-38deg); opacity: 0; }
+  .etiqueta.cortada .linha { opacity: 0; }
+  .etiqueta.cortada .dir { border-radius: 12px; }
+  .etiqueta.cortada .dir .antes { opacity: 0; transition-delay: 0s; }
+  .etiqueta.cortada .dir .depois { opacity: 1; }
+  html.sem-js .tesoura, html.sem-js .linha, html.sem-js .esq { display: none; }
+  html.sem-js .dir .antes { opacity: 0; }
+  html.sem-js .dir .depois { opacity: 1; }
+  html.sem-js .dir { border-radius: 12px; }
+  .de-novo { all: unset; cursor: pointer; display: block; margin: 8px auto 0; min-height: 44px; padding: 10px 6px;
+    font: 600 16px/1.3 system-ui, sans-serif; color: #e4d3b5; text-decoration: underline; }
+  .de-novo:focus-visible { outline: 3px solid var(--ouro); }
+  html.sem-js .de-novo { display: none; }
+
+  /* ===== Seções claras ===== */
+  .claro { background: var(--creme); color: var(--tinta); padding: 56px 0; }
+  .claro h2 { font-size: clamp(28px, 7vw, 38px); color: var(--tinta); }
+  .claro.alt { background: var(--creme-2); }
+  .claro p { color: var(--tinta); }
+
+  .prateleira { display: grid; gap: 14px; margin: 22px 0 14px; }
+  .produto { display: grid; grid-template-columns: 1fr auto; gap: 6px 14px; align-items: center;
+    background: #fff; border: 1px solid #e3d3b8; border-radius: 14px; padding: 16px 18px; }
+  .produto .nome { font: 700 20px/1.25 Georgia, serif; }
+  .produto .tipo { grid-column: 1; font: 15px/1.3 system-ui, sans-serif; color: var(--tinta-suave); }
+  .produto .preco { grid-column: 2; grid-row: 1 / span 2; text-align: right; font: 600 16px/1.35 system-ui, sans-serif; }
+  .produto .de { color: var(--tinta-suave); text-decoration: line-through; display: block; }
+  .produto .por { color: var(--vermelho); font-size: 22px; font-weight: 800; display: block; }
+  .nota { font: 17px/1.5 system-ui, sans-serif; color: var(--tinta-suave); }
+
+  .inteiro { list-style: none; padding: 0; margin: 22px 0 0; display: grid; gap: 14px; }
+  .inteiro li { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; }
+  .inteiro .ico { width: 34px; height: 34px; border-radius: 50%; background: var(--tinta); color: var(--ouro);
+    display: grid; place-items: center; font: 800 16px/1 system-ui, sans-serif; }
+
+  .tercas { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 22px 0 8px; }
+  .terca { border-radius: 14px; padding: 16px; background: var(--noite-2); color: var(--creme); }
+  .terca .dia { font: 800 34px/1 Georgia, serif; }
+  .terca .mes { font: 600 14px/1.3 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #e4d3b5; }
+  .terca .estado { margin-top: 10px; font: 600 15px/1.3 system-ui, sans-serif; color: #f3e6d0; }
+  .terca.hoje { background: var(--botao); }
+  .terca.foi { background: #d9cbb4; color: var(--tinta-suave); }
+  .terca.foi .mes, .terca.foi .estado { color: var(--tinta-suave); }
+
+  /* formulário */
+  .form-cartao { background: #fff; border-radius: 16px; padding: 24px 20px; box-shadow: 0 8px 30px rgba(80,50,10,.15); }
+  label.campo { display: block; margin-bottom: 16px; font: 600 17px/1.3 system-ui, sans-serif; color: var(--tinta); }
+  input[type=text], input[type=tel] { display: block; width: 100%; min-height: 54px; margin-top: 6px; padding: 12px 14px;
+    font: 18px/1.3 system-ui, sans-serif; color: var(--tinta); background: #fff; border: 2px solid #8a6a3c; border-radius: 10px; }
+  .aviso { background: #fff3dc; border-left: 5px solid #b35f00; padding: 12px 14px; border-radius: 6px; margin: 4px 0 14px;
+    font: 18px/1.5 system-ui, sans-serif; color: var(--tinta); }
+  .consentimento { display: flex; gap: 12px; align-items: flex-start; margin: 14px 0; font: 18px/1.5 system-ui, sans-serif; color: var(--tinta); }
+  .consentimento input { width: 28px; height: 28px; flex: none; margin-top: 2px; accent-color: var(--botao); }
+  .erro { color: #9b1c1c; font: 600 16px/1.4 system-ui, sans-serif; margin: 10px 0 0; min-height: 1.4em; }
+  #confirmacao[hidden] { display: none; }
+
+  footer { background: var(--noite); color: #cdbfa9; padding: 32px 0 40px; font: 17px/1.6 system-ui, sans-serif; }
+  footer p { margin-bottom: 12px; }
+
+  @media (min-width: 760px) {
+    .topo .grade { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; max-width: 1000px; }
+    .montagem { margin-top: 10px; }
+    .tercas { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<!-- RASCUNHO: apagar este bloco quando todas as pendências estiverem resolvidas -->
+<details class="rascunho">
+  <summary>Rascunho. Não publicar antes de resolver as pendências (toque para ver).</summary>
+  <ul>
+    <li>Preço de referência e preço da Black de cada produto, e a regra dos 50% (sobre o preço praticado antes da Black).</li>
+    <li>Quais produtos entram e o que abre em cada terça.</li>
+    <li>CRN10 da Giovanna conferido no conselho.</li>
+    <li>Advogado: uso da imagem da Giovanna com suplemento da marca (art. 74 da Resolução CFN 856/2026), texto do consentimento, controlador dos dados e política de privacidade.</li>
+    <li>Ligar o formulário ao sistema de captura (hoje está em modo de teste).</li>
+    <li>Loja: tirar o "Esgotado" dos produtos com botão de compra e mostrar o preço final com juros.</li>
+  </ul>
+</details>
+
+<header class="topo">
+  <div class="miolo grade">
+    <div>
+      <span class="selo">Black November</span>
+      <h1>Metade do preço.<br><span class="corte">Cuidado inteiro.</span></h1>
+      <p class="sub">Dessa vez, quem fica pela metade é o preço. O cuidado é inteiro. E é seu.</p>
+      <p class="quando"><span class="bola" aria-hidden="true"></span>Toda terça de novembro, às 19h30, a Giovanna entra ao vivo com os produtos da marca a 50% de desconto.</p>
+      <a class="botao" href="#lista">Quero entrar na lista</a>
+    </div>
+
+    <div>
+      <div class="montagem">
+        <div class="moldura">
+          <img src="giovanna.png" width="254" height="304" alt="Giovanna Agostini, nutricionista, sorrindo, sentada diante de um notebook">
+        </div>
+        <div class="etiqueta" id="etiqueta" role="img" aria-label="Uma tesoura corta a etiqueta de preço ao meio. Fica a metade: 50% de desconto.">
+          <div class="metade esq"><span class="fio"></span><span class="furo"></span><b>PREÇO</b></div>
+          <div class="metade dir"><b class="antes">CHEIO</b><b class="depois">−50%</b></div>
+          <span class="linha" aria-hidden="true"></span>
+          <svg class="tesoura" viewBox="0 0 64 64" aria-hidden="true">
+            <g class="lamina-a">
+              <path d="M32 32 L60 26 Q62 28 60 30 Z" fill="#d9dde2" stroke="#8a9199" stroke-width="1"/>
+              <circle cx="12" cy="22" r="8" fill="none" stroke="#c0392b" stroke-width="4"/>
+              <path d="M18 25 L32 32" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+            </g>
+            <g class="lamina-b">
+              <path d="M32 32 L60 38 Q62 36 60 34 Z" fill="#c7ccd2" stroke="#8a9199" stroke-width="1"/>
+              <circle cx="12" cy="42" r="8" fill="none" stroke="#c0392b" stroke-width="4"/>
+              <path d="M18 39 L32 32" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+            </g>
+            <circle cx="32" cy="32" r="2.5" fill="#555"/>
+          </svg>
+        </div>
+      </div>
+      <p class="legenda">Giovanna Agostini, nutricionista · <span class="pendente">CRN10 [A PREENCHER]</span></p>
+      <button type="button" class="de-novo" id="deNovo">Cortar de novo</button>
+    </div>
+  </div>
+</header>
+
+<section class="claro" aria-labelledby="t-metade">
+  <div class="miolo">
+    <h2 id="t-metade">O que fica pela metade</h2>
+    <p>O preço. Os produtos da marca, que são suplementos alimentares, com 50% de desconto nas lives de terça.</p>
+    <div class="prateleira">
+      <div class="produto">
+        <span class="nome">Colágeno</span>
+        <span class="tipo">Suplemento alimentar</span>
+        <span class="preco"><span class="de">de <span class="pendente">R$ [A PREENCHER]</span></span><span class="por">−50%</span></span>
+      </div>
+      <div class="produto">
+        <span class="nome">Ômega 3</span>
+        <span class="tipo">Suplemento alimentar</span>
+        <span class="preco"><span class="de">de <span class="pendente">R$ [A PREENCHER]</span></span><span class="por">−50%</span></span>
+      </div>
+      <div class="produto">
+        <span class="nome">Femme Healthy</span>
+        <span class="tipo">Suplemento alimentar</span>
+        <span class="preco"><span class="de">de <span class="pendente">R$ [A PREENCHER]</span></span><span class="por">−50%</span></span>
+      </div>
+    </div>
+    <p class="nota">O “de” é o preço praticado antes da Black. O preço final, com juros quando houver parcelamento, aparece antes do pagamento. Suplemento alimentar não é medicamento.</p>
+  </div>
+</section>
+
+<section class="claro alt" aria-labelledby="t-inteiro">
+  <div class="miolo">
+    <h2 id="t-inteiro">O que fica inteiro</h2>
+    <p>O cuidado. Desconto não quer dizer explicação pela metade.</p>
+    <ul class="inteiro">
+      <li><span class="ico" aria-hidden="true">1</span><span>A live é gratuita e ao vivo, com a Giovanna, toda terça de novembro às 19h30.</span></li>
+      <li><span class="ico" aria-hidden="true">2</span><span>Ela mostra o rótulo de cada produto: o que tem, em que dose e como usar.</span></li>
+      <li><span class="ico" aria-hidden="true">3</span><span>Ela responde às perguntas do chat antes de qualquer oferta.</span></li>
+      <li><span class="ico" aria-hidden="true">4</span><span>E lembra o que vale para todo mundo: suplemento não substitui consulta, e tratamento é decisão do médico.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="claro" aria-labelledby="t-tercas">
+  <div class="miolo">
+    <h2 id="t-tercas">Toda terça, às 19h30</h2>
+    <div class="tercas" id="tercas">
+      <div class="terca" data-data="2026-11-03"><div class="dia">03</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+      <div class="terca" data-data="2026-11-10"><div class="dia">10</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+      <div class="terca" data-data="2026-11-17"><div class="dia">17</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+      <div class="terca" data-data="2026-11-24"><div class="dia">24</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+    </div>
+    <p class="nota">Quem está na lista recebe o link de cada live no WhatsApp. <span class="pendente">[A PREENCHER: o que abre em cada terça]</span></p>
+  </div>
+</section>
+
+<section class="claro alt" id="lista" aria-labelledby="t-lista">
+  <div class="miolo">
+    <h2 id="t-lista">Entre na lista</h2>
+    <div class="form-cartao">
+      <div id="areaForm">
+        <p>Receba o link das lives no WhatsApp. É de graça.</p>
+        <form id="form" method="post" action="#lista" novalidate>
+          <label class="campo">Nome
+            <input type="text" name="nome" autocomplete="given-name" required>
+          </label>
+          <label class="campo">WhatsApp (com DDD)
+            <input type="tel" name="whatsapp" autocomplete="tel-national" inputmode="tel" placeholder="(11) 90000-0000" required>
+          </label>
+          <div class="aviso">Live gratuita, com apresentação de suplementos alimentares da marca com desconto de Black.</div>
+          <label class="consentimento">
+            <input type="checkbox" name="consentimentoAula" required>
+            <span>Autorizo <span class="pendente">[A PREENCHER: razão social e CNPJ de quem controla os dados]</span> a usar meu nome e meu WhatsApp para me enviar o link e os lembretes das lives. Posso sair quando quiser respondendo SAIR. Política de privacidade: <span class="pendente">[A PREENCHER: link]</span>.</span>
+          </label>
+          <label class="consentimento">
+            <input type="checkbox" name="consentimentoOfertas">
+            <span>Quero também receber ofertas dos produtos da marca por mensagem. É opcional. <span class="pendente">[A PREENCHER: texto revisto por advogado]</span></span>
+          </label>
+          <button class="botao cheio" type="submit">Quero entrar na lista</button>
+          <p class="erro" id="erro" role="alert"></p>
+        </form>
+      </div>
+      <div id="confirmacao" hidden>
+        <h2>Pronto, você está na lista.</h2>
+        <p>O link chega no seu WhatsApp antes de cada live, às terças, 19h30.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="miolo">
+    <p>Giovanna Agostini, nutricionista, <span class="pendente">CRN10 [A PREENCHER]</span>.</p>
+    <p>Os produtos apresentados são suplementos alimentares. Suplemento alimentar não é medicamento e não substitui consulta. Decisões sobre tratamento são do médico.</p>
+    <p>Desconto de 50% sobre o preço praticado antes da Black, válido nas condições informadas em cada live. <span class="pendente">[A PREENCHER: regra e prazo da oferta]</span></p>
+    <p>Menopausa Cancelada · CNPJ 47.019.967/0001-89 · <span class="pendente">[A PREENCHER: razão social, endereço e política de privacidade]</span></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var html = document.documentElement;
+  var reduz = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Calendário: marca a terça de hoje e as que já passaram
+  try {
+    var hoje = new Date();
+    var hojeStr = hoje.getFullYear() + '-' + String(hoje.getMonth() + 1).padStart(2, '0') + '-' + String(hoje.getDate()).padStart(2, '0');
+    document.querySelectorAll('.terca').forEach(function (el) {
+      var d = el.getAttribute('data-data');
+      var estado = el.querySelector('.estado');
+      if (d === hojeStr) { el.classList.add('hoje'); estado.textContent = 'Hoje, 19h30'; }
+      else if (d < hojeStr) { el.classList.add('foi'); estado.textContent = 'Já aconteceu'; }
+    });
+  } catch (e) {}
+
+  setupForm();
+  if (reduz) return; // sem animação: fica a etiqueta já cortada (versão estática)
+  html.classList.remove('sem-js');
+
+  // Tesoura: corta a etiqueta quando ela aparece na tela
+  var et = document.getElementById('etiqueta');
+  function cortar() {
+    et.classList.remove('cortada', 'cortando');
+    void et.offsetWidth;
+    et.classList.add('cortando');
+    setTimeout(function () { et.classList.remove('cortando'); et.classList.add('cortada'); }, 1450);
+  }
+  var cortou = false;
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (es, obs) {
+      es.forEach(function (e) {
+        if (e.isIntersecting && !cortou) { cortou = true; setTimeout(cortar, 700); obs.disconnect(); }
+      });
+    }, { threshold: 0.6 }).observe(et);
+  } else { setTimeout(cortar, 700); }
+  document.getElementById('deNovo').addEventListener('click', cortar);
+
+  function setupForm() {
+    var form = document.getElementById('form');
+    var erro = document.getElementById('erro');
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var nome = form.nome.value.trim();
+      var zap = form.whatsapp.value.replace(/\D/g, '');
+      if (nome.length < 2) { erro.textContent = 'Escreva o seu nome.'; form.nome.focus(); return; }
+      if (zap.length < 10 || zap.length > 13) { erro.textContent = 'Escreva o WhatsApp com DDD, por exemplo (11) 90000-0000.'; form.whatsapp.focus(); return; }
+      if (!form.consentimentoAula.checked) { erro.textContent = 'Para receber o link, marque a primeira autorização.'; form.consentimentoAula.focus(); return; }
+      erro.textContent = '';
+      // ENVIO: preencher DESTINO com o endereço do sistema de captura quando o texto jurídico estiver aprovado.
+      // Enquanto estiver vazio, a página NÃO confirma a inscrição (nada foi enviado).
+      // Pixel: só o evento padrão de lead, sem nome de condição de saúde.
+      var DESTINO = '';
+      if (!DESTINO) { erro.textContent = 'Modo de teste: o envio ainda não está ligado a nenhum sistema. Nada foi enviado.'; return; }
+      fetch(DESTINO, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ nome: nome, whatsapp: zap, aula: true, ofertas: form.consentimentoOfertas.checked })
+      }).then(function (r) {
+        if (!r.ok) throw new Error('falhou');
+        document.getElementById('areaForm').hidden = true;
+        document.getElementById('confirmacao').hidden = false;
+      }).catch(function () { erro.textContent = 'Não consegui enviar agora. Tente de novo em instantes.'; });
+    });
+  }
+})();
+</script>
+</body>
+</html>
