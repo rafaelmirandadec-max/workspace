@@ -1,0 +1,51 @@
+# Briefing — Menopausa Cancelada · Página da Black November 2026
+
+Criado em 03/11/2026 pelo Copy Chief. Versão 1.
+
+## Pedido do Rafael (palavras dele)
+
+> "Para a Menopausa Cancelada: https://www.instagram.com/menopausa.cancelada"
+> 1 - página da Black · 2 - Todos os suplementos da Menopausa Cancelada · 3 - Tudo com 50% de desconto · 4 - anúncio frio · 5 - Tem mais ainda estou separando os melhores · 6 - Tem mais não são boas
+
+## Peça
+
+- **Formato:** página de vendas da Black November (longa, para tráfego frio).
+- **Objetivo:** venda direta dos suplementos.
+- **Tráfego:** anúncio frio (Meta). O leitor provavelmente não conhece a Giovanna nem a marca.
+- **Controle:** existem páginas anteriores, mas o Rafael diz que "não são boas". Não temos os números. Não vamos modelar por elas.
+
+## Marca e porta-voz
+
+- FATO (perfil, lido em 03/11/2026): @menopausa.cancelada, "Giovanna | Menopausa Cancelada", 1,4 milhão de seguidores. Destaques: Depoimentos, Na mídia, Pacientes, Jesus, Perguntas, Alimentação.
+- FATO (bio): "BLACK NOVEMBER: Cada semana uma oferta! A MAIOR queima de estoque da história. COLÁGENO + 50% OFF + Sedex..."
+- FATO: link da bio (mc.eventomenopausacancelada.com.br/link-bio) mostra só "Entre na lista de espera aqui!". CNPJ 47.019.967/0001-89.
+- PISTA: o destaque "Pacientes" sugere atuação profissional em saúde. `[A PREENCHER]` formação e registro profissional da Giovanna (nutricionista? médica? CRN/CRM?). Muda o que a página pode dizer.
+- PISTA: o destaque "Jesus" sugere público e voz cristãos. Ver se entra na página.
+
+## Produto e oferta
+
+- Produto: **todos os suplementos da linha Menopausa Cancelada**. `[A PREENCHER]` lista de produtos, composição, registro/notificação na Anvisa, preços cheios.
+- Oferta: **50% de desconto em tudo**. FATO pelo Rafael.
+- Conflito a resolver: a bio fala em "cada semana uma oferta" (colágeno + 50% + Sedex). A página vai cobrir toda a linha ou só a oferta da semana? SUPOSIÇÃO de trabalho: página de toda a linha com 50%, e um bloco que pode trocar o destaque da semana.
+- `[A PREENCHER]` prazo real da Black (data de término), frete, parcelamento, kits/combos, brindes, garantia (o CDC dá 7 dias de arrependimento na compra online, no mínimo), limite de estoque real ("queima de estoque" só pode ser dito se for verdade).
+
+## Provas
+
+- Depoimentos: existem, o Rafael está separando os melhores. `[PROVA: depoimentos autorizados]`.
+- Mídia: destaque "Na mídia" no perfil. `[PROVA: quais veículos, com link]`.
+- Números: 1,4 milhão de seguidores (FATO). `[A PREENCHER]` clientes atendidas, unidades vendidas.
+
+## Restrições
+
+- **Nicho regulado:** suplemento alimentar + saúde da mulher (menopausa). Regras da Anvisa (RDC 243/2018 e alegações autorizadas), do CDC, do CONAR, do conselho profissional da Giovanna e das políticas de anúncio da Meta. Passar pela skill `cc-conformidade` antes de escrever. Proibido: prometer cura, tratamento, "cancelar a menopausa" como efeito do produto, antes e depois, substituir reposição hormonal.
+- O próprio nome da marca ("Menopausa Cancelada") é uma promessa forte: a copy não pode atribuir esse efeito aos suplementos.
+- Escassez e prazo: só o que for real.
+- Dado pessoal de clientes não entra no repositório.
+
+## Pendências (por ordem de impacto)
+
+1. Lista dos suplementos com composição, preços e situação na Anvisa.
+2. Prazo e regras da Black (data final, frete, parcelamento, kits).
+3. Formação e registro da Giovanna.
+4. Depoimentos autorizados e links de mídia.
+5. Garantia oferecida.
