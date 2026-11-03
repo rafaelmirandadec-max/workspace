@@ -234,7 +234,7 @@ Alternativa mais curta: *O que "calorão" vira no prontuário?*
 **Descrição (até 150 caracteres):**
 > Aula educativa com a nutricionista Giovanna Agostini, para mulheres de 45 a 60 anos. No final, produtos da marca com desconto de Black.
 
-**Imagem de compartilhamento:** fundo preto, um fósforo aceso no centro, sem texto na imagem. Texto alternativo: "Fósforo aceso na escuridão." O fósforo substitui a foto da Giovanna enquanto o art. 74 da Resolução CFN 856/2026 estiver em aberto.
+**Imagem de compartilhamento:** fundo preto, um fósforo aceso no centro, sem texto na imagem. Texto alternativo: "Fósforo aceso na escuridão." O fósforo substitui a foto da Giovanna enquanto o art. 74 da Resolução CFN 856/2026 estiver em aberto. **Atualização de 03/11/2026:** o Rafael mandou a foto da Giovanna e pediu a montagem na página. O HTML a usa no estágio 4 (retrato que acende), com marcador de pendência do advogado e chave `data-foto="nao"` para tirá-la. O risco do art. 74 continua aberto, e a foto é imagem da profissional numa página que termina em apresentação de suplementos da marca.
 
 ---
 
