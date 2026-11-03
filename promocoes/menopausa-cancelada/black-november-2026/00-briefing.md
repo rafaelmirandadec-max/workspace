@@ -1,6 +1,6 @@
 # Briefing — Menopausa Cancelada · Página da Black November 2026
 
-Criado em 03/11/2026 pelo Copy Chief. Versão 1.
+Criado em 03/11/2026 pelo Copy Chief. Versão 2 (03/11/2026): escopo dos produtos e estoque confirmados pelo Rafael.
 
 ## Pedido do Rafael (palavras dele)
 
@@ -26,8 +26,9 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 1.
 
 - Produto: **todos os suplementos da linha Menopausa Cancelada**. `[A PREENCHER]` lista de produtos, composição, registro/notificação na Anvisa, preços cheios.
 - Oferta: **50% de desconto em tudo**. FATO pelo Rafael.
-- Conflito a resolver: a bio fala em "cada semana uma oferta" (colágeno + 50% + Sedex). A página vai cobrir toda a linha ou só a oferta da semana? SUPOSIÇÃO de trabalho: página de toda a linha com 50%, e um bloco que pode trocar o destaque da semana.
-- `[A PREENCHER]` prazo real da Black (data de término), frete, parcelamento, kits/combos, brindes, garantia (o CDC dá 7 dias de arrependimento na compra online, no mínimo), limite de estoque real ("queima de estoque" só pode ser dito se for verdade).
+- FATO (Rafael, 03/11): "cada semana uma oferta: o colágeno já foi, agora tem que ser dos outros produtos dela". **A página é dos outros produtos da linha, sem o colágeno**, todos com 50%. Colágeno não entra como oferta (pode aparecer só como prova de que a Black é real, ex.: "a semana do colágeno esgotou", se for verdade).
+- `[A PREENCHER]` prazo real da Black (data de término), frete, parcelamento, kits/combos, brindes, garantia (o CDC dá 7 dias de arrependimento na compra online, no mínimo), quantidade de estoque por produto.
+- FATO (Rafael, 03/11): **a "queima de estoque" é de verdade.** Pode ser usada como razão de existir da oferta e como urgência. `[A PREENCHER]` quantidades ou o que acontece quando acabar (sai de linha? volta ao preço cheio?), para a urgência ficar específica.
 
 ## Provas
 
@@ -44,7 +45,7 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 1.
 
 ## Pendências (por ordem de impacto)
 
-1. Lista dos suplementos com composição, preços e situação na Anvisa.
+1. Lista dos suplementos (exceto colágeno) com composição, preços e situação na Anvisa.
 2. Prazo e regras da Black (data final, frete, parcelamento, kits).
 3. Formação e registro da Giovanna.
 4. Depoimentos autorizados e links de mídia.
