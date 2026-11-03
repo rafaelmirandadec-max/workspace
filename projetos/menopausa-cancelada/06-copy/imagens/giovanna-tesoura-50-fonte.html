@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<style>
+  html, body { margin: 0; }
+  body { width: 1080px; height: 1350px; overflow: hidden; position: relative;
+    background: radial-gradient(ellipse 70% 55% at 50% 38%, #3a2a16 0%, #14100c 60%, #0b0908 100%);
+    font-family: "Helvetica Neue", Arial, sans-serif; }
+  .arco { position: absolute; left: 240px; top: 72px; width: 600px; height: 718px;
+    border-radius: 300px 300px 26px 26px; overflow: hidden;
+    box-shadow: 0 0 0 8px #1a1410, 0 0 0 12px #b8925a, 0 40px 80px rgba(0,0,0,.7); }
+  .arco img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; display: block; }
+  .arco::after { content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(11,9,8,.65) 100%); }
+
+  .placa { position: absolute; width: 400px; height: 300px; background: linear-gradient(160deg, #f6dfb2, #e3c48a);
+    border: 6px solid #fff3d6; box-shadow: 0 30px 50px rgba(0,0,0,.6), inset 0 0 0 3px rgba(120,80,30,.25);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; color: #2a1d12; }
+  .placa .rot { font-weight: 900; font-size: 46px; letter-spacing: .08em; }
+  .placa .pct { font-weight: 900; font-size: 140px; line-height: .95; color: #c0392b; letter-spacing: -.02em; }
+  .placa .ofn { font-weight: 800; font-size: 26px; letter-spacing: .25em; margin-top: 6px; color: #5b4838; }
+  .esq { left: 122px; top: 800px; border-radius: 22px 6px 6px 22px; transform: rotate(-9deg); }
+  .dir { left: 560px; top: 794px; border-radius: 6px 22px 22px 6px; transform: rotate(7deg); }
+  /* borda do corte, em zigue-zague leve */
+  .esq::after, .dir::after { content: ""; position: absolute; top: -6px; bottom: -6px; width: 10px;
+    background: repeating-linear-gradient(180deg, #fff3d6 0 8px, #d9b97f 8px 16px); }
+  .esq::after { right: -6px; }
+  .dir::after { left: -6px; }
+
+  .tesoura { overflow: visible; position: absolute; left: 380px; top: 520px; width: 320px; height: 600px; z-index: 2; filter: drop-shadow(0 18px 24px rgba(0,0,0,.65)); }
+
+  .faixa { position: absolute; left: 0; right: 0; bottom: 44px; text-align: center; color: #f7efe2; }
+  .faixa .t1 { font: 700 50px/1.1 Georgia, "Times New Roman", serif; }
+  .faixa .t1 b { color: #f2b759; }
+  .faixa .t2 { font: 600 30px/1.3 "Helvetica Neue", Arial, sans-serif; color: #e4d3b5; margin-top: 12px; }
+  .selo { position: absolute; left: 50%; top: 22px; transform: translateX(-50%); background: #f2b759; color: #0e0c0b;
+    font: 800 24px/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; padding: 12px 20px; border-radius: 6px; z-index: 3; }
+</style></head>
+<body>
+  <div class="selo">BLACK NOVEMBER</div>
+  <div class="arco"><img src="FOTO" alt=""></div>
+
+  <div class="placa esq"><div class="rot">DESCONTO</div><div class="pct">50%</div><div class="ofn">OFF</div></div>
+  <div class="placa dir"><div class="rot">DESCONTO</div><div class="pct">50%</div><div class="ofn">OFF</div></div>
+
+  <svg class="tesoura" viewBox="0 0 320 600">
+    <defs>
+      <linearGradient id="aco" x1="0" x2="1">
+        <stop offset="0" stop-color="#ffffff"/><stop offset=".4" stop-color="#d3d8de"/><stop offset=".6" stop-color="#959ca5"/><stop offset="1" stop-color="#e6e9ec"/>
+      </linearGradient>
+      <linearGradient id="cabo" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0" stop-color="#ef5a48"/><stop offset="1" stop-color="#8e1f14"/>
+      </linearGradient>
+    </defs>
+    <g transform="rotate(22 160 290)"><g transform="translate(160 290) rotate(17)">
+      <path d="M-17 0 L17 0 L5 285 Q0 296 -5 285 Z" fill="url(#aco)" stroke="#646b73" stroke-width="2.5"/>
+      <path d="M0 6 L1 280" stroke="#ffffff" stroke-width="2" opacity=".7"/>
+      <path d="M0 0 L0 -150" stroke="#c0392b" stroke-width="26" stroke-linecap="round"/>
+      <ellipse cx="0" cy="-205" rx="56" ry="50" fill="none" stroke="url(#cabo)" stroke-width="24"/>
+    </g>
+    <g transform="translate(160 290) rotate(-17)">
+      <path d="M-17 0 L17 0 L5 285 Q0 296 -5 285 Z" fill="url(#aco)" stroke="#646b73" stroke-width="2.5"/>
+      <path d="M0 6 L-1 280" stroke="#ffffff" stroke-width="2" opacity=".7"/>
+      <path d="M0 0 L0 -150" stroke="#c0392b" stroke-width="26" stroke-linecap="round"/>
+      <ellipse cx="0" cy="-205" rx="56" ry="50" fill="none" stroke="url(#cabo)" stroke-width="24"/>
+    </g>
+    <circle cx="160" cy="290" r="14" fill="#3d4247" stroke="#e1e5e9" stroke-width="4"/></g>
+  </svg>
+
+  <div class="faixa">
+    <div class="t1">Metade do preço. <b>Cuidado inteiro.</b></div>
+    <div class="t2">Toda terça de novembro, 19h30, ao vivo</div>
+  </div>
+</body></html>
