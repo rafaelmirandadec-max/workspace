@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="pt-BR" class="sem-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black November: brasa, não fogo de palha</title>
+<meta name="description" content="Isso não é Black. É o preço de sempre com roupa preta. Em novembro, a Menopausa Cancelada prefere brasa: 50% de desconto, toda terça, às 19h30, ao vivo. Live gratuita.">
+<meta property="og:title" content="Isso não é Black. É o preço de sempre com roupa preta.">
+<meta property="og:description" content="Desconto de Black costuma ser fogo de palha. Em novembro, a gente prefere brasa: 50%, toda terça, às 19h30.">
+<meta name="robots" content="noindex">
+<style>
+  @property --r { syntax: '<percentage>'; inherits: true; initial-value: 0%; }
+  :root {
+    --noite: #0a0807;
+    --noite-2: #17120e;
+    --creme: #f7efe2;
+    --creme-2: #fffaf2;
+    --tinta: #2a1d12;
+    --tinta-suave: #5b4838;
+    --chama: #ff8a1f;
+    --ouro: #f2b759;
+    --vermelho: #c0392b;
+    --botao: #b0420f;
+    --botao-hover: #8f350b;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--noite); color: var(--creme);
+    font-family: Georgia, "Times New Roman", serif; font-size: 19px; line-height: 1.6; -webkit-text-size-adjust: 100%; }
+  :focus-visible { outline: 3px solid var(--ouro); outline-offset: 3px; }
+  .claro :focus-visible { outline-color: #7a3d00; }
+  .miolo { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+  h1, h2 { line-height: 1.12; margin: 0 0 16px; font-weight: 700; }
+  p { margin: 0 0 16px; }
+
+  /* Rascunho: tire este bloco inteiro antes de publicar */
+  .rascunho { background: #ffe14d; color: #000; font: 600 15px/1.45 system-ui, sans-serif; padding: 10px 16px; }
+  .rascunho summary { cursor: pointer; min-height: 32px; }
+  .rascunho ul { margin: 8px 0 4px; padding-left: 20px; font-weight: 500; }
+  .pendente { background: #ffe14d; color: #000; padding: 1px 6px; border-radius: 4px; font: 600 .8em/1.45 system-ui, sans-serif; }
+
+  /* ===== Topo ===== */
+  .topo { padding: 36px 0 56px; background: var(--noite); overflow: hidden; }
+  .selo { display: inline-block; font: 700 13px/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--noite); background: var(--ouro); padding: 8px 12px; border-radius: 4px; margin-bottom: 18px; }
+  .topo h1 { font-size: clamp(30px, 8vw, 46px); letter-spacing: -.01em; }
+  .topo h1 .fogo { color: var(--ouro); }
+  .sub { font: 600 19px/1.45 system-ui, sans-serif; color: #eadfcd; max-width: 36ch; margin: 18px 0 24px; }
+  .botao { display: inline-flex; justify-content: center; align-items: center; min-height: 56px; padding: 14px 26px; border: 0; border-radius: 12px;
+    background: var(--botao); color: #fff; text-decoration: none; cursor: pointer; font: 700 19px/1.2 system-ui, sans-serif; }
+  .botao:hover { background: var(--botao-hover); }
+  .botao.cheio { width: 100%; }
+
+  /* ===== Fogo de palha x brasa ===== */
+  .fogueira { position: relative; width: min(400px, 90vw); margin: 34px auto 0; padding: 18px 0 8px; text-align: center; }
+  .palhas { display: grid; gap: 14px; justify-items: center; min-height: 230px; }
+  .palha { position: relative; display: inline-flex; align-items: center; gap: 10px; padding: 12px 18px; border-radius: 10px;
+    background: #e9cf9f; color: #2a1d12; font: 800 clamp(17px, 4.6vw, 21px)/1.15 system-ui, sans-serif;
+    box-shadow: 0 10px 22px rgba(0,0,0,.5); transform: rotate(var(--rot, -3deg)); }
+  .palha:nth-child(2) { --rot: 2.5deg; }
+  .palha:nth-child(3) { --rot: -1.5deg; }
+  .palha small { display: block; font-weight: 600; font-size: .7em; color: #5b4838; }
+  .palha::before { content: ""; position: absolute; left: 50%; bottom: 70%; width: 70%; height: 0; margin-left: -35%; border-radius: 50% 50% 20% 20%;
+    background: radial-gradient(ellipse at 50% 100%, #fff3b0, #ffb347 35%, #ff6a1a 65%, rgba(255,60,0,0) 75%); filter: blur(1px); opacity: 0; }
+  .js-fogo .palha.queima { animation: queima 1.5s ease-in forwards; }
+  .js-fogo .palha.queima::before { animation: chama-palha 1.5s ease-out forwards; }
+  @keyframes chama-palha { 0% { height: 0; opacity: 0; } 20% { height: 90px; opacity: 1; } 65% { height: 120px; opacity: 1; } 100% { height: 10px; opacity: 0; } }
+  @keyframes queima {
+    0%   { filter: none; opacity: 1; transform: rotate(var(--rot)) scale(1); }
+    40%  { filter: sepia(1) saturate(3) brightness(.8); }
+    75%  { filter: grayscale(1) brightness(.35); opacity: .9; transform: rotate(var(--rot)) scale(.92); }
+    100% { filter: grayscale(1) brightness(.25); opacity: .18; transform: rotate(var(--rot)) scale(.86) translateY(8px); }
+  }
+  .cinza { font: italic 600 15px/1.3 system-ui, sans-serif; color: #8d7f6c; margin: 10px 0 0; min-height: 20px; }
+  .brasa-wrap { position: relative; width: 190px; height: 190px; margin: 18px auto 0; }
+  .brasa { position: absolute; inset: 20px; border-radius: 46% 54% 50% 50% / 55% 50% 50% 45%; display: grid; place-items: center;
+    background: radial-gradient(circle at 45% 40%, #fff1b8 0%, #ffb347 22%, #ff6a1a 48%, #b3260b 72%, #3a0d05 100%);
+    box-shadow: 0 0 40px 10px rgba(255,110,30,.55), 0 0 90px 30px rgba(255,80,20,.25);
+    color: #fff; font: 900 46px/1 system-ui, sans-serif; text-shadow: 0 2px 6px rgba(80,10,0,.6); }
+  .brasa small { display: block; font: 800 12px/1.2 system-ui, sans-serif; letter-spacing: .18em; margin-top: 4px; }
+  .js-fogo .brasa-wrap { opacity: 0; transform: scale(.6); }
+  .js-fogo.brasa-on .brasa-wrap { opacity: 1; transform: scale(1); transition: opacity 1s ease, transform 1.2s cubic-bezier(.3,1.4,.5,1); }
+  .js-fogo.brasa-on .brasa { animation: pulsa-brasa 2.4s ease-in-out infinite; }
+  @keyframes pulsa-brasa { 0%,100% { box-shadow: 0 0 40px 10px rgba(255,110,30,.55), 0 0 90px 30px rgba(255,80,20,.25); filter: brightness(1); }
+    50% { box-shadow: 0 0 55px 16px rgba(255,130,40,.7), 0 0 120px 40px rgba(255,90,20,.3); filter: brightness(1.12); } }
+  .faisca-b { position: absolute; left: 50%; bottom: 40%; width: 4px; height: 4px; border-radius: 50%; background: #ffd27a; opacity: 0; }
+  .js-fogo.brasa-on .faisca-b { animation: sobe 2.6s ease-out infinite; }
+  .faisca-b:nth-child(2) { margin-left: -30px; animation-delay: .6s !important; }
+  .faisca-b:nth-child(3) { margin-left: 24px; animation-delay: 1.2s !important; }
+  .faisca-b:nth-child(4) { margin-left: -8px; animation-delay: 1.9s !important; }
+  @keyframes sobe { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: 1; } 100% { opacity: 0; transform: translate(10px, -110px); } }
+  .legenda-brasa { font: 700 20px/1.35 Georgia, serif; color: var(--ouro); margin: 14px 0 0; }
+  html.sem-js .palha { filter: grayscale(1) brightness(.35); opacity: .35; }
+
+  /* comparação */
+  .duas { display: grid; gap: 14px; margin: 22px 0 6px; }
+  .lado { border-radius: 14px; padding: 18px 18px 8px; }
+  .lado h3 { margin: 0 0 10px; font: 800 20px/1.2 system-ui, sans-serif; }
+  .lado ul { margin: 0 0 10px; padding-left: 20px; }
+  .lado li { margin-bottom: 6px; font: 17px/1.45 system-ui, sans-serif; }
+  .lado.palha-l { background: #e8e1d6; color: #5b4838; }
+  .lado.palha-l h3 { color: #6b5c4c; }
+  .lado.brasa-l { background: #2a1408; color: #f7e6cc; box-shadow: 0 0 0 2px #d9761f inset, 0 10px 30px rgba(217,118,31,.25); }
+  .lado.brasa-l h3 { color: #ffb347; }
+  .lado.brasa-l li { color: #f7e6cc; }
+  .produto .por { font-size: 20px; }
+  .produto .conta { display: block; font: 700 13px/1.2 system-ui, sans-serif; color: #a1501a; }
+
+  .fala { text-align: center; font: italic 22px/1.4 Georgia, serif; color: #f3e2c4; margin: 18px 0 0; }
+  .legenda { text-align: center; font: 600 15px/1.3 system-ui, sans-serif; color: #b9ab95; margin-top: 8px; }
+  .de-novo { all: unset; cursor: pointer; display: block; margin: 6px auto 0; min-height: 44px; padding: 10px 6px;
+    font: 600 16px/1.3 system-ui, sans-serif; color: #e4d3b5; text-decoration: underline; }
+  .de-novo:focus-visible { outline: 3px solid var(--ouro); }
+  html.sem-js .de-novo { display: none; }
+
+  /* ===== Seções claras ===== */
+  .claro { background: var(--creme); color: var(--tinta); padding: 56px 0; }
+  .claro.alt { background: var(--creme-2); }
+  .claro h2 { font-size: clamp(28px, 7vw, 38px); color: var(--tinta); }
+  .claro p { color: var(--tinta); }
+  .prateleira { display: grid; gap: 14px; margin: 22px 0 14px; }
+  .produto { display: grid; grid-template-columns: 1fr auto; gap: 6px 14px; align-items: center;
+    background: #fff; border: 1px solid #e3d3b8; border-radius: 14px; padding: 16px 18px; }
+  .produto .nome { font: 700 20px/1.25 Georgia, serif; }
+  .produto .tipo { grid-column: 1; font: 15px/1.3 system-ui, sans-serif; color: var(--tinta-suave); }
+  .produto .preco { grid-column: 2; grid-row: 1 / span 2; text-align: right; font: 600 16px/1.35 system-ui, sans-serif; }
+  .produto .de { color: var(--tinta-suave); text-decoration: line-through; display: block; }
+  .produto .por { color: var(--vermelho); font-size: 22px; font-weight: 800; display: block; }
+  .nota { font: 17px/1.5 system-ui, sans-serif; color: var(--tinta-suave); }
+
+  .tercas { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 22px 0 8px; }
+  .terca { border-radius: 14px; padding: 16px; background: var(--noite-2); color: var(--creme); }
+  .terca .dia { font: 800 34px/1 Georgia, serif; }
+  .terca .mes { font: 600 14px/1.3 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #e4d3b5; }
+  .terca .estado { margin-top: 10px; font: 600 15px/1.3 system-ui, sans-serif; color: #f3e6d0; }
+  .terca.hoje { background: var(--botao); }
+  .terca.foi { background: #d9cbb4; color: var(--tinta-suave); }
+  .terca.foi .mes, .terca.foi .estado { color: var(--tinta-suave); }
+
+  .form-cartao { background: #fff; border-radius: 16px; padding: 24px 20px; box-shadow: 0 8px 30px rgba(80,50,10,.15); }
+  label.campo { display: block; margin-bottom: 16px; font: 600 17px/1.3 system-ui, sans-serif; color: var(--tinta); }
+  input[type=text], input[type=tel] { display: block; width: 100%; min-height: 54px; margin-top: 6px; padding: 12px 14px;
+    font: 18px/1.3 system-ui, sans-serif; color: var(--tinta); background: #fff; border: 2px solid #8a6a3c; border-radius: 10px; }
+  .aviso { background: #fff3dc; border-left: 5px solid #b35f00; padding: 12px 14px; border-radius: 6px; margin: 4px 0 14px;
+    font: 18px/1.5 system-ui, sans-serif; color: var(--tinta); }
+  .consentimento { display: flex; gap: 12px; align-items: flex-start; margin: 14px 0; font: 18px/1.5 system-ui, sans-serif; color: var(--tinta); }
+  .consentimento input { width: 28px; height: 28px; flex: none; margin-top: 2px; accent-color: var(--botao); }
+  .erro { color: #9b1c1c; font: 600 16px/1.4 system-ui, sans-serif; margin: 10px 0 0; min-height: 1.4em; }
+  #confirmacao[hidden] { display: none; }
+
+  footer { background: var(--noite); color: #cdbfa9; padding: 32px 0 40px; font: 17px/1.6 system-ui, sans-serif; }
+  footer p { margin-bottom: 12px; }
+
+  @media (min-width: 760px) {
+    .topo .grade { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; max-width: 1000px; }
+    .fogueira { margin-top: 0; }
+    .duas { grid-template-columns: 1fr 1fr; }
+    .tercas { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<!-- RASCUNHO: apagar este bloco quando todas as pendências estiverem resolvidas -->
+<details class="rascunho">
+  <summary>Rascunho. Não publicar antes de resolver as pendências (toque para ver).</summary>
+  <ul>
+    <li>Os preços "de" vêm da loja em 09/10/2026 (pesquisa do briefing). Conferir com a marca se eram os preços praticados em outubro; esta página critica desconto falso, então o desconto dela precisa ser impecável.</li>
+    <li>Nada de citar lojas ou concorrentes: a crítica é à prática, não a alguém.</li>
+    <li>Quais produtos entram e o que abre em cada terça.</li>
+    <li>CRN10 da Giovanna conferido no conselho.</li>
+    <li>Advogado: uso da imagem da Giovanna com suplemento da marca (art. 74 da Resolução CFN 856/2026), texto do consentimento, controlador dos dados e política de privacidade.</li>
+    <li>Ligar o formulário ao sistema de captura (hoje está em modo de teste).</li>
+    <li>Loja: tirar o "Esgotado" dos produtos com botão de compra e mostrar o preço final com juros.</li>
+  </ul>
+</details>
+
+<header class="topo">
+  <div class="miolo grade">
+    <div>
+      <span class="selo">Black November</span>
+      <h1>Isso não é Black. <span class="fogo">É o preço de sempre com roupa preta.</span></h1>
+      <p class="sub">Desconto de Black costuma ser fogo de palha: acende, faz barulho e apaga. Em novembro, a Giovanna prefere brasa: 50% de desconto, toda terça, às 19h30, ao vivo.</p>
+      <a class="botao" href="#lista">Quero a brasa, não a palha</a>
+    </div>
+
+    <div>
+      <div class="fogueira" id="fogueira" role="img" aria-label="Três etiquetas de desconto falso pegam fogo e viram cinza: 10% OFF, 15% quando a loja está generosa, e tudo pela metade do dobro. No lugar delas fica uma brasa acesa com 50%.">
+        <div class="palhas">
+          <div class="palha">10% OFF</div>
+          <div class="palha"><span>15% OFF<small>(quando a loja tá generosa)</small></span></div>
+          <div class="palha">Tudo pela metade do dobro</div>
+        </div>
+        <p class="cinza" id="cinza"></p>
+        <div class="brasa-wrap" aria-hidden="true">
+          <span class="faisca-b"></span><span class="faisca-b"></span><span class="faisca-b"></span><span class="faisca-b"></span>
+          <div class="brasa"><span>50%<small>BRASA</small></span></div>
+        </div>
+        <p class="legenda-brasa">Fogo de palha apaga. Brasa fica acesa o mês inteiro.</p>
+      </div>
+      <button type="button" class="de-novo" id="deNovo">Acender de novo</button>
+    </div>
+  </div>
+</header>
+
+<section class="claro alt" aria-labelledby="t-diferenca">
+  <div class="miolo">
+    <h2 id="t-diferenca">Você já reparou?</h2>
+    <p>Em novembro, todo mundo grita “BLACK”. Aí você vai ver… dez por cento. Quinze, quando a loja tá generosa. Tem até a clássica: “tudo pela metade do dobro”.</p>
+    <div class="duas">
+      <div class="lado palha-l">
+        <h3>Fogo de palha</h3>
+        <ul>
+          <li>Um dia só, com muito barulho.</li>
+          <li>Preço sobe antes para “cair” na Black.</li>
+          <li>Você não vê de onde o desconto saiu.</li>
+        </ul>
+      </div>
+      <div class="lado brasa-l">
+        <h3>Brasa</h3>
+        <ul>
+          <li>Quatro terças de novembro, às 19h30.</li>
+          <li>50% sobre o preço de outubro, que fica à mostra aqui embaixo.</li>
+          <li>Ao vivo, com a Giovanna explicando cada produto.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="claro" aria-labelledby="t-estoque">
+  <div class="miolo">
+    <h2 id="t-estoque">A conta, às claras</h2>
+    <p>O “de” é o preço que estava na loja em outubro. O “por” é a metade dele. Sem roupa preta.</p>
+    <div class="prateleira">
+      <div class="produto"><span class="nome">Colágeno</span><span class="tipo">Suplemento alimentar · preço na loja em 09/10/2026 <span class="pendente">[CONFERIR]</span></span>
+        <span class="preco"><span class="de">de R$ 118,90</span><span class="por">por R$ 59,45</span><span class="conta">−50%</span></span></div>
+      <div class="produto"><span class="nome">Ômega 3</span><span class="tipo">Suplemento alimentar · preço na loja em 09/10/2026 <span class="pendente">[CONFERIR]</span></span>
+        <span class="preco"><span class="de">de R$ 119,90</span><span class="por">por R$ 59,95</span><span class="conta">−50%</span></span></div>
+      <div class="produto"><span class="nome">Femme Healthy</span><span class="tipo">Suplemento alimentar · preço na loja em 09/10/2026 <span class="pendente">[CONFERIR]</span></span>
+        <span class="preco"><span class="de">de R$ 98,90</span><span class="por">por R$ 49,45</span><span class="conta">−50%</span></span></div>
+    </div>
+    <p class="nota">Preço à vista. O preço final, com juros quando houver parcelamento, aparece antes do pagamento. Suplemento alimentar não é medicamento.</p>
+  </div>
+</section>
+
+<section class="claro alt" aria-labelledby="t-tercas">
+  <div class="miolo">
+    <h2 id="t-tercas">Toda terça, às 19h30</h2>
+    <div class="tercas">
+      <div class="terca" data-data="2026-11-03"><div class="dia">03</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+      <div class="terca" data-data="2026-11-10"><div class="dia">10</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+      <div class="terca" data-data="2026-11-17"><div class="dia">17</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+      <div class="terca" data-data="2026-11-24"><div class="dia">24</div><div class="mes">nov · terça</div><div class="estado">19h30, ao vivo</div></div>
+    </div>
+    <p class="nota">Quem está na lista recebe o link de cada live no WhatsApp. <span class="pendente">[A PREENCHER: o que abre em cada terça]</span></p>
+  </div>
+</section>
+
+<section class="claro" id="lista" aria-labelledby="t-lista">
+  <div class="miolo">
+    <h2 id="t-lista">Entre na lista</h2>
+    <div class="form-cartao">
+      <div id="areaForm">
+        <p>Receba o link das lives no WhatsApp. É de graça.</p>
+        <form id="form" method="post" action="#lista" novalidate>
+          <label class="campo">Nome
+            <input type="text" name="nome" autocomplete="given-name" required>
+          </label>
+          <label class="campo">WhatsApp (com DDD)
+            <input type="tel" name="whatsapp" autocomplete="tel-national" inputmode="tel" placeholder="(11) 90000-0000" required>
+          </label>
+          <div class="aviso">Live gratuita, com apresentação de suplementos alimentares da marca com desconto de Black.</div>
+          <label class="consentimento">
+            <input type="checkbox" name="consentimentoAula" required>
+            <span>Autorizo <span class="pendente">[A PREENCHER: razão social e CNPJ de quem controla os dados]</span> a usar meu nome e meu WhatsApp para me enviar o link e os lembretes das lives. Posso sair quando quiser respondendo SAIR. Política de privacidade: <span class="pendente">[A PREENCHER: link]</span>.</span>
+          </label>
+          <label class="consentimento">
+            <input type="checkbox" name="consentimentoOfertas">
+            <span>Quero também receber ofertas dos produtos da marca por mensagem. É opcional. <span class="pendente">[A PREENCHER: texto revisto por advogado]</span></span>
+          </label>
+          <button class="botao cheio" type="submit">Quero entrar na lista</button>
+          <p class="erro" id="erro" role="alert"></p>
+        </form>
+      </div>
+      <div id="confirmacao" hidden>
+        <h2>Pronto, você está na lista.</h2>
+        <p>O link chega no seu WhatsApp antes de cada live, às terças, 19h30.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="miolo">
+    <p>Giovanna Agostini, nutricionista, <span class="pendente">CRN10 [A PREENCHER]</span>.</p>
+    <p>Os produtos apresentados são suplementos alimentares. Suplemento alimentar não é medicamento e não substitui consulta. Decisões sobre tratamento são do médico.</p>
+    <p>Desconto de 50% sobre o preço praticado antes da Black, válido nas condições informadas em cada live. <span class="pendente">[A PREENCHER: regra e prazo da oferta]</span></p>
+    <p>Menopausa Cancelada · CNPJ 47.019.967/0001-89 · <span class="pendente">[A PREENCHER: razão social, endereço e política de privacidade]</span></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var html = document.documentElement;
+  var reduz = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  try {
+    var hoje = new Date();
+    var hojeStr = hoje.getFullYear() + '-' + String(hoje.getMonth() + 1).padStart(2, '0') + '-' + String(hoje.getDate()).padStart(2, '0');
+    document.querySelectorAll('.terca').forEach(function (el) {
+      var d = el.getAttribute('data-data'), estado = el.querySelector('.estado');
+      if (d === hojeStr) { el.classList.add('hoje'); estado.textContent = 'Hoje, 19h30'; }
+      else if (d < hojeStr) { el.classList.add('foi'); estado.textContent = 'Já aconteceu'; }
+    });
+  } catch (e) {}
+
+  setupForm();
+  if (reduz) return; // sem animação: brasa já acesa
+  html.classList.remove('sem-js');
+
+  var fog = document.getElementById('fogueira'), palhas = Array.prototype.slice.call(fog.querySelectorAll('.palha')), cinza = document.getElementById('cinza');
+  fog.classList.add('js-fogo');
+  var timers = [];
+  function acender() {
+    timers.forEach(clearTimeout); timers = [];
+    fog.classList.remove('brasa-on'); cinza.textContent = '';
+    palhas.forEach(function (p) { p.classList.remove('queima'); void p.offsetWidth; });
+    palhas.forEach(function (p, i) { timers.push(setTimeout(function () { p.classList.add('queima'); }, 300 + i * 700)); });
+    timers.push(setTimeout(function () { cinza.textContent = 'Acendeu, fez barulho… e apagou.'; }, 300 + 2 * 700 + 1400));
+    timers.push(setTimeout(function () { fog.classList.add('brasa-on'); }, 300 + 2 * 700 + 2200));
+  }
+  var foi = false;
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (es, obs) {
+      es.forEach(function (e) { if (e.isIntersecting && !foi) { foi = true; acender(); obs.disconnect(); } });
+    }, { threshold: 0.4 }).observe(fog);
+  } else { acender(); }
+  document.getElementById('deNovo').addEventListener('click', acender);
+
+  function setupForm() {
+    var form = document.getElementById('form'), erro = document.getElementById('erro');
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var nome = form.nome.value.trim(), zap = form.whatsapp.value.replace(/\D/g, '');
+      if (nome.length < 2) { erro.textContent = 'Escreva o seu nome.'; form.nome.focus(); return; }
+      if (zap.length < 10 || zap.length > 13) { erro.textContent = 'Escreva o WhatsApp com DDD, por exemplo (11) 90000-0000.'; form.whatsapp.focus(); return; }
+      if (!form.consentimentoAula.checked) { erro.textContent = 'Para receber o link, marque a primeira autorização.'; form.consentimentoAula.focus(); return; }
+      erro.textContent = '';
+      // ENVIO: preencher DESTINO com o endereço do sistema de captura quando o texto jurídico estiver aprovado.
+      // Enquanto estiver vazio, a página NÃO confirma a inscrição (nada foi enviado).
+      var DESTINO = '';
+      if (!DESTINO) { erro.textContent = 'Modo de teste: o envio ainda não está ligado a nenhum sistema. Nada foi enviado.'; return; }
+      fetch(DESTINO, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ nome: nome, whatsapp: zap, aula: true, ofertas: form.consentimentoOfertas.checked })
+      }).then(function (r) {
+        if (!r.ok) throw new Error('falhou');
+        document.getElementById('areaForm').hidden = true;
+        document.getElementById('confirmacao').hidden = false;
+      }).catch(function () { erro.textContent = 'Não consegui enviar agora. Tente de novo em instantes.'; });
+    });
+  }
+})();
+</script>
+</body>
+</html>
