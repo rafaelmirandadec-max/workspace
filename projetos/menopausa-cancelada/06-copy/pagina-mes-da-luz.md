@@ -4,7 +4,7 @@ Data: 03/11/2026. Peça: página de captura (nome e WhatsApp) para a live. Escri
 
 ## Cabeçalho
 
-**Perfil e nível de consciência.** Mulheres de 45 a 60 anos que chegam pelo anúncio do fósforo ou pela base da marca (SUPOSIÇÃO do briefing, Bloco 2). Nível 2, consciente do problema, que é o predominante do público frio (briefing, Bloco 10, SUPOSIÇÃO). A base da marca, que já está no nível 4, vê a mesma página. O parecer do revisor (aviso de nível) deixa para o Rafael decidir se separa as audiências. Esta página não separa.
+**Perfil e nível de consciência.** Mulheres de 45 a 60 anos que chegam pelo anúncio do fósforo ou pela base da marca (SUPOSIÇÃO do briefing, Bloco 2). Nível 2, consciente do problema, que é o predominante do público frio (briefing, Bloco 10, SUPOSIÇÃO). A base da marca, que já está no nível 4, vê a mesma página. **Decisão do Rafael em 03/11/2026: a página serve às duas audiências.** Risco registrado no parecer anterior (mistura de nível): o teste A/B deve medir frio e base em separado, por origem de tráfego (`[medir]`).
 
 **Etapa do funil.** Captura para a live. A live é aula educativa e termina com apresentação de produtos da marca com desconto de Black, e a página diz isso.
 
@@ -14,7 +14,7 @@ Data: 03/11/2026. Peça: página de captura (nome e WhatsApp) para a live. Escri
 
 **Suposições declaradas.**
 1. Nível 2 e dor "não ser levada a sério" como motor (briefing, PISTA).
-2. A live é gratuita. Não está no briefing. Se for paga, mudam o estágio 4, o estágio 5 e o texto do anúncio.
+2. A live é gratuita. **Confirmado pelo Rafael em 03/11/2026.** O HTML já diz "aula gratuita" nos estágios 4 e 5; o texto do anúncio ainda precisa da palavra.
 3. O cartão de 3 perguntas e o glossário de dez termos existem ou serão feitos pela Giovanna e revistos por médico. Vêm da ideia 2 do arquivo `big-ideas-black-november.md`. Sem eles, o bloco "O que a pessoa leva" sai.
 4. Ninguém usou "dicionário" ou "luz" em página de live do nicho. Não confirmei. O Rafael confere na Biblioteca de Anúncios da Meta.
 
