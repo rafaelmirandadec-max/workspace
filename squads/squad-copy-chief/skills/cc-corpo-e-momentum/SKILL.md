@@ -28,7 +28,7 @@ Leia, nesta ordem:
 7. Para voz do porta-voz e tratamento do inimigo: `squads/squad-copy-chief/skills/cc-vinculo-e-voz/SKILL.md`.
 
 Se faltar:
-- **Sem esqueleto A-B-C:** monte você mesmo (passo 1 do método), marque `SUPOSIÇÃO: esqueleto montado pelo redator, sem plataforma aprovada` e entregue o esqueleto no cabeçalho para o Copy Chief validar.
+- **Sem esqueleto A-B-C:** monte você mesmo (passo 1 do método; detalhes em `squads/squad-copy-chief/skills/cc-argumento-abc/SKILL.md`), marque `SUPOSIÇÃO: esqueleto montado pelo redator, sem plataforma aprovada` e entregue o esqueleto no cabeçalho para o Copy Chief validar.
 - **Sem prova para um ponto:** escreva o ponto e deixe `[PROVA: o que precisa existir]`. Nunca invente estudo, número, depoimento ou caso.
 - **Sem abertura, bullets ou fechamento:** escreva uma versão provisória marcada `PROVISÓRIO — substituir pelo 05/06/07` e siga.
 - **Sem emoção dominante definida:** escolha pela pesquisa, diga em que se apoiou e marque SUPOSIÇÃO.
