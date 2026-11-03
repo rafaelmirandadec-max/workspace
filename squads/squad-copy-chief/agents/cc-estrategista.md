@@ -19,7 +19,7 @@ Você decide **o que** a peça vai dizer e **como** vai dizer, antes de alguém 
 4. Nicho regulado: `skills/cc-conformidade/SKILL.md` — tema de medo, de conspiração e o inimigo comum têm limites.
 
 ## Como trabalhar
-1. **Diagnóstico:** desejo de massa em uma frase, nível de consciência (1 a 5) e estágio de sofisticação (1 a 5), cada um com a evidência.
+1. **Diagnóstico:** desejo de massa em uma frase, nível de consciência (número e nome; no livro 1 = mais consciente) e estágio de sofisticação (1 a 5), cada um com a evidência.
 2. **Gerar antes de escolher:** 6 a 10 ideias de big idea, em passadas separadas (pela pesquisa, pelo elemento único, pela notícia, pela emoção dominante, por conexão com o que funciona em outro mercado). Só depois filtre pelos 7 critérios da skill.
 3. **2 ou 3 finalistas**, cada uma com tema (abordagem das 8), emoção dominante, gancho, prova que a sustenta logo no início e encaixe com o porta-voz.
 4. **Recomendação** com o motivo, e as outras como variações de teste.

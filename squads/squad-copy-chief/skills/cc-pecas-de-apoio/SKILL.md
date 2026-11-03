@@ -162,7 +162,7 @@ anúncio + benefício + prova → N × (benefício maior + conteúdo útil + pro
 Cartões dos e-mails:
 
 - **E1, anúncio.** Há algo novo chegando. O que o torna único, por que vai trazer valor, uma prova adequada. Termina provocando o próximo e-mail ("amanhã eu mostro como a Joana...").
-- **E2 a En, valor.** Cada um com um benefício maior que o anterior, um conteúdo útil que ele pode aplicar hoje e uma prova. O conteúdo útil é também prova: quem ensina algo que funciona prova que sabe. Cada um termina provocando o seguinte. Referência do método: de dois a quatro e-mails de valor.
+- **E2 a En, valor.** Cada um com um benefício maior que o anterior, um conteúdo útil que ele pode aplicar hoje e uma prova. O conteúdo útil é também prova: quem ensina algo que funciona prova que sabe. Cada um termina provocando o seguinte. Referência do squad, não do livro: de dois a quatro e-mails de valor.
 - **Oferta.** Tudo o que ele recebe, preço, brindes, data de abertura.
 - **Alívio de risco.** Garantia, FAQ curto, a objeção principal respondida.
 - **Abertura do carrinho.** Link para a página, o que ele recebe, o prazo real.
@@ -177,7 +177,7 @@ Regras da sequência:
 
 ## Guia prático de e-mail
 
-- **Assunto.** É a headline do e-mail. Gere opções com a skill `squads/squad-copy-chief/skills/cc-headlines/SKILL.md` e entregue de 3 a 5 por e-mail, ranqueadas. Curto o bastante para não cortar no celular (referência: até uns 45 caracteres), sem palavra que pareça spam e sem "RE:" ou "FWD:" falsos.
+- **Assunto.** É a headline do e-mail. Gere opções com a skill `squads/squad-copy-chief/skills/cc-headlines/SKILL.md` e entregue de 3 a 5 por e-mail, ranqueadas. Curto o bastante para não cortar no celular (referência do squad, não do livro: até uns 45 caracteres), sem palavra que pareça spam e sem "RE:" ou "FWD:" falsos.
 - **Pré-header.** A linha que aparece depois do assunto. Complementa, não repete. Escreva sempre; se ficar vazio, o programa de e-mail mostra lixo ("Ver no navegador").
 - **Um objetivo por e-mail.** Um único clique desejado. Pode haver o mesmo link duas ou três vezes, mas não dois destinos diferentes.
 - **Abertura.** A primeira linha continua o assunto. Nada de "Olá, tudo bem?" seguido de contexto.
@@ -188,9 +188,9 @@ Regras da sequência:
 
 **E-mails de carrinho (carrinho aberto até o fechamento).** Entre a abertura e o fechamento, cada e-mail ataca um ângulo diferente: um depoimento novo, uma objeção, um brinde, a garantia, um "o que acontece depois que você entra". Abandono de carrinho: lembrete curto em até algumas horas, com a objeção mais comum respondida e o link direto para o pagamento.
 
-**Última chamada.** Curto. Prazo exato com data, hora e fuso ("hoje, 23h59, horário de Brasília"), o que ele perde (preço, brinde, turma), a garantia para tirar o risco, o link. Referência do método: no último dia, dois ou três envios curtos. Depois do prazo, o carrinho fecha de verdade. Reabrir "por pedido" depois de dizer que era a última chance destrói a credibilidade das próximas e pode ser publicidade enganosa.
+**Última chamada.** Curto. Prazo exato com data, hora e fuso ("hoje, 23h59, horário de Brasília"), o que ele perde (preço, brinde, turma), a garantia para tirar o risco, o link. Referência do squad, não do livro: no último dia, dois ou três envios curtos. Depois do prazo, o carrinho fecha de verdade. Reabrir "por pedido" depois de dizer que era a última chance destrói a credibilidade das próximas e pode ser publicidade enganosa.
 
-**Versão WhatsApp.** Uma mensagem por objetivo, curta (referência: até 4 linhas ou 1 áudio de até 1 minuto), escrita como de pessoa para pessoa, com um único link. Sem lista de benefícios, sem negrito em excesso, sem figurinha. Envie só para quem autorizou contato por esse canal e ofereça como sair da lista. Esqueleto: gancho (uma frase) → o que mudou ou o prazo → link → "qualquer dúvida, responde aqui".
+**Versão WhatsApp.** Uma mensagem por objetivo, curta (referência do squad, não do livro: até 4 linhas ou 1 áudio de até 1 minuto), escrita como de pessoa para pessoa, com um único link. Sem lista de benefícios, sem negrito em excesso, sem figurinha. Envie só para quem autorizou contato por esse canal e ofereça como sair da lista. Esqueleto: gancho (uma frase) → o que mudou ou o prazo → link → "qualquer dúvida, responde aqui".
 
 ## Site em páginas encadeadas
 

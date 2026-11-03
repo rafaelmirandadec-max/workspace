@@ -80,6 +80,10 @@ O livro manda gerar muito para escolher pouco (headlines, bullets, temas). Gere 
 - Os números do livro (taxas de resposta, aumentos de 30%, "7 vezes mais bullets") são **referências do método**, não dados. Ao usá-los, escreva "referência do método".
 - Os exemplos do livro são de mercado americano dos anos 1990–2000. Use a estrutura, não a promessa.
 
+### Nível de consciência: escreva sempre o nome
+
+O livro (seguindo Schwartz) numera a consciência ao contrário do uso comum no Brasil: **1 = mais consciente** (conhece o produto, só falta a oferta) e **5 = totalmente inconsciente**. Para não haver confusão, escreva sempre o nome junto do número: "nível 3 — consciente do problema". Os estágios de sofisticação vão de 1 (primeiro a prometer) a 5 (mercado cansado de promessas). Detalhes em `skills/cc-consciencia-e-sofisticacao/SKILL.md`.
+
 ## 6. Nicho regulado
 
 Saúde (médico, clínica, odontologia, nutrição, psicologia, estética, suplemento), finanças, investimentos e jurídico: leia `squads/squad-copy-chief/skills/cc-conformidade/SKILL.md` **antes** de escrever. Várias táticas do livro (promessa de cura, antes e depois, depoimento de resultado, ataque a médicos ou à "indústria", ganho garantido, escassez falsa) são proibidas ou arriscadas no Brasil. A conformidade prevalece sobre qualquer regra de copy.
