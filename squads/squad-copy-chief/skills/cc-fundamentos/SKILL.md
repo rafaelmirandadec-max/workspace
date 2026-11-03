@@ -272,12 +272,12 @@ A ordem de escrita não é rígida. Há quem comece pelos bullets, quem comece p
 ## Acabamento (antes de entregar)
 
 1. **Limpe o documento de trabalho.** Tire a pesquisa excedente e as notas internas; guarde em `01-pesquisa/`. O `09-peca-final.md` contém só a peça, sem nada estranho.
-2. **Pule a etapa de achar que acabou.** Rascunho não é entrega. Faça pelo menos uma passada inteira de polimento.
+2. **Polimento.** Rascunho não é entrega. Faça pelo menos uma passada inteira de polimento, frase por frase.
 3. **Teste de leitura.** Peça que outra pessoa leia, de preferência alguém do público: flui, faz sentido, prende? No squad, o `cc-revisor-chefe` faz esse papel; o teste com pessoa real do público fica como recomendação ao Rafael.
 4. **Só então entregue ou teste.**
 5. **Não aceite "bom o suficiente".** Lead e bullets medianos derrubam peça boa. O padrão alto, mantido sempre, é o que vira hábito.
 
-Consulta por problema (onde procurar ajuda no squad): headline travado → plataforma e skills de headline e consciência; corpo arrastado → skills de corpo e de ritmo; garantia fraca → skill de garantia.
+Consulta por problema (o livro remete aos capítulos; no squad, às fases): headline travado → voltar à Big Idea, ao nível de consciência e à emoção dominante (`04-plataforma.md`, `cc-abertura`); corpo arrastado → argumento, ritmo e transições (`cc-redator-corpo`); garantia fraca → termos da garantia (`cc-oferta`) e texto da garantia (`cc-fechamento`).
 
 ## Regras e proibições
 
