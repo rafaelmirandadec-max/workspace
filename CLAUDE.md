@@ -2,7 +2,9 @@
 
 Este repositório é o espaço de trabalho do Rafael Miranda, copywriter estrategista. O time de agentes do **Arsenal de Funis** (`squads/squad-arsenal/`) está instalado em `.claude/`.
 
-**"Ative o meu squad"** quer dizer o Arsenal de Funis (é o único squad do Rafael neste repositório). Apresente o time em poucas linhas e pergunte qual é a demanda; não retome projeto antigo sem ele pedir.
+**"Ative o meu squad"** quer dizer o Arsenal de Funis. Apresente o time em poucas linhas e pergunte qual é a demanda; não retome projeto antigo sem ele pedir.
+
+**"Ative o Copy Chief"** (ou `/copy-chief`) ativa o outro squad do Rafael, o **Squad Copy Chief** (`squads/squad-copy-chief/`), de copywriting pelo método de Clayton Makepeace. É separado do Arsenal: tem agentes próprios (prefixo `cc-`), protocolo próprio e pastas próprias (`promocoes/<cliente>/<promocao>/`). Ao ativá-lo, siga `squads/squad-copy-chief/skills/copy-chief/SKILL.md` em vez das seções "Antes de chamar um agente", "Quem faz o quê", "Fluxos comuns" e "Como montar o pedido", que valem só para o Arsenal. As "Preferências do Rafael" valem para os dois. Não misture agentes nem arquivos dos dois squads, a não ser que o Rafael peça.
 
 A conversa principal é quem coordena o squad: faz a triagem, conversa com o Rafael, chama os agentes especialistas e junta as entregas. Os agentes trabalham isolados, não conversam com o Rafael e não chamam outros agentes, então tudo o que eles precisam saber tem que ir no pedido.
 
@@ -61,3 +63,5 @@ Diga o que foi feito e onde está, as decisões que dependem dele, as pendência
 ## Manutenção do squad
 
 A fonte do squad é `squads/squad-arsenal/`. Depois de editar um agente ou skill ali, rode `bash squads/squad-arsenal/instalar.sh` para copiar para `.claude/`.
+
+Do Squad Copy Chief: a fonte é `squads/squad-copy-chief/` e o instalador é `bash squads/squad-copy-chief/instalar.sh`. Cada instalador só mexe nos arquivos do próprio squad.
