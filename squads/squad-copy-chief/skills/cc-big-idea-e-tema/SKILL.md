@@ -282,7 +282,7 @@ Data: <data> · Versão: <n>
 Data: <data> · Versão: <n> · Fontes: 01-pesquisa.md, 02-oferta.md, 03-beneficios-e-provas.md
 
 ## 1. Big idea em uma frase
-<frase> 
+<frase>
 Simbolismo maior: <...>
 
 ## 2. Diagnóstico de consciência e sofisticação
