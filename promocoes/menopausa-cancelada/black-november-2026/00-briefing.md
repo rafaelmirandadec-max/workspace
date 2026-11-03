@@ -1,6 +1,6 @@
 # Briefing — Menopausa Cancelada · Página da Black November 2026
 
-Criado em 03/11/2026 pelo Copy Chief. Versão 2 (03/11/2026): escopo dos produtos e estoque confirmados pelo Rafael.
+Criado em 03/11/2026 pelo Copy Chief. Versão 3 (03/11/2026): escopo, estoque, prazo, garantia e provas definidos pelo Rafael.
 
 ## Pedido do Rafael (palavras dele)
 
@@ -43,10 +43,14 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 2 (03/11/2026): escopo dos produto
 - Escassez e prazo: só o que for real.
 - Dado pessoal de clientes não entra no repositório.
 
-## Pendências (por ordem de impacto)
+## Decisões do Rafael sobre as pendências (03/11/2026)
 
-1. Lista dos suplementos (exceto colágeno) com composição, preços e situação na Anvisa.
-2. Prazo e regras da Black (data final, frete, parcelamento, kits).
-3. Formação e registro da Giovanna.
-4. Depoimentos autorizados e links de mídia.
-5. Garantia oferecida.
+- **Preço:** "só 50% basta". A página comunica 50% de desconto em todos os produtos (exceto colágeno), sem tabela de preço por produto. Risco que fica: se a página ou o checkout mostrar "de/por", o preço "de" precisa ser o praticado antes da Black (CDC/Procon). A página não cria preço "de" por conta própria.
+- **Prazo:** a oferta vale até o fim de novembro. SUPOSIÇÃO de trabalho: até 30/11/2026, 23h59. A urgência é dupla e real: prazo + estoque acabando.
+- **Porta-voz e provas:** "esquece isso agora". A página sai sem depoimentos, sem menção à mídia e sem credenciais da Giovanna. As provas disponíveis são: 1,4 milhão de seguidoras (FATO), a queima de estoque real, a garantia, a composição dos produtos (pela pesquisa). Pode haver espaços marcados `[PROVA: …]` opcionais para inserir depois, sem que a página dependa deles.
+- **Garantia:** 7 dias (o mínimo legal para compra online, art. 49 do CDC). Não prometer "satisfação ou dinheiro de volta" além disso.
+
+## Pendências que sobram
+
+1. Lista dos produtos que entram (a pesquisa vai levantar; o Rafael confirma).
+2. Frete e parcelamento (não decididos; a página fica sem promessa de frete até confirmar).
