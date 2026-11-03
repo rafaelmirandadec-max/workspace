@@ -122,6 +122,18 @@
   footer { background: var(--noite); color: #cdbfa9; padding: 32px 0 40px; font: 17px/1.6 system-ui, sans-serif; }
   footer p { margin-bottom: 12px; }
 
+  /* Celular: a raspadinha vem logo abaixo da H1 */
+  @media (max-width: 759px) {
+    .topo .grade { display: flex; flex-direction: column; align-items: flex-start; }
+    .topo .grade > div { display: contents; }
+    .topo .selo { order: 1; }
+    .topo h1 { order: 2; margin-bottom: 0; }
+    .topo .cartao-r { order: 3; align-self: center; margin-top: 22px; }
+    .topo .depois { order: 4; align-self: stretch; }
+    .topo .legenda { order: 5; align-self: center; }
+    .topo .sub { order: 6; margin-top: 22px; }
+    .topo .botao { order: 7; }
+  }
   @media (min-width: 760px) {
     .topo .grade { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; max-width: 1000px; }
     .cartao-r { margin-top: 0; }
