@@ -4,10 +4,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aula ao vivo: o dicionário da consulta de menopausa</title>
-<meta name="description" content="Aula educativa com a nutricionista Giovanna Agostini, para mulheres de 45 a 60 anos. No final, produtos da marca com desconto de Black.">
-<meta property="og:title" content="Aula ao vivo: o dicionário da consulta de menopausa">
-<meta property="og:description" content="Aula educativa com a nutricionista Giovanna Agostini, para mulheres de 45 a 60 anos. No final, produtos da marca com desconto de Black.">
+<title>Aula ao vivo e gratuita: o dicionário da consulta</title>
+<meta name="description" content="Aula educativa e gratuita com a nutricionista Giovanna Agostini, para mulheres de 45 a 60 anos. No final, produtos da marca com desconto de Black.">
+<meta property="og:title" content="Aula ao vivo e gratuita: o dicionário da consulta">
+<meta property="og:description" content="Aula educativa e gratuita com a nutricionista Giovanna Agostini, para mulheres de 45 a 60 anos. No final, produtos da marca com desconto de Black.">
 <meta name="robots" content="noindex">
 <style>
   :root {
@@ -50,9 +50,12 @@
     display: inline-flex; align-items: center;
   }
   .fixo.oculto { display: none; }
-  .fixo:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible {
-    outline: 3px solid var(--brasa); outline-offset: 3px;
-  }
+  :focus-visible { outline: 3px solid #7a3d00; outline-offset: 3px; }
+  #e1 :focus-visible, #e2 :focus-visible, .fixo:focus-visible, #e3 .cartao.escuro :focus-visible { outline-color: #ffd596; }
+  #e3.virou :focus-visible { outline-color: #7a3d00; }
+  .par button:focus-visible, .mostrar-tudo:focus-visible { outline: 3px solid #ffd596; outline-offset: -4px; }
+  .mostrar-tudo:focus-visible { outline-offset: 2px; }
+  #e3.virou .par button:focus-visible, #e3.virou .mostrar-tudo:focus-visible { outline-color: #7a3d00; }
 
   section { padding: 56px 20px; }
   .miolo { max-width: 620px; margin: 0 auto; }
@@ -60,6 +63,14 @@
   h1 { font-size: clamp(28px, 7vw, 40px); }
   h2 { font-size: clamp(24px, 5.5vw, 30px); }
   p { margin: 0 0 16px; }
+
+  /* Sem JavaScript ou com "reduzir movimento": página já acesa, sem fósforo nem botões inertes */
+  html.sem-js body { background: var(--creme-claro); color: var(--tinta); }
+  html.sem-js #e1, html.sem-js #e2 { color: var(--tinta); }
+  html.sem-js #e1 h1, html.sem-js #e1 p, html.sem-js #e2 p { color: var(--tinta); }
+  html.sem-js .palco, html.sem-js .dica, html.sem-js .mostrar-tudo, html.sem-js .brilho { display: none; }
+  html.sem-js #e1, html.sem-js #e2 { min-height: 0; }
+  html.sem-js #e1 { padding-top: 40px; padding-bottom: 8px; }
 
   /* Estágio 1 e 2: texto direto sobre fundo escuro e estático */
   #e1 { min-height: 100svh; display: flex; align-items: center; text-align: center; color: var(--cinza); }
@@ -114,8 +125,9 @@
   .par .traducao { padding: 14px 16px; background: #1d1308; color: #f3e7d3; min-height: 64px; }
   .par .traducao small { display: block; font: 600 13px/1.2 system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase; color: #ffd596; margin-bottom: 4px; }
   .par .ponto { font-size: 28px; line-height: 1; color: var(--brasa); letter-spacing: .3em; }
-  .par .texto { display: none; }
-  .par.acesa .texto, html.sem-js .par .texto { display: block; animation: acende .5s ease-out; }
+  .par .traducao { position: relative; }
+  .par .texto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .par.acesa .texto, html.sem-js .par .texto { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; display: block; animation: acende .5s ease-out; }
   .par.acesa .ponto, html.sem-js .par .ponto { display: none; }
   @keyframes acende { from { opacity: 0; transform: scale(.96);} to { opacity: 1; transform: none; } }
   #e3.virou .cartao.escuro { background: var(--creme); color: var(--tinta); transition: background .8s, color .8s; }
@@ -130,7 +142,7 @@
   }
   .avanco { font: 600 17px/1.3 system-ui, sans-serif; margin-top: 8px; }
   .avanco[hidden] { display: none; }
-  .nota { font-size: 16px; }
+  .nota { font-size: 18px; }
 
   /* Estágios 4 e 5 */
   #e4, #e5 { color: var(--tinta); }
@@ -163,7 +175,7 @@
     display: block; width: 100%; min-height: 52px; margin-top: 6px; padding: 12px 14px;
     font: 18px/1.3 system-ui, sans-serif; color: var(--tinta); background: #fff; border: 2px solid #7a5a2c; border-radius: 10px;
   }
-  .consentimento { display: flex; gap: 12px; align-items: flex-start; margin: 18px 0; font: 16px/1.5 system-ui, sans-serif; }
+  .consentimento { display: flex; gap: 12px; align-items: flex-start; margin: 18px 0; font: 18px/1.5 system-ui, sans-serif; }
   .consentimento input { width: 28px; height: 28px; flex: none; margin-top: 2px; accent-color: #b35f00; }
   .botao {
     width: 100%; min-height: 56px; border: 0; border-radius: 12px; cursor: pointer;
@@ -175,7 +187,7 @@
   #confirmacao { text-align: center; }
   .check { width: 84px; height: 84px; margin: 4px auto 10px; }
 
-  footer { padding: 28px 20px 96px; background: var(--creme-claro); color: var(--tinta-suave); font: 15px/1.6 system-ui, sans-serif; }
+  footer { padding: 28px 20px 96px; background: var(--creme-claro); color: var(--tinta-suave); font: 18px/1.6 system-ui, sans-serif; }
   footer .miolo p { margin-bottom: 12px; }
 
   /* marcador de pendência: visível de propósito, para ninguém publicar sem preencher */
@@ -231,21 +243,21 @@
         <h2>Toque numa palavra. A tradução acende.</h2>
         <div class="tradutor" id="tradutor">
           <div class="par">
-            <button type="button" aria-expanded="false"><small>Na minha boca</small>“Calorão”</button>
+            <button type="button" aria-expanded="false"><small>Como se diz no dia a dia</small>“Calorão”</button>
             <div class="traducao"><small>No prontuário</small>
               <span class="ponto" aria-hidden="true">• • •</span>
               <span class="texto"><strong>Fogacho.</strong> Dizer em que hora do dia acontece ajuda o médico a anotar.</span>
             </div>
           </div>
           <div class="par">
-            <button type="button" aria-expanded="false"><small>Na minha boca</small>“Neblina mental”</button>
+            <button type="button" aria-expanded="false"><small>Como se diz no dia a dia</small>“Neblina mental”</button>
             <div class="traducao"><small>No prontuário</small>
               <span class="ponto" aria-hidden="true">• • •</span>
               <span class="texto"><strong>Queixa de memória e de concentração.</strong> Dar um exemplo do dia a dia ajuda mais do que a palavra sozinha.</span>
             </div>
           </div>
           <div class="par">
-            <button type="button" aria-expanded="false"><small>Na minha boca</small>“Cansaço que não passa”</button>
+            <button type="button" aria-expanded="false"><small>Como se diz no dia a dia</small>“Cansaço que não passa”</button>
             <div class="traducao"><small>No prontuário</small>
               <span class="ponto" aria-hidden="true">• • •</span>
               <span class="texto"><strong>Fadiga.</strong> Contar desde quando ajuda o médico a entender o que anotar.</span>
@@ -253,8 +265,8 @@
           </div>
         </div>
         <button type="button" class="mostrar-tudo" id="mostrarTudo">Mostrar as três traduções</button>
-        <p class="avanco" id="avanco" hidden>Segue para ver o resto da aula ↓</p>
-        <p class="nota">Exemplos de linguagem. Cada médico anota de um jeito. Eles não servem para saber o que alguém tem. Quem diz o que é cada coisa é o médico, na consulta.</p>
+        <p class="avanco" id="avanco" hidden>Role para ver o resto da aula ↓</p>
+        <p class="nota">Exemplos de linguagem. Cada médico anota de um jeito. Esses exemplos não servem para saber o que alguém tem. Quem diz o que é cada coisa é o médico, na consulta.</p>
         <p><span class="pendente">[A PREENCHER: conferência médica dos três pares antes de ir ao ar]</span></p>
       </div>
     </div>
@@ -273,8 +285,8 @@
         </figure>
         <p class="retrato-pendente"><span class="pendente">[A PREENCHER: advogado confirma o uso da imagem da Giovanna (art. 74 da Resolução CFN 856/2026) antes de publicar. Para tirar a foto: data-foto="nao" na tag html]</span></p>
         <h2>A aula</h2>
-        <p>Ao vivo, com Giovanna Agostini, nutricionista, CRN10 <span class="pendente">[A PREENCHER: após conferência no conselho]</span>.</p>
-        <p>Data: <span class="pendente">[A PREENCHER: dia e horário desta live]</span></p>
+        <p>Ao vivo, com Giovanna Agostini, nutricionista, <span class="pendente">[A PREENCHER: CRN10 conferido no conselho]</span></p>
+        <p><span class="pendente">[A PREENCHER: data e horário desta live]</span></p>
         <p>É uma aula educativa e gratuita. Ela explica palavras e sugere perguntas para levar à consulta.</p>
         <p>A aula não diagnostica, não interpreta exame e não troca o médico. A decisão sobre hormônio e tratamento é da consulta.</p>
       </div>
@@ -285,7 +297,7 @@
           <li>Um glossário com dez termos, revisado por médico.</li>
         </ul>
         <p><span class="pendente">[A PREENCHER: confirmar que o cartão e o glossário existem e a revisão médica]</span></p>
-        <div class="aviso">
+        <div class="aviso" data-trecho="oferta">
           <p><strong>E o que acontece no final, às claras.</strong></p>
           <p>A parte de aula termina primeiro. Depois dela, a Giovanna apresenta produtos da marca, que são suplementos alimentares, com desconto de Black: <span class="pendente">[A PREENCHER: percentual e preço de referência do “de”]</span>. Quem quiser, olha. Quem não quiser, já tem a aula.</p>
           <p style="margin:0">A aula não recomenda suplemento. Suplemento alimentar não é medicamento.</p>
@@ -301,17 +313,21 @@
         <div id="areaForm">
           <h2>A luz está acesa. Falta o seu nome.</h2>
           <p>A aula é gratuita. Receba o link no WhatsApp.</p>
-          <form id="form" novalidate>
+          <form id="form" method="post" action="#formulario" novalidate>
             <label class="campo">Nome
               <input type="text" name="nome" autocomplete="given-name" required>
             </label>
             <label class="campo">WhatsApp (com DDD)
               <input type="tel" name="whatsapp" autocomplete="tel-national" inputmode="tel" placeholder="(11) 90000-0000" required>
             </label>
-            <div class="aviso" style="margin-top:0">Aula educativa. No final, apresentação de suplementos alimentares da marca com desconto de Black.</div>
+            <div class="aviso" style="margin-top:0" data-trecho="oferta">Aula educativa. No final, apresentação de suplementos alimentares da marca com desconto de Black.</div>
             <label class="consentimento">
-              <input type="checkbox" name="consentimento" required>
-              <span>Autorizo <span class="pendente">[A PREENCHER: razão social e CNPJ de quem controla os dados]</span> a usar meu nome e meu WhatsApp para (1) me enviar o link e os lembretes desta aula e (2) me enviar mensagens comerciais com ofertas de produtos da marca, incluindo as da Black. Posso sair quando quiser respondendo SAIR. Não peço dado de saúde. Política de privacidade: <span class="pendente">[A PREENCHER: link]</span>. <span class="pendente">[A PREENCHER: texto revisto por advogado]</span></span>
+              <input type="checkbox" name="consentimentoAula" required>
+              <span>Autorizo <span class="pendente">[A PREENCHER: razão social e CNPJ de quem controla os dados]</span> a usar meu nome e meu WhatsApp para me enviar o link e os lembretes desta aula. Posso sair quando quiser respondendo SAIR. Política de privacidade: <span class="pendente">[A PREENCHER: link]</span>.</span>
+            </label>
+            <label class="consentimento" data-trecho="oferta">
+              <input type="checkbox" name="consentimentoOfertas">
+              <span>Quero também receber mensagens com ofertas de produtos da marca, incluindo as da Black. É opcional: sem marcar, eu assisto à aula do mesmo jeito e a apresentação de produtos no final continua aberta a quem está na aula. <span class="pendente">[A PREENCHER: texto revisto por advogado; opção A (caixa única) ou B (duas caixas)]</span></span>
             </label>
             <button class="botao" type="submit">Quero participar da aula</button>
             <p class="erro" id="erro" role="alert"></p>
@@ -334,9 +350,9 @@
 
 <footer>
   <div class="miolo">
-    <p><strong>Quem conduz:</strong> Giovanna Agostini, nutricionista, CRN10 <span class="pendente">[A PREENCHER: após conferência no conselho]</span>.</p>
+    <p><strong>Quem conduz:</strong> Giovanna Agostini, nutricionista, <span class="pendente">[A PREENCHER: CRN10 conferido no conselho]</span>.</p>
     <p>Conteúdo educativo. Não substitui consulta médica. A aula não diagnostica nem interpreta exame. A decisão sobre hormônio e tratamento é do médico.</p>
-    <p>A parte final da live apresenta suplementos alimentares da marca com desconto de Black. Suplemento alimentar não é medicamento e não trata nem previne doença.</p>
+    <p data-trecho="oferta">A parte final da live apresenta suplementos alimentares da marca com desconto de Black. Suplemento alimentar não é medicamento e não trata nem previne doença.</p>
     <p>Menopausa Cancelada é o nome da marca. <span class="pendente">[A PREENCHER: razão social, CNPJ e endereço do controlador]</span> <span class="pendente">[A PREENCHER: link da política de privacidade]</span></p>
   </div>
 </footer>
@@ -462,14 +478,32 @@
       var zap = form.whatsapp.value.replace(/\D/g, '');
       if (nome.length < 2) { erro.textContent = 'Escreva o seu nome.'; form.nome.focus(); return; }
       if (zap.length < 10 || zap.length > 13) { erro.textContent = 'Escreva o WhatsApp com DDD, por exemplo (11) 90000-0000.'; form.whatsapp.focus(); return; }
-      if (!form.consentimento.checked) { erro.textContent = 'Para receber o link, marque a autorização.'; form.consentimento.focus(); return; }
+      if (!form.consentimentoAula.checked) { erro.textContent = 'Para receber o link, marque a primeira autorização.'; form.consentimentoAula.focus(); return; }
       erro.textContent = '';
-      // ENVIO: ligar aqui ao sistema de captura (lista/WhatsApp) quando o texto jurídico estiver aprovado.
+      // ENVIO: preencher DESTINO com o endereço do sistema de captura (lista/WhatsApp) quando o texto jurídico estiver aprovado.
+      // Enquanto estiver vazio, a página NÃO diz que o link vai chegar (nada foi enviado).
       // Eventos de pixel: apenas o evento padrão de lead, sem nome de condição de saúde.
-      document.getElementById('areaForm').hidden = true;
-      var conf = document.getElementById('confirmacao');
-      conf.hidden = false;
-      conf.scrollIntoView({ behavior: reduz ? 'auto' : 'smooth', block: 'center' });
+      var DESTINO = '';
+      function concluir() {
+        document.getElementById('areaForm').hidden = true;
+        var conf = document.getElementById('confirmacao');
+        conf.hidden = false;
+        conf.scrollIntoView({ behavior: reduz ? 'auto' : 'smooth', block: 'center' });
+      }
+      if (!DESTINO) {
+        erro.textContent = 'Modo de teste: o envio ainda não está ligado a nenhum sistema. Nada foi enviado.';
+        return;
+      }
+      fetch(DESTINO, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ nome: nome, whatsapp: zap, aula: true, ofertas: form.consentimentoOfertas.checked })
+      }).then(function (r) {
+        if (!r.ok) throw new Error('falhou');
+        concluir();
+      }).catch(function () {
+        erro.textContent = 'Não consegui enviar agora. Tente de novo em instantes.';
+      });
     });
   }
 })();

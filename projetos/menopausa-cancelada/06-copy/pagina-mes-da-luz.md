@@ -309,3 +309,15 @@ Alternativa mais curta: *O que "calorão" vira no prontuário?*
 2. **Decisões principais:** tirei o tom de crítica ao mercado do anúncio ("Todo mundo grita Black"), porque a página termina com oferta de Black e o parecer proíbe criticar lojas. A página declara a oferta duas vezes (estágio 4b e perto do botão). Usei tocar e rolar, sem "segurar". Há link fixo para o formulário e todo o texto existe sem JavaScript, para a tela preta não ser a causa de saída. O dicionário é o estágio 3 e fica no meio. Nenhum evento de pixel com condição de saúde.
 3. **Pendências:** data, desconto e base do "de", CRN10, texto jurídico do consentimento, controlador dos dados, conferência médica dos três pares, existência do cartão e do glossário, se a live é gratuita. As pendências 3, 4 e 16 podem inviabilizar a apresentação de produtos com a Giovanna, e nesse caso a página fica só com a aula.
 4. **Próxima fase:** enviar ao `revisor` (nicho regulado, sempre). Depois, o Rafael decide a audiência e a gratuidade, e o desenvolvedor monta o HTML a partir das regras de montagem.
+
+---
+
+## Alterações no HTML depois do parecer do revisor (03/11/2026)
+
+- Consentimento em duas caixas (opção B): a primeira, obrigatória, cobre o link e os lembretes da aula; a segunda, opcional, cobre ofertas. A decisão final é do advogado.
+- O formulário não confirma nada enquanto não houver destino de envio. Em modo de teste ele diz que nada foi enviado, e não põe dado na URL.
+- Rótulo "Na minha boca" trocado por "Como se diz no dia a dia". "Eles não servem" trocado por "Esses exemplos não servem". "Segue para ver" trocado por "Role para ver".
+- Foco visível por teclado no dicionário, letras de 18 px ou mais, traduções legíveis por leitor de tela, versão sem JavaScript e com "reduzir movimento" já acesa e legível.
+- Título e descrição sem a palavra "menopausa", com "gratuita". CRN10 e data agora ficam dentro do marcador amarelo.
+- Trechos da oferta marcados com `data-trecho="oferta"`, para tirar de uma vez se o advogado vetar a apresentação.
+- Em aberto: abertura "Novembro vem cheio de barulho" (tom), og:image, pendências 3, 4 e 16, conferência médica dos pares.
