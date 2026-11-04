@@ -93,7 +93,7 @@ A regra combina com isso, e está escrita: quando o estoque de um produto acaba,
 - [LINK ÂNCORA → seção "O que tem no pote"] O que tem em cada pote, com a dose por porção, do jeito que está no rótulo ↓
 - [LINK ÂNCORA → bloco "E se eu não quiser?"] O que acontece se você receber e não quiser: 7 dias para devolver ↓
 
-[FOTO: os três potes de frente, lado a lado (Femme Healthy, Ômega 3, Shot da Libido), fundo neutro e limpo. Legenda pequena: "Imagem ilustrativa".]
+[FOTO: dois potes de frente, lado a lado (Femme Healthy e Ômega 3; o Shot fica fora do topo por causa da revisão da Meta), fundo neutro e limpo. Legenda pequena: "Imagem ilustrativa".]
 
 A gente sabe como chega uma promoção em novembro. Chega junto com dezenas de outras, todas com um número grande e pressa. E quase nenhuma diz as regras antes de pedir o seu dinheiro.
 
@@ -129,7 +129,7 @@ Antes da terceira pergunta, o resumo do que fica por escrito nesta página. Se v
 - Por que a promoção de um produto pode acabar antes de 30 de novembro e a de outro, não?
 - Cada produto tem o próprio estoque. Acabou o de um, a promoção dele acaba ali, mesmo que os outros continuem com desconto.
 - Depois da queima, o produto continua à venda, pelo preço normal. O que acaba é o desconto.
-- Sedex, com código de rastreio: você acompanha o pacote desde a postagem até a sua porta.
+- Entrega `[A PREENCHER: Sedex ou transportadora, confirmar com a operação]` com código de rastreio: você acompanha o pacote desde a postagem até a sua porta.
 - Quem vende tem nome, CNPJ, cidade e WhatsApp, e está tudo no rodapé desta página, para você conferir antes de pagar.
 - E se você mudar de ideia? São 7 dias depois de receber para desistir, sem explicar o motivo, com tudo o que pagou de volta, frete incluído.
 
@@ -229,7 +229,7 @@ Por isso a página fica no que dá para mostrar: o que tem no pote, a dose de ca
 
 Falta a quarta pergunta. É a que mais pesa na hora de pagar, então vamos ao que acontece depois do clique.
 
-O pedido sai daqui por Sedex, com código de rastreio. O código chega no seu `[A PREENCHER: e-mail / WhatsApp]` quando o pacote for postado `[A PREENCHER: "em até X dias úteis depois da confirmação do pagamento". Sem prazo confirmado pela operação, a frase termina em "postado".]`. O valor do frete aparece no checkout, antes de você pagar. `[A PREENCHER: regra de frete; se houver frete grátis acima de algum valor, dizer aqui]`
+O pedido vai `[A PREENCHER: por Sedex / transportadora]`, com código de rastreio. O código chega no seu `[A PREENCHER: e-mail / WhatsApp]` quando o pacote for postado `[A PREENCHER: "em até X dias úteis depois da confirmação do pagamento". Sem prazo confirmado pela operação, a frase termina em "postado".]`. O valor do frete aparece no checkout, antes de você pagar. `[A PREENCHER: regra de frete; se houver frete grátis acima de algum valor, dizer aqui]`
 
 `[Só se a operação fizer isso, com quem atende e em que horário:]` Não sabe mexer em rastreio? Mande mensagem no WhatsApp da loja com o número do pedido, e alguém confere por você.
 
@@ -263,7 +263,7 @@ No começo desta página, a gente sugeriu fazer quatro perguntas a qualquer prom
 
 **O que tem no pote?** O que está no rótulo, com a dose de cada ingrediente por porção. Você viu os três rótulos nesta página antes de chegar aqui.
 
-**E se eu não quiser?** O pedido vai por Sedex, com rastreio, e você tem 7 dias depois de receber para devolver e ter de volta tudo o que pagou.
+**E se eu não quiser?** O pedido vai com código de rastreio, e você tem 7 dias depois de receber para devolver e ter de volta tudo o que pagou.
 
 `[PROVA opcional: depoimento real e autorizado sobre entrega ou atendimento, nunca sobre efeito, se o Rafael liberar. Sem ele, este espaço não existe.]`
 
@@ -284,7 +284,7 @@ Até aqui a gente mostrou tudo o que tinha para mostrar. Agora é escolher. Na q
 **Femme Healthy**
 [FOTO: pote do Femme Healthy, de frente] `[PROVA: foto real do produto]`
 Pote com 30 porções de duas cápsulas: óleo de linhaça, óleo de borragem, óleo de prímula e vitamina E.
-**Por porção: 888 mg de ômega 3 de origem vegetal + 30 mg de vitamina E**
+**Por porção: 30 mg de vitamina E** · 888 mg de ômega 3 de origem vegetal (ALA)
 Uma cápsula antes do almoço, outra antes do jantar.
 [SELETOR: quantidade]
 [BOTÃO: **Comprar o Femme Healthy**]
@@ -314,7 +314,7 @@ Pode levar mais de uma unidade de cada produto no mesmo pedido, e cada unidade e
 - Recebeu, abriu e mudou de ideia? Você tem 7 dias, contados do dia em que o pacote chegou, para desistir.
 - Não precisa explicar o motivo. Desistiu dentro dos 7 dias, recebe de volta tudo o que pagou, inclusive o frete.
 - Para desistir, basta uma mensagem no WhatsApp (48) 98435-5621 ou no sac@menofarma.com.br. `[A PREENCHER: como o produto volta (código de postagem reversa ou coleta; quem paga o envio)]`
-- Tudo por Sedex, com código de rastreio.
+- Tudo com código de rastreio.
 
 *Em letra menor:* Direito de arrependimento do Código de Defesa do Consumidor. Não é promessa de resultado.
 
@@ -409,7 +409,7 @@ A terceira você confere antes de pagar: o que tem no pote?
 (O resto do parágrafo segue igual: "Se o que leu faz sentido para você…")
 
 **P.S. alternativo para teste (serve às duas versões; melhor a partir de 25/11):**
-P.S. Se o estoque durar, o prazo é um só: 30 de novembro, às 23h59, horário de Brasília. Não vai ter "só mais um dia" nem uma segunda rodada com este desconto. No dia seguinte, os produtos voltam ao preço normal.
+P.S. Se o estoque durar, o prazo é um só: 30 de novembro, às 23h59, horário de Brasília. Não vai ter "só mais um dia". No dia seguinte, os produtos voltam ao preço normal.
 
 ---
 
