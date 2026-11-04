@@ -55,10 +55,11 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 4 (04/11/2026): desconto por produ
 - **Desconto:** "é mais de 50%, então depende do produto pode ser 50% ou mais". A página comunica **"50% ou mais"** / "a partir de 50%", com o percentual de cada produto no cartão dele. `[A PREENCHER]` percentual e preço final de cada produto. Risco que fica (CDC/Procon): o preço "de" precisa ser um preço realmente cobrado antes; a página não afirma percentual que o checkout não mostre.
 - **Validade dos lotes:** mais de 2 anos. A queima NÃO é por vencimento. Comprar para vários meses no preço da Black é benefício válido. A validade pode ser dita como prova ("validade acima de 2 anos").
 - **Kit Black sem colágeno:** não. Não criar kit novo. Os kits atuais da loja ficam como estão; a página não os destaca (têm colágeno). Oferta = produtos avulsos, com a opção de levar mais unidades.
+- **Quando o estoque acaba:** "se acabar o estoque acaba a promoção". A oferta termina no que vier primeiro: 30/11 ou o fim do estoque de cada produto. O produto continua à venda depois, pelo preço normal. Não dizer "nunca mais" nem "sai de linha".
 - **Shot da Libido:** não precisa de confirmação do responsável técnico; entra na página. O Copy Chief mantém a regra de conformidade: só nome, ficha e as alegações permitidas (zinco, B6), sem desenvolver libido. Risco de reprovação na Meta fica registrado.
 
 ## Pendências que sobram
 
 1. Percentual e preço final de cada produto na Black.
-1b. Motivo da queima e o que acontece quando o estoque acabar.
+1b. Motivo da queima (opcional; a urgência já se sustenta em prazo + estoque).
 2. Frete e parcelamento (não decididos; a página fica sem promessa de frete até confirmar).
