@@ -1,6 +1,6 @@
 # Briefing — Menopausa Cancelada · Página da Black November 2026
 
-Criado em 03/11/2026 pelo Copy Chief. Versão 3 (03/11/2026): escopo, estoque, prazo, garantia e provas definidos pelo Rafael.
+Criado em 03/11/2026 pelo Copy Chief. Versão 4 (04/11/2026): desconto por produto, validade, kits e Shot definidos pelo Rafael.
 
 ## Pedido do Rafael (palavras dele)
 
@@ -50,7 +50,15 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 3 (03/11/2026): escopo, estoque, p
 - **Porta-voz e provas:** "esquece isso agora". A página sai sem depoimentos, sem menção à mídia e sem credenciais da Giovanna. As provas disponíveis são: 1,4 milhão de seguidoras (FATO), a queima de estoque real, a garantia, a composição dos produtos (pela pesquisa). Pode haver espaços marcados `[PROVA: …]` opcionais para inserir depois, sem que a página dependa deles.
 - **Garantia:** 7 dias (o mínimo legal para compra online, art. 49 do CDC). Não prometer "satisfação ou dinheiro de volta" além disso.
 
+## Decisões do Rafael (04/11/2026), respondendo à pesquisa, à oferta e a benefícios e provas
+
+- **Desconto:** "é mais de 50%, então depende do produto pode ser 50% ou mais". A página comunica **"50% ou mais"** / "a partir de 50%", com o percentual de cada produto no cartão dele. `[A PREENCHER]` percentual e preço final de cada produto. Risco que fica (CDC/Procon): o preço "de" precisa ser um preço realmente cobrado antes; a página não afirma percentual que o checkout não mostre.
+- **Validade dos lotes:** mais de 2 anos. A queima NÃO é por vencimento. Comprar para vários meses no preço da Black é benefício válido. A validade pode ser dita como prova ("validade acima de 2 anos").
+- **Kit Black sem colágeno:** não. Não criar kit novo. Os kits atuais da loja ficam como estão; a página não os destaca (têm colágeno). Oferta = produtos avulsos, com a opção de levar mais unidades.
+- **Shot da Libido:** não precisa de confirmação do responsável técnico; entra na página. O Copy Chief mantém a regra de conformidade: só nome, ficha e as alegações permitidas (zinco, B6), sem desenvolver libido. Risco de reprovação na Meta fica registrado.
+
 ## Pendências que sobram
 
-1. Lista dos produtos que entram (a pesquisa vai levantar; o Rafael confirma).
+1. Percentual e preço final de cada produto na Black.
+1b. Motivo da queima e o que acontece quando o estoque acabar.
 2. Frete e parcelamento (não decididos; a página fica sem promessa de frete até confirmar).
