@@ -53,7 +53,7 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 4 (04/11/2026): desconto por produ
 ## Decisões do Rafael (04/11/2026), respondendo à pesquisa, à oferta e a benefícios e provas
 
 - **Desconto (corrigido pelo Rafael em 04/11):** NÃO há preço riscado nem preço "de" em lugar nenhum (página, cards ou carrinho). A comunicação é só a porcentagem: **"50% ou mais de desconto em todos os produtos"**, sem preço em reais. Nenhuma peça pode mandar a leitora "conferir o preço anterior no carrinho".
-- **Validade dos lotes:** mais de 2 anos. A queima NÃO é por vencimento. Comprar para vários meses no preço da Black é benefício válido. A validade pode ser dita como prova ("validade acima de 2 anos").
+- **Validade (corrigido pelo Rafael em 04/11): "esqueça a informação de validade".** A página NÃO fala de validade em lugar nenhum: nem "mais de 2 anos", nem data, nem "não está vencendo", nem a pergunta "está vencendo?". "Leve para vários meses" também sai.
 - **Kit Black sem colágeno:** não. Não criar kit novo. Os kits atuais da loja ficam como estão; a página não os destaca (têm colágeno). Oferta = produtos avulsos, com a opção de levar mais unidades.
 - **Quando o estoque acaba:** "se acabar o estoque acaba a promoção". A oferta termina no que vier primeiro: 30/11 ou o fim do estoque de cada produto. O produto continua à venda depois, pelo preço normal. Não dizer "nunca mais" nem "sai de linha".
 - **Shot da Libido:** não precisa de confirmação do responsável técnico; entra na página. O Copy Chief mantém a regra de conformidade: só nome, ficha e as alegações permitidas (zinco, B6), sem desenvolver libido. Risco de reprovação na Meta fica registrado.
