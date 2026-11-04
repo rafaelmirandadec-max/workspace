@@ -52,7 +52,7 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 4 (04/11/2026): desconto por produ
 
 ## Decisões do Rafael (04/11/2026), respondendo à pesquisa, à oferta e a benefícios e provas
 
-- **Desconto:** "é mais de 50%, então depende do produto pode ser 50% ou mais". A página comunica só a chamada **"50% ou mais de desconto em todos os produtos"**, SEM percentual nem preço final por produto (decisão do Rafael, 04/11). O checkout mostra o preço de cada um. Risco que fica (CDC/Procon): o preço "de" precisa ser um preço realmente cobrado antes; a página não afirma percentual que o checkout não mostre.
+- **Desconto (corrigido pelo Rafael em 04/11):** NÃO há preço riscado nem preço "de" em lugar nenhum (página, cards ou carrinho). A comunicação é só a porcentagem: **"50% ou mais de desconto em todos os produtos"**, sem preço em reais. Nenhuma peça pode mandar a leitora "conferir o preço anterior no carrinho".
 - **Validade dos lotes:** mais de 2 anos. A queima NÃO é por vencimento. Comprar para vários meses no preço da Black é benefício válido. A validade pode ser dita como prova ("validade acima de 2 anos").
 - **Kit Black sem colágeno:** não. Não criar kit novo. Os kits atuais da loja ficam como estão; a página não os destaca (têm colágeno). Oferta = produtos avulsos, com a opção de levar mais unidades.
 - **Quando o estoque acaba:** "se acabar o estoque acaba a promoção". A oferta termina no que vier primeiro: 30/11 ou o fim do estoque de cada produto. O produto continua à venda depois, pelo preço normal. Não dizer "nunca mais" nem "sai de linha".
@@ -60,6 +60,6 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 4 (04/11/2026): desconto por produ
 
 ## Pendências que sobram
 
-1. Conferir antes de publicar: todo produto da página está com pelo menos 50% no checkout, sobre um preço anterior realmente cobrado.
+1. Conferir antes de publicar: o desconto de cada produto é de fato 50% ou mais em relação ao preço que a loja cobrava (o CDC exige que o percentual anunciado seja verdadeiro, mesmo sem mostrar o preço anterior).
 1b. Motivo da queima (opcional; a urgência já se sustenta em prazo + estoque).
 2. Frete e parcelamento (não decididos; a página fica sem promessa de frete até confirmar).
