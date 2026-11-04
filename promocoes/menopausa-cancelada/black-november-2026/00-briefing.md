@@ -57,6 +57,7 @@ Criado em 03/11/2026 pelo Copy Chief. Versão 4 (04/11/2026): desconto por produ
 - **Kit Black sem colágeno:** não. Não criar kit novo. Os kits atuais da loja ficam como estão; a página não os destaca (têm colágeno). Oferta = produtos avulsos, com a opção de levar mais unidades.
 - **Quando o estoque acaba:** "se acabar o estoque acaba a promoção". A oferta termina no que vier primeiro: 30/11 ou o fim do estoque de cada produto. O produto continua à venda depois, pelo preço normal. Não dizer "nunca mais" nem "sai de linha".
 - **Prorrogação (Rafael, 04/11):** "não vai ter prorrogação, pode seguir". A página pode afirmar que não há prorrogação depois de 30/11.
+- **Levar mais unidades (Rafael, 04/11):** "deixa neutro". A página permite levar mais unidades, sem argumento para empurrar.
 - **Shot da Libido:** não precisa de confirmação do responsável técnico; entra na página. O Copy Chief mantém a regra de conformidade: só nome, ficha e as alegações permitidas (zinco, B6), sem desenvolver libido. Risco de reprovação na Meta fica registrado.
 
 ## Pendências que sobram
