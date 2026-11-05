@@ -197,3 +197,31 @@ O que a falta delas muda: sem 1 e 2 a peça não vai ao ar; sem 3 muda a legenda
 ### Fontes
 - [Resolução CFM 2.336/2023, texto oficial (PDF)](https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf)
 - Margens de segurança de Reels (guias de terceiros, não da Meta; só indicativo): [Adnova](https://adnova.ai/blogs/meta-ad-safe-zones-guide), [Billo](https://billo.app/?p=50654), [Coinis](https://coinis.com/how-to/design-facebook-reels-ad)
+
+---
+
+## Releitura da v1.1 — 05/11/2026
+
+Leitura rápida só das linhas alteradas, não uma revisão completa. Não reabri o texto oficial do CFM (valem os arts. lidos acima) nem a Meta.
+
+**Veredito: liberada com avisos.** Os avisos A1 a A5 e A7 a A10 foram atendidos no essencial. Continuam as condições de publicação (rodapé preenchido e parecer do advogado) e as decisões do Rafael (ordem de faltar, mote, custo contra a consulta por vídeo).
+
+**Conferido e passou**
+- **Contagem e tabela:** 8, 29, 22, 17, 6 e 31 palavras, total 113; 18 cartelas; a soma da tabela dá 70 s; os cortes A (56 s) e B (44 s) também conferem. Rodapé é o único marcador. Nenhum "ele", "dele" ou "esse assunto" na tela nem na legenda.
+- **Bloco 2:** quatro gestos filmáveis, sem as duas abstrações. Ressalva pequena: "pelo da parede" exige que o relógio de parede seja reconhecível, e a imagem o descreve como "desfocado ao fundo". Deixar legível.
+- **Bloco 3:** sem o "sempre"; fica como observação de costume, suposição 2 registrada. "Quem trabalhou assim" se entende. A terceira linha ("Uma manhã de falta não desfaz anos de presença") segue como garantia de consequência, agora só no filme; o plano B do arquivo ("é só uma manhã") continua à mão se o advogado objetar.
+- **Bloco 4:** sem ereção; "Marque o check-up com o seu médico" resolve o "com quem" que apontei em A4. Cortiça com laço ao lado: sem problema.
+- **Área segura e contraste:** x de 65 a 1015 e y de 270 a 1250 em 1080×1920, faixa escura de 80%, corpo de 56 px e rodapé de 40 px: razoável. Segue proposta de guias de terceiros, a medir na Meta.
+
+**Respostas**
+1. **"Mudança na ereção é assunto para um médico." passa no art. 11?** Passa. Medo (§2º, "e"): sem alarme, sem consequência, sem causa e sem "investigar", que sugeria algo escondido. Promessa (XII): nenhuma. Art. 11, I: a frase fala de "um médico" e não diz que a clínica trata; o risco do 11, I continua na linha seguinte ("Na AndroClinic, a consulta sobre a ereção é por vídeo"), que não mudou e vai ao advogado. **Melhor ou pior?** Melhor em um ponto: deixa de ser a frase da v1.2 palavra por palavra. Levemente pior em outro: perdeu o "Quando" e o verbo de convite, e ficou categórica ("mudança… é assunto"), o que, para homem de 45 a 65 anos, pode ler-se como "toda mudança é caso médico". Não bloqueia. Se o advogado quiser mais suave: "pode ser assunto para um médico".
+2. **A ponte separa o check-up da consulta?** Sim, e melhor que a anterior. "O check-up fica com o seu médico" diz de quem é; a ereção vem em "um médico" (qualquer um), fora do check-up; só depois vem a clínica, e dela se afirma apenas "é por vídeo". Sumiu o "se marca"/"hora", que contradizia o descarte da virada 2. "Marque" (check-up, com o seu médico) e "Agende" (consulta) ficam separados por mote, respiro 3 e ponte.
+3. **"Falte uma manhã." na legenda continua problema?** Reduzido a aviso baixo. Saíram a licença ("pode faltar") e o título que era só a ordem; o título agora é "Agende sua consulta online". Restam dois pontos:
+   - Na legenda, "Falte uma manhã. Vá ao médico." fecha o parágrafo 1 e "Mudança na ereção é assunto para um médico." abre o parágrafo 2. Só há uma quebra de linha entre as duas, e o "Vá ao médico" ainda se lê como preparação da ereção. Correção sugerida: pôr o mote no começo do parágrafo 1 ou fechar o parágrafo 2 com ele, de modo que a ereção não fique na linha seguinte.
+   - O cartão do anúncio diz "Falte uma manhã" e, no título, "Agende sua consulta online", que dispensa faltar (A8). Segue decisão do Rafael.
+   Na legenda também há "com o seu médico" duas vezes na mesma frase; vale enxugar.
+4. **Ressalva à tabela de tempo?** Aceito, com duas notas. (a) O ritmo de 3,3 palavras por segundo continua hipótese minha, não medida. Pelas durações do arquivo, a cartela mais apertada é "Quem rega a horta no fim da tarde." (8 palavras em 3 s, cerca de 1,2 leitura); as outras ficam em 1,4 a 2 leituras. Dar 3,5 s a essa cartela custa meio segundo. (b) O rodapé de 5 s está certo para o modelo curto, mas com o nome real da clínica e do diretor técnico o texto passa de 15 palavras, o que dá cerca de 5 s de leitura sem folga. Medir depois de preenchido; 6 s é mais seguro. Os 70 s ficam dentro do alvo (45 a 75), no lado de cima.
+
+**Pendências que continuam:** rodapé preenchido; parecer do advogado (art. 11, I, ordem de faltar e lei trabalhista, encenação com mãos de ator); decisão do Rafael; cadastro do diretor técnico (especialidade/RQE); perfil do Instagram (art. 6º); margens de Reels na página da Meta; montagem cronometrada; briefing de mídia com os cortes A e B (que precisam de leitura do revisor); autorização de imagem das mãos de ator.
+
+**Aplicado (coordenação, v1.2):** os três ajustes da releitura entraram na v1.2: o mote abre o parágrafo 1 da legenda; a cartela da horta ganhou 3,5 s e o relógio de parede ficou legível; o rodapé passou a 6 s.

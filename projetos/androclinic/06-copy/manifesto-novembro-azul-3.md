@@ -1,10 +1,12 @@
 # AndroClinic — Manifesto Novembro Azul 3, "Falte uma manhã" (sem narração: texto na tela e música)
 
-**Versão do arquivo:** v1.1, 05/11/2026. Peça nova, independente de `manifesto-novembro-azul.md` (v1.2) e de `manifesto-novembro-azul-narrado.md` (v1.2). Liberada com avisos pelo `revisor` na v1.0 (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-3-2026-11-05.md`). A v1.1 aplica o parecer e precisa de nova leitura rápida do revisor. Vai ao advogado do cliente antes de ir ao ar.
+**Versão do arquivo:** v1.2, 05/11/2026. Peça nova, independente de `manifesto-novembro-azul.md` (v1.2) e de `manifesto-novembro-azul-narrado.md` (v1.2). Liberada com avisos pelo `revisor` (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-3-2026-11-05.md`, com releitura da v1.1). Vai ao advogado do cliente antes de ir ao ar.
 **Pareceres aplicados desde o primeiro rascunho:** `revisoes/manifesto-novembro-azul-2026-10-16.md`, `revisoes/manifesto-novembro-azul-narrado-2026-11-05.md` e, na v1.1, o da própria peça.
 **Canal:** orgânico (Instagram, Reels) e pago (Meta Ads). O Novembro Azul já começou, então a peça fala "em novembro", sem data.
 
 ## Nota de versão
+
+**v1.2, 05/11/2026 (coordenação).** Três ajustes da releitura do revisor: (1) na legenda, o mote "Falte uma manhã. Vá ao médico." passou a abrir o parágrafo 1, antes do check-up e da próstata; (2) a cartela da horta ganhou 3,5 s (era 3 s) e o relógio de parede do plano 2 ficou legível, não desfocado; (3) o rodapé passou a 6 s na tela (era 5 s), porque com os nomes reais o texto é maior. Total de tela: cerca de 72 s (estimativa não medida).
 
 **v1.1, 05/11/2026 (copywriter, a pedido da coordenação).** O que mudou, item do parecer por item:
 
@@ -12,7 +14,7 @@
 2. **A2 (duração).** A conta de fala (140 palavras por minuto) saiu. Entrou o tempo de tela por bloco, em segundos, definido por mim e somado: **cerca de 70 s**, estimativa não medida. Para caber, o bloco 2 passou de cinco cartelas a quatro e o texto total caiu de 126 para 113 palavras. A regra "ler duas vezes" saiu das notas de produção. O corte curto foi refeito pelo mesmo critério.
 3. **A3 (licença na legenda).** Saíram da legenda "Quem nunca falta ao trabalho pode faltar uma manhã" e qualquer frase de consequência. "Uma manhã de falta não desfaz anos de presença" fica só no filme, como pediu a coordenação (ver bloqueio 3). A ordem "Falte uma manhã." do filme não mudou: decisão do Rafael. O mote 2 fica na ficha como opção considerada, com a ressalva do revisor de que piora; não é oferecido como saída.
 4. **A4 (ereção longe da próstata).** A linha da ereção saiu do bloco 4 e foi para depois do respiro 3, dentro da ponte. O bloco 4 agora tem só o check-up e a próstata.
-5. **A5 (rodapé e tela).** Rodapé em quadro próprio, com pelo menos 5 s, fundo sólido escuro. Área segura de texto em 1080×1920 e contraste mínimo definidos nas notas de produção.
+5. **A5 (rodapé e tela).** Rodapé em quadro próprio, com pelo menos 5 s (6 s na v1.2), fundo sólido escuro. Área segura de texto em 1080×1920 e contraste mínimo definidos nas notas de produção.
 6. **A6/A10 (fato e abstração).** Saiu o "sempre" de "No ofício, faltar sempre foi defeito" (agora "foi visto como defeito"), e a frase seguinte mantém "assim". Saíram do bloco 2 as duas frases abstratas ("nunca se atrasa" e "entrega o serviço mesmo no dia ruim"); entrou o gesto de acertar o relógio de pulso pelo da parede.
 7. **Repetições (A7).** Foi reescrito: a frase da ereção, a ponte (que não repete mais "com o médico de cada um"), o pedido do bloco 4, o verbo da absolvição e as imagens do calendário e da ponte. Não pôde mudar: a fórmula da próstata, o CTA, os dois quadros finais e o laço no calendário. Detalhes na revisão própria.
 8. **A9 (rodapé).** A linha do rodapé ficou como estava. Registrado nas pendências que o diretor técnico pode precisar de especialidade/RQE no rodapé.
@@ -28,15 +30,15 @@
   |---|---|
   | 1 · Convite e virada (2 cartelas) | 6 s |
   | Respiro 1 | 2 s |
-  | 2 · Quem nunca falta (4 cartelas) | 14 s |
+  | 2 · Quem nunca falta (4 cartelas) | 14,5 s |
   | 3 · Absolvição (3 cartelas) | 10 s |
   | Respiro 2 | 2 s |
   | 4 · Pedido do mês (3 cartelas) | 9 s |
   | 5 · Mote (2 cartelas) | 5 s |
   | Respiro 3 | 2 s |
   | 6 · Ponte e convite (4 cartelas) | 15 s |
-  | Rodapé (quadro próprio) | 5 s |
-  | **Total** | **70 s** |
+  | Rodapé (quadro próprio) | 6 s |
+  | **Total** | **cerca de 72 s** |
 
   Nos blocos de texto são 59 s para 113 palavras, ou cerca de 1,9 palavra por segundo. Se a leitura silenciosa for de cerca de 3,3 palavras por segundo (hipótese do revisor, benchmark não medido), esse tempo dá cerca de 1,7 leitura de cada cartela: dá para ler uma vez com folga, uma vez e meia sem pressa, e duas vezes não cabe. Isso é aceito. Alvo: 45 a 75 s; piso com leitura única e sem folga, cerca de 45 s. A montagem cronometrada confirma.
 - **Público e nível de consciência:** Perfil B (homem de 45 a 65 anos, provedor, que se cala). Nível 1 a 2: ele pode nem ligar a ereção a um assunto de médico (SUPOSIÇÃO; não existem `02-avatar.md` nem `05-voz.md`). A peça abre pela identidade de quem trabalha, por isso funciona nos dois níveis.
@@ -124,7 +126,7 @@ Convenções: respiros em negrito. Texto da tela em creme sobre fundo escuro só
 
 **RESPIRO 1** (2 segundos) A imagem fica parada no cartão carimbado. Só o tic-tac de um relógio de pulso, baixo, sem texto na tela. A virada precisa de tempo para ser entendida.
 
-### Bloco 2 · Quem nunca falta (29 palavras, 14 s de tela)
+### Bloco 2 · Quem nunca falta (29 palavras, 14,5 s de tela)
 
 **TEXTO (lido na tela)**
 > Quem chega antes de abrir.
@@ -134,9 +136,9 @@ Convenções: respiros em negrito. Texto da tela em creme sobre fundo escuro só
 
 **IMAGEM** Quatro planos curtos, só mãos e objetos, um por cartela:
 1. (3 s) O portão de aço de uma serralheria sobe, de fora, na luz da manhã, sem ninguém em quadro.
-2. (4,5 s) Um relógio de pulso de metal gasto, no punho (só mão e antebraço). A mão gira a coroa olhando para o relógio de parede do galpão, desfocado ao fundo. Sem marca legível.
+2. (4,5 s) Um relógio de pulso de metal gasto, no punho (só mão e antebraço). A mão gira a coroa olhando para o relógio de parede do galpão, legível ao fundo. Sem marca legível.
 3. (3,5 s) Painel de ferramentas na parede de uma marcenaria, cada uma sobre o seu contorno desenhado. A mão encaixa uma chave de boca no contorno.
-4. (3 s) Mão com regador num canteiro de horta, fim de tarde, luz baixa.
+4. (3,5 s) Mão com regador num canteiro de horta, fim de tarde, luz baixa.
 
 **SOM E MÚSICA** Entra o violão (ou piano) instrumental, baixo, sem batida, só duas notas que se repetem. Sons de ambiente por cima: portão, ajuste da coroa do relógio, metal no painel, água do regador.
 
@@ -204,7 +206,7 @@ Convenções: respiros em negrito. Texto da tela em creme sobre fundo escuro só
 - **Quadro 1 (sem logotipo, sem laço, sem "Novembro Azul"):** as três cartelas da ponte e, depois, o lettering de CTA.
   - **Orgânico (Reels e feed):** "Agende sua consulta online · link na bio"
   - **Pago (Meta Ads):** "Agende sua consulta online · toque em Saiba mais"
-- **Quadro 2 (sem laço, sem "Novembro Azul"):** logotipo AndroClinic · rodapé obrigatório (abaixo), em fundo sólido escuro, **pelo menos 5 segundos** na tela, dentro da área segura.
+- **Quadro 2 (sem laço, sem "Novembro Azul"):** logotipo AndroClinic · rodapé obrigatório (abaixo), em fundo sólido escuro, **pelo menos 6 segundos** na tela, dentro da área segura.
 
 ### Rodapé obrigatório (CFM 2.336/2023, art. 5º)
 
@@ -217,7 +219,7 @@ No quadro 2 e na legenda do post:
 ## Legenda do post
 
 **Orgânico**
-> AndroClinic. Em novembro, marque o check-up com o seu médico e converse sobre a próstata com o seu médico. Falte uma manhã. Vá ao médico.
+> AndroClinic. Falte uma manhã. Vá ao médico. Em novembro, marque o check-up com o seu médico e converse sobre a próstata com o seu médico.
 >
 > Mudança na ereção é assunto para um médico. A consulta sobre a ereção, na AndroClinic, é online, por vídeo. Agende pelo link na bio.
 >
@@ -293,7 +295,7 @@ No quadro 2 e na legenda do post:
 - **Atributos pessoais (Meta):** o homem aparece só como "Quem…", terceira pessoa. O "você" não aparece; só ordens neutras (falte, vá, marque, converse, agende) e "sua consulta" e "o seu médico", no mesmo uso que o revisor passou nas peças anteriores.
 - **Sem desempenho, prazer, potência ou "broxei"; sem sigilo; sem autopromoção, "referência" ou "melhor"; sem preço, "gratuito" ou escassez.**
 - **Depoimento (art. 14):** sem paciente, sem fala de público, sem voz encenada.
-- **Rodapé visível:** 5 s, fundo sólido, dentro da área segura (proposta).
+- **Rodapé visível:** 6 s, fundo sólido, dentro da área segura (proposta).
 
 **Artigos citados:** CFM 2.336/2023, arts. 4º, 5º, 11 e 14, como já conferidos pelo revisor nos pareceres de 16/10 e 05/11/2026. **Não reli o texto oficial nesta versão.**
 
