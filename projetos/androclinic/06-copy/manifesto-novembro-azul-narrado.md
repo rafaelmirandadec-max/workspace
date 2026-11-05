@@ -1,20 +1,31 @@
 # AndroClinic — Manifesto Novembro Azul, versão narrada (voz que não é a do Dr.)
 
-**Versão do arquivo:** v1.0, 05/11/2026 (copywriter). Peça nova, independente da `manifesto-novembro-azul.md` (v1.2). Vai ao `revisor` e ao advogado do cliente antes de ir ao ar.
+**Versão do arquivo:** v1.1, 05/11/2026 (copywriter). Peça nova, independente da `manifesto-novembro-azul.md` (v1.2). Liberada com avisos pelo `revisor` (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-narrado-2026-11-05.md`). Vai ao advogado do cliente antes de ir ao ar.
+
+## Nota de versão
+
+**v1.1, 05/11/2026.** Aplica os avisos A1, A2, A3, A6 e A10 do parecer. O resto da v1.0 não foi mexido.
+
+1. **A1 (bloco 6).** "Ele confere tudo." virou "Esse homem confere tudo." O "Ele" vinha logo depois de "o seu médico" e se lia como sendo do médico. O refrão volta a ser do homem. Na abertura (bloco 1) continua "Ele confere tudo.", porque ali não há outro referente.
+2. **A2 (bloco 7).** Entrou uma ponte entre o mote e o convite: "O check-up é com o médico de cada um. / A consulta sobre esse assunto é outra: é por vídeo." Ela diz de quem é o check-up, separa a consulta e só afirma o que o briefing sustenta (é por vídeo). Não diz o que a consulta faz.
+3. **A3 (bloco 5, fala e lettering).** "É conferida." virou "É uma conferida." Mesmo ajuste na ficha, na virada escolhida e no mote 2.
+4. **A6 (bloco 2).** Cortei "Ou então ele só toma alguma coisa e não pergunta por quê." e não pus outra frase de comprimido no lugar. Consequência: a peça já não traz nem a semente da big idea. O inimigo fica sendo o "fica para depois" e o "é só a idade". Ajustei a ficha, a imagem do bloco 2 e a autoverificação.
+5. **A10.** A legenda do post abre com o nome da clínica.
+6. **A14.** Contagem e duração refeitas: 180 palavras faladas. A estimativa continua em torno de 90 s; ver a ficha.
 **Canal:** orgânico (Instagram, Reels) e pago (Meta Ads). O Novembro Azul já começou, então a peça fala "neste mês" e não cita data.
 **Parecer aplicado desde o primeiro rascunho:** `projetos/androclinic/revisoes/manifesto-novembro-azul-2026-10-16.md`.
 
 ## Ficha
 
 - **Tipo:** manifesto de marca com convite curto (vídeo narrado em off). Fica entre o manifesto de marca e o de convocação: não tem oferta, preço nem data, mas fecha com o ato de agendar.
-- **Duração estimada:** 179 palavras faladas, cerca de 1min17s a 140 palavras por minuto (referência do método, não medido). Com os três respiros e as pausas marcadas, perto de 1min30s, no teto do alvo de 60 a 90 segundos. Se a locução cronometrada passar de 90 segundos, o corte está no fim da seção "Notas de produção".
+- **Duração estimada:** 180 palavras faladas (contadas por bloco: 26, 34, 18, 25, 21, 31, 25; "check-up" como uma palavra), cerca de 1min17s a 140 palavras por minuto (referência do método, não medido). Com a velocidade da direção de voz (mais lenta nos blocos 1 a 4, rápida no 7), os respiros e as pausas marcadas, a conta dá **cerca de 90 a 91 segundos**: no limite do teto de 90, não com folga. O corte de 12 palavras do comprimido e a ponte nova de 11 palavras quase se anulam. Só a locução cronometrada responde. Se passar de 90 s, o corte opcional das duas linhas está em "Notas de produção" e tira cerca de 8 s.
 - **Público e nível de consciência:** Perfil B (homem de 45 a 65 anos, provedor, que se cala). Nível 1 a 2: ele pode nem ligar a ereção ao check-up (SUPOSIÇÃO; sem `02-avatar.md`). A peça abre pela identidade ("ele confere tudo"), por isso funciona nos dois níveis.
 - **Etapa do funil:** topo, posicionamento e alcance, com convite final.
-- **Big idea da marca:** "O comprimido não pergunta. O médico pergunta." Aparece só como semente ("não pergunta por quê"), sem a frase. A peça não gira em torno dela.
-- **Virada em uma frase:** "Check-up não é confissão. É conferida." (ir ao médico deixa de ser admitir algo e passa a ser o que ele já faz com tudo o que é dele).
-- **Refrão:** "Ele confere tudo." Abre a peça e volta perto do fim, com outro sentido: "Que a conferida chegue nele."
+- **Big idea da marca:** "O comprimido não pergunta. O médico pergunta." **Não aparece nesta versão**, nem como semente (a frase do comprimido foi cortada por recomendação do revisor). A peça não gira em torno dela.
+- **Virada em uma frase:** "Check-up não é confissão. É uma conferida." (ir ao médico deixa de ser admitir algo e passa a ser o que ele já faz com tudo o que é dele).
+- **Refrão:** "Ele confere tudo." Abre a peça e volta perto do fim, com outro sentido: "Esse homem confere tudo. Que a conferida chegue nele."
 - **Emoção:** alívio de ser entendido.
-- **Inimigo:** o "fica para depois", o "é só a idade" e o "tomar alguma coisa sem perguntar por quê". Nunca o público, nunca outra clínica.
+- **Inimigo:** o "fica para depois" e o "é só a idade". Nunca o público, nunca outra clínica.
 - **Narrador escolhido:** a voz que se revela no meio como o mês de novembro (opção 2 abaixo).
 - **O Dr. Cristiano:** **não aparece e não é citado.** Decisão: ele fora de imagem e de texto. Assim a peça não precisa da identificação "Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471" na tela, e o elemento legal central passa a ser o rodapé da clínica (CFM 2.336/2023, art. 5º). Se um dia ele aparecer num plano, a identificação entra naquele plano.
 
@@ -35,7 +46,7 @@
 
 ### Viradas candidatas
 
-1. **"Check-up não é confissão. É conferida." (escolhida).** Muda o sentido de ir ao médico usando o traço que o homem já tem (conferir tudo). Dita sobre "ele", sem afirmar nada de quem assiste.
+1. **"Check-up não é confissão. É uma conferida." (escolhida).** Muda o sentido de ir ao médico usando o traço que o homem já tem (conferir tudo). Dita sobre "ele", sem afirmar nada de quem assiste.
 2. "O que não tem nome em casa tem nome de saúde." Saiu porque leva o assunto para a boca do narrador cedo demais, antes da absolvição, e fica com cara de aula.
 3. "O peso não está na pergunta. Está em ficar com ela." Saiu porque é a ideia de "guardar" da v1.2 com outras palavras.
 
@@ -63,7 +74,7 @@
 ### Mote: opções
 
 1. **"O check-up completo inclui a ereção." (mote proposto, sem aprovação do Rafael).** É a ponte com o Novembro Azul numa frase. Sem ela, a pesquisa diz que a peça soa oportunista.
-2. **Alternativa: "Ele confere tudo. Que a conferida chegue nele."** É o refrão da própria peça e não nomeia a ereção na assinatura, o que é mais seguro para o feed e para o anúncio. Perde a ponte explícita: nesse caso a ponte fica só no bloco 6 ("Neste mês, vá ao médico…") e a legenda precisa carregar o "check-up completo inclui a ereção".
+2. **Alternativa: "Esse homem confere tudo. Que a conferida chegue nele."** É o refrão da própria peça e não nomeia a ereção na assinatura, o que é mais seguro para o feed e para o anúncio. Perde a ponte explícita: nesse caso a ponte fica só no bloco 6 ("Neste mês, vá ao médico…") e a legenda precisa carregar o "check-up completo inclui a ereção".
 
 ---
 
@@ -97,11 +108,10 @@ Convenções: respiro marcado em negrito com a palavra RESPIRO. Legenda na tela 
 > E assunto sem nome vai ficando para depois.
 > "Depois eu vejo."
 > "É só a idade."
-> Ou então ele só toma alguma coisa e não pergunta por quê.
 
 **IMAGEM**
 - Agenda de papel aberta, sem data legível: a linha do "médico" em branco; a mão vira a página para frente, e de novo.
-- Janela da cozinha no fim da tarde, sem ninguém em quadro, enquanto passa a última frase. **Nada de copo com comprimido, cartela, sacola de farmácia, banheiro ou armário de remédio.**
+- Janela da cozinha no fim da tarde, sem ninguém em quadro, durante as duas falas entre aspas. **Nada de copo com comprimido, cartela, sacola de farmácia, banheiro ou armário de remédio.**
 
 **SOM E MÚSICA** Segue sem música. Som das páginas.
 
@@ -143,14 +153,14 @@ Convenções: respiro marcado em negrito com a palavra RESPIRO. Legenda na tela 
 **NARRAÇÃO**
 > Ele acha que check-up é confissão.
 > Não é.
-> É conferida.
+> É uma conferida.
 > A mesma que ele faz em tudo de que cuida.
 
 **IMAGEM** Volta a lista do bloco 1. A caneta fica parada sobre a última linha, ainda em branco. Plano fechado, sem mexer.
 
-**SOM E MÚSICA** A música se sustenta baixa; no "Não é." ela cai a quase nada e volta no "É conferida."
+**SOM E MÚSICA** A música se sustenta baixa; no "Não é." ela cai a quase nada e volta no "É uma conferida."
 
-**TELA** Lettering, entrando sobre o "É conferida.": **Check-up não é confissão. É conferida.**
+**TELA** Lettering, entrando sobre o "É uma conferida.": **Check-up não é confissão. É uma conferida.**
 
 ### Bloco 6 · O pedido e a assinatura
 
@@ -158,7 +168,7 @@ Convenções: respiro marcado em negrito com a palavra RESPIRO. Legenda na tela 
 > Neste mês, vá ao médico.
 > Faça o check-up.
 > Converse sobre a próstata com o seu médico.
-> Ele confere tudo.
+> Esse homem confere tudo.
 > Que a conferida chegue nele.
 > O check-up completo inclui a ereção.
 
@@ -176,10 +186,11 @@ Convenções: respiro marcado em negrito com a palavra RESPIRO. Legenda na tela 
 ### Bloco 7 · O caminho e o convite
 
 **NARRAÇÃO** (a mesma voz, sem personagem: neutra, rápida e seca, de assinatura)
-> A consulta sobre esse assunto é por vídeo.
+> O check-up é com o médico de cada um.
+> A consulta sobre esse assunto é outra: é por vídeo.
 > Agende sua consulta online na AndroClinic.
 
-**IMAGEM** Notebook aberto na mesa de um escritório de casa, estante ao fundo, uma xícara ao lado. A tela mostra só uma janela de chamada de vídeo vazia, sem rosto e sem dado de paciente.
+**IMAGEM** Na primeira frase, a mão fecha a agenda do bloco 6. Na segunda, corte para: notebook aberto na mesa de um escritório de casa, estante ao fundo, uma xícara ao lado. A tela mostra só uma janela de chamada de vídeo vazia, sem rosto e sem dado de paciente.
 
 **SOM E MÚSICA** A música se resolve e fecha. Silêncio nos últimos dois segundos.
 
@@ -200,7 +211,7 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 ## Legenda do post
 
 **Orgânico**
-> Ele confere tudo: a mochila do filho, a conta do mês, o troco do pão.
+> AndroClinic. Ele confere tudo: a mochila do filho, a conta do mês, o troco do pão.
 > Neste Novembro Azul, vá ao médico, faça o check-up e converse sobre a próstata com o seu médico.
 > O check-up completo inclui a ereção.
 >
@@ -210,7 +221,7 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 > #NovembroAzul
 
 **Pago (texto principal):** o mesmo, trocando "Agende pelo link na bio" por "Toque em Saiba mais e agende".
-**Título do anúncio:** "O check-up completo inclui a ereção" (ou, se o Rafael preferir a alternativa de mote: "Ele confere tudo. Que a conferida chegue nele"). **Botão:** Saiba mais.
+**Título do anúncio:** "O check-up completo inclui a ereção" (ou, se o Rafael preferir a alternativa de mote: "Esse homem confere tudo. Que a conferida chegue nele"). **Botão:** Saiba mais.
 
 ## Nota para o `traffic-strategist`
 
@@ -218,7 +229,7 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 - **Segmentação:** não montar público por condição de saúde nem por interesse que afirme ou sugira a condição de quem vê. A peça foi escrita em terceira pessoa para isso; a segmentação não pode desfazer o cuidado.
 - **Página de destino do "Saiba mais":** mostrar o preço com clareza (CDC, art. 31), sem oferta de medicamento, sem "sigilo total", "100% privado" ou "ninguém fica sabendo". É da página, não da peça.
 - **Primeiros três segundos:** as mãos e a lista do bloco 1, sem marca, com legenda. A peça funciona sem som.
-- **Duração para anúncio frio:** cerca de 1min30s. Se o teste pedir menos, o corte de 60 a 70 segundos tira o bloco 4 e a frase "Confere duas vezes…", e **precisa de nova leitura do revisor**, porque perde a absolvição.
+- **Duração para anúncio frio:** cerca de 90 segundos. Se o teste pedir menos, o corte tira o bloco 4 e a frase "Confere duas vezes…": fica com 147 palavras, cerca de 70 a 75 segundos (e não 60 a 70). **Precisa de nova leitura do revisor**, porque perde a absolvição. O bloco 3 (a revelação do mês) tem que ficar em qualquer corte: é ele que protege a leitura de que a voz não é um homem falando de si.
 - Os criativos de teste (ordem de abertura, mote 1 contra mote 2) são decisão do `traffic-strategist`.
 
 ## Texto de 15 segundos
@@ -232,15 +243,15 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 - **Imagens que a equipe consegue filmar:** lista de papel e caneta, mochila, balcão de padaria, agenda de papel, janela, calendário de parede com um laço pequeno, tênis infantil, uniforme na cadeira, notebook na mesa. Tudo em mãos e objetos.
 - **Mãos de ator:** só com autorização de uso de imagem, e nunca apresentadas como paciente.
 - **Proibido nesta peça:** comprimido, cartela, sacola de farmácia, copo ligado a remédio, quarto, cama, porta de quarto, homem sozinho em carro ou garagem, rosto de paciente, rosto de criança, banco de imagem, rosto gerado por IA, azul em qualquer elemento que não seja o laço do calendário.
-- **Para encurtar a locução em 10 segundos, sem perder a virada:** cortar "Confere duas vezes, quando é coisa da casa." e "A mesma que ele faz em tudo de que cuida."
+- **Para encurtar a locução em cerca de 8 segundos (18 palavras), sem perder a virada:** cortar "Confere duas vezes, quando é coisa da casa." e "A mesma que ele faz em tudo de que cuida." Não aplicado; fica à espera da locução cronometrada.
 
 ---
 
 ## Checklist da skill de manifesto
 
-- [x] **Tipo e duração definidos** (marca com convite curto; cerca de 1min30s com respiros; 179 palavras contadas à mão, "check-up" como uma palavra).
+- [x] **Tipo e duração definidos** (marca com convite curto; cerca de 90 a 91 s com respiros, no limite do alvo; 180 palavras contadas à mão, "check-up" como uma palavra).
 - [x] **Uma virada clara**, que muda o sentido de algo que o público dá como certo (ir ao médico é admitir).
-- [x] **Inimigo concreto** ("fica para depois", "é só a idade", tomar sem perguntar por quê); o homem é absolvido no bloco 4, antes de qualquer pedido.
+- [x] **Inimigo concreto** ("fica para depois", "é só a idade"); o homem é absolvido no bloco 4, antes de qualquer pedido.
 - [x] **Espelho com cenas concretas** (mochila, conta, troco) e frases do público entre aspas ("é só a idade" é da pesquisa; "Depois eu vejo" é suposição).
 - [~] **Crença do especialista em primeira pessoa:** não se aplica, porque não há especialista falando. A crença vem como pedido de novembro ("que confira"), sem "eu acredito".
 - [x] **Visão em cena concreta:** a mão escreve "médico" na agenda e fecha a lista. Sem abstração.
@@ -265,8 +276,8 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 - **Dado:** nenhum número, nenhuma estatística. "Todo ano", "todo mundo" (cuidar de todo mundo) e "muito homem" não são dado.
 - **Promessas:** nenhuma de resultado. Da consulta, só "é por vídeo". Não aparecem receita, retorno, preço, decisão nem causa.
 - **Próstata:** só em "Converse sobre a próstata com o seu médico". Nunca em lista, nunca com idade ou regra, nada que sugira exame na clínica. "Pressão, açúcar, colesterol" não inclui a próstata.
-- **Consulta x check-up:** o mote e "Novembro Azul" ficam no quadro 1, sem marca; depois o respiro 3; depois "a consulta sobre esse assunto". O laço só no calendário.
-- **Medicamento:** nenhum nome, nenhum comprimido, cartela, sacola ou copo na imagem; nenhum azul fora do laço. A única referência é "toma alguma coisa e não pergunta por quê".
+- **Consulta x check-up:** o mote e "Novembro Azul" ficam no quadro 1, sem marca; depois o respiro 3; depois a ponte "O check-up é com o médico de cada um. A consulta sobre esse assunto é outra: é por vídeo." A ponte não diz o que a consulta faz. O laço só no calendário.
+- **Medicamento:** nenhum nome, nenhum comprimido, cartela, sacola ou copo na imagem; nenhum azul fora do laço. Nenhuma frase sobre comprimido ou "tomar alguma coisa" (cortada na v1.1).
 - **Atributos pessoais (Meta):** o homem é sempre "ele". O "você" não aparece; só ordens neutras (vá, faça, converse, agende) e "sua consulta" e "o seu médico", no mesmo uso que o revisor passou na v1.2.
 - **Desempenho, potência, prazer, "broxei":** ausentes.
 - **Sigilo:** nenhuma frase de sigilo, privacidade total ou "sem sala de espera".
@@ -283,15 +294,15 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 1. **Rodapé ainda como marcador.** Obrigação do CFM; sem ele nada vai ao ar. É o único marcador do arquivo.
 2. **A voz de novembro e o vínculo com a campanha.** O revisor pode entender que a clínica "fala" em nome do Novembro Azul de próstata. A defesa é a separação em quadros e a próstata só como "converse com o seu médico".
 3. **"Ele acha que check-up é confissão."** Atribui uma crença a um grupo. Está em terceira pessoa. Se for lida como retrato de quem assiste, trocar por "Para ele, check-up soa como confissão", que é a mesma ideia sem o verbo de pensamento.
-4. **"Ou então ele só toma alguma coisa e não pergunta por quê."** É o único toque no comprimido. Se o revisor ler como desqualificar tratamento, cortar a frase: a peça se sustenta sem ela.
-5. **Check-up x consulta.** Mesmo com o respiro 3, o mote e o convite ficam a poucos segundos um do outro. Já passou na v1.2 com a mesma estrutura.
+4. **Check-up x consulta.** Na v1.1 há respiro 3 e a ponte de duas frases entre o mote e o convite. O ponto a olhar: "esse assunto" retoma "ereção" por cima da frase do check-up. Se o revisor achar a retomada frouxa, trocar por "a consulta sobre a ereção".
+5. **Ponte do bloco 7.** "A consulta sobre esse assunto é outra" afirma só que a consulta não é o check-up e que é por vídeo.
 6. **Art. 11, I e médico sem RQE.** Sem o Dr. no vídeo, o risco passa a ser da clínica que convida para consulta sobre ereção. Não se resolve na copy; vai ao advogado, junto das pendências P2 e P7.
 7. **"Depois eu vejo"** (invenção minha). Não é dado nem depoimento, mas está entre aspas como fala de homem. Se o revisor preferir só as frases da pesquisa, cortar a linha.
 8. **Mote ainda sem aprovação do Rafael.**
 
 ## Revisão própria
 
-- **Português:** acentuação e crase conferidas. "Ele acha que check-up é confissão" e "É conferida" saem sem tropeço em voz alta; "conferida" é o uso popular de "dar uma conferida".
+- **Português:** acentuação e crase conferidas. "É uma conferida" (com artigo, para não ser lido como verbo) é o uso popular de "dar uma conferida". Ouvir uma leitura antes de fechar, como pede o revisor.
 - **Marcas de texto de IA:** a antítese aparece só na virada; os blocos têm tamanhos diferentes; sem transições mecânicas; o fecho devolve a abertura com outro sentido (de "ele confere tudo" para "que a conferida chegue nele"). "Todo ano" aparece duas vezes de propósito (blocos 3 e 4), como o ritmo de quem volta.
 - **Falas da v1.2 evitadas:** "guarda", "mudança no corpo não é para guardar", "quem cuida de todo mundo também entra na lista", "o comprimido não pergunta", "aguentar calado", "esse homem não está sozinho", "sem ir até um consultório". Permanecem, por serem do público ou da ponte: "é só a idade", "converse sobre a próstata com o seu médico", "o check-up completo inclui a ereção" e "a consulta sobre esse assunto".
 
