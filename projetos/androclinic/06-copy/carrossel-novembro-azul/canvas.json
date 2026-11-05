@@ -1,0 +1,48 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-11-05T12:00:00Z" },
+  "title": "Manifesto Novembro Azul AndroClinic",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 1080, "h": 1350, "title": "01 Capa" },
+    "Card-02.dc.html": { "x": 1160, "y": 0, "w": 1080, "h": 1350, "title": "02 Ele mesmo" },
+    "Card-03.dc.html": { "x": 2320, "y": 0, "w": 1080, "h": 1350, "title": "03 Ele guarda" },
+    "Card-04.dc.html": { "x": 3480, "y": 0, "w": 1080, "h": 1350, "title": "04 O comprimido" },
+    "Card-05.dc.html": { "x": 4640, "y": 0, "w": 1080, "h": 1350, "title": "05 A pergunta" },
+    "Card-06.dc.html": { "x": 0, "y": 1470, "w": 1080, "h": 1350, "title": "06 Virada" },
+    "Card-07.dc.html": { "x": 1160, "y": 1470, "w": 1080, "h": 1350, "title": "07 O médico" },
+    "Card-08.dc.html": { "x": 2320, "y": 1470, "w": 1080, "h": 1350, "title": "08 Novembro" },
+    "Card-09.dc.html": { "x": 3480, "y": 1470, "w": 1080, "h": 1350, "title": "09 Mote" },
+    "Card-10.dc.html": { "x": 4640, "y": 1470, "w": 1080, "h": 1350, "title": "10 Assinatura" }
+  },
+  "order": [
+    "Main.dc.html",
+    "Card-02.dc.html",
+    "Card-03.dc.html",
+    "Card-04.dc.html",
+    "Card-05.dc.html",
+    "Card-06.dc.html",
+    "Card-07.dc.html",
+    "Card-08.dc.html",
+    "Card-09.dc.html",
+    "Card-10.dc.html"
+  ],
+  "notes": {
+    "titulo": {
+      "x": 0,
+      "y": -300,
+      "text": "Manifesto Novembro Azul · carrossel de 10 quadros",
+      "kind": "title1",
+      "maxW": 5720
+    },
+    "pendencias": {
+      "x": 4640,
+      "y": 2900,
+      "w": 520,
+      "text": "Antes de publicar: trocar o quadro pontilhado pelo logotipo da AndroClinic e preencher o rodapé obrigatório (registro da clínica no CRM e diretor técnico com CRM). Sem isso a peça não pode ir ao ar.",
+      "fill": "orange"
+    }
+  },
+  "designSystems": []
+}
