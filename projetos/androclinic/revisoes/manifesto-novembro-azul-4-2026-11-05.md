@@ -225,3 +225,31 @@ O que a falta delas muda: sem 1 a 3 a peça não vai ao ar, e o item 3 pode muda
 
 ### Fontes
 - [Resolução CFM 2.336/2023, texto oficial (PDF)](https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf)
+
+---
+
+## Releitura da v1.1 — 05/11/2026
+
+Leitura rápida só das linhas alteradas, não uma revisão completa. Não reabri a Meta. O texto do CFM (arts. 4º, 5º, 6º, 11 e 14) é o que li hoje, acima.
+
+**Veredito: liberada com avisos.** A1, A3, A4, A5, A7, A8, A9 e a pendência P1 (confirmação da clínica) estão atendidos no essencial. Continuam as condições de publicação: rodapé preenchido e parecer do advogado (art. 11, I, agora com as duas frases da ereção). A2 está atendido em parte (ver 1).
+
+**Respostas**
+1. **"Ereção também é saúde." passa e cumpre a ligação?** Passa. Medo (§2º, "e"): nenhum. Promessa (XII): nenhuma. "Trata doença específica" (11, I): a frase não diz que a clínica trata nada; o risco do 11, I segue em "Sobre a ereção, a consulta na AndroClinic…" e vai ao advogado com as duas frases. A ligação, porém, é só **declarativa**: afirma que ereção é saúde, mas não une check-up e ereção, e o oportunismo apontado no briefing fica mais leve, não resolvido. Aceito como saída de menor risco; a decisão é do Rafael.
+   - **Perto demais do mote?** Sim, por desenho. No filme ela vem logo depois de "Saúde pede cadeira.", e a leitura é "a ereção também pede cadeira". É a colagem que o parecer do manifesto 3 (A1) quis evitar na legenda, agora assumida no filme. Na legenda está separada (mote no parágrafo 1, ereção no 3), o que é melhor. Fica aviso, não bloqueio.
+   - **Perto da próstata?** Não. A próstata está no bloco 5, cerca de 6 s antes, com o mote no meio.
+   - "Ereção" falada duas vezes em cerca de 8 s (6b e ponte): leve repetição, só para ouvir.
+2. **A ponte nova é verdadeira em qualquer caso?** Sim. "O check-up cada um faz com o médico que escolher." não nega nada da operação e vale mesmo que a clínica ofereça check-up; "Sobre a ereção, a consulta na AndroClinic é por vídeo." é fato do briefing. **Separa o check-up da consulta?** Sim, por assunto e não mais por exclusão: o check-up é livre; a clínica se declara só sobre a ereção. Ressalva: "o médico que escolher" pode, a rigor, incluir o da clínica, então a separação ficou mais frouxa que a de "quem faz é o seu médico". Aceitável, porque o ônus de não sugerir rastreamento está cumprido pela segunda frase. Pendência P1 sai da lista de condições de publicação.
+3. **O fecho com o som da cadeira depois do rodapé resolve A1?** Resolve. A cadeira e o arrastar saíram do convite e do tablet; o som volta só na cauda de 1,5 s, em calçada sem texto nem marca, depois do rodapé. Resta uma leitura fraca ("o último som é o da cadeira, logo depois da marca"), que só o teste de compreensão mostra. Cuidado de produção: o rodapé continua os 6 s inteiros antes da cauda e nada cobre o quadro 4.
+4. **O cartão do anúncio se lê bem com a ponte atrás do "ver mais"?** Melhor que na v1.0. O parágrafo 1 (cerca de 90 caracteres) traz marca, mote e "faça o check-up com o seu médico"; com o título "Consulta por vídeo na AndroClinic" e o botão, lê-se: clínica, check-up com o seu médico, consulta por vídeo. A próstata e a ereção ficam fora da parte visível. Resta a ambiguidade de "consulta por vídeo" aparecer ao lado de "check-up" sem dizer sobre o quê. É tolerável, porque "com o seu médico" está na mesma frase. O corte do feed continua hipótese minha: **ver na pré-visualização da Meta**.
+
+**Outras linhas alteradas**
+- Bloco 2, "Já a conversa sobre saúde costuma ficar no cumprimento.", e bloco 3: sem "passa" e sem "Tudo."; "costuma" tira o absoluto; "Portão não é…" tira o "nunca". A5 e A9 resolvidos. A frase segue como observação sem fonte (suposição 3b).
+- Virada "Cumprimento cabe de pé. Saúde pede cadeira.": não afirma condição de quem assiste e deixa de pôr o "tudo" em dúvida. Passa.
+- Bloco 5: "faça o check-up com o seu médico" resolve A4. Os tempos em segundos resolvem A7. Detalhe: a primeira frase tem 9 palavras (cerca de 4,3 s a 125 por minuto), e a legenda sai aos 3,8 s, antes de a voz terminar; ajustar para 4,3 s.
+
+**Contagem e duração.** Contei **117** palavras (32, 16, 12, 7, **17**, 3, 4, 26), não 116: o bloco 5 tem 17 (a primeira frase 9, a segunda 8), e o arquivo diz 16. A tabela soma 80,1 s e confere. A diferença de uma palavra não muda a faixa de 74 a 88 s. Corrigir o número.
+
+**Pendências que continuam:** rodapé preenchido; parecer do advogado (art. 11, I, com "Ereção também é saúde." e "Sobre a ereção, a consulta na AndroClinic é por vídeo."; encenação com mãos de ator e art. 14); aprovação do Rafael (voz, virada, mote, "Ereção também é saúde."); cadastro do diretor técnico (RQE); perfil do Instagram (art. 6º); margens de Reels e corte do texto na Meta; locução cronometrada, prova de voz e teste do mote; briefing de mídia. A confirmação da clínica sobre check-up deixou de ser condição.
+
+**Aplicado (coordenação, v1.2):** a contagem foi corrigida para 117 palavras e a legenda da primeira frase do bloco 5 passou a ficar até 4,3 s.

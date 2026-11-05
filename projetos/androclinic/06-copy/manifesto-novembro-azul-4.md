@@ -1,11 +1,13 @@
 # AndroClinic — Manifesto Novembro Azul 4, "Saúde pede cadeira" (narrado por cronista de bairro, na calçada)
 
-**Versão do arquivo:** v1.1, 05/11/2026. Peça nova, independente de `manifesto-novembro-azul.md` (v1.2), `manifesto-novembro-azul-narrado.md` (v1.2) e `manifesto-novembro-azul-3.md` (v1.2). Liberada com avisos pelo `revisor` (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-4-2026-11-05.md`, sobre a v1.0). Precisa de nova leitura rápida das linhas alteradas e vai ao advogado do cliente antes de ir ao ar.
+**Versão do arquivo:** v1.2, 05/11/2026. Peça nova, independente de `manifesto-novembro-azul.md`, `manifesto-novembro-azul-narrado.md` e `manifesto-novembro-azul-3.md`. Liberada com avisos pelo `revisor` (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-4-2026-11-05.md`, com releitura da v1.1). Vai ao advogado do cliente antes de ir ao ar.
 **Pareceres aplicados desde o primeiro rascunho:** `revisoes/manifesto-novembro-azul-2026-10-16.md`, `revisoes/manifesto-novembro-azul-narrado-2026-11-05.md`, `revisoes/manifesto-novembro-azul-3-2026-11-05.md` e, na v1.1, o da própria peça.
 **Canal:** orgânico (Instagram, Reels) e pago (Meta Ads). O Novembro Azul já começou, então a peça fala "neste mês", sem data.
 **Pedido do Rafael:** depois de perguntar "esse manifesto não tem narração?" sobre o terceiro, pediu um novo manifesto, narrado e diferente. Pediu também "sem pendências": o texto não depende de resposta da clínica.
 
 ## Nota de versão
+
+**v1.2, 05/11/2026 (coordenação).** Dois acertos da releitura do revisor: a contagem correta é 117 palavras faladas (o bloco 5 tem 17, não 16), e a legenda da primeira frase do bloco 5 fica até 4,3 s (era 3,8 s), o tempo em que a voz diz a frase. A duração e a faixa de 74 a 88 s não mudam.
 
 **v1.1, 05/11/2026 (copywriter, a pedido da coordenação).** Aplica o parecer do revisor. Onde o parecer deixava decisão ao Rafael (A1, A2, A5), apliquei o caminho padrão e registrei a alternativa em "Decisões do Rafael", logo abaixo. O que mudou, item por item:
 
@@ -20,7 +22,7 @@
 9. **A9.** "Portão nunca foi lugar…" virou "Portão não é lugar…". A frase "Já a conversa sobre saúde costuma ficar no cumprimento" entrou como suposição 3b.
 10. **A10.** A lista "O que permanece igual" foi corrigida: a ponte não foi "reescrita", repete a do manifesto 3 em parte.
 11. **A12, A14, A16.** A ficha agora diz que o Dr. consta no rodapé como diretor técnico. A faixa de contraste é uma só (80%). "Cadeira" falada passou de quatro vezes para três. O portão aparece na imagem do bloco 2 até a frase do bloco 3.
-12. **Duração e tabela refeitas:** 116 palavras, cerca de 80 s (74 a 88 s).
+12. **Duração e tabela refeitas:** 117 palavras, cerca de 80 s (74 a 88 s).
 
 ### Decisões do Rafael (alternativas registradas)
 
@@ -31,7 +33,7 @@
 ## Ficha
 
 - **Tipo:** manifesto de marca com convite curto, narrado em off. Não tem oferta, preço nem data, mas fecha com o ato de agendar.
-- **Duração estimada:** 116 palavras faladas (por bloco: 32, 16, 12, 7, 16, 3, 4, 26; "check-up" como uma palavra). A 125 palavras por minuto (direção de voz de cronista, mais lenta que a referência do método de 140; nenhuma das duas foi medida) a fala dá cerca de 56 s. Somando a entrada de som, as pausas marcadas, três respiros (1,5 s, 2 s e 2 s), 2 s de silêncio antes do rodapé, o rodapé de 6 s e a cauda de 1,5 s, o total é de **cerca de 80 s**. Faixa honesta: **74 s** se a locução correr a 140 palavras por minuto e **88 s** se correr a 110. No lado lento fica perto do teto de 90 s. O corte opcional (nota ao tráfego) tira cerca de 9 s. Só a locução cronometrada confirma.
+- **Duração estimada:** 117 palavras faladas (por bloco: 32, 16, 12, 7, 16, 3, 4, 26; "check-up" como uma palavra). A 125 palavras por minuto (direção de voz de cronista, mais lenta que a referência do método de 140; nenhuma das duas foi medida) a fala dá cerca de 56 s. Somando a entrada de som, as pausas marcadas, três respiros (1,5 s, 2 s e 2 s), 2 s de silêncio antes do rodapé, o rodapé de 6 s e a cauda de 1,5 s, o total é de **cerca de 80 s**. Faixa honesta: **74 s** se a locução correr a 140 palavras por minuto e **88 s** se correr a 110. No lado lento fica perto do teto de 90 s. O corte opcional (nota ao tráfego) tira cerca de 9 s. Só a locução cronometrada confirma.
 - **Público e nível de consciência:** Perfil B (homem de 45 a 65 anos, com ou sem filhos pequenos, provedor, que não costuma falar de saúde). Nível 1 a 2: ele pode nem ligar a ereção a um assunto de médico (SUPOSIÇÃO; não existem `02-avatar.md` nem `05-voz.md`).
 - **Etapa do funil:** topo, posicionamento e alcance, com convite final.
 - **Big idea da peça:** "Saúde pede cadeira." Conversa sobre saúde merece o tempo de quem senta, não o de quem cumprimenta de passagem. A big idea da marca ("O comprimido não pergunta. O médico pergunta.") **não aparece**, como no manifesto narrado.
@@ -183,7 +185,7 @@ Convenções: respiros em negrito (RESPIRO). A legenda de apoio reproduz a fala 
 
 **TELA** Legenda na primeira frase. Na segunda, lettering em creme sobre faixa escura, entrando junto com a voz: **Saúde pede cadeira.**
 
-### Bloco 5 · O pedido do mês (16 palavras, cerca de 8,4 s)
+### Bloco 5 · O pedido do mês (17 palavras, cerca de 8,4 s)
 
 **NARRAÇÃO** (pausa de 0,7 s entre as duas frases)
 > Neste mês, faça o check-up com o seu médico.
@@ -195,7 +197,7 @@ Convenções: respiros em negrito (RESPIRO). A legenda de apoio reproduz a fala 
 
 **TELA** Quadro 1 (sem logotipo), tempos a partir do início do bloco:
 - 0,0 a 8,4 s: **Novembro Azul**, fixo na faixa de cima da área segura.
-- 0,0 a 3,8 s: legenda da primeira frase, na faixa de baixo, e ela fica até a voz terminar.
+- 0,0 a 4,3 s: legenda da primeira frase, na faixa de baixo, e ela fica até a voz terminar.
 - 4,5 s: a legenda sai e entra o lettering **Converse sobre a próstata com o seu médico.**, junto com a voz da segunda frase, até 8,4 s.
 
 ### Bloco 6 · O mote (3 palavras, cerca de 3 s)
@@ -355,7 +357,7 @@ Não fiz. O rodapé sozinho ocupa 6 s de tela, e o respiro 3 e a ponte são o qu
 
 ## Checklist da skill de manifesto
 
-- Tipo e duração definidos: sim. Marca com convite curto, cerca de 80 s (74 a 88 s), 116 palavras contadas à mão por bloco, "check-up" como uma palavra.
+- Tipo e duração definidos: sim. Marca com convite curto, cerca de 80 s (74 a 88 s), 117 palavras contadas à mão por bloco, "check-up" como uma palavra.
 - Uma virada clara que muda o significado de algo que o público dá como certo: sim. O cumprimento deixa de ser resposta e vira conversa de passagem.
 - Inimigo concreto e absolvição antes da cobrança: sim. O inimigo é a conversa de passagem; o bloco 3 absolve ("boa educação") antes do pedido.
 - Espelho com cenas concretas: sim, as da rua (cadeira, rádio, café, portão). **Frase do público entre aspas:** não há, por decisão (suposição 4).
@@ -460,7 +462,7 @@ O que a falta delas muda: sem o rodapé e o advogado a peça não vai ao ar; sem
    - **Bloco 7:** "Quem faz o seu check-up é o seu médico." virou "O check-up cada um faz com o médico que escolher." (verdadeira em qualquer caso). "Na AndroClinic, a consulta sobre a ereção acontece por vídeo." virou "Sobre a ereção, a consulta na AndroClinic é por vídeo." Saíram a cadeira e o arrastar diante do tablet; entrou a cauda de 1,5 s com o som da cadeira depois do rodapé.
    - **Legenda:** três parágrafos; o primeiro traz só marca, mote e check-up com o seu médico; a ereção só no terceiro, com a consulta. Título: "Consulta por vídeo na AndroClinic". O mote não é título.
    - **Ficha, suposições (nova 3b e 6), nota ao tráfego, notas de produção, checklist, autoverificação, bloqueios e "o que permanece":** atualizados onde mudaram. O Dr. consta no rodapé como diretor técnico.
-   - **Duração:** 116 palavras, cerca de 80 s (74 a 88 s), tabela refeita. Cortes A (cerca de 71 s) e B (cerca de 65 s) refeitos.
+   - **Duração:** 117 palavras, cerca de 80 s (74 a 88 s), tabela refeita. Cortes A (cerca de 71 s) e B (cerca de 65 s) refeitos.
 3. **Alternativas para o Rafael (aplicado o caminho padrão):**
    - **Fecho:** manter o arrastar e a cadeira diante do tablet no convite (v1.0).
    - **Ligação:** trocar "Ereção também é saúde." por "Quando a ereção muda, pode ser assunto para um médico.", ou deixar a ligação só pela clínica.
