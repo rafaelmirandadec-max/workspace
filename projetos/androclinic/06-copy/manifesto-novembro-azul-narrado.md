@@ -1,8 +1,10 @@
 # AndroClinic — Manifesto Novembro Azul, versão narrada (voz que não é a do Dr.)
 
-**Versão do arquivo:** v1.1, 05/11/2026 (copywriter). Peça nova, independente da `manifesto-novembro-azul.md` (v1.2). Liberada com avisos pelo `revisor` (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-narrado-2026-11-05.md`). Vai ao advogado do cliente antes de ir ao ar.
+**Versão do arquivo:** v1.2, 05/11/2026. Peça nova, independente da `manifesto-novembro-azul.md` (v1.2). Liberada com avisos pelo `revisor` (parecer `projetos/androclinic/revisoes/manifesto-novembro-azul-narrado-2026-11-05.md`, com releitura da v1.1). Vai ao advogado do cliente antes de ir ao ar.
 
 ## Nota de versão
+
+**v1.2, 05/11/2026 (coordenação).** Troca pedida na releitura do revisor: "a consulta sobre esse assunto" virou "a consulta sobre a ereção" na ponte (bloco 7), no respiro 3 e na legenda do orgânico. Motivo: depois de "O check-up é com o médico de cada um", "esse assunto" podia ser lido como "consulta sobre check-up por vídeo". Custo: a clínica passa a dizer em voz alta que oferece consulta sobre uma condição específica, o que reforça a pergunta do art. 11, I; o advogado deve receber a frase nesta forma.
 
 **v1.1, 05/11/2026.** Aplica os avisos A1, A2, A3, A6 e A10 do parecer. O resto da v1.0 não foi mexido.
 
@@ -181,13 +183,13 @@ Convenções: respiro marcado em negrito com a palavra RESPIRO. Legenda na tela 
 
 **TELA** Quadro 1 (sem logotipo, sem laço): **O check-up completo inclui a ereção.** (mote proposto) · **Novembro Azul: converse com o seu médico.**
 
-**RESPIRO 3** (1,5 segundo; a música sobe e depois cai; a tela fica limpa. Este respiro separa o check-up com o médico dele da consulta sobre esse assunto.)
+**RESPIRO 3** (1,5 segundo; a música sobe e depois cai; a tela fica limpa. Este respiro separa o check-up com o médico dele da consulta sobre a ereção.)
 
 ### Bloco 7 · O caminho e o convite
 
 **NARRAÇÃO** (a mesma voz, sem personagem: neutra, rápida e seca, de assinatura)
 > O check-up é com o médico de cada um.
-> A consulta sobre esse assunto é outra: é por vídeo.
+> A consulta sobre a ereção é outra: é por vídeo.
 > Agende sua consulta online na AndroClinic.
 
 **IMAGEM** Na primeira frase, a mão fecha a agenda do bloco 6. Na segunda, corte para: notebook aberto na mesa de um escritório de casa, estante ao fundo, uma xícara ao lado. A tela mostra só uma janela de chamada de vídeo vazia, sem rosto e sem dado de paciente.
@@ -215,7 +217,7 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 > Neste Novembro Azul, vá ao médico, faça o check-up e converse sobre a próstata com o seu médico.
 > O check-up completo inclui a ereção.
 >
-> A consulta sobre esse assunto, na AndroClinic, é online, por vídeo. Agende pelo link na bio.
+> A consulta sobre a ereção, na AndroClinic, é online, por vídeo. Agende pelo link na bio.
 >
 > (rodapé obrigatório, acima)
 > #NovembroAzul
@@ -276,7 +278,7 @@ No quadro 3, legível por pelo menos 3 segundos, e na legenda do post:
 - **Dado:** nenhum número, nenhuma estatística. "Todo ano", "todo mundo" (cuidar de todo mundo) e "muito homem" não são dado.
 - **Promessas:** nenhuma de resultado. Da consulta, só "é por vídeo". Não aparecem receita, retorno, preço, decisão nem causa.
 - **Próstata:** só em "Converse sobre a próstata com o seu médico". Nunca em lista, nunca com idade ou regra, nada que sugira exame na clínica. "Pressão, açúcar, colesterol" não inclui a próstata.
-- **Consulta x check-up:** o mote e "Novembro Azul" ficam no quadro 1, sem marca; depois o respiro 3; depois a ponte "O check-up é com o médico de cada um. A consulta sobre esse assunto é outra: é por vídeo." A ponte não diz o que a consulta faz. O laço só no calendário.
+- **Consulta x check-up:** o mote e "Novembro Azul" ficam no quadro 1, sem marca; depois o respiro 3; depois a ponte "O check-up é com o médico de cada um. A consulta sobre a ereção é outra: é por vídeo." A ponte não diz o que a consulta faz. O laço só no calendário.
 - **Medicamento:** nenhum nome, nenhum comprimido, cartela, sacola ou copo na imagem; nenhum azul fora do laço. Nenhuma frase sobre comprimido ou "tomar alguma coisa" (cortada na v1.1).
 - **Atributos pessoais (Meta):** o homem é sempre "ele". O "você" não aparece; só ordens neutras (vá, faça, converse, agende) e "sua consulta" e "o seu médico", no mesmo uso que o revisor passou na v1.2.
 - **Desempenho, potência, prazer, "broxei":** ausentes.

@@ -180,3 +180,28 @@ O que a falta delas muda: sem 1 e 2 a peça não vai ao ar; sem 3 o texto muda s
 2. **Decisões principais:** **liberada com avisos.** Nenhum bloqueio de conteúdo; o rodapé do art. 5º está correto e é o único marcador, mas segue sem preencher e impede a publicação, junto com o parecer do advogado. O que recomendo corrigir antes de gravar: o "Ele confere tudo" do bloco 6 passa a se referir ao médico (A1); o convite à consulta ficou colado no mote, sem a ponte que a v1.2 tinha (A2); "É conferida" sem artigo se lê como verbo (A3). Recomendo cortar "só toma alguma coisa e não pergunta por quê" (A6). A voz de novembro pode ser lida como a clínica falando pela campanha (A10); passa porque a clínica se identifica no mesmo vídeo, mas a legenda deve abrir com o nome dela. "Depois eu vejo" é aceitável como fala de ficção. Há falas da v1.2 reaproveitadas além das listadas (bloco 6 e legenda). Contagem: 179 palavras, confere; duração real estimada em 90 a 92 segundos.
 3. **Pendências:** rodapé preenchido; parecer do advogado (art. 11, I); aprovação do Rafael (mote, narrador, Dr. fora); locução cronometrada; perfil do Instagram com os dados do art. 4º (art. 6º); briefing de mídia; Manual da Codame não aberto.
 4. **Fase seguinte:** o `copywriter` faz os três ajustes de uma linha (A1, A2, A3) e decide sobre a frase do comprimido; depois o envio ao advogado e, em paralelo, o `traffic-strategist` monta o briefing de mídia e o corte curto, que volta ao `revisor`.
+
+---
+
+## Releitura da v1.1 — 05/11/2026
+
+Leitura rápida só das linhas alteradas, não uma revisão completa. Não reabri o texto oficial do CFM nem a Meta; valem as leituras acima.
+
+**Veredito: liberada com avisos.** Os avisos A1, A2, A3 e A6 foram resolvidos. A publicação continua dependendo do rodapé preenchido e do parecer do advogado (art. 11, I).
+
+**Conferido**
+- **Bloco 2:** frase do comprimido fora, imagem da janela ajustada ("durante as duas falas entre aspas"), sem comprimido em fala ou imagem. A6 resolvido.
+- **Bloco 5:** "É uma conferida." na fala, na música e no lettering. A3 resolvido.
+- **Bloco 6:** "Esse homem confere tudo." deixa de ser lido como do médico. A1 resolvido. Ressalva pequena: "esse homem" ainda pode, a rigor, retomar o médico; o bloco 4 já usa "esse homem" para o personagem, o que ajuda. Aceito.
+- **Legenda:** abre com "AndroClinic.", o que atende A10. Passou.
+- **Contagem:** 180 palavras faladas (26, 34, 18, 25, 21, 31, 25), confere. O bloco 2 perdeu 12 palavras e o 7 ganhou 11, então a duração fica em cerca de 90 a 91 s, como o copywriter diz. Segue no teto; só a locução cronometrada confirma.
+
+**Respostas**
+1. **A ponte separa o check-up da consulta?** Sim. "O check-up é com o médico de cada um" põe o check-up fora da clínica, e a única coisa afirmada da consulta é "é por vídeo", fato do briefing. Não promete nada e não faz da consulta o check-up. É melhor do que a ponte da v1.2.
+2. **"A consulta sobre esse assunto é outra" tem problema?** Meta: nenhum, é terceira pessoa e não afirma condição de quem vê. Art. 11, I: não piora nem melhora; continua o ponto A4 para o advogado. Aviso de leitura: "é outra: é por vídeo" fica um pouco truncado, porque "outra" pede um complemento e "por vídeo" é o que a faz diferente; em voz alta funciona, mas vale ouvir uma leitura.
+3. **Sem a big idea, falta inimigo ou tese?** Não. O inimigo é o "fica para depois" e o "é só a idade", com "Depois eu vejo" como cena. A tese é "check-up não é confissão, é uma conferida" e o mote. Sai só o contraste com o comprimido, que era o que gerava o risco A6. Para uma peça de marca, está suficiente.
+4. **Troca por "a consulta sobre a ereção": aprovo.** O problema do copywriter procede, e é pior do que ele registra: a frase vem logo depois de "O check-up é com o médico de cada um", então "esse assunto" pode retomar "check-up" e a leitura vira "a consulta sobre check-up é por vídeo", justamente o que a ponte quer evitar. Nomear a ereção resolve isso. Preço: a clínica passa a dizer em voz alta que oferece consulta sobre uma condição específica, e o véu de "esse assunto" some. Isso reforça o item A4 (art. 11, I); mandar ao advogado já com a frase nessa forma. Aplicar igual na legenda ("A consulta sobre esse assunto, na AndroClinic").
+
+**Pendências que continuam:** rodapé preenchido; parecer do advogado; aprovação do Rafael (mote, narrador, Dr. fora); locução cronometrada; perfil do Instagram com os dados do art. 4º (art. 6º); briefing de mídia.
+
+**Aplicado (coordenação, v1.2):** a troca para "a consulta sobre a ereção" entrou na ponte (bloco 7), no respiro 3 e na legenda do orgânico. O advogado deve receber a frase nesta forma.
