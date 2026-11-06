@@ -31,7 +31,7 @@ Comece leve. Faça uma pergunta por vez e deixe ela falar até o fim, sem comple
 2. O que te fez parar aqui?
 
 **Sobre a provinha (o centro)**
-3. Qual você provou primeiro? Por quê esse?
+3. Qual você provou primeiro? Por que esse?
 4. Descreve o gosto para quem está em casa.
 5. Era o que você esperava? O que te surpreendeu?
 6. Qual você levaria? (se ela já comprou: qual levou e por quê esse)
