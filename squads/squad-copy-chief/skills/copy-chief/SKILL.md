@@ -52,13 +52,22 @@ Palavras que confundem: **"lead"** aqui é a abertura da copy (primeiros parágr
    - Porta-voz: quem assina e materiais dele (vídeos, textos).
    - Existe um controle (peça atual) e seus números?
    - Nicho regulado?
-3. **Não segure o trabalho** por falta de resposta. Registre no `00-briefing.md` o que é FATO, o que é SUPOSIÇÃO e o que está `[A PREENCHER]`, avise o Rafael do risco e siga.
+3. **Feche as decisões que derrubam a peça antes de escrever.** Depois da pesquisa (ou da triagem, se não houver pesquisa), mande ao Rafael **uma única mensagem** com tudo o que, se mudar depois, obriga a reescrever: como o preço e o desconto aparecem (preço em reais? riscado? "de/por"?), o que entra e o que sai da oferta (produtos, kits, brindes), quais provas podem ser usadas (depoimentos, validade, mídia, credenciais), prazo e regra de fim, e o que a pesquisa achou de risco. Pergunte em formato de decisão (opção recomendada + alternativa), não em lista aberta. Só chame os agentes de escrita depois da resposta. Cada resposta vai para o `00-briefing.md` **com as palavras do Rafael e o alcance exato** (ex.: "sem preço riscado em lugar nenhum: página, cartão e carrinho"), para nenhum agente interpretar.
+4. **O resto não segura o trabalho.** Lacunas que não mudam a estrutura (frete, Pix, prazo de postagem, horário de atendimento) ficam `[A PREENCHER]` na peça. Registre no `00-briefing.md` o que é FATO, SUPOSIÇÃO e `[A PREENCHER]`, avise o Rafael do risco e siga.
 
 Escreva o `00-briefing.md` com: pedido nas palavras do Rafael, formato, público, objetivo, oferta, provas, porta-voz, restrições, prazos, nicho regulado (sim/não), e a lista de pendências.
 
 ## Fluxos
 
-**Promoção completa (o método inteiro):**
+**Escolha o fluxo pelo tamanho da demanda.** Cada agente começa do zero e relê arquivos, então cada agente a mais custa caro. O padrão é o modo enxuto; o método completo só quando o Rafael pedir ou a promoção for grande (várias peças, lançamento, VSL longa com sequência de e-mails).
+
+**Modo enxuto — padrão para uma peça (uma página, uma VSL, uma carta, uma sequência curta). No máximo 3 agentes:**
+1. `cc-pesquisador` — só se não houver pesquisa na pasta. Peça um documento curto: produto, concorrentes, linguagem do público, riscos de conformidade e veredito. Sem roteiro de entrevista nem swipe extenso, a não ser que o Rafael peça.
+2. **Decisões fechadas com o Rafael** (Triagem, passo 3), numa só mensagem.
+3. `cc-redator-corpo` — escreve a peça inteira de uma vez: plataforma (big idea, nível, esqueleto) no topo do arquivo, depois abertura, bullets, corpo, oferta, garantia e fechamento. Mande ler também as skills `cc-big-idea-e-tema`, `cc-headlines`, `cc-leads`, `cc-bullets`, `cc-fechamento`, `cc-oferta-e-garantia` e `cc-conformidade`. Entrega `09-peca-final.md` com 2 headlines finalistas e só o que vai para a página.
+4. `cc-revisor-chefe` — uma revisão. Os ajustes de texto o Copy Chief aplica direto na peça; só volta a um agente se a revisão pedir reescrita de estrutura.
+
+**Promoção completa (o método inteiro, só quando pedido):**
 1. `cc-pesquisador`
 2. `cc-oferta` e `cc-beneficios-e-provas` — em paralelo (os dois dependem só da pesquisa; o de benefícios usa a oferta se ela já existir, senão o briefing)
 3. `cc-estrategista`
@@ -87,6 +96,13 @@ Inclua sempre:
 - O pedido do Rafael com as palavras dele.
 - Preferências: formato, tamanho, tom, palavras proibidas.
 - "Siga `squads/squad-copy-chief/PROTOCOLO.md`."
+
+Para gastar menos:
+- **Diga exatamente o que ler.** Normalmente o `00-briefing.md` e o arquivo da fase anterior. Não mande ler a pasta inteira nem arquivos desatualizados.
+- **Peça a entrega enxuta:** só o que vai ser usado, ranqueado. Sem listas de candidatos cortados, sem histórico de versões dentro do arquivo, sem repetir o briefing.
+- **Retorno curto:** no máximo 15 linhas para o Copy Chief (o que entregou, decisões, pendências).
+- **Decisão nova do Rafael no meio do trabalho:** atualize o briefing e avise os agentes que estão rodando numa só mensagem. Se a decisão derruba a estrutura, pare e reescreva uma vez só, no fim, em vez de refazer fase por fase.
+- **Não rode duas fases que se contradizem em paralelo** quando houver decisão do Rafael pendente que afete as duas.
 
 Os agentes do squad são instalados em `.claude/agents/`. Se um agente foi criado ou editado no meio da sessão, ele só fica disponível na próxima sessão; até lá, chame um agente `general-purpose` mandando ler e seguir `squads/squad-copy-chief/agents/<nome>.md`.
 
