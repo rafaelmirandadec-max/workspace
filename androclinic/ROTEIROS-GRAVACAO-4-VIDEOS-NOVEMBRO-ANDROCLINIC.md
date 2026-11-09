@@ -168,7 +168,7 @@ Para o Dr. aprovar: a frase "A ereção que falha tem causas clínicas reais". E
 
 Os vídeos B1 e B2 usam trechos das lives já cortados (aulas 8 e 9). A mulher grava só a abertura e o fecho. O trecho do Dr. vem do vídeo original da live, do corte já marcado.
 
-**Atriz.** Natural, sem figurino de médica, sem jaleco. Cenário de casa: sala ou cozinha, luz natural. Ela grava de pé, em plano médio, com o celular na mão no B2. Legenda "Cena encenada. Atriz." durante toda a abertura e o fecho.
+**Atriz.** Natural, sem figurino de médica, sem jaleco. Cenário de casa: sala ou cozinha, luz natural. Ela grava em plano médio, de pé no B1 e sentada no sofá no B2, com o celular na mão no B2. Legenda "Cena encenada. Atriz." durante toda a abertura e o fecho.
 
 ---
 
