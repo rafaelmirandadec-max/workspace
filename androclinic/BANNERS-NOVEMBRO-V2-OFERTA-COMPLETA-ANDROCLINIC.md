@@ -26,7 +26,7 @@ Nos banners do Funil B, o rodapé também diz: **O mapa não é diagnóstico.**
 - Headline com pelo menos 60 pontos em arte 1080 por 1350.
 - Preço "R$ 97" em destaque, maior que o resto.
 - Selo "50% OFF" em verde ao lado do preço.
-- No máximo 20% do texto da arte nas bordas. O resto vai na legenda.
+- Pouco texto na arte. O que não cabe vai na legenda.
 - Contraste alto: texto branco sobre azul-escuro.
 
 ---
