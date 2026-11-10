@@ -172,7 +172,7 @@ Cuidado: tom firme, sem culpa.
 
 ## Dois testes durante os 14 dias
 
-1. **CTA:** reels 1, 3, 5, 7 e 9 com CTA duplo. Reels 2, 4, 6, 8 e 10 com o link da bio no mesmo lugar, mas com CTA de conversa menor. Métrica: comentários por reel.
+1. **CTA de conversa:** compare palavra-código no comentário (reels 1, 3, 4, 8 e 10) com salvar ou mandar (reels 2, 5, 6 e 7). O reel 9 é o controle. Métrica: comentários, salvamentos e compartilhamentos por reel.
 2. **Capa:** compare a família A, B e C no mesmo tema. Métrica: views nas primeiras 48 horas.
 
 ## Metas dos 14 dias
