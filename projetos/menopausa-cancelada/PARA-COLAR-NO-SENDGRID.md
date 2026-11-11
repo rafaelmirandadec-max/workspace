@@ -170,3 +170,36 @@ A live começou.
 *Aviso (só se não houver oferta):* A live tem caráter informativo e não substitui consulta nem orientação de profissional de saúde.
 
 [NOME DO REMETENTE]
+
+---
+
+## 4. Promoção do Shot da Libido (informa o produto e a oferta, sem prometer efeito)
+Preencha: `[OFERTA VIGENTE]` (preço e condição reais de hoje, um só) · `[PRAZO DA PROMOÇÃO]` (data real do fim) · `[LINK DA COMPRA]`.
+Use só o preço e o prazo que valem de verdade na loja no dia do envio.
+
+**Assunto:** Shot da Libido: [OFERTA VIGENTE] até [PRAZO DA PROMOÇÃO]
+**Pré-cabeçalho:** Dois sabores, 30 doses por pote. Veja a oferta.
+
+Olá, [PRIMEIRO NOME]
+
+A promoção do Shot da Libido vai até [PRAZO DA PROMOÇÃO].
+
+**Oferta:** [OFERTA VIGENTE]
+
+**O produto**
+- Suplemento alimentar em pó, 30 doses de 5 g por pote.
+- Sabores: Melancia e Morango com Maracujá.
+- Como usar: misture uma dose (uma medida do pó) em um copo com água, uma vez por dia.
+- Cada dose tem, entre outros itens: zinco (10 mg), vitamina B6 (1,3 mg), L-citrulina (900 mg), L-tirosina (263 mg), L-triptofano (100 mg), procianidinas (100 mg), trans-resveratrol (100 mg), coenzima Q10 (100 mg) e ácido hialurônico (80 mg).
+
+**[BOTÃO: Ver a oferta]** → [LINK DA COMPRA]
+
+**Avisos**
+Este produto não é um medicamento. Não deve ser consumido por gestantes, lactantes e crianças. Produto indicado para maiores de 19 anos. Não exceder a recomendação diária indicada na embalagem. Pode conter derivados de soja e leite. Não contém glúten. Contém citrulina.
+
+[NOME DO REMETENTE]
+
+—
+[ENDEREÇO/IDENTIFICAÇÃO DO ANUNCIANTE]
+Você recebeu este e-mail porque autorizou o envio de e-mails da [NOME DA MARCA]. Este é um e-mail comercial.
+Não quer mais receber? [LINK DE DESCADASTRO]
