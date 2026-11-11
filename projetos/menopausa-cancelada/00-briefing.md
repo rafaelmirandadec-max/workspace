@@ -55,6 +55,7 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 - **Pendências do cliente que travam peças:** alegações aprovadas por constituinte; parecer sobre o nome; registro do produto.
 
 ## Histórico
+- v0.5 · 11/11/2026 · Rafael não tem acesso à lista de alegações aprovadas nem ao texto da caixa de consentimento (documentos da gerência). Criado pedido pronto para o gerente de marketing (pedido-ao-gerente-de-marketing.md). Até a resposta, o squad trabalha só com o que não depende deles.
 - v0.4 · 11/11/2026 · Rafael informou que o parecer sobre o nome e as alegações está resolvido. Documento pendente de envio ao squad.
 - v0.3 · 11/11/2026 · Rafael informou que a caixa separada de consentimento para e-mail já existe no formulário.
 - v0.2 · 11/11/2026 · Rafael informou a coleta: formulário no grupo com e-mail e botão genérico de aceite. Texto exato pendente.
