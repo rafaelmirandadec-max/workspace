@@ -13,26 +13,16 @@ Já preenchidos com os dados da empresa (rótulo e loja, lidos em 11/11/2026). E
 ---
 
 ## 1. Boas-vindas
-**Assunto:** Combinado: o que vamos enviar e com que frequência
-**Pré-cabeçalho:** O que você vai receber, de quanto em quanto tempo, e como parar quando quiser.
+**Assunto:** Você está na lista da Menopausa Cancelada
+**Pré-cabeçalho:** Conteúdos, avisos de live e novidades, a cada 15 dias.
 
 Olá,
 
-Você recebe este e-mail porque, ao se cadastrar no formulário do grupo, marcou a caixa que autoriza a Menopausa Cancelada a enviar e-mails para este endereço. Esta mensagem serve para combinar o que você vai receber.
+A cada 15 dias você vai receber aqui conteúdos sobre suplementos e alimentação, avisos das nossas lives e, de vez em quando, novidades e promoções dos produtos.
 
-**O que vem a seguir**
-- Conteúdos sobre suplementos alimentares e alimentação, em linguagem simples, com a fonte citada.
-- Avisos das lives da Menopausa Cancelada.
-- De vez em quando, avisos de novidades e promoções dos nossos produtos. Esses e-mails vêm identificados como comerciais.
+**[BOTÃO: Conhecer a loja]** → https://menopausacancelada.com.br
 
-**Com que frequência**
-Um e-mail a cada 15 dias. Em semanas de live ou de promoção, podem chegar mensagens a mais.
-
-**Para sair**
-Você pode parar de receber a qualquer momento pelo link "Não quer mais receber?", no fim de qualquer e-mail nosso. Para sair agora: {{{unsubscribe}}}.
-
-**Um pedido**
-Para as próximas mensagens não irem parar no spam, adicione o endereço que enviou este e-mail aos seus contatos.
+Para não perder nossos e-mails, adicione este endereço aos seus contatos.
 
 Equipe Menopausa Cancelada
 
