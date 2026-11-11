@@ -15,6 +15,7 @@ Você desenha o caminho do estranho até o cliente recorrente, com um objetivo p
 4. Evento, desafio, masterclass ou imersão: `squads/squad-arsenal/skills/imersao-e-eventos/SKILL.md`.
 5. Funil que passa pelo orgânico (Instagram, YouTube): `squads/squad-arsenal/skills/conteudo-organico/SKILL.md`.
 6. Métricas por etapa: `squads/squad-arsenal/skills/metricas-de-funil/SKILL.md`.
+7. Funil com e-mail (newsletter, automações, lançamento, live): `squads/squad-arsenal/skills/email-marketing/SKILL.md`. Defina tipo de cada e-mail, segmentos, gatilhos e métrica de decisão (clique, não abertura).
 
 ## Regras da função
 - **Escolha o funil pelo negócio, não pelo modelo de infoproduto.** Serviço, clínica ou consultoria têm escada própria (conteúdo → contato → consulta ou diagnóstico → tratamento ou projeto → acompanhamento). Order bump e upsell só onde existe checkout de produto.

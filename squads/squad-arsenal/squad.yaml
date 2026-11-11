@@ -1,12 +1,12 @@
 pack:
   name: squad-arsenal
-  version: 5.0.0
+  version: 5.1.0
   description: "Arsenal de Funis — 10 agentes especialistas para funis de venda e conteúdo: pesquisa, público, oferta, funil e eventos, voz, copy, conteúdo orgânico, mídia paga, métricas e revisão. A coordenação é feita pela conversa principal (CLAUDE.md)."
   icon: "🎯"
   coordenacao: "CLAUDE.md na raiz do repositório"
   protocolo: "squads/squad-arsenal/PROTOCOLO.md"
   created: "2026-09-02"
-  updated: "2026-10-13"
+  updated: "2026-11-11"
 
 agents:
   - researcher          # Pesquisa de mercado, concorrentes, anúncios, linguagem do público, briefing
@@ -28,10 +28,11 @@ skills:
   - oferta-irresistivel          # Promessa, mecanismo, stack, bônus, garantia, preço
   - copywriting-resposta-direta  # Consciência, sofisticação, big idea, 8 motivações, estruturas
   - conteudo-organico            # Funil Conhece, Gosta, Confia, Compra; pilares; formatos
+  - email-marketing              # Newsletter, automações, e-mail de live e promoção, entregabilidade, consentimento
   - extracao-comunicacao         # Perfil de Comunicação (versão rápida ou completa)
   - trafego-e-anuncios           # Estrutura de conta, ângulos, criativo, verba, leitura
   - metricas-de-funil            # KPIs, fórmulas, cascata, volume mínimo, projeção
-  - conformidade                 # Saúde, finanças, advocacia, CDC, LGPD, políticas de anúncio
+  - conformidade                 # Saúde, suplementos (Anvisa), finanças, advocacia, CDC, LGPD, políticas de anúncio
 
 pasta_do_projeto: |
   projetos/<cliente>/  (ou a pasta que o projeto já tem)
@@ -61,6 +62,11 @@ fluxos:
     - "funnel-architect → arquitetura do evento (skill imersao-e-eventos)"
     - "offer-architect → oferta do palco"
     - "copywriter → convite, aquecimento, página e pós-evento"
+  email:
+    - "funnel-architect → mapa de e-mails, segmentos e gatilhos (skill email-marketing)"
+    - "copywriter → texto dos e-mails (em nicho regulado, com a skill conformidade)"
+    - "revisor → liberação antes de colar na ferramenta de envio"
+    - "metrics-analyst → leitura por clique, resposta e descadastro"
   diagnostico:
     - "metrics-analyst → gargalo"
     - "agente da etapa → correção"

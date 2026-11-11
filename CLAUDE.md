@@ -25,6 +25,7 @@ A conversa principal é quem coordena o squad: faz a triagem, conversa com o Raf
 | Posicionamento, tom de voz, Perfil de Comunicação, personagem atraente | `brand-architect` |
 | Peças de conversão: página, VSL, e-mail, anúncio, roteiro, ângulos | `copywriter` |
 | Instagram e conteúdo orgânico: linha editorial, pilares, pautas, Reels, carrosséis | `content-strategist` |
+| E-mail marketing: newsletter, automações, e-mail de live e promoção, segmentação, entregabilidade | `funnel-architect` (mapa e gatilhos) + `copywriter` (texto), skill `email-marketing` |
 | Plano de mídia paga, estrutura de conta, públicos, briefing de criativo | `traffic-strategist` |
 | KPIs, gargalo do funil, unit economics, projeção, teste A/B | `metrics-analyst` |
 | Revisão independente: fatos, conformidade, coerência, texto que soa a IA | `revisor` |
