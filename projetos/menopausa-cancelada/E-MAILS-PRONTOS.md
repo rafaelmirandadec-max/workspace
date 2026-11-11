@@ -299,7 +299,7 @@ Na live de [DATA E HORA DA LIVE] abrimos as condições da Black November para o
 **2 potes:** R$ 139,90 cada (total R$ 279,80)
 Sedex grátis em todas as opções.
 
-Quem leva os 6 potes ganha de brinde o Femme Healthy, a calculadora de alimentos e o agente de nutrição no WhatsApp.
+Quem leva os 6 potes ganha de brinde o Femme Healthy, a calculadora de alimentos, o agente de nutrição no WhatsApp e o curso Libido & Lubrificação. E mais uma consulta de R$ 1.000 para o seu marido na AndroClinic, de cortesia.
 
 **[BOTÃO: Garantir minha condição]** → https://link.menopausacancelada.com.br/of-api
 **[BOTÃO: Entrar na live]** → [LINK DA LIVE]
