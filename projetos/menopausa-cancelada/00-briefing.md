@@ -32,6 +32,7 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 - **Domínio de envio e autenticação (SPF, DKIM, DMARC):** `[A PREENCHER]`.
 - **Origem dos leads hoje:** anúncios em que a pessoa **comenta pedindo acesso aos grupos**. FATO (Rafael, 11/11/2026).
 - **Coleta do e-mail:** a pessoa se cadastra num **formulário no grupo** e digita o e-mail; abaixo há **um botão para "aceitar todas as leis e regras"**. FATO (Rafael, 11/11/2026). Texto exato do botão e dos termos que ele abre, se há caixa separada para e-mail e se vem marcada: `[A PREENCHER]` (enviar print ou texto).
+- **Caixa de consentimento para e-mail:** o Rafael informa que o formulário **já tem caixa separada, desmarcada, para receber e-mails** (11/11/2026). FATO (Rafael). Texto exato, a partir de que data está no ar e se o jurídico aprovou o texto: `[A PREENCHER]`. Leads cadastrados **antes** da caixa: `[A PREENCHER]` (quantos e se o jurídico definiu o tratamento deles).
 - **ATENÇÃO — consentimento para e-mail (SUPOSIÇÃO do squad, não parecer):** um aceite genérico de "todas as leis e regras" provavelmente **não vale como consentimento para e-mail de marketing**; a LGPD pede finalidade determinada, e autorização genérica tende a ser nula (art. 8º, §4º — não conferido no texto oficial). Antes de enviar, o jurídico deve avaliar a base atual.
 - **(anterior) consentimento para e-mail:** comentar num anúncio para pedir acesso a um grupo **não é, por si só, consentimento para receber e-mail de marketing**. SUPOSIÇÃO do squad (não parecer): para a LGPD, o consentimento precisa ser claro e ligado à finalidade (art. 5º, XII e art. 8º, conforme `conformidade`). `[A PREENCHER]`: como o e-mail de cada lead é coletado (formulário no grupo? página de entrada?), qual texto a pessoa viu e se a finalidade "receber e-mails" estava clara. Sem isso, não montar envio para essa lista.
 - **Grupos:** plataforma (WhatsApp, Telegram, outra), quem administra e o que se fala lá: `[A PREENCHER]`. O grupo também é publicidade e entra na conformidade.
@@ -53,6 +54,7 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 - **Pendências do cliente que travam peças:** alegações aprovadas por constituinte; parecer sobre o nome; registro do produto.
 
 ## Histórico
+- v0.3 · 11/11/2026 · Rafael informou que a caixa separada de consentimento para e-mail já existe no formulário.
 - v0.2 · 11/11/2026 · Rafael informou a coleta: formulário no grupo com e-mail e botão genérico de aceite. Texto exato pendente.
 - v0.1 · 11/11/2026 · Rafael informou: marca é da empresa dele; quem assina é o gerente de marketing (com acesso ao SendGrid); leads vêm de comentários em anúncios pedindo acesso a grupos; existe responsável técnico ou parecer. Ainda sem resposta: produtos e preço, primeiro e-mail desejado.
 - v0 · 11/11/2026 · abertura do projeto com o que o Rafael informou na conversa. Nenhuma pesquisa feita ainda.
