@@ -1,11 +1,12 @@
 # Briefing — Menopausa Cancelada
 
-**Versão:** v0 (abertura) · 11/11/2026 · Responsável: Rafael Miranda
+**Versão:** v0.1 · 11/11/2026 · Responsável: Rafael Miranda
 **Regra de leitura:** FATO (dito pelo Rafael ou com fonte) · PISTA · SUPOSIÇÃO · `[A PREENCHER]` (só o Rafael ou o cliente respondem).
 
 ## Bloco 1 — Identificação
 - **Projeto:** Menopausa Cancelada. FATO (Rafael, 11/11/2026).
-- **Cliente / especialista:** `[A PREENCHER]` — a marca é do próprio Rafael ou de um cliente? Quem é a voz (porta-voz) nos e-mails?
+- **Cliente:** a marca pertence à empresa em que o Rafael trabalha. FATO (Rafael, 11/11/2026).
+- **Quem assina os e-mails:** o gerente de marketing da empresa, que também tem acesso ao SendGrid. FATO (Rafael). Nome, cargo e se ele é a voz (porta-voz) ou só o remetente: `[A PREENCHER]`. Como o aprovador e o operador são da empresa, as peças precisam do aval dele antes do envio.
 - **Nicho:** suplementos para mulheres em menopausa. FATO (Rafael).
 - **Canal:** e-mail (newsletter e funil), enviado pelo SendGrid. Orgânico e pago: `[A PREENCHER]`.
 - **Nicho regulado:** **sim — suplemento alimentar (Anvisa)**. Ler `squads/squad-arsenal/skills/conformidade/SKILL.md`, seção "Suplementos alimentares". Todo material passa pelo `revisor` antes de sair.
@@ -29,7 +30,9 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 ## Bloco 6 — Funil e e-mail
 - **Ferramenta de envio:** SendGrid. FATO (Rafael). Plano contratado e se inclui Marketing Campaigns e automação: `[A PREENCHER]`.
 - **Domínio de envio e autenticação (SPF, DKIM, DMARC):** `[A PREENCHER]`.
-- **Origem dos leads hoje** (página de captura, anúncio, live, orgânico): `[A PREENCHER]`.
+- **Origem dos leads hoje:** anúncios em que a pessoa **comenta pedindo acesso aos grupos**. FATO (Rafael, 11/11/2026).
+- **ATENÇÃO — consentimento para e-mail:** comentar num anúncio para pedir acesso a um grupo **não é, por si só, consentimento para receber e-mail de marketing**. SUPOSIÇÃO do squad (não parecer): para a LGPD, o consentimento precisa ser claro e ligado à finalidade (art. 5º, XII e art. 8º, conforme `conformidade`). `[A PREENCHER]`: como o e-mail de cada lead é coletado (formulário no grupo? página de entrada?), qual texto a pessoa viu e se a finalidade "receber e-mails" estava clara. Sem isso, não montar envio para essa lista.
+- **Grupos:** plataforma (WhatsApp, Telegram, outra), quem administra e o que se fala lá: `[A PREENCHER]`. O grupo também é publicidade e entra na conformidade.
 - **Tamanho da lista e como o consentimento foi obtido (data, texto, origem):** `[A PREENCHER]`. Sem consentimento registrado, a lista não deve ser usada.
 - **Lives:** plataforma, frequência, data da próxima: `[A PREENCHER]`.
 - **Dado de lead:** lista, e-mails e nomes **não entram neste repositório nem no Drive**.
@@ -42,10 +45,11 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 
 ## Bloco 10 — Conformidade
 - **Órgão que regula:** Anvisa (suplementos alimentares). Publicidade também sob CDC; dados sob LGPD.
-- **Responsável técnico ou regulatório que aprova as peças:** `[A PREENCHER]`.
+- **Responsável técnico ou regulatório:** o Rafael respondeu **"sim" (11/11/2026)** à pergunta se existe responsável técnico ou parecer. `[A PREENCHER]`: quem é, se há **parecer escrito**, e se ele cobre (a) o **nome "Menopausa Cancelada"** e (b) as **alegações** de cada produto. Um "sim" genérico não libera o nome: o parecer precisa dizer isso.
 - **Obrigatórios em toda peça** (identificação do anunciante, avisos): `[A PREENCHER]` com o responsável técnico.
 - **RISCO ALTO — o nome "Menopausa Cancelada".** SUPOSIÇÃO do squad, não parecer: o nome afirma o fim de uma condição e pode ser lido como promessa terapêutica ou enganosa (RDC 243/2018, art. 17; CDC, art. 37; ver `conformidade`). Decisão do Rafael: pedir parecer regulatório antes de investir em peças com esse nome. Se o nome for mantido, todas as peças precisam trazer a alegação permitida, sem sugerir cura de sintomas.
 - **Pendências do cliente que travam peças:** alegações aprovadas por constituinte; parecer sobre o nome; registro do produto.
 
 ## Histórico
+- v0.1 · 11/11/2026 · Rafael informou: marca é da empresa dele; quem assina é o gerente de marketing (com acesso ao SendGrid); leads vêm de comentários em anúncios pedindo acesso a grupos; existe responsável técnico ou parecer. Ainda sem resposta: produtos e preço, primeiro e-mail desejado.
 - v0 · 11/11/2026 · abertura do projeto com o que o Rafael informou na conversa. Nenhuma pesquisa feita ainda.
