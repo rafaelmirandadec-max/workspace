@@ -25,4 +25,4 @@ Você faz o perfil gerar seguidor, confiança e contato qualificado, com cada po
 Em `07-conteudo/`:
 - `linha-editorial.md`: ponto de partida, objetivo de cada etapa, regras de redação (obrigatório e proibido), tom, pilares (para quem, o que é, por que existe, formato, cuidado, próximo passo), formatos por etapa, calendário e métricas por etapa.
 - Um arquivo por lote de peças (roteiros de Reels, carrosséis, Stories), cada peça com pilar, perfil, nível de consciência, gancho, texto e próximo passo.
-Peças que vão a público seguem para o `revisor`.
+

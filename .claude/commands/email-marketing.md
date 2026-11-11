@@ -10,7 +10,7 @@ skill:
   version: "1.0.0"
   updated: "2026-11-11"
   category: canais-e-retencao
-  agents: ["funnel-architect", "copywriter", "metrics-analyst", "revisor"]
+  agents: ["funnel-architect", "copywriter", "metrics-analyst"]
 ```
 
 > O que é **fato** (fonte oficial lida), o que é **referência de mercado** (blog de fornecedor) e o que é **heurística do método** está marcado em cada ponto. Regra de plataforma muda: confira a página oficial antes de configurar (links na seção 10).
@@ -116,7 +116,7 @@ O estilo geral está em `copywriting-resposta-direta`. Específico de e-mail:
 - **Texto simples vence enfeite.** Poucas imagens, nada importante só dentro de imagem, boa leitura no celular. Sempre inclua versão em texto puro junto com o HTML.
 - **P.S.** é a parte mais lida depois do assunto: use para o pedido ou o prazo.
 - **Rodapé obrigatório:** identificação de quem envia, motivo pelo qual a pessoa recebe, link de descadastro visível.
-- Nicho regulado: o texto passa pela `conformidade` e pelo `revisor` **antes** de ser colado na ferramenta.
+- Nicho regulado: o texto segue a `conformidade` **antes** de ser colado na ferramenta.
 
 ---
 
@@ -198,5 +198,5 @@ O método vale para qualquer ferramenta. Para decidir:
 - [ ] Teste de envio feito em Gmail, Outlook e Yahoo
 - [ ] Um objetivo e um clique por e-mail; versão em texto junto com o HTML
 - [ ] Urgência, preço e prazo verdadeiros; compradores excluídos da oferta
-- [ ] Nicho regulado: `conformidade` aplicada e `revisor` liberou
+- [ ] Nicho regulado: `conformidade` aplicada
 - [ ] Métrica de decisão definida antes (clique, resposta, conversão, descadastro)

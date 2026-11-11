@@ -32,4 +32,4 @@ Um arquivo por peça em `06-copy/`, com cabeçalho:
 - Big idea e ângulo
 - Suposições e marcadores de prova pendentes
 Depois o texto final. Para headlines e ângulos, entregue as opções ranqueadas com o motivo da ordem.
-Peças que vão a público seguem para o `revisor`.
+

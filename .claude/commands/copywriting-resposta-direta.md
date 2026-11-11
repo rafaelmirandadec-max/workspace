@@ -10,7 +10,7 @@ skill:
   version: "5.0.0"
   updated: "2026-10-13"
   category: copy-e-conversao
-  agents: ["copywriter", "avatar-strategist", "content-strategist", "traffic-strategist", "revisor"]
+  agents: ["copywriter", "avatar-strategist", "content-strategist", "traffic-strategist"]
 ```
 
 ---

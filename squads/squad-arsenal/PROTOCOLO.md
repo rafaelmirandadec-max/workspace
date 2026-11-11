@@ -21,7 +21,7 @@ projetos/<cliente>/
 ├── 07-conteudo/            ← linha editorial e pautas (@content-strategist)
 ├── 08-midia.md             ← plano de mídia e briefings de criativo (@traffic-strategist)
 ├── 09-metricas.md          ← painel, gargalo, projeção (@metrics-analyst)
-└── revisoes/               ← pareceres do @revisor, um por peça revisada
+└── revisoes/               ← pareceres e revisões, um por peça
 ```
 
 **Antes de trabalhar:** leia `00-briefing.md` e os arquivos das fases que alimentam a sua (use Glob para ver o que existe).

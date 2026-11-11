@@ -1,7 +1,7 @@
 pack:
   name: squad-arsenal
   version: 5.1.0
-  description: "Arsenal de Funis — 10 agentes especialistas para funis de venda e conteúdo: pesquisa, público, oferta, funil e eventos, voz, copy, conteúdo orgânico, mídia paga, métricas e revisão. A coordenação é feita pela conversa principal (CLAUDE.md)."
+  description: "Arsenal de Funis — 9 agentes especialistas para funis de venda e conteúdo: pesquisa, público, oferta, funil e eventos, voz, copy, conteúdo orgânico, mídia paga e métricas. A coordenação é feita pela conversa principal (CLAUDE.md)."
   icon: "🎯"
   coordenacao: "CLAUDE.md na raiz do repositório"
   protocolo: "squads/squad-arsenal/PROTOCOLO.md"
@@ -18,7 +18,6 @@ agents:
   - content-strategist  # Conteúdo orgânico: linha editorial, pilares, Reels, carrosséis
   - traffic-strategist  # Meta Ads e Google Ads: estrutura, públicos, criativos, verba
   - metrics-analyst     # KPIs, gargalo, unit economics, projeção, teste A/B
-  - revisor             # Revisão independente: fatos, conformidade, coerência, texto
 
 skills:
   - pesquisa-mercado             # Metodologia multi-fonte, citação literal, gaps, dossiê
@@ -46,17 +45,14 @@ fluxos:
     - "offer-architect → oferta   (em paralelo: brand-architect → voz)"
     - "funnel-architect → arquitetura"
     - "copywriter e/ou content-strategist → peças"
-    - "revisor → liberação"
     - "traffic-strategist → mídia"
     - "metrics-analyst → metas e acompanhamento"
   peca_pontual:
     - "copywriter ou content-strategist, com o que houver na pasta"
-    - "revisor"
   conteudo_organico:
     - "researcher → buscas e comentários do público"
     - "avatar-strategist → perfis e níveis"
     - "content-strategist → linha editorial e pautas"
-    - "revisor"
   evento:
     - "researcher → pesquisa do nicho"
     - "funnel-architect → arquitetura do evento (skill imersao-e-eventos)"
@@ -65,7 +61,6 @@ fluxos:
   email:
     - "funnel-architect → mapa de e-mails, segmentos e gatilhos (skill email-marketing)"
     - "copywriter → texto dos e-mails (em nicho regulado, com a skill conformidade)"
-    - "revisor → liberação antes de colar na ferramenta de envio"
     - "metrics-analyst → leitura por clique, resposta e descadastro"
   diagnostico:
     - "metrics-analyst → gargalo"
@@ -74,4 +69,4 @@ fluxos:
 regras_comuns:
   - "Nenhuma fase bloqueia outra: trabalhar com o que existe e marcar FATO, PISTA, SUPOSIÇÃO, [A PREENCHER]"
   - "Quantidade é teto, não cota; nunca completar lista com material inventado"
-  - "Nicho regulado passa pela skill conformidade e pelo revisor"
+  - "Nicho regulado passa pela skill conformidade"
