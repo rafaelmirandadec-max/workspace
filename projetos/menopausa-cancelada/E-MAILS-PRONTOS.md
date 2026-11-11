@@ -281,3 +281,34 @@ Equipe Menopausa Cancelada
 Menopausa Cancelada LTDA · CNPJ 47.019.967/0001-89 · Florianópolis/SC · CEP 88.137-100 · SAC: menofarma@gmail.com
 Você recebeu este e-mail porque autorizou o envio de e-mails da Menopausa Cancelada. Este é um e-mail comercial.
 Não quer mais receber? {{{unsubscribe}}}
+
+---
+
+## 8. Black November: oferta do Shot da Libido na live
+Preencha só: `[DATA E HORA DA LIVE]` e `[LINK DA LIVE]`.
+
+**Assunto:** Black November: Shot da Libido a partir de R$ 99,90 o pote
+**Pré-cabeçalho:** Condições só durante a live. Sedex grátis em todas as opções.
+
+Olá,
+
+Na live de [DATA E HORA DA LIVE] abrimos as condições da Black November para o Shot da Libido. Valem durante a live e enquanto durar o estoque.
+
+**6 potes:** R$ 99,90 cada (total R$ 599,40)
+**4 potes:** R$ 119,90 cada (total R$ 479,60)
+**2 potes:** R$ 139,90 cada (total R$ 279,80)
+Sedex grátis em todas as opções.
+
+Quem leva os 6 potes ganha de brinde o Femme Healthy, a calculadora de alimentos e o agente de nutrição no WhatsApp.
+
+**[BOTÃO: Garantir minha condição]** → https://link.menopausacancelada.com.br/of-api
+**[BOTÃO: Entrar na live]** → [LINK DA LIVE]
+
+Suplemento alimentar. Não é um medicamento. Indicado para maiores de 19 anos. Não deve ser consumido por gestantes e lactantes.
+
+Equipe Menopausa Cancelada
+
+—
+Menopausa Cancelada LTDA · CNPJ 47.019.967/0001-89 · Florianópolis/SC · CEP 88.137-100 · SAC: menofarma@gmail.com
+Você recebeu este e-mail porque autorizou o envio de e-mails da Menopausa Cancelada. Este é um e-mail comercial.
+Não quer mais receber? {{{unsubscribe}}}
