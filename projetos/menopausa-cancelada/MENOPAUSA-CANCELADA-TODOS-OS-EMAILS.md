@@ -10,6 +10,7 @@ Documento único para o gerente de marketing. Cada e-mail tem assunto, pré-cabe
 - Parte 4 · Black November: quem comprou 2 potes
 - Parte 5 · Black November: quem comprou 4 potes
 - Parte 6 · Black November: quem comprou 6 potes
+- Parte 7 · Newsletter, edição 2
 
 
 ---
@@ -37,6 +38,7 @@ Quando alguém comprar, tire da sequência "não comprou" na hora e coloque no s
 |---|---|---|
 | Parte 2, seção 1 (boas-vindas) | Quem acabou de entrar na lista | Ao entrar |
 | Parte 2, seção 2 (newsletter 1) | Toda a lista Opt-in | Primeira quinzena |
+| Parte 7 (newsletter, edição 2) | Toda a lista Opt-in | Quinze dias depois da edição 1 |
 | Parte 2, seções 4 a 8 (um produto por vez; a 8 é a Black November na live) | Opt-in, um produto por vez | Quando quiser promover |
 | Parte 3 (não comprou) | Viu a live e não comprou | Dia 1 logo após a live, depois dias 2, 3, 4 e 5 |
 | Parte 4 (comprou 2 potes) | Comprou 2 potes | Dias 1, 2, 4 e 6 após a compra |
@@ -989,4 +991,48 @@ Suplemento alimentar. Não é um medicamento. Indicado para maiores de 19 anos. 
 
 Menopausa Cancelada LTDA · CNPJ 47.019.967/0001-89 · Florianópolis/SC · CEP 88.137-100 · SAC: menofarma@gmail.com
 Você recebeu este e-mail porque autorizou o envio de e-mails da Menopausa Cancelada. Este é um e-mail comercial.
+Não quer mais receber? {{{unsubscribe}}}
+
+---
+
+## Parte 7 · Newsletter, edição 2
+
+**Assunto:** O que "auxilia" quer dizer no rótulo
+**Pré-cabeçalho:** Quatro nutrientes e as frases que a Anvisa autoriza para cada um.
+
+**Newsletter Menopausa Cancelada · Edição 2**
+
+Olá,
+
+Quando um rótulo diz que um nutriente "auxilia" em algo, a frase não foi inventada pela marca. Ela vem de uma lista oficial da Anvisa, o Anexo V da IN 28/2018.
+
+Como ler: "auxilia" e "contribui" falam de apoio ao funcionamento normal do corpo. Não falam de tratamento.
+
+**Zinco**
+"O zinco auxilia no funcionamento do sistema imune."
+"O zinco contribui para a manutenção do cabelo, da pele e das unhas."
+"O zinco auxilia na manutenção de ossos."
+
+**Vitamina C**
+"A vitamina C auxilia na formação do colágeno."
+"A vitamina C auxilia na absorção de ferro dos alimentos."
+
+**Vitamina E**
+"A vitamina E é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres."
+
+**Biotina**
+"A biotina contribui para a manutenção do cabelo e da pele."
+"A biotina auxilia no metabolismo energético."
+
+Um aviso: a frase só vale para o suplemento que tem o nutriente na quantidade mínima definida pela norma, e suplemento não trata nem previne doença.
+
+**[BOTÃO: Ler a norma da Anvisa]** → https://antigo.anvisa.gov.br/documents/10181/3898888/%289%29IN_28_2018_COMP.pdf/96d76e7f-78c3-4fce-a2b2-561805d9b4b3
+
+Equipe Menopausa Cancelada
+
+P.S. Quer ver como a nossa loja apresenta cada produto? Fica em https://menopausacancelada.com.br
+
+—
+Menopausa Cancelada LTDA · CNPJ 47.019.967/0001-89 · Florianópolis/SC · CEP 88.137-100 · SAC: menofarma@gmail.com
+Você recebeu este e-mail porque autorizou o envio de e-mails da Menopausa Cancelada.
 Não quer mais receber? {{{unsubscribe}}}

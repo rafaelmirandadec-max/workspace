@@ -21,6 +21,7 @@ Quando alguém comprar, tire da sequência "não comprou" na hora e coloque no s
 |---|---|---|
 | Parte 2, seção 1 (boas-vindas) | Quem acabou de entrar na lista | Ao entrar |
 | Parte 2, seção 2 (newsletter 1) | Toda a lista Opt-in | Primeira quinzena |
+| Parte 7 (newsletter, edição 2) | Toda a lista Opt-in | Quinze dias depois da edição 1 |
 | Parte 2, seções 4 a 8 (um produto por vez; a 8 é a Black November na live) | Opt-in, um produto por vez | Quando quiser promover |
 | Parte 3 (não comprou) | Viu a live e não comprou | Dia 1 logo após a live, depois dias 2, 3, 4 e 5 |
 | Parte 4 (comprou 2 potes) | Comprou 2 potes | Dias 1, 2, 4 e 6 após a compra |
