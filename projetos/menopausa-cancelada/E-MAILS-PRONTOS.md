@@ -301,6 +301,8 @@ Sedex grátis em todas as opções.
 
 Quem leva os 6 potes ganha de brinde o Femme Healthy, a calculadora de alimentos, o agente de nutrição no WhatsApp e o curso Libido & Lubrificação. E mais uma consulta de R$ 1.000 para o seu marido na AndroClinic, de cortesia.
 
+Se você comprasse separadamente os 6 potes, os brindes e os bônus, a soma chegaria a **R$ 3.336,00**. Na live, você leva tudo por **R$ 599,40**.
+
 **[BOTÃO: Garantir minha condição]** → https://link.menopausacancelada.com.br/of-api
 **[BOTÃO: Entrar na live]** → [LINK DA LIVE]
 
