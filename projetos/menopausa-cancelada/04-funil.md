@@ -35,7 +35,7 @@ Sem oferta definida, a escada abaixo é um esqueleto. Cada degrau tem o papel de
 
 ## 2. Segmentação por comportamento (sem condição de saúde)
 
-**Regra:** etiqueta descreve o que a pessoa **fez**, nunca o que ela **tem**. Base: LGPD, art. 5º, II e art. 11 (conferido em fonte secundária oficial; confirmar no texto do Planalto); skill `conformidade`, seção 6.
+**Regra:** etiqueta descreve o que a pessoa **fez**, nunca o que ela **tem**. Base: LGPD, art. 5º, II e art. 11 (conferido em fonte secundária oficial; confirmar no texto do Planalto); skill `conformidade` (LGPD, seção de dados pessoais).
 
 **Alerta específico deste projeto (SUPOSIÇÃO do squad, não parecer):** mesmo sem etiqueta, uma lista da marca "Menopausa Cancelada" pode indicar a fase de vida de cada pessoa só pelo nome da lista, pelo remetente ou pelo formulário. Pedir ao responsável jurídico se isso muda a base legal, o texto de consentimento e o nível de proteção da lista. Enquanto isso: não criar campo, etiqueta, lista ou nome de segmento com "menopausa", "fogacho", "sintoma" ou semelhante dentro do SendGrid; usar códigos neutros (ex.: S1, S2).
 

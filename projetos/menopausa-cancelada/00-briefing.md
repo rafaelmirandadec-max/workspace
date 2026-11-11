@@ -9,7 +9,7 @@
 - **Quem assina os e-mails:** o gerente de marketing da empresa, que também tem acesso ao SendGrid. FATO (Rafael). Nome, cargo e se ele é a voz (porta-voz) ou só o remetente: `[A PREENCHER]`. Como o aprovador e o operador são da empresa, as peças precisam do aval dele antes do envio.
 - **Nicho:** suplementos para mulheres em menopausa. FATO (Rafael).
 - **Canal:** e-mail (newsletter e funil), enviado pelo SendGrid. Orgânico e pago: `[A PREENCHER]`.
-- **Nicho regulado:** **sim — suplemento alimentar (Anvisa)**. Ler `squads/squad-arsenal/skills/conformidade/SKILL.md`, seção "Suplementos alimentares". Todo material passa pelo `revisor` antes de sair.
+- **Nicho regulado:** **sim — suplemento alimentar (Anvisa)**. Regras da Anvisa para suplemento: fonte primária, *Suplementos alimentares: perguntas e respostas* (Anvisa, 7ª ed., 2021; conferir versão vigente). A skill `conformidade` do squad não tem seção de suplementos (retirada a pedido do Rafael). Todo material passa pelo `revisor` antes de sair.
 
 ## Objetivo declarado (palavras do Rafael)
 Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos suplementos", e para **promoções, lançamentos, aberturas de lives** e "tudo que eu puder fazer de funil de marketing". FATO (Rafael, 11/11/2026).
