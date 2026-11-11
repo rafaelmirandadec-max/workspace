@@ -211,3 +211,99 @@ Produto indicado para o grupo populacional acima de 19 anos. Este produto não �
 [ENDEREÇO/IDENTIFICAÇÃO DO ANUNCIANTE]
 Você recebeu este e-mail porque autorizou o envio de e-mails da [NOME DA MARCA]. Este é um e-mail comercial.
 Não quer mais receber? [LINK DE DESCADASTRO]
+
+
+---
+
+## 5. Promoção do Femme Healthy
+Preencha: `[OFERTA VIGENTE]` · `[PRAZO DA PROMOÇÃO]` · `[LINK DA COMPRA]`. Só preço e prazo reais do dia.
+
+**Assunto:** Femme Healthy: [OFERTA VIGENTE] até [PRAZO DA PROMOÇÃO]
+**Pré-cabeçalho:** Suplemento de óleo de linhaça, prímula e borragem com vitamina E.
+
+Olá, [PRIMEIRO NOME]
+
+A promoção do Femme Healthy vai até [PRAZO DA PROMOÇÃO].
+
+**Oferta:** [OFERTA VIGENTE]
+
+**O produto**
+- Suplemento alimentar em cápsulas de óleo de linhaça, óleo de prímula e óleo de borragem, com fonte de vitamina E.
+- Como usar (rótulo da loja): 1 cápsula antes do almoço e outra antes do jantar, ou conforme orientação de médico ou nutricionista.
+- A vitamina E é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres.
+
+**[BOTÃO: Ver a oferta]** → [LINK DA COMPRA]
+
+**Avisos**
+Este produto não é um medicamento. Não deve ser consumido por gestantes, lactantes e crianças. Não exceder a recomendação diária. Manter fora do alcance de crianças. Contém derivados de peixe e soja. Não contém glúten.
+
+[NOME DO REMETENTE]
+
+—
+[ENDEREÇO/IDENTIFICAÇÃO DO ANUNCIANTE]
+Você recebeu este e-mail porque autorizou o envio de e-mails da [NOME DA MARCA]. Este é um e-mail comercial.
+Não quer mais receber? [LINK DE DESCADASTRO]
+
+---
+
+## 6. Promoção do Ômega 3
+**Assunto:** Ômega 3: [OFERTA VIGENTE] até [PRAZO DA PROMOÇÃO]
+**Pré-cabeçalho:** Óleo de peixe em cápsulas, com EPA, DHA e vitamina E.
+
+Olá, [PRIMEIRO NOME]
+
+A promoção do Ômega 3 vai até [PRAZO DA PROMOÇÃO].
+
+**Oferta:** [OFERTA VIGENTE]
+
+**O produto**
+- Suplemento alimentar de óleo de peixe com vitamina E, em cápsulas.
+- Fonte de ômega 3: cada porção (2 cápsulas) tem 660 mg de EPA e 440 mg de DHA.
+- Como usar (loja): 1 cápsula antes do almoço e outra antes do jantar, ou conforme orientação de médico ou nutricionista.
+- A vitamina E é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres.
+
+**[BOTÃO: Ver a oferta]** → [LINK DA COMPRA]
+
+**Avisos**
+Este produto não é um medicamento. Não deve ser consumido por gestantes, lactantes e crianças. Não exceder a recomendação diária de consumo indicada na embalagem. Manter fora do alcance de crianças. Contém derivados de peixe. Pode conter derivados de soja e leite. Não contém glúten.
+
+[NOME DO REMETENTE]
+
+—
+[ENDEREÇO/IDENTIFICAÇÃO DO ANUNCIANTE]
+Você recebeu este e-mail porque autorizou o envio de e-mails da [NOME DA MARCA]. Este é um e-mail comercial.
+Não quer mais receber? [LINK DE DESCADASTRO]
+
+---
+
+## 7. Promoção do Colágeno
+Preencha também `[SABORES]` (os que estão à venda hoje).
+
+**Assunto:** Colágeno: [OFERTA VIGENTE] até [PRAZO DA PROMOÇÃO]
+**Pré-cabeçalho:** Colágeno hidrolisado com vitamina C, biotina, zinco e mais.
+
+Olá, [PRIMEIRO NOME]
+
+A promoção do Colágeno vai até [PRAZO DA PROMOÇÃO].
+
+**Oferta:** [OFERTA VIGENTE]
+
+**O produto**
+- Suplemento alimentar em pó, 30 porções de 5 g. Sabores: [SABORES].
+- Cada porção tem: peptídeos de colágeno hidrolisado, vitamina C (200 mg), biotina (45 mcg), ácido pantotênico (5,5 mg), zinco (15 mg), ácido hialurônico (50 mg) e silício (15 mg).
+- A vitamina C auxilia na formação do colágeno.
+- A biotina contribui para a manutenção do cabelo e da pele.
+- O zinco contribui para a manutenção do cabelo, da pele e das unhas.
+- O ácido pantotênico auxilia no metabolismo energético.
+
+**[BOTÃO: Ver a oferta]** → [LINK DA COMPRA]
+
+**Avisos**
+Este produto não é um medicamento. [ADVERTÊNCIAS DO RÓTULO: copiar do rótulo do Colágeno] Pode conter derivados de leite e soja, se constar no rótulo.
+
+[NOME DO REMETENTE]
+
+—
+[ENDEREÇO/IDENTIFICAÇÃO DO ANUNCIANTE]
+Você recebeu este e-mail porque autorizou o envio de e-mails da [NOME DA MARCA]. Este é um e-mail comercial.
+Não quer mais receber? [LINK DE DESCADASTRO]

@@ -30,3 +30,31 @@ Nenhum ingrediente está proibido. Todos constam como autorizados na versão con
 - **Vitamina B6** (1,3 mg ≥ dobro do mínimo; abaixo do máx.): "A vitamina B6 auxilia na formação das células vermelhas do sangue." · "…no funcionamento do sistema imune." · "…no metabolismo energético." · "…no metabolismo de proteínas e do glicogênio." · "…no metabolismo de proteínas, carboidratos e gorduras." · "…no metabolismo de homocisteína." · "…na síntese de cisteína." · "Fonte de vitamina B6." · "Alto conteúdo/Rico em/Alto teor de vitamina B6." ("piridoxina" pode substituir "vitamina B6", IN 318/2024.) Atualização de 2026: "…auxilia na função normal do sistema nervoso" (fora do texto consolidado que li).
 - **Nenhuma alegação autorizada** no Anexo V para: L-tirosina, L-triptofano, coenzima Q10, ácido hialurônico, procianidinas, trans-resveratrol, L-citrulinilarginina, inulina nessas doses. Esses ingredientes só podem ser **listados**, sem dizer o que fazem.
 - Usar a frase **literal**, atribuída ao nutriente ("o zinco auxilia…"), nunca ao produto ("o Shot melhora…"), e sem incluir as frases do rótulo "Líbido", "Lubrificação", "Energia".
+
+---
+
+# Os outros três produtos (mesma fonte e mesmas ressalvas; composição da loja, 11/11/2026)
+
+Nenhum ingrediente proibido. Doses dentro dos limites para adultos, com observações abaixo.
+
+## Femme Healthy
+Óleo de linhaça, óleo de borragem, óleo de prímula, vitamina E (acetato de DL-alfa-tocoferol): todos constam como autorizados. Vitamina E 30 mg: limites 2,25 a 1.000 mg. Ácido alfa-linolênico 888 mg: limites 0,24 a 2,4 g.
+- **Alegação autorizada:** "A vitamina E é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres." (já está na embalagem). "Fonte de vitamina E." / "Alto conteúdo/Rico em/Alto teor de vitamina E."
+- Sem alegação autorizada para linhaça, borragem, prímula, ômega 3 (ALA), ômega 6 ou ômega 9.
+- A conferir com o fabricante: ácido linoleico 0,4 g na tabela, abaixo do mínimo de 2,55 g da lista, e a alergia a peixe/soja, que não tem ingrediente correspondente.
+
+## Ômega 3
+Óleo de peixe e acetato de D-alfa-tocoferol: autorizados. EPA + DHA 1.100 mg: dentro dos limites (adultos: mín. 37,5 mg, máx. 2.000 mg). Vitamina E 5 mg: dentro.
+- **Alegações autorizadas:** "Fonte de ômega 3." · "A vitamina E é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres."
+- **Não vale:** "Os ácidos graxos ômega 3 EPA e DHA auxiliam na redução dos triglicerídeos." exige no mínimo **1.500 mg** de EPA + DHA por dia; o produto tem 1.100 mg.
+- Não usar "alta absorção", "sem odor" nem o selo da embalagem como promessa.
+
+## Colágeno
+Colágeno hidrolisado (peptídeos "Verisol"), vitamina C, silício (ácido ortosilícico estabilizado em cloreto de colina), zinco (bisglicinato), ácido hialurônico, ácido pantotênico (B5), biotina (B7): todos constam. Doses (adultos): vitamina C 200 mg (13,5 a 1.916); zinco 15 mg (1,65 a 29,59); ácido hialurônico 50 mg (máx. 157,7); ácido pantotênico 5,5 mg (máx. 5,64, **perto do limite**); biotina 45 mcg (máx. 45, **no limite exato**); silício 15 mg (o máximo na lista consolidada aparece como 15,67 mg, leitura incerta).
+- **Alegações autorizadas:**
+  - Vitamina C: "A vitamina C auxilia na formação do colágeno." · "A vitamina C é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres." · "A vitamina C auxilia no funcionamento do sistema imune." · "A vitamina C auxilia na absorção de ferro dos alimentos."
+  - Biotina (ou "vitamina B7"): "A biotina contribui para a manutenção do cabelo e da pele." · "A biotina auxilia na manutenção das mucosas." · "A biotina auxilia no metabolismo energético."
+  - Zinco: "O zinco contribui para a manutenção do cabelo, da pele e das unhas." e as demais frases da lista do zinco acima.
+  - Ácido pantotênico (ou "vitamina B5"): "O ácido pantotênico auxilia no metabolismo energético."
+- Sem alegação autorizada para colágeno/peptídeos, silício nem ácido hialurônico. Eles só podem ser listados.
+- **Cuidado:** não escrever que "o colágeno melhora a pele". A frase de cabelo e pele só vale na boca da **biotina** e do **zinco**.
