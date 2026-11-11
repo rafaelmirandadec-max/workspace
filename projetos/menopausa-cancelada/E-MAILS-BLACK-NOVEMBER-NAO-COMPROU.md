@@ -39,25 +39,26 @@ Não quer mais receber? {{{unsubscribe}}}
 
 ## E-mail 2 · dia seguinte
 
-**Assunto:** O que tem em cada dose
-**Pré-cabeçalho:** Sem letra miúda: a lista completa e como usar.
+**Assunto:** Nove ingredientes em uma dose
+**Pré-cabeçalho:** Tudo declarado no rótulo, com a quantidade de cada um.
 
 Olá,
 
-O Shot da Libido é um suplemento em pó. Cada pote tem 30 doses de 5 g, nos sabores Melancia e Morango com Maracujá.
+Em uma dose de 5 g do Shot da Libido, nove ingredientes com a quantidade declarada. Nada escondido: está tudo no rótulo.
 
-Em cada dose:
-zinco 10 mg, vitamina B6 1,3 mg, L-citrulina 900 mg, L-tirosina 263 mg, L-triptofano 100 mg, procianidinas 100 mg, trans-resveratrol 100 mg, coenzima Q10 100 mg e ácido hialurônico 80 mg.
+Zinco 10 mg · vitamina B6 1,3 mg · L-citrulina 900 mg · L-tirosina 263 mg · L-triptofano 100 mg · procianidinas 100 mg · trans-resveratrol 100 mg · coenzima Q10 100 mg · ácido hialurônico 80 mg.
 
-O zinco é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres. A vitamina B6 auxilia no metabolismo energético.
+O zinco é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres e auxilia no funcionamento do sistema imune. A vitamina B6 auxilia no metabolismo energético.
 
-Como usar: 1 dose dissolvida em 200 ml de água, pela manhã, após a refeição.
+É um pó com sabor de melancia ou de morango com maracujá. Dissolva em 200 ml de água, pela manhã, após a refeição: poucos segundos que viram o seu ritual do dia.
+
+Seis potes saem a R$ 3,33 por dose, e a condição da live vale enquanto durar o estoque.
 
 **[BOTÃO: Quero o meu Shot]** → https://link.menopausacancelada.com.br/of-api
 
 Equipe Menopausa Cancelada
 
-P.S. A condição da live vale enquanto durar o estoque.
+P.S. Quem leva 6 potes ainda ganha o Femme Healthy, a calculadora de alimentos, o agente de nutrição no WhatsApp, o curso e uma consulta de R$ 1.000 para o marido na AndroClinic.
 
 Suplemento alimentar. Não é um medicamento. Indicado para maiores de 19 anos. Não deve ser consumido por gestantes e lactantes.
 
