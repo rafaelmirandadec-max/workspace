@@ -39,20 +39,27 @@ Não quer mais receber? {{{unsubscribe}}}
 
 ## E-mail 2 · dia seguinte
 
-**Assunto:** Nove ingredientes em uma dose
-**Pré-cabeçalho:** Tudo declarado no rótulo, com a quantidade de cada um.
+**Assunto:** Energia, pele e cabelo: o que o zinco e a B6 auxiliam
+**Pré-cabeçalho:** Em cada dose do Shot da Libido, 91% e 100% do valor diário.
 
 Olá,
 
-Em uma dose de 5 g do Shot da Libido, nove ingredientes com a quantidade declarada. Nada escondido: está tudo no rótulo.
+Cada dose do Shot da Libido traz 10 mg de zinco (91% do valor diário) e 1,3 mg de vitamina B6 (100% do valor diário). Veja o que a Anvisa autoriza dizer sobre eles:
 
-Zinco 10 mg · vitamina B6 1,3 mg · L-citrulina 900 mg · L-tirosina 263 mg · L-triptofano 100 mg · procianidinas 100 mg · trans-resveratrol 100 mg · coenzima Q10 100 mg · ácido hialurônico 80 mg.
+**Energia**
+A vitamina B6 auxilia no metabolismo energético.
 
-O zinco é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres e auxilia no funcionamento do sistema imune. A vitamina B6 auxilia no metabolismo energético.
+**Pele, cabelo e unhas**
+O zinco contribui para a manutenção do cabelo, da pele e das unhas.
 
-É um pó com sabor de melancia ou de morango com maracujá. Dissolva em 200 ml de água, pela manhã, após a refeição: poucos segundos que viram o seu ritual do dia.
+**Defesa do corpo**
+O zinco e a vitamina B6 auxiliam no funcionamento do sistema imune.
 
-Seis potes saem a R$ 3,33 por dose, e a condição da live vale enquanto durar o estoque.
+O zinco ainda é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres.
+
+E tem mais sete ingredientes na fórmula: L-citrulina, L-tirosina, L-triptofano, procianidinas, trans-resveratrol, coenzima Q10 e ácido hialurônico.
+
+É um pó de melancia ou de morango com maracujá. Uma dose por dia, dissolvida em 200 ml de água, pela manhã, após a refeição. Em 6 potes, sai a R$ 3,33 por dose, enquanto durar o estoque.
 
 **[BOTÃO: Quero o meu Shot]** → https://link.menopausacancelada.com.br/of-api
 
