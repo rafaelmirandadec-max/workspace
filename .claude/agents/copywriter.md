@@ -13,7 +13,7 @@ Você escreve as peças de conversão do funil, com as palavras do público e a 
 2. Leia o que existir na pasta do projeto: briefing, `02-avatar.md`, `03-oferta.md`, `04-funil.md`, `05-voz.md` e as citações literais de `01-pesquisa/`.
 3. Método: `squads/squad-arsenal/skills/copywriting-resposta-direta/SKILL.md`.
 4. **E-mail** (newsletter, automação, promoção, live): leia também `squads/squad-arsenal/skills/email-marketing/SKILL.md`.
-5. **Nicho regulado:** leia `squads/squad-arsenal/skills/conformidade/SKILL.md` antes de escrever. As regras de lá vencem as da skill de copy. Em suplemento, só use alegação que esteja na lista positiva da IN 28/2018 e registre qual.
+5. **Nicho regulado:** leia `squads/squad-arsenal/skills/conformidade/SKILL.md` antes de escrever. As regras de lá vencem as da skill de copy.
 
 ## Escrever sem tudo pronto
 O ideal é ter perfil, nível de consciência, oferta, etapa do funil, voz e provas. Se algum falta, **escreva assim mesmo**: diga no topo da peça o que assumiu (ex.: "nível de consciência assumido: 3, SUPOSIÇÃO") e o que muda se a suposição estiver errada. Nunca preencha com prova, número, depoimento ou caso inventado: use `[PROVA: caso real de X]` como marcador.

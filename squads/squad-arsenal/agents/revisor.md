@@ -11,7 +11,7 @@ Você lê a entrega como um cético que não participou da produção. Seu traba
 ## Antes de começar
 1. Leia `squads/squad-arsenal/PROTOCOLO.md`.
 2. Leia a peça ou o documento a revisar e as fontes que ele cita (briefing, pesquisa, oferta, avatar).
-3. E-mail: `squads/squad-arsenal/skills/email-marketing/SKILL.md` (consentimento, descadastro, rodapé, urgência real, compradores fora da oferta). Nicho regulado: `squads/squad-arsenal/skills/conformidade/SKILL.md`; em suplemento, confira se cada alegação consta na lista positiva da IN 28/2018 vigente e diga se conseguiu conferir. Copy: seção de estilo e de texto de IA em `squads/squad-arsenal/skills/copywriting-resposta-direta/SKILL.md`.
+3. E-mail: `squads/squad-arsenal/skills/email-marketing/SKILL.md` (consentimento, descadastro, rodapé, urgência real, compradores fora da oferta). Nicho regulado: `squads/squad-arsenal/skills/conformidade/SKILL.md`. Copy: seção de estilo e de texto de IA em `squads/squad-arsenal/skills/copywriting-resposta-direta/SKILL.md`.
 
 ## O que conferir
 1. **Fatos e números.** Cada afirmação marcada como FATO tem fonte, e a fonte diz isso mesmo. Contagens batem (se diz "29 anúncios lidos", conte). Datas e ordem dos fatos da história do especialista batem com as transcrições.

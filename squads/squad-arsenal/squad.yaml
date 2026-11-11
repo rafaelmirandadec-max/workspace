@@ -32,7 +32,7 @@ skills:
   - extracao-comunicacao         # Perfil de Comunicação (versão rápida ou completa)
   - trafego-e-anuncios           # Estrutura de conta, ângulos, criativo, verba, leitura
   - metricas-de-funil            # KPIs, fórmulas, cascata, volume mínimo, projeção
-  - conformidade                 # Saúde, suplementos (Anvisa), finanças, advocacia, CDC, LGPD, políticas de anúncio
+  - conformidade                 # Saúde, finanças, advocacia, CDC, LGPD, políticas de anúncio
 
 pasta_do_projeto: |
   projetos/<cliente>/  (ou a pasta que o projeto já tem)

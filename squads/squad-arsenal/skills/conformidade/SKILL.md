@@ -1,5 +1,5 @@
 ---
-description: "Conformidade em nichos regulados — saúde (CFM e outros conselhos, Anvisa), suplementos alimentares (alegações, IN 28/2018), finanças, advocacia, CDC, LGPD e políticas de anúncio; o que muda na oferta, na copy e no conteúdo"
+description: "Conformidade em nichos regulados — saúde (CFM e outros conselhos, Anvisa), finanças, advocacia, CDC, LGPD e políticas de anúncio; o que muda na oferta, na copy e no conteúdo"
 ---
 
 # Skill: Conformidade — Nichos Regulados
@@ -7,8 +7,8 @@ description: "Conformidade em nichos regulados — saúde (CFM e outros conselho
 ```yaml
 skill:
   id: conformidade
-  version: "5.1.0"
-  updated: "2026-11-11"
+  version: "5.0.0"
+  updated: "2026-10-13"
   category: risco-e-regulacao
   agents: ["offer-architect", "copywriter", "content-strategist", "traffic-strategist", "brand-architect", "revisor"]
 ```
@@ -54,27 +54,6 @@ Conferir no texto oficial antes de citar artigo:
 ### Outras profissões de saúde
 Cada conselho tem código de publicidade próprio (CFO, CFN, CFP, COFFITO, CFF, CFBM etc.). Identifique o conselho e leia o código antes de escrever.
 
-### Suplementos alimentares (Anvisa)
-Base lida: *Suplementos alimentares — perguntas e respostas*, 7ª edição, Anvisa, 05/04/2021 (documento oficial; as listas de alegações e constituintes são atualizadas depois dela, então **confira a versão vigente da IN 28/2018**). Normas citadas pela Anvisa: RDC 243/2018, IN 28/2018 (alterada pela IN 76/2020 e por atualizações), Decreto-Lei 986/1969 e RDC 259/2002. Infração sanitária: Lei 6.437/1977. A lista abaixo é leitura do squad, **não parecer**; ela precisa de conferência de um responsável técnico ou regulatório.
-
-**Princípio:** suplemento é alimento, não medicamento. Não trata, não previne e não cura doença, e a comunicação não pode sugerir isso.
-
-- **Regra de rotulagem vale para a propaganda.** Os textos e materiais de propaganda de alimentos, em qualquer veículo, seguem as regras de rotulagem (Decreto-Lei 986/1969, conforme Anvisa, pergunta 104). Post, e-mail, anúncio, live e página entram.
-- **Proibido afirmar ou sugerir, de forma expressa ou implícita**, por palavra, marca, imagem ou qualquer representação gráfica, que o produto: (a) tem finalidade medicamentosa ou terapêutica; (b) contém substância não autorizada ou proibida; (c) a alimentação comum não dá conta do que a saúde precisa; (d) é comparável ou superior a alimento convencional (RDC 243/2018, art. 17, conforme Anvisa, perguntas 106 e 109).
-- **Alegação de propriedade funcional ou de saúde só a da lista positiva** (IN 28/2018). Alegação medicamentosa descreve efeito no tratamento, cura ou prevenção de doença (ex.: "auxilia no tratamento da osteoporose"). Alegação de suplemento descreve o papel do nutriente no corpo (ex.: "a vitamina D auxilia na absorção de cálcio e fósforo"). A diferença é o que separa suplemento de medicamento (Anvisa, pergunta 7).
-- **Nome, marca e expressão também contam.** Palavra ou marca que sugira alegação de saúde ("queima de gordura", "hipertrofia", "termogênico") só pode ser usada se a alegação correspondente estiver na lista positiva (perguntas 106 e 108). Marca relacionada a uma alegação aprovada é aceita se não mudar o sentido dela nem enganar o consumidor (pergunta 107).
-- **Ingrediente que não é fonte de nutriente** (usado só para sabor, cor, textura) não pode aparecer na comunicação como se fosse fonte de nutriente ou substância bioativa (pergunta 103).
-- **Público:** o suplemento destina-se a pessoas saudáveis. Pessoa com doença ou condição deve ser orientada a procurar profissional (Anvisa, perguntas 19 e seguintes). A comunicação não deve falar com "quem tem" doença ou sintoma como se o produto resolvesse.
-- **Frases de advertência** de rotulagem (ex.: gestantes, nutrizes e crianças) estão na pergunta 112. Confira se o responsável técnico quer a advertência também na peça.
-
-**Pontos que o squad deve tratar como risco alto em suplemento (SUPOSIÇÃO do squad, validar):**
-- Prometer alívio, redução ou fim de **sintoma** (fogacho, insônia, dor, inchaço) é alegação terapêutica; só passa se a alegação estiver na lista positiva para o constituinte.
-- Nome do produto, da marca ou da campanha que **afirme o fim de uma condição ou fase da vida** pode ser lido como promessa terapêutica ou como enganoso (RDC 243, art. 17; CDC, art. 37). Pedir parecer regulatório antes de gastar com a peça.
-- Depoimento e "antes e depois" que atribuam efeito terapêutico ao produto valem como alegação do anunciante.
-- Falar de "natural" ou "sem efeitos colaterais" sem base é afirmação de segurança que a empresa precisa provar.
-
-Registre, em toda peça de suplemento: a alegação usada, **a linha da lista positiva** que a sustenta, o constituinte e a dose, e quem do lado do cliente validou.
-
 ---
 
 ## 3. Finanças e renda
@@ -103,11 +82,6 @@ Registre, em toda peça de suplemento: a alegação usada, **a linha da lista po
 
 - Dado de saúde é dado pessoal sensível (art. 5º, II, e art. 11). Formulário de captação não pede sintoma, diagnóstico ou remédio em uso sem base legal e consentimento destacado.
 - Lead de material gratuito: consentimento claro para contato.
-- **Lista de e-mail e segmentação.** Etiqueta que revela condição de saúde de uma pessoa identificada (ex.: "em menopausa", "com fogacho") pode ser dado sensível. Segmente por comportamento (clicou, comprou, veio da live) e deixe a segmentação por condição para quando houver orientação jurídica. Na dúvida, não grave a condição na ferramenta.
-- **Revogação.** A pessoa pode retirar o consentimento a qualquer momento, por procedimento gratuito e facilitado (art. 8º, §5º; art. 18, IX). Todo e-mail de marketing leva link de descadastro que funciona.
-- **Registro.** Guarde quando, de onde e com qual texto a pessoa aceitou receber e-mail. Sem registro, não há como demonstrar o consentimento.
-- **Lista não vai para o repositório nem para o Drive** (regra do Rafael).
-- *Conferência:* os artigos acima foram confirmados em fontes oficiais secundárias (gov.br); o texto do Planalto bloqueou a leitura automática em 11/11/2026. Confira no texto antes de citar numa entrega ao cliente. Para o método de e-mail, ver a skill `email-marketing`.
 
 ## 7. Políticas de anúncio (Meta e Google)
 
@@ -123,8 +97,6 @@ Registre, em toda peça de suplemento: a alegação usada, **a linha da lista po
 - CFM — resoluções: https://portal.cfm.org.br/buscar-normas-cfm-e-crm/
 - Planalto — leis federais (CDC, LGPD, Lei 9.294): https://www.planalto.gov.br/
 - Anvisa — legislação: https://www.gov.br/anvisa/
-- Anvisa — *Suplementos alimentares: perguntas e respostas* (7ª ed., 2021; lida em 11/11/2026): https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/217/1/Suplementos%20alimentares_perguntas%20e%20respostas_7ed_2021.pdf
-- Anvisa — normas de suplementos: busque "RDC 243/2018" e "IN 28/2018" no portal da Anvisa (gov.br/anvisa, seção de legislação) e confira a **versão consolidada vigente** da IN 28/2018, que recebe alegações e constituintes novos por atualização. A IN 28/2018 também está em https://antigo.anvisa.gov.br/documents/10181/3898888/%289%29IN_28_2018_COMP.pdf/96d76e7f-78c3-4fce-a2b2-561805d9b4b3 (versão compilada; pode estar defasada).
 - OAB — provimentos: https://www.oab.org.br/
 - CONAR — código: https://www.conar.org.br/
 - Meta — Padrões de Publicidade: https://transparency.meta.com/policies/ad-standards/
@@ -149,7 +121,6 @@ Em toda peça de nicho regulado:
 - [ ] Sem medo ou insegurança como motor
 - [ ] Sem afirmar condição de quem lê
 - [ ] Depoimento, imagem de paciente e antes/depois conferidos ou fora
-- [ ] Suplemento: alegação está na lista positiva da IN 28/2018 vigente; nada de finalidade terapêutica, sintoma, doença ou comparação com alimento; nome e marca conferidos
-- [ ] Captação de dados conforme LGPD; e-mail com consentimento registrado, descadastro e sem segmentação por condição de saúde
+- [ ] Captação de dados conforme LGPD
 - [ ] Política da plataforma conferida para anúncios
 - [ ] Aprovação do responsável indicada
