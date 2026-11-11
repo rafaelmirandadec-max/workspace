@@ -15,7 +15,8 @@
 Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos suplementos", e para **promoções, lançamentos, aberturas de lives** e "tudo que eu puder fazer de funil de marketing". FATO (Rafael, 11/11/2026).
 
 ## Bloco 2 — Produto e Promessa
-- **Produtos (quais suplementos, fórmula, constituintes e dose):** `[A PREENCHER]`. Sem isso não dá para saber quais alegações a lista positiva da IN 28/2018 permite.
+- **Produtos (levantamento público, 11/11/2026 — PISTA até o gerente confirmar; detalhe e fontes em `01-pesquisa/produtos-da-marca.md`):** quatro suplementos na loja da marca: Shot da Libido (pó), Femme Healthy (cápsulas de óleo de linhaça, borragem e prímula), Ômega 3 (cápsulas) e Colágeno (pó). Mais dois kits. Preços e quantidades dos kits, composição e dose por porção: conferir com o gerente (o preço varia entre loja, página do produto e anúncio no mesmo dia). Registro/notificação e responsável técnico: `[A PREENCHER]`.
+- **Composição completa e dose de cada produto, como no rótulo:** `[A PREENCHER]` (gerente ou responsável técnico). O texto de venda cita ingredientes que o levantamento não achou na tabela nutricional; o rótulo vale mais que o texto de venda.
 - **Registro/notificação do produto e responsável técnico:** `[A PREENCHER]`.
 - **Promessa principal:** não definida. **Alerta:** pelas regras da Anvisa, a promessa de um suplemento não pode ser terapêutica (aliviar ou acabar com sintoma). A promessa precisa nascer da alegação permitida.
 - **Prova disponível (casos, estudos, autoridade):** `[A PREENCHER]`. Nada de depoimento ou número sem origem.
@@ -55,6 +56,7 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 - **Pendências do cliente que travam peças:** alegações aprovadas por constituinte; parecer sobre o nome; registro do produto.
 
 ## Histórico
+- v0.6 · 11/11/2026 · Levantamento público dos produtos da marca (produtos-da-marca.md). Achados de conformidade nos anúncios e na página de venda atuais registrados para o revisor, não herdar essas frases nos e-mails.
 - v0.5 · 11/11/2026 · Rafael não tem acesso à lista de alegações aprovadas nem ao texto da caixa de consentimento (documentos da gerência). Criado pedido pronto para o gerente de marketing (pedido-ao-gerente-de-marketing.md). Até a resposta, o squad trabalha só com o que não depende deles.
 - v0.4 · 11/11/2026 · Rafael informou que o parecer sobre o nome e as alegações está resolvido. Documento pendente de envio ao squad.
 - v0.3 · 11/11/2026 · Rafael informou que a caixa separada de consentimento para e-mail já existe no formulário.
