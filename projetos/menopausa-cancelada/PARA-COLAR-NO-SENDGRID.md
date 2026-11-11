@@ -176,6 +176,7 @@ A live começou.
 ## 4. Promoção do Shot (Libid Shot / Shot da Libido) (informa o produto e a oferta, sem prometer efeito)
 Preencha: `[NOME DO PRODUTO]` (na lata é **Libid Shot**; na loja, **Shot da Libido**. Use o mesmo nome que está na loja de onde vem o link) · `[OFERTA VIGENTE]` (preço e condição reais de hoje, um só) · `[PRAZO DA PROMOÇÃO]` (data real do fim) · `[LINK DA COMPRA]`.
 Use só o preço e o prazo que valem de verdade na loja no dia do envio.
+As frases sobre zinco e vitamina B6 são as únicas que a lista da Anvisa autoriza para este produto; use-as exatamente como estão. Para os outros ingredientes, só a lista, sem dizer o que fazem. Detalhe em `01-pesquisa/shot-ingredientes-vs-in28.md`.
 
 **Assunto:** [NOME DO PRODUTO]: [OFERTA VIGENTE] até [PRAZO DA PROMOÇÃO]
 **Pré-cabeçalho:** Dois sabores, 30 doses por pote. Veja a oferta.
@@ -191,6 +192,13 @@ A promoção do [NOME DO PRODUTO] vai até [PRAZO DA PROMOÇÃO].
 - Sabores: Melancia e Morango com Maracujá.
 - Como usar (rótulo): consumir 1 dose dissolvida em 200 ml de água, pela manhã após a refeição.
 - Cada dose tem, entre outros itens: zinco (10 mg), vitamina B6 (1,3 mg), L-citrulina (900 mg), L-tirosina (263 mg), L-triptofano (100 mg), procianidinas (100 mg), trans-resveratrol (100 mg), coenzima Q10 (100 mg) e ácido hialurônico (80 mg).
+
+**O que dizem os nutrientes (frases da lista da Anvisa)**
+- O zinco é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres.
+- O zinco auxilia no funcionamento do sistema imune.
+- A vitamina B6 auxilia no funcionamento do sistema imune.
+- A vitamina B6 auxilia no metabolismo energético.
+Cada dose tem 10 mg de zinco e 1,3 mg de vitamina B6.
 
 **[BOTÃO: Ver a oferta]** → [LINK DA COMPRA]
 
