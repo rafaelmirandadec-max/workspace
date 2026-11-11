@@ -16,7 +16,7 @@ Documento único para o gerente de marketing. Cada e-mail tem assunto, pré-cabe
 
 ## Parte 1 · Passo a passo para montar no SendGrid
 
-Para o gerente de marketing. Tudo o que você precisa está nesta pasta. Cada arquivo tem os e-mails prontos (assunto, pré-cabeçalho, corpo, botão e rodapé). É só colar.
+Para o gerente de marketing. Este documento reúne todos os e-mails prontos (assunto, pré-cabeçalho, corpo, botão e rodapé). É só colar.
 
 ### 1. Antes do primeiro envio (uma vez)
 - **Remetente:** use o e-mail autorizado da empresa, com o nome "Menopausa Cancelada".
@@ -33,17 +33,17 @@ Crie estes segmentos no SendGrid:
 Quando alguém comprar, tire da sequência "não comprou" na hora e coloque no segmento do pacote. Os dados dos clientes ficam só no SendGrid e na Hubla.
 
 ### 3. O que montar e para quem
-| Arquivo | Quem recebe | Quando |
+| Onde está neste documento | Quem recebe | Quando |
 |---|---|---|
-| `E-MAILS-PRONTOS.md`, seção 1 (boas-vindas) | Quem acabou de entrar na lista | Ao entrar |
-| `E-MAILS-PRONTOS.md`, seção 2 (newsletter 1) | Toda a lista Opt-in | Primeira quinzena |
-| `E-MAILS-PRONTOS.md`, seções 4 a 7 | Opt-in, um produto por vez | Quando quiser promover |
-| `E-MAILS-BLACK-NOVEMBER-NAO-COMPROU.md` | Viu a live e não comprou | Dia 1 logo após a live, depois dias 2, 3, 4 e 5 |
-| `E-MAILS-BLACK-NOVEMBER-COMPROU-2-POTES.md` | Comprou 2 potes | Dias 1, 2, 4 e 6 após a compra |
-| `E-MAILS-BLACK-NOVEMBER-COMPROU-4-POTES.md` | Comprou 4 potes | Dias 0, 3, 14, 30 e 90 após a compra |
-| `E-MAILS-BLACK-NOVEMBER-COMPROU-6-POTES.md` | Comprou 6 potes | Dias 0, 3, 7, 30 e 150 após a compra |
+| Parte 2, seção 1 (boas-vindas) | Quem acabou de entrar na lista | Ao entrar |
+| Parte 2, seção 2 (newsletter 1) | Toda a lista Opt-in | Primeira quinzena |
+| Parte 2, seções 4 a 8 (um produto por vez; a 8 é a Black November na live) | Opt-in, um produto por vez | Quando quiser promover |
+| Parte 3 (não comprou) | Viu a live e não comprou | Dia 1 logo após a live, depois dias 2, 3, 4 e 5 |
+| Parte 4 (comprou 2 potes) | Comprou 2 potes | Dias 1, 2, 4 e 6 após a compra |
+| Parte 5 (comprou 4 potes) | Comprou 4 potes | Dias 0, 3, 14, 30 e 90 após a compra |
+| Parte 6 (comprou 6 potes) | Comprou 6 potes | Dias 0, 3, 7, 30 e 150 após a compra |
 
-Cada sequência tem a linha "Quando enviar" no topo do arquivo. Se o seu plano tem **Automation**, monte cada sequência como automação que dispara quando a pessoa entra no segmento. Se não tem, agende os envios um a um.
+Cada sequência tem a linha "Quando enviar" no topo da parte. Se o seu plano tem **Automation**, monte cada sequência como automação que dispara quando a pessoa entra no segmento. Se não tem, agende os envios um a um.
 
 ### 4. Antes de enviar cada e-mail
 1. Mande um **teste** para um Gmail e um Outlook.
@@ -59,7 +59,7 @@ Olhe **cliques, descadastros e reclamações de spam**. A abertura é só tendê
 - Como a cliente de 6 potes **acessa cada brinde** (calculadora, agente de nutrição, curso e consulta) e como agenda a consulta.
 - Se existe condição de recompra. Hoje os e-mails só dizem "veja a condição de hoje".
 - O preço da loja e o dos checkouts da campanha, que estão diferentes.
-- A data da próxima live, para a sequência de live (seção 3 de `E-MAILS-PRONTOS.md`).
+- A data da próxima live, para a sequência de live (Parte 2, seção 3).
 
 ---
 
@@ -579,7 +579,6 @@ Cada pote tem 30 doses, nos sabores Melancia e Morango com Maracujá.
 
 O Shot é de uso diário. O que conta é a rotina: uma dose por dia, todos os dias.
 
-**[BOTÃO: Ver o meu pedido]** → https://link.menopausacancelada.com.br/of-api
 
 Equipe Menopausa Cancelada
 
@@ -608,7 +607,6 @@ Depois de aberto, mantenha a embalagem bem fechada, em local seco e arejado, e c
 
 Seus 2 potes somam 60 doses, o que cobre justamente 60 dias de uso diário.
 
-**[BOTÃO: Ver o meu pedido]** → https://link.menopausacancelada.com.br/of-api
 
 Equipe Menopausa Cancelada
 

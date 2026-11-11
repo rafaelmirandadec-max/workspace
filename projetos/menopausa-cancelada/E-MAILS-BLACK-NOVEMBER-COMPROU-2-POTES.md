@@ -23,7 +23,6 @@ Cada pote tem 30 doses, nos sabores Melancia e Morango com Maracujá.
 
 O Shot é de uso diário. O que conta é a rotina: uma dose por dia, todos os dias.
 
-**[BOTÃO: Ver o meu pedido]** → https://link.menopausacancelada.com.br/of-api
 
 Equipe Menopausa Cancelada
 
@@ -52,7 +51,6 @@ Depois de aberto, mantenha a embalagem bem fechada, em local seco e arejado, e c
 
 Seus 2 potes somam 60 doses, o que cobre justamente 60 dias de uso diário.
 
-**[BOTÃO: Ver o meu pedido]** → https://link.menopausacancelada.com.br/of-api
 
 Equipe Menopausa Cancelada
 
