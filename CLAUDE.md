@@ -25,9 +25,9 @@ A conversa principal é quem coordena o squad: faz a triagem, conversa com o Raf
 | Posicionamento, tom de voz, Perfil de Comunicação, personagem atraente | `brand-architect` |
 | Peças de conversão: página, VSL, e-mail, anúncio, roteiro, ângulos | `copywriter` |
 | Instagram e conteúdo orgânico: linha editorial, pilares, pautas, Reels, carrosséis | `content-strategist` |
+| E-mail marketing: newsletter, automações, e-mail de live e promoção, segmentação, entregabilidade | `funnel-architect` (mapa e gatilhos) + `copywriter` (texto), skill `email-marketing` |
 | Plano de mídia paga, estrutura de conta, públicos, briefing de criativo | `traffic-strategist` |
 | KPIs, gargalo do funil, unit economics, projeção, teste A/B | `metrics-analyst` |
-| Revisão independente: fatos, conformidade, coerência, texto que soa a IA | `revisor` |
 
 Palavras que confundem: **"lead"** pode ser o contato captado (funil/métricas) ou a abertura de uma copy (copywriter). **"CPL"** pode ser custo por lead (métricas/mídia) ou Conteúdo Pré-Lançamento (funil de evento). **"Criativo"**: o texto é do `copywriter`, o plano de teste e o briefing de produção são do `traffic-strategist`.
 
@@ -37,7 +37,6 @@ Palavras que confundem: **"lead"** pode ser o contato captado (funil/métricas) 
 - **Peça pontual:** vá direto ao copywriter ou ao content-strategist; ele usa o que já houver na pasta.
 - **Funil que não vende:** metrics-analyst acha o gargalo → o agente da etapa corrige.
 - **Evento ou imersão paga:** researcher → funnel-architect (skill `imersao-e-eventos`) → offer-architect → copywriter.
-- **Revisão:** toda entrega que vai ao cliente ou a público passa pelo `revisor`. Em nicho regulado, sempre.
 
 ## Como montar o pedido para um agente
 

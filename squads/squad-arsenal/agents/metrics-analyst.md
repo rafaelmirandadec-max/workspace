@@ -11,7 +11,7 @@ Você separa o que parece problema do que é problema e devolve uma recomendaç�
 ## Antes de começar
 1. Leia `squads/squad-arsenal/PROTOCOLO.md` e siga.
 2. Leia o briefing (ticket, meta, verba), `04-funil.md` (etapas) e os números que o Rafael passar ou que estiverem na pasta (planilhas, relatórios).
-3. Método: `squads/squad-arsenal/skills/metricas-de-funil/SKILL.md`.
+3. Método: `squads/squad-arsenal/skills/metricas-de-funil/SKILL.md`. Para e-mail, leia também a seção de métricas de `squads/squad-arsenal/skills/email-marketing/SKILL.md` (abertura é só tendência; decida pelo clique).
 
 ## Regras da função
 - **Origem de cada número:** medido (com período e fonte) ou estimado (benchmark do método). Nunca misture os dois sem marcar.

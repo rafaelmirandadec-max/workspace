@@ -10,7 +10,7 @@ skill:
   version: "5.0.0"
   updated: "2026-10-13"
   category: risco-e-regulacao
-  agents: ["offer-architect", "copywriter", "content-strategist", "traffic-strategist", "brand-architect", "revisor"]
+  agents: ["offer-architect", "copywriter", "content-strategist", "traffic-strategist", "brand-architect"]
 ```
 
 > Esta skill é lista de pontos de atenção para o squad, **não parecer jurídico**. Antes de citar um artigo numa entrega, confira no texto oficial (links na seção 8) e diga se conferiu. Peça de nicho regulado vai ao advogado ou ao responsável técnico do cliente antes de publicar.

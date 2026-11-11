@@ -7,8 +7,8 @@ description: "Métricas de funil — KPIs por etapa, fórmulas, cascata para ach
 ```yaml
 skill:
   id: metricas-de-funil
-  version: "5.0.0"
-  updated: "2026-10-13"
+  version: "5.1.0"
+  updated: "2026-11-11"
   category: performance-e-dados
   agents: ["metrics-analyst", "traffic-strategist", "funnel-architect"]
 ```
@@ -36,14 +36,19 @@ skill:
 | Vendas | Conversão de página | compras ÷ visitantes | 1% a 5% (frio) |
 | Checkout | Take rate do bump | bumps ÷ compras | 20% a 40% |
 | Checkout | Aceite de upsell | upsells ÷ compras | 10% a 30% |
-| E-mail | Taxa de abertura | aberturas ÷ entregues | 25% a 45% |
-| E-mail | Taxa de clique | cliques ÷ entregues | 2% a 6% |
+| E-mail | Taxa de clique (métrica principal) | cliques únicos ÷ entregues | 2% a 6% |
+| E-mail | Clique sobre abertura | cliques únicos ÷ aberturas | `[medir]` na própria lista |
+| E-mail | Descadastro por envio | descadastros ÷ entregues | `[medir]`; acompanhe a tendência |
+| E-mail | Reclamação de spam | reclamações ÷ entregues | meta de fornecedores < 0,1%; limite citado 0,3% (não oficial; ver `email-marketing`) |
+| E-mail | Taxa de abertura (só tendência) | aberturas ÷ entregues | antes 25% a 45%; **não usar como meta** |
 | Evento | Presença | presentes ÷ inscritos | 40% a 75% (pago) |
 | Geral | AOV | receita ÷ pedidos | — |
 | Geral | ROAS | receita ÷ investimento | mín. 2x no front |
 | Geral | CAC | investimento ÷ clientes | < 1/3 do LTV |
 
 > Referências do método, sem fonte de pesquisa: são ponto de partida para diagnóstico. Sempre apresentar como benchmark, nunca como resultado prometido. Quando houver dado do próprio projeto ou do nicho com fonte, ele substitui a referência.
+>
+> **E-mail:** a abertura deixou de ser confiável porque o Apple Mail pré-carrega a imagem de rastreio e conta abertura sem leitura (fontes de fornecedores, convergentes; ver `email-marketing`). Os intervalos de abertura e clique acima são herdados do método, sem fonte nem data, e **não valem como meta**: decida pelo clique, pela resposta, pelo descadastro e pela conversão, comparando a lista com ela mesma ao longo do tempo.
 
 ---
 
