@@ -1,0 +1,51 @@
+# Briefing — Menopausa Cancelada
+
+**Versão:** v0 (abertura) · 11/11/2026 · Responsável: Rafael Miranda
+**Regra de leitura:** FATO (dito pelo Rafael ou com fonte) · PISTA · SUPOSIÇÃO · `[A PREENCHER]` (só o Rafael ou o cliente respondem).
+
+## Bloco 1 — Identificação
+- **Projeto:** Menopausa Cancelada. FATO (Rafael, 11/11/2026).
+- **Cliente / especialista:** `[A PREENCHER]` — a marca é do próprio Rafael ou de um cliente? Quem é a voz (porta-voz) nos e-mails?
+- **Nicho:** suplementos para mulheres em menopausa. FATO (Rafael).
+- **Canal:** e-mail (newsletter e funil), enviado pelo SendGrid. Orgânico e pago: `[A PREENCHER]`.
+- **Nicho regulado:** **sim — suplemento alimentar (Anvisa)**. Ler `squads/squad-arsenal/skills/conformidade/SKILL.md`, seção "Suplementos alimentares". Todo material passa pelo `revisor` antes de sair.
+
+## Objetivo declarado (palavras do Rafael)
+Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos suplementos", e para **promoções, lançamentos, aberturas de lives** e "tudo que eu puder fazer de funil de marketing". FATO (Rafael, 11/11/2026).
+
+## Bloco 2 — Produto e Promessa
+- **Produtos (quais suplementos, fórmula, constituintes e dose):** `[A PREENCHER]`. Sem isso não dá para saber quais alegações a lista positiva da IN 28/2018 permite.
+- **Registro/notificação do produto e responsável técnico:** `[A PREENCHER]`.
+- **Promessa principal:** não definida. **Alerta:** pelas regras da Anvisa, a promessa de um suplemento não pode ser terapêutica (aliviar ou acabar com sintoma). A promessa precisa nascer da alegação permitida.
+- **Prova disponível (casos, estudos, autoridade):** `[A PREENCHER]`. Nada de depoimento ou número sem origem.
+
+## Bloco 3 — Avatar
+- Mulheres em menopausa (SUPOSIÇÃO). Perfil, faixa etária, dores, nível de consciência e objeções: `[A PREENCHER]` → `avatar-strategist`, com pesquisa.
+
+## Bloco 5 — Oferta
+- Preço, kits, bônus, garantia, condição de pagamento: `[A PREENCHER]`.
+- Promoções e lançamentos planejados (datas reais): `[A PREENCHER]`.
+
+## Bloco 6 — Funil e e-mail
+- **Ferramenta de envio:** SendGrid. FATO (Rafael). Plano contratado e se inclui Marketing Campaigns e automação: `[A PREENCHER]`.
+- **Domínio de envio e autenticação (SPF, DKIM, DMARC):** `[A PREENCHER]`.
+- **Origem dos leads hoje** (página de captura, anúncio, live, orgânico): `[A PREENCHER]`.
+- **Tamanho da lista e como o consentimento foi obtido (data, texto, origem):** `[A PREENCHER]`. Sem consentimento registrado, a lista não deve ser usada.
+- **Lives:** plataforma, frequência, data da próxima: `[A PREENCHER]`.
+- **Dado de lead:** lista, e-mails e nomes **não entram neste repositório nem no Drive**.
+
+## Bloco 7 — Marca e Voz
+- Perfil de Comunicação, tom de voz, palavras da marca e proibidas: `[A PREENCHER]` → `brand-architect` (skill `extracao-comunicacao`), com amostras reais.
+
+## Bloco 8 — Metas
+- Meta de faturamento, ticket, verba, prazo: `[A PREENCHER]`.
+
+## Bloco 10 — Conformidade
+- **Órgão que regula:** Anvisa (suplementos alimentares). Publicidade também sob CDC; dados sob LGPD.
+- **Responsável técnico ou regulatório que aprova as peças:** `[A PREENCHER]`.
+- **Obrigatórios em toda peça** (identificação do anunciante, avisos): `[A PREENCHER]` com o responsável técnico.
+- **RISCO ALTO — o nome "Menopausa Cancelada".** SUPOSIÇÃO do squad, não parecer: o nome afirma o fim de uma condição e pode ser lido como promessa terapêutica ou enganosa (RDC 243/2018, art. 17; CDC, art. 37; ver `conformidade`). Decisão do Rafael: pedir parecer regulatório antes de investir em peças com esse nome. Se o nome for mantido, todas as peças precisam trazer a alegação permitida, sem sugerir cura de sintomas.
+- **Pendências do cliente que travam peças:** alegações aprovadas por constituinte; parecer sobre o nome; registro do produto.
+
+## Histórico
+- v0 · 11/11/2026 · abertura do projeto com o que o Rafael informou na conversa. Nenhuma pesquisa feita ainda.
