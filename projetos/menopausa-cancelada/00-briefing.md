@@ -50,10 +50,12 @@ Usar o e-mail para "mostrar e conscientizar os leads dos benefícios dos supleme
 - **Órgão que regula:** Anvisa (suplementos alimentares). Publicidade também sob CDC; dados sob LGPD.
 - **Responsável técnico ou regulatório:** o Rafael respondeu **"sim" (11/11/2026)** à pergunta se existe responsável técnico ou parecer. `[A PREENCHER]`: quem é, se há **parecer escrito**, e se ele cobre (a) o **nome "Menopausa Cancelada"** e (b) as **alegações** de cada produto. Um "sim" genérico não libera o nome: o parecer precisa dizer isso.
 - **Obrigatórios em toda peça** (identificação do anunciante, avisos): `[A PREENCHER]` com o responsável técnico.
-- **RISCO ALTO — o nome "Menopausa Cancelada".** SUPOSIÇÃO do squad, não parecer: o nome afirma o fim de uma condição e pode ser lido como promessa terapêutica ou enganosa (RDC 243/2018, art. 17; CDC, art. 37; ver `conformidade`). Decisão do Rafael: pedir parecer regulatório antes de investir em peças com esse nome. Se o nome for mantido, todas as peças precisam trazer a alegação permitida, sem sugerir cura de sintomas.
+- **Parecer sobre o nome e as alegações:** o Rafael informa que está **resolvido (11/11/2026)**. FATO (Rafael); o documento **não foi visto pelo squad**. `[A PREENCHER]`: o parecer (ou um resumo) com **a lista das alegações aprovadas por produto/constituinte**, quem assinou e a data. O `copywriter` só escreve benefício com alegação dessa lista; o `revisor` confere peça a peça.
+- **(abertura do projeto, antes do parecer) RISCO — o nome "Menopausa Cancelada".** SUPOSIÇÃO do squad, não parecer: o nome afirma o fim de uma condição e pode ser lido como promessa terapêutica ou enganosa (RDC 243/2018, art. 17; CDC, art. 37; ver `conformidade`). Decisão do Rafael: pedir parecer regulatório antes de investir em peças com esse nome. Se o nome for mantido, todas as peças precisam trazer a alegação permitida, sem sugerir cura de sintomas.
 - **Pendências do cliente que travam peças:** alegações aprovadas por constituinte; parecer sobre o nome; registro do produto.
 
 ## Histórico
+- v0.4 · 11/11/2026 · Rafael informou que o parecer sobre o nome e as alegações está resolvido. Documento pendente de envio ao squad.
 - v0.3 · 11/11/2026 · Rafael informou que a caixa separada de consentimento para e-mail já existe no formulário.
 - v0.2 · 11/11/2026 · Rafael informou a coleta: formulário no grupo com e-mail e botão genérico de aceite. Texto exato pendente.
 - v0.1 · 11/11/2026 · Rafael informou: marca é da empresa dele; quem assina é o gerente de marketing (com acesso ao SendGrid); leads vêm de comentários em anúncios pedindo acesso a grupos; existe responsável técnico ou parecer. Ainda sem resposta: produtos e preço, primeiro e-mail desejado.
