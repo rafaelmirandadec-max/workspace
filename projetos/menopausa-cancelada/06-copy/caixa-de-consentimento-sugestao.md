@@ -2,7 +2,12 @@
 
 # Caixa de consentimento para e-mail · Sugestões para o jurídico comparar
 
-**Versão:** v0.1 · 11/11/2026 · copywriter · Projeto Menopausa Cancelada
+**Versão:** v2 — corrigido pelos avisos do parecer de 11/11/2026 · 11/11/2026 · copywriter · Projeto Menopausa Cancelada (v0.1 de 11/11/2026)
+
+**O que mudou na v2 (parecer do revisor, caixa de consentimento):**
+- Aviso 1: a pendência 3 deixou de dizer que os e-mails 01 e 02 usam "as palavras da caixa". As palavras da caixa real ainda não foram vistas; os e-mails foram escritos sem elas.
+- Avisos 2, 3 e 5: viraram as pendências 8, 9 e 10 (uma caixa com quatro finalidades; condição de "participar do grupo não depende dela"; promessa de "alimentação e hábitos" na versão C).
+- Aviso 4 (versão A sem razão social nem política) já estava no texto; mantido.
 
 ## Cabeçalho do copywriter
 - **O que é:** duas ou três versões do texto da caixa **separada** de e-mail do formulário, como **sugestão de comparação**. O squad **não viu** o texto que está no ar e **não afirma que ele esteja certo ou errado**. Quem decide é o jurídico.
@@ -54,8 +59,11 @@ As três versões acima já são texto simples. Para campo de formulário que n�
 ## Pendências
 1. **Texto atual da caixa e data de entrada no ar** (documentos da gerência). Sem eles não há comparação possível; este arquivo só oferece alternativas.
 2. **O jurídico decide** o texto final, se pede o link da política, se a finalidade "promoções" precisa de caixa própria, e se o nome "Menopausa Cancelada" pode aparecer na caixa (por isso [NOME DA MARCA]).
-3. **Alinhar com os e-mails já escritos:** o e-mail 01 e o e-mail 02 descrevem o conteúdo com as palavras da caixa. Se o texto final da caixa mudar, ajustar os dois.
+3. **Alinhar com os e-mails já escritos.** As palavras da caixa real ainda não foram vistas pelo squad. O e-mail 01 foi escrito sem elas (a descrição do conteúdo dele é hipótese do copywriter) e o e-mail 02 deixa a descrição em marcador, [DESCRIÇÃO DO CONTEÚDO]. Quando o texto real chegar, o revisor e o copywriter conferem os dois contra ele, palavra por palavra, e ajustam o que divergir.
 4. **Quem se cadastrou antes da caixa** não é resolvido por este texto. Para essa base, ver `email-02-confirmacao-base-antiga.md`.
 5. **Caixa marcada vs. dupla confirmação:** a skill recomenda confirmar o endereço por e-mail (double opt-in) se o plano permitir. O e-mail de confirmação de endereço é peça à parte; pedir se a gerência quiser.
 6. **Comentar num anúncio para pedir acesso ao grupo** não é consentimento de e-mail (briefing, bloco 6, SUPOSIÇÃO do squad): só a caixa conta.
-7. Passa pelo `revisor` antes de ir para o formulário.
+7. **Uma caixa, quatro finalidades.** Nas três versões, "conteúdos, avisos de lives, novidades e promoções" vão num único aceite. Se promoção precisa de caixa própria é pergunta do jurídico (pendência 2); a LGPD pede finalidade determinada (art. 8º, §4º, como no briefing; não conferido no texto oficial).
+8. **"Participar do grupo não depende dela"** (versão C) só entra se for verdade. Se hoje o grupo depende de marcar a caixa, o desenho do formulário muda e o jurídico precisa saber antes de escolher o texto.
+9. **"Conteúdos sobre alimentação e hábitos"** (versão C) não descreve a edição 01 da newsletter, que trata da definição de suplemento alimentar. Se a caixa real for ampla assim, a edição cabe; se for mais estreita, o e-mail 01 e a edição são ajustados. Decisão depois de ver a caixa real.
+10. Passa pelo `revisor` antes de ir para o formulário.
