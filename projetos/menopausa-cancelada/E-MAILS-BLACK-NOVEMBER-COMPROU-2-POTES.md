@@ -112,7 +112,7 @@ A condição vale enquanto durar o estoque. Não há data marcada.
 4 potes: R$ 119,90 cada (R$ 479,60), R$ 4,00 por dose
 6 potes: R$ 99,90 cada (R$ 599,40), R$ 3,33 por dose, com brindes
 
-Os brindes: Femme Healthy, calculadora de alimentos, agente de nutrição no WhatsApp, curso Libido & Lubrificação e uma consulta de R$ 1.000 na AndroClinic para o seu marido.
+Os brindes: Femme Healthy, calculadora de alimentos, agente de nutrição no WhatsApp, curso e uma consulta de R$ 1.000 na AndroClinic para o seu marido.
 
 Sedex grátis nas duas opções. Os brindes só vêm no pacote de 6.
 
