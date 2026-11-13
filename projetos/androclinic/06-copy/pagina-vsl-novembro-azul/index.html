@@ -461,6 +461,27 @@ footer ul{list-style:none}
 .risk-box p{font-size:17px;color:var(--gray-300);line-height:1.7}
 @media(min-width:768px){.risk-box p{font-size:19px}}
 .risk-box .zero{display:inline-block;margin-top:20px;font-size:22px;font-weight:800;color:var(--yellow-400);text-transform:uppercase;letter-spacing:.04em}
+.cred .h2{font-size:30px}
+@media(min-width:640px){.cred .h2{font-size:40px}}
+@media(min-width:1024px){.cred .h2{font-size:52px}}
+.cred-car{position:relative;max-width:560px;margin:0 auto}
+.cred-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.cred-track::-webkit-scrollbar{display:none}
+.cred-slide{flex:0 0 100%;scroll-snap-align:center;display:flex;flex-direction:column;align-items:center;gap:14px;padding:0 4px}
+.cred-tag{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-300)}
+.cred-media{width:100%;max-width:400px;aspect-ratio:1/1;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 25px 50px -12px rgba(0,0,0,.6)}
+.cred-media img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.cred-cap{max-width:440px;font-size:16px;line-height:1.6;color:var(--gray-300)}
+@media(min-width:768px){.cred-cap{font-size:17px}}
+.cred-cap b{color:var(--yellow-400)}
+.cred-nav{position:absolute;top:calc(50% - 40px);transform:translateY(-50%);z-index:10;background:rgba(55,65,81,.85);color:#fff;
+  padding:10px;border-radius:9999px;display:flex;box-shadow:0 10px 15px -3px rgba(0,0,0,.4)}
+.cred-nav:hover{background:rgba(75,85,99,.95)}
+.cred-nav.prev{left:0}.cred-nav.next{right:0}
+@media(min-width:768px){.cred-nav.prev{left:-24px}.cred-nav.next{right:-24px}}
+.cred-dots{display:flex;justify-content:center;gap:10px;margin-top:18px}
+.cred-dot{width:10px;height:10px;border-radius:9999px;background:var(--gray-600)}
+.cred-dot.active{background:var(--yellow-400)}
 .offer-sub{font-size:18px;color:var(--gray-200);line-height:1.6;margin-bottom:32px}
 .offer-sub b{color:var(--blue-300)}
 .benefits li b{color:#fff}
@@ -531,14 +552,29 @@ footer ul{list-style:none}
   </div>
 </section>
 
-<!-- ========== CREDIBILIDADE / DESTAQUE NACIONAL ========== -->
-<section class="center">
-  <div class="max-4xl stack-6">
-    <div><span class="pill pill-outline">CREDIBILIDADE COMPROVADA</span></div>
-    <h2 class="h2">Destaque <span class="yellow">Nacional</span></h2>
-    <p class="lead" style="max-width:672px;margin:0 auto">A AndroClinic foi destaque em reportagem nacional. Conheça nosso método revolucionário que já transformou a vida de milhares de homens.</p>
-    <div class="player-box">
-      <vturb-smartplayer id="vid-69fa3bfdb65dcbe78125d589" style="display:block;margin:0 auto;width:100%;max-width:400px"></vturb-smartplayer>
+<!-- ========== CREDIBILIDADE: REPORTAGEM + CRAQUE NETO (carrossel) ========== -->
+<section class="center cred">
+  <div class="max-4xl">
+    <div class="mb-6"><span class="pill pill-outline">CREDIBILIDADE COMPROVADA</span></div>
+    <h2 class="h2 mb-8">Destaque na TV e recomendada pelo <span class="yellow">Craque Neto</span></h2>
+    <div class="cred-car" id="credCar">
+      <div class="cred-track" id="credTrack">
+        <div class="cred-slide">
+          <span class="cred-tag">Reportagem nacional</span>
+          <div class="cred-media">
+            <vturb-smartplayer id="vid-69fa3bfdb65dcbe78125d589" style="display:block;margin:0 auto;width:100%;max-width:400px"></vturb-smartplayer>
+          </div>
+          <p class="cred-cap">A AndroClinic foi destaque em reportagem nacional sobre saúde masculina.</p>
+        </div>
+        <div class="cred-slide">
+          <span class="cred-tag">Parceiro oficial</span>
+          <div class="cred-media"><img src="imagens/craque-neto.webp" alt="Craque Neto, parceiro oficial da AndroClinic" loading="lazy" /></div>
+          <p class="cred-cap"><b>Craque Neto</b>, comentarista esportivo: “Saúde é como no futebol: quando você está bem, seu desempenho muda. A AndroClinic é referência de confiança para quem quer cuidar da saúde sexual.”</p>
+        </div>
+      </div>
+      <button class="cred-nav prev" data-cred="-1" aria-label="Anterior"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+      <button class="cred-nav next" data-cred="1" aria-label="Próximo"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
+      <div class="cred-dots"><button class="cred-dot active" aria-label="Ver reportagem"></button><button class="cred-dot" aria-label="Ver Craque Neto"></button></div>
     </div>
   </div>
 </section>
@@ -671,25 +707,6 @@ footer ul{list-style:none}
         <p class="lead">Com mais de 12 anos de dedicação em Saúde Masculina, o Dr. Cristiano traz para a AndroClinic uma visão clara: oferecer soluções reais para problemas que afetam milhões de homens, com transparência e resultados comprovados.</p>
         <div class="quote-box">
           <p>"Transformar vidas através da educação e do cuidado médico genuíno. Sem tabus, sem preconceitos, com ciência e resultados comprovados."</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========== CRAQUE NETO ========== -->
-<section>
-  <div class="max-6xl">
-    <div class="grid g2" style="align-items:center">
-      <div>
-        <img class="person-img" src="imagens/craque-neto.webp" alt="Craque Neto - Parceiro Oficial Androclinica" loading="lazy" />
-        <h3 style="font-size:24px;font-weight:700;color:#fff">Comentarista Esportivo</h3>
-        <p style="color:var(--yellow-400);font-weight:600;font-size:18px;margin-top:4px">Parceiro Oficial Androclinica</p>
-      </div>
-      <div class="stack-6">
-        <p class="lead">Craque Neto, um dos maiores nomes do comentário esportivo brasileiro, recomenda a Androclinica como referência em saúde sexual masculina.</p>
-        <div class="quote-box">
-          <p>"Saúde é como no futebol - quando você está bem, seu desempenho muda. Androclinica é referência de confiança para quem quer cuidar da saúde sexual."</p>
         </div>
       </div>
     </div>
@@ -1099,6 +1116,21 @@ function applyUtmToLinks(){
     });
   }
   setInterval(tick, 1000);
+})();
+
+/* =========================================================================
+   CARROSSEL CREDIBILIDADE (reportagem + Craque Neto)
+   ========================================================================= */
+(function(){
+  const track = document.getElementById('credTrack');
+  if(!track) return;
+  const dots = [...document.querySelectorAll('.cred-dot')];
+  const n = track.children.length;
+  const cur = () => Math.round(track.scrollLeft / track.clientWidth);
+  const go = i => track.scrollTo({left: ((i + n) % n) * track.clientWidth, behavior: 'smooth'});
+  document.querySelectorAll('[data-cred]').forEach(b => b.onclick = () => go(cur() + Number(b.dataset.cred)));
+  dots.forEach((d, i) => d.onclick = () => go(i));
+  track.addEventListener('scroll', () => { const i = cur(); dots.forEach((d, k) => d.classList.toggle('active', k === i)); }, {passive: true});
 })();
 
 /* =========================================================================

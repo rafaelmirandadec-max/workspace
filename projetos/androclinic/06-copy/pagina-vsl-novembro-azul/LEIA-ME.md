@@ -12,7 +12,8 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 12/11/202
 4. Bloco de oferta: R$ 197 por R$ 97, texto da Oferta Novembro Azul e os 4 itens novos.
 5. Bloco novo de garantia "O risco é 100% da clínica" com selo de 100% (desenhado em SVG, não há imagem de selo na original), logo depois da oferta.
 6. FAQ: as 5 perguntas novas entram no topo; as 6 antigas continuam abaixo.
-7. Coerência de preço no resto da página: "vagas promocionais por R$ 97" na última chamada.
+7. Blocos "Destaque Nacional" (vídeo da reportagem) e "Craque Neto" juntos num só bloco, com headline única ("Destaque na TV e recomendada pelo Craque Neto") e carrossel de 2 slides, no lugar onde ficava o Destaque Nacional (pedido do Rafael em 13/11). A seção separada do Craque Neto saiu.
+8. Coerência de preço no resto da página: "vagas promocionais por R$ 97" na última chamada.
 
 ## Atenção ao publicar
 - Os vídeos da VTurb só tocam no domínio liberado no painel da VTurb. Fora dele aparece "This domain is not in the list of allowed domains".
