@@ -402,9 +402,18 @@ footer ul{list-style:none}
 .nov-badge .dot-blue{width:14px;height:14px;border-radius:9999px;background:var(--blue-500);
   box-shadow:0 0 0 4px rgba(59,130,246,.25);flex-shrink:0}
 .nov-badge b{color:var(--blue-300);font-weight:800}
-.nov-logo{display:inline-block;background:#fff;border-radius:14px;padding:12px 20px;box-shadow:0 10px 15px -3px rgba(0,0,0,.4)}
-.nov-logo img{display:block;width:240px;max-width:100%;height:auto}
-@media(min-width:768px){.nov-logo{padding:16px 28px}.nov-logo img{width:320px}}
+/* topo enviado pelo Rafael em 13/11 */
+.hero.hero-nov{background:#08121e;padding-top:28px;padding-bottom:48px}
+@media(min-width:768px){.hero.hero-nov{padding-top:40px;padding-bottom:72px}}
+@media(min-width:1280px){.hero.hero-nov{padding-top:48px;padding-bottom:96px}}
+.hero-top{width:100%;text-align:center}
+.hero-logo{width:180px;height:auto;margin:0 auto 14px}
+@media(min-width:768px){.hero-logo{width:220px}}
+.hero-pre{max-width:580px;margin:0 auto 12px;font-size:15px;line-height:1.4;color:#cbd5e1}
+@media(min-width:768px){.hero-pre{font-size:17px}}
+.hero-pre strong{color:#fff}
+.hero .hero-h1{max-width:680px;margin:0 auto;font-size:clamp(26px,4vw,38px);line-height:1.15;font-weight:800;color:#fff;letter-spacing:-.02em}
+.hero .hero-h1 span{color:#facc15}
 .prehead{font-size:18px;line-height:1.5;color:var(--gray-200);font-weight:500;max-width:640px;margin:0 auto}
 @media(min-width:768px){.prehead{font-size:22px}}
 .prehead strong{color:#fff;background:var(--blue-500);padding:1px 8px;border-radius:4px;font-weight:800;white-space:nowrap}
@@ -467,11 +476,11 @@ footer ul{list-style:none}
 <main>
 
 <!-- ========== HERO ========== -->
-<section class="hero">
-  <div class="max-3xl stack-6">
-    <div class="nov-logo"><img src="imagens/logo-novembro-azul.webp" alt="Novembro Azul AndroClinic" width="1000" height="239" /></div>
-    <p class="prehead">Enquanto outros lucram com a sua dor na Black Friday, nós protegemos sua saúde com <strong>RISCO ZERO</strong>.</p>
-    <h1 class="h1">Recupere sua potência, confiança e desempenho.</h1>
+<section class="hero hero-nov">
+  <div class="hero-top">
+    <img class="hero-logo" src="imagens/logo-novembro-azul-branca.webp" alt="Novembro Azul AndroClinic" width="800" height="191" />
+    <p class="hero-pre">Enquanto outros lucram com a sua dor na Black Friday, nós protegemos sua saúde com <strong>risco zero</strong>.</p>
+    <h1 class="hero-h1">Recupere sua <span>potência, confiança</span> e desempenho.</h1>
   </div>
   <div class="player-box">
     <vturb-smartplayer id="vid-6a7ddc2de9c22c219fe90534" style="display:block;margin:0 auto;width:100%;max-width:400px">
