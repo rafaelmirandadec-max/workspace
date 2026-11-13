@@ -482,6 +482,11 @@ footer ul{list-style:none}
 .cred-dots{display:flex;justify-content:center;gap:10px;margin-top:18px}
 .cred-dot{width:10px;height:10px;border-radius:9999px;background:var(--gray-600)}
 .cred-dot.active{background:var(--yellow-400)}
+.sigilo h2{margin-bottom:16px}
+.sig-txt{font-size:17px;color:var(--gray-300);line-height:1.7}
+@media(min-width:768px){.sig-txt{font-size:18px}}
+.sig-quote{margin:28px auto 0;max-width:520px;padding-top:24px;border-top:1px solid var(--gray-700);font-style:italic;color:var(--gray-200);font-size:17px;line-height:1.6}
+.sig-quote span{display:block;font-style:normal;font-weight:700;color:var(--yellow-400);margin-top:8px}
 .offer-sub{font-size:18px;color:var(--gray-200);line-height:1.6;margin-bottom:32px}
 .offer-sub b{color:var(--blue-300)}
 .benefits li b{color:#fff}
@@ -849,32 +854,14 @@ footer ul{list-style:none}
   </div>
 </section>
 
-<!-- ========== GARANTIA ========== -->
+<!-- ========== SIGILO + SATISFAÇÃO (bloco único) ========== -->
 <section class="center">
-  <div class="max-2xl guarantee">
-    <h2>Sua Satisfação é Nossa Prioridade</h2>
-    <p style="font-size:18px;color:var(--gray-300);line-height:1.7">Sua consulta com o Dr. Cristiano Estivalet tem total sigilo e foco em resultado. Você sairá com um plano de ação claro e personalizado para recuperar sua saúde sexual e confiança.</p>
-  </div>
-</section>
-
-<!-- ========== SIGILO ========== -->
-<section>
-  <div class="max-3xl">
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px" class="mb-8">
-      <svg class="icon-y" style="flex-shrink:0" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-      <h2 class="h2-sm center" style="text-transform:uppercase">Sigilo total. Sempre.</h2>
-    </div>
-    <p class="lead center mb-12" style="max-width:672px;margin-left:auto;margin-right:auto">Sabemos que muitos homens adiam a busca por ajuda médica por medo de exposição ou julgamento. Na AndroClinic, garantimos um atendimento 100% confidencial, com respeito absoluto à sua privacidade em cada etapa.</p>
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px">
-      <div class="confidential-pill">
-        <svg class="icon-y" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        Consulta 100% Confidencial
-      </div>
-      <p style="font-style:italic;color:var(--gray-300);font-size:18px;text-align:center">
-        "Tinha vergonha de procurar ajuda... mas tudo foi tão discreto que me senti seguro desde o início."
-        <span style="display:block;font-weight:600;color:#fff;margin-top:8px">– C.M.</span>
-      </p>
-    </div>
+  <div class="max-2xl guarantee sigilo">
+    <div style="display:flex;justify-content:center" class="mb-4"><svg class="icon-y" style="flex-shrink:0" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+    <h2 style="text-transform:uppercase;color:#fff">Sigilo total. Sempre.</h2>
+    <p class="sig-txt">Sabemos que muitos homens adiam a busca por ajuda médica por medo de exposição ou julgamento. Na AndroClinic, sua consulta com o Dr. Cristiano Estivalet é 100% confidencial, com respeito absoluto à sua privacidade em cada etapa.</p>
+    <p class="sig-txt mt-4">E você não sai de mãos vazias: sai com um plano de ação claro e personalizado para recuperar sua saúde sexual e sua confiança.</p>
+    <blockquote class="sig-quote">“Tinha vergonha de procurar ajuda... mas tudo foi tão discreto que me senti seguro desde o início.”<span>– C.M.</span></blockquote>
   </div>
 </section>
 
