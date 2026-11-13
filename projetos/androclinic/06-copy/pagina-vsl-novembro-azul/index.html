@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
-<meta name="theme-color" content="#000000" />
+<meta name="theme-color" content="#07111f" />
 <title>Novembro Azul AndroClinic - Consulta Médica Online por R$ 97 | Risco Zero</title>
 <meta name="description" content="Novembro Azul AndroClinic: consulta médica online e sigilosa de R$ 197 por R$ 97, com garantia de 100% de devolução e o valor convertido em crédito no tratamento." />
 <meta name="author" content="AndroClinic" />
@@ -490,6 +490,30 @@ footer ul{list-style:none}
 .offer-sub{font-size:18px;color:var(--gray-200);line-height:1.6;margin-bottom:32px}
 .offer-sub b{color:var(--blue-300)}
 .benefits li b{color:#fff}
+
+/* =====================================================================
+   TEMA NOVEMBRO AZUL — o amarelo da marca vira azul-claro; fundos pretos
+   viram azul-marinho. Amarelo (--gold) fica só em preço, RISCO ZERO e selo.
+   ===================================================================== */
+:root{
+  --black:#07111f; --gray-950:#050c17; --gray-900:#0c1a2d; --gray-800:#13253c;
+  --gray-700:#1d3552; --gray-600:#2a4a6e; --gray-500:#6b84a3; --gray-400:#94a8c2;
+  --gray-300:#cbd8e6; --gray-200:#e2eaf3; --gray-100:#f1f5f9;
+  --yellow-400:#38bdf8; --yellow-500:#0ea5e9; --yellow-300:#7dd3fc;
+  --gold:#facc15;
+}
+.site-header{background:rgba(7,17,31,.92)}
+.price .yellow,.hero-offer .new{color:var(--gold)}
+.risk-box .zero{color:var(--gold)}
+.mf-card .tag{background:rgba(56,189,248,.12)}
+@media(min-width:1024px){.steps .line{background:rgba(56,189,248,.3)}}
+.pill-alert{background:var(--gray-950)}
+.step .icon-circle svg{color:#06233a}
+.step .num{color:#06233a}
+.btn-yellow,.btn-yellow-sm{color:#06233a}
+.bg-gray-900{background:var(--gray-900)}
+.manifesto{background:linear-gradient(180deg,#0a2140 0%,var(--black) 100%)}
+.cred-media{background:var(--gray-950)}
 </style>
 </head>
 <body>
@@ -891,7 +915,7 @@ footer ul{list-style:none}
         <div class="cd-box"><div class="num" data-s>59</div><p>Segundos</p></div>
       </div>
       <div>
-        <span class="pill" style="background:#000;border:1px solid var(--yellow-400);color:var(--yellow-400);padding:12px 24px;font-size:18px">
+        <span class="pill" style="background:var(--gray-950);border:1px solid var(--yellow-400);color:var(--yellow-400);padding:12px 24px;font-size:18px">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
           Somente +3 consultas disponíveis com esse valor
         </span>
