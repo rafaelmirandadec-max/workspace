@@ -7,7 +7,7 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 12/11/202
 
 ## O que mudou em relação à original
 1. Blocos retirados a pedido do Rafael: Porsche Cup (carrossel e "patrocinadores oficiais"), em 12/11; quiz "Será que você precisa de uma avaliação médica?" e selo do Reclame AQUI, em 13/11.
-2. Dobra superior: selo "Novembro Azul AndroClinic", pré-headline da Black Friday com RISCO ZERO, os 3 itens (R$ 97, garantia, cashback), botão "AGENDAR MINHA CONSULTA MÉDICA INDIVIDUAL POR APENAS R$ 97" e "Atendimento sigiloso · Sem fila · Escolha seu horário". O vídeo continua no mesmo lugar.
+2. Dobra superior: logo "Novembro Azul AndroClinic" (enviada pelo Rafael em 13/11, sobre um cartão branco porque as letras azul-marinho somem no fundo preto), pré-headline da Black Friday com RISCO ZERO, os 3 itens (R$ 97, garantia, cashback), botão "AGENDAR MINHA CONSULTA MÉDICA INDIVIDUAL POR APENAS R$ 97" e "Atendimento sigiloso · Sem fila · Escolha seu horário". O vídeo continua no mesmo lugar.
 3. Bloco opcional "Novembro Azul: menos promoções vazias, mais saúde real" logo abaixo da dobra (3 cartões). Para tirar, apague a `<section class="manifesto">` inteira.
 4. Bloco de oferta: R$ 197 por R$ 97, texto da Oferta Novembro Azul e os 4 itens novos.
 5. Bloco novo de garantia "O risco é 100% da clínica" com selo de 100% (desenhado em SVG, não há imagem de selo na original), logo depois da oferta.
