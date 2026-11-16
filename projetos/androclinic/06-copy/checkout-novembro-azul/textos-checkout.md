@@ -31,8 +31,6 @@ Arquivo: `foto-produto-dr-cristiano.jpg` (600 × 400). Troca a foto de banco de 
 > **Cashback:** se o médico indicar tratamento e você decidir fazer com a AndroClinic, os R$ 97 são abatidos no tratamento.
 >
 > **Depois do pagamento:** `[A PREENCHER: como a pessoa agenda — ex.: "você recebe no WhatsApp e no e-mail o link para escolher o dia e o horário da consulta."]`
->
-> Condição Novembro Azul válida até 30/11, às 23h59.
 
 ## 6. Três argumentos curtos (perto do botão, se houver campo de "benefícios" ou "destaques")
 > ✔ Atendimento médico 1:1 por vídeo: 100% sigiloso e sem espera
@@ -57,7 +55,7 @@ Sugestão: **ANDROCLINIC CONSULTA** ou só **ANDROCLINIC**. Evitar qualquer pala
 
 ## O que não colocar
 - Produto extra no checkout (order bump) como protocolo, suplemento ou exame: vira venda casada com a consulta médica, ponto sensível no CFM.
-- Cronômetro: o prazo é a data fixa de 30/11.
+- Cronômetro ou prazo na tela: por decisão do Rafael (16/11), o checkout não mostra o prazo de 30/11. A condição continua valendo até 30/11 e o preço volta ao normal em 1º/12.
 
 ## Pendências
 - Qual CNPJ usar no banner (item 1).
