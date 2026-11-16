@@ -30,15 +30,15 @@ CENA = f'''<svg class="cena" viewBox="-300 -60 600 380" fill="none" stroke="#f5c
 
 FORMATOS = {
     'feed-1080x1350': (1080, 1350, 42, """
-      body{padding:78px 70px 40px} .pre{font-size:50px} h1{font-size:64px} .cena{height:380px} .pergunta{font-size:40px} .chamada{font-size:38px;padding:34px 40px}"""),
+      body{padding:78px 70px 40px} .pre{font-size:62px} h1{font-size:64px} .cena{height:380px} .pergunta{font-size:40px} .chamada{font-size:38px;padding:34px 40px}"""),
     'stories-1080x1920': (1080, 1920, 60, """
-      body{padding:250px 70px 300px} .pre{font-size:58px} h1{font-size:76px} .cena{height:500px} .pergunta{font-size:48px} .chamada{font-size:44px;padding:42px 44px}
+      body{padding:250px 70px 300px} .pre{font-size:72px} h1{font-size:76px} .cena{height:500px} .pergunta{font-size:48px} .chamada{font-size:44px;padding:42px 44px}
       .rodape{margin-top:26px}"""),
 }
 
 for nome, (w, h, n, extra) in FORMATOS.items():
     html = f"""<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,600;1,700;1,800&display=swap" rel="stylesheet">
 <style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{width:{w}px;height:{h}px;overflow:hidden;font-family:Inter,sans-serif;color:#fff;position:relative;display:flex;flex-direction:column;
@@ -47,7 +47,7 @@ body{{width:{w}px;height:{h}px;overflow:hidden;font-family:Inter,sans-serif;colo
 .veu{{position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(6,4,3,.92) 0%,rgba(6,4,3,.55) 26%,rgba(6,4,3,.15) 45%,rgba(6,4,3,.35) 62%,rgba(6,4,3,.95) 80%,#060403 100%)}}
 .conteudo{{position:relative;z-index:1;display:flex;flex-direction:column;height:100%}}
 .risco{{display:block;width:84px;height:6px;background:#facc15;border-radius:3px;margin-bottom:26px}}
-.pre{{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;line-height:1.15;color:rgba(255,255,255,.92);margin-bottom:22px}}
+.pre{{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;line-height:1.12;color:#fff;margin-bottom:24px;text-shadow:0 3px 14px rgba(0,0,0,.6)}}
 h1{{font-weight:900;line-height:1.04;letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 4px 18px rgba(0,0,0,.5)}}
 h1 em{{font-style:normal;color:#facc15}}
 .meio{{flex:1;display:flex;align-items:center;justify-content:center}}
