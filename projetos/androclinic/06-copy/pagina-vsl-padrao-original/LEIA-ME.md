@@ -6,7 +6,7 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 16/11/202
 - `imagens/` — imagens tiradas da página original (fotos da Porsche reduzidas para 1600 px; PNGs convertidos para WebP).
 
 ## O que mudou em relação à original
-1. Topo dividido em pré-headline e headline (16/11). Pré-headline, em branco e caixa alta: "Enquanto outros lucram com a sua dor na Black Friday...". Headline, no estilo da original (amarelo, negrito), com corpo menor (30 px no celular, 54 px no computador): "No NOVEMBRO AZUL, recupere sua potência e desempenho sexual com RISCO ZERO." (a palavra "confiança" saiu a pedido do Rafael)
+1. Headline igual à original ("Recupere sua potência, confiança e desempenho."), com uma pré-headline acima (16/11): "Enquanto a Black Friday lucra com a sua dor…" em itálico, seguida de um selo azul com a fita do Novembro Azul: "no NOVEMBRO AZUL:".
 2. Saiu o subtítulo da dobra ("Consulta médica com especialista em saúde sexual masculina. Atendimento online, sigiloso e eficaz."), pedido do Rafael em 16/11.
 
 Todo o resto está igual à original, inclusive o preço (R$ 500 por R$ 197), os cronômetros e o link de agendamento.

@@ -391,12 +391,14 @@ footer ul{list-style:none}
 .stack-4>*+*{margin-top:16px}.stack-6>*+*{margin-top:24px}.stack-8>*+*{margin-top:32px}
 .hide-mobile{display:none}
 @media(min-width:768px){.hide-mobile{display:block}.hide-desktop{display:none}}
-.pre-nov{font-size:17px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:.04em;line-height:1.4}
-@media(min-width:768px){.pre-nov{font-size:21px}}
-.h1.h1-nov{font-size:30px;line-height:1.15}
-@media(min-width:640px){.h1.h1-nov{font-size:38px}}
-@media(min-width:768px){.h1.h1-nov{font-size:46px}}
-@media(min-width:1024px){.h1.h1-nov{font-size:54px}}
+.pre-nov{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px 12px;margin-bottom:8px}
+.pre-nov .pre-txt{font-size:15px;font-weight:500;color:#e5e7eb;font-style:italic;letter-spacing:.01em}
+.pre-nov .pre-tag{display:inline-flex;align-items:center;gap:8px;padding:7px 16px 7px 12px;border-radius:9999px;
+  background:rgba(37,99,235,.18);border:1.5px solid #3b82f6;color:#fff;font-size:15px;font-weight:600;
+  box-shadow:0 0 24px rgba(59,130,246,.35)}
+.pre-nov .pre-tag b{font-weight:800;letter-spacing:.06em;color:#93c5fd}
+.pre-nov .fita{width:14px;height:19px;flex-shrink:0}
+@media(min-width:768px){.pre-nov .pre-txt{font-size:21px}.pre-nov .pre-tag{font-size:18px;padding:8px 20px 8px 14px}.pre-nov .fita{width:16px;height:22px}}
 </style>
 </head>
 <body>
@@ -413,8 +415,8 @@ footer ul{list-style:none}
 <!-- ========== HERO ========== -->
 <section class="hero">
   <div class="max-3xl stack-4">
-    <p class="pre-nov">Enquanto outros lucram com a sua dor na Black Friday...</p>
-    <h1 class="h1 h1-nov">No NOVEMBRO AZUL, recupere sua potência e desempenho sexual com RISCO ZERO.</h1>
+    <p class="pre-nov"><span class="pre-txt">Enquanto a Black Friday lucra com a sua dor…</span> <span class="pre-tag">no <svg class="fita" viewBox="0 0 24 32" aria-hidden="true"><path d="M12 2c-3.6 0-6 2.6-6 6 0 2.6 1.6 5 3.5 7.6L3 28l4.2-.6L9 31l5.4-11.3C16.6 16.6 18 14 18 8c0-3.4-2.4-6-6-6zm0 3c1.7 0 3 1.3 3 3 0 1.9-.9 3.9-2.4 6.2L12 15l-.6-.8C9.9 12 9 9.9 9 8c0-1.7 1.3-3 3-3z" fill="#60a5fa"/><path d="M14.6 19.7 21 28l-4.2-.6L15 31l-3.9-8.2z" fill="#2563eb"/></svg><b>NOVEMBRO AZUL:</b></span></p>
+    <h1 class="h1">Recupere sua potência, confiança e desempenho.</h1>
   </div>
   <div class="player-box">
     <vturb-smartplayer id="vid-6a7ddc2de9c22c219fe90534" style="display:block;margin:0 auto;width:100%;max-width:400px">
