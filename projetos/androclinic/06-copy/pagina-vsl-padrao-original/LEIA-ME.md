@@ -10,6 +10,7 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 16/11/202
 2. Saiu o subtítulo da dobra ("Consulta médica com especialista em saúde sexual masculina. Atendimento online, sigiloso e eficaz."), pedido do Rafael em 16/11.
 3. Bullets embaixo do vídeo, num cartão com os ícones de check amarelos da original (16/11): "Consulta médica online: de R$ 1.000 por apenas R$ 97", "Garantia Total: não gostou da consulta? Devolvemos 100% do seu dinheiro.", "Cashback: 100% do valor da consulta vira crédito no seu protocolo."
 4. Bloco de oferta com a copy do Rafael (16/11): "R$1.000 por apenas R$97"; benefícios "Atendimento Médico 1:1 por Vídeo: 100% sigiloso e sem espera", "Garantia Total: devolução de 100% do valor se não gostar da consulta", "Cashback: R$ 97 abatidos no tratamento, se precisar"; botão "Agendar Minha Consulta por R$ 97". Título e texto de apoio iguais aos da original.
+5. Bloco novo de garantia logo depois da oferta (16/11), com selo de garantia 100% (desenhado em SVG, a original não tem imagem de selo) e a copy do Rafael: "Garantia Pós-Consulta: Satisfação ou Seu Dinheiro de Volta" … "Seu risco é zero."
 
 Todo o resto está igual à original, inclusive a última chamada ("As vagas promocionais por R$197 encerram hoje"), os cronômetros e o link de agendamento.
 
