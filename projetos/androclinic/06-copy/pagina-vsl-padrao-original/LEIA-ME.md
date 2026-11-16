@@ -8,6 +8,7 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 16/11/202
 ## O que mudou em relação à original
 1. Headline igual à original ("Recupere sua potência, confiança e desempenho."), com uma pré-headline acima (16/11): "Enquanto a Black Friday lucra com a sua dor…" em itálico, seguida de um selo azul com a fita do Novembro Azul: "no NOVEMBRO AZUL:".
 2. Saiu o subtítulo da dobra ("Consulta médica com especialista em saúde sexual masculina. Atendimento online, sigiloso e eficaz."), pedido do Rafael em 16/11.
+3. Bullets embaixo do vídeo, num cartão com os ícones de check amarelos da original (16/11): "Consulta médica online: de R$ 1.000 por apenas R$ 97", "Garantia Total: não gostou da consulta? Devolvemos 100% do seu dinheiro.", "Cashback: 100% do valor da consulta vira crédito no seu protocolo."
 
 Todo o resto está igual à original, inclusive o preço (R$ 500 por R$ 197), os cronômetros e o link de agendamento.
 
