@@ -27,7 +27,7 @@ def html(cnpj): return f"""<!doctype html><html><head><meta charset="utf-8">
 body{{width:800px;height:450px;overflow:hidden;font-family:Inter,sans-serif;background:#000;color:#fff;position:relative}}
 .foto{{position:absolute;right:0;top:0;width:360px;height:394px;background:url({foto}) center 18%/cover no-repeat}}
 .foto::after{{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#000 0%,rgba(0,0,0,.55) 22%,rgba(0,0,0,0) 55%)}}
-.esq{{position:absolute;left:36px;top:30px;width:470px}}
+.esq{{position:absolute;left:36px;top:42px;width:470px}}
 .logo{{width:200px;display:block;margin-bottom:22px}}
 .kick{{font-size:17px;font-weight:800;letter-spacing:.07em;color:#e5e7eb;white-space:nowrap}}
 .preco{{margin-top:6px;display:flex;align-items:baseline;gap:12px;white-space:nowrap}}
@@ -35,7 +35,7 @@ body{{width:800px;height:450px;overflow:hidden;font-family:Inter,sans-serif;back
 .por{{font-size:26px;font-weight:700;color:#fff}}
 .val{{font-size:76px;font-weight:900;color:#facc15;letter-spacing:-.02em;line-height:1}}
 .prazo{{margin-top:12px;display:inline-block;font-size:17px;font-weight:700;color:#000;background:#facc15;border-radius:999px;padding:6px 16px}}
-.garantia{{margin-top:16px;display:flex;align-items:center;gap:14px}}
+.garantia{{margin-top:26px;display:flex;align-items:center;gap:14px}}
 .garantia p{{font-size:17px;font-weight:600;color:#e5e7eb;line-height:1.3}}
 .garantia b{{color:#fff}}
 .selo{{width:84px;height:84px;flex-shrink:0;filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}}
@@ -50,7 +50,6 @@ body{{width:800px;height:450px;overflow:hidden;font-family:Inter,sans-serif;back
   <img class="logo" src="{logo}" alt="">
   <div class="kick">CONSULTA MÉDICA ONLINE · 100% SIGILOSA</div>
   <div class="preco"><span class="de">de <s>R$ 1.000</s></span><span class="por">por</span><span class="val">R$ 97</span></div>
-  <div class="prazo">Condição válida até 30/11, às 23h59</div>
   <div class="garantia">{selo}<p>Não gostou da consulta?<br><b>Devolvemos 100% do seu dinheiro.</b></p></div>
 </div>
 <div class="barra">
