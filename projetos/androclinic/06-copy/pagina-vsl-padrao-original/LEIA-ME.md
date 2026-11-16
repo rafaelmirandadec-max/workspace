@@ -12,8 +12,9 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 16/11/202
 4. Bloco de oferta com a copy do Rafael (16/11): "R$1.000 por apenas R$97"; benefícios "Atendimento Médico 1:1 por Vídeo: 100% sigiloso e sem espera", "Garantia Total: devolução de 100% do valor se não gostar da consulta", "Cashback: R$ 97 abatidos no tratamento, se precisar"; botão "Agendar Minha Consulta por R$ 97". Título e texto de apoio iguais aos da original.
 5. Bloco novo de garantia logo depois da oferta (16/11), com selo de garantia 100% (desenhado em SVG, a original não tem imagem de selo) e a copy do Rafael: "Garantia Pós-Consulta: Satisfação ou Seu Dinheiro de Volta" … "Seu risco é zero."
 6. Quatro perguntas novas no topo do FAQ (16/11): por que R$ 97 neste mês, garantia de devolução, cashback no tratamento, pressão alta ou diabetes. As 6 da original continuam abaixo. Ajustes só de pontuação/regência (vírgulas na resposta da garantia). Na primeira resposta, o preço anterior é R$ 1.000, como no resto da página (pedido do Rafael).
+7. Última chamada: "As vagas promocionais por R$ 97 encerram hoje" (antes R$197), pedido do Rafael em 16/11.
 
-Todo o resto está igual à original, inclusive a última chamada ("As vagas promocionais por R$197 encerram hoje"), os cronômetros e o link de agendamento.
+Todo o resto está igual à original, inclusive os cronômetros e o link de agendamento.
 
 ## Atenção ao publicar
 - Os vídeos da VTurb só tocam no domínio liberado no painel da VTurb.
