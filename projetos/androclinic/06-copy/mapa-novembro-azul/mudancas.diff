@@ -1,0 +1,56 @@
+--- perguntas-v2/perguntas-dados-meta.js (atual)
++++ perguntas-v2/perguntas-dados-meta.js (Novembro Azul)
+@@ -631,16 +631,20 @@
+    ]
+   },
+   "condicao": {
+-   "selo": "CONSULTA COM A CONDIÇÃO DO MAPA DE RISCO",
++   "selo": "CONDIÇÃO NOVEMBRO AZUL",
+    "titulo": "Sua consulta médica",
+    "so": "só",
+    "valorCheio": "1.000",
+-   "por": "197",
++   "por": "97",
++   "extras": [
++    "Não gostou da consulta? Devolvemos 100%",
++    "R$ 97 abatidos no tratamento, se precisar"
++   ],
+    "linha": "Válida por 5 minutos a partir deste resultado. Depois, volta ao valor normal.",
+    "timer": "sua condição expira em",
+    "minutos": 5
+   },
+-  "botao": "AGENDAR CONSULTA AGORA COM CONDIÇÃO ESPECIAL",
++  "botao": "AGENDAR MINHA CONSULTA POR R$ 97",
+   "micro": "Telemedicina · Sigilo total · Pagamento seguro"
+  },
+  "versao": {
+--- perguntas-v2/perguntas.js (atual)
++++ perguntas-v2/perguntas.js (Novembro Azul)
+@@ -46,15 +46,15 @@
+   // no protótipo pra decisão do Elias (?prazo=0 esconde); no app só entram quando o Vini fizer o prazo valer de verdade.
+   // produção: o resultado modo alerta é o principal (Elias 30/10) — liga sempre, sem depender de URL nem de classe
+   const MODO_ALERTA = true;
+-  const PRAZO_REAL = new URLSearchParams(location.search).get('prazo') !== '0';
++  const PRAZO_REAL = new URLSearchParams(location.search).get('prazo') === '1';   // Novembro Azul: sem cronômetro de 5 min
+   const classeTela = (t, f) => [classeTema(t), FONTES[f].classe].filter(Boolean).join(' ');
+   // produção: a barra de endereço é do /mapa/app/integra.js (só a lista fixa); o desenhador não escreve nela
+   const poeNaUrl = () => {};
+   const hojeTx = () => { const d = new Date(); return `${d.getDate()} de ${MESES[d.getMonth()]} de ${d.getFullYear()}`; };
+ 
+   // ---------- peças fixas ----------
+-  const logo = () => '<img class="logo logo--p logo--cor" src="/mapa/assets/androclinic-logo.png" alt="AndroClinic">'
+-    + '<img class="logo logo--p logo--branca" src="/mapa/resultado-animado/assets/androclinic-logo-branca.png" alt="AndroClinic">';
++  const logo = () => '<img class="logo logo--p logo--cor" src="/mapa/assets/logo-novembro-azul.png" alt="Novembro Azul AndroClinic">'
++    + '<img class="logo logo--p logo--branca" src="/mapa/assets/logo-novembro-azul-branca.png" alt="Novembro Azul AndroClinic">';
+ 
+   // Uma barra só, que vai enchendo (Elias, 22/10). A largura vem de data-p (0 a 15) por regra no CSS: sem style inline.
+   // Na tela final (n = 0) ela aparece cheia. Sem o contador "x de 15" na tela (Elias, 22/10: "não precisa do número de
+@@ -332,7 +332,7 @@
+     const condicao = `<section class="bloco bl condicao"><svg class="condicao__borda" aria-hidden="true"><rect x="0" y="0" width="100%" height="100%" rx="22"/></svg>`
+       + `<span class="condicao__selo">${esc(C.selo)}</span><h2 class="condicao__titulo">${esc(C.titulo)}</h2>`
+       + `<p class="condicao__de">de <s class="risca">R$&nbsp;${esc(C.valorCheio)}</s> por</p>`
+-      + `<p class="condicao__por"><span class="condicao__so">${esc(C.so)}</span><span class="condicao__valor"><small>R$</small>${esc(C.por)}</span></p>${prazo}</section>`;
++      + `<p class="condicao__por"><span class="condicao__so">${esc(C.so)}</span><span class="condicao__valor"><small>R$</small>${esc(C.por)}</span></p>${(C.extras || []).length ? `<ul class="condicao__extras">${C.extras.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}${prazo}</section>`;
+     const detalhe = `<div class="cards cards--alerta">${x.cards}${x.investigar}${x.remedios}${x.tentou}</div>`;
+     const url = (R.barra.match(/href="([^"]+)"/) || [])[1] || '#';
+     const barra = `<div class="barra-cta barra-cta--alerta" hidden><a class="btn btn--primario" href="${url}">${esc(A.botao)}${ic('seta')}</a>`
