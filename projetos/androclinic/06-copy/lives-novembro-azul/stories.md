@@ -103,7 +103,7 @@ Escrito em 13/11/2026 pelo copywriter. Acompanha `roteiros-lives.md` (mesmas pal
 - **12h45** — Texto: "Em 15 minutos eu respondo as três dúvidas que mais chegaram." Figurinha: **Link** → `[LINK]`.
 
 ### Segunda, 30/11 (último dia)
-- **9h** — Texto: "Último dia. A consulta de R$ 197 por R$ 97 vale até as 23h59 de hoje. Às 13h, última live do Novembro Azul." Figurinha: **Link** → `[LINK]`.
+- **9h** — Texto: "Último dia. A consulta de R$ 1.000 por R$ 97 vale até as 23h59 de hoje. Às 13h, última live do Novembro Azul." Figurinha: **Link** → `[LINK]`.
 - **12h45** — Texto: "Em 15 minutos: o passo a passo da consulta, do agendamento ao fim." Figurinha: **Contagem regressiva** "Fim da condição · 30/11, 23h59".
 
 ---
@@ -144,35 +144,35 @@ Publicar logo depois de cada live, com a live salva no perfil.
 
 ### Segunda, 16/11
 **Story 1** — Texto: "Se perdeu a live, ela ficou salva no perfil. Eu anunciei a campanha de Novembro Azul." Figurinha: **Link** "Ver a live" → replay.
-**Story 2** — Texto: "Consulta online comigo: de R$ 197 por R$ 97, até 30/11 às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve 100% via PIX." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
+**Story 2** — Texto: "Consulta online comigo: de R$ 1.000 por R$ 97, até 30/11 às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve 100% via PIX." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
 **Story 3** — Texto: "**(CRÉDITO)** Se eu indicar tratamento e você decidir fazer com a clínica, os R$ 97 viram crédito integral. E tem nota fiscal com CRM para pedir reembolso no plano." Figurinha: **Link** → `[LINK]`.
 **Story 4** — abrir a caixinha da live de quinta (Story A da seção 3).
 
 ### Quinta, 19/11
 **Story 1** — Texto: "Live de hoje: por que o comprimido às vezes para de funcionar. Ficou salva no perfil." Figurinha: **Link** "Ver a live" → replay.
 **Story 2** — Texto: "Circulação, hormônios, ansiedade. O comprimido não investiga nenhum dos três. A consulta investiga." Figurinha: nenhuma.
-**Story 3** — Texto: "De R$ 197 por R$ 97 até 30/11. Garantia: se a consulta não atender às suas expectativas, 100% de volta via PIX." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
+**Story 3** — Texto: "De R$ 1.000 por R$ 97 até 30/11. Garantia: se a consulta não atender às suas expectativas, 100% de volta via PIX." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
 
 ### Segunda, 23/11
 **Story 1** — Texto: "As cinco perguntas para fazer antes de pagar qualquer tratamento nesta Black Friday estão na live de hoje, salva no perfil." Figurinha: **Link** "Ver a live" → replay.
 **Story 2** — Texto: "1. Quem vai me avaliar? 2. Vão perguntar da minha saúde? 3. Estão prometendo resultado? 4. Tenho que pagar pacote antes de avaliar? 5. E se eu não gostar?" Figurinha: nenhuma. (Story bom para salvar e compartilhar.)
-**Story 3** — Texto: "Novembro não é Black Friday. É saúde do homem. Consulta de R$ 197 por R$ 97 até 30/11." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
+**Story 3** — Texto: "Novembro não é Black Friday. É saúde do homem. Consulta de R$ 1.000 por R$ 97 até 30/11." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
 **Story 4** — abrir a caixinha da live de quinta (Story C da seção 3).
 
 ### Quinta, 26/11
 **Story 1** — Texto: "Pressão alta e diabetes, plano de saúde e garantia: as respostas estão na live de hoje, salva no perfil." Figurinha: **Link** "Ver a live" → replay.
 **Story 2** — Texto: "Amanhã é Black Friday. Aqui o prazo é um só: segunda, 30/11, às 23h59. Faltam 4 dias." Figurinha: **Contagem regressiva** "Fim da consulta de R$ 97 · 30/11, 23h59".
-**Story 3** — Texto: "De R$ 197 por R$ 97. Se a consulta não atender às suas expectativas, 100% de volta via PIX." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
+**Story 3** — Texto: "De R$ 1.000 por R$ 97. Se a consulta não atender às suas expectativas, 100% de volta via PIX." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
 
 ### Segunda, 30/11 (pós-live e últimas horas)
 **Story 1 (14h)** — Texto: "Última live do Novembro Azul, salva no perfil: o passo a passo da consulta." Figurinha: **Link** "Ver a live" → replay.
 **Story 2 (14h)** — Texto: "Hoje é o último dia da consulta de R$ 97. Até as 23h59." Figurinha: **Link** "Agendar por R$ 97" → `[LINK]`.
-**Story 3 (19h)** — Texto: "Faltam 5 horas. Depois das 23h59, a consulta volta para R$ 197." Figurinha: **Link** → `[LINK]`.
+**Story 3 (19h)** — Texto: "Faltam 5 horas. Depois das 23h59, a consulta volta para R$ 1.000." Figurinha: **Link** → `[LINK]`.
 **Story 4 (22h)** — Texto: "Faltam 2 horas para acabar o Novembro Azul da AndroClinic." Figurinha: **Link** → `[LINK]`.
 **Story 5 (23h15)** — Texto: "Últimos 45 minutos da consulta de R$ 97." Figurinha: **Link** → `[LINK]`.
 
 ### Terça, 1º/12 (fechamento honesto)
-**Story único (manhã)** — Texto: "A campanha de Novembro Azul acabou ontem, às 23h59. A consulta voltou para R$ 197. Obrigado a quem acompanhou as lives. Segunda e quinta, às 13h, a gente continua." Figurinha: nenhuma.
+**Story único (manhã)** — Texto: "A campanha de Novembro Azul acabou ontem, às 23h59. A consulta voltou para R$ 1.000. Obrigado a quem acompanhou as lives. Segunda e quinta, às 13h, a gente continua." Figurinha: nenhuma.
 (Esse Story mostra que o prazo era real. Ajuda a credibilidade da próxima campanha.)
 
 ---

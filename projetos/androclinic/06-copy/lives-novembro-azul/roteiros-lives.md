@@ -109,7 +109,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 "Eu fico pensando em quantos homens assistem a essa live toda semana, concordam com tudo e não marcam a consulta. Alguns por vergonha. Alguns porque acham que vai passar sozinho. E alguns por causa do preço. A vergonha, eu resolvo com sigilo. O preço, eu decidi resolver hoje."
 
 **Anúncio (exato):**
-"A minha consulta online custa R$ 197. É o que eu cobro hoje. A partir de agora, até o dia 30 de novembro, às 23h59, ela sai por R$ 97. No dia 1º de dezembro volta para R$ 197. Essa é a campanha de Novembro Azul da AndroClinic."
+"A minha consulta online custa R$ 1.000. É o que eu cobro hoje. A partir de agora, até o dia 30 de novembro, às 23h59, ela sai por R$ 97. No dia 1º de dezembro volta para R$ 1.000. Essa é a campanha de Novembro Azul da AndroClinic."
 
 **Garantia (exata):**
 "E tem uma garantia. Você faz a consulta comigo. Se no final achar que ela não atendeu às suas expectativas, avisa a equipe no WhatsApp e recebe os R$ 97 de volta, 100%, via PIX. O risco do valor da consulta fica com a clínica, não com você."
@@ -145,7 +145,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 ### Bloco 5 — Chamada final e encerramento (35 a 40 min)
 
 **Chamada final (exata):**
-"Para quem chegou agora: consulta online comigo, de R$ 197 por R$ 97, até 30 de novembro, às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. O link está na bio e no Stories, e o comentário fixado mostra o caminho."
+"Para quem chegou agora: consulta online comigo, de R$ 1.000 por R$ 97, até 30 de novembro, às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. O link está na bio e no Stories, e o comentário fixado mostra o caminho."
 
 **Encerramento (exata):**
 "Quinta, às 13h, tem live de novo. Vou explicar por que o comprimido às vezes para de funcionar. Manda a sua dúvida na caixinha do Stories. O seu nome não aparece na resposta."
@@ -156,7 +156,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 > Fica até a metade da live: hoje tem novidade na consulta de Novembro Azul.
 
 *Depois do anúncio (trocar no Bloco 3):*
-> NOVEMBRO AZUL: consulta online com o Dr. Cristiano de R$ 197 por R$ 97, até 30/11 às 23h59. Se a consulta não atender às suas expectativas, devolução de 100% via PIX. Para agendar: link na bio do [@perfil] ou no Stories.
+> NOVEMBRO AZUL: consulta online com o Dr. Cristiano de R$ 1.000 por R$ 97, até 30/11 às 23h59. Se a consulta não atender às suas expectativas, devolução de 100% via PIX. Para agendar: link na bio do [@perfil] ou no Stories.
 ---
 
 ## LIVE 2 — Quinta, 19/11, 13h: por que o comprimido para de funcionar (cerca de 45 min)
@@ -190,7 +190,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 "Repara numa coisa: das três causas que eu falei, o comprimido não investiga nenhuma. Ele não mede a sua pressão, não olha o seu hormônio, não pergunta como anda a sua cabeça. Quem faz isso é o médico, na consulta."
 
 **Oferta (exata, igual à da live 1):**
-"Até o dia 30 de novembro, às 23h59, a minha consulta online sai de R$ 197 por R$ 97. Se a consulta não atender às suas expectativas, você avisa no WhatsApp e recebe os R$ 97 de volta via PIX."
+"Até o dia 30 de novembro, às 23h59, a minha consulta online sai de R$ 1.000 por R$ 97. Se a consulta não atender às suas expectativas, você avisa no WhatsApp e recebe os R$ 97 de volta via PIX."
 - **(CRÉDITO)** "E se eu indicar tratamento e você decidir fazer com a clínica, os R$ 97 viram crédito integral."
 
 **1ª chamada (exata):**
@@ -210,13 +210,13 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 ### Bloco 5 — Chamada final e encerramento (38 a 45 min)
 
 **Chamada final (exata):**
-"Para quem chegou agora: consulta online comigo, de R$ 197 por R$ 97, até 30 de novembro, às 23h59. Se não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
+"Para quem chegou agora: consulta online comigo, de R$ 1.000 por R$ 97, até 30 de novembro, às 23h59. Se não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
 
 **Encerramento (exata):**
 "Segunda, às 13h, é semana de Black Friday, e eu vou fazer uma live diferente: cinco perguntas para você fazer antes de pagar qualquer tratamento de saúde sexual. Até segunda."
 
 ### Comentário fixado
-> Hoje: por que o comprimido às vezes para de funcionar. Novembro Azul: consulta online com o Dr. Cristiano de R$ 197 por R$ 97 até 30/11, com devolução de 100% via PIX se a consulta não atender às suas expectativas. Agende pelo link na bio do [@perfil] ou no Stories.
+> Hoje: por que o comprimido às vezes para de funcionar. Novembro Azul: consulta online com o Dr. Cristiano de R$ 1.000 por R$ 97 até 30/11, com devolução de 100% via PIX se a consulta não atender às suas expectativas. Agende pelo link na bio do [@perfil] ou no Stories.
 
 ---
 
@@ -250,7 +250,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 2. "Pergunto da sua saúde? É a primeira coisa que eu faço: pressão, açúcar, remédios, hábitos, exames."
 3. "Prometo resultado? Não. Não posso e não vou. O que eu posso garantir é o atendimento."
 4. "Pacote antes de avaliar? Não. Você paga a consulta. Tratamento, só se eu indicar e se você quiser."
-5. "E o seu dinheiro? A consulta está de R$ 197 por R$ 97 até o dia 30. Se não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. E tem nota fiscal com o meu CRM para pedir reembolso no plano, conforme as regras dele."
+5. "E o seu dinheiro? A consulta está de R$ 1.000 por R$ 97 até o dia 30. Se não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. E tem nota fiscal com o meu CRM para pedir reembolso no plano, conforme as regras dele."
 - **(CRÉDITO)** "Se eu indicar tratamento e você decidir fazer com a clínica, os R$ 97 viram crédito integral."
 
 **1ª chamada (exata):**
@@ -262,13 +262,13 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 ### Bloco 5 — Chamada final e encerramento (33 a 38 min)
 
 **Chamada final (exata):**
-"Para quem chegou agora: consulta online comigo, de R$ 197 por R$ 97, até 30 de novembro, às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
+"Para quem chegou agora: consulta online comigo, de R$ 1.000 por R$ 97, até 30 de novembro, às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
 
 **Encerramento (exata):**
 "Quinta, às 13h, véspera da Black Friday, eu respondo as três dúvidas que mais seguram um homem na hora de agendar: pressão alta e diabetes, reembolso no plano e 'e se a consulta não me ajudar?'. Manda a sua dúvida na caixinha do Stories."
 
 ### Comentário fixado
-> Antes de pagar qualquer tratamento nesta Black Friday, faça as 5 perguntas da live. Novembro Azul: consulta online com o Dr. Cristiano de R$ 197 por R$ 97 até 30/11, com devolução de 100% via PIX se a consulta não atender às suas expectativas. Link na bio do [@perfil] ou no Stories.
+> Antes de pagar qualquer tratamento nesta Black Friday, faça as 5 perguntas da live. Novembro Azul: consulta online com o Dr. Cristiano de R$ 1.000 por R$ 97 até 30/11, com devolução de 100% via PIX se a consulta não atender às suas expectativas. Link na bio do [@perfil] ou no Stories.
 
 ---
 
@@ -301,7 +301,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 - **(CRÉDITO)** "E se eu indicar tratamento e você decidir fazer com a clínica, os R$ 97 viram crédito integral."
 
 **Virada para o prazo (exata):**
-"Amanhã é Black Friday, e muita loja vai dizer que é a última chance. Aqui o prazo é um só: segunda, dia 30, às 23h59. No dia 1º a consulta volta para R$ 197. Faltam quatro dias."
+"Amanhã é Black Friday, e muita loja vai dizer que é a última chance. Aqui o prazo é um só: segunda, dia 30, às 23h59. No dia 1º a consulta volta para R$ 1.000. Faltam quatro dias."
 - Só se a agenda confirmar: "Os horários desta semana estão [N VAGAS — confirmar com a agenda]." ou "Quem agendar até [data] tem agenda prioritária [A CONFIRMAR]." Sem confirmação, não falar de vagas.
 
 **1ª chamada (exata):**
@@ -313,13 +313,13 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 ### Bloco 6 — Chamada final e encerramento (34 a 40 min)
 
 **Chamada final (exata):**
-"Para quem chegou agora: consulta online comigo, de R$ 197 por R$ 97, até segunda, 30 de novembro, às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
+"Para quem chegou agora: consulta online comigo, de R$ 1.000 por R$ 97, até segunda, 30 de novembro, às 23h59. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
 
 **Encerramento (exata):**
 "Segunda, às 13h, é a última live do Novembro Azul e o último dia dos R$ 97. Eu vou mostrar, passo a passo, o que acontece do agendamento até o fim da consulta."
 
 ### Comentário fixado
-> Faltam 4 dias: a consulta online com o Dr. Cristiano está de R$ 197 por R$ 97 só até segunda, 30/11, às 23h59. Se a consulta não atender às suas expectativas, devolução de 100% via PIX. Nota fiscal com CRM para pedir reembolso no plano. Link na bio do [@perfil] ou no Stories.
+> Faltam 4 dias: a consulta online com o Dr. Cristiano está de R$ 1.000 por R$ 97 só até segunda, 30/11, às 23h59. Se a consulta não atender às suas expectativas, devolução de 100% via PIX. Nota fiscal com CRM para pedir reembolso no plano. Link na bio do [@perfil] ou no Stories.
 
 ---
 
@@ -330,7 +330,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 
 ### Bloco 1 — Abertura (0 a 3 min)
 - "Boa tarde! Eu sou o Dr. Cristiano Estivalet, médico, CRM-DF 15471."
-- "Hoje é o último dia. A consulta de R$ 97 vale até as 23h59 de hoje. Amanhã volta para R$ 197."
+- "Hoje é o último dia. A consulta de R$ 97 vale até as 23h59 de hoje. Amanhã volta para R$ 1.000."
 - `[A CONFIRMAR com o Rafael]` Só se for compromisso firme: "Eu não vou prorrogar."
 - Combinado (frase padrão).
 
@@ -350,7 +350,7 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 "Nessas duas semanas eu falei de circulação, de hormônio, de ansiedade, de promessa de Black Friday. Tudo isso leva para o mesmo lugar: entender a causa. Hoje é o último dia para fazer isso por R$ 97."
 
 **Oferta (exata):**
-"Até as 23h59 de hoje, a consulta online comigo sai de R$ 197 por R$ 97. Se não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. A nota fiscal sai com o meu CRM, para pedir reembolso no plano conforme as regras dele."
+"Até as 23h59 de hoje, a consulta online comigo sai de R$ 1.000 por R$ 97. Se não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. A nota fiscal sai com o meu CRM, para pedir reembolso no plano conforme as regras dele."
 - **(CRÉDITO)** "E se eu indicar tratamento e você decidir fazer com a clínica, os R$ 97 viram crédito integral."
 - `[A PREENCHER]` Se quem paga hoje puder consultar em dezembro: "Você pode agendar hoje para um horário em dezembro e vale o R$ 97." Se não puder, não falar.
 - Vagas: só com `[N VAGAS — confirmar com a agenda]`.
@@ -365,13 +365,13 @@ Não perguntar idade, remédios ou sintomas de quem escreveu. Não dizer "no seu
 ### Bloco 5 — Chamada final e encerramento (30 a 35 min)
 
 **Chamada final (exata):**
-"Para quem chegou agora: hoje é o último dia. A consulta online comigo está de R$ 197 por R$ 97 até as 23h59. Amanhã volta para R$ 197. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
+"Para quem chegou agora: hoje é o último dia. A consulta online comigo está de R$ 1.000 por R$ 97 até as 23h59. Amanhã volta para R$ 1.000. Se a consulta não atender às suas expectativas, a clínica devolve os R$ 97 via PIX. Link na bio e no Stories."
 
 **Encerramento (exata):**
 "Obrigado por ter acompanhado o Novembro Azul comigo. As lives continuam, toda segunda e quinta, às 13h. E saúde do homem não acaba em novembro."
 
 ### Comentário fixado
-> ÚLTIMO DIA: a consulta online com o Dr. Cristiano está de R$ 197 por R$ 97 só até hoje, 30/11, às 23h59. Amanhã volta para R$ 197. Se a consulta não atender às suas expectativas, devolução de 100% via PIX. Link na bio do [@perfil] ou no Stories.
+> ÚLTIMO DIA: a consulta online com o Dr. Cristiano está de R$ 1.000 por R$ 97 só até hoje, 30/11, às 23h59. Amanhã volta para R$ 1.000. Se a consulta não atender às suas expectativas, devolução de 100% via PIX. Link na bio do [@perfil] ou no Stories.
 
 ---
 

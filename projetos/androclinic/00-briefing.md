@@ -1,17 +1,17 @@
 # Briefing — AndroClinic (campanha Novembro Azul 2026)
 
-Atualizado em 13/11/2026 pela coordenação, a partir do que o Rafael informou e da página atual. Fonte única de verdade para os agentes.
+Atualizado em 13/11/2026 pela coordenação (preço "de" revisto em 16/11), a partir do que o Rafael informou e da página atual. Fonte única de verdade para os agentes.
 
 ## Cliente e produto
 - **Clínica:** AndroClinic (LHP Gestão à Saúde, CNPJ 25.178.600/0001-75), saúde sexual masculina. FATO (rodapé da página original).
 - **Médico:** Dr. Cristiano Estivalet, médico em saúde masculina, CRM-DF 15471. Mais de 12 anos na área (PISTA, a clínica diz de si).
-- **Produto de entrada:** consulta médica online 1:1 por vídeo, cerca de 30 minutos, sigilosa. Preço normal **R$ 197** (FATO, informado pelo Rafael em 13/11: é o que ele cobra hoje).
+- **Produto de entrada:** consulta médica online 1:1 por vídeo, cerca de 30 minutos, sigilosa. Preço anunciado como "de" na campanha: **R$ 1.000** (decisão do Rafael em 16/11, usada na página, nos banners e nas lives). Em 13/11 o Rafael tinha informado que a consulta custava **R$ 197**; `[A PREENCHER: confirmar qual é o preço praticado fora da campanha — o preço "de" precisa ser real pelo CDC]`.
 - **Depois da consulta:** o médico pode prescrever um protocolo individualizado de tratamento (preço do tratamento: `[A PREENCHER]`).
 - **Agendamento:** https://agendamento.andromens.com.br/agendar (o botão da página leva para lá; o preço precisa ser ajustado lá também).
 - **WhatsApp de suporte:** (48) 6136-9359.
 
 ## Oferta Novembro Azul (decidida pelo Rafael)
-- Consulta de **R$ 197 por R$ 97**, válida **até 30/11/2026**. Em 1º/12 volta a R$ 197 (o prazo tem que ser real).
+- Consulta de **R$ 1.000 por R$ 97**, válida **até 30/11/2026**. Em 1º/12 volta a R$ 1.000 (o prazo e o preço "de" têm que ser reais). Atualizado em 16/11; antes era "de R$ 197".
 - **Garantia pós-consulta:** se a consulta não atender às expectativas, o paciente avisa no WhatsApp e recebe 100% (R$ 97) de volta via PIX.
 - **Cashback:** se o médico prescrever protocolo e o paciente iniciar o tratamento com a clínica, os R$ 97 viram crédito integral na fatura do tratamento.
 - **Nota fiscal** com CRM, para pedir reembolso no convênio conforme as regras do plano.

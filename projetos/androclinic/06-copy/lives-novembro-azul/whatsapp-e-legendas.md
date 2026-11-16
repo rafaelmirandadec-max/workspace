@@ -45,7 +45,7 @@ Assinatura de todas as mensagens:
 ### Mensagem 2 — segunda, 16/11, 14h30 (a condição)
 > Novembro Azul na AndroClinic.
 >
-> Como o Dr. Cristiano anunciou na live de hoje: a consulta online com ele sai de R$ 197 por R$ 97, até 30/11, às 23h59. Em 1º/12 volta para R$ 197.
+> Como o Dr. Cristiano anunciou na live de hoje: a consulta online com ele sai de R$ 1.000 por R$ 97, até 30/11, às 23h59. Em 1º/12 volta para R$ 1.000.
 >
 > Se a consulta não atender às suas expectativas, é só avisar aqui no WhatsApp e a clínica devolve os R$ 97 via PIX.
 >
@@ -64,7 +64,7 @@ Assinatura de todas as mensagens:
 > Hoje, às 13h, o Dr. Cristiano mostra cinco perguntas para fazer antes de pagar qualquer tratamento de saúde sexual. Vale para qualquer um, inclusive para a própria AndroClinic.
 >
 > Novembro não é Black Friday. É saúde do homem.
-> Consulta de R$ 197 por R$ 97 até 30/11: [LINK]
+> Consulta de R$ 1.000 por R$ 97 até 30/11: [LINK]
 
 ### Mensagem 5 — quinta, 26/11, 14h30 (as três dúvidas, faltam 4 dias)
 > Faltam 4 dias para acabar a consulta de R$ 97.
@@ -79,7 +79,7 @@ Assinatura de todas as mensagens:
 ### Mensagem 6 — segunda, 30/11, 10h (último dia)
 > Hoje é o último dia do Novembro Azul da AndroClinic.
 >
-> A consulta online com o Dr. Cristiano está de R$ 197 por R$ 97 até as 23h59. Amanhã volta para R$ 197.
+> A consulta online com o Dr. Cristiano está de R$ 1.000 por R$ 97 até as 23h59. Amanhã volta para R$ 1.000.
 >
 > Para agendar: [LINK]
 > Dúvidas: é só responder esta mensagem.
@@ -111,12 +111,12 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 >
 > A ereção depende de quase tudo isso ao mesmo tempo. Quando falha, é o corpo avisando que vale investigar.
 >
-> Em novembro, a consulta online com o Dr. Cristiano sai de R$ 197 por R$ 97, até 30/11. Link na bio.
+> Em novembro, a consulta online com o Dr. Cristiano sai de R$ 1.000 por R$ 97, até 30/11. Link na bio.
 
 **Reels 2 — corte: o anúncio ("o preço não pode ser o motivo de adiar")**
 > Vergonha, achar que passa sozinho, preço. São motivos comuns para um homem adiar a consulta.
 >
-> Neste Novembro Azul, a AndroClinic cortou a consulta online de R$ 197 para R$ 97, até 30/11 às 23h59. Se a consulta não atender às expectativas do paciente, a clínica devolve 100% via PIX.
+> Neste Novembro Azul, a AndroClinic cortou a consulta online de R$ 1.000 para R$ 97, até 30/11 às 23h59. Se a consulta não atender às expectativas do paciente, a clínica devolve 100% via PIX.
 >
 > Link na bio.
 
@@ -127,7 +127,7 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 >
 > A garantia é do atendimento. Resultado, nenhum médico pode prometer.
 >
-> Consulta de R$ 197 por R$ 97 até 30/11. Link na bio.
+> Consulta de R$ 1.000 por R$ 97 até 30/11. Link na bio.
 
 ### Live de 19/11
 
@@ -138,14 +138,14 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 >
 > Não aumente a dose nem troque de remédio por conta própria.
 >
-> Consulta online de R$ 197 por R$ 97 até 30/11. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até 30/11. Link na bio.
 
 **Reels 5 — corte: circulação**
 > As artérias do pênis são finas. Pressão alta, diabetes, colesterol e cigarro afetam os vasos, e a ereção pode dar sinal antes de outras partes do corpo.
 >
 > Não é motivo de pânico. É motivo de cuidar do coração também.
 >
-> Consulta online de R$ 197 por R$ 97 até 30/11. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até 30/11. Link na bio.
 
 (Só publicar depois de o Dr. Cristiano confirmar o texto técnico. Sem o "mais da metade dos casos" do FAQ enquanto não houver fonte.)
 
@@ -154,7 +154,7 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 >
 > Comprimido não tira o medo. Por isso a consulta olha também para a cabeça.
 >
-> Consulta online de R$ 197 por R$ 97 até 30/11. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até 30/11. Link na bio.
 
 ### Live de 23/11
 
@@ -168,7 +168,7 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 > 5. E se não gostar, o que acontece com o dinheiro?
 >
 > Salve para lembrar na sexta.
-> Consulta online de R$ 197 por R$ 97 até 30/11. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até 30/11. Link na bio.
 
 **Reels 8 — corte: "médico não pode prometer resultado"**
 > Médico não pode prometer resultado. Quando alguém promete, está prometendo o que ninguém pode garantir.
@@ -180,7 +180,7 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 **Reels 9 — corte: o médico aplica as cinco perguntas à própria consulta**
 > O Dr. Cristiano fez as cinco perguntas sobre a própria consulta. Vale assistir até o fim.
 >
-> Consulta online de R$ 197 por R$ 97 até 30/11. Garantia de 100% via PIX se a consulta não atender às suas expectativas. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até 30/11. Garantia de 100% via PIX se a consulta não atender às suas expectativas. Link na bio.
 
 ### Live de 26/11
 
@@ -189,14 +189,14 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 >
 > Serve. E é justamente o caso em que mais vale passar pelo médico antes de tomar qualquer coisa. Na consulta, ele considera os remédios que o paciente já usa todos os dias.
 >
-> Consulta online de R$ 197 por R$ 97 até segunda, 30/11. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até segunda, 30/11. Link na bio.
 
 **Reels 11 — corte: reembolso no plano**
 > Dá para pedir reembolso da consulta no plano de saúde?
 >
 > A AndroClinic emite nota fiscal e recibo com o CRM do médico. O paciente anexa no aplicativo do convênio. Quanto o plano devolve depende das regras de cada plano.
 >
-> Consulta online de R$ 197 por R$ 97 até 30/11. Link na bio.
+> Consulta online de R$ 1.000 por R$ 97 até 30/11. Link na bio.
 
 **Reels 12 — corte: "e se a consulta não me ajudar?"**
 > "E se a consulta não me ajudar?"
@@ -215,7 +215,7 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 > Último dia da consulta de R$ 97: hoje, até 23h59. Link na bio.
 
 **Reels 14 — corte: último dia**
-> Hoje é o último dia do Novembro Azul da AndroClinic. A consulta online está de R$ 197 por R$ 97 até as 23h59. Amanhã volta para R$ 197.
+> Hoje é o último dia do Novembro Azul da AndroClinic. A consulta online está de R$ 1.000 por R$ 97 até as 23h59. Amanhã volta para R$ 1.000.
 >
 > Link na bio.
 
@@ -227,7 +227,7 @@ Depois de 30/11, editar as legendas com preço: trocar a linha da oferta por "Co
 
 > Novembro não é Black Friday. É saúde do homem.
 >
-> Neste mês, a AndroClinic cortou o valor da consulta online com o Dr. Cristiano Estivalet: de R$ 197 por R$ 97, até 30 de novembro, às 23h59. Em 1º de dezembro volta para R$ 197.
+> Neste mês, a AndroClinic cortou o valor da consulta online com o Dr. Cristiano Estivalet: de R$ 1.000 por R$ 97, até 30 de novembro, às 23h59. Em 1º de dezembro volta para R$ 1.000.
 >
 > Por quê? Porque novembro é o mês da saúde do homem, e o preço não deveria ser o motivo de ninguém adiar a consulta.
 >

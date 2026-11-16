@@ -1,5 +1,7 @@
 # Plano de lançamento pelas lives: Novembro Azul AndroClinic
 
+> **Atualização de 16/11/2026 (coordenação):** o preço "de" da campanha passou a ser **R$ 1.000** (decisão do Rafael), na página, nos banners e nos textos das lives. Onde este plano fala em R$ 197 como preço de referência ou como o preço que volta em 1º/12, leia R$ 1.000. As menções a "quem pagou R$ 197" continuam valendo: tratam do valor cobrado antes da campanha. A linha da seção de conformidade que diz que o "de R$ 197" é real não vale mais para R$ 1.000: confirmar com a clínica.
+
 Feito em 13/11/2026 (sexta) pelo funnel-architect, com o calendário que a coordenação decidiu. Usa as skills `imersao-e-eventos`, `escada-de-valor`, `metricas-de-funil`, `conteudo-organico` e `conformidade`.
 Lido para este plano: `00-briefing.md`, `06-copy/pagina-vsl-novembro-azul/LEIA-ME.md`, trechos de `index.html` (dobra, vagas, oferta, garantia, bônus, FAQ, contadores e UTM), os 5 banners de `06-copy/banners-novembro-azul/` e o texto da Resolução CFM 2.336/2023 (cópia em PDF hospedada pelo CRM-ES, lida em 13/11/2026).
 Não existem `02-avatar.md` nem `03-oferta.md`. O plano usa a oferta do briefing. Se a oferta mudar (cashback e bônus estão em risco, ver seção 10), mudam os blocos de oferta das lives.
