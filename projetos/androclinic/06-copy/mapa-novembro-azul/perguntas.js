@@ -333,13 +333,16 @@
       + `<span class="condicao__selo">${esc(C.selo)}</span><h2 class="condicao__titulo">${esc(C.titulo)}</h2>`
       + `<p class="condicao__de">de <s class="risca">R$&nbsp;${esc(C.valorCheio)}</s> por</p>`
       + `<p class="condicao__por"><span class="condicao__so">${esc(C.so)}</span><span class="condicao__valor"><small>R$</small>${esc(C.por)}</span></p>${(C.extras || []).length ? `<ul class="condicao__extras">${C.extras.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}${prazo}</section>`;
+    const G = A.garantia;
+    const garantia = G ? `<section class="bloco bl garantia"><svg class="garantia__selo" viewBox="0 0 220 220" aria-hidden="true"><defs><path id="gTop" d="M 44 110 A 66 66 0 0 1 176 110"/><path id="gBot" d="M 38 110 A 72 72 0 0 0 182 110"/></defs><polygon points="110.0,4.0 124.7,17.2 142.8,9.2 152.7,26.2 172.3,24.2 176.5,43.5 195.8,47.7 193.8,67.3 210.8,77.2 202.8,95.3 216.0,110.0 202.8,124.7 210.8,142.8 193.8,152.7 195.8,172.3 176.5,176.5 172.3,195.8 152.7,193.8 142.8,210.8 124.7,202.8 110.0,216.0 95.3,202.8 77.2,210.8 67.3,193.8 47.7,195.8 43.5,176.5 24.2,172.3 26.2,152.7 9.2,142.8 17.2,124.7 4.0,110.0 17.2,95.3 9.2,77.2 26.2,67.3 24.2,47.7 43.5,43.5 47.7,24.2 67.3,26.2 77.2,9.2 95.3,17.2" fill="#facc15"/><circle cx="110" cy="110" r="88" fill="#111827"/><circle cx="110" cy="110" r="82" fill="none" stroke="#facc15" stroke-width="2.5" stroke-dasharray="3 5"/><text font-family="inherit" font-weight="800" font-size="16" letter-spacing="3" fill="#facc15"><textPath href="#gTop" startOffset="50%" text-anchor="middle">GARANTIA</textPath></text><text x="110" y="126" text-anchor="middle" font-family="inherit" font-weight="900" font-size="44" fill="#facc15">100%</text><text font-family="inherit" font-weight="800" font-size="12" letter-spacing="1.5" fill="#fff"><textPath href="#gBot" startOffset="50%" text-anchor="middle" side="left">SEU DINHEIRO DE VOLTA</textPath></text></svg><h2 class="garantia__titulo">${esc(G.titulo)}</h2>`
+      + `<p class="garantia__tx">${esc(G.texto)}</p><p class="garantia__tx">${esc(G.texto2)}</p><p class="garantia__risco">${esc(G.risco)}</p></section>` : '';
     const detalhe = `<div class="cards cards--alerta">${x.cards}${x.investigar}${x.remedios}${x.tentou}</div>`;
     const url = (R.barra.match(/href="([^"]+)"/) || [])[1] || '#';
     const barra = `<div class="barra-cta barra-cta--alerta" hidden><a class="btn btn--primario" href="${url}">${esc(A.botao)}${ic('seta')}</a>`
       + `<p class="barra-cta__micro">${esc(A.micro)}</p></div>`;
     const cta = R.cta.replace(/<a class="btn btn--wa"[\s\S]*?<\/a>/, '')   // sem o WhatsApp (Elias, 30/10)
       .replace(/(<use href="#i-agendar"\/><\/svg>)[^<]*<\/a>/, `$1${esc(A.botao)}</a>`);   // mesmo texto do botão fixo
-    return `<div class="corpo corpo--fim res res--alerta" data-rola>${logo()}${x.cab}${alerta}${x.hero}${grafico}${consulta}${condicao}${detalhe}`
+    return `<div class="corpo corpo--fim res res--alerta" data-rola>${logo()}${x.cab}${alerta}${x.hero}${grafico}${consulta}${condicao}${garantia}${detalhe}`
       + `${cta}<p class="legal">${R.legal}</p></div>${barra}`
       + `<button type="button" class="seta-desce" aria-label="Rolar para baixo" hidden>${ic('desce')}</button>`;
   }

@@ -1,6 +1,17 @@
 --- perguntas-v2/perguntas-dados-meta.js (atual)
 +++ perguntas-v2/perguntas-dados-meta.js (Novembro Azul)
-@@ -631,16 +631,20 @@
+@@ -551,8 +551,8 @@
+   "heroMeio": "</div><span class=\"raio__scan\"></span></div>",
+   "heroFecha": "</div>",
+   "cabeca": "<h1 class=\"mapa-titulo\">Mapa de Risco de <span class=\"grad-tx\">§NOME§</span></h1><p class=\"mapa-data\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-calendario\"/></svg>§DATA§</p>",
+-  "cta": "<section class=\"cta bl\"><svg class=\"cta__raios\" viewBox=\"0 0 220 220\" aria-hidden=\"true\"><line x1=\"156.0\" y1=\"110.0\" x2=\"214.0\" y2=\"110.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"154.4\" y1=\"121.9\" x2=\"193.1\" y2=\"132.3\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"149.8\" y1=\"133.0\" x2=\"200.1\" y2=\"162.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"142.5\" y1=\"142.5\" x2=\"170.8\" y2=\"170.8\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"133.0\" y1=\"149.8\" x2=\"162.0\" y2=\"200.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.9\" y1=\"154.4\" x2=\"132.3\" y2=\"193.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"156.0\" x2=\"110.0\" y2=\"214.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"98.1\" y1=\"154.4\" x2=\"87.7\" y2=\"193.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"87.0\" y1=\"149.8\" x2=\"58.0\" y2=\"200.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"77.5\" y1=\"142.5\" x2=\"49.2\" y2=\"170.8\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"70.2\" y1=\"133.0\" x2=\"19.9\" y2=\"162.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"65.6\" y1=\"121.9\" x2=\"26.9\" y2=\"132.3\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"64.0\" y1=\"110.0\" x2=\"6.0\" y2=\"110.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"65.6\" y1=\"98.1\" x2=\"26.9\" y2=\"87.7\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"70.2\" y1=\"87.0\" x2=\"19.9\" y2=\"58.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"77.5\" y1=\"77.5\" x2=\"49.2\" y2=\"49.2\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"87.0\" y1=\"70.2\" x2=\"58.0\" y2=\"19.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"98.1\" y1=\"65.6\" x2=\"87.7\" y2=\"26.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"64.0\" x2=\"110.0\" y2=\"6.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.9\" y1=\"65.6\" x2=\"132.3\" y2=\"26.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"133.0\" y1=\"70.2\" x2=\"162.0\" y2=\"19.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"142.5\" y1=\"77.5\" x2=\"170.8\" y2=\"49.2\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"149.8\" y1=\"87.0\" x2=\"200.1\" y2=\"58.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"154.4\" y1=\"98.1\" x2=\"193.1\" y2=\"87.7\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"110\" r=\"26\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\"/></svg><p class=\"cta__texto\">O mapa aponta onde investigar. A consulta confirma, com exames, e trata.</p><a class=\"btn btn--branco\" href=\"https://andromens.com.br/vsl-3\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-agendar\"/></svg>Agendar minha consulta</a></section>",
+-  "barra": "<div class=\"barra-cta\" hidden><a class=\"btn btn--primario\" href=\"https://andromens.com.br/vsl-3\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-agendar\"/></svg>Agendar minha consulta</a></div>",
++  "cta": "<section class=\"cta bl\"><svg class=\"cta__raios\" viewBox=\"0 0 220 220\" aria-hidden=\"true\"><line x1=\"156.0\" y1=\"110.0\" x2=\"214.0\" y2=\"110.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"154.4\" y1=\"121.9\" x2=\"193.1\" y2=\"132.3\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"149.8\" y1=\"133.0\" x2=\"200.1\" y2=\"162.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"142.5\" y1=\"142.5\" x2=\"170.8\" y2=\"170.8\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"133.0\" y1=\"149.8\" x2=\"162.0\" y2=\"200.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.9\" y1=\"154.4\" x2=\"132.3\" y2=\"193.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"156.0\" x2=\"110.0\" y2=\"214.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"98.1\" y1=\"154.4\" x2=\"87.7\" y2=\"193.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"87.0\" y1=\"149.8\" x2=\"58.0\" y2=\"200.1\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"77.5\" y1=\"142.5\" x2=\"49.2\" y2=\"170.8\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"70.2\" y1=\"133.0\" x2=\"19.9\" y2=\"162.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"65.6\" y1=\"121.9\" x2=\"26.9\" y2=\"132.3\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"64.0\" y1=\"110.0\" x2=\"6.0\" y2=\"110.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"65.6\" y1=\"98.1\" x2=\"26.9\" y2=\"87.7\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"70.2\" y1=\"87.0\" x2=\"19.9\" y2=\"58.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"77.5\" y1=\"77.5\" x2=\"49.2\" y2=\"49.2\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"87.0\" y1=\"70.2\" x2=\"58.0\" y2=\"19.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"98.1\" y1=\"65.6\" x2=\"87.7\" y2=\"26.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"64.0\" x2=\"110.0\" y2=\"6.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.9\" y1=\"65.6\" x2=\"132.3\" y2=\"26.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"133.0\" y1=\"70.2\" x2=\"162.0\" y2=\"19.9\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"142.5\" y1=\"77.5\" x2=\"170.8\" y2=\"49.2\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"149.8\" y1=\"87.0\" x2=\"200.1\" y2=\"58.0\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"154.4\" y1=\"98.1\" x2=\"193.1\" y2=\"87.7\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"110\" r=\"26\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\"/></svg><p class=\"cta__texto\">O mapa aponta onde investigar. A consulta confirma, com exames, e trata.</p><a class=\"btn btn--branco\" href=\"https://pay.hub.la/xsvWVGbmQbri6iXyzlDb\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-agendar\"/></svg>Agendar minha consulta</a></section>",
++  "barra": "<div class=\"barra-cta\" hidden><a class=\"btn btn--primario\" href=\"https://pay.hub.la/xsvWVGbmQbri6iXyzlDb\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-agendar\"/></svg>Agendar minha consulta</a></div>",
+   "remedios": "<article class=\"bloco bl\"><div class=\"bloco__cab\"><span class=\"bloco__ic\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-pilula\"/></svg></span><h2 class=\"bloco__titulo\">Remédios que podem estar interferindo</h2></div><div class=\"chips\">§CHIPS§</div><p class=\"bloco__texto\">Alguns remé­dios de uso con­tí­nuo <strong class=\"dq\">podem derrubar a ereção</strong>. <strong class=\"dq\">Nunca pare por conta própria</strong>: o médico ajusta sem você largar o tra­ta­mento.</p></article>",
+   "chip": "<span class=\"chip\"><svg class=\"ic \" aria-hidden=\"true\"><use href=\"#i-pilula\"/></svg>§CHIP§</span>",
+   "tentou": {
+@@ -631,16 +631,27 @@
     ]
    },
    "condicao": {
@@ -21,9 +32,24 @@
    },
 -  "botao": "AGENDAR CONSULTA AGORA COM CONDIÇÃO ESPECIAL",
 +  "botao": "AGENDAR MINHA CONSULTA POR R$ 97",
++  "garantia": {
++   "selo": "GARANTIA",
++   "titulo": "Garantia Pós-Consulta: Satisfação ou Seu Dinheiro de Volta",
++   "texto": "Se você agendar por R$ 97, conversar com o médico e sentir que o atendimento não atendeu às suas expectativas, basta avisar no WhatsApp.",
++   "texto2": "Devolvemos 100% do seu dinheiro imediatamente e sem burocracia.",
++   "risco": "Seu risco é zero."
++  },
    "micro": "Telemedicina · Sigilo total · Pagamento seguro"
   },
   "versao": {
+@@ -650,6 +661,6 @@
+    "azul",
+    "escuro"
+   ],
+-  "agendar": "https://andromens.com.br/vsl-3"
++  "agendar": "https://pay.hub.la/xsvWVGbmQbri6iXyzlDb"
+  }
+ };
 --- perguntas-v2/perguntas.js (atual)
 +++ perguntas-v2/perguntas.js (Novembro Azul)
 @@ -46,15 +46,15 @@
@@ -45,12 +71,34 @@
  
    // Uma barra só, que vai enchendo (Elias, 22/10). A largura vem de data-p (0 a 15) por regra no CSS: sem style inline.
    // Na tela final (n = 0) ela aparece cheia. Sem o contador "x de 15" na tela (Elias, 22/10: "não precisa do número de
-@@ -332,7 +332,7 @@
+@@ -332,14 +332,17 @@
      const condicao = `<section class="bloco bl condicao"><svg class="condicao__borda" aria-hidden="true"><rect x="0" y="0" width="100%" height="100%" rx="22"/></svg>`
        + `<span class="condicao__selo">${esc(C.selo)}</span><h2 class="condicao__titulo">${esc(C.titulo)}</h2>`
        + `<p class="condicao__de">de <s class="risca">R$&nbsp;${esc(C.valorCheio)}</s> por</p>`
 -      + `<p class="condicao__por"><span class="condicao__so">${esc(C.so)}</span><span class="condicao__valor"><small>R$</small>${esc(C.por)}</span></p>${prazo}</section>`;
 +      + `<p class="condicao__por"><span class="condicao__so">${esc(C.so)}</span><span class="condicao__valor"><small>R$</small>${esc(C.por)}</span></p>${(C.extras || []).length ? `<ul class="condicao__extras">${C.extras.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}${prazo}</section>`;
++    const G = A.garantia;
++    const garantia = G ? `<section class="bloco bl garantia"><svg class="garantia__selo" viewBox="0 0 220 220" aria-hidden="true"><defs><path id="gTop" d="M 44 110 A 66 66 0 0 1 176 110"/><path id="gBot" d="M 38 110 A 72 72 0 0 0 182 110"/></defs><polygon points="110.0,4.0 124.7,17.2 142.8,9.2 152.7,26.2 172.3,24.2 176.5,43.5 195.8,47.7 193.8,67.3 210.8,77.2 202.8,95.3 216.0,110.0 202.8,124.7 210.8,142.8 193.8,152.7 195.8,172.3 176.5,176.5 172.3,195.8 152.7,193.8 142.8,210.8 124.7,202.8 110.0,216.0 95.3,202.8 77.2,210.8 67.3,193.8 47.7,195.8 43.5,176.5 24.2,172.3 26.2,152.7 9.2,142.8 17.2,124.7 4.0,110.0 17.2,95.3 9.2,77.2 26.2,67.3 24.2,47.7 43.5,43.5 47.7,24.2 67.3,26.2 77.2,9.2 95.3,17.2" fill="#facc15"/><circle cx="110" cy="110" r="88" fill="#111827"/><circle cx="110" cy="110" r="82" fill="none" stroke="#facc15" stroke-width="2.5" stroke-dasharray="3 5"/><text font-family="inherit" font-weight="800" font-size="16" letter-spacing="3" fill="#facc15"><textPath href="#gTop" startOffset="50%" text-anchor="middle">GARANTIA</textPath></text><text x="110" y="126" text-anchor="middle" font-family="inherit" font-weight="900" font-size="44" fill="#facc15">100%</text><text font-family="inherit" font-weight="800" font-size="12" letter-spacing="1.5" fill="#fff"><textPath href="#gBot" startOffset="50%" text-anchor="middle" side="left">SEU DINHEIRO DE VOLTA</textPath></text></svg><h2 class="garantia__titulo">${esc(G.titulo)}</h2>`
++      + `<p class="garantia__tx">${esc(G.texto)}</p><p class="garantia__tx">${esc(G.texto2)}</p><p class="garantia__risco">${esc(G.risco)}</p></section>` : '';
      const detalhe = `<div class="cards cards--alerta">${x.cards}${x.investigar}${x.remedios}${x.tentou}</div>`;
      const url = (R.barra.match(/href="([^"]+)"/) || [])[1] || '#';
      const barra = `<div class="barra-cta barra-cta--alerta" hidden><a class="btn btn--primario" href="${url}">${esc(A.botao)}${ic('seta')}</a>`
+       + `<p class="barra-cta__micro">${esc(A.micro)}</p></div>`;
+     const cta = R.cta.replace(/<a class="btn btn--wa"[\s\S]*?<\/a>/, '')   // sem o WhatsApp (Elias, 30/10)
+       .replace(/(<use href="#i-agendar"\/><\/svg>)[^<]*<\/a>/, `$1${esc(A.botao)}</a>`);   // mesmo texto do botão fixo
+-    return `<div class="corpo corpo--fim res res--alerta" data-rola>${logo()}${x.cab}${alerta}${x.hero}${grafico}${consulta}${condicao}${detalhe}`
++    return `<div class="corpo corpo--fim res res--alerta" data-rola>${logo()}${x.cab}${alerta}${x.hero}${grafico}${consulta}${condicao}${garantia}${detalhe}`
+       + `${cta}<p class="legal">${R.legal}</p></div>${barra}`
+       + `<button type="button" class="seta-desce" aria-label="Rolar para baixo" hidden>${ic('desce')}</button>`;
+   }
+--- app/integra.js (atual)
++++ app/integra.js (Novembro Azul)
+@@ -20,7 +20,7 @@
+   'use strict';
+   const VARIANTES = ['azul', 'escuro'];
+   const ENTRADA = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'utm_place', 'fbclid'];
+-  const AGENDAR = 'https://andromens.com.br/vsl-3';
++  const AGENDAR = 'https://pay.hub.la/xsvWVGbmQbri6iXyzlDb';   // Novembro Azul: resultado vai direto ao checkout
+   const WHATSAPP = 'https://wa.me/';
+   const FORM = 'mapa-meta';
+   const VERSAO = 'mapa-meta-v1';

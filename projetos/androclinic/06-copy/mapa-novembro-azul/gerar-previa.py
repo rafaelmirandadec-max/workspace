@@ -23,6 +23,13 @@ dados = rd('perguntas-v2_perguntas-dados-meta.js')
 dados = troca(dados, '"selo": "CONSULTA COM A CONDIÇÃO DO MAPA DE RISCO"', '"selo": "CONDIÇÃO NOVEMBRO AZUL"')
 dados = troca(dados, '"valorCheio": "1.000",\n   "por": "197",', '"valorCheio": "1.000",\n   "por": "97",\n   "extras": [\n    "Não gostou da consulta? Devolvemos 100%",\n    "R$ 97 abatidos no tratamento, se precisar"\n   ],')
 dados = troca(dados, '"botao": "AGENDAR CONSULTA AGORA COM CONDIÇÃO ESPECIAL"', '"botao": "AGENDAR MINHA CONSULTA POR R$ 97"')
+CHECKOUT = 'https://pay.hub.la/xsvWVGbmQbri6iXyzlDb'
+dados = troca(dados, 'https://andromens.com.br/vsl-3', CHECKOUT, 3)
+dados = troca(dados, '"botao": "AGENDAR MINHA CONSULTA POR R$ 97",', '"botao": "AGENDAR MINHA CONSULTA POR R$ 97",\n  "garantia": {\n   "selo": "GARANTIA",\n   "titulo": "Garantia Pós-Consulta: Satisfação ou Seu Dinheiro de Volta",\n   "texto": "Se você agendar por R$ 97, conversar com o médico e sentir que o atendimento não atendeu às suas expectativas, basta avisar no WhatsApp.",\n   "texto2": "Devolvemos 100% do seu dinheiro imediatamente e sem burocracia.",\n   "risco": "Seu risco é zero."\n  },')
+integra = rd('app_integra.js')
+integra = troca(integra, "const AGENDAR = 'https://andromens.com.br/vsl-3';", "const AGENDAR = 'https://pay.hub.la/xsvWVGbmQbri6iXyzlDb';   // Novembro Azul: resultado vai direto ao checkout")
+(out / 'integra.js').write_text(integra, encoding='utf8')
+
 
 # ---------------------------------------------------------------- 2. código (perguntas.js)
 cod = rd('perguntas-v2_perguntas.js')
@@ -33,6 +40,13 @@ cod = troca(cod, "const PRAZO_REAL = new URLSearchParams(location.search).get('p
 cod = troca(cod, "<span class=\"condicao__valor\"><small>R$</small>${esc(C.por)}</span></p>${prazo}</section>`;",
             "<span class=\"condicao__valor\"><small>R$</small>${esc(C.por)}</span></p>"
             "${(C.extras || []).length ? `<ul class=\"condicao__extras\">${C.extras.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}${prazo}</section>`;")
+# bloco de garantia logo depois da condição (pedido do Rafael em 16/11)
+SELO_G = '<svg class="garantia__selo" viewBox="0 0 220 220" aria-hidden="true"><defs><path id="gTop" d="M 44 110 A 66 66 0 0 1 176 110"/><path id="gBot" d="M 38 110 A 72 72 0 0 0 182 110"/></defs><polygon points="110.0,4.0 124.7,17.2 142.8,9.2 152.7,26.2 172.3,24.2 176.5,43.5 195.8,47.7 193.8,67.3 210.8,77.2 202.8,95.3 216.0,110.0 202.8,124.7 210.8,142.8 193.8,152.7 195.8,172.3 176.5,176.5 172.3,195.8 152.7,193.8 142.8,210.8 124.7,202.8 110.0,216.0 95.3,202.8 77.2,210.8 67.3,193.8 47.7,195.8 43.5,176.5 24.2,172.3 26.2,152.7 9.2,142.8 17.2,124.7 4.0,110.0 17.2,95.3 9.2,77.2 26.2,67.3 24.2,47.7 43.5,43.5 47.7,24.2 67.3,26.2 77.2,9.2 95.3,17.2" fill="#facc15"/><circle cx="110" cy="110" r="88" fill="#111827"/><circle cx="110" cy="110" r="82" fill="none" stroke="#facc15" stroke-width="2.5" stroke-dasharray="3 5"/><text font-family="inherit" font-weight="800" font-size="16" letter-spacing="3" fill="#facc15"><textPath href="#gTop" startOffset="50%" text-anchor="middle">GARANTIA</textPath></text><text x="110" y="126" text-anchor="middle" font-family="inherit" font-weight="900" font-size="44" fill="#facc15">100%</text><text font-family="inherit" font-weight="800" font-size="12" letter-spacing="1.5" fill="#fff"><textPath href="#gBot" startOffset="50%" text-anchor="middle" side="left">SEU DINHEIRO DE VOLTA</textPath></text></svg>'
+cod = troca(cod, "const detalhe = `<div class=\"cards cards--alerta\">",
+            "const G = A.garantia;\n    const garantia = G ? `<section class=\"bloco bl garantia\">" + SELO_G + "<h2 class=\"garantia__titulo\">${esc(G.titulo)}</h2>`\n"
+            "      + `<p class=\"garantia__tx\">${esc(G.texto)}</p><p class=\"garantia__tx\">${esc(G.texto2)}</p><p class=\"garantia__risco\">${esc(G.risco)}</p></section>` : '';\n"
+            "    const detalhe = `<div class=\"cards cards--alerta\">")
+cod = troca(cod, "${consulta}${condicao}${detalhe}", "${consulta}${condicao}${garantia}${detalhe}")
 # logo da campanha no lugar da logo AndroClinic (capa, resultado)
 cod = troca(cod, 'src="/mapa/assets/androclinic-logo.png" alt="AndroClinic"', 'src="/mapa/assets/logo-novembro-azul.png" alt="Novembro Azul AndroClinic"')
 cod = troca(cod, 'src="/mapa/resultado-animado/assets/androclinic-logo-branca.png" alt="AndroClinic"', 'src="/mapa/assets/logo-novembro-azul-branca.png" alt="Novembro Azul AndroClinic"')
@@ -45,6 +59,12 @@ CSS_NOVO = """
   -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12'/%3E%3C/svg%3E") center/contain no-repeat}
 .condicao__extras li::after{content:"";position:absolute;left:6px;top:6px;width:8px;height:5px;border-left:2.5px solid #fff;border-bottom:2.5px solid #fff;transform:rotate(-45deg)}
 .tela .logo.logo--p{height:44px;width:auto}
+/* Novembro Azul: bloco de garantia no resultado */
+.garantia{margin-top:14px;background:#0b0f19;color:#fff;border:1.5px solid #facc15;border-radius:22px;padding:24px 20px 22px;text-align:center}
+.garantia__selo{display:block;width:118px;height:118px;margin:0 auto 14px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.5))}
+.garantia__titulo{font-size:20px;font-weight:800;line-height:1.25;margin:0 0 12px;color:#fff}
+.garantia__tx{font-size:15px;line-height:1.55;color:#d1d5db;margin:0 0 8px}
+.garantia__risco{margin:14px 0 0;font-size:18px;font-weight:800;color:#facc15;text-transform:uppercase;letter-spacing:.04em}
 """
 (out / 'perguntas-dados-meta.js').write_text(dados, encoding='utf8')
 (out / 'perguntas.js').write_text(cod, encoding='utf8')
