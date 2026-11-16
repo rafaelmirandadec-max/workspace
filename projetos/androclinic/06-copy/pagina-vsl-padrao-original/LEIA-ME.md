@@ -6,7 +6,7 @@ Base: código-fonte de https://drestivalet.andromedicina.com/ (lido em 16/11/202
 - `imagens/` — imagens tiradas da página original (fotos da Porsche reduzidas para 1600 px; PNGs convertidos para WebP).
 
 ## O que mudou em relação à original
-1. Headline: "Enquanto outros lucram com a sua dor na Black Friday... no NOVEMBRO AZUL recupere sua potência, confiança e desempenho sexual com RISCO ZERO." Mesmo estilo da original (amarelo, negrito), com corpo menor porque a frase é três vezes mais longa (30 px no celular, 52 px no computador).
+1. Topo dividido em pré-headline e headline (16/11). Pré-headline, em branco e caixa alta: "Enquanto outros lucram com a sua dor na Black Friday...". Headline, no estilo da original (amarelo, negrito), com corpo menor (30 px no celular, 54 px no computador): "No NOVEMBRO AZUL, recupere sua potência, confiança e desempenho sexual com RISCO ZERO."
 
 Todo o resto está igual à original, inclusive o preço (R$ 500 por R$ 197), os cronômetros e o link de agendamento.
 
