@@ -19,4 +19,4 @@ A seta amarela de cada story indica onde colar a figurinha do Instagram; o espa�
 ## Atenção
 - O story 07 diz que a condição "vale até as 23h59 de hoje", igual ao CTA da live. Só poste se o R$ 97 acabar mesmo no dia 19. Se o R$ 97 continuar até 30/11, como na página e no checkout, não poste o 07.
 - O link dos stories 05, 06 e 07 precisa estar cobrando R$ 97 antes da live.
-- Nas respostas da enquete, a equipe não comenta nem repostar o voto de ninguém. É assunto de saúde.
+- Nas respostas da enquete, a equipe não comenta nem reposta o voto de ninguém. É assunto de saúde.
