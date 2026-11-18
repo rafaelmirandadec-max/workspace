@@ -103,12 +103,6 @@ h2{{font-size:16px;font-weight:700;margin-bottom:12px}}
 <div class="wrap">
   <img class="banner" src="{banner}" alt="19 de novembro, Dia Internacional do Homem: consulta médica online com o Dr. Cristiano Estivalet de R$ 1.000 por R$ 97, com garantia de 100%" width="1600" height="900" />
 
-  <section class="festa" aria-label="Dia Internacional do Homem">
-    <small>19 de novembro · Dia Internacional do Homem</small>
-    <h2>Hoje, comemore cuidando de você.</h2>
-    <p>O homem cuida do trabalho, da família e das contas, e deixa a própria saúde por último. Para celebrar o Dia do Homem, a consulta online com o Dr. Cristiano sai de <b>R$ 1.000 por R$ 97</b>, com garantia de satisfação e cashback no tratamento.</p>
-  </section>
-
   <section class="box" aria-label="Resumo do pedido">
     <div class="prod">
       <img src="{foto}" alt="Dr. Cristiano Estivalet" />

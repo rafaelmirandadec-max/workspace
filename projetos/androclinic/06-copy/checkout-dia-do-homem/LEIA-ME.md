@@ -7,8 +7,7 @@ Pedido do Rafael em 18/11/2026, com base no checkout normal (https://pay.hub.la/
 - `gerar-previa.py` e `gerar-banner.py` — scripts que geram os arquivos.
 
 O que muda em relação ao checkout do Novembro Azul:
-- Banner com a faixa "19/11 · DIA INTERNACIONAL DO HOMEM".
-- Bloco de comemoração no topo: "Hoje, comemore cuidando de você."
+- Banner com a faixa "19/11 · DIA INTERNACIONAL DO HOMEM" e a frase "Hoje, comemore cuidando de você." (v2: a frase saiu de um bloco separado e entrou no banner, para o topo ficar menor no celular).
 - Nome do produto "Consulta Online Dia do Homem | Saúde Sexual Masculina" e selo "Condição especial Dia do Homem".
 - Cashback descrito como na fala da live: os R$ 97 viram crédito no protocolo, se precisar de tratamento.
 - Sem prazo na tela, como o Rafael pediu em 16/11.

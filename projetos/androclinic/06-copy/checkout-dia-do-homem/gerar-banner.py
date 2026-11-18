@@ -27,20 +27,21 @@ def html(cnpj): return f"""<!doctype html><html><head><meta charset="utf-8">
 body{{width:800px;height:450px;overflow:hidden;font-family:Inter,sans-serif;background:#000;color:#fff;position:relative}}
 .foto{{position:absolute;right:0;top:0;width:360px;height:394px;background:url({foto}) center 18%/cover no-repeat}}
 .foto::after{{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#000 0%,rgba(0,0,0,.55) 22%,rgba(0,0,0,0) 55%)}}
-.esq{{position:absolute;left:36px;top:42px;width:470px}}
-.logo{{width:170px;display:block;margin-bottom:16px}}
-.dia{{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:900;letter-spacing:.08em;color:#000;background:#facc15;border-radius:999px;padding:6px 14px;margin-bottom:12px;white-space:nowrap}}
+.esq{{position:absolute;left:36px;top:30px;width:470px}}
+.logo{{width:160px;display:block;margin-bottom:14px}}
+.dia{{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:900;letter-spacing:.08em;color:#000;background:#facc15;border-radius:999px;padding:6px 14px;margin-bottom:10px;white-space:nowrap}}
+.frase{{font-size:23px;font-weight:900;line-height:1.1;color:#fff;margin-bottom:6px;white-space:nowrap}}
 .dia i{{font-style:normal;font-weight:700;opacity:.75}}
-.kick{{font-size:17px;font-weight:800;letter-spacing:.07em;color:#e5e7eb;white-space:nowrap}}
-.preco{{margin-top:6px;display:flex;align-items:baseline;gap:12px;white-space:nowrap}}
+.kick{{font-size:14px;font-weight:700;letter-spacing:.07em;color:#cbd5e1;white-space:nowrap}}
+.preco{{margin-top:2px;display:flex;align-items:baseline;gap:12px;white-space:nowrap}}
 .de{{font-size:28px;font-weight:700;color:#9ca3af}} .de s{{text-decoration-thickness:3px}}
 .por{{font-size:26px;font-weight:700;color:#fff}}
-.val{{font-size:76px;font-weight:900;color:#facc15;letter-spacing:-.02em;line-height:1}}
+.val{{font-size:72px;font-weight:900;color:#facc15;letter-spacing:-.02em;line-height:1}}
 .prazo{{margin-top:12px;display:inline-block;font-size:17px;font-weight:700;color:#000;background:#facc15;border-radius:999px;padding:6px 16px}}
-.garantia{{margin-top:16px;display:flex;align-items:center;gap:14px}}
+.garantia{{margin-top:12px;display:flex;align-items:center;gap:14px}}
 .garantia p{{font-size:17px;font-weight:600;color:#e5e7eb;line-height:1.3}}
 .garantia b{{color:#fff}}
-.selo{{width:84px;height:84px;flex-shrink:0;filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}}
+.selo{{width:76px;height:76px;flex-shrink:0;filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}}
 .barra{{position:absolute;left:0;right:0;bottom:0;height:56px;background:#111827;border-top:2px solid #facc15;
   display:flex;align-items:center;justify-content:center;gap:16px;font-size:13.5px;font-weight:600;color:#d1d5db}}
 .barra span{{display:inline-flex;align-items:center;gap:7px;white-space:nowrap}}
@@ -51,6 +52,7 @@ body{{width:800px;height:450px;overflow:hidden;font-family:Inter,sans-serif;back
 <div class="esq">
   <img class="logo" src="{logo}" alt="">
   <div class="dia">19/11 <i>·</i> DIA INTERNACIONAL DO HOMEM</div>
+  <div class="frase">Hoje, comemore cuidando de você.</div>
   <div class="kick">CONSULTA MÉDICA ONLINE · 100% SIGILOSA</div>
   <div class="preco"><span class="de">de <s>R$ 1.000</s></span><span class="por">por</span><span class="val">R$ 97</span></div>
   <div class="garantia">{selo}<p>Não gostou da consulta?<br><b>Devolvemos 100% do seu dinheiro.</b></p></div>
