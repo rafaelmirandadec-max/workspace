@@ -21,8 +21,12 @@ Mecanismo único: [A PREENCHER]
 Prova disponível: [A PREENCHER]
 O que o produto NÃO faz / não promete: [A PREENCHER]
 
-## Bloco 3 — Avatar
-[A PREENCHER] (fase do @avatar-strategist, se a oferta seguir)
+## Bloco 3 — Avatar (atualizado pelo @avatar-strategist em 19/11/2026)
+Comprador: o dentista dono de consultório ou clínica. Detalhe em `02-avatar.md`. Nada foi validado em conversa com dentista; dores e desejos são PISTA ou SUPOSIÇÃO, exceto o medo de pagar e não ver paciente (fala literal no Reclame Aqui).
+Perfil a testar primeiro: clínica com 2 ou 3 cadeiras e recepção. Marketing total provável de R$ 2.500 a R$ 6.000 por mês (PISTA, Sorriai). Consciência dominante 3 (conhece agência, desconfiado), secundária 2 (culpa o "lead ruim" e não vê a perda na recepção e no orçamento parado; SUPOSIÇÃO a validar). Sofisticação 5 para "pacientes", 4 para "atendimento e IA". Lacunas que mais valoriza: 3 (recepção e orçamento), 1 (preço ligado à consulta), 2 (preço público), 4 (conformidade).
+Segundo perfil: dentista sozinho em cidade pequena. Marketing total de R$ 750 a R$ 1.500 por mês, com anúncios (PISTA, Sorriai), sobrando R$ 350 a R$ 1.100 para o serviço. Consciência 3, secundária 2; sofisticação 4. Só cabe produto padronizado e barato; disputa com freelancer e ferramenta de IA.
+Objeção central dos dois: "já paguei e não veio paciente". Resposta permitida: escopo, preço total e medição; nunca número de pacientes (CDC, arts. 30 e 37).
+Prova disponível: nenhuma em odontologia. Pendência central: piloto com 2 ou 3 clínicas e 16 conversas de validação (roteiro em `02-avatar.md`, seção 5).
 
 ## Bloco 4 — Mercado e Concorrência (atualizado pela pesquisa em 19/11/2026)
 Faixa de preço praticada: PISTA. Taxa mensal da agência, sem a verba de anúncios: entrada de R$ 390 a R$ 1.200; pacote padrão de R$ 1.500 a R$ 3.600; pacote completo (com atendimento por IA ou equipe, CRM e acompanhamento até a consulta) de R$ 3.500 a R$ 8.000; redes e multiunidades acima de R$ 10.000. A verba de anúncios é sempre paga à parte, em geral de R$ 600 a R$ 5.000 por mês. Detalhe e fontes em `01-pesquisa/agencias-odontologia.md`.
