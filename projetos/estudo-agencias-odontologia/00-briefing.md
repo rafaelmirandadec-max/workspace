@@ -13,13 +13,15 @@ Nicho regulado: sim, saúde. Peças para clínicas seguem o Código de Ética Od
 ## Objetivo do estudo
 Levantar entregáveis, faixas de preço, modelos de cobrança, promessas e lacunas das agências que atendem dentistas, para servir de base caso o Rafael decida posicionar e precificar uma oferta própria para esse público. A decisão de criar a oferta ainda não foi tomada.
 
-## Bloco 2 — Produto e Promessa
-O que é o produto/serviço: [A PREENCHER]
-Como é entregue: [A PREENCHER]
-Promessa principal: [A PREENCHER]
-Mecanismo único: [A PREENCHER]
-Prova disponível: [A PREENCHER]
-O que o produto NÃO faz / não promete: [A PREENCHER]
+## Bloco 2 — Produto e Promessa (atualizado pelo @offer-architect em 19/11/2026)
+Tudo neste bloco é PROPOSTA do @offer-architect. Nada foi decidido pelo Rafael nem testado com dentista. Detalhe em `03-oferta.md`.
+O que é o produto/serviço: PROPOSTA. Serviço mensal para clínica de 2 ou 3 cadeiras que cuida do caminho entre a primeira mensagem do paciente e o orçamento fechado: diagnóstico com números, roteiros de atendimento e de apresentação de orçamento, sequência de retorno de orçamento, reativação, treino da recepção e relatório semanal. Funciona sem trocar a agência de anúncios da clínica. Versão opcional com gestor de tráfego parceiro.
+Como é entregue: PROPOSTA. Pelo Rafael, à distância ou presencial `[A PREENCHER]`; a clínica envia as mensagens, e o Rafael nunca fala com paciente nem acessa dados de paciente (recebe só números agregados). Piloto de 90 dias com até 3 clínicas a R$ 1.000 por mês; oferta cheia a R$ 2.000 por mês (só o núcleo) ou R$ 3.600 por mês (com tráfego de parceiro), verba de anúncios à parte, 3 meses de compromisso e depois mês a mês. Decisões do Rafael pendentes: aceitar o piloto; o que faz com as próprias mãos e se terá parceiro de tráfego; valor-hora e horas disponíveis.
+Promessa principal: PROPOSTA. "Em 90 dias, sua clínica passa a ver toda semana, em números, onde perde o paciente entre a primeira mensagem e o orçamento fechado, e a recepção passa a ter roteiro e sequência de retorno escritos para cada contato e cada orçamento que não fecha na hora, sem trocar de agência e sem você gravar vídeo."
+Mecanismo único: PROPOSTA, nome `[A PREENCHER: aprovação do Rafael]`. Problema: "o trecho sem dono" (entre a primeira mensagem e o orçamento fechado, ninguém é responsável pelo caminho inteiro nem o mede). Solução: "Orçamento com Dono" (medir antes de mexer, mostrar onde perde, dar texto e dono a cada etapa, treinar, medir toda semana). Alternativas: "Caminho Medido", "Da Mensagem ao Orçamento".
+Garantia: PROPOSTA. Devolução do primeiro mês se, na entrega do diagnóstico (semana 3), o dono achar que não aprendeu nada novo, e ele fica com o diagnóstico (exige a planilha de linha de base preenchida). Garantia de prazo de cada entrega. Saída sem multa.
+Prova disponível: nenhuma em odontologia. O piloto existe para gerar os seis indicadores de antes e depois de cada clínica.
+O que o produto NÃO faz / não promete: não promete número de contatos, consultas, comparecimentos, orçamentos fechados nem faturamento (CDC, arts. 30 e 37; Código Civil, art. 427; conferidos em 19/11/2026). Não faz gestão de anúncios na versão só núcleo, nem posts, vídeo, robô de IA ou sistema; não atende paciente; não dá parecer jurídico. Sem parte variável por paciente ou orçamento fechado até parecer jurídico: o Código de Ética Odontológica proíbe "receber ou dar gratificação por encaminhamento de paciente" (art. 20, III, conferido em 19/11/2026).
 
 ## Bloco 3 — Avatar (atualizado pelo @avatar-strategist em 19/11/2026)
 Comprador: o dentista dono de consultório ou clínica. Detalhe em `02-avatar.md`. Nada foi validado em conversa com dentista; dores e desejos são PISTA ou SUPOSIÇÃO, exceto o medo de pagar e não ver paciente (fala literal no Reclame Aqui).
