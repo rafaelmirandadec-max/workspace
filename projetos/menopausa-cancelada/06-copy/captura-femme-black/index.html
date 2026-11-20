@@ -279,6 +279,43 @@ src="https://www.facebook.com/tr?id=2867941233444745&ev=PageView&noscript=1"
     .hero__media{grid-row:1 / span 3;position:sticky;top:40px}
   }
   @media (prefers-reduced-motion:reduce){ .live-pill i,.hero__head h1 .grad{animation:none} }
+
+  /* ===== v4: benefícios na headline, na arte e no botão ===== */
+  .bens{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+  .bens li{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;
+    background:rgba(254,190,51,.10);border:1px solid rgba(254,190,51,.55);
+    font-size:clamp(13px,3.5vw,15px);font-weight:800;line-height:1.1;color:#fff;white-space:nowrap}
+  .bens .bens__lbl{width:100%;justify-content:center;margin:0 0 -2px;padding:0;border:0;background:none;
+    font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:#FEBE33}
+  .art{position:relative;max-width:480px;margin:0 auto;border-radius:24px;overflow:hidden;background:#020000;
+    box-shadow:0 0 0 1px rgba(254,190,51,.55),0 0 50px rgba(254,190,51,.42),0 34px 70px rgba(0,0,0,.62)}
+  .art img{border-radius:0!important;box-shadow:none!important;max-width:none!important}
+  .art__bens{padding:16px 18px 18px;border-top:1px solid rgba(254,190,51,.55);
+    background:radial-gradient(120% 120% at 50% 0%,rgba(254,190,51,.22),rgba(0,0,0,0) 60%),#070300}
+  .art__t{margin:0 0 4px;text-align:center;font-size:15px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:#FEBE33;
+    text-shadow:0 0 14px rgba(254,190,51,.6)}
+  .art__s{margin:0 0 12px;text-align:center;font-size:13.5px;line-height:1.35;color:rgba(255,255,255,.8)}
+  .art__grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0;padding:0;list-style:none}
+  .art__grid li{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:12px;
+    background:rgba(254,190,51,.08);border:1px solid rgba(254,190,51,.5);box-shadow:inset 0 0 14px rgba(254,190,51,.12);
+    font-size:14.5px;font-weight:800;line-height:1.2;color:#fff}
+  .art__grid li span{font-size:20px;line-height:1}
+  @media (max-width:767px){
+    .art{border-radius:16px;max-width:none;width:min(100%,calc(36vh * 1117 / 1408))}
+    .hero__media img{width:100%!important}
+    .art__bens{display:none}
+    .bens{gap:5px;margin-top:8px}
+    .bens li{padding:5px 9px;font-size:13px}
+    .live-pill{margin-bottom:8px}
+    .hero__inner{gap:14px}
+    .form{gap:12px}
+    .form .btn{font-size:14px;min-height:54px;padding:10px 14px}
+  }
+  @media (min-width:768px){
+    .bens{justify-content:flex-start}
+    .bens .bens__lbl{justify-content:flex-start}
+    .hero__media img{max-width:none}
+  }
 </style>
   <script async src="https://cap.api4tech.com.br/cap.js"></script>
 </head>
@@ -287,13 +324,29 @@ src="https://www.facebook.com/tr?id=2867941233444745&ev=PageView&noscript=1"
     <div class="hero__inner">
 
       <div class="hero__media fade-in">
-        <img src="femme-2311-50off.webp" alt="Femme Healthy com mais de 50% OFF · Black November da Menopausa Cancelada · 23/11 às 19:30" width="1117" height="1408" fetchpriority="high">
+        <div class="art">
+          <img src="femme-2311-50off.webp" alt="Femme Healthy com mais de 50% OFF · Black November da Menopausa Cancelada · 23/11 às 19:30" width="1117" height="1408" fetchpriority="high">
+          <div class="art__bens">
+            <p class="art__t">3 óleos + vitamina E em cada cápsula</p>
+            <p class="art__s">Prímula, borragem e linhaça para você passar pela menopausa no controle</p>
+            <ul class="art__grid">
+              <li><span>🔥</span>Calorões</li>
+              <li><span>🌙</span>Oscilações de humor</li>
+              <li><span>💧</span>Pele ressecada</li>
+              <li><span>💅</span>Cabelo e unhas fracos</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class="hero__head fade-in">
         <p class="live-pill"><i></i>Aula ao vivo · segunda, 23/11 às 19h30</p>
         <h1>O Femme Healthy com <span class="grad">mais de 50% OFF</span> na Black</h1>
-        <p class="head-sub">Na aula de <b>segunda (23/11), às 19h30</b>, eu abro a semana do Femme Healthy ao vivo. Entre na Lista VIP para receber o link.</p>
+        <ul class="bens" aria-label="Para combater">
+          <li class="bens__lbl">Para combater</li>
+          <li>🔥 Calorões</li><li>🌙 Oscilações de humor</li><li>💧 Pele ressecada</li><li>💅 Cabelo e unhas fracos</li>
+        </ul>
+        <p class="head-sub">Na aula de <b>segunda (23/11), às 19h30</b>, eu mostro como os 3 óleos do Femme Healthy (prímula, borragem e linhaça) com vitamina E ajudam a combater esses sintomas da menopausa. E abro a semana da Black com <b>mais de 50% OFF</b>.</p>
       </div>
 
       <div class="hero__form-wrap fade-in">
@@ -318,7 +371,7 @@ src="https://www.facebook.com/tr?id=2867941233444745&ev=PageView&noscript=1"
             <!-- Texto novo do botão. A regra de clique do Meta (Events Manager, pixel 2867941233444745) casava
                  "quero entrar na lista de espera" e gerava um 2º Lead; este texto não casa com ela, mas confira a regra
                  antes de subir. O U+200B (&#8203;) fica por garantia. O Lead único é o do código (redir-…). -->
-            <button type="submit" class="btn" aria-label="Quero meu lugar na aula de 23/11">QUERO MEU LUGAR&#8203; NA AULA DE 23/11</button>
+            <button type="submit" class="btn" aria-label="Quero participar da aula e destravar mais de 50% OFF">QUERO PARTICIPAR&#8203; DA AULA + DESTRAVAR +50% OFF</button>
           </form>
           <p class="form__note">Ao enviar, você aceita receber pelo WhatsApp o link da aula e as ofertas da Black. Sem spam, e você sai quando quiser. 💛</p>
           <p class="disclaimer">Suplemento alimentar. Não substitui alimentação equilibrada nem avaliação individual com profissional de saúde.</p>
@@ -331,9 +384,9 @@ src="https://www.facebook.com/tr?id=2867941233444745&ev=PageView&noscript=1"
           <h2 class="offer__title"><span>Black November</span> Semana do Femme Healthy <span>Menopausa Cancelada</span></h2>
           <div class="offer__stat">
             <strong>+50%</strong>
-            <span>de desconto no<br>Femme Healthy</span>
+            <span>de desconto no<br>Femme Healthy<br><em style="font-style:normal;color:#FEBE33">(3 óleos + vitamina E)</em></span>
           </div>
-          <p class="offer__txt">🖤 O desconto abre <b>ao vivo, na aula de segunda (23/11) às 19h30</b>, e vale durante a semana do Femme Healthy. Quem está na <b>Lista VIP</b> recebe o link primeiro.</p>
+          <p class="offer__txt">🖤 Descubra nesta aula como os óleos de <b>prímula, borragem e linhaça com vitamina E</b> ajudam a combater calorões, oscilações de humor, pele ressecada e cabelo e unhas fracos. O desconto abre <b>ao vivo, na segunda (23/11) às 19h30</b>, e vale durante a semana do Femme Healthy. Quem está na <b>Lista VIP</b> recebe o link primeiro!</p>
           <p class="offer__warn">⚠️ Não compre nada até dia <b>23/11</b></p>
         </div>
       </div>
