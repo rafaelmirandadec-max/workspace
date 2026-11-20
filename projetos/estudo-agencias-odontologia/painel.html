@@ -1,0 +1,604 @@
+<title>Plano do Piloto Odonto</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: uma coluna de leitura com índice fixo à esquerda no desktop; cartões só onde há itens paralelos. */
+:root{
+  --bg:#F4F7F7; --surface:#FFFFFF; --ink:#13262B; --muted:#5A6D72; --line:#D8E2E3;
+  --accent:#0E716E; --accent-soft:#E0F0EE;
+  --ok:#2F7A46; --ok-soft:#E3F2E7; --warn:#9A5B00; --warn-soft:#FBEFD9; --stop:#A8322A; --stop-soft:#F8E3E1;
+  --info:#3B5BA5; --info-soft:#E5EBF7;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1A1C; --surface:#162427; --ink:#E4EEEE; --muted:#9AB0B3; --line:#2A3C40;
+  --accent:#4FC2BB; --accent-soft:#183634;
+  --ok:#7CCB92; --ok-soft:#1A3223; --warn:#E9B45C; --warn-soft:#3A2B12; --stop:#F08A80; --stop-soft:#3B1D1A;
+  --info:#93AEEB; --info-soft:#1D2742; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#0F1A1C; --surface:#162427; --ink:#E4EEEE; --muted:#9AB0B3; --line:#2A3C40;
+  --accent:#4FC2BB; --accent-soft:#183634;
+  --ok:#7CCB92; --ok-soft:#1A3223; --warn:#E9B45C; --warn-soft:#3A2B12; --stop:#F08A80; --stop-soft:#3B1D1A;
+  --info:#93AEEB; --info-soft:#1D2742; color-scheme:dark;}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15.5px;line-height:1.6}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-block:32px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px}
+@media (max-width:900px){.wrap{grid-template-columns:minmax(0,1fr);gap:24px}.toc{position:static!important}}
+.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:14px}
+.toc .label{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.toc ol{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:2px}
+.toc a{display:block;padding:5px 10px;border-radius:6px;text-decoration:none;color:var(--ink)}
+.toc a:hover{background:var(--accent-soft)}
+@media (max-width:900px){.toc ol{display:flex;flex-wrap:wrap;gap:6px}.toc a{border:1px solid var(--line);font-size:13px}}
+main{min-width:0;display:grid;gap:56px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:-.01em}
+h2{font-size:26px;font-weight:700}
+h3{font-size:17px;font-weight:700}
+p{margin:0;max-width:68ch}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+section{display:grid;gap:18px;scroll-margin-top:24px}
+.lede{font-size:17px;color:var(--ink);max-width:62ch}
+.muted{color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+ul.plain{margin:0;padding-left:20px;display:grid;gap:6px;max-width:70ch}
+
+/* status das fases */
+.phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.phase{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;align-content:start}
+.phase .n{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.phase .t{font-weight:600}
+.chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-mono);font-size:11.5px;padding:2px 8px;border-radius:99px;width:max-content;max-width:100%;white-space:nowrap}
+.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.ok{color:var(--ok);background:var(--ok-soft)} .warn{color:var(--warn);background:var(--warn-soft)}
+.stop{color:var(--stop);background:var(--stop-soft)} .info{color:var(--info);background:var(--info-soft)}
+
+/* tarefas */
+.tasks{display:grid;gap:22px}
+.group{display:grid;gap:8px}
+.group-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
+.group-head .when{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.task{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:8px;padding:12px 14px}
+.task.p-crit{border-left-color:var(--stop)} .task.p-high{border-left-color:var(--warn)} .task.p-norm{border-left-color:var(--accent)}
+.task input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--accent)}
+.task label{display:grid;gap:3px;cursor:pointer}
+.task .what{font-weight:600}
+.task .why{color:var(--muted);font-size:14px}
+.task.done .what{text-decoration:line-through;color:var(--muted)}
+.progress{display:flex;align-items:center;gap:12px;font-family:var(--f-mono);font-size:13px}
+.bar{flex:1;max-width:320px;height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+@media (prefers-reduced-motion:reduce){.bar span{transition:none}}
+
+/* linha do tempo */
+.timeline{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.timeline li{display:grid;grid-template-columns:118px 18px minmax(0,1fr);gap:12px}
+.timeline .d{font-family:var(--f-mono);font-size:13px;text-align:right;padding-top:2px;color:var(--muted)}
+.timeline .dot{position:relative}
+.timeline .dot::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:2px;background:var(--line)}
+.timeline .dot::after{content:"";position:absolute;left:3px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2px solid var(--accent)}
+.timeline li.key .dot::after{background:var(--accent)}
+.timeline .c{padding-bottom:18px;display:grid;gap:2px}
+.timeline .c b{font-weight:600}
+@media (max-width:520px){.timeline li{grid-template-columns:76px 18px minmax(0,1fr)}.timeline .d{font-size:11.5px}}
+
+/* cartões e listas */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px;align-content:start;min-width:0}
+.card .kicker{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.card ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.callout{border-radius:10px;padding:14px 18px;display:grid;gap:6px;max-width:80ch}
+.callout.stop{background:var(--stop-soft);color:var(--ink)} .callout.stop b:first-child{color:var(--stop)}
+.callout.warn{background:var(--warn-soft);color:var(--ink)} .callout.warn b:first-child{color:var(--warn)}
+.callout.info{background:var(--accent-soft);color:var(--ink)}
+
+/* faixa de preços */
+.tiers{display:grid;gap:10px}
+.tier{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;align-items:center}
+.tier .name{font-weight:600}
+.tier .name small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
+.track{position:relative;height:30px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.track .seg{position:absolute;top:4px;bottom:4px;border-radius:4px;background:var(--accent-soft);border:1px solid var(--accent);display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:12px;color:var(--ink);white-space:nowrap;padding:0 6px}
+.track .you{position:absolute;top:-4px;bottom:-4px;width:0;border-left:2px dashed var(--stop)}
+.axis{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:11px;color:var(--muted);margin-left:166px}
+@media (max-width:620px){.tier{grid-template-columns:minmax(0,1fr);gap:4px}.axis{margin-left:0}.track .seg{font-size:10.5px}}
+.legend-you{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.legend-you i{display:inline-block;width:18px;border-top:2px dashed var(--stop)}
+
+/* tabela */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14.5px}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+tr:last-child td{border-bottom:0}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* indicadores */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;counter-reset:k}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.kpi .k{font-family:var(--f-mono);font-size:12px;color:var(--accent)}
+.kpi .f{font-family:var(--f-mono);font-size:12.5px;color:var(--muted)}
+
+/* funil */
+.funnel{display:grid;gap:6px}
+.funnel div{background:var(--accent-soft);border-left:3px solid var(--accent);padding:8px 12px;border-radius:0 6px 6px 0;font-size:14.5px}
+.funnel div span{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-left:8px}
+
+/* marcas */
+.tag{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;padding:1px 6px;border-radius:4px;vertical-align:1px;margin-right:4px}
+.t-fato{color:var(--ok);background:var(--ok-soft)} .t-pista{color:var(--info);background:var(--info-soft)} .t-sup{color:var(--warn);background:var(--warn-soft)}
+
+details{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:0 16px}
+details[open]{padding-bottom:14px}
+summary{cursor:pointer;padding:12px 0;font-weight:600}
+details > div{display:grid;gap:10px}
+.files{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.file{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:2px;text-decoration:none;color:var(--ink)}
+.file:hover{border-color:var(--accent)}
+.file .p{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);overflow-wrap:anywhere}
+.hero{display:grid;gap:14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--f-mono);font-size:12.5px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+  <nav class="toc" aria-label="Índice">
+    <div class="label">Neste plano</div>
+    <ol>
+      <li><a href="#fazer">O que fazer</a></li>
+      <li><a href="#calendario">Calendário</a></li>
+      <li><a href="#decisoes">Decisões</a></li>
+      <li><a href="#mercado">Mercado</a></li>
+      <li><a href="#avatar">Para quem</a></li>
+      <li><a href="#oferta">A oferta</a></li>
+      <li><a href="#metricas">Métricas</a></li>
+      <li><a href="#abordagem">Abordagem</a></li>
+      <li><a href="#regras">Regras e riscos</a></li>
+      <li><a href="#arquivos">Arquivos</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <div class="eyebrow">Estudo de mercado → oferta própria · odontologia</div>
+      <h1>Plano do piloto para clínicas de 2 ou 3 cadeiras</h1>
+      <p class="lede">Tudo o que saiu da conversa de 19 e 20/11/2026: o que o mercado cobra, para quem vender, a oferta proposta (nome provisório "Orçamento com Dono"), como medir, como abordar as clínicas e, principalmente, o que falta você fazer.</p>
+      <div class="meta">
+        <span>Atualizado em 20/11/2026</span>
+        <span>Pasta: projetos/estudo-agencias-odontologia/</span>
+        <span>Clínicas: 15/02, 15/03 e 12/04/2027</span>
+      </div>
+      <div class="phases" aria-label="Situação de cada fase">
+        <div class="phase"><span class="n">01 · researcher</span><span class="t">Pesquisa de mercado</span><span class="chip ok">pronta</span></div>
+        <div class="phase"><span class="n">02 · avatar-strategist</span><span class="t">Perfis de comprador</span><span class="chip ok">pronta</span></div>
+        <div class="phase"><span class="n">03 · offer-architect</span><span class="t">Oferta</span><span class="chip ok">versão 2 pronta</span></div>
+        <div class="phase"><span class="n">09 · metrics-analyst</span><span class="t">Métricas e planilha</span><span class="chip ok">pronta</span></div>
+        <div class="phase"><span class="n">06 · copywriter</span><span class="t">Abordagem às clínicas</span><span class="chip ok">versão 2 pronta</span></div>
+        <div class="phase"><span class="n">revisor</span><span class="t">Revisão da abordagem</span><span class="chip stop">aguarda nova revisão</span></div>
+      </div>
+    </header>
+
+    <!-- ======================= O QUE FAZER ======================= -->
+    <section id="fazer">
+      <div class="eyebrow">Sua lista</div>
+      <h2>O que você tem que fazer</h2>
+      <p class="muted">Marque o que for concluindo. As marcações ficam salvas só neste navegador.</p>
+      <div class="progress"><div class="bar"><span id="bar"></span></div><span id="count">0 de 0</span></div>
+
+      <div class="tasks" id="tasks">
+        <div class="group">
+          <div class="group-head"><h3>Agora: destrava o convite para conversa</h3><span class="when">esta semana</span></div>
+          <div class="task p-crit"><input type="checkbox" id="t-apresentacao"><label for="t-apresentacao"><span class="what">Escrever como você se apresenta em uma linha, só com o que é verdade</span><span class="why">É o único item que ainda segura as mensagens da conversa de validação. Nada pode sugerir que você já trabalhou com clínica.</span></label></div>
+          <div class="task p-crit"><input type="checkbox" id="t-anotacoes"><label for="t-anotacoes"><span class="what">Dizer até quando guarda as anotações das conversas</span><span class="why">O entrevistado precisa ouvir isso antes de responder. Sugestão do copywriter: 31/03/2027.</span></label></div>
+          <div class="task p-crit"><input type="checkbox" id="t-redewpp"><label for="t-redewpp"><span class="what">Decidir se rede e indicação podem começar pelo WhatsApp</span><span class="why">O copywriter tratou como "já respondeu" quem já conversa com você no WhatsApp e quem foi indicado e aceitou. A leitura estrita manda começar pelo e-mail.</span></label></div>
+          <div class="task p-crit"><input type="checkbox" id="t-listanao"><label for="t-listanao"><span class="what">Criar sua planilha de prospecção, fora do repositório e do Drive, com a lista de "não contatar"</span><span class="why">Exigida pelo revisor: quem foi contatado na conversa não recebe convite frio para o piloto.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-datas"><label for="t-datas"><span class="what">Aprovar as datas das clínicas (15/02, 15/03 e 12/04) e dizer se as 60 h incluem as conversas de venda</span><span class="why">Se incluem, março passa do limite.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-pagamento"><label for="t-pagamento"><span class="what">Definir forma e momento do pagamento e o prazo para pedir a devolução da garantia</span><span class="why">Proposta: 2 dias úteis depois da devolutiva. Também falta o percentual da garantia de prazo.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-nome"><label for="t-nome"><span class="what">Aprovar ou trocar o nome "Orçamento com Dono"</span><span class="why">Só aparece na conversa de venda. Não trava o primeiro envio.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-valorhora"><label for="t-valorhora"><span class="what">Definir seu valor-hora desejado</span><span class="why">Define se R$ 2.000 na oferta cheia paga a implantação ou se precisa subir a mensalidade ou cobrar implantação.</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-tributo"><label for="t-tributo"><span class="what">Dizer seu regime tributário e se o treino da recepção é online ou presencial</span><span class="why">Muda o valor-hora líquido e as horas por clínica.</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-indicadores"><label for="t-indicadores"><span class="what">Aceitar (ou não) a troca de dois indicadores feita pelo metrics-analyst</span><span class="why">Sai "orçamentos reativados"; entra "saíram com orçamento por escrito". Já está sendo aplicada na oferta versão 2.</span></label></div>
+        </div>
+
+        <div class="group">
+          <div class="group-head"><h3>Advogado: trava o convite do piloto</h3><span class="when">de preferência até dezembro</span></div>
+          <div class="task p-crit"><input type="checkbox" id="t-contrato"><label for="t-contrato"><span class="what">Contrato do piloto e termo de autorização do caso</span><span class="why">Nenhuma clínica entra sem isso. O termo precisa cobrir também a clínica que sair antes ou acionar a garantia. Para a clínica A entrar em 15/02, precisa estar pronto até ~08/01/2027.</span></label></div>
+          <div class="task p-crit"><input type="checkbox" id="t-reativacao"><label for="t-reativacao"><span class="what">Parecer sobre reativação de pacientes e sequência de retorno de orçamento</span><span class="why">O Código de Ética mantém proibido "telemarketing ativo à população em geral", a LGPD pede base legal e a política do WhatsApp Business também vale para as mensagens da clínica aos pacientes. Prazos: sequência de retorno até 08/03, reativação até 15/03.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-lgpd"><label for="t-lgpd"><span class="what">Fluxo de dados da planilha e conferência retroativa do retorno</span><span class="why">Confirmar se, recebendo só números somados, você deixa de ser operador de dados da clínica.</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-variavel"><label for="t-variavel"><span class="what">(Só se um dia quiser) parecer sobre cobrança ligada a paciente</span><span class="why">Hoje fica fora da oferta: pode ser lida como gratificação por encaminhamento (art. 20, III do Código de Ética), e quem responde é o dentista.</span></label></div>
+        </div>
+
+        <div class="group">
+          <div class="group-head"><h3>Validação com dentistas</h3><span class="when">até cerca de 20/12</span></div>
+          <div class="task p-crit"><input type="checkbox" id="t-conversas"><label for="t-conversas"><span class="what">Fazer as 8 conversas com clínicas de 2 ou 3 cadeiras (20 minutos, sem venda)</span><span class="why">Confirmam ou derrubam a aposta central: que o dono não vê a perda entre a primeira mensagem e o orçamento fechado. Ordem: sua rede e indicação, depois e-mail comercial. WhatsApp só com quem respondeu.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-resumo"><label for="t-resumo"><span class="what">Mandar a cada entrevistado o resumo do que ouviu nas outras clínicas, sem nomes</span><span class="why">Você confirmou essa promessa. Vai antes de qualquer convite para o piloto.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-pagou"><label for="t-pagou"><span class="what">Anotar quanto cada clínica paga de verdade à agência e em anúncios</span><span class="why">O dossiê só tem preço publicado. Pela conta da oferta, R$ 2.000 somados à agência atual podem estourar o orçamento de parte das clínicas.</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-solo"><label for="t-solo"><span class="what">(Opcional) 8 conversas com dentistas que atendem sozinhos</span><span class="why">O avatar sugere 16 no total. Só se quiser manter a porta aberta para o segundo perfil.</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-meta"><label for="t-meta"><span class="what">Abrir a Biblioteca de Anúncios do Meta logado e olhar os anúncios das agências</span><span class="why">O ambiente da pesquisa foi bloqueado. Busque "marketing odontológico", "agência para dentistas" e os nomes do dossiê.</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-baratos"><label for="t-baratos"><span class="what">Testes baratos: Google Maps e tempo de resposta de clínicas fora do horário</span><span class="why">Sem marcar consulta. Dá uma primeira ideia de quanto as clínicas demoram a responder.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-bonus"><label for="t-bonus"><span class="what">Confirmar os bônus 1 e 3</span><span class="why">Leitura do relatório da agência atual e banco de respostas da recepção. Aparecem nas respostas às objeções.</span></label></div>
+        </div>
+
+        <div class="group">
+          <div class="group-head"><h3>Antes do piloto</h3><span class="when">janeiro a 15/02/2027</span></div>
+          <div class="task p-high"><input type="checkbox" id="t-reescrever"><label for="t-reescrever"><span class="what">Pedir ao copywriter que reescreva o convite do piloto com as palavras ouvidas nos dentistas</span><span class="why">Hoje o vocabulário é suposição. Depois, nova passagem pelo revisor.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-pagina"><label for="t-pagina"><span class="what">Pedir a página-resumo do piloto e o diagnóstico-modelo</span><span class="why">A página é citada no primeiro retorno do convite; o diagnóstico-modelo é mostrado na conversa de venda.</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-planilha"><label for="t-planilha"><span class="what">Testar a planilha com uma recepção real</span><span class="why">Medir quanto tempo leva o preenchimento diário (estimativa: 5 minutos).</span></label></div>
+          <div class="task p-high"><input type="checkbox" id="t-fechar3"><label for="t-fechar3"><span class="what">Fechar as 3 clínicas, com contrato assinado</span><span class="why">Critério de entrada sugerido: pelo menos 10 orçamentos acima do valor de corte por mês (suposição a validar).</span></label></div>
+          <div class="task p-norm"><input type="checkbox" id="t-semana0"><label for="t-semana0"><span class="what">Com cada dono, antes da semana 1</span><span class="why">Valor de corte do orçamento, o que conta como "fechado", horário de atendimento, histórico do sistema de fevereiro a maio de 2026 e o compromisso de não mexer na agência e na verba durante o piloto.</span></label></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CALENDÁRIO ======================= -->
+    <section id="calendario">
+      <div class="eyebrow">Datas</div>
+      <h2>Calendário</h2>
+      <ol class="timeline">
+        <li><span class="d">agora</span><span class="dot"></span><div class="c"><b>Liberar o convite para conversa</b><span class="muted">Versões 2 prontas. Faltam suas respostas e uma revisão rápida só da Etapa A.</span></div></li>
+        <li class="key"><span class="d">até ~20/12</span><span class="dot"></span><div class="c"><b>8 conversas de validação</b><span class="muted">Rede e indicação primeiro, depois e-mail comercial em grupos de 10. Advogado em paralelo.</span></div></li>
+        <li><span class="d">20/12 – 10/01</span><span class="dot"></span><div class="c"><b>Pausa de festas</b><span class="muted">Sem envio. Dezembro e janeiro distorcem a comparação.</span></div></li>
+        <li><span class="d">~08/01/2027</span><span class="dot"></span><div class="c"><b>Contrato pronto</b><span class="muted">Data-limite para a clínica A entrar em 15/02.</span></div></li>
+        <li><span class="d">janeiro</span><span class="dot"></span><div class="c"><b>Convite para o piloto</b><span class="muted">Só depois do contrato pronto e da reescrita com as palavras dos dentistas.</span></div></li>
+        <li><span class="d">06 – 10/02</span><span class="dot"></span><div class="c"><b>Carnaval de 2027</b><span class="muted">Por isso o início não é 01/02.</span></div></li>
+        <li class="key"><span class="d">15/02/2027</span><span class="dot"></span><div class="c"><b>Clínica A começa</b><span class="muted">3 semanas de medição sem mexer em nada; devolutiva em 05/03; fim em 14/05.</span></div></li>
+        <li><span class="d">12/03/2027</span><span class="dot"></span><div class="c"><b>Ponto de decisão sobre a clínica C</b><span class="muted">Se as horas reais da clínica A passarem de ~38 h, a decisão volta para você.</span></div></li>
+        <li class="key"><span class="d">15/03/2027</span><span class="dot"></span><div class="c"><b>Clínica B começa</b><span class="muted">Devolutiva em 02/04; fim em 11/06.</span></div></li>
+        <li class="key"><span class="d">12/04/2027</span><span class="dot"></span><div class="c"><b>Clínica C começa</b><span class="muted">Devolutiva em 30/04; fim em 09/07.</span></div></li>
+        <li><span class="d">abril – maio</span><span class="dot"></span><div class="c"><b>Meses sem folga</b><span class="muted">~55 h em abril e ~54 h em maio, podendo chegar a 58–61 h. De 2 em 2 semanas pediria ~77 h, por isso o ritmo é de 4 em 4.</span></div></li>
+        <li><span class="d">maio – julho</span><span class="dot"></span><div class="c"><b>Fim das 13 semanas de cada clínica</b><span class="muted">Leitura do que mudou no atendimento, entrevista final e termo do caso.</span></div></li>
+      </ol>
+    </section>
+
+    <!-- ======================= DECISÕES ======================= -->
+    <section id="decisoes">
+      <div class="eyebrow">O que já está fechado e o que não está</div>
+      <h2>Decisões</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="chip ok">decidido por você</span>
+          <ul>
+            <li>Atacar primeiro a clínica de 2 ou 3 cadeiras com recepção</li>
+            <li>Piloto aceito: <b>3 vagas</b>, começa em fevereiro de 2027</li>
+            <li>Preço do piloto: <b class="mono">R$ 1.000/mês</b></li>
+            <li>A clínica pode sair ao fim de qualquer mês</li>
+            <li>Garantia do diagnóstico mantida</li>
+            <li>WhatsApp só depois de a clínica responder por outro canal</li>
+            <li>Você manda o resumo a quem conversar</li>
+            <li>Você tem <b class="mono">60 h/mês</b> para o piloto</li>
+            <li>Sem teste de cliente oculto grátis na abordagem</li>
+            <li>Cliente oculto continua dentro do piloto pago</li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="chip info">recomendado e aplicado</span>
+          <ul>
+            <li>Vender só o piloto agora; oferta cheia depois de ter resultado</li>
+            <li>Nenhuma clínica entra sem contrato</li>
+            <li>Sem cobrança por paciente agendado ou fechado</li>
+            <li>Reativação e retorno de orçamento suspensos até o advogado</li>
+            <li>Sem promessa de número de pacientes ou faturamento</li>
+            <li>A lista de clínicas não vai para o repositório nem para o Drive</li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="chip warn">em aberto</span>
+          <ul>
+            <li>Sua apresentação em uma linha</li>
+            <li>Nome do método</li>
+            <li>Valor-hora desejado</li>
+            <li>Parceiro de gestão de anúncios (para a versão de R$ 3.600)</li>
+            <li>Regime tributário; treino online ou presencial</li>
+            <li>Formas de pagamento e percentual da garantia de prazo</li>
+            <li>Aprovar as datas 15/02, 15/03 e 12/04</li>
+            <li>Até quando guardar as anotações das conversas</li>
+            <li>Rede e indicação podem começar pelo WhatsApp?</li>
+            <li>Bônus 1 e 3</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= MERCADO ======================= -->
+    <section id="mercado">
+      <div class="eyebrow">Fase 01 · pesquisa com 16 agências, coletada em 19/11/2026</div>
+      <h2>O que o mercado entrega e cobra</h2>
+      <p>Uma agência especializada em dentistas cobra, na faixa mais comum, de R$ 1.500 a R$ 3.600 por mês. A verba de anúncios é sempre paga à parte, direto ao Meta e ao Google.</p>
+      <p class="muted"><span class="tag t-pista">PISTA</span>Todos os preços são publicados ou estimados pelas próprias agências, não o valor fechado depois da negociação.</p>
+
+      <div class="tiers" role="img" aria-label="Faixas de preço mensal por nível de pacote, de R$ 0 a R$ 10.000, com o piloto marcado em R$ 1.000">
+        <div class="tier"><span class="name">Entrada<small>posts ou só anúncios · 5 fontes</small></span><div class="track"><span class="seg" style="left:3.9%;width:8.1%">390–1.200</span><span class="you" style="left:10%"></span></div></div>
+        <div class="tier"><span class="name">Padrão<small>anúncios, página, relatório · 9 fontes</small></span><div class="track"><span class="seg" style="left:15%;width:21%">1.500–3.600</span><span class="you" style="left:10%"></span></div></div>
+        <div class="tier"><span class="name">Completo<small>+ WhatsApp, CRM, até a consulta · 7 fontes</small></span><div class="track"><span class="seg" style="left:35%;width:45%">3.500–8.000</span><span class="you" style="left:10%"></span></div></div>
+        <div class="tier"><span class="name">Redes<small>várias unidades · só blogs</small></span><div class="track"><span class="seg" style="left:86%;width:13%">10.000+</span><span class="you" style="left:10%"></span></div></div>
+        <div class="axis"><span>R$ 0</span><span>2.500</span><span>5.000</span><span>7.500</span><span>10.000+</span></div>
+        <div class="legend-you"><i></i> piloto: R$ 1.000/mês (oferta cheia: R$ 2.000; com parceiro de anúncios: R$ 3.600)</div>
+      </div>
+
+      <div class="cards">
+        <div class="card"><span class="kicker">O que quase todas entregam</span><ul><li>Gestão de Google Ads e Meta Ads (15 de 16)</li><li>Campanha por tratamento: implante, ortodontia, lentes</li><li>Página de destino ou site</li><li>Relatório mensal</li><li>Perfil da Empresa no Google (cerca de metade)</li></ul></div>
+        <div class="card"><span class="kicker">O que diferencia</span><ul><li>Atendimento do contato no WhatsApp por IA ou equipe</li><li>Roteiro e treino da recepção</li><li>Reativação de pacientes antigos</li><li>Medição até o comparecimento</li><li>Conteúdo para aparecer nas IAs</li></ul></div>
+        <div class="card"><span class="kicker">Como cobram</span><ul><li>Mensalidade fixa + verba à parte (todas que informam)</li><li>"Sem fidelidade" em 5 de 7 que publicam preço</li><li>Nenhuma cobra por paciente</li><li>Só 2 dão garantia (5 contatos em 30 dias; 1ª página do Google)</li><li>As grandes escondem o preço</li></ul></div>
+      </div>
+
+      <h3>Lacunas que ninguém ocupa</h3>
+      <div class="cards">
+        <div class="card"><span class="kicker">Lacuna 1 · evidência forte</span><p>Todas prometem "paciente na cadeira", e ninguém cobra nem garante nada ligado a paciente que compareceu.</p></div>
+        <div class="card"><span class="kicker">Lacuna 2 · média</span><p>Quase ninguém publica preço e escopo nas faixas padrão e completa.</p></div>
+        <div class="card"><span class="kicker">Lacuna 3 · média · o seu foco</span><p>Recepção e orçamento parado não são vendidos como produto central, só como item lateral.</p></div>
+        <div class="card"><span class="kicker">Lacuna 4 · média</span><p>Conformidade com responsabilidade assumida: muitas dizem "dentro do CFO", nenhuma mostra como.</p></div>
+      </div>
+    </section>
+
+    <!-- ======================= AVATAR ======================= -->
+    <section id="avatar">
+      <div class="eyebrow">Fase 02 · nada disso foi ouvido de dentista ainda</div>
+      <h2>Para quem vender</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="chip ok">atacar primeiro</span>
+          <h3>Clínica com 2 ou 3 cadeiras e recepção</h3>
+          <ul>
+            <li><span class="tag t-pista">PISTA</span>Marketing total de cerca de R$ 2.500 a R$ 6.000/mês</li>
+            <li>Cabe o pacote padrão + R$ 1.000 a 2.000 de anúncios; o completo só a partir de ~4 cadeiras</li>
+            <li><span class="tag t-sup">SUPOSIÇÃO</span>O dono culpa o "contato ruim" e a agência, e não vê a perda na própria recepção</li>
+            <li>Valoriza as lacunas 3, 1, 2 e 4</li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="chip info">segundo passo</span>
+          <h3>Dentista sozinho em cidade pequena</h3>
+          <ul>
+            <li><span class="tag t-pista">PISTA</span>Marketing total de R$ 750 a R$ 1.500/mês</li>
+            <li>Sobram R$ 350 a R$ 1.100 para o serviço depois da verba</li>
+            <li>Compara com freelancer e ferramenta de IA de R$ 27 a R$ 129/mês</li>
+            <li>Só um produto padronizado e barato serve</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout warn"><b>O maior risco.</b><span>O mercado está saturado de promessas e já compra por prova, e você ainda não tem nenhum caso em odontologia. As duas posições, nível 3 de consciência (conhece a solução, não conhece você) e sofisticação 4 a 5, pedem prova. Por isso o piloto existe.</span></div>
+    </section>
+
+    <!-- ======================= OFERTA ======================= -->
+    <section id="oferta">
+      <div class="eyebrow">Fase 03 · proposta, versão 2 de 20/11/2026</div>
+      <h2>A oferta</h2>
+      <p class="lede">Você cuida do caminho entre a primeira mensagem do paciente e o orçamento fechado, sem a clínica trocar de agência. Você nunca fala com paciente e só recebe números somados.</p>
+      <div class="callout info"><b>Promessa do piloto</b><span>Em 90 dias, a gente mede se e onde sua clínica perde o contato entre a primeira mensagem e o orçamento, põe roteiros e rotina de resposta no lugar e mostra, em números e com o tamanho da amostra, o que mudou no atendimento. Preço de piloto em troca de poder contar o que aconteceu, com ou sem o nome da clínica.</span></div>
+      <div class="callout info"><b>Promessa da oferta cheia</b><span>Em 90 dias, sua clínica passa a ver toda semana, em números, o que acontece com cada contato entre a primeira mensagem e o orçamento fechado, e a recepção passa a ter roteiro escrito para cada contato e para cada orçamento que não fecha na hora, sem trocar de agência e sem você gravar vídeo.</span></div>
+      <p class="muted">Não promete número de pacientes nem faturamento (CDC, arts. 30 e 37). Na versão 2, "sequência de retorno" saiu da promessa porque está suspensa até o advogado.</p>
+
+      <div class="cards">
+        <div class="card"><span class="kicker">O problema</span><h3>"O trecho sem dono"</h3><p>Entre o clique e o orçamento fechado ninguém é responsável: a agência entrega o contato, a recepção atende como dá, e o orçamento que não fecha na hora fica parado.</p></div>
+        <div class="card"><span class="kicker">O que está incluído</span><ul><li>Diagnóstico com números e cliente oculto</li><li>Roteiro de primeira resposta e de agendamento</li><li>Roteiro de apresentação de orçamento</li><li>Sequência de retorno <span class="muted">(suspensa até o advogado)</span></li><li>Treino da recepção (2 sessões de 90 min)</li><li>Relatório semanal com seis números</li></ul></div>
+        <div class="card"><span class="kicker">Bônus, cada um contra uma objeção</span><ul><li>Leitura do relatório da agência atual ("já tive agência")</li><li>Pontos de atenção no que a clínica publica (medo do CFO)</li><li>Banco de respostas prontas para a recepção (sem tempo; "vou ser vigiada")</li></ul></div>
+      </div>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Versão</th><th>Preço</th><th>O que entra</th><th>Situação</th></tr></thead>
+          <tbody>
+            <tr><td>Piloto</td><td class="num">R$ 1.000/mês</td><td>90 dias, 3 clínicas, só o seu núcleo, sem mexer nos anúncios</td><td><span class="chip ok">decidido</span></td></tr>
+            <tr><td>Oferta cheia</td><td class="num">R$ 2.000/mês</td><td>O núcleo, depois de ter caso; 3 meses de compromisso, depois mês a mês</td><td><span class="chip warn">proposta</span></td></tr>
+            <tr><td>Cheia + anúncios</td><td class="num">R$ 3.600/mês</td><td>O núcleo + gestor de anúncios parceiro</td><td><span class="chip warn">sem parceiro</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted">A verba de anúncios fica sempre à parte.</p>
+
+      <div class="cards">
+        <div class="card"><span class="kicker">Garantia (mantida)</span><p>Se, na entrega do diagnóstico (semana 3), o dono achar que não aprendeu nada novo, você devolve o primeiro mês e ele fica com o diagnóstico. Condições: pelo menos 9 dos 10 primeiros dias úteis com registro, cliente oculto autorizado e devolutiva feita com o dono. Na segunda da semana 2, você avisa quantos dias da semana 1 têm registro.</p></div>
+        <div class="card"><span class="kicker">Escassez real</span><p>Só as 3 vagas, limitadas pelas suas horas. Implantação estimada em ~33 h por clínica. Na oferta cheia não há urgência artificial.</p></div>
+        <div class="card"><span class="kicker">Ficou de fora, e por quê</span><p>Cobrança por paciente: pode ser lida como gratificação por encaminhamento (Código de Ética Odontológica, art. 20, III). Isso também explica por que nenhuma das 16 agências cobra assim.</p></div>
+      </div>
+      <div class="cards">
+        <div class="card"><span class="kicker">Critérios de entrada</span><ul><li>Pelo menos 10 orçamentos acima do corte por mês <span class="tag t-sup">SUPOSIÇÃO</span></li><li>Pelo menos 25 contatos novos por mês</li><li>Conta Google da clínica para a planilha</li><li>Dono define corte, "fechado", horário e histórico antes da semana 1</li></ul></div>
+        <div class="card"><span class="kicker">Tempo que a clínica dá, em 13 semanas</span><ul><li>Dono: ~7 h (30 min, 30 min e devolutiva de 60 min nas semanas 1 a 3)</li><li>Responsável técnico: 2,5 a 3 h</li><li>Quem apresenta orçamento: ~2 h</li><li>Cada pessoa da recepção: ~16 h, mais a planilha diária</li></ul></div>
+        <div class="card"><span class="kicker">Caso publicável</span><p>Só prova de processo, das três clínicas, inclusive a que sair antes. O depoimento do dono não pode afirmar mais do que os números mostram.</p></div>
+      </div>
+      <div class="callout stop"><b>Auditoria: o piloto tem 4 pontos sólidos, 3 médios e 3 fracos.</b><span>A oferta cheia fica em 3 sólidos, 3 médios e 4 fracos, e provavelmente não passa de 6 ou 7 sólidos nem depois de um bom piloto, porque a garantia e a âncora de valor são fracas por desenho. Vender só o piloto agora; sair com a cheia será uma decisão consciente sua.</span></div>
+    </section>
+
+    <!-- ======================= MÉTRICAS ======================= -->
+    <section id="metricas">
+      <div class="eyebrow">Fase 09 · nenhum número medido ainda</div>
+      <h2>Como medir o piloto</h2>
+      <p>O caminho do paciente, etapa por etapa. O gargalo é a etapa que mais fica abaixo da própria linha de alerta, e só disputam etapas com pelo menos 30 casos.</p>
+      <div class="funnel" aria-label="Caminho do paciente">
+        <div>Primeira mensagem <span>contatos novos</span></div>
+        <div style="margin-left:4%">Resposta <span>indicador 1</span></div>
+        <div style="margin-left:8%">Avaliação marcada <span>indicador 2</span></div>
+        <div style="margin-left:12%">Compareceu <span>indicador 3</span></div>
+        <div style="margin-left:16%">Saiu com orçamento por escrito <span>indicador 4</span></div>
+        <div style="margin-left:20%">Retorno em até 3 dias <span>indicador 5</span></div>
+        <div style="margin-left:24%">Orçamento fechado em 30 dias <span>indicador 6</span></div>
+      </div>
+
+      <h3>Os seis números do relatório semanal</h3>
+      <div class="kpis">
+        <div class="kpi"><span class="k">1</span><b>Respondidos em até 15 minutos</b><span class="f">respondidos em 15 min de clínica aberta ÷ contatos novos</span></div>
+        <div class="kpi"><span class="k">2</span><b>Marcaram avaliação</b><span class="f">avaliações marcadas ÷ contatos novos</span></div>
+        <div class="kpi"><span class="k">3</span><b>Vieram à avaliação</b><span class="f">compareceram ÷ avaliações previstas</span></div>
+        <div class="kpi"><span class="k">4 · novo</span><b>Saíram com orçamento por escrito</b><span class="f">saíram com orçamento ÷ compareceram</span></div>
+        <div class="kpi"><span class="k">5</span><b>Retorno do orçamento em até 3 dias</b><span class="f">com retorno no prazo ÷ orçamentos com prazo vencido</span></div>
+        <div class="kpi"><span class="k">6</span><b>Fechados em até 30 dias</b><span class="f">fechados em 30 dias ÷ orçamentos que completaram 30 dias</span></div>
+      </div>
+
+      <div class="callout warn"><b>O que o piloto prova, e o que não prova.</b><span>Prova se o processo mudou: a recepção passou a responder rápido e a retornar orçamento. Mudança em marcação, comparecimento ou fechamento só aparece se for grande; a margem de erro por clínica fica entre 22 e 30 pontos ou mais. A causa não se prova. Não dá para sair do piloto com "o fechamento subiu X%".</span></div>
+
+      <h3>Suas contas</h3>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Mensalidade</th><th>Valor-hora, 3 primeiros meses</th><th>A partir do 4º mês</th></tr></thead>
+          <tbody>
+            <tr><td>R$ 1.000 (piloto)</td><td class="num">~R$ 48/h</td><td class="num">R$ 100/h</td></tr>
+            <tr><td>R$ 2.000</td><td class="num">~R$ 113/h</td><td class="num">R$ 200/h</td></tr>
+            <tr><td>R$ 3.600 (com parceiro)</td><td class="num">~R$ 102/h</td><td class="num">~R$ 167/h</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted"><span class="tag t-sup">SUPOSIÇÃO</span>Sobre as horas estimadas na oferta. O tempo que a clínica fica pesa mais que o preço: a R$ 2.000, 12 meses dão ~R$ 168/h. Capacidade: com as suas 60 h/mês, só cabe uma clínica a cada 4 semanas (15/02, 15/03, 12/04), e abril e maio ficam sem folga. As semanas 4 de cada clínica têm 18 a 23 h; por isso os roteiros começam a ser escritos na semana 3.</p>
+
+      <details>
+        <summary>Modelo do relatório semanal (exemplo fictício)</summary>
+        <div>
+          <p><b>Clínica A · Semana 8 (05 a 09/04/2027)</b></p>
+          <p><b>Em uma linha:</b> a resposta rápida se manteve; o ponto fraco da semana foi o retorno dos orçamentos.</p>
+          <ul class="plain mono" style="font-size:13.5px">
+            <li>1. Respondidos em até 15 min: 9 de 11 · antes, 12 de 30</li>
+            <li>2. Marcaram avaliação: 4 de 11 · antes, 8 de 30</li>
+            <li>3. Vieram à avaliação: 3 de 4 · antes, 41 de 58</li>
+            <li>4. Saíram com orçamento: 3 de 3 · antes, 3 de 6</li>
+            <li>5. Retorno em até 3 dias: 1 de 4 · antes, 7 de 28</li>
+            <li>6. Fechados em 30 dias: 2 de 5 · antes, 11 de 52</li>
+          </ul>
+          <p><b>Uma coisa para esta semana:</b> reservar 20 minutos por dia, às 11h, só para retorno de orçamento, e zerar os 7 parados até sexta.</p>
+          <p class="muted">Regras: sempre "x de y"; uma única recomendação; nenhuma frase sobre pessoa da equipe; nenhum dado de paciente.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Como funciona a planilha da clínica</summary>
+        <div>
+          <ul class="plain">
+            <li>Fica na conta Google da clínica. Você nunca acessa o registro, só recebe a linha da semana toda segunda até as 10h.</li>
+            <li>Contatos entram só como contagem por dia. Orçamentos entram com código sequencial (ORC-001) que só a clínica liga a alguém.</li>
+            <li>Abas: configuração, registro diário (~5 min por dia), orçamentos, relatório semanal e linha de base (calculados), reativação (só depois do advogado).</li>
+            <li>No fim do piloto, a clínica decide se apaga os códigos. Você guarda só os resumos e a linha de base.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ======================= ABORDAGEM ======================= -->
+    <section id="abordagem">
+      <div class="eyebrow">Fase 06 · versão 2 de 20/11/2026 · nada pode ser enviado ainda</div>
+      <h2>Como abordar as clínicas</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="kicker">Etapa A · agora</span>
+          <h3>Convite para conversa de validação</h3>
+          <ul>
+            <li>20 minutos, sem venda, 7 perguntas priorizadas</li>
+            <li>Diz às claras que você pensa em montar um serviço</li>
+            <li>Em troca: o resumo do que ouviu nas outras clínicas, sem nomes</li>
+            <li>Faltam: sua apresentação, até quando guarda as anotações, a regra do WhatsApp para rede e indicação, sua lista de "não contatar" e a nova revisão</li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="kicker">Etapa B · janeiro</span>
+          <h3>Convite para o piloto</h3>
+          <ul>
+            <li>Ângulo 1: "Não vou oferecer paciente", sem trocar de agência</li>
+            <li>Ângulo 2: "O orçamento parado" (pode subir para 1º depois das conversas)</li>
+            <li><s>Ângulo 3: teste autorizado</s> retirado por você</li>
+            <li>Diz que você não tem caso em odontologia e por isso é piloto</li>
+            <li>Só sai com o contrato pronto e revisado pelo advogado</li>
+            <li>Preço só quando perguntarem</li>
+          </ul>
+        </div>
+        <div class="card">
+          <span class="kicker">Canais, na ordem</span>
+          <ul>
+            <li>1. Sua rede e indicação</li>
+            <li>2. E-mail comercial publicado pela clínica</li>
+            <li>3. Instagram profissional, só sem e-mail; no máximo 2 mensagens</li>
+            <li>4. WhatsApp só no número que a pessoa indicou depois de responder</li>
+            <li>Um canal frio por clínica; LinkedIn só para quem já é da sua rede</li>
+          </ul>
+          <p class="muted" style="font-size:13.5px">As regras do WhatsApp proíbem uso comercial do aplicativo comum e pedem que a pessoa tenha aceitado receber mensagens. O risco é o bloqueio do seu número.</p>
+        </div>
+      </div>
+      <details>
+        <summary>O que o revisor bloqueou (corrigido na versão 2, aguarda nova revisão)</summary>
+        <div>
+          <ul class="plain">
+            <li><b>B1.</b> "Quem aparece bem nos números é a sua equipe" promete um resultado do diagnóstico antes de ele existir.</li>
+            <li><b>B2.</b> "É nisso que eu trabalho" sugere que você já faz esse trabalho; o certo é "é nesse trecho que eu quero trabalhar".</li>
+            <li><b>B3.</b> A resposta a "não tenho tempo" esconde parte do que a clínica precisa dar: devolutiva de 60 min, duas sessões de 90 min, entrevista final de 30 min, planilha diária.</li>
+            <li><b>B4.</b> A condição da garantia (planilha preenchida) precisa estar na frase falada.</li>
+            <li><b>B5.</b> Falta a regra: convite frio para o piloto só a clínicas nunca contatadas na conversa.</li>
+          </ul>
+          <p class="muted">Também: o responsável técnico nem sempre é o dono, avisar o entrevistado de que as respostas sem nome serão compartilhadas, duas objeções que faltavam (fidelidade e "a recepcionista vai se sentir vigiada"), e calendário fora das festas.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Objeções e o tom das respostas</summary>
+        <div>
+          <ul class="plain">
+            <li><b>"Já tenho agência."</b> Não precisa trocar; o trabalho é no trecho depois do clique.</li>
+            <li><b>"Já tentei e não funcionou."</b> Garantia do diagnóstico, com a condição da planilha dita em voz alta.</li>
+            <li><b>"Não tenho tempo."</b> Dizer exatamente quanto tempo a clínica dá (dono ~7 h em 13 semanas; recepção, planilha diária e duas sessões de 1h30).</li>
+            <li><b>"Tem fidelidade ou multa?"</b> Não: sai ao fim de qualquer mês.</li>
+            <li><b>"Minha recepcionista vai se sentir vigiada."</b> O número é do processo, não da pessoa.</li>
+            <li><b>"Minha recepção é boa."</b> O diagnóstico mostra; sem antecipar o resultado.</li>
+            <li><b>"Quanto custa?"</b> R$ 1.000 por mês no piloto, saída ao fim de qualquer mês.</li>
+            <li><b>"Isso dá problema com o CRO?"</b> Nunca dizer "é permitido" nem "eu assumo a responsabilidade"; citar a consulta ao advogado.</li>
+            <li><b>"Já fez isso com outra clínica?"</b> Não; por isso é piloto.</li>
+            <li><b>"Vão falar com meus pacientes?"</b> Não; você nunca fala com paciente.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ======================= REGRAS ======================= -->
+    <section id="regras">
+      <div class="eyebrow">Conferido nos textos oficiais em 19 e 20/11/2026</div>
+      <h2>Regras e riscos</h2>
+      <div class="cards">
+        <div class="card"><span class="kicker">Para o que a clínica publica</span><ul><li>Anunciar preço e forma de pagamento continua proibido (Código de Ética, art. 44, I)</li><li>A Resolução CFO 271/2025 liberou oferecer desconto e cartão de desconto, não anunciar preço</li><li>Antes e depois só nas condições da Resolução 196/2019, com termo de consentimento</li><li>Nome e número do CRO em toda peça</li></ul></div>
+        <div class="card"><span class="kicker">Para o que você promete ao dentista</span><ul><li>CDC: a oferta anunciada obriga (art. 30); proibida a publicidade enganosa, inclusive por omissão (art. 37)</li><li>Nada de número de pacientes, faturamento ou porcentagem</li><li>Nada de caso, depoimento ou número inventado</li></ul></div>
+        <div class="card"><span class="kicker">Para os dados</span><ul><li>LGPD: só contato comercial público da clínica, com opção de não receber mais</li><li>Nenhum dado de paciente na planilha, no repositório ou no Drive</li><li>A lista de prospecção fica fora do repositório e do Drive; quem não respondeu é apagado no fim do ciclo</li></ul></div>
+      </div>
+      <h3>Riscos para acompanhar</h3>
+      <ul class="plain">
+        <li><b>Sem prova.</b> O mercado compra por prova e você não tem caso. Mitigação: piloto com termo de caso e publicação das três clínicas.</li>
+        <li><b>Hipótese central não validada.</b> Se as conversas mostrarem que o dono já vê a perda na recepção, o ângulo muda.</li>
+        <li><b>Capacidade.</b> 60 h/mês é o limite para 3 vagas; atraso numa entrega com data afeta a garantia de prazo.</li>
+        <li><b>Volume baixo.</b> Clínica com menos de 10 orçamentos por mês não gera comparação útil.</li>
+        <li><b>Dependência do advogado.</b> Sem parecer, a sequência de retorno, que é o centro do ângulo 2, fica de fora.</li>
+      </ul>
+      <p class="muted"><span class="tag t-fato">FATO</span>tem fonte verificável · <span class="tag t-pista">PISTA</span>o que a empresa diz de si ou resumo sem conferência · <span class="tag t-sup">SUPOSIÇÃO</span>leitura do squad, com a base dita</p>
+    </section>
+
+    <!-- ======================= ARQUIVOS ======================= -->
+    <section id="arquivos">
+      <div class="eyebrow">Google Drive · pasta "5. Estudo Agências Odontologia"</div>
+      <h2>Arquivos</h2>
+      <div class="files">
+        <a class="file" href="https://docs.google.com/document/d/12xoV2g0U71xlGAR0eMcjb1cHoUcfJu_KY3QeFawBM4g/edit" target="_blank" rel="noopener"><b>Briefing</b><span class="p">00-briefing.md</span></a>
+        <a class="file" href="https://docs.google.com/document/d/1_xztNlB-AK1wCKqPtUDIEc22NQBhw7YeZnHBB6q_DgE/edit" target="_blank" rel="noopener"><b>Dossiê de mercado</b><span class="p">01-pesquisa/agencias-odontologia.md</span></a>
+        <a class="file" href="https://docs.google.com/document/d/1DOTTGiBU84L4zCogbJ0KjAEgPMD9gn5MJhKvl908rJI/edit" target="_blank" rel="noopener"><b>Avatar</b><span class="p">02-avatar.md</span></a>
+        <a class="file" href="https://docs.google.com/document/d/1jGfa6mGBqUwv_3xEUZzQC4Df1n1fPRoaCTRMgTpwmOM/edit" target="_blank" rel="noopener"><b>Oferta (versão 2)</b><span class="p">03-oferta.md</span></a>
+        <a class="file" href="https://docs.google.com/document/d/1xzOJIYIZf6QdqUBeucS55UFEh-a_rY8PlmfB1gJL-g0/edit" target="_blank" rel="noopener"><b>Métricas</b><span class="p">09-metricas.md</span></a>
+        <a class="file" href="https://docs.google.com/spreadsheets/d/1yCrGqr6QhkkPLTWo7PozpAKAPD_thoy4KCmGjXVjYPw/edit" target="_blank" rel="noopener"><b>Planilha da clínica (modelo)</b><span class="p">copiar para a conta da clínica</span></a>
+        <a class="file" href="https://docs.google.com/spreadsheets/d/1OjnqDKzyYPyGr1oFPRriXB-yMq16yHt_8NyMp-iZRdc/edit" target="_blank" rel="noopener"><b>Planilha do Rafael</b><span class="p">cliente oculto e horas</span></a>
+        <a class="file" href="https://docs.google.com/document/d/1r2ToLgOjEbV83v1wxMY43is9u7i8ILtU3ytxQyxu-FI/edit" target="_blank" rel="noopener"><b>Abordagem (versão 2)</b><span class="p">06-copy/abordagem-clinicas.md · não enviar</span></a>
+        <a class="file" href="https://docs.google.com/document/d/14Psp8avmWqpR_ydHrd-HRvEYjaTUK9IWNlEhebpM0JM/edit" target="_blank" rel="noopener"><b>Revisão 1 da abordagem</b><span class="p">revisoes/abordagem-clinicas-revisao-1.md</span></a>
+        <a class="file" href="https://github.com/rafaelmirandadec-max/workspace/pull/14" target="_blank" rel="noopener"><b>Repositório (PR)</b><span class="p">rafaelmirandadec-max/workspace#14</span></a>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+(function(){
+  var KEY='plano-piloto-odonto-tarefas';
+  var state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){state={};}
+  var boxes=[].slice.call(document.querySelectorAll('#tasks input[type=checkbox]'));
+  function render(){
+    var done=0;
+    boxes.forEach(function(b){var on=!!state[b.id];b.checked=on;b.closest('.task').classList.toggle('done',on);if(on)done++;});
+    document.getElementById('count').textContent=done+' de '+boxes.length+' feitas';
+    document.getElementById('bar').style.width=(boxes.length?Math.round(done/boxes.length*100):0)+'%';
+  }
+  boxes.forEach(function(b){b.addEventListener('change',function(){state[b.id]=b.checked;try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}render();});});
+  render();
+})();
+</script>

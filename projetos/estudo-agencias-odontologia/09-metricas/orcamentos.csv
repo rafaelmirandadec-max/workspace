@@ -1,0 +1,6 @@
+linha,codigo,origem,data_apresentado,fechou_na_hora,data_1o_retorno,numero_de_retornos,data_ultimo_retorno,paciente_respondeu,pediu_para_parar,data_fechamento,situacao,observacao_do_processo,semana,retorno_no_prazo,fechou_em_30_dias,parado
+COMO_PREENCHER,"ORC-001, ORC-002... (nunca nome, iniciais, telefone, CPF ou nº de prontuário)",NOVO ou CASA ou REATIVACAO,dd/mm/aaaa,S ou N,dd/mm/aaaa,número,"dd/mm/aaaa (no 1º retorno, a mesma data da coluna anterior)",S ou N,S ou N,dd/mm/aaaa,ABERTO ou FECHADO ou NAO_FECHOU,"só sobre o processo; nunca tratamento, dente, valor ou dado do paciente",calculada (fórmula O1),calculada (fórmula O2),calculada (fórmula O3),calculada (fórmula O4)
+EXEMPLO,ORC-001,NOVO,16/02/2027,N,17/02/2027,3,03/03/2027,S,N,05/03/2027,FECHADO,,1,S,S,N
+EXEMPLO,ORC-002,CASA,17/02/2027,S,,0,,,N,17/02/2027,FECHADO,,1,não se aplica,S,N
+EXEMPLO,ORC-003,CASA,18/02/2027,N,,0,,,N,,ABERTO,,1,N,aguardando,S
+EXEMPLO,ORC-004,NOVO,22/02/2027,N,26/02/2027,2,01/03/2027,N,S,,NAO_FECHOU,,2,N,N,N

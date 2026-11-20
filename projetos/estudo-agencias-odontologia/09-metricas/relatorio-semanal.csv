@@ -1,0 +1,5 @@
+linha,semana,fase,dias_de_atendimento,dias_com_registro,contatos_novos,fora_do_perfil,ind1_respondidos_15min,ind1_pct,ind2_marcaram,ind2_pct,ind3_compareceram,ind3_previstas,ind3_pct,ind4_sairam_com_orcamento,ind4_pct,ind5_retorno_no_prazo,ind5_base,ind5_pct,ind6_fechados_30d,ind6_base,ind6_pct,ind6_aguardando,parados_na_segunda,o_que_mudou_na_clinica
+COMO_PREENCHER,"1 a 13, já digitadas",calculada (S1),digitar (dias em que a clínica abriu),calculada (S2),calculada (S3),calculada (S3),calculada (S3),calculada (S4),calculada (S3),calculada (S4),calculada (S3),calculada (S5),calculada (S4),calculada (S3),calculada (S4),calculada (S6),calculada (S6),calculada (S4),calculada (S7),calculada (S7),calculada (S8),calculada (S7),"digitar na segunda: copiar o número da célula 'parados hoje' (S9)","digitar: agência, verba, equipe, férias, preço, feriado"
+EXEMPLO,1,antes,5,5,9,1,4,44%,2,22%,2,3,67%,1,50%,1,3,33%,1,1,,2,,
+EXEMPLO,2,antes,5,5,11,1,4,36%,3,27%,2,3,67%,1,50%,0,3,0%,0,0,,4,2,
+EXEMPLO,3,antes,5,4,10,1,4,40%,3,30%,2,3,67%,1,50%,1,2,50%,1,1,,2,4,devolutiva na sexta (05/03)

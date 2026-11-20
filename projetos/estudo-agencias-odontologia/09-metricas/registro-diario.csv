@@ -1,0 +1,5 @@
+linha,data,clinica_aberta,feriado_ou_evento,contatos_novos,fora_do_perfil,respondidos_em_15_min,avaliacoes_marcadas,compareceram,faltaram_sem_aviso,desmarcaram_no_dia,sairam_com_orcamento,observacao_do_processo,semana,fase
+COMO_PREENCHER,dd/mm/aaaa,S ou N,"texto curto, opcional (ex.: Carnaval)",número,número,número,número,número,número,número,número,"só sobre o processo; nunca sobre paciente nem sobre uma funcionária",calculada (fórmula R1),calculada (fórmula R2)
+EXEMPLO,15/02/2027,S,,2,0,1,1,0,0,0,0,,1,antes
+EXEMPLO,16/02/2027,S,,3,1,1,1,1,0,0,1,recepção com uma pessoa só à tarde,1,antes
+EXEMPLO,17/02/2027,S,,1,0,1,0,1,1,0,1,,1,antes
