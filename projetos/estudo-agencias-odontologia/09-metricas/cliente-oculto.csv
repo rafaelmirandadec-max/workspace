@@ -1,0 +1,5 @@
+linha,clinica,teste,data,dia_da_semana,horario,canal,dentro_do_horario,respondeu,minutos_de_clinica_aberta_ate_resposta,resposta_em_15_min,ofereceu_horario,observacao
+COMO_PREENCHER,código interno,"1, 2...",dd/mm/aaaa,texto,hh:mm,WhatsApp ou telefone ou Instagram,S ou N,S ou N,número (relógio só com a clínica aberta),calculada (C1),S ou N,"sobre a resposta, nunca o nome de quem atendeu"
+EXEMPLO,Clínica A,1,16/02/2027,terça,10:40,WhatsApp,S,S,6,S,S,
+EXEMPLO,Clínica A,2,18/02/2027,quinta,21:15,WhatsApp,N,S,35,N,S,chegou com a clínica fechada; relógio contou a partir das 8h
+EXEMPLO,Clínica A,3,20/02/2027,sábado,13:10,telefone,N,N,,N,N,sem retorno até o fim de segunda

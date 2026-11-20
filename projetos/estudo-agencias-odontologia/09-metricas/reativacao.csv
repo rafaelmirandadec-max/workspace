@@ -1,0 +1,4 @@
+linha,rodada,data_inicio,grupo,mensagens_enviadas,responderam,marcaram_avaliacao,pediram_para_parar,observacao_do_processo,pct_responderam,pct_marcaram,pct_pediram_para_parar
+COMO_PREENCHER,"1, 2...",dd/mm/aaaa,ORCAMENTO_ANTIGO ou SEM_RETORNO_12_MESES,número,número,número,número,"só sobre o processo",calculada (R3),calculada (R3),calculada (R3)
+EXEMPLO,1,22/03/2027,ORCAMENTO_ANTIGO,25,6,2,1,só depois do parecer do advogado,24%,8%,4%
+EXEMPLO,1,22/03/2027,SEM_RETORNO_12_MESES,40,7,3,2,,18%,8%,5%

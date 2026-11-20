@@ -1,0 +1,8 @@
+linha,indicador,fonte_do_antes,antes_num,antes_base,antes_pct,depois_num,depois_base,depois_pct,diferenca_pontos,margem_pontos,volume_para_percentual,leitura
+COMO_PREENCHER,já digitado,"digitar: 'semanas 1-3' ou 'histórico do sistema, período'",calculada (L1) ou digitada do histórico,calculada (L1) ou digitada do histórico,calculada (L2),calculada (L1),calculada (L1),calculada (L2),calculada (L3),calculada (L4),calculada (L5),calculada (L6)
+EXEMPLO,1. Respondidos em até 15 minutos,semanas 1-3,12,30,40%,55,66,83%,43,22,S,mudou para melhor além da margem
+EXEMPLO,2. Marcaram avaliação,semanas 1-3,8,30,27%,17,66,26%,-1,22,S,dentro da margem: não dá para afirmar diferença
+EXEMPLO,3. Vieram à avaliação,"histórico da agenda, fev a mai 2026",41,58,71%,13,18,72%,2,26,N,dentro da margem: não dá para afirmar diferença
+EXEMPLO,4. Saíram com orçamento por escrito,semanas 1-3,3,6,50%,11,13,85%,35,48,N,volume muito baixo: não concluir
+EXEMPLO,5. Retorno em até 3 dias,"semanas 1-3 (2 de 8) + conferência retroativa (5 de 20)",7,28,25%,19,22,86%,61,28,N,mudou para melhor além da margem
+EXEMPLO,6. Fechados em até 30 dias,"histórico do sistema, fev a mai 2026",11,52,21%,5,14,36%,15,30,N,dentro da margem: não dá para afirmar diferença

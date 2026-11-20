@@ -1,0 +1,5 @@
+linha,data,clinica,semana_do_piloto,item,minutos,observacao
+COMO_PREENCHER,dd/mm/aaaa,código interno,1 a 13,"ver lista de itens no LEIA-ME (ex.: 1 linha de base, 4 roteiro de atendimento, VENDA)",número inteiro de minutos,texto curto
+EXEMPLO,15/02/2027,Clínica A,1,1 linha de base,90,explicar a planilha à recepção
+EXEMPLO,16/02/2027,Clínica A,1,2 cliente oculto,40,testes 1 e 2
+EXEMPLO,18/02/2027,Clínica A,1,B1 leitura do relatório da agência,120,

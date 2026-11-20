@@ -1,0 +1,13 @@
+parametro,valor,explicacao
+clinica,EXEMPLO: Clínica A,"Nome interno do piloto. Pode ser só uma letra."
+data_inicio,EXEMPLO: 15/02/2027,"Segunda-feira da semana 1 da linha de base. As semanas são contadas a partir daqui."
+horario_de_atendimento,"EXEMPLO: seg a sex 8h-19h; sáb 8h-12h","O relógio dos 15 minutos só corre dentro deste horário."
+valor_de_corte_orcamento,[A PREENCHER pelo dono],"Só entram na aba orcamentos os orçamentos com valor igual ou acima deste. Não muda durante o piloto."
+o_que_conta_como_fechado,[A PREENCHER pelo dono],"Ex.: paciente aceitou e marcou a primeira sessão. Uma definição só, do começo ao fim."
+prazo_resposta_minutos,15,"Indicador 1."
+prazo_primeiro_retorno_dias,3,"Indicador 5."
+janela_fechamento_dias,30,"Indicador 6."
+ultima_semana_antes,3,"Semanas 1 a 3: linha de base, sem mudar nada."
+ultima_semana_implantacao,6,"Semanas 4 a 6: roteiros, treino e ajuste. Não entram na comparação."
+ind6_depois_semana_inicial,5,"Orçamentos apresentados a partir desta semana entram no 'depois' do indicador 6."
+ind6_depois_semana_final,8,"Até esta semana, para completarem 30 dias antes do fim do piloto."
