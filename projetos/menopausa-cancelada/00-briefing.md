@@ -8,7 +8,7 @@ Aberto em 23/11/2026 a partir do trabalho feito com o Rafael entre outubro e nov
 - **Cliente / especialista:** Giovanna Agostini, nutricionista e chef de alimentação saudável; marca Menopausa Cancelada (MENOPAUSA CANCELADA LTDA, CNPJ 47.019.967/0001-89). Parceria com Cátia Damasceno (fisioterapeuta e sexóloga; "By Cátia Damasceno" no rótulo).
 - **Nicho:** saúde da mulher na menopausa; suplemento alimentar.
 - **Responsável:** Rafael Miranda.
-- **Status:** copy.
+- **Status:** copy. Guia-amostra gratuito v1 em `06-copy/guia-amostra-libido.md` (23/11/2026), aguardando revisor, validação da Giovanna e parecer sobre o Código de Ética do Nutricionista.
 - **Canal:** os dois (anúncios, VSL na página de vendas, grupo de WhatsApp e stories da Giovanna).
 - **Nicho regulado:** sim, saúde (suplemento alimentar e nutricionista: Anvisa RDC 243/2018 e IN 28/2018, CFN 599/2018, CDC art. 37).
 
