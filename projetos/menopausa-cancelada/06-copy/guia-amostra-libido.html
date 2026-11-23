@@ -1,0 +1,675 @@
+<title>A receita que cabe no dia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Caveat:wght@500;700&display=swap">
+<style>
+/* Layout: o guia como um livreto de papel, uma folha por página, empilhadas numa coluna; caixas de receita como fichas de cozinha, caixa de oferta em ameixa repetida em cada capítulo */
+:root {
+  --bg: #efe4e7;          /* mesa atrás do livreto */
+  --paper: #fff8f5;       /* folha */
+  --blush: #f7e1d9;       /* rosado do pote */
+  --ink: #3a1c22;         /* texto */
+  --muted: #7b5a60;
+  --heart: #c4302f;       /* vermelho do coração do rótulo */
+  --plum: #4e2363;        /* ameixa da marca, caixa de oferta */
+  --plum-ink: #fbf3ff;
+  --line: #e6cfc8;
+  --marker: #ffe58a;      /* marca-texto das pendências */
+  --marker-ink: #4a3a00;
+  --note: #f3f0ea;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --hand: "Caveat", "Segoe Script", cursive;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1214; --paper: #261a1d; --blush: #3a2328; --ink: #f6e9ea; --muted: #c9aeb2;
+    --heart: #ff6b63; --plum: #5c2b74; --plum-ink: #fbf3ff; --line: #4a3238;
+    --marker: #6b5a12; --marker-ink: #fff1b3; --note: #2f2427; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b1214; --paper: #261a1d; --blush: #3a2328; --ink: #f6e9ea; --muted: #c9aeb2;
+  --heart: #ff6b63; --plum: #5c2b74; --plum-ink: #fbf3ff; --line: #4a3238;
+  --marker: #6b5a12; --marker-ink: #fff1b3; --note: #2f2427; color-scheme: dark;
+}
+
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 64px;
+}
+.toolbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between;
+  max-width: 820px; margin: 0 auto; padding-block: 12px;
+  font-family: var(--display); font-size: 14px; color: var(--muted);
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.toolbar b { color: var(--ink); font-weight: 700; }
+.toolbar button {
+  font: 600 14px var(--display); color: var(--paper); background: var(--ink); border: 0; border-radius: 999px; padding: 8px 14px; cursor: pointer;
+}
+.toolbar button:focus-visible, a:focus-visible { outline: 3px solid var(--heart); outline-offset: 2px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+
+.book { max-width: 820px; margin: 0 auto; display: grid; gap: 28px; }
+.sheet {
+  background: var(--paper); border-radius: 4px; box-shadow: 0 1px 0 var(--line), 0 12px 30px -18px rgba(58, 28, 34, .45);
+  padding-block: clamp(28px, 5vw, 56px); padding-inline: clamp(20px, 6vw, 64px);
+  position: relative; min-width: 0;
+}
+.pageno {
+  position: absolute; top: 14px; right: 18px; font: 600 12px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+}
+.sheet > * + * { margin-top: 1em; }
+.sheet p { max-width: 64ch; }
+
+h1, h2, h3, h4 { font-family: var(--display); color: var(--ink); text-wrap: balance; line-height: 1.12; margin: 0; }
+h1 { font-size: clamp(34px, 7vw, 58px); font-weight: 800; letter-spacing: -.02em; }
+h2 { font-size: clamp(26px, 4.6vw, 38px); font-weight: 800; letter-spacing: -.015em; }
+h3 { font-size: 22px; font-weight: 700; margin-top: 1.6em !important; }
+h4 { font-size: 19px; font-weight: 700; }
+.eyebrow { font: 700 12px var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--heart); }
+.lede { font-size: 20px; color: var(--muted); }
+ul { padding-left: 1.2em; }
+li + li { margin-top: .35em; }
+.pg { font-family: var(--display); font-size: 13px; font-weight: 600; color: var(--heart); white-space: nowrap; }
+
+/* capa */
+.cover { background: var(--blush); overflow: hidden; }
+.cover .heartmark { position: absolute; right: -60px; bottom: -70px; width: 320px; height: 320px; opacity: .9; pointer-events: none; }
+.badge { display: inline-block; font: 800 12px var(--display); letter-spacing: .12em; text-transform: uppercase; background: var(--heart); color: var(--paper); padding: 6px 12px; border-radius: 999px; }
+.cover h1 { max-width: 12ch; }
+.cover .lede { max-width: 40ch; color: var(--ink); }
+.cover ul { list-style: none; padding: 0; display: grid; gap: 10px; position: relative; max-width: 54ch; }
+.cover li { margin: 0; padding-left: 28px; position: relative; }
+.cover li::before { content: ""; position: absolute; left: 0; top: .5em; width: 14px; height: 12px; background: var(--heart);
+  clip-path: path("M7 12 C7 12 0 7.5 0 3.5 C0 1.5 1.6 0 3.5 0 C5 0 6.3 .9 7 2.2 C7.7 .9 9 0 10.5 0 C12.4 0 14 1.5 14 3.5 C14 7.5 7 12 7 12 Z"); }
+.byline { font-family: var(--display); font-weight: 700; position: relative; }
+
+/* bilhete */
+.note-paper { background: repeating-linear-gradient(to bottom, var(--paper) 0 31px, var(--line) 31px 32px); }
+.hand { font-family: var(--hand); font-size: 30px; line-height: 1.1; color: var(--heart); }
+.sign { font-family: var(--hand); font-size: 34px; color: var(--ink); }
+
+/* carta */
+.letter h2 { font-size: clamp(28px, 5vw, 42px); }
+.kits { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+.kit { border: 1.5px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.kit.best { border-color: var(--heart); background: var(--blush); }
+.kit .tag { font: 700 11px var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--heart); }
+.kit .price { font: 800 30px var(--display); font-variant-numeric: tabular-nums; }
+.kit .name { font: 700 15px var(--display); }
+.kit p { font-size: 15px; margin: 0; }
+.cta {
+  display: inline-block; font: 700 17px var(--display); text-decoration: none; color: var(--paper); background: var(--heart);
+  padding: 14px 22px; border-radius: 999px;
+}
+.ps { border-top: 1px dashed var(--line); padding-top: 1em; }
+
+/* capítulos */
+.chapter-cover { background: var(--ink); color: var(--paper); }
+.chapter-cover h2, .chapter-cover .eyebrow { color: var(--paper); }
+.chapter-cover .eyebrow { opacity: .75; }
+.chapter-cover .pageno { color: var(--paper); opacity: .7; }
+.chapter-cover .sub { font-size: 20px; opacity: .85; max-width: 44ch; }
+.offer {
+  background: var(--plum); color: var(--plum-ink); border-radius: 10px; padding: 18px 20px; display: grid; gap: 8px;
+}
+.offer strong.t { font: 800 14px var(--display); letter-spacing: .1em; text-transform: uppercase; }
+.offer p { margin: 0; font-size: 15.5px; max-width: none; }
+.offer a { color: var(--plum-ink); font-family: var(--display); font-weight: 700; }
+
+.recipe {
+  border: 1.5px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--paper);
+}
+.recipe .head { background: var(--blush); padding: 14px 20px; display: grid; gap: 4px; }
+.recipe .head h4 { font-size: 22px; }
+.recipe .body { padding: 16px 20px 18px; display: grid; gap: 12px; }
+.recipe .cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
+@media (max-width: 560px) { .recipe .cols { grid-template-columns: 1fr; } }
+.recipe h5 { font: 700 12px var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--heart); margin: 0 0 6px; }
+.recipe ul { margin: 0; }
+.recipe p { margin: 0; font-size: 16px; max-width: none; }
+.tip { background: var(--note); border-radius: 8px; padding: 10px 14px; font-size: 15.5px; }
+.tip b { font-family: var(--display); }
+.warn { border-left: 4px solid var(--heart); padding: 6px 0 6px 12px; font-size: 15.5px; }
+.source { font-style: italic; color: var(--muted); font-size: 14.5px; }
+
+.alert {
+  border: 2px solid var(--heart); border-radius: 12px; padding: 16px 20px; display: grid; gap: 8px;
+}
+.alert h4 { color: var(--heart); }
+.alert p { margin: 0; }
+
+.foods { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.food { border-radius: 10px; background: var(--blush); padding: 14px 16px; min-width: 0; }
+.food .k { font: 800 13px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--heart); }
+.food p { margin: 6px 0 0; font-size: 15.5px; }
+
+.twoplaces { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.place { border: 1.5px solid var(--line); border-radius: 12px; padding: 16px 18px; min-width: 0; }
+.place .n { font: 800 13px var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--heart); }
+.place p { margin: 6px 0 0; font-size: 16px; }
+
+.more { border-top: 2px solid var(--ink); padding-top: 12px; }
+.more h4 { font-size: 16px; letter-spacing: .08em; text-transform: uppercase; }
+.more ul { list-style: none; padding: 0; display: grid; gap: 8px; margin-top: 10px; }
+.more li { margin: 0; display: flex; gap: 10px; align-items: baseline; justify-content: space-between; border-bottom: 1px dotted var(--line); padding-bottom: 8px; }
+.more li span:first-child { min-width: 0; }
+
+.notes {
+  border: 2px dashed var(--line); border-radius: 10px; padding: 12px 16px; color: var(--muted); font-size: 15px;
+}
+.notes::before { content: "Depoimento"; display: block; font: 700 11px var(--display); letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
+
+.situations { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.postit { background: var(--blush); border-radius: 4px; padding: 14px 16px; box-shadow: 0 6px 14px -10px rgba(58, 28, 34, .5); min-width: 0; }
+.postit:nth-child(even) { transform: rotate(.6deg); }
+.postit:nth-child(odd) { transform: rotate(-.5deg); }
+.postit h4 { font-size: 16.5px; }
+.postit p { margin: 6px 0 0; font-size: 15.5px; }
+
+.days { display: grid; gap: 10px; }
+.day { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 14px; align-items: baseline; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+@media (max-width: 520px) { .day { grid-template-columns: 1fr; gap: 2px; } }
+.day b { font-family: var(--display); color: var(--heart); }
+.day p { margin: 0; }
+
+.tablewrap { overflow-x: auto; border: 1.5px solid var(--line); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 14px; font-family: var(--display); }
+th, td { border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); padding: 10px 8px; text-align: left; }
+th { background: var(--blush); font-weight: 700; }
+td:first-child { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--heart); }
+tr:last-child td { border-bottom: 0; }
+th:last-child, td:last-child { border-right: 0; }
+
+.card-answer {
+  border: 3px dashed var(--heart); border-radius: 14px; padding: 22px; display: grid; gap: 12px; background: var(--paper);
+}
+.card-answer h3 { margin-top: 0 !important; color: var(--heart); font-size: 26px; }
+.opt { display: flex; gap: 12px; align-items: flex-start; }
+.box { width: 20px; height: 20px; border: 2px solid var(--ink); border-radius: 4px; flex: none; margin-top: 4px; }
+.opt p { margin: 0; }
+
+.fine { font-size: 15px; }
+.fine h3 { font-size: 18px; }
+
+/* marcas de trabalho */
+.pend {
+  background: var(--marker); color: var(--marker-ink); font-family: var(--display); font-size: .78em; font-weight: 600;
+  padding: 1px 6px; border-radius: 4px; box-decoration-break: clone; -webkit-box-decoration-break: clone;
+}
+.diag {
+  border: 1.5px dashed var(--muted); border-radius: 8px; padding: 8px 12px; color: var(--muted); font: 500 13.5px var(--display); background: transparent;
+}
+.diag::before { content: "Diagramação · "; font-weight: 700; }
+.forgi { font: 500 13.5px var(--display); color: var(--muted); }
+.forgi::before { content: "Nota para a Giovanna · "; font-weight: 700; }
+.photo {
+  border-radius: 10px; background: repeating-linear-gradient(135deg, var(--blush) 0 10px, var(--paper) 10px 20px);
+  border: 1.5px solid var(--line); min-height: 120px; display: grid; place-items: center; text-align: center; padding: 16px;
+  font: 600 13.5px var(--display); color: var(--muted);
+}
+body.clean .diag, body.clean .forgi, body.clean .photo { display: none; }
+
+@media (prefers-reduced-motion: reduce) { .postit { transform: none !important; } }
+</style>
+
+<div class="toolbar">
+  <div class="legend"><b>Guia-amostra · rascunho v1</b><span><span class="pend">assim</span> = pendência a confirmar</span></div>
+  <button type="button" id="toggle" aria-pressed="false">Esconder notas de diagramação</button>
+</div>
+
+<main class="book">
+
+<!-- PÁGINA 1 · CAPA -->
+<section class="sheet cover" aria-label="Página 1, capa">
+  <span class="pageno">Página 1</span>
+  <svg class="heartmark" viewBox="0 0 100 90" aria-hidden="true"><path fill="var(--heart)" d="M50 88 C50 88 0 56 0 25 C0 11 11 0 25 0 C36 0 45 6 50 15 C55 6 64 0 75 0 C89 0 100 11 100 25 C100 56 50 88 50 88 Z"/></svg>
+  <span class="badge">Amostra grátis do Treinamento da Libido</span>
+  <h1>A receita que cabe no dia</h1>
+  <p class="lede">Receitas e rotina da nutricionista Giovanna Agostini para a mulher na menopausa que cuida de todo mundo e já largou muita receita boa na terceira semana</p>
+  <p><span class="pend">Valor: só manter se o guia tiver preço real em algum lugar</span></p>
+  <h4 style="position:relative">Neste guia:</h4>
+  <ul>
+    <li>O café da manhã que fica pronto em 5 minutos com o que costuma ter na geladeira. <span class="pg">Página 7</span></li>
+    <li>O que a menopausa muda em dois lugares do corpo, explicado como conversa de cozinha. <span class="pg">Página 9</span></li>
+    <li>O suco de melancia com beterraba da Gi, e o susto que ele pode dar no banheiro no dia seguinte (é normal, e ela explica por quê). <span class="pg">Página 11</span></li>
+    <li>Uma saída pra cada tipo de dia: pra quem acorda às 5h, pra quem não cozinha, pra quem só tem 2 minutos. <span class="pg">Página 12</span></li>
+    <li>O que fazer nos primeiros 7 dias pra rotina não morrer na terceira semana. <span class="pg">Página 15</span></li>
+    <li>Quando a cozinha não é o lugar certo e a conversa é com o ginecologista. <span class="pg">Página 10</span></li>
+  </ul>
+  <div class="photo">Foto real da Giovanna na cozinha, de avental, com linhaça, melancia, beterraba e limão na bancada. Nada de banco de imagem, casal ou corpo.</div>
+  <p class="byline">Giovanna Agostini · Nutricionista · CRN-<span class="pend">número e região</span></p>
+</section>
+
+<!-- PÁGINA 2 · BILHETE -->
+<section class="sheet note-paper" aria-label="Página 2, bilhete da Giovanna">
+  <span class="pageno">Página 2</span>
+  <p class="hand">Aqui está o seu guia, mulher. E obrigada por separar uns minutos pra ele.</p>
+  <p>Eu sei quanto vale um minuto livre no seu dia. Por isso este guia vai direto ao ponto: receita com ingrediente, quantidade e modo de preparo, e o jeito de fazer essa receita durar mais do que três semanas.</p>
+  <p>Algumas coisas que você vai encontrar aqui:</p>
+  <ul>
+    <li>A colher de linhaça dourada que eu sempre indiquei pela manhã, e o cuidado com o horário pra quem toma remédio da tireoide em jejum. <span class="pg">Veja na página 7</span></li>
+    <li>O prato do almoço montado com fontes de zinco, com ingrediente de feira e de mercadinho de bairro. <span class="pg">Veja na página 8</span></li>
+    <li>Por que a vontade começa na cabeça, e não só no corpo. <span class="pg">Veja na página 9</span></li>
+    <li>A lista de mercado do que o corpo usa como matéria-prima. <span class="pg">Veja na página 10</span></li>
+    <li>O shot de cúrcuma com limão que eu tomava em jejum, e quem precisa conversar com o médico antes de copiar. <span class="pg">Veja na página 11</span></li>
+    <li>Sete situações de dia corrido, cada uma com a sua saída. <span class="pg">Veja na página 12</span></li>
+    <li>O chá da noite sem cafeína, feito com maçã e canela. <span class="pg">Veja na página 14</span></li>
+    <li>A ficha de 7 dias que você preenche em um minuto antes de dormir. <span class="pg">Veja na página 16</span></li>
+  </ul>
+  <p>Este guia é uma amostra. O que está aqui saiu de um material maior, o <strong>Treinamento da Libido</strong>: 8 aulas minhas, com receitas de chás e shots <span class="pend">confirmar se as receitas deste guia estão no Treinamento</span>. Ele não é vendido sozinho: vem de presente nos kits do Shot da Libido <span class="pend">confirmar se o Treinamento é vendido avulso</span>. Nas próximas páginas eu te mostro como.</p>
+  <p>Faça uma receita hoje. Depois me conte como foi, lá no <span class="pend">canal: grupo do WhatsApp ou direct do Instagram</span>.</p>
+  <p class="sign">Um beijo, Giovanna</p>
+  <p class="byline">Giovanna Agostini · Nutricionista · CRN-<span class="pend">a preencher</span></p>
+</section>
+
+<!-- PÁGINAS 3 A 5 · CARTA -->
+<section class="sheet letter" aria-label="Páginas 3 a 5, carta">
+  <span class="pageno">Páginas 3 a 5</span>
+  <p class="diag">carta em papel timbrado da Menopausa Cancelada, com assinatura manuscrita. Se o parecer sobre o Código de Ética do Nutricionista for contrário, a assinatura passa para "Equipe Menopausa Cancelada" e o texto vai para a terceira pessoa.</p>
+  <h2>A receita estava certa. O que não cabia era o dia.</h2>
+  <p>Mulher,</p>
+  <p>Tem uma mulher que aparece pra mim todos os dias, com nomes diferentes.</p>
+  <p>Ela tem entre 45 e 60 anos. Acorda antes de todo mundo. Resolve o trabalho, os filhos, a mãe que já precisa de ajuda. Deita tarde e dorme mal.</p>
+  <p>Em algum ponto desse caminho, a vontade foi embora. Ela não sabe dizer quando. Só percebe que o corpo não acompanha mais, que o encontro com o parceiro virou uma coisa que ela adia, e que, quando tenta falar disso, ouve sempre a mesma frase: "é da idade".</p>
+  <p>Ela não é preguiçosa. Ela tentou. Comprou a farinha, fez o chá, tomou a cápsula. Na primeira semana, foi. Na segunda, mais ou menos. Na terceira, a farinha ficou no fundo do armário.</p>
+  <p>Se você se reconheceu em alguma dessas linhas, eu quero te dizer uma coisa antes de qualquer receita.</p>
+  <p><strong>O problema nunca foi você.</strong></p>
+
+  <h3>O culpado é a receita feita pra um dia que ninguém tem</h3>
+  <p>Quase todo conselho de alimentação pra menopausa foi escrito pra uma mulher que não existe. Uma mulher que tem uma hora livre de manhã, vai à feira na quarta, cozinha só pra ela e lembra de tomar o chá às nove da noite em ponto.</p>
+  <p>Esse conselho não está errado. Ele só pede um dia que você não tem.</p>
+  <p>E aí vem a parte que dói: a mulher larga a receita e acha que a culpa é dela. Junta isso com o "é da idade" e pronto. Ela desiste de cuidar de uma parte da vida que é dela.</p>
+
+  <h3>Eu fiz parte desse problema</h3>
+  <p>Eu era a nutricionista das mil receitas.</p>
+  <p>Farinha de linhaça dourada de manhã. Suco de melancia com beterraba. Shot de cúrcuma com limão em jejum. Chá antes de dormir.</p>
+  <p>Eu passava a receita, a seguidora anotava, e um tempo depois chegava a mensagem:</p>
+  <p class="hand">"Gi, eu tentei, mas não consegui continuar."</p>
+  <p>Não era uma. Eram muitas.</p>
+  <p>Demorei pra entender. A receita estava certa. O que não cabia era o dia.</p>
+
+  <h3>O que eu mudei</h3>
+  <p>Foi dessa lição que nasceu o jeito como eu trabalho hoje <span class="pend">confirmar com a VSL a ordem dos fatos desta história</span>. Em vez de pedir que você mude a sua vida pra caber na receita, eu mudei a receita pra caber na sua vida.</p>
+  <p>Ficaram duas partes.</p>
+  <p><strong>A base, em um minuto.</strong> O Shot da Libido: um pó sabor melancia ou morango com maracujá que você mistura em 200 ml de água e toma de manhã, depois de comer. Uma dose por dia. Um pote dura 30 dias.</p>
+  <p><strong>O resto, quando der.</strong> O Treinamento da Libido: 8 aulas minhas sobre os 8 pilares que entram nessa conversa, da alimentação ao relacionamento, com as receitas de chás e shots pros dias em que sobra um tempinho.</p>
+  <p>Este guia é uma amostra das duas partes. Ele mostra como eu explico, o tipo de receita que eu passo e como encaixar tudo num dia cheio.</p>
+
+  <h3>O tamanho do que vem depois</h3>
+  <ul>
+    <li><strong>8 aulas</strong> do Treinamento da Libido <span class="pend">confirmar formato, duração e prazo de acesso</span>.</li>
+    <li><span class="pend">número</span> <strong>receitas</strong> de chás e shots.</li>
+    <li><strong>30 doses por pote.</strong> Nos kits de 2, 4 ou 6 potes, são de 2 a 6 meses de rotina, uma dose por dia.</li>
+    <li>No kit de 6 potes, uma <strong>avaliação dos seus exames com plano alimentar</strong> <span class="pend">confirmar quem faz: a Giovanna ou a equipe</span>.</li>
+  </ul>
+  <p>Quem está por trás disso: eu sou nutricionista e chef de alimentação saudável e trabalho com saúde da mulher há mais de 10 anos <span class="pend">confirmar tempo</span>. Toda terça eu dou aula ao vivo <span class="pend">confirmar canal e se a aula continua</span>. O Shot é feito em parceria com a Cátia Damasceno, fisioterapeuta e sexóloga, com mais de 11 milhões de inscritos no YouTube <span class="pend">confirmar número e data da contagem</span>. O nome dela está no rótulo.</p>
+  <p>Na fórmula tem zinco e vitamina B6. O zinco contribui para a manutenção do cabelo, da pele e das unhas. O zinco auxilia na manutenção de ossos. A vitamina B6 auxilia no metabolismo energético. A vitamina B6 auxilia na função normal do sistema nervoso. A composição completa, com a quantidade de cada ingrediente por dose, está na <span class="pg">página 18</span>.</p>
+
+  <h3>O que eu te proponho</h3>
+  <div class="kits">
+    <div class="kit"><span class="name">Kit 2 potes</span><span class="price">R$ 289</span><p>Treinamento da Libido de presente + frete grátis.</p></div>
+    <div class="kit"><span class="name">Kit 4 potes</span><span class="price">R$ 548</span><p>Treinamento da Libido + Femme Healthy <span class="pend">o que é, em uma linha</span> + frete grátis.</p></div>
+    <div class="kit best"><span class="tag">O que mais rende</span><span class="name">Kit 6 potes</span><span class="price">R$ 789</span><p>Treinamento da Libido + Femme Healthy + avaliação de exames com plano alimentar + frete grátis. Sai R$ 4,38 por dia.</p></div>
+  </div>
+  <p>Pote avulso: R$ 187,90 (sem o Treinamento). <span class="pend">parcelamento, só se for real</span></p>
+
+  <h3>Trinta dias por minha conta</h3>
+  <p>Você tem 30 dias pra provar. Se não gostar, por qualquer motivo, você pede e recebe de volta 100% do que pagou <span class="pend">os 30 dias contam da compra ou da entrega? Vale com o pote aberto?</span>.</p>
+  <p>Por que eu faço assim? Porque eu sei que você já comprou coisa que ficou parada no armário. Não quero que este seja mais um risco seu. O risco fica comigo.</p>
+  <p><a class="cta" href="#" aria-label="Escolha o seu kit (link a definir)">Escolha o seu kit</a> <span class="pend">LINK</span></p>
+  <p>Com carinho,</p>
+  <p class="sign">Giovanna Agostini</p>
+  <p class="byline">Nutricionista · CRN-<span class="pend">a preencher</span></p>
+  <p class="ps"><strong>P.S.</strong> O Treinamento da Libido continua sendo seu mesmo se você pedir o dinheiro de volta <span class="pend">confirmar regra dos bônus na devolução</span>. As aulas e as receitas ficam com você. Se a única coisa que você levar daqui for uma receita que coube no seu dia, já valeu.</p>
+  <p><strong>P.P.S.</strong> <span class="pend">fala real e autorizada da Cátia Damasceno, enviada por ela, sobre a parceria ou sobre não deixar essa parte da vida de lado. Sem prometer efeito do Shot. Assinar com nome, "fisioterapeuta" e CREFITO. Não escrever no lugar dela.</span></p>
+</section>
+
+<!-- CAPÍTULO 1 -->
+<section class="sheet chapter-cover" aria-label="Página 6, capítulo 1">
+  <span class="pageno">Página 6</span>
+  <span class="eyebrow">Capítulo 1</span>
+  <h2>Do café ao chá: uma receita pra cada hora do dia</h2>
+  <p class="photo">Foto de uma mesa de café da manhã simples, de casa. Nada de mesa de hotel.</p>
+</section>
+
+<section class="sheet" aria-label="Páginas 7 e 8, capítulo 1">
+  <span class="pageno">Páginas 7 e 8</span>
+  <div class="offer" role="note">
+    <strong class="t">Teste de 30 dias por minha conta</strong>
+    <p>Este guia é uma amostra do Treinamento da Libido. As 8 aulas completas, com as receitas de chás e shots, vêm de presente nos kits do Shot da Libido a partir de 2 potes. Se não gostar, você tem 30 dias pra pedir 100% do dinheiro de volta, e o Treinamento continua seu <span class="pend">confirmar regra dos bônus</span>. Kits e preços na página 17.</p>
+    <p><a href="#">Escolha o seu →</a></p>
+  </div>
+  <p>A mulher que já desistiu de três rotinas não precisa de uma quarta. Precisa de uma que entre nas horas que ela já tem: o café, o almoço, a tarde, a noite.</p>
+  <p>Este capítulo cuida do café e do almoço. O chá da noite está no capítulo 3, e o lanche da tarde, no Treinamento. Nenhuma receita leva mais de 10 minutos <span class="pend">validar com a Giovanna</span>.</p>
+  <p>Antes de começar, um combinado. Receita é cuidado de rotina. Não trata nada e não substitui médico nem nutricionista. Se você tem alguma condição de saúde ou usa remédio todos os dias, confirme com quem te acompanha antes de mudar a alimentação.</p>
+
+  <article class="recipe">
+    <div class="head"><span class="eyebrow">Receita · página 7</span><h4>O café da manhã de 5 minutos</h4><span><span class="pend">validar quantidades e se está no Treinamento</span></span></div>
+    <div class="body">
+      <div class="cols">
+        <div><h5>Ingredientes</h5><ul>
+          <li>1 pote (170 g) de iogurte natural sem açúcar (ou bebida vegetal sem açúcar, pra quem não usa leite)</li>
+          <li>1 fruta picada: meia banana, uma fatia de mamão ou um punhado de morangos</li>
+          <li>1 colher de sopa de aveia em flocos</li>
+          <li>1 colher de sopa de farinha de linhaça dourada</li>
+          <li>canela em pó a gosto</li></ul></div>
+        <div><h5>Modo de preparo</h5><p>Coloque tudo numa tigela e misture. Pronto.</p></div>
+      </div>
+      <p class="tip"><b>Dica da Gi:</b> se a linhaça é novidade pra você, comece com 1 colher de chá e beba um copo de água junto. Fibra sem água prende o intestino. Compre a linhaça já moída ou moa em casa e guarde num pote bem fechado na geladeira <span class="pend">validar prazo da farinha aberta</span>.</p>
+      <p class="warn"><strong>Atenção:</strong> quem toma remédio da tireoide em jejum só come este café depois do intervalo que o médico indicou. Fibra perto do remédio pode atrapalhar a absorção <span class="pend">validar</span>.</p>
+      <p class="source">Do Treinamento da Libido, aula <span class="pend">confirmar aula</span>. Amostra grátis.</p>
+    </div>
+  </article>
+
+  <article class="recipe">
+    <div class="head"><span class="eyebrow">Receita · página 8</span><h4>O prato do almoço com fontes de zinco</h4><span><span class="pend">validar porções</span></span></div>
+    <div class="body">
+      <p>Zinco não pede ingrediente caro. Ele está no feijão de todo dia, na carne, no frango, no ovo e na semente de abóbora.</p>
+      <div class="cols">
+        <div><h5>Como montar</h5><ul>
+          <li>Metade do prato com salada e legumes. Beterraba ralada, quando tiver.</li>
+          <li>1 concha de feijão ou de grão-de-bico.</li>
+          <li>1 porção de carne vermelha magra, de frango ou 2 ovos.</li>
+          <li>Arroz, do jeito que você já come.</li>
+          <li>1 colher de sopa de semente de abóbora torrada por cima da salada.</li></ul></div>
+        <div><h5>Semente de abóbora torrada em casa</h5><p>Quando abrir uma abóbora, separe as sementes. Lave, tire os fiapos e seque bem com um pano. Leve a uma frigideira sem óleo, em fogo baixo, mexendo por 8 a 10 minutos, até ficarem douradas e estalando. Desligue, salpique uma pitada de sal e espere esfriar. Guarde num pote bem fechado <span class="pend">validar prazo</span>.</p></div>
+      </div>
+      <p class="tip">O zinco contribui para a manutenção do cabelo, da pele e das unhas. O zinco auxilia na manutenção de ossos.</p>
+      <p class="source">Do Treinamento da Libido, aula <span class="pend">confirmar aula</span>. Amostra grátis.</p>
+    </div>
+  </article>
+
+  <div class="more">
+    <h4>Também no Treinamento da Libido</h4>
+    <p class="forgi">cada item é uma proposta de tema. Confirme, troque ou corte, e informe o número da aula.</p>
+    <ul>
+      <li><span>Os alimentos que a Gi tira do prato quando a alimentação está inflamatória, e o que ela coloca no lugar sem deixar a comida sem graça.</span><span class="pend">aula ?</span></li>
+      <li><span>Por que o cansaço de quem cuida de todo mundo entra na conta da vontade, e a primeira coisa que a Gi pede pra mudar.</span><span class="pend">aula ?</span></li>
+      <li><span>A lista de compras da semana numa folha só, pra levar no celular.</span><span class="pend">aula ?</span></li>
+      <li><span>Como deixar três refeições adiantadas no domingo em menos de uma hora.</span><span class="pend">aula ?</span></li>
+      <li><span>O lanche da tarde que segura até o jantar sem pedir doce às quatro horas.</span><span class="pend">aula ?</span></li>
+      <li><span>O que tem em cada dose do Shot da Libido, ingrediente por ingrediente, com a quantidade.</span><span class="pg">Página do Shot</span></li>
+    </ul>
+  </div>
+  <p class="notes">Depoimento real e autorizado sobre rotina, sabor ou praticidade. Nunca sobre resultado no corpo. Nome, cidade.</p>
+</section>
+
+<!-- CAPÍTULO 2 -->
+<section class="sheet chapter-cover" aria-label="Capítulo 2">
+  <span class="pageno">Página 9</span>
+  <span class="eyebrow">Capítulo 2</span>
+  <h2>A vontade não mora num lugar só</h2>
+  <p class="photo">Ilustração simples de duas setas, uma na cabeça e outra no caminho do sangue. Traço de caderno, nada de imagem anatômica explícita.</p>
+</section>
+
+<section class="sheet" aria-label="Páginas 9 a 11, capítulo 2">
+  <span class="pageno">Páginas 9 a 11</span>
+  <div class="offer" role="note">
+    <strong class="t">Teste de 30 dias por minha conta</strong>
+    <p>Este guia é uma amostra do Treinamento da Libido. As 8 aulas completas, com as receitas de chás e shots, vêm de presente nos kits do Shot da Libido a partir de 2 potes. Se não gostar, você tem 30 dias pra pedir 100% do dinheiro de volta, e o Treinamento continua seu <span class="pend">confirmar regra dos bônus</span>. Kits e preços na página 17.</p>
+    <p><a href="#">Escolha o seu →</a></p>
+  </div>
+  <p>Quando a menopausa chega, ela mexe em dois lugares ao mesmo tempo.</p>
+  <div class="twoplaces">
+    <div class="place"><span class="n">1 · A cabeça</span><p>É lá que o desejo nasce. O cérebro conversa por mensageiros químicos, e dois deles aparecem muito nessa história: a dopamina, ligada à motivação, à vontade de ir atrás das coisas, e a serotonina, ligada ao humor e ao sono <span class="pend">validar</span>. Os hormônios também participam dessa conversa. Quando eles mudam, a conversa muda.</p></div>
+    <div class="place"><span class="n">2 · O caminho do sangue</span><p>É o sangue que leva sensibilidade e lubrificação à região íntima. Pra esse caminho ficar aberto, os vasos precisam relaxar, e uma molécula chamada óxido nítrico participa disso.</p></div>
+  </div>
+  <p>Por isso tem mulher que sente a cabeça querer e o corpo não acompanhar. E tem a que sente o contrário. Quase ninguém explica que são dois lugares diferentes, e aí fica tudo no mesmo saco do "é da idade".</p>
+
+  <h3>O que o corpo usa como matéria-prima</h3>
+  <p>O corpo não compra dopamina pronta. Ele fabrica, e fabrica a partir do que chega pelo prato.</p>
+  <div class="foods">
+    <div class="food"><span class="k">Pra fazer dopamina</span><p>Ele parte de um aminoácido chamado tirosina, que vem das proteínas: ovo, leite e queijo, carnes, frango, peixe, feijão.</p></div>
+    <div class="food"><span class="k">Pra fazer serotonina</span><p>Parte do triptofano: ovo, leite e queijo, aveia, castanhas, grão-de-bico.</p></div>
+    <div class="food"><span class="k">Pra fazer óxido nítrico</span><p>Usa a arginina, que está em castanhas, amendoim, feijões e carnes, e o nitrato de raízes e folhas como beterraba, rúcula e espinafre. A melancia entra com a citrulina, que o corpo transforma em arginina.</p></div>
+  </div>
+  <p><span class="pend">validar com a Giovanna a lista de fontes de cada grupo</span></p>
+  <p>Agora a parte honesta. Comer ovo não liga a vontade, e beterraba não substitui consulta. O que a comida faz é garantir que a matéria-prima esteja lá. O resto depende de sono, cansaço, relação, hormônio e história de vida. É por isso que o Treinamento tem 8 pilares, e não um.</p>
+
+  <div class="alert" role="note">
+    <span class="eyebrow">Página 10</span>
+    <h4>Quando a conversa é com o ginecologista</h4>
+    <p>Receita é cuidado de rotina. Não trata ressecamento, dor nem nenhum sintoma.</p>
+    <p>Se o ressecamento incomoda, se a relação dói, se aparece sangramento fora de hora ou qualquer coisa que preocupe, a conversa é com o seu ginecologista. Existem caminhos que só ele pode avaliar e indicar.</p>
+    <p>Leve as perguntas escritas. A consulta rende mais assim.</p>
+  </div>
+
+  <article class="recipe">
+    <div class="head"><span class="eyebrow">Receita · página 11</span><h4>O suco de melancia com beterraba</h4><span><span class="pend">validar quantidades e se está no Treinamento</span></span></div>
+    <div class="body">
+      <div class="cols">
+        <div><h5>Ingredientes (1 copo grande)</h5><ul>
+          <li>2 xícaras de melancia em cubos, sem semente (cerca de 300 g)</li>
+          <li>½ beterraba pequena crua, descascada e picada (cerca de 50 g)</li>
+          <li>suco de ½ limão</li>
+          <li>3 folhas de hortelã (opcional)</li>
+          <li>gelo a gosto</li></ul></div>
+        <div><h5>Modo de preparo</h5><p>Bata tudo no liquidificador, sem água: a melancia já tem. Não coe, pra não perder a fibra. Tome na hora.</p></div>
+      </div>
+      <p class="tip"><b>O susto do dia seguinte:</b> a beterraba pode deixar o xixi e as fezes avermelhados. É o pigmento dela, não faz mal e passa em um ou dois dias. Se a cor continuar sem você ter comido beterraba, procure o médico <span class="pend">validar</span>.</p>
+      <p class="warn"><strong>Atenção:</strong> suco concentra o açúcar da fruta. Quem controla a glicemia ou já teve pedra no rim conversa com quem acompanha a sua saúde antes de tomar todos os dias.</p>
+      <p class="source">Do Treinamento da Libido, aula <span class="pend">confirmar aula</span>. Amostra grátis.</p>
+    </div>
+  </article>
+
+  <article class="recipe">
+    <div class="head"><span class="eyebrow">Receita · página 11</span><h4>O shot de cúrcuma com limão</h4><span><span class="pend">validar quantidades e se está no Treinamento</span></span></div>
+    <div class="body">
+      <div class="cols">
+        <div><h5>Ingredientes (1 dose)</h5><ul>
+          <li>suco de 1 limão (cerca de 30 ml)</li>
+          <li>¼ de colher de chá de cúrcuma em pó</li>
+          <li>1 pitada de pimenta-do-reino moída</li>
+          <li>30 ml de água morna</li></ul></div>
+        <div><h5>Modo de preparo</h5><p>Misture tudo num copinho e tome de uma vez. Mexa logo antes de beber, porque a cúrcuma assenta no fundo.</p></div>
+      </div>
+      <p class="warn"><strong>Quem conversa com o médico antes:</strong> quem usa anticoagulante, quem tem pedra na vesícula, gastrite ou refluxo. Em jejum, o limão pode incomodar estômago sensível; nesse caso, tome depois de comer. Quem toma remédio da tireoide em jejum respeita o intervalo do remédio primeiro.</p>
+      <p class="source">Do Treinamento da Libido, aula <span class="pend">confirmar aula</span>. Amostra grátis.</p>
+    </div>
+  </article>
+
+  <div class="more">
+    <h4>Também no Treinamento da Libido</h4>
+    <p class="forgi">propostas de tema. Se as aulas de relacionamento e de experiências passadas forem dadas pela Cátia, troque "a Gi" por "a Cátia".</p>
+    <ul>
+      <li><span>O que acontece na cabeça quando a vontade some, e por que "é da idade" não explica tudo.</span><span class="pend">aula ?</span></li>
+      <li><span>O pilar que quase ninguém liga à vontade: o que ficou guardado de experiências antigas, e por onde começar a olhar pra isso.</span><span class="pend">aula ?</span></li>
+      <li><span>Como falar com o parceiro sobre o que mudou sem transformar o jantar numa discussão de relação.</span><span class="pend">aula ?</span></li>
+      <li><span>Os alimentos de cada grupo da página 10 organizados numa lista de mercado que cabe no bolso.</span><span class="pend">aula ?</span></li>
+      <li><span>Por que a beterraba aparece em tantas receitas da Gi, e três jeitos de usar sem ser no suco.</span><span class="pend">aula ?</span></li>
+      <li><span>A explicação dos dois lugares, do começo ao fim, com desenho.</span><span class="pg">VSL do Shot</span></li>
+    </ul>
+  </div>
+  <p class="notes">Depoimento real e autorizado sobre rotina, sabor ou praticidade. Nunca sobre resultado no corpo. Nome, cidade.</p>
+</section>
+
+<!-- CAPÍTULO 3 -->
+<section class="sheet chapter-cover" aria-label="Capítulo 3">
+  <span class="pageno">Página 12</span>
+  <span class="eyebrow">Capítulo 3</span>
+  <h2>Uma segunda opção. E uma terceira. Até a sétima.</h2>
+  <p class="sub">Não existe a receita certa. Existe a que cabe no seu dia.</p>
+</section>
+
+<section class="sheet" aria-label="Páginas 12 a 14, capítulo 3">
+  <span class="pageno">Páginas 12 a 14</span>
+  <div class="offer" role="note">
+    <strong class="t">Teste de 30 dias por minha conta</strong>
+    <p>Este guia é uma amostra do Treinamento da Libido. As 8 aulas completas, com as receitas de chás e shots, vêm de presente nos kits do Shot da Libido a partir de 2 potes. Se não gostar, você tem 30 dias pra pedir 100% do dinheiro de volta, e o Treinamento continua seu <span class="pend">confirmar regra dos bônus</span>. Kits e preços na página 17.</p>
+    <p><a href="#">Escolha o seu →</a></p>
+  </div>
+  <p>Quando uma receita não serve, a maioria das mulheres conclui que o problema é ela. Eu prefiro ter outra receita pronta.</p>
+  <p>Um dia cheio não é igual ao outro. Tem a segunda que começa às 5h, a quarta em que você almoça na rua, a sexta em que a família inteira está em casa e ninguém quer "comida de dieta". Uma receita só não dá conta disso.</p>
+  <p>Ter muita opção não é pra você fazer tudo. É pra você nunca ficar sem nenhuma.</p>
+  <p class="diag">sete post-its na porta da geladeira, um por situação. Todas as quantidades: validar com a Giovanna.</p>
+  <div class="situations">
+    <div class="postit"><h4>Pra quem acorda às 5h e sai correndo: aveia de geladeira</h4><p>À noite, num pote com tampa: 3 colheres de sopa de aveia, 1 pote de iogurte natural (ou 120 ml de leite ou bebida vegetal), 1 colher de sopa de linhaça dourada e meia banana amassada. Tampe e leve à geladeira. De manhã, é só pegar e levar.</p></div>
+    <div class="postit"><h4>Pra quem não cozinha (ou não quer): o lanche montado</h4><p>1 fatia de pão integral, 1 ovo cozido, rodelas de tomate e um punhado de castanhas. O truque: cozinhe 6 ovos de uma vez no domingo e guarde na geladeira <span class="pend">validar prazo</span>.</p></div>
+    <div class="postit"><h4>Pra quem só tem 2 minutos</h4><p>Meia banana amassada com 1 colher de sopa de aveia e canela. Ou a dose do Shot da Libido em 200 ml de água, depois do café da manhã: um minuto, do pote ao copo.</p></div>
+    <div class="postit"><h4>Pra quem almoça na rua</h4><p>No restaurante por quilo, monte nesta ordem: metade do prato com verdura e legume (pegue a beterraba ralada, se tiver), feijão, uma proteína e o arroz por último.</p></div>
+    <div class="postit"><h4>Pra quem não suporta beterraba</h4><p>Faça o suco da página 11 sem ela: melancia, limão e hortelã. E coloque rúcula na salada do almoço.</p></div>
+    <div class="postit"><h4>Pra quem cozinha pra família inteira</h4><p>A panela continua a mesma. O que muda é o seu prato: uma colher de semente de abóbora por cima da salada e o feijão garantido.</p></div>
+    <div class="postit"><h4>Pra quem janta tarde</h4><p>Jantar mais leve e, depois, o chá sem cafeína da próxima página.</p></div>
+  </div>
+
+  <article class="recipe">
+    <div class="head"><span class="eyebrow">Receita · página 14</span><h4>O chá da noite, de maçã com canela</h4><span><span class="pend">validar quantidades e se está no Treinamento</span></span></div>
+    <div class="body">
+      <div class="cols">
+        <div><h5>Ingredientes (1 xícara grande)</h5><ul>
+          <li>1 maçã pequena em fatias, com casca (ou só a casca e o miolo de uma maçã que você comeu)</li>
+          <li>1 pau de canela</li>
+          <li>2 cravos-da-índia (opcional)</li>
+          <li>300 ml de água</li></ul></div>
+        <div><h5>Modo de preparo</h5><p>Ferva a água com a maçã, a canela e os cravos. Abaixe o fogo e deixe 5 minutos. Desligue, tampe e espere mais 5. Coe e tome morno. Sem açúcar: a maçã já adoça.</p></div>
+      </div>
+      <p class="tip"><b>Dica da Gi:</b> depois das 16h, deixe de fora o que tem cafeína: café, chá-preto, chá-verde, chá-branco e mate <span class="pend">validar horário</span>.</p>
+      <p class="source">Do Treinamento da Libido, aula <span class="pend">confirmar aula</span>. Amostra grátis.</p>
+    </div>
+  </article>
+
+  <div class="more">
+    <h4>Também no Treinamento da Libido</h4>
+    <p class="forgi">propostas de tema. Confirme, troque ou corte.</p>
+    <ul>
+      <li><span>Três versões do shot de cúrcuma pra quem não aguenta o gosto.</span><span class="pend">aula ?</span></li>
+      <li><span>O chá gelado pros dias de calor, que fica pronto na garrafa da geladeira.</span><span class="pend">aula ?</span></li>
+      <li><span>Como adaptar as receitas pra quem tem intestino sensível.</span><span class="pend">aula ?</span></li>
+      <li><span>O que fazer no fim de semana, quando a rotina sai do trilho, pra segunda não começar do zero.</span><span class="pend">aula ?</span></li>
+      <li><span>As trocas que a Gi faz quando a receita pede um ingrediente que não tem no mercado da esquina.</span><span class="pend">aula ?</span></li>
+    </ul>
+  </div>
+  <p class="notes">Depoimento real e autorizado sobre rotina, sabor ou praticidade. Nunca sobre resultado no corpo. Nome, cidade.</p>
+</section>
+
+<!-- CAPÍTULO 4 -->
+<section class="sheet chapter-cover" aria-label="Capítulo 4">
+  <span class="pageno">Página 15</span>
+  <span class="eyebrow">Capítulo 4</span>
+  <h2>Faça este teste na sua cozinha</h2>
+  <p class="photo">Foto da Giovanna sentada à mesa de uma cozinha comum, xícara na mão, olhando pra câmera.</p>
+</section>
+
+<section class="sheet" aria-label="Páginas 15 e 16, capítulo 4">
+  <span class="pageno">Páginas 15 e 16</span>
+  <div class="offer" role="note">
+    <strong class="t">Teste de 30 dias por minha conta</strong>
+    <p>Este guia é uma amostra do Treinamento da Libido. As 8 aulas completas, com as receitas de chás e shots, vêm de presente nos kits do Shot da Libido a partir de 2 potes. Se não gostar, você tem 30 dias pra pedir 100% do dinheiro de volta, e o Treinamento continua seu <span class="pend">confirmar regra dos bônus</span>. Kits e preços na página 17.</p>
+    <p><a href="#">Escolha o seu →</a></p>
+  </div>
+  <p>Imagine que eu passasse uma semana na sua casa.</p>
+  <p>Eu não ia chegar com uma lista de vinte receitas. Ia sentar à mesa, tomar um café com você e perguntar: a que horas o seu dia começa? Onde ele aperta? Em que momento sobra um minuto?</p>
+  <p>É isso que o Treinamento faz, aula por aula. E você pode voltar a cada aula quantas vezes precisar <span class="pend">confirmar prazo de acesso</span>.</p>
+  <p>Quando o kit chegar, comece pelas uma ou duas aulas sobre o que mais pesa no seu dia hoje. Não precisa seguir a ordem.</p>
+
+  <h3>Quando o seu kit chegar, faça isto nos primeiros 7 dias</h3>
+  <div class="days">
+    <div class="day"><b>Dia 1</b><p><strong>Escolha o lugar do pote.</strong> Ao lado da cafeteira, da fruteira ou do filtro. O que fica à vista entra na rotina. O que vai pro armário some.</p></div>
+    <div class="day"><b>Dias 1 a 7</b><p><strong>Uma dose por dia.</strong> De manhã, depois de comer, em 200 ml de água. Um minuto.</p></div>
+    <div class="day"><b>Dia 2</b><p><strong>Uma aula e uma receita.</strong> Assista a uma aula do Treinamento e escolha uma receita pra semana. Só uma.</p></div>
+    <div class="day"><b>Dia 3 ou 4</b><p><strong>Faça a receita.</strong> Se não coube, troque por uma das sete saídas do capítulo 3.</p></div>
+    <div class="day"><b>Toda noite</b><p><strong>Preencha a ficha.</strong> Leva um minuto.</p></div>
+    <div class="day"><b>Dia 7</b><p><strong>Olhe a ficha.</strong> Em quantos dias você tomou a dose? A receita coube? Se coube, na segunda semana entra a segunda receita. Se não coube, troque. Ninguém está te dando nota.</p></div>
+  </div>
+  <p>Sete dias não servem pra cobrar resultado de ninguém. Servem pra você saber se a rotina coube. É na terceira semana que a maioria das rotinas cai, e você vai chegar nela com um plano.</p>
+
+  <h3>A ficha da semana <span class="pg">Página 16</span></h3>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Dia</th><th>Tomei a dose?</th><th>Fiz a receita?</th><th>Fui dormir às</th><th>Acordei (0 a 5)</th><th>Disposição à tarde (0 a 5)</th><th>Uma frase do dia</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="source">A ficha não é teste de efeito. É o retrato da sua semana. Se for ao médico ou à nutricionista, leve junto.</p>
+
+  <div class="more">
+    <h4>Também no Treinamento da Libido</h4>
+    <p class="forgi">propostas de tema. Confirme, troque ou corte.</p>
+    <ul>
+      <li><span>A pergunta que a Gi faz antes de passar qualquer receita, e por que a resposta muda tudo.</span><span class="pend">aula ?</span></li>
+      <li><span>Como encaixar uma receita nova por semana sem largar a anterior.</span><span class="pend">aula ?</span></li>
+      <li><span>O que fazer no dia em que você esqueceu tudo, pra não jogar a semana fora.</span><span class="pend">aula ?</span></li>
+      <li><span>Como funciona a avaliação de exames com plano alimentar do kit de 6 potes.</span><span class="pend">onde está a explicação</span></li>
+    </ul>
+  </div>
+  <p class="notes">Depoimento real e autorizado sobre rotina, sabor ou praticidade. Nunca sobre resultado no corpo. Nome, cidade.</p>
+</section>
+
+<!-- PÁGINA 17 · FECHAMENTO -->
+<section class="sheet" aria-label="Página 17, fechamento e cartão-resposta">
+  <span class="pageno">Página 17</span>
+  <h2>Por que o guia é de graça e o Treinamento vem de presente</h2>
+  <p>Receita ninguém aprende lendo propaganda. Aprende fazendo, na própria cozinha, num dia comum.</p>
+  <p>Por isso eu te dei este guia antes de pedir qualquer coisa. Se uma receita daqui coube no seu dia, você já sabe o que esperar do resto. Se não coube, você descobriu de graça.</p>
+  <p>E o Treinamento vem junto com o Shot porque um não faz sentido sem o outro: a dose é a base que cabe em qualquer manhã; as aulas e as receitas são o que você soma quando sobra tempo.</p>
+  <p><strong>A garantia.</strong> Você tem 30 dias pra provar. Se não gostar, por qualquer motivo, você pede e recebe 100% do que pagou <span class="pend">prazo a contar da compra ou da entrega; vale com o pote aberto?</span>.</p>
+  <p><strong>O que fica com você.</strong> Mesmo se pedir o dinheiro de volta, o Treinamento da Libido continua seu <span class="pend">confirmar regra dos bônus na devolução</span>.</p>
+
+  <div class="card-answer">
+    <h3>SIM, GI! Quero a rotina que cabe no meu dia.</h3>
+    <p>Escolha o seu kit:</p>
+    <div class="opt"><span class="box" aria-hidden="true"></span><p><strong>Kit 2 potes · R$ 289</strong><br>Treinamento da Libido + frete grátis</p></div>
+    <div class="opt"><span class="box" aria-hidden="true"></span><p><strong>Kit 4 potes · R$ 548</strong><br>Treinamento da Libido + Femme Healthy + frete grátis</p></div>
+    <div class="opt"><span class="box" aria-hidden="true"></span><p><strong>Kit 6 potes · R$ 789</strong> · R$ 4,38 por dia<br>Treinamento da Libido + Femme Healthy + avaliação de exames com plano alimentar + frete grátis</p></div>
+    <p class="source">Sei que tenho 30 dias pra pedir 100% do valor de volta e que o Treinamento fica comigo <span class="pend">confirmar regra dos bônus</span>.</p>
+    <p><a class="cta" href="#" aria-label="Quero o meu kit (link a definir)">Quero o meu kit →</a> <span class="pend">LINK · parcelamento só se for real</span></p>
+  </div>
+</section>
+
+<!-- PÁGINA 18 · FICHA DO POTE -->
+<section class="sheet fine" aria-label="Página 18, ficha do pote, advertências e identificação">
+  <span class="pageno">Página 18</span>
+  <h3 style="margin-top:0 !important">O que tem no pote</h3>
+  <p>Shot da Libido <span class="pend">confirmar nome: "Shot da Libido" ou "Libid Shot"</span> · suplemento alimentar em pó · pote de 150 g, 30 porções de 5 g (1 dosador) · sabores melancia e morango com maracujá.</p>
+  <p>Por porção: zinco 10 mg (91% VD, na forma bisglicinato), vitamina B6 1,3 mg (100% VD), procianidinas 100 mg (extrato de <em>Pinus pinaster</em>), L-tirosina 263 mg, L-triptofano 100 mg, L-citrulina 900 mg <span class="pend">conferir com o rótulo a forma de declarar citrulina e arginina</span>, trans-resveratrol 100 mg, coenzima Q10 100 mg, ácido hialurônico 80 mg. Contém também inulina e beterraba em pó.</p>
+  <p>O zinco contribui para a manutenção do cabelo, da pele e das unhas. O zinco auxilia na manutenção de ossos. A vitamina B6 auxilia no metabolismo energético. A vitamina B6 auxilia na função normal do sistema nervoso.</p>
+  <p><strong>Modo de uso:</strong> 1 dose (1 dosador) em 200 ml de água, pela manhã, após a refeição.</p>
+  <h3>Advertências</h3>
+  <ul>
+    <li>Este produto não é um medicamento.</li>
+    <li>Indicado para maiores de 19 anos.</li>
+    <li>Não deve ser consumido por gestantes e lactantes.</li>
+    <li>Quem usa remédio de uso contínuo deve mostrar o rótulo ao médico antes de começar.</li>
+    <li>Não exceder a recomendação diária de consumo indicada na embalagem.</li>
+    <li>Mantenha fora do alcance de crianças.</li>
+  </ul>
+  <h3>Sobre este guia</h3>
+  <p>Este material é educativo e não substitui consulta com médico ou nutricionista. As receitas são sugestões de alimentação e rotina; não tratam, curam nem previnem doenças. Os resultados podem variar de pessoa para pessoa. Em caso de ressecamento, dor, sangramento fora de hora ou qualquer sintoma que preocupe, procure o seu ginecologista.</p>
+  <p>Fabricado por Ourocaps (Olímpia-SP). Distribuído por Menopausa Cancelada Ltda., CNPJ 47.019.967/0001-89. Marca MenoFarma.</p>
+  <p>Conteúdo: Giovanna Agostini, nutricionista, CRN-<span class="pend">a preencher</span>. Parceria: Cátia Damasceno, fisioterapeuta, CREFITO-<span class="pend">a preencher</span>.</p>
+</section>
+
+</main>
+
+<script>
+(function () {
+  var btn = document.getElementById('toggle');
+  function apply(clean) {
+    document.body.classList.toggle('clean', clean);
+    btn.setAttribute('aria-pressed', clean ? 'true' : 'false');
+    btn.textContent = clean ? 'Mostrar notas de diagramação' : 'Esconder notas de diagramação';
+  }
+  var saved = false;
+  try { saved = localStorage.getItem('guia-clean') === '1'; } catch (e) {}
+  apply(saved);
+  btn.addEventListener('click', function () {
+    var clean = !document.body.classList.contains('clean');
+    apply(clean);
+    try { localStorage.setItem('guia-clean', clean ? '1' : '0'); } catch (e) {}
+  });
+})();
+</script>
