@@ -193,30 +193,49 @@ body.clean .rev, body.clean .tbd, body.clean .review-only { display: none; }
 .changes div { background: var(--card); border-radius: 12px; padding: 12px 14px; border: 1.5px solid var(--line); font-size: 15px; }
 .changes s { color: var(--muted); }
 </style>
+<style>
+.hero-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.hero-list li { background: var(--card); border: 1.5px solid var(--line); border-radius: 14px; padding: 12px 14px; font-size: 16px; }
+.hero-list b { color: var(--pink); }
+.points { counter-reset: p; list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.points li { counter-increment: p; background: var(--card); border: 1.5px solid var(--line); border-radius: 18px; padding: 18px 20px 18px 64px; position: relative; }
+.points li::before { content: counter(p); position: absolute; left: 18px; top: 16px; width: 32px; height: 32px; border-radius: 50%; background: var(--pink); color: var(--pink-ink); font: 800 16px/32px var(--body); text-align: center; }
+.benefits { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.benefits li { background: var(--card); border-left: 4px solid var(--pink); border-radius: 12px; padding: 14px 16px; }
+.offer .field { font-size: 15px; }
+.offer .field b { display: block; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.offer .price { font: 800 19px var(--body); }
+.cta-sub { text-align: center; font-size: 14px; color: var(--muted); }
+.lead-strong { font-family: var(--display); font-size: clamp(22px, 3.4vw, 30px); line-height: 1.25; font-weight: 700; }
+.cards4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.quote .src { font-size: 14px; color: var(--muted); }
+.quote h3 { font-family: var(--body); font-size: 18px; font-weight: 800; }
+</style>
 
-<div class="strip">Oferta especial: 23% OFF · <s>R$ 129,00</s> por R$ 98,90</div>
+<div class="strip">🔥 OFERTA ESPECIAL COM 23% OFF: De R$ 129,00 por R$ 98,90 (Apenas R$ 3,29 por dia!)</div>
 
 <div class="wrap top">
   <span class="logo-chip"><img class="logo" src="img/logo-menopausa-cancelada.png" alt="Menopausa Cancelada" width="100" height="40"></span>
-  <button class="toggle" id="toggle" type="button" aria-pressed="false">Esconder notas de revisão</button>
 </div>
 
 <!-- HERÓI -->
 <div class="wrap hero">
   <div class="stack">
-    <p class="eyebrow">Para mulheres de 40+ na menopausa</p>
-    <h1>Acordou às 3h com calor de novo? Você não precisa "se acostumar" calada.</h1>
-    <p class="lede">O Femme Healthy junta óleo de linhaça, óleo de semente de borragem, óleo de prímula e vitamina E em 2 cápsulas por dia. Uma no almoço, outra no jantar. Sem hormônio, sem açúcar e com 18 kcal.</p>
-    <ul class="chips" aria-label="Destaques">
-      <li>3 óleos vegetais</li><li>Vitamina E 200% VD</li><li>Sem hormônio</li><li>Sem açúcar e sem glúten</li><li>30 dias por pote</li>
+    <p class="eyebrow">Para mulheres 40+ cansadas de suor noturno às 3h e oscilações de humor…</p>
+    <h1>O "Interruptor Natural" que desliga os calorões, restaura o sono e devolve seu bem-estar na Menopausa.</h1>
+    <p class="lede">Veja como a Linhaça, Borragem, Prímula e Vitamina E combate a causa inflamatória do climatério:</p>
+    <ul class="hero-list">
+      <li><b>Fim dos calorões noturnos:</b> aciona o interruptor natural do hipotálamo para noites de sono tranquilas e sem suor.</li>
+      <li><b>Máxima concentração:</b> estimula prostaglandinas que equilibram o humor e hidratam pele e mucosas.</li>
+      <li><b>Proteção antioxidante:</b> evita a oxidação dos óleos nobres, combatendo a fadiga e o envelhecimento celular.</li>
+      <li><b>Fórmula 100% natural e segura:</b> sem açúcar, glúten ou carboidratos, não engorda e não traz os riscos dos hormônios sintéticos!</li>
     </ul>
     <div class="pricebox">
       <div class="row"><span class="from">De R$ 129,00</span><span class="badge">23% OFF</span></div>
-      <div class="row"><span class="now">R$ 98,90</span><span class="small">à vista no Pix, boleto ou cartão · R$ 3,29 por dia</span></div>
-      <p class="small">ou 12x de R$ 10,17 com juros (total R$ 122,08) · envio por SEDEX para todo o Brasil</p>
-      <a class="btn" href="#ofertas">Quero o Femme Healthy com 23% OFF</a>
+      <div class="row"><span class="now">R$ 98,90</span></div>
+      <a class="btn" href="#ofertas">QUERO EXPERIMENTAR O FEMME HEALTHY COM 23% DE DESCONTO AGORA</a>
+      <p class="small">(De R$ 129,00 por apenas R$ 98,90 no Pix/Boleto/Cartão à vista ou em até 12x de R$ 10,17 — Envio Rápido via SEDEX para todo o Brasil!)</p>
     </div>
-    <p class="rev">o título original ("O Interruptor Natural que desliga os calorões, restaura o sono…") e os quatro bullets prometem efeito no corpo. Suplemento alimentar só pode usar as alegações aprovadas pela Anvisa (RDC 243/2018 e IN 28/2018). O texto do parcelamento agora diz que tem juros, porque a loja cobra juros no 12x (CDC).</p>
   </div>
   <figure class="shot" style="margin:0">
     <img src="img/femme-pote.webp" alt="Pote do Femme Healthy, 60 cápsulas, com flores cor-de-rosa" width="364" height="680">
@@ -226,12 +245,11 @@ body.clean .rev, body.clean .tbd, body.clean .review-only { display: none; }
 <!-- CENA -->
 <section class="soft">
   <div class="wrap narrow stack scene">
-    <p class="eyebrow">Você conhece essa cena</p>
-    <p>No jantar, numa reunião ou tentando dormir, uma onda de calor sobe pelo peito e faz o rosto arder. O coração acelera e o suor escorre enquanto todo mundo em volta está confortável.</p>
-    <p>De madrugada é pior. Você joga o lençol longe, sente frio minutos depois e passa a noite em claro. No dia seguinte, acorda exausta, irritada, com a pele ressecada e a sensação de ter perdido o controle do próprio corpo.</p>
-    <p>Quando busca ajuda, escuta que "precisa se acostumar". Ou volta pra casa com mais um pote de prímula que ficou pela metade no armário.</p>
-    <p class="big">Seu corpo não está quebrado. Ele está mudando, e merece cuidado de verdade: na consulta, no prato e na rotina.</p>
-    <p class="rev">saiu "apenas falta a matéria-prima certa para apagar esse incêndio", que vende o produto como solução dos calorões. A cena foi mantida porque descreve a experiência da leitora sem prometer efeito.</p>
+    <p>Imagine: no jantar, numa reunião ou tentando dormir, uma onda súbita de calor sobe pelo peito e faz seu rosto arder.</p>
+    <p>O coração acelera e o suor escorre enquanto todos ao redor estão confortáveis.</p>
+    <p>De madrugada é pior: você joga o lençol longe, treme de frio minutos depois e passa a noite em claro. No dia seguinte, acorda exausta, irritada, com a pele ressecada e a sensação de ter perdido o controle do próprio corpo.</p>
+    <p>Ao buscar ajuda, geralmente escuta que "precisa se acostumar" ou sai com receitas de hormônios sintéticos e potes de óleo de prímula que não resolvem.</p>
+    <p class="big">A verdade é libertadora: seu corpo não está quebrado, apenas falta a matéria-prima certa para apagar esse incêndio.</p>
   </div>
 </section>
 
@@ -240,260 +258,193 @@ body.clean .rev, body.clean .tbd, body.clean .review-only { display: none; }
   <div class="wrap gio">
     <figure>
       <img src="img/giovanna-frame.jpg" alt="Giovanna Agostini, de blazer claro, com potes da linha MenoFarma na mesa" width="444" height="656">
-      <figcaption class="review-only"><span class="tbd">foto provisória, tirada de um vídeo: trocar por foto em alta</span></figcaption>
     </figure>
     <div class="stack">
-      <p class="eyebrow">Quem criou</p>
-      <h2>Sou Giovanna Agostini, nutricionista e NaturalChef.</h2>
-      <p>Criei o movimento Menopausa Cancelada, que já reuniu mais de 1 milhão de mulheres <span class="tbd">confirmar o número e de onde ele vem</span>. Ouço todos os dias a mesma queixa: a mulher quer cuidar de si nessa fase, mas não tem tempo pra uma rotina complicada.</p>
-      <p>Foi pra ela que montei o Femme Healthy: três óleos vegetais e vitamina E numa cápsula macia, sem gosto, que cabe entre o almoço e o jantar.</p>
-      <p class="muted">Giovanna Agostini · Nutricionista · CRN-<span class="tbd">número e região</span></p>
-      <p class="rev">saíram "Dra." (ela não é médica), "nutricionista funcional" e "a maior referência do Brasil em climatério", que não têm como ser comprovados. Fica a mesma ressalva do guia: o Código de Ética do Nutricionista (CFN 599/2018) restringe a nutricionista assinar a venda de suplemento da própria marca. Precisa do parecer do advogado antes de publicar com a assinatura dela.</p>
+      <p class="lead-strong">Sou Giovanna Agostini, nutricionista funcional, NaturalChef e criadora do movimento Menopausa Cancelada, que já ajudou mais de 1 milhão de mulheres.</p>
+      <p style="font-size:19px">Vou te mostrar como 2 cápsulas por dia devolvem a paz às suas noites e o bem-estar às suas manhãs.</p>
     </div>
   </div>
 </section>
 
-<!-- POR QUE TRÊS ÓLEOS -->
+<!-- POR QUE É DIFERENTE -->
 <section class="lilac">
+  <div class="wrap narrow stack">
+    <h2>Por que o Femme Healthy é diferente?</h2>
+    <p>O óleo de prímula sozinho pode ajudar na TPM leve em jovens, mas não basta para conter a tempestade inflamatória da menopausa. Entenda a lógica biológica:</p>
+    <ol class="points">
+      <li><strong>O "Interruptor" Desregulado:</strong> A queda do estrogênio após os 40 anos causa inflamação celular silenciosa e desregula o hipotálamo (a central que funciona como o interruptor da temperatura do corpo). Ele reage a variações mínimas de temperatura disparando calorões e suor intenso.</li>
+      <li><strong>A Armadilha do Ativo Isolado e da Oxidação:</strong> Por isso, o óleo de prímula isolado falha: tem GLA limitado (sem a sinergia com semente de borragem e linhaça) e seus ácidos graxos poli-insaturados oxidam rápido no corpo, perdendo a eficácia.</li>
+      <li><strong>A Fórmula da Modulação Completa:</strong> Assim, acalmar esse interruptor natural no hipotálamo sem hormônios exige a Tríade Lipídica Completa (Ômegas 3, 6 e 9 vegetais) protegida por 200% do Valor Diário de Vitamina E antioxidante.</li>
+    </ol>
+    <p class="lead-strong">É exatamente essa engenharia nutricional que colocamos dentro de cada cápsula do Femme Healthy.</p>
+  </div>
+</section>
+
+<!-- 4 ATIVOS -->
+<section>
   <div class="wrap stack">
-    <p class="eyebrow">Por que o Femme Healthy é diferente</p>
-    <h2>Prímula sozinha é um óleo. Aqui são três, e a vitamina E protegendo todos.</h2>
-    <p class="muted" style="max-width:60ch">A maioria das cápsulas de prímula traz um ingrediente só. O Femme Healthy soma a borragem, que tem mais GLA (um tipo de ômega 6) que a prímula, e a linhaça, rica em ômega 3 vegetal.</p>
-    <div class="compare">
-      <div class="a"><b>Cápsula de prímula comum</b><ul><li>1 óleo</li><li>ômega 6 (GLA)</li><li>vitamina E só como conservante, quando tem</li></ul></div>
-      <div class="b"><b>Femme Healthy</b><ul><li>3 óleos: linhaça, borragem e prímula</li><li>ômegas 3, 6 e 9 de origem vegetal</li><li>30 mg de vitamina E por porção (200% VD)</li></ul></div>
+    <h2>Os 4 Ativos Estratégicos</h2>
+    <div class="cards4">
+      <div class="card"><span class="num">1</span><h3>Óleo de Semente de Borragem + Óleo de Prímula</h3><p>A semente de borragem, mais concentrada em GLA do que a prímula, combina-se a ela para fornecer matéria-prima na produção de Prostaglandinas E1 (PGE1). Esses mensageiros acalmam a irritabilidade, diminuem o inchaço e a dor mamária, além de restaurar a elasticidade e a lubrificação da pele e mucosas.</p></div>
+      <div class="card"><span class="num">2</span><h3>Óleo de Linhaça Prensado a Frio</h3><p>Os 888 mg de Ácido Linolênico (22% do VD) atuam de forma anti-inflamatória, equilibrando a camada lipídica neuronal para desligar os alarmes falsos de calor noturno no hipotálamo, além de proteger articulações e o coração.</p></div>
+      <div class="card"><span class="num">3</span><h3>Ácido Oleico</h3><p>Os 400 mg de Ômega 9 do Femme Healthy auxiliam a saúde metabólica e cardiovascular da mulher 45+, regulando lipídios sanguíneos e facilitando a absorção celular de nutrientes.</p></div>
+      <div class="card"><span class="num">4</span><h3>Superdose de Vitamina E — 30 mg</h3><p>Diferente de fórmulas com apenas traços conservantes, a dose de 30 mg de Vitamina E (200% VD) no Femme Healthy protege os óleos contra oxidação digestiva, ameniza os fogachos e combate o envelhecimento cutâneo.</p></div>
     </div>
-    <div class="grid2">
-      <div class="card"><span class="num">Óleo de linhaça</span><span class="dose">888 mg</span><p>de ômega 3 (ácido alfa-linolênico) por porção, 22% do valor diário. Prensado a frio <span class="tbd">confirmar com o fabricante</span>.</p></div>
-      <div class="card"><span class="num">Borragem + prímula</span><span class="dose">400 mg</span><p>de ômega 6 (ácido linoleico) por porção. A borragem é a fonte mais concentrada de GLA entre os dois óleos.</p></div>
-      <div class="card"><span class="num">Ácido oleico</span><span class="dose">400 mg</span><p>de ômega 9 por porção.</p></div>
-      <div class="card"><span class="num">Vitamina E</span><span class="dose">30 mg</span><p>200% do valor diário.</p><p class="claim">A vitamina E é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres.</p></div>
-    </div>
-    <p class="rev">saiu toda a explicação do "interruptor do hipotálamo" e frases como "desliga os alarmes falsos de calor", "acalma a irritabilidade", "diminui a dor mamária", "restaura a lubrificação" e "protege articulações e coração". São alegações de efeito sem aprovação para esses ingredientes. A única alegação aprovada que o rótulo usa é a da vitamina E, que está aqui com o texto literal do pote. Se a Giovanna tiver estudos dos óleos, dá para citá-los com fonte, dentro do que o estudo mostra.</p>
   </div>
 </section>
 
 <!-- TABELA -->
-<section>
+<section class="soft">
   <div class="wrap stack">
-    <p class="eyebrow">Transparência</p>
-    <h2>O que tem em cada porção</h2>
-    <p class="muted">Porção de 2,6 g = 2 cápsulas</p>
+    <h2>Confira a transparência total da fórmula do Femme Healthy</h2>
     <div class="tablewrap">
       <table>
-        <thead><tr><th>Nutriente</th><th>Por porção</th><th>%VD*</th><th>De onde vem</th></tr></thead>
+        <thead><tr><th>Nutriente / Ativo (Porção de 2,6 g = 2 Cápsulas)</th><th>Quantidade por Porção</th><th>% Valor Diário (%VD*)</th><th>O Que Isso Significa Para o Seu Corpo</th></tr></thead>
         <tbody>
-          <tr><td>Ômega 3 (ácido alfa-linolênico)</td><td class="n">888 mg</td><td class="n">22%</td><td>Óleo de linhaça</td></tr>
-          <tr><td>Ômega 6 (ácido linoleico)</td><td class="n">400 mg</td><td class="n">2% <span class="tbd">conferir</span></td><td>Óleos de borragem e de prímula</td></tr>
-          <tr><td>Ômega 9 (ácido oleico)</td><td class="n">400 mg</td><td class="n">—</td><td>Óleos vegetais da fórmula</td></tr>
-          <tr><td>Vitamina E</td><td class="n">30 mg</td><td class="n">200%</td><td>Acetato de DL-alfa-tocoferol</td></tr>
-          <tr><td>Valor energético</td><td class="n">18 kcal</td><td class="n">—</td><td>2 g de gorduras insaturadas</td></tr>
-          <tr><td>Carboidratos, açúcares, glúten e sódio</td><td class="n">0</td><td class="n">0%</td><td>Sem gordura trans e sem gordura saturada</td></tr>
+          <tr><td>Ômega 3 (Ácido Linolênico)</td><td class="n">888 mg</td><td class="n">22%</td><td>Ação desinflamatória sistêmica e auxílio no interruptor natural contra os calorões</td></tr>
+          <tr><td>Ômega 6 (Ácido Linoleico)</td><td class="n">0,4 g (400 mg)</td><td class="n">2%</td><td>Precursor de prostaglandinas anti-inflamatórias para humor, pele e alívio do calor</td></tr>
+          <tr><td>Ômega 9 (Ácido Oleico)</td><td class="n">0,4 g (400 mg)</td><td class="n">—</td><td>Proteção metabólica, cardiovascular e fluidez das membranas celulares</td></tr>
+          <tr><td>Vitamina E (Tocoferol)</td><td class="n">30 mg</td><td class="n">200%</td><td>Dupla dose antioxidante que blinda os óleos e combate os fogachos e radicais livres</td></tr>
+          <tr><td>Valor Energético &amp; Gorduras Boas</td><td class="n">18 kcal (2 g de gorduras insaturadas)</td><td class="n">2% / 4%</td><td>Energia limpa lipossolúvel que não engorda e não quebra o equilíbrio da dieta</td></tr>
+          <tr><td>Carboidratos, Açúcares, Glúten e Sódio</td><td class="n">0 g / 0 mg</td><td class="n">0%</td><td>Zero açúcar, zero glúten, zero gordura trans e zero gordura saturada</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="small">*Percentual de valores diários fornecidos pela porção. <strong>Ingredientes:</strong> óleo de linhaça, óleo de semente de borragem, óleo de prímula e vitamina E (acetato de DL-alfa-tocoferol). Cápsula: água purificada, gelificante gelatina (INS 428) e umectante (INS 422). 60 cápsulas, 30 porções, peso líquido 78 g.</p>
-    <p class="rev">a coluna "o que isso significa para o seu corpo" virou "de onde vem", porque repetia as alegações de efeito. Os números vieram do roteiro: conferir tudo com a tabela do rótulo, em especial o %VD do ômega 6.</p>
-    <a class="btn" href="#ofertas" style="max-width:460px">Quero o meu Femme Healthy por R$ 98,90</a>
+    <p class="small"><strong>Ingredientes oficiais:</strong> Óleo de linhaça, óleo de semente de borragem, óleo de prímula e vitamina E (acetato de DL-alfa tocoferol). Cápsula: água purificada, gelificante gelatina INS 428 e umectante INS 422. Contém 30 porções por embalagem (60 cápsulas — peso líquido 78 g).</p>
+    <a class="btn" href="#ofertas" style="max-width:520px">👉 QUERO MEU FEMME HEALTHY COM 23% OFF (APENAS R$ 98,90)</a>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section>
+  <div class="wrap narrow stack">
+    <h2>Veja os benefícios do Femme Healthy no seu dia a dia:</h2>
+    <ul class="benefits">
+      <li><strong>O "Alívio das 3h da Manhã":</strong> mantém níveis constantes de ácidos graxos na corrente sanguínea para desligar os picos de calor noturnos.</li>
+      <li><strong>Paz emocional sem "anestesiar" quem você é:</strong> devolve a serenidade natural para você lidar com a família e o trabalho sem explodir por pequenas coisas.</li>
+      <li><strong>Hidratação de dentro para fora (Adeus, pele de papel!):</strong> restaura a barreira lipídica da epiderme e das mucosas, combatendo a sensação de ressecamento e repuxamento típica dos 45+.</li>
+      <li><strong>Zero medo da balança ou de espinhas:</strong> muitas mulheres têm pavor de suplementos que dão espinhas internas ou fazem ganhar peso — o Femme Healthy tem apenas 18 kcal por dia, zero carboidratos e atua desinflamando o tecido adiposo!</li>
+      <li><strong>O pilar nº 1 que elimina até 80% dos sintomas:</strong> desenhado especificamente para atacar os sintomas vasomotores e inflamatórios da mulher moderna.</li>
+    </ul>
   </div>
 </section>
 
 <!-- COMO TOMAR -->
-<section class="soft">
+<section class="lilac">
   <div class="wrap stack">
-    <p class="eyebrow">Como tomar</p>
-    <h2>Duas cápsulas por dia, nas refeições que você já faz</h2>
+    <h2>Para extrair 100% da potência lipossolúvel do seu Femme Healthy, basta seguir a recomendação do rótulo:</h2>
     <div class="steps">
       <div class="step">
         <svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="26" fill="var(--pink)"/><circle cx="26" cy="26" r="8" fill="none" stroke="var(--pink-ink)" stroke-width="3"/><g stroke="var(--pink-ink)" stroke-width="3" stroke-linecap="round"><path d="M26 10v4M26 38v4M10 26h4M38 26h4M14.7 14.7l2.8 2.8M34.5 34.5l2.8 2.8M14.7 37.3l2.8-2.8M34.5 17.5l2.8-2.8"/></g></svg>
-        <div><b>Antes do almoço</b>1 cápsula com água.</div>
+        <div><b>1. Antes do Almoço</b>Ingerir 1 cápsula com água antes do almoço. As enzimas digestivas ativadas na refeição garantem a absorção perfeita dos óleos prensados a frio e da Vitamina E para sustentar o seu equilíbrio ao longo de toda a tarde.</div>
       </div>
       <div class="step">
         <svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="26" fill="var(--plum)"/><path d="M31 15a12 12 0 1 0 6 18 10 10 0 0 1-6-18z" fill="var(--plum-ink)"/></svg>
-        <div><b>Antes do jantar</b>a 2ª cápsula com água.</div>
+        <div><b>2. Antes do Jantar</b>Ingerir a 2ª cápsula com água antes do jantar. Essa dose noturna atua durante o repouso, mantendo o interruptor natural contra os calorões abastecido para proteger o seu sono contra os suores da madrugada.</div>
       </div>
     </div>
-    <p class="muted">Ou conforme a orientação do seu médico ou nutricionista. Cada pote tem 60 cápsulas gelatinosas macias, fáceis de engolir e sem gosto, para 30 dias de uso.</p>
-    <p class="rev">saíram "absorção perfeita", "mantém o interruptor abastecido para proteger o sono" e "30 dias de tratamento". Suplemento não é tratamento.</p>
-  </div>
-</section>
-
-<!-- NO DIA A DIA -->
-<section>
-  <div class="wrap narrow stack">
-    <p class="eyebrow">No seu dia a dia</p>
-    <h2>Feito pra caber na rotina de quem cuida de todo mundo</h2>
-    <ul class="ticks">
-      <li><span><strong>Sem medo da balança:</strong> 18 kcal na porção do dia, zero carboidrato e zero açúcar.</span></li>
-      <li><span><strong>Sem hormônio e sem receita:</strong> é suplemento alimentar, feito de óleos vegetais e vitamina E.</span></li>
-      <li><span><strong>Sem gosto de nada:</strong> cápsula macia, que desce com um gole de água.</span></li>
-      <li><span><strong>Sem complicação:</strong> duas cápsulas, nas duas refeições que você já faz.</span></li>
-      <li><span><strong>Sem pressa de acabar:</strong> validade de 24 meses lacrado; depois de aberto, 90 dias.</span></li>
-    </ul>
-    <p class="rev">saíram "Alívio das 3h da manhã", "paz emocional", "hidratação de dentro pra fora", "desinflama o tecido adiposo" e, principalmente, "o pilar nº 1 que elimina até 80% dos sintomas". Essa última é a frase mais arriscada do roteiro: promete resultado em números sem estudo do produto.</p>
-
-    <div class="doctor" role="note">
-      <h3>Quando a conversa é com o médico</h3>
-      <p>Se os calorões estão tirando o seu sono, atrapalhando o trabalho ou a vida a dois, fale com o seu ginecologista. Existem tratamentos que só ele pode avaliar e indicar. O Femme Healthy não substitui nenhum deles: ele entra na sua alimentação, não no lugar da consulta.</p>
-    </div>
+    <p class="muted">(Cada pote contém 60 cápsulas gelatinosas macias e fáceis de engolir, sem sabor residual, rendendo exatamente 30 dias completos de tratamento!)</p>
   </div>
 </section>
 
 <!-- DEPOIMENTOS -->
-<section class="lilac">
+<section>
   <div class="wrap stack">
-    <p class="eyebrow">O que dizem as clientes</p>
-    <h2>Nota 5.0 de 5 nas lojas oficiais</h2>
-    <p class="muted">Na Loja Oficial no Mercado Livre e na loja online da Menopausa Cancelada <span class="tbd">confirmar a nota e o número de avaliações, com print e data</span>.</p>
+    <h2>O Que Dizem Nossas Clientes</h2>
+    <p class="muted" style="max-width:66ch">Na nossa Loja Oficial no Mercado Livre e na Loja Online Menopausa Cancelada, o Femme Healthy mantém avaliação máxima de 5.0 de 5 estrelas. Veja o que as mulheres que já usam relatam:</p>
     <div class="grid2">
-      <div class="quote"><span class="stars" aria-label="5 estrelas">★★★★★</span><blockquote>"Que maravilha, chegou meu suplemento! Estava esperando com tanta ansiedade e fico muito feliz e grata que finalmente chegou. Que bênção! Já vou começar a usar ainda hoje."</blockquote><p class="small">Depoimento na loja online Menopausa Cancelada</p></div>
-      <div class="quote empty review-only"><p><span class="tbd">espaço para depoimento real e autorizado sobre rotina, sabor ou facilidade de tomar</span></p><p class="small">Nome, cidade, origem do depoimento</p></div>
-      <div class="quote empty review-only"><p><span class="tbd">espaço para depoimento real e autorizado sobre entrega ou atendimento</span></p><p class="small">Nome, cidade, origem do depoimento</p></div>
+      <div class="quote"><span class="stars" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span><p class="small">Avaliação 5.0 de 5</p><h3>"Em 20 dias os calores da madrugada diminuíram 95%!"</h3><blockquote>"Com uns 20 dias eu já não estava mais sentindo os calores da madrugada... é raro, às vezes vem mas muito pouco, eu diria que diminuiu 95%! Me baseando no que minha amiga falou: 'Olha, eu tô me dando super bem, tô gostando, não tem contraindicação e é liberado pela ANVISA, tudo testado bonitinho, e não engorda'."</blockquote><p class="src">— Relato de consumidora no Canal Oficial Menopausa Cancelada no YouTube</p></div>
+      <div class="quote"><span class="stars" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span><p class="small">Avaliação 5.0 de 5</p><h3>"Clara diminuição dos efeitos incômodos da menopausa!"</h3><blockquote>"Tenho usado e me sentido bem melhor, percebo uma clara diminuição dos efeitos incômodos da menopausa."</blockquote><p class="src">— Cliente Verificada na Loja Oficial Menopausa Cancelada no Mercado Livre</p></div>
+      <div class="quote"><span class="stars" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span><h3>"Chegou meu suplemento! Já vou começar a usar ainda hoje!"</h3><blockquote>"Que maravilha, chegou meu suplemento! Estava esperando com tanta ansiedade e fico muito feliz e grata que finalmente chegou. Que bênção! Já vou começar a usar ainda hoje."</blockquote><p class="src">— Depoimento Oficial na Loja Online Menopausa Cancelada</p></div>
     </div>
-    <p class="rev">saíram os depoimentos "em 20 dias os calores da madrugada diminuíram 95%" e "clara diminuição dos efeitos incômodos da menopausa". Depoimento de resultado no corpo vira alegação de efeito, e o primeiro ainda repete "liberado pela Anvisa", o que não é verdade: o produto é dispensado de registro, não aprovado.</p>
   </div>
 </section>
 
 <!-- OFERTAS -->
-<section id="ofertas">
+<section id="ofertas" class="soft">
   <div class="wrap stack">
-    <p class="eyebrow">Escolha o seu caminho</p>
-    <h2>Três jeitos de começar</h2>
-    <p class="muted" style="max-width:62ch">A loja oficial libera frete grátis por SEDEX em compras acima de R$ 199,90.</p>
+    <p class="lead-strong" style="max-width:40ch">Por ser o suplemento mais procurado pelas seguidoras da Dra. Giovanna Agostini, os lotes do Femme Healthy esgotam rapidamente.</p>
+    <p style="max-width:66ch">Além disso, como a nossa Loja Oficial libera Frete Grátis via SEDEX para todo o Brasil em compras acima de R$ 199,90, nós preparamos três caminhos inteligentes para você escolher agora:</p>
     <div class="offers">
       <article class="offer best">
-        <span class="ribbon">Protocolo completo</span>
+        <span class="ribbon">🔥 Opção 1</span>
         <img src="img/kit-3em1.webp" alt="Kit com Ômega 3, Colágeno e Femme Healthy" width="1024" height="1024" loading="lazy">
-        <h3>Kit Menopausa Cancelada 3 em 1</h3>
-        <ul>
-          <li>1 Femme Healthy (60 cápsulas)</li>
-          <li>1 Ômega 3 TG (60 cápsulas, 660 mg de EPA e 440 mg de DHA)</li>
-          <li>1 Colágeno Verisol® com ácido hialurônico (150 g; morango, tangerina ou uva)</li>
-        </ul>
-        <div class="pills"><span class="pill ok">Frete grátis SEDEX</span></div>
-        <div><span class="from">De R$ 360,00</span><div class="now">R$ 329,00</div><p class="small">à vista · ou 12x de R$ 33,84 <span class="tbd">com ou sem juros? total</span></p></div>
-        <a class="btn" href="#">Quero o kit completo</a>
+        <h3>PROTOCOLO COMPLETO 3 EM 1 — KIT MENOPAUSA CANCELADA (Recomendado para Eliminar até 80% dos Sintomas)</h3>
+        <p class="field"><b>O que você recebe</b>1x Femme Healthy (60 cáps.) + 1x Ômega 3 TG (60 cáps. — 660 mg EPA / 440 mg DHA) + 1x Colágeno Verisol® + Ác. Hialurônico (150 g — Morango, Tangerina ou Uva)</p>
+        <p class="field"><b>Vantagem financeira &amp; frete</b>Desbloqueia FRETE GRÁTIS SEDEX + Une o controle dos calorões à proteção da memória, articulações e firmeza da pele!</p>
+        <p class="field"><b>Investimento hoje</b><span class="price">De R$ 360,00 por R$ 329,00 à vista</span><br>(ou 12x de R$ 33,84)</p>
+        <a class="btn" href="#">👉 QUERO O KIT COMPLETO COM FRETE GRÁTIS</a>
       </article>
       <article class="offer">
-        <span class="ribbon" style="background:var(--plum);color:var(--plum-ink)">90 dias</span>
+        <span class="ribbon" style="background:var(--plum);color:var(--plum-ink)">⭐ Opção 2</span>
         <img src="img/femme-pote.webp" alt="Pote do Femme Healthy" width="364" height="680" loading="lazy" style="object-position:center 25%">
-        <h3>3 potes de Femme Healthy</h3>
-        <ul><li>180 cápsulas, 3 meses de uso contínuo</li><li>23% OFF em cada pote: R$ 90,30 de economia</li></ul>
-        <div class="pills"><span class="pill ok">Frete grátis SEDEX</span></div>
-        <div><span class="from">De R$ 387,00</span><div class="now">R$ 296,70</div><p class="small">à vista · R$ 98,90 por pote</p></div>
-        <a class="btn alt" href="#">Quero 3 potes com frete grátis</a>
+        <h3>TRATAMENTO DE 90 DIAS — 3 POTES DE FEMME HEALTHY (Ciclo Completo de Modulação)</h3>
+        <p class="field"><b>O que você recebe</b>3 Potes de Femme Healthy (Total de 180 cápsulas para 3 meses contínuos de equilíbrio natural)</p>
+        <p class="field"><b>Vantagem financeira &amp; frete</b>23% OFF em cada pote (R$ 90,30 de economia total) + Desbloqueia FRETE GRÁTIS SEDEX (acima de R$ 199,90)!</p>
+        <p class="field"><b>Investimento hoje</b><span class="price">De R$ 387,00 por R$ 296,70 à vista</span><br>(3x de R$ 98,90 no carrinho)</p>
+        <a class="btn alt" href="#">👉 ADICIONAR 3 POTES DE FEMME HEALTHY COM FRETE GRÁTIS</a>
       </article>
       <article class="offer">
-        <span class="ribbon" style="background:var(--ink);color:var(--bg)">Para experimentar</span>
+        <span class="ribbon" style="background:var(--ink);color:var(--bg)">✨ Opção 3</span>
         <img src="img/femme-pote.webp" alt="Pote do Femme Healthy" width="364" height="680" loading="lazy" style="object-position:center 25%">
-        <h3>1 pote de Femme Healthy</h3>
-        <ul><li>60 cápsulas, 30 porções</li><li>23% OFF: R$ 30,10 de economia</li><li>R$ 3,29 por dia</li></ul>
-        <div><span class="from">De R$ 129,00</span><div class="now">R$ 98,90</div><p class="small">no Pix, boleto ou 1x no cartão · ou 12x de R$ 10,17 com juros (total R$ 122,08)</p></div>
-        <a class="btn alt" href="#">Quero 1 pote por R$ 98,90</a>
+        <h3>EXPERIMENTAÇÃO DE 30 DIAS — 1 POTE DE FEMME HEALTHY AVULSO</h3>
+        <p class="field"><b>O que você recebe</b>1 Pote de Femme Healthy (60 cápsulas = 30 porções diárias de 2,6 g)</p>
+        <p class="field"><b>Vantagem financeira &amp; frete</b>23% OFF imediato (Economia de R$ 30,10) — Sai por apenas R$ 3,29 por dia (menos que um cafezinho na padaria!)</p>
+        <p class="field"><b>Investimento hoje</b><span class="price">De R$ 129,00 por R$ 98,90 no Pix/Boleto/1x Cartão</span><br>(ou até 12x de R$ 10,17)</p>
+        <a class="btn alt" href="#">👉 QUERO 1 POTE DE FEMME HEALTHY POR R$ 98,90</a>
       </article>
     </div>
-    <p class="rev">no kit saíram "recomendado para eliminar até 80% dos sintomas" e "proteção da memória, articulações e firmeza da pele". A frase "os lotes esgotam rapidamente" também saiu: urgência só com prazo ou estoque real. Na loja, o 12x do pote avulso tem juros (R$ 122,08 no total); conferir se o 12x do kit também tem. Os links dos botões estão vazios. A foto da página do Femme Healthy na loja é a do Libid Shot: vale corrigir lá.</p>
   </div>
 </section>
 
 <!-- SEGURANÇA -->
-<section class="soft">
+<section>
   <div class="wrap stack">
-    <p class="eyebrow">Compra segura</p>
-    <h2>Rastreio, troca e atendimento de gente</h2>
+    <h2>Compra 100% Segura, Rastreio e Garantia Total</h2>
+    <p class="muted">Ao fazer o seu pedido, você conta com total respaldo e transparência:</p>
     <div class="trust">
-      <div><b>Envio rápido por SEDEX</b><p>O código de rastreio chega no seu WhatsApp e no e-mail. Prazo médio de 1 a 5 dias úteis para capitais e regiões metropolitanas.</p></div>
-      <div><b>7 dias para troca ou devolução</b><p>Contados do recebimento, pelos canais oficiais, sem burocracia.</p></div>
-      <div><b>Validade de 24 meses</b><p>Produto novo e lacrado. Depois de aberto, consumir em até 90 dias.</p></div>
-      <div><b>Atendimento</b><p>Segunda a sexta, das 8h às 18h, pelo WhatsApp +55 (48) 98435-5621 e pelo e-mail sac@menofarma.com.br.</p></div>
+      <div><b>Envio Rápido via SEDEX</b><p>Após o faturamento e a separação, enviamos o código de rastreio e todas as instruções diretamente para o seu WhatsApp e e-mail. O prazo médio via SEDEX é de 1 a 5 dias úteis para capitais e regiões metropolitanas.</p></div>
+      <div><b>Garantia de Troca ou Devolução em até 7 Dias Corridos</b><p>Você tem 7 dias corridos a partir do recebimento do pedido para solicitar troca ou devolução pelos nossos canais oficiais, sem burocracia.</p></div>
+      <div><b>Validade Longa de 24 Meses</b><p>Produto novo, lacrado de fábrica, com validade de 2 anos a partir da data de fabricação (após aberto, consumir em até 90 dias).</p></div>
+      <div><b>Atendimento Oficial Humanizado</b><p>Dúvidas sobre o seu pedido? Nosso time atende de segunda a sexta-feira, das 8h às 18h, pelo WhatsApp +55 (48) 98435-5621 e pelo e-mail sac@menofarma.com.br.</p></div>
     </div>
-    <p class="rev">o Shot da Libido tem garantia de 30 dias; aqui o roteiro fala só dos 7 dias do direito de arrependimento. Confirmar se o Femme Healthy tem garantia própria além dos 7 dias.</p>
   </div>
 </section>
 
-<!-- CONTA -->
-<section>
+<!-- QUANTO VALE -->
+<section class="lilac">
   <div class="wrap narrow stack">
-    <h2>Faça a conta</h2>
-    <div class="math">
-      <div><b>R$ 3,29</b>por dia</div>
-      <div><b>R$ 1,64</b>por cápsula</div>
-      <div><b>18 kcal</b>na porção do dia</div>
-    </div>
-    <p>Menos do que uma garrafinha de água ou um café expresso, pra ter todo dia 888 mg de ômega 3 vegetal, 400 mg de ômega 6, 400 mg de ômega 9 e 30 mg de vitamina E, nas duas refeições que você já faz.</p>
-    <a class="btn" href="#ofertas">Sim! Quero o meu Femme Healthy com 23% OFF</a>
-    <p class="small" style="text-align:center">De R$ 129,00 por R$ 98,90 à vista no Pix, boleto ou cartão · ou 12x de R$ 10,17 com juros</p>
-    <p class="rev">saíram "acordar às 6h30 descansada em vez de às 3h14 ensopada de suor" e "conversar com paciência, sem irritação", porque prometem efeito; e "100% natural", porque a vitamina E da fórmula (acetato de DL-alfa-tocoferol) é sintética.</p>
+    <h2>Quanto vale uma noite inteira de sono leve e tranquilo?</h2>
+    <p>Pare por um instante e faça a conta: R$ 98,90 divididos por 30 dias são apenas <strong>R$ 3,29 por dia</strong> — ou <strong>R$ 1,64 por cápsula</strong>. Isso é menos do que custa uma garrafinha de água mineral ou um café expresso. Mas a diferença que esses 888 mg de Ômega 3 vegetal, 400 mg de Ômega 6, 400 mg de Ômega 9 e 30 mg de Vitamina E fazem na sua madrugada, no seu humor e na sua paz de espírito não tem preço:</p>
+    <ul class="ticks">
+      <li><span>É acordar às 6h30 da manhã descansada, enxuta e bem-humorada, em vez de acordar às 3h14 ensopada de suor...</span></li>
+      <li><span>É conversar com as pessoas que você ama com paciência e leveza, sem aquela irritação constante...</span></li>
+      <li><span>É cuidar da sua saúde feminina de forma 100% natural, limpa e segura, com a assinatura de quem é a maior referência do Brasil em climatério e menopausa.</span></li>
+    </ul>
+    <p class="lead-strong">Não espere o lote atual esgotar novamente. Clique no botão abaixo e garanta o seu Femme Healthy agora mesmo!</p>
+    <a class="btn" href="#ofertas">👉 SIM! QUERO GARANTIR MEU FEMME HEALTHY COM 23% OFF AGORA MESMO</a>
+    <p class="cta-sub">(De R$ 129,00 por R$ 98,90 à vista no Pix, Boleto ou Cartão • Ou em até 12x de R$ 10,17)</p>
 
     <div class="ps stack">
-      <p><strong>P.S.</strong> Quer manter a rotina por três meses e ainda economizar o frete? Coloque 3 potes no carrinho (R$ 296,70), ou junte o Femme Healthy a outro produto da linha para passar de R$ 199,90. O frete grátis por SEDEX sai na hora para o seu CEP.</p>
+      <p><strong>P.S.:</strong> Quer economizar o valor do frete e já garantir os 90 dias completos recomendados pelos estudos clínicos de ácidos graxos essenciais? Ao colocar 3 unidades do Femme Healthy no carrinho (total de R$ 296,70) — ou ao adicionar mais um suplemento da linha para passar de R$ 199,90 — o sistema libera automaticamente o FRETE GRÁTIS VIA SEDEX para o seu CEP!</p>
       <div class="combo">
         <img src="img/combo-4.webp" alt="Os quatro produtos MenoFarma: Ômega 3, Colágeno, Femme Healthy e Libid Shot" width="1024" height="1024" loading="lazy">
-        <p><strong>P.P.S.</strong> Quer cuidar de mais de uma frente de uma vez? Conheça o Combo Completo Menopausa Cancelada, com os 4 produtos da linha (Femme Healthy, Ômega 3 TG, Colágeno e Libid Shot), com 31% OFF: R$ 203,00 de desconto e frete grátis <span class="tbd">confirmar preço final e link</span>.</p>
+        <p><strong>P.P.S.:</strong> Se além dos calorões e da oscilação de humor você também sente queda da libido, cansaço extremo, falhas de memória ou perda de firmeza na pele, considere dar o passo completo hoje: conheça o Combo Completo de 4 Produtos Menopausa Cancelada com 31% OFF (R$ 203,00 de desconto + Frete Grátis).</p>
       </div>
-      <p class="rev">no P.S. saiu "os 90 dias recomendados pelos estudos clínicos", porque não há estudo citado. No P.P.S. saiu a lista "queda da libido, cansaço extremo, falhas de memória, perda de firmeza na pele", que liga cada produto a um sintoma.</p>
     </div>
   </div>
 </section>
 
 <!-- FAQ -->
-<section class="lilac">
+<section>
   <div class="wrap narrow stack">
-    <p class="eyebrow">Dúvidas</p>
-    <h2>Perguntas frequentes</h2>
+    <h2>Perguntas Frequentes sobre o Femme Healthy (FAQ)</h2>
     <div>
-      <details><summary>O Femme Healthy é remédio hormonal? Precisa de receita?</summary><div><p>Não. É um suplemento alimentar de óleos vegetais (linhaça, semente de borragem e prímula) com vitamina E. Não contém hormônio e não precisa de receita. É dispensado de registro, conforme as regras da Anvisa para suplementos alimentares <span class="tbd">conferir a frase do rótulo</span>.</p></div></details>
-      <details><summary>Como e quando devo tomar?</summary><div><p>2 cápsulas por dia: 1 antes do almoço e 1 antes do jantar, com água, ou conforme a orientação do seu médico ou nutricionista. Cada pote tem 60 cápsulas e dura 30 dias.</p></div></details>
-      <details><summary>O Femme Healthy engorda?</summary><div><p>A porção do dia (2 cápsulas) tem 18 kcal, zero carboidrato e zero açúcar. Os 2 g de gordura são insaturados: ômegas 3, 6 e 9.</p></div></details>
-      <details><summary>Em quanto tempo vou sentir diferença?</summary><div><p>Suplemento alimentar não é remédio e não tem prazo de efeito. O jeito de aproveitar é tomar todos os dias, junto com uma alimentação equilibrada. Se você tem sintomas que incomodam, converse com o seu médico: ele é quem avalia o tratamento.</p></div></details>
-      <details><summary>Tem alguma contraindicação? Serve para quem tem alergia?</summary><div><p>Não contém glúten. Contém derivados de peixe e soja, por causa do processo de encapsulamento <span class="tbd">conferir no rótulo</span>. Não deve ser consumido por gestantes, lactantes e crianças. Quem toma remédio todos os dias, principalmente anticoagulante, deve mostrar o rótulo ao médico antes de começar <span class="tbd">validar com a Giovanna</span>. Depois de aberto, guarde longe da luz, do calor e da umidade e consuma em até 90 dias.</p></div></details>
-    </div>
-    <p class="rev">na pergunta do prazo, a resposta original falava de "alívio dos fogachos em 3 a 4 semanas" e "benefícios máximos aos 90 dias", ou seja, prometia efeito com data. O aviso sobre anticoagulante é sugestão minha, porque ômega 3 e vitamina E em dose alta pedem esse cuidado; validar com a Giovanna.</p>
-  </div>
-</section>
-
-<!-- RESUMO DAS MUDANÇAS -->
-<section class="review-only">
-  <div class="wrap narrow stack">
-    <p class="eyebrow">Só para o Rafael</p>
-    <h2>O que mudou em relação ao roteiro</h2>
-    <p class="muted">Este bloco e as notas amarelas somem quando você clica em "Esconder notas de revisão".</p>
-    <div class="changes">
-      <div><s>"O Interruptor Natural que desliga os calorões"</s> → título que fala da cena das 3h, sem prometer efeito.</div>
-      <div><s>"Elimina até 80% dos sintomas"</s> → retirado. É a frase de maior risco do roteiro.</div>
-      <div><s>"Dra. Giovanna", "maior referência do Brasil"</s> → "nutricionista e NaturalChef", com CRN.</div>
-      <div><s>Depoimentos de 95% e "clara diminuição"</s> → só o de satisfação, mais espaços para depoimentos de rotina.</div>
-      <div><s>"100% natural", "liberado pela Anvisa"</s> → "óleos vegetais e vitamina E"; "dispensado de registro".</div>
-      <div><s>"12x de R$ 10,17"</s> → "12x de R$ 10,17 com juros (total R$ 122,08)", como mostra a loja.</div>
-      <div><s>"Os lotes esgotam rapidamente"</s> → retirado até haver estoque ou prazo real.</div>
-      <div>Ficaram no texto: preços, kits, tabela, ingredientes, modo de uso, entrega, troca, atendimento e a cena de abertura.</div>
+      <details><summary>1. O Femme Healthy é um remédio hormonal? Precisa de receita?</summary><div><p>Não! O Femme Healthy é um suplemento alimentar 100% natural composto por óleos vegetais selecionados (linhaça, semente de borragem e prímula) e Vitamina E. Não contém hormônios sintéticos e não exige receita médica, sendo dispensado de registro conforme as normas da ANVISA para suplementos alimentares.</p></div></details>
+      <details><summary>2. Como e quando devo tomar o Femme Healthy?</summary><div><p>A recomendação oficial é ingerir 2 cápsulas ao dia: 1 cápsula antes do almoço e 1 cápsula antes do jantar, acompanhadas de água (ou conforme orientação do seu médico ou nutricionista). Cada pote vem com 60 cápsulas e dura exatamente 30 dias.</p></div></details>
+      <details><summary>3. O Femme Healthy engorda?</summary><div><p>Não! A porção diária completa (2 cápsulas) fornece apenas 18 kcal, zero carboidratos e zero açúcares. As 2 g de lipídios presentes são gorduras insaturadas essenciais (Ômegas 3, 6 e 9) que o seu organismo utiliza como matéria-prima anti-inflamatória e estrutural, não acumulando como gordura localizada.</p></div></details>
+      <details><summary>4. Em quanto tempo começo a perceber os resultados?</summary><div><p>Embora cada organismo feminino tenha seu próprio ritmo, os ácidos graxos essenciais e a Vitamina E atuam de forma cumulativa nas membranas celulares. Muitas clientes relatam alívio perceptível nos fogachos noturnos e no bem-estar já entre as primeiras 3 a 4 semanas de uso diário, com benefícios máximos consolidados aos 90 dias (3 meses) de suplementação contínua.</p></div></details>
+      <details><summary>5. Existe alguma contraindicação ou alerta para alérgicos?</summary><div><p>Conforme descrito na embalagem oficial do Femme Healthy, o produto não contém glúten, mas contém derivados de peixe e soja (devido ao processamento na linha de encapsulamento). Não deve ser consumido por gestantes, lactantes e crianças. Após aberto, conservar ao abrigo da luz, calor e umidade e consumir em até 90 dias.</p></div></details>
     </div>
   </div>
 </section>
-
-<footer>
-  <div class="wrap stack">
-    <h3>Advertências</h3>
-    <p>Este produto não é um medicamento. Não deve ser consumido por gestantes, lactantes e crianças. Não exceder a recomendação diária de consumo indicada na embalagem. Mantenha fora do alcance de crianças. Este conteúdo é informativo e não substitui consulta com médico ou nutricionista.</p>
-    <p>Femme Healthy, marca MenoFarma. Distribuído por Menopausa Cancelada Ltda., CNPJ 47.019.967/0001-89. Fabricante <span class="tbd">conferir no rótulo do Femme Healthy</span>. SAC: sac@menofarma.com.br · WhatsApp +55 (48) 98435-5621.</p>
-  </div>
-</footer>
-
-<script>
-(function () {
-  var btn = document.getElementById('toggle');
-  function apply(clean) {
-    document.body.classList.toggle('clean', clean);
-    btn.setAttribute('aria-pressed', clean ? 'true' : 'false');
-    btn.textContent = clean ? 'Mostrar notas de revisão' : 'Esconder notas de revisão';
-  }
-  var saved = false;
-  try { saved = localStorage.getItem('femme-clean') === '1'; } catch (e) {}
-  apply(saved);
-  btn.addEventListener('click', function () {
-    var c = !document.body.classList.contains('clean');
-    apply(c);
-    try { localStorage.setItem('femme-clean', c ? '1' : '0'); } catch (e) {}
-  });
-})();
-</script>
