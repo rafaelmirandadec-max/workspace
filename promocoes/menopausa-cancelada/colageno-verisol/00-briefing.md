@@ -54,10 +54,14 @@ Mulheres de 40 a 60 anos, no climatério e na menopausa, que já tentaram cremes
 - Sem "preenche rugas", "estanca a queda", "trata calorões", "religa fábricas de juventude", nem atribuir condição à leitora no anúncio ("Você está na menopausa?").
 - Nada inventado: depoimento, número ou estudo só com fonte.
 
+## Decisões do Rafael
+
+- 24/11/2026: a Menopausa Cancelada é cliente do Rafael (FATO).
+- 24/11/2026: o destino de compra é **só a loja oficial** (menopausacancelada.com.br). Mercado Livre fora dos anúncios e do advertorial, inclusive o preço de R$ 114,00 de lá (FATO).
+
 ## Pendências gerais
 
-- [A PREENCHER] É cliente do Rafael? Autorização para usar nome e imagem da Giovanna e as avaliações.
+- [A PREENCHER] Autorização por escrito para usar nome e imagem da Giovanna e as avaliações (é cliente; falta confirmar a autorização de uso das avaliações).
 - [A PREENCHER] Dose de Verisol® por porção; laudo/rótulo.
-- [A PREENCHER] Destino de compra (loja oficial × Mercado Livre).
 - [A PREENCHER] Garantia além dos 7 dias.
 - [A PREENCHER] Fotos e vídeos disponíveis da Giovanna para os criativos.
