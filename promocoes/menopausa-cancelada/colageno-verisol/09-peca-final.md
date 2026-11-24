@@ -150,7 +150,7 @@ Antes de mostrar o que vai dentro do copo, olha o que você vai encontrar daqui 
 Não sou eu que digo que o gosto é bom. São as compradoras:
 
 [BOX]
-"Sabor: bom, gosto de [s]uco de uva de saquinho. Dissolução: tem que mexer bem. Estou gostando de usar."
+"Sabor: bom, gosto de suco de uva de saquinho. Dissolução: tem que mexer bem. Estou gostando de usar."
 
 "Sabor: maravilhoso, não é muito doce."
 

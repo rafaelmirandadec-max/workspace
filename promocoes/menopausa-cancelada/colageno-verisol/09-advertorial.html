@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numa manhã qualquer, a pele mudou</title>
+<style>
+:root{--ink:#2a1f2d;--muted:#6b5f70;--line:#eadfe7;--soft:#faf5f8;--plum:#7a2e64;--plum-dark:#5c2049;--rose:#e9a3c0;--green:#1f7a4d;--gold:#f2c230;--fill:#fff3b0}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font:19px/1.65 Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.sans,h1,h2,h3,.kicker,.byline,.btn,.kit,.faq,footer,.box h3,.note{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:0 16px}
+.draft{background:#222;color:#fff;font:600 13px/1.4 -apple-system,Segoe UI,Roboto,Arial,sans-serif;text-align:center;padding:8px 16px}
+.draft span{background:var(--fill);color:#222;padding:0 4px;border-radius:3px}
+.fill{background:var(--fill);border-radius:3px;padding:0 3px;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;font-size:.85em}
+header.mast{border-bottom:1px solid var(--line);padding:14px 0}
+header.mast .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.logo{font:800 17px/1.1 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--plum);letter-spacing:.02em}
+.tagc{font:12px/1.2 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--muted);text-align:right}
+.kicker{display:block;margin-top:26px;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--plum)}
+h1{font-weight:800;font-size:33px;line-height:1.15;margin:10px 0 14px;letter-spacing:-.01em}
+.deck{font-size:19px;color:#4b3f50;margin:0 0 14px}
+ul.teaser{margin:0 0 20px;padding-left:20px;color:#4b3f50;font-size:17px}
+ul.teaser li{margin-bottom:6px}
+h2{font-weight:800;font-size:25px;line-height:1.22;margin:42px 0 14px;color:var(--plum-dark)}
+p{margin:0 0 18px}
+.byline{display:flex;gap:12px;align-items:center;font-size:14px;line-height:1.35;color:var(--muted);margin:4px 0 20px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.byline b{color:var(--ink);font-size:15px}
+.avatar{flex:0 0 46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#f3d1df,#d99bb8);display:grid;place-items:center;color:#fff;font-weight:800}
+.img{border-radius:12px;background:repeating-linear-gradient(45deg,#f6eef3,#f6eef3 12px,#f1e6ed 12px,#f1e6ed 24px);border:1px dashed #d8c3d0;color:#8a7489;font:13px/1.45 -apple-system,Segoe UI,Roboto,Arial,sans-serif;padding:22px;text-align:center;margin:0 0 22px;min-height:170px;display:grid;place-items:center}
+.img b{display:block;color:var(--plum);margin-bottom:4px;font-size:12px;letter-spacing:.08em}
+ul.fasc{list-style:none;padding:0;margin:0 0 20px}
+ul.fasc li{position:relative;padding-left:28px;margin-bottom:12px;font-size:18px}
+ul.fasc li:before{content:"";position:absolute;left:4px;top:.55em;width:10px;height:10px;border-radius:50%;background:var(--rose)}
+ul.fasc li.more{font-weight:700}
+.quotes{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:18px 18px 10px;margin:0 0 18px}
+.quotes blockquote{margin:0 0 12px;padding:0 0 12px;border-bottom:1px solid var(--line);font-size:18px}
+.quotes blockquote:last-of-type{border-bottom:0}
+.quotes small{display:block;font:italic 13px/1.4 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--muted);padding-bottom:8px}
+.textlink{font:600 16px/1.4 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--plum);display:inline-block;margin-bottom:10px}
+.box{border:2px solid var(--line);border-radius:14px;padding:18px;margin:0 0 18px;font:16px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.box h3{margin:0 0 4px;font-size:17px}
+.box .use{color:var(--muted);margin:0 0 14px}
+.box ul{list-style:none;padding:0;margin:0 0 14px}
+.box ul li{padding:8px 0;border-top:1px dashed var(--line)}
+.box .also{background:var(--soft);border-radius:10px;padding:12px 14px;margin:0 0 12px}
+.box .also b{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.box .meta{font-size:14px;margin:0 0 10px}
+.box .warn{font-size:13px;color:var(--muted);font-style:italic;margin:0}
+.divider{margin:44px 0 0;border-top:3px solid var(--plum);text-align:center}
+.divider span{display:inline-block;transform:translateY(-55%);background:#fff;padding:0 12px;font:700 13px/1 -apple-system,Segoe UI,Roboto,Arial,sans-serif;letter-spacing:.1em;color:var(--plum);text-transform:uppercase}
+.order{background:var(--soft);padding:2px 0 28px;border-bottom:1px solid var(--line)}
+.order h2{margin-top:22px}
+.kits{display:grid;gap:16px;margin:18px 0 12px}
+.kit{background:#fff;border:2px solid var(--line);border-radius:16px;padding:20px 18px;text-align:center;position:relative;font-size:15px}
+.kit.best{border-color:var(--plum);box-shadow:0 10px 26px rgba(122,46,100,.16)}
+.badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--plum);color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;padding:7px 12px;border-radius:999px;white-space:nowrap}
+.pots{display:flex;justify-content:center;gap:4px;margin:8px 0 10px}
+.pot{width:34px;height:40px;border-radius:7px 7px 6px 6px;background:linear-gradient(#fff,#f3e8ef);border:2px solid #cdb6c5;position:relative}
+.pot:before{content:"";position:absolute;top:-7px;left:-2px;right:-2px;height:8px;background:var(--plum);border-radius:4px}
+.pot:after{content:"";position:absolute;left:4px;right:4px;top:12px;height:12px;background:var(--rose);border-radius:2px}
+.kit .t{font-weight:800;font-size:19px}
+.kit .sub{color:var(--muted);margin:2px 0 6px}
+.kit .price{font-size:28px;font-weight:900;margin:6px 0 2px}
+.kit .inst{color:var(--muted);font-size:14px;margin-bottom:14px}
+.btn{display:block;width:100%;background:var(--green);color:#fff;text-decoration:none;text-align:center;font-weight:800;font-size:17px;padding:17px 14px;border-radius:10px;box-shadow:0 4px 0 #145236}
+.btn.ghost{background:#fff;color:var(--green);border:2px solid var(--green);box-shadow:none}
+.after{font:15px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif;text-align:center;color:var(--muted);margin:6px 0 0}
+.guar{display:flex;gap:16px;align-items:flex-start;background:#fff;border:2px dashed var(--green);border-radius:16px;padding:18px;margin:24px 0 20px;font:16px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.seal{flex:0 0 92px;height:92px;border-radius:50%;background:var(--gold);display:grid;place-items:center;text-align:center;font-weight:900;font-size:11px;line-height:1.1;color:#3b2b00;box-shadow:inset 0 0 0 5px #fff,inset 0 0 0 7px #d7a915}
+.seal b{display:block;font-size:13px;letter-spacing:.04em}
+.seal big{display:block;font-size:28px}
+.guar h3{margin:0 0 8px;font-size:19px}
+.guar p{margin:0 0 10px}
+.ps{background:#fff;border-left:4px solid var(--rose);padding:14px 16px;border-radius:0 10px 10px 0;margin:22px 0 16px}
+.ps small{display:block;font:italic 13px/1.4 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--muted);margin-top:6px}
+.faq{margin-top:8px}
+details{border-bottom:1px solid var(--line);padding:14px 0;font-size:16px}
+summary{font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:22px;line-height:1;color:var(--plum)}
+details[open] summary:after{content:"–"}
+details p{margin:10px 0 0;color:#4b3f50}
+footer{background:#2a1f2d;color:#cbbfc8;font-size:12px;line-height:1.6;padding:26px 0 100px;margin-top:40px}
+footer p{margin:0 0 10px}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.97);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));transform:translateY(110%);transition:transform .25s;z-index:10;box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+.sticky.show{transform:none}
+@media (min-width:700px){h1{font-size:40px}.kits{grid-template-columns:repeat(3,1fr);align-items:stretch}.kit{display:flex;flex-direction:column}.kit .btn{margin-top:auto}.sticky{display:none}}
+</style>
+</head>
+<body>
+
+<div class="draft">RASCUNHO PARA APROVAÇÃO · trechos em <span>amarelo</span> são pendências a acertar com a cliente antes de publicar</div>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="logo">MENOPAUSA<br>CANCELADA</div>
+    <div class="tagc">Conteúdo da<br>Menopausa Cancelada</div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <span class="kicker">Uma nutricionista explica o que muda na pele depois da menopausa</span>
+  <h1>Numa manhã qualquer, a pele mudou. Não foi descuido.</h1>
+  <p class="deck">O que acontece com o colágeno da pele depois da menopausa, por que o colágeno pode não ter feito sentido para quem já tentou, e a pergunta que vale fazer antes do próximo pote. Sem promessa de milagre.</p>
+  <ul class="teaser">
+    <li>O que os estudos estimam sobre o colágeno da pele nos primeiros cinco anos depois da menopausa (e por que isso tira um peso das costas)</li>
+    <li>A pergunta que quase ninguém faz antes de comprar colágeno</li>
+    <li>O detalhe sem graça que decide se o pote vai até o fim ou fica no armário</li>
+  </ul>
+
+  <div class="img"><div><b>FOTO</b>Giovanna na cozinha, olhando para a câmera, enquadramento de busto. Sem copo, sem produto.</div></div>
+
+  <div class="byline">
+    <div class="avatar">GA</div>
+    <div><b>Por Giovanna Agostini, nutricionista, CRN-10 4566</b><br>Declaração de conflito de interesses: Giovanna é <span class="fill">sócia / responsável técnica</span> da Menopausa Cancelada, empresa que vende o colágeno citado neste texto.</div>
+  </div>
+
+  <p>Tem uma manhã, lá pelos 45, 50 anos, em que a mulher acende a luz do banheiro, olha no espelho e percebe que a pele mudou. Não parece coisa de um ano para o outro. Parece coisa de uma noite para a outra.</p>
+  <p>Se isso já aconteceu com você, senta aqui um minuto. Antes de qualquer explicação, quero te dizer uma coisa: não foi descuido.</p>
+  <p>Sou nutricionista e falo de menopausa todos os dias. E, já que vou te explicar uma coisa importante, prefiro que você saiba logo de onde eu falo: sou <span class="fill">sócia / responsável técnica</span> da Menopausa Cancelada, a empresa que vende o colágeno de que vou falar mais adiante. Leia tudo sabendo disso.</p>
+
+  <h2>O motivo é hormonal</h2>
+  <p>Agora, o motivo. Com a menopausa, o corpo passa a produzir menos estrogênio, e a pele sente essa mudança: ela passa a ter menos colágeno. Uma revisão científica publicada em 2013 na revista <i>Dermato-Endocrinology</i> cita estudos que estimam que o colágeno da pele possa cair até 30% nos primeiros cinco anos depois da menopausa.</p>
+  <p>Repare na parte do "depois da menopausa". Isso não tem a ver com capricho nem com o creme que você escolheu. Tem a ver com hormônio, e aconteceria com a mulher mais cuidadosa que você conhece.</p>
+  <p>Por isso tanta mulher procura colágeno nessa fase. Faz sentido procurar. Só que talvez você já tenha tentado: comprou um pote, tomou por umas semanas, não soube dizer se estava adiantando, e ele acabou no fundo do armário.</p>
+  <p>Se foi assim, também não foi falta de disciplina. Colágeno não é tudo igual, e não é coisa de dias. Vale saber escolher.</p>
+  <p>E, antes de escolher, existe uma pergunta que quase ninguém faz. É por ela que eu quero começar.</p>
+
+  <h2>Qual colágeno, e por quanto tempo</h2>
+  <p>Quando me perguntam que colágeno tomar, eu respondo com duas perguntas: qual e por quanto tempo. Quase todo mundo para na primeira.</p>
+  <p>Qual, porque colágeno não é tudo igual. O Verisol® é um tipo específico de peptídeo de colágeno, e foi estudado justamente em mulheres de 45 a 65 anos.</p>
+  <p>Em 2014, um grupo liderado por um dermatologista da Universidade de Kiel, na Alemanha, publicou na revista <i>Skin Pharmacology and Physiology</i> um estudo com 114 mulheres dessa idade. Metade tomou Verisol® todos os dias. A outra metade tomou um placebo, sem saber qual era qual.</p>
+  <p>Duas coisas eu faço questão de contar. Esse estudo foi feito com o ingrediente, não com o colágeno de que vou falar. E parte dos pesquisadores tem ligação com o fabricante do Verisol®. Conto isso para você saber de onde vem a informação, não para prometer que vai acontecer o mesmo com você.</p>
+  <p>Agora, a pergunta que quase ninguém faz. Por quanto tempo essas mulheres tomaram? Oito semanas, uma dose por dia, sem pular.</p>
+  <p>Oito semanas não são um prazo para ver alguma coisa no espelho. São o tempo que o estudo durou. Mas dizem muito sobre o que é tomar colágeno: é coisa de semanas, não de dias.</p>
+  <p>Oito semanas são 56 noites seguidas. Pense no que isso pede de você.</p>
+
+  <h2>A parte difícil não é começar</h2>
+  <p>Comprar o pote é fácil. O primeiro copo também: tem a novidade, a vontade de fazer direito.</p>
+  <p>O difícil vem depois. Num dia corrido, você esquece. No outro também. E, se ninguém avisou que colágeno é coisa de semanas, é natural se olhar no espelho com quinze dias, não notar diferença e concluir que não funciona.</p>
+  <p>Talvez tenha acontecido com você. Se foi assim, não foi falta de disciplina. Faltou alguém contar a regra do jogo antes da compra.</p>
+  <p>E tem uma coisa que pesa mais do que parece nessa conta.</p>
+
+  <h2>Ninguém chega à noite 56 com um copo que não aguenta</h2>
+  <p>O gosto. Você tomaria por dois meses, toda noite, uma coisa que desce a contragosto?</p>
+  <p>Quem lê avaliações de colágeno na internet vê a mesma queixa voltar: sabor ruim, doce demais, gosto que enjoa. Não falo de marca nenhuma. Falo do copo que vira obrigação. E obrigação a gente adia, até o pote ir parar no fundo do armário.</p>
+  <p>Foi por isso que eu quis te mostrar este.</p>
+
+  <h2>Um colágeno com gosto de fruta</h2>
+  <div class="img"><div><b>FOTO</b>O pote aberto ao lado de um copo pronto, na cor real do sabor morango, sobre a bancada da cozinha. Sem pele, sem rosto, sem "antes e depois".</div></div>
+  <p>O colágeno da Menopausa Cancelada tem Verisol® e foi feito para dar vontade de tomar. São três sabores, morango, tangerina e uva, com fruta desidratada na receita e adoçados com estévia. Um dosador na água, e o copo fica com cara de suco.</p>
+  <p>Lembrando: sou <span class="fill">sócia / responsável técnica</span> da marca. Por isso, daqui para baixo, prefiro deixar falarem as clientes e a regra da Anvisa.</p>
+  <p>Antes de mostrar o que vai dentro do copo, olha o que você vai encontrar daqui para baixo:</p>
+  <ul class="fasc">
+    <li>A comparação nada sofisticada que uma cliente fez para o sabor de uva, e por que ela diz mais sobre o gosto do que as estrelas.</li>
+    <li>Quando tomar para o colágeno entrar na rotina sem precisar de alarme no celular.</li>
+    <li>Qual ingrediente do copo tem direito, pela regra da Anvisa, à frase "auxilia na formação do colágeno", e em que quantidade ele vem.</li>
+    <li>O cuidado de preparo que as próprias compradoras fazem questão de avisar nas avaliações.</li>
+    <li>O mineral que é o único da fórmula com a palavra "unhas" na frase oficial.</li>
+    <li>5 kcal. É o que o copo inteiro tem, adoçado com estévia e com fruta desidratada na receita.</li>
+    <li class="more">MAIS: quantas noites seguidas cabem em oito semanas, e o detalhe do copo que ajuda a chegar até a última.</li>
+  </ul>
+
+  <h2>Comparam com suco de saquinho. E isso é elogio</h2>
+  <p>Não sou eu que digo que o gosto é bom. São as compradoras:</p>
+  <div class="quotes">
+    <blockquote>"Sabor: bom, gosto de suco de uva de saquinho. Dissolução: tem que mexer bem. Estou gostando de usar."</blockquote>
+    <blockquote>"Sabor: maravilhoso, não é muito doce."</blockquote>
+    <blockquote>"Sabor: é adocicado e saboroso. Dissolução: misturar com água e tomar."</blockquote>
+    <small>Avaliações de compradoras no Mercado Livre, 2026. Trechos sobre sabor e preparo.</small>
+  </div>
+  <p>Repare na primeira. Suco de uva de saquinho não é comparação sofisticada. É o que vem à cabeça de quem tomou e gostou, sem fazer esforço para elogiar, e por isso diz mais sobre o gosto do que as estrelas. Ela ainda deixa a dica que eu repito: mexa bem.</p>
+  <a class="textlink" href="#pedir">Ver os sabores e os kits →</a>
+
+  <h2>O que vai em cada copo, e o que a regra deixa dizer</h2>
+  <p>Suplemento não pode prometer o que quiser. A Anvisa tem uma lista de frases permitidas para cada ingrediente, e eu uso só essas, palavra por palavra.</p>
+  <div class="box">
+    <h3>O que vem em cada copo</h3>
+    <p class="use">1 dosador (5 g) em 200 ml de água, antes de dormir.</p>
+    <h3>O que a regra da Anvisa permite dizer de cada um</h3>
+    <ul>
+      <li><b>Vitamina C, 200 mg.</b> A vitamina C auxilia na formação do colágeno.</li>
+      <li><b>Biotina, 45 mcg.</b> A biotina contribui para a manutenção do cabelo e da pele.</li>
+      <li><b>Zinco, 15 mg.</b> O zinco contribui para a manutenção do cabelo, da pele e das unhas.</li>
+    </ul>
+    <div class="also"><b>Também na fórmula</b>Peptídeos de colágeno hidrolisado Verisol® · ácido hialurônico, 50 mg · silício, 15 mg · vitamina B5 (ácido pantotênico), 5,5 mg.</div>
+    <p class="meta">5 kcal por copo · adoçado com estévia · morango, tangerina ou uva, com fruta desidratada · não contém glúten.</p>
+    <p class="warn">Contém derivados de peixe. Pode conter derivados de soja e leite. Este produto não deve ser consumido por gestantes, lactantes e crianças.</p>
+  </div>
+  <p>O cabelo e as unhas entram aí pela biotina e pelo zinco, com as frases da regra. Eu não vou além delas.</p>
+
+  <h2>Antes de dormir, ao lado da escova de dentes</h2>
+  <p>Tudo isso cabe num copo, uma vez por dia. Um dosador em 200 ml de água gelada, mexe bem e pronto. Leva meio minuto.</p>
+  <p>O modo de uso é antes de dormir, e o motivo que me interessa é prático: o pote fica ao lado da escova de dentes, e o copo entra numa rotina que você já tem, sem alarme no celular. Uma compradora resumiu: "tomo a noite todos os dias".</p>
+  <div class="img"><div><b>FOTO</b>Pia do banheiro à noite, luz amarela baixa, o copo pronto ao lado da escova de dentes. Sem pessoa.</div></div>
+  <p>Faça a conta: são 56 noites. Na primeira, qualquer copo serve. É na noite 40, cansada, que um gosto de que você gosta ajuda a não deixar para amanhã.</p>
+  <p>Eu não vou te prometer milagre. O conselho que eu dou sobre colágeno é simples: escolha um que você tenha vontade de tomar e dê tempo a ele. Semanas, não dias.</p>
+  <p>Se quiser começar por este, a equipe da Menopausa Cancelada explica abaixo como pedir.</p>
+
+</main>
+
+<div class="divider"><span>Menopausa Cancelada</span></div>
+
+<section class="order" id="pedir">
+  <div class="wrap">
+    <h2>Como pedir</h2>
+    <p>Colágeno é coisa de semanas. Por isso sugerimos começar com dois potes: dois meses tomando todas as noites, com frete grátis.</p>
+
+    <div class="kits">
+      <div class="kit">
+        <div class="t">3 potes · 90 doses</div>
+        <div class="pots"><span class="pot"></span><span class="pot"></span><span class="pot"></span></div>
+        <div class="sub">Um sabor diferente por mês, se quiser. <span class="fill">confirmar sabores misturados no carrinho</span></div>
+        <div class="sub">Frete grátis</div>
+        <div class="price">R$ 356,70 <small style="font-size:14px;font-weight:600">à vista</small></div>
+        <div class="inst"><span class="fill">parcelamento do checkout, com total a prazo</span></div>
+        <a class="btn ghost" href="https://menopausacancelada.com.br/produtos/">Quero 3 potes</a>
+      </div>
+      <div class="kit best">
+        <span class="badge">RECOMENDADO PARA COMEÇAR</span>
+        <div class="t">2 potes · 60 doses</div>
+        <div class="pots"><span class="pot"></span><span class="pot"></span></div>
+        <div class="sub">Frete grátis</div>
+        <div class="price">R$ 237,80 <small style="font-size:14px;font-weight:600">à vista</small></div>
+        <div class="inst"><span class="fill">parcelamento do checkout, com total a prazo</span></div>
+        <a class="btn" href="https://menopausacancelada.com.br/produtos/">Quero começar com 2 potes</a>
+      </div>
+      <div class="kit">
+        <div class="t">1 pote · 30 doses</div>
+        <div class="pots"><span class="pot"></span></div>
+        <div class="sub">Para provar o sabor primeiro.</div>
+        <div class="sub">Frete calculado no carrinho.</div>
+        <div class="price">R$ 118,90 <small style="font-size:14px;font-weight:600">à vista</small></div>
+        <div class="inst">ou 12x de R$ 12,23 no cartão (total R$ 146,76)</div>
+        <a class="btn ghost" href="https://menopausacancelada.com.br/produtos/">Quero provar 1 pote</a>
+      </div>
+    </div>
+    <p class="after">Em todas as opções, a dose sai a R$ 3,96 à vista e vale a Garantia Pote Aberto de 30 dias.</p>
+
+    <div class="guar">
+      <div class="seal"><div><b>GARANTIA</b><big>30</big>DIAS<br>POTE ABERTO</div></div>
+      <div>
+        <h3>Garantia Pote Aberto</h3>
+        <p>A nossa aposta é que você vai gostar do copo da noite. Mas a decisão é sua, com o pote na mão.</p>
+        <p>Você tem 30 dias a partir da chegada do pedido. Pode abrir e tomar até a última dose. Se achar que não era para você, mande uma mensagem no WhatsApp (48) 98435-5621, de segunda a sexta, das 8h às 18h.</p>
+        <p>Devolvemos 100% do valor pago em até 7 dias, e o pote fica com você, mesmo aberto. (No cartão, o estorno pode sair na fatura seguinte.)</p>
+        <p style="margin:0">O direito de arrependimento de 7 dias, previsto em lei, continua valendo; esta garantia vai além dele.</p>
+      </div>
+    </div>
+
+    <p>Falta só provar, e o risco é nosso.</p>
+    <p>Daqui a dois meses você vai se olhar no espelho de qualquer jeito. O que dá para escolher hoje é como vão ser essas noites até lá: com um copo de que você gosta, ou com mais um pote parado no armário.</p>
+    <p>Toque no botão abaixo, escolha o sabor e a quantidade na loja oficial e pague no cartão ou no Pix <span class="fill">confirmar Pix no checkout</span>. O rastreio chega no seu WhatsApp.</p>
+    <a class="btn" href="https://menopausacancelada.com.br/produtos/">Escolher meu sabor</a>
+
+    <div class="ps">P.S. Se o que segura você é o gosto, a garantia foi feita para isso. Uma compradora escreveu: "parece suco natural de morango!" Se no seu copo não for assim, o dinheiro volta e o pote fica com você.<small>(avaliação no Mercado Livre, 2026)</small></div>
+    <a class="btn ghost" href="https://menopausacancelada.com.br/produtos/">Provar o sabor</a>
+
+    <h2>Perguntas frequentes</h2>
+    <div class="faq">
+      <details><summary>Qual é o gosto?</summary><p>De fruta: morango, tangerina ou uva, adoçado com estévia.</p></details>
+      <details><summary>Como e quando tomo?</summary><p>1 dosador (5 g) em 200 ml de água, antes de dormir. Mexa bem.</p></details>
+      <details><summary>Quanto dura um pote?</summary><p>Um mês: são 30 doses de 5 g, uma por noite.</p></details>
+      <details><summary>Tem glúten ou lactose?</summary><p>Não contém glúten. Contém derivados de peixe e pode conter derivados de soja e leite, por isso não dizemos que é sem lactose.</p></details>
+      <details><summary>Posso tomar com remédios?</summary><p>Fale antes com o seu médico. Quem usa medicamentos ou tem alguma doença deve ter orientação profissional.</p></details>
+      <details><summary>Como peço a garantia?</summary><p>Pelo WhatsApp, em até 30 dias após a chegada. Reembolso em até 7 dias.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Suplemento alimentar. Este produto não deve ser consumido por gestantes, lactantes e crianças. Indicado para maiores de 19 anos. Não consumir em caso de alergia aos componentes da fórmula. Imagens ilustrativas.</p>
+    <p>Conteúdo da Menopausa Cancelada, com texto de Giovanna Agostini, nutricionista, CRN-10 4566. Preços, kits e garantia são da loja. Declaração de conflito de interesses: Giovanna é <span class="fill" style="color:#222">sócia / proprietária / responsável técnica</span> da Menopausa Cancelada, empresa que vende este colágeno.</p>
+    <p>Menopausa Cancelada LTDA · CNPJ 47.019.967/0001-89 · Praça Quinze de Novembro <span class="fill" style="color:#222">número e complemento</span>, Florianópolis (SC) · sac@menofarma.com.br</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky"><a class="btn" href="https://menopausacancelada.com.br/produtos/">Escolher meu sabor</a></div>
+
+<script>
+(function(){
+  var s=document.getElementById('sticky'),o=document.getElementById('pedir');
+  function on(){var r=o.getBoundingClientRect();s.classList.toggle('show',r.top<window.innerHeight*0.6);}
+  window.addEventListener('scroll',on,{passive:true});on();
+})();
+</script>
+</body>
+</html>
