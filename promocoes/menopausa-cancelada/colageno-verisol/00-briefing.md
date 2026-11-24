@@ -64,4 +64,4 @@ Mulheres de 40 a 60 anos, no climatério e na menopausa, que já tentaram cremes
 ## Pendências gerais
 
 - [A PREENCHER] Dose de Verisol® por porção; laudo/rótulo.
-- [A PREENCHER] Fotos e vídeos disponíveis da Giovanna para os criativos.
+- Fotos e vídeos da Giovanna: existem no Instagram @menopausa.cancelada (FATO, informado pelo Rafael em 24/11/2026). Os criativos podem usar vídeo dela falando para a câmera e recortes do perfil; o roteiro indica o tipo de cena, não o arquivo exato.
