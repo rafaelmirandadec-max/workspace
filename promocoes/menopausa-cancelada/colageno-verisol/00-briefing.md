@@ -64,6 +64,8 @@ Mulheres de 40 a 60 anos, no climatério e na menopausa, que já tentaram cremes
 - 24/11/2026: o Rafael **cancelou a etapa do `cc-revisor-chefe`** nesta promoção. Em compensação, cada agente que escreve copy lê `skills/cc-conformidade/SKILL.md` antes e marca no próprio arquivo os pontos de risco; o Copy Chief faz a checagem de conformidade na montagem final.
 - Entrega final pedida: HTML do advertorial (no estilo dos exemplos do 23 Centavos), enviado na conversa e no Drive (Menopausa Cancelada > Copy Chief).
 
+- 24/11/2026: o Rafael quer **menos perguntas e mais resultado**. Regra para os agentes: não parem por falta de dado; escrevam a melhor versão com suposição prudente e marquem `[A PREENCHER]`/`[PROVA]`. Na dúvida de conformidade, escolham a redação mais segura (ex.: a peça não sai na primeira pessoa da Giovanna como "criadora do produto" sem confirmação do vínculo; use-a como nutricionista que explica, com CRN e sem "Dra."; Verisol citado como ingrediente estudado, sem "dose dos estudos"). Black Friday: suposição de subir depois de 1º/12, sem condição especial. Todas as pendências vão numa lista única no fim.
+
 ## Pendências gerais
 
 - [A PREENCHER] Dose de Verisol® por porção; laudo/rótulo.
