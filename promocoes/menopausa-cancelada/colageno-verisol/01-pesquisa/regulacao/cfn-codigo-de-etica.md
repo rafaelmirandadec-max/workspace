@@ -66,3 +66,9 @@ IV - é vedado à(ao) nutricionista utilizar, durante a prática assistencial, v
 ## Res. 599/2018 (revogada pela 856) — arts. 60 e 63, para referência
 Fonte: https://cfn.org.br/wp-content/uploads/resolucoes/Res_599_2018.html
 Art. 60: vedado associar imagem para divulgar marcas de suplementos... Art. 63: vedado fazer publicidade em meios de comunicação com fins comerciais de marcas de suplementos.
+Art. 24. É dever da(o) nutricionista, quando na prática, no exercício ou no uso de sua autoridade profissional, identificar-se informando sua profissão, nome e número de inscrição no CRN de sua jurisdição, em meios físicos ou virtuais, bem como declarar, de forma transparente e explícita, conflitos de interesses que possam comprometer a isenção técnica, científica ou ética de sua atuação.
+
+§ 1º É direito da(o) nutricionista divulgar sua qualificação profissional.
+
+§ 2º É vedado à(ao) nutricionista identificar-se com titulação que não possua ou que não esteja prevista no rol das especialidades reconhecidas pelo CFN.
+

@@ -35,7 +35,7 @@ Decisões propostas (podem ser questionadas pela estratégia, com motivo):
 
 ## Porta-voz
 
-Giovanna Agostini, nutricionista funcional e NaturalChef, fundadora do movimento Menopausa Cancelada (a carta diz "mais de 1 milhão de seguidoras" — PISTA; Instagram @menopausa.cancelada). A carta usa "Dra." — risco de parecer médica; checar com `cc-conformidade` e CFN. [A PREENCHER: CRN dela, para constar na peça.]
+Giovanna Agostini, nutricionista funcional e NaturalChef, fundadora do movimento Menopausa Cancelada (a carta diz "mais de 1 milhão de seguidoras" — PISTA; Instagram @menopausa.cancelada). A carta usa "Dra." — risco de parecer médica; checar com `cc-conformidade` e CFN. CRN-10 4566 (informado pelo Rafael em 24/11/2026; CRN-10 = Santa Catarina). Usar na assinatura: "Giovanna Agostini, nutricionista, CRN-10 4566".
 
 ## Público
 
