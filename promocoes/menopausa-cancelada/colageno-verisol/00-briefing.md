@@ -61,6 +61,9 @@ Mulheres de 40 a 60 anos, no climatério e na menopausa, que já tentaram cremes
 - 24/11/2026: **garantia de 30 dias** aprovada (além dos 7 dias do CDC). Termos confirmados pelo Rafael: devolve 100% do dinheiro **mesmo com o pote aberto**; o pedido é feito **pelo WhatsApp** do SAC. **Não precisa devolver o pote.** Reembolso em até **7 dias** após o pedido. Garantia completa e operacional: pode ser descrita na peça com todos esses termos.
 - 24/11/2026: o destino de compra é **só a loja oficial** (menopausacancelada.com.br). Mercado Livre fora dos anúncios e do advertorial, inclusive o preço de R$ 114,00 de lá (FATO).
 
+- 24/11/2026: o Rafael **cancelou a etapa do `cc-revisor-chefe`** nesta promoção. Em compensação, cada agente que escreve copy lê `skills/cc-conformidade/SKILL.md` antes e marca no próprio arquivo os pontos de risco; o Copy Chief faz a checagem de conformidade na montagem final.
+- Entrega final pedida: HTML do advertorial (no estilo dos exemplos do 23 Centavos), enviado na conversa e no Drive (Menopausa Cancelada > Copy Chief).
+
 ## Pendências gerais
 
 - [A PREENCHER] Dose de Verisol® por porção; laudo/rótulo.
