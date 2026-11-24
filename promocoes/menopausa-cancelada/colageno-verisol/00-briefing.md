@@ -58,7 +58,7 @@ Mulheres de 40 a 60 anos, no climatério e na menopausa, que já tentaram cremes
 
 - 24/11/2026: a Menopausa Cancelada é cliente do Rafael (FATO).
 - 24/11/2026: o Rafael tem autorização para usar nome e imagem da Giovanna e as avaliações (FATO, informado por ele).
-- 24/11/2026: **garantia de 30 dias** aprovada (além dos 7 dias do CDC). [A PREENCHER: termos operacionais — devolve o dinheiro com pote aberto? precisa devolver o pote? como pede (WhatsApp/e-mail)? quem paga o frete de volta?] Até confirmar, a peça descreve só "30 dias de garantia" sem detalhar condições que a operação talvez não cumpra.
+- 24/11/2026: **garantia de 30 dias** aprovada (além dos 7 dias do CDC). Termos confirmados pelo Rafael: devolve 100% do dinheiro **mesmo com o pote aberto**; o pedido é feito **pelo WhatsApp** do SAC. [A PREENCHER: precisa devolver o pote? quem paga o frete de volta? prazo do reembolso?] Até confirmar, a peça não promete "sem devolver o pote" nem prazo de reembolso.
 - 24/11/2026: o destino de compra é **só a loja oficial** (menopausacancelada.com.br). Mercado Livre fora dos anúncios e do advertorial, inclusive o preço de R$ 114,00 de lá (FATO).
 
 ## Pendências gerais
