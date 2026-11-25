@@ -11,11 +11,11 @@
 
 É a referência mais limpa da lista para **página de planos**: três cartões, um destacado, tabela de comparação, FAQ de cancelamento e um CTA final. Serve para qualquer serviço recorrente (academia, clínica com plano, assinatura, SaaS simples).
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — Empresa de capital aberto com 5,7 milhões de alunos diretos no 3º trimestre de 2026, alta de 9% em um ano (Seu Dinheiro, 11/2026, a partir do release de resultados 3T26); receita das academias próprias Smart Fit +26% em um ano, puxada por tíquete médio +15% e base média de alunos +10% (ADVFN, 11/2026).
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 7 mil anúncios" apontando para smartfit.com.br, anunciante verificado (consulta em 25/11/2026).
-- **PISTA** — "+2.000 unidades em 17 países", afirmado na própria página.
+- **FATO (dado oficial de companhia aberta)** — Empresa de capital aberto com 5,7 milhões de alunos diretos no 3º trimestre de 2026, alta de 9% em um ano (Seu Dinheiro, 11/2026, a partir do release de resultados 3T26); receita das academias próprias Smart Fit +26% em um ano, puxada por tíquete médio +15% e base média de alunos +10% (ADVFN, 11/2026). A mesma matéria do Seu Dinheiro diz que a média de alunos diretos por academia no Brasil caiu 19% em um ano, por causa do TotalPass: a base cresce pela abertura de unidades.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 7 mil anúncios" apontando para smartfit.com.br, anunciante verificado (consulta em 25/11/2026).
+- **FATO (dado oficial de companhia aberta)** — 2.259 academias em 17 países no 3º trimestre de 2026 (Seu Dinheiro, 11/2026, a partir do release; indicado pelo revisor). A página arredonda para "+2.000 unidades em 17 países".
 - **SUPOSIÇÃO** — Uma rede desse tamanho, que testa preço e oferta por unidade, provavelmente chegou a esse formato (três planos, um "mais vantajoso", primeiro mês grátis) por teste. Apoio: escala da operação e padrão de páginas de planos; não há dado público sobre testes da página.
 
 ## Anatomia da página (na ordem em que aparece)

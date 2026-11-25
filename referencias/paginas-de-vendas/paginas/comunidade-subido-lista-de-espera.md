@@ -9,12 +9,12 @@
 
 ## Por que está aqui
 
-Mostra como aproveitar o período de carrinho fechado: em vez de uma captura simples, a lista de espera mantém a página de vendas inteira, então o lead entra na lista já sabendo o que vai comprar. O design é claro, com ilustrações próprias e uma organização de entregáveis muito boa. Também é a página da lista com o melhor rodapé de responsabilidade (aviso de que resultados variam).
+Mostra como aproveitar o período de carrinho fechado: em vez de uma captura simples, a lista de espera mantém a página de vendas inteira, então o lead entra na lista já sabendo o que vai comprar. O design é claro, com ilustrações próprias e uma organização de entregáveis muito boa. Também é a página da lista com o melhor rodapé de responsabilidade (aviso de que resultados variam), mas não é modelo completo de conformidade: a dobra promete um valor de renda mensal (ver "Cuidado de conformidade").
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — O Grupo Permaneo (Pedro Sobral e Priscila Zillo) está na lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026.
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 4 mil anúncios" para o domínio pedrosobral.com.br, anunciante verificado (consulta em 25/11/2026).
+- **FATO (lista oficial da Hotmart)** — O Grupo Permaneo (Pedro Sobral e Priscila Zillo) está na lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026. Prova a posição no ranking, não um valor.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 4 mil anúncios" para o domínio pedrosobral.com.br, anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — "+50 mil membros ativos na Comunidade", "Há 8 anos formando subidos", "+R$400M gerenciados em anúncios", afirmados na página.
 - **SUPOSIÇÃO** — A página de lista de espera tem o mesmo nível de produção de uma página de vendas, o que sugere que é a página de vendas reaproveitada com o bloco de oferta trocado por formulário. Apoio: a página tem garantia, entregáveis e FAQ de pagamento, que só fazem sentido em página de venda.
 
@@ -52,11 +52,22 @@ Mostra como aproveitar o período de carrinho fechado: em vez de uma captura sim
 - Lista de espera com a página de vendas completa: aquece o lead durante o carrinho fechado.
 - Dividir a oferta em dois caminhos de público ("planetas") com um bônus exclusivo para cada um.
 - Agrupar entregáveis pelo que a pessoa vai fazer com eles, não por tipo.
-- Avisos de responsabilidade no meio da prova e no rodapé (resultados variam, não afiliação a plataformas).
+- Avisos de responsabilidade no meio da prova e no rodapé (resultados variam, não afiliação a plataformas). Os avisos são bons, mas não compensam uma promessa de ganho específico.
 - Imagem de dobra que conta a situação (ampulheta = espera).
 
 ## Pontos fracos
 
 - Página muito longa para quem só quer entrar na lista; o formulário não se repete com frequência no meio dos blocos de curso.
 - Manchetes de depoimento em caixa alta e com dramatização pessoal ("ANSIOSO, TRISTE E OBESO...") destoam do restante, que é sóbrio.
-- A promessa da dobra ("colocar R$10.000 no bolso todo mês") é forte e convive com o aviso de que não há garantia de resultado; ao modelar, alinhar promessa e ressalva.
+- A dobra promete um valor de renda ("colocar R$10.000 no bolso todo mês"). Não modelar essa promessa: o aviso do rodapé não a compensa (ver "Cuidado de conformidade").
+
+## Cuidado de conformidade
+
+Nicho de renda (formação para trabalhar com tráfego pago). Regras pela skill `conformidade` (seções 3, 5 e 7) e pelo CDC.
+
+- **Não modelar a promessa de valor mensal.** "Colocar R$10.000 no bolso todo mês com anúncios online", na dobra, é promessa de ganho específico, que a skill manda não fazer em renda. É também o tipo de frase que o Meta restringe em anúncio de oportunidade de renda. Os avisos "Os resultados variam de pessoa para pessoa" e "Não há garantia de resultados financeiros" não mudam isso: o CDC trata a publicidade como enganosa também por omissão (art. 37, § 1º e § 3º, conferido no Planalto pelo revisor em 25/11/2026).
+- **Depoimentos com valor de faturamento no título** ("DE MOTOBOY A GESTOR DE TRÁFEGO QUE FATURA R$20.000/MÊS") reforçam a promessa de renda. Se o cliente usar depoimento de resultado financeiro, ele precisa ser real e documentado, vir com o aviso de que resultados variam, e a headline não pode prometer o valor.
+- **O que modelar com segurança:** os avisos de responsabilidade (no meio da prova e no rodapé), o aviso de não afiliação a Google e Meta, a razão social e o CNPJ no rodapé e o verificador de WhatsApp oficial.
+- **Garantia de 7 dias:** é o direito de arrependimento do CDC em compra pela internet (art. 49), não um diferencial da oferta.
+
+**Risco ao modelar:** vermelho para promessa de renda na dobra; laranja para depoimento de faturamento (depende de prova documental e da política da plataforma de anúncio).

@@ -239,3 +239,84 @@ O português está correto, sem erros de acentuação, crase ou concordância no
    - Sem as correções, o risco é o copywriter modelar pergunta de diagnóstico, promessa de renda ou depoimento de saúde num cliente regulado.
    - Dizer ao Rafael que a biblioteca reúne páginas de empresas que vendem muito, não páginas com conversão medida.
 4. **Fase seguinte:** devolver ao `researcher` com este parecer para as correções (cerca de uma hora de trabalho, sem nova coleta) e só então enviar a versão final ao Drive. Uma nova revisão rápida só dos três bloqueios basta.
+
+---
+
+## Correções aplicadas
+
+Pelo @researcher, em 25/11/2026, sem nova coleta. A única leitura feita foi uma nova conferência da página da VTSD (item 7 dos avisos), às 16h19. Os dados novos de Insider, G4, Hashtag, Fluency e Smart Fit vêm das fontes que este parecer conferiu e estão creditados ao revisor nas fichas.
+
+### Bloqueios
+
+1. **Reservatório de Dopamina** (`paginas/reservatorio-de-dopamina.md`)
+   - "Por que está aqui": saiu "sem promessa milagrosa". Entrou "declara que não promete resultado rápido, embora a headline ('vença vícios') e a prova ('vidas transformadas') insinuem resultado".
+   - "O que dá para modelar": saíram a entrada pela pergunta ao leitor e o uso de matérias como prova de contexto. Ficou a organização por trilhas, escrita em terceira pessoa ("para quem quer entender ansiedade: trilha X").
+   - "O que o design faz bem": o item dos recortes de matérias agora diz que o enquadramento de alarme não se modela em saúde.
+   - "Cuidado de conformidade" reescrito. Não modelar a pergunta de diagnóstico, o medo como motor (CDC, art. 37, § 2º), a promessa de resultado nem o depoimento de melhora. Cita o CFP sem número de artigo e traz riscos e quem aprova, como pede a skill.
+2. **Checklist do `padroes.md`**
+   - "Saúde" saiu da lista de provas de pessoas. Entrou: "Em saúde, sem depoimento de resultado clínico [...] a prova é de estrutura e de processo, como na Alice".
+   - O item do aviso virou: "Aviso de que resultados variam em todo depoimento de resultado financeiro. O aviso não autoriza prometer valor de renda na headline nem prazo de resultado".
+   - Entrou um item próprio de saúde: sem pergunta de diagnóstico, sem medo, sem promessa.
+3. **Subido e VTSD**
+   - Subido: "alinhar promessa e ressalva" foi trocado por "não modelar essa promessa: o aviso do rodapé não a compensa". O "Por que está aqui" ganhou o contrapeso de que a página não é modelo completo de conformidade. O item dos avisos em "modelar" diz que eles não compensam promessa de ganho.
+   - VTSD: o item das fases em "modelar" agora liga fase a entrega do aluno, não a faturamento.
+   - As duas fichas ganharam a seção "Cuidado de conformidade" (nicho de renda): promessa de valor ou de prazo, depoimentos de faturamento, superlativos sem prova, notificação de compra e garantia de 7 dias como direito legal. Cada uma traz a classificação de risco.
+
+### Avisos
+
+1. **O que os sinais provam**
+   - O `padroes.md` mudou de título para "O que se repete nas páginas de empresas que vendem muito" e ganhou o parágrafo "Limite desta análise" no topo.
+   - O README ganhou, logo no começo, o bloco "Leia antes": os sinais mostram que as empresas faturam e compram mídia, não a conversão de cada página.
+   - Nas 14 fichas, a seção virou "Sinais de que a empresa vende (não medem a conversão da página)".
+2. **Rótulos**
+   - O critério foi definido no README:
+     - "FATO (dado oficial de companhia aberta)": só a Smart Fit;
+     - "FATO (lista oficial da Hotmart)" e "FATO (dado oficial da Hotmart)": a lista prova posição no ranking, não valor;
+     - "FATO (contagem nesta pesquisa)": contagem de anúncios no Google;
+     - "PISTA forte (número declarado pela empresa e publicado pela imprensa)";
+     - "PISTA".
+   - Reclassificados para PISTA forte: Hashtag, G4, Insider, Alice, Nuvemshop, O Novo Mercado e o número de participantes do FIRE.
+3. **Hashtag:** "R$ 30 milhões em 2022 (PEGN, 07/2023) e R$ 48 milhões em 2023 (UOL e Estadão, 06/2024)". Saiu "crescimento contínuo"; ficou "crescimento nos anos publicados".
+4. **Insider:** a ficha e o cartão do README agora trazem mais de R$ 500 milhões em 2025 e a estimativa de R$ 800 milhões em 2026 (Bloomberg Línea, 09/10/2026), com o dado do Valor como histórico e a nota de que a meta de R$ 600 milhões não foi atingida.
+5. **G4:** "cerca de R$ 500 milhões em 2025", publicado pela Veja como previsão de fechamento (12/2025), com o InfoMoney (cerca de R$ 505 milhões) citado como indicação do revisor. Ajustado na ficha e no README.
+6. **Fluency:** acrescentado "anunciado em 28/08/2025, no FIRE" e "acumulado (soma de todos os anos, não faturamento anual)", na ficha e no README.
+7. **VTSD**
+   - **Não tirei a frase, porque ela aparece na página.** "Incontestavelmente o método que mais gera resultado no Brasil" está no texto da página como título da seção de prova (linha 296 do texto extraído) nas duas leituras: a original, às 15h43, e a de conferência, às 16h19 de 25/11/2026 (pela ferramenta `ler-pagina.mjs`). A outra frase, "É incontestável o crescimento do mercado...", também existe, mais abaixo (linha 496). A ficha agora registra as duas leituras.
+   - Notificação: a ficha cita os dois nomes lidos (Matheus às 15h43; Carlos, com "compra verificada", na leitura do revisor) e diz que o carimbo "compra verificada" agrava o caso, se ela for simulada.
+8. **Contagens do `padroes.md`:** o arquivo foi reescrito com as recontagens, e cada contagem agora nomeia as páginas.
+   - Prova numérica: 10 de 14 (G4 entrou nas exceções).
+   - Botão no celular: 11 de 14, contando o cabeçalho para todas; exceções VTSD, Smart Fit e Insider.
+   - Cor do botão: 12 de 14, com a ressalva de onde a cor se repete fora do botão; RD e Nuvemshop como exceções. A conclusão nº 1 ficou mais fraca.
+   - Formulário na dobra: 3.
+   - Cabeçalho: 6 sem menu, 1 com menu curto (FIRE) e 7 com menu completo.
+   - "Para quem é": 9, com a lista.
+   - Ordem das páginas longas: sem RD e Finclass.
+   - Preço: só FIRE e Finclass põem parcela e total lado a lado; Hashtag e O Novo Mercado só mostram a parcela.
+   - Pilha de valor: só a Finclass.
+   - Comparação "sem nós x com nós": 4, sem a Smart Fit.
+   - Fundo escuro x claro passou para "Opinião", citando o RD.
+   - "Novas" saiu da conclusão nº 4.
+9. **Conformidade fora dos nichos regulados**
+   - Garantia de 7 dias como direito de arrependimento (CDC, art. 49), no `padroes.md` (seção 3 e checklist), na Subido e na VTSD.
+   - A conclusão nº 3 diz que mostrar só a parcela é ponto fraco (CDC, art. 31).
+   - Alice: a ficha e o checklist dizem "modelo de organização do rodapé; CRM sem UF; em clínica, diretor técnico". A ficha ganhou o superlativo "as melhores opções" nos pontos fracos.
+   - Finclass: o cartão do README agora diz para modelar o formato, não os números, com a ressalva sobre preço de referência (CDC, art. 37, § 1º). O checklist ganhou um item sobre preço "de".
+   - Fluency: a garantia de evolução em "modelar" recebeu as duas ressalvas (sem garantia de resultado em saúde; condição escrita na página, CDC, art. 30).
+10. **Erros menores**
+    - Laboratório: saiu "R$ 400 milhões gerenciados".
+    - Nuvemshop: a headline agora aparece como variável ("expandir", "expandir canais" e, segundo o revisor, "vender mais" no título).
+    - Smart Fit: 2.259 academias em 17 países virou FATO (dado oficial de companhia aberta), e entrou a queda de 19% na média de alunos por academia.
+    - Alice: a PEGN passou a fonte principal e o conteúdo de marca do Valor, a secundária.
+11. **Texto**
+    - A linha "Não verificado — Biblioteca de Anúncios do Meta" saiu das fichas. O README explica o bloqueio uma vez e diz que as fichas não o repetem; na Fluency, a nota do Reclame Aqui virou "Observação".
+    - No `padroes.md`, os rótulos repetidos foram agrupados em blocos "Observado" e "Opinião" por seção.
+    - ARR e GMV foram explicados na primeira menção (README, Alice e Nuvemshop), e DTC e SaaS, no README.
+    - Os parênteses duplos da Insider viraram uma frase só.
+
+### Não corrigido ou não verificável sem nova coleta
+- A faixa vazia de cerca de 500 px no fim da captura desktop da Alice. Não atrapalha e exigiria nova captura.
+- As headlines das outras 8 páginas e as contagens de anúncios das outras 12 fichas, que o revisor não conferiu. Ficam como estão, com a hora da leitura original.
+- Os itens da FAQ e da home da Hashtag ("67 mil alunos só no curso de Excel", "1º lugar no Reclame AQUI", "atualizado em 11 de novembro"). Estão no texto extraído na leitura original, mas não foram reconferidos.
+- O código de publicidade do CFP, as normas da CVM e da ANS e o texto da Resolução CFM 2.336/2023 não foram lidos no texto oficial. As fichas citam esses órgãos sem número de artigo.
+- A Biblioteca de Anúncios do Meta continua sem verificação (mesmo bloqueio).
+- O número de R$ 53 milhões em 2022 do O Novo Mercado segue como PISTA forte, com a nota de que o revisor não o achou.

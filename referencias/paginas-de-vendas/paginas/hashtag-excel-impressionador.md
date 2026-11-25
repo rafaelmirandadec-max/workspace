@@ -11,14 +11,13 @@
 
 Página de curso de carreira com tema escuro bem executado, prova social organizada e uma segunda metade escrita para busca no Google (SEO) sem quebrar a página de vendas. É o melhor exemplo da lista para produto de "habilidade para o emprego", com público que pesquisa antes de comprar.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — A Hashtag Treinamentos está na lista Hotmart Galaxy 2026 (25 maiores faturamentos da Hotmart). Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026.
-- **FATO (dado da empresa publicado pela imprensa)** — Faturamento anual acima de R$ 75 milhões e mais de 170 mil alunos, segundo a mesma matéria da Forbes; a PEGN publicou em 03/2026 "Eles eram estagiários quando criaram cursos para ensinar a usar tecnologia e hoje faturam R$ 75 milhões" (revistapegn.globo.com). Em 2023 a PEGN registrava R$ 30 milhões, o que mostra crescimento contínuo.
-- **FATO** — A Central de Transparência de Anúncios do Google mostra "cerca de 20 mil anúncios" apontando para hashtagtreinamentos.com, de anunciante verificado (consulta em 25/11/2026). É o maior volume entre as páginas desta biblioteca: indica investimento pesado e constante em mídia de busca e YouTube.
+- **FATO (lista oficial da Hotmart)** — A Hashtag Treinamentos está na lista Hotmart Galaxy 2026 (25 maiores faturamentos da Hotmart). Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026. Prova a posição no ranking da plataforma, não um valor de faturamento.
+- **PISTA forte (número declarado pela empresa e publicado pela imprensa)** — Faturamento anual acima de R$ 75 milhões e mais de 170 mil alunos, segundo a mesma matéria da Forbes; a PEGN publicou em 20/03/2026 "Eles eram estagiários quando criaram cursos para ensinar a usar tecnologia e hoje faturam R$ 75 milhões". Números anteriores: R$ 30 milhões em 2022 (PEGN, 07/2023) e R$ 48 milhões em 2023 (UOL e Estadão, 06/2024; datas conferidas pelo revisor). A série indica crescimento nos anos publicados; não há número de todos os anos.
+- **FATO (contagem nesta pesquisa)** — A Central de Transparência de Anúncios do Google mostra "cerca de 20 mil anúncios" apontando para hashtagtreinamentos.com, de anunciante verificado (consulta em 25/11/2026). É o maior volume entre as páginas desta biblioteca: indica investimento pesado e constante em mídia de busca e YouTube.
 - **PISTA** — A página afirma "+223 mil alunos", "4,8 de média em 5.572 avaliações de alunos", "1º lugar no Reclame AQUI em Cursos Profissionalizantes" (na home) e "mais de 67 mil alunos só no curso de Excel" (na FAQ).
 - **PISTA** — "Conteúdo desta página atualizado em 11 de novembro, 2026": a página é mantida e revisada.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente, erro 403).
 
 ## Anatomia da página (na ordem em que aparece)
 

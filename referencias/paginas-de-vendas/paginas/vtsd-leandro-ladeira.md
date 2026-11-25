@@ -11,13 +11,12 @@
 
 É a página perpétua de um dos 25 maiores faturamentos da Hotmart, com design limpo e muito bem resolvido no celular. Serve de modelo para página longa de curso com vídeo, história do autor e prova em volume.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — A Ready To Go Education (Ladeira, Ruy e Vitor Albuk) está na lista Hotmart Galaxy 2026, que reúne os 25 negócios de maior faturamento da plataforma. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026 (forbes.com.br/forbes-mkt/2026/04/brandvoice-hotmart-top-25-quem-lidera-o-empreendedorismo-digital/). O dado é divulgado pela própria Hotmart.
-- **FATO** — A Central de Transparência de Anúncios do Google registra 17 anúncios apontando para vendatodosantodia.com.br, do anunciante verificado Ready To Go Education (consulta em 25/11/2026). Mostra investimento em mídia para o domínio; não mostra resultado.
+- **FATO (lista oficial da Hotmart)** — A Ready To Go Education (Ladeira, Ruy e Vitor Albuk) está na lista Hotmart Galaxy 2026, que reúne os 25 negócios de maior faturamento da plataforma. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026 (forbes.com.br/forbes-mkt/2026/04/brandvoice-hotmart-top-25-quem-lidera-o-empreendedorismo-digital/). Prova a posição no ranking da plataforma, não um valor de faturamento.
+- **FATO (contagem nesta pesquisa)** — A Central de Transparência de Anúncios do Google registra 17 anúncios apontando para vendatodosantodia.com.br, do anunciante verificado Ready To Go Education (consulta em 25/11/2026). Mostra investimento em mídia para o domínio; não mostra resultado.
 - **PISTA** — A própria página diz: "+90 mil alunos", "mais de 300 milhões faturados", "premiado como a maior Black Friday de 2023, 2024 e 2025 pela Hotmart" e "seis anos no Hotmart Galaxy". Nota 4,9/5 sem fonte indicada.
 - **SUPOSIÇÃO** — O endereço "pv0622" (página de vendas, versão numerada) indica que a empresa trabalha com versões da página e troca a que está no ar. Apoio: só o nome do endereço.
-- **Não verificado** — Tempo de veiculação de anúncios no Meta. A Biblioteca de Anúncios do Meta devolveu erro 403 e nenhum resultado para qualquer busca neste ambiente (inclusive "nubank"), então não deu para conferir.
 
 ## Anatomia da página (na ordem em que aparece)
 
@@ -37,7 +36,7 @@
 14. **Quem é Leandro Ladeira** (foto, números, prêmios), "Leandro Ladeira na mídia".
 15. **"Verifique o número do nosso time"**: campo para conferir se um WhatsApp é mesmo da equipe (resposta a golpes com o nome da marca).
 16. **FAQ** de objeções ("Ainda não tenho um produto digital", "Tenho pouco dinheiro para investir em tráfego", "Não tenho equipe").
-17. Rodapé mínimo. Notificação flutuante de compra ("Matheus comprou o Venda Todo Santo Dia") e botão de WhatsApp fixo.
+17. Rodapé mínimo. Notificação flutuante de compra, com nome que muda a cada leitura ("Matheus comprou o Venda Todo Santo Dia" às 15h43; o revisor leu "Carlos entrou para o Venda Todo Santo Dia · compra verificada" às 16h07), e botão de WhatsApp fixo.
 
 ## O que o design faz bem
 
@@ -52,14 +51,27 @@
 
 - Contar a história do especialista em capítulos curtos com título próprio, citação e foto, em vez de um bloco "Sobre mim".
 - Usar um "kit de CTA" fixo (prova numérica + botão + nota) e repeti-lo depois de cada argumento.
-- Mostrar o caminho do aluno em fases com prazo estimado (dá concretude à promessa).
+- Mostrar o caminho do aluno em fases com prazo estimado, ligando cada fase a uma entrega do aluno, não a um valor de faturamento (ver "Cuidado de conformidade").
 - Incluir um verificador de contato oficial quando a marca é alvo de golpe.
 - Vídeo de vendas diferente para celular (vertical).
 
 ## Pontos fracos
 
 - Sem preço na página: quem quer saber quanto custa precisa ir ao checkout. Pode ser decisão consciente, mas tira uma informação que a FAQ não responde.
-- Muitas afirmações de superioridade sem fonte na própria página ("Incontestavelmente o método que mais gera resultado no Brasil", "método comprovado, com baixíssima chance de erro").
-- Depoimentos centrados em faturamento sem aviso de que resultados variam. Em revisão de conformidade de copy, isso pediria ressalva.
-- Notificação de compra em tempo real: não deu para verificar se é real. Se for simulada, é prática enganosa; ao modelar, só usar com dado verdadeiro.
+- Muitas afirmações de superioridade sem fonte na própria página ("Incontestavelmente o método que mais gera resultado no Brasil", título da seção de prova, presente no texto da página nas leituras de 15h43 e 16h19 de 25/11/2026; e "Método comprovado, com baixíssima chance de erro").
+- Depoimentos centrados em faturamento sem aviso de que resultados variam (ver "Cuidado de conformidade").
+- Notificação de compra em tempo real, carimbada como "compra verificada": não deu para verificar se é real. O carimbo torna mais grave se ela for simulada (prática enganosa). Ao modelar, só usar com dado verdadeiro.
 - Página muito longa no celular (cerca de 41 mil px).
+
+## Cuidado de conformidade
+
+Nicho de renda (ensina a criar e vender produto digital). Regras pela skill `conformidade` (seções 3, 5 e 7) e pelo CDC.
+
+- **Headline com prazo de resultado.** "Crie um produto digital que vende em poucos dias" promete resultado com prazo. Em renda, a skill manda não prometer ganho específico; prazo de venda vai na mesma direção. Não modelar a promessa com prazo.
+- **Depoimentos de faturamento sem aviso.** A grade traz títulos como "Ela faturou mais de R$2 milhões vendendo PDFs" e "Eles faturaram R$719 mil depois de entrarem para o VTSD", sem aviso de que resultados variam. Ao modelar: depoimento real e documentado, aviso de que resultados variam, e nenhum valor de renda prometido na headline. O aviso sozinho não autoriza a promessa.
+- **Fases com faturamento médio** ("faturamento médio de 10k por mês", "100k mês", "mais de 2 milhões por ano") funcionam como promessa de renda por etapa. Modelar a ideia de fases com prazo só para entregas do aluno (produto criado, primeira página no ar), não para valores de ganho.
+- **Superlativos sem fonte** ("Incontestavelmente o método que mais gera resultado no Brasil", "baixíssima chance de erro") podem ser lidos como publicidade enganosa (CDC, art. 37, § 1º, conferido no Planalto pelo revisor em 25/11/2026). Não modelar sem prova.
+- **Notificação de compra:** só com dado real.
+- **Garantia de 15 dias:** vai além dos 7 dias do direito de arrependimento (CDC, art. 49); os 7 primeiros são obrigação legal, não diferencial.
+
+**Risco ao modelar:** vermelho para promessa de renda ou prazo de venda na headline; laranja para depoimentos de faturamento (dependem de prova documental e da política do Meta para oportunidades de renda).

@@ -11,10 +11,10 @@
 
 Página de captura curta (cerca de 6 mil px), limpa e com uma isca bem definida: "resultado de teste", não "conteúdo grátis". Mostra o que a isca entrega antes de pedir o e-mail. É o modelo da lista para captura de lista própria.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — O Grupo Permaneo (Pedro Sobral e Priscila Zillo) está na lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026.
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 4 mil anúncios" apontando para pedrosobral.com.br (todo o domínio, não só esta página), anunciante verificado (consulta em 25/11/2026).
+- **FATO (lista oficial da Hotmart)** — O Grupo Permaneo (Pedro Sobral e Priscila Zillo) está na lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026. Prova a posição no ranking da plataforma, não um valor de faturamento.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 4 mil anúncios" apontando para pedrosobral.com.br (todo o domínio, não só esta página), anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — "+220 mil pessoas inscritas. Mais de 220 mil pessoas já recebem o laboratório" e "alguém que investe R$ 2 milhões por mês em anúncios online", afirmações da própria página.
 - **PISTA** — A página aparece no menu do site institucional como produto permanente ("Conteúdos > Laboratório de tráfego"), o que indica isca contínua, não de campanha.
 
@@ -47,4 +47,4 @@ Página de captura curta (cerca de 6 mil px), limpa e com uma isca bem definida:
 
 - O cabeçalho do site institucional tira o foco (vários links de saída numa página de captura).
 - Nenhum exemplo de e-mail completo nem depoimento de quem lê.
-- Os números de autoridade (R$ 2 milhões por mês, R$ 400 milhões gerenciados) são só declarados.
+- O número de autoridade ("R$ 2 milhões por mês" em anúncios) é só declarado.

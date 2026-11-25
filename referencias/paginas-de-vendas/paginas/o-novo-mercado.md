@@ -11,13 +11,12 @@
 
 É a página com acabamento mais "de produto de tecnologia" entre as escolas digitais: fundo escuro, mosaico de capas de aulas como num serviço de streaming, telas da plataforma e do assistente de IA, tipografia fina e um vermelho-rosado de destaque. Referência para vender assinatura mostrando o produto por dentro.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — "Editora O Novo Mercado (@icarode.carvalho e @jonatasfigueiredo)" está na lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026.
-- **FATO (dado da empresa publicado pela imprensa)** — Faturamento de R$ 53 milhões em 2022 e projeção de R$ 70 milhões em 2023, com cerca de 160 mil alunos desde 2016 (FLJ e ABC da Comunicação, 08/2023). Dado antigo; vale como histórico.
-- **FATO** — Central de Transparência de Anúncios do Google: nenhum anúncio encontrado para onovomercado.com.br (consulta em 25/11/2026). A aquisição parece vir de outros canais (base própria, conteúdo, Meta — este último não verificável aqui).
+- **FATO (lista oficial da Hotmart)** — "Editora O Novo Mercado (@icarode.carvalho e @jonatasfigueiredo)" está na lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart. Fonte: Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026. Prova a posição no ranking da plataforma, não um valor de faturamento.
+- **PISTA forte (número declarado pela empresa e publicado pela imprensa)** — Faturamento de R$ 53 milhões em 2022 e projeção de R$ 70 milhões em 2023, com cerca de 160 mil alunos desde 2016 (FLJ e ABC da Comunicação, 08/2023). Dado antigo; vale como histórico. O revisor conferiu a projeção de R$ 70 milhões, mas não achou o número de 2022 no resumo da busca.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: nenhum anúncio encontrado para onovomercado.com.br (consulta em 25/11/2026). A aquisição parece vir de outros canais (base própria, conteúdo, Meta — este último não verificável aqui).
 - **PISTA** — "Há mais de 10 anos, somos a maior escola de marketing digital do Brasil", "+100 mil alunos", "+180 professores", "+1800 aulas" (afirmações da página).
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente).
 
 ## Anatomia da página (na ordem em que aparece)
 

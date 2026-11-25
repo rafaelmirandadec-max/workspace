@@ -11,12 +11,11 @@
 
 É o exemplo mais claro da lista de **pilha de valor** (cada item numerado, com preço "de" riscado e "R$ 0") levando a um preço baixo de assinatura, em página escura com estética de Black Friday. Também serve de alerta: é página de nicho regulado (investimentos) com rentabilidade passada em destaque.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
 - **PISTA (case de fornecedor)** — A agência de tecnologia UDS afirma que a Finclass "alcançou 1 milhão de assinantes e R$ 130 milhões em seu primeiro ano" (uds.com.br/blog/finclass-case-uds-no-streaming). O site do Grupo Primo diz que em 2021 a receita da holding atingiu R$ 120 milhões e mais de 200 mil pessoas pagaram assinaturas (grupo-primo.com). Números divergentes e de fonte interessada: tratar como pista.
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 2 mil anúncios" apontando para finclass.com, anunciante verificado (consulta em 25/11/2026).
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 2 mil anúncios" apontando para finclass.com, anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — A página de Black Friday tem endereço com ano e nome de campanha ("bff2026") e parâmetro de origem ("HOME_FIN_REDIRECT"): a home inteira é redirecionada para a campanha, sinal de que a Black Friday é o principal evento comercial do ano para eles.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente).
 
 ## Anatomia da página (na ordem em que aparece)
 

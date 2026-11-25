@@ -11,13 +11,12 @@
 
 É a página de produto de uma das marcas DTC que mais cresceram no Brasil. Não é página longa de vendas: o que vale estudar é a caixa de compra (kits com preço por unidade, cashback, troca grátis, WhatsApp) e o bloco de avaliações, que fazem o papel da prova.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO (dado da empresa publicado pela imprensa)** — "O faturamento da Insider foi de R$ 400 milhões no ano passado [2024], e o plano é chegar a R$ 600 milhões em 2025" (Valor Econômico, 16/10/2025); a Exame publicou o mesmo número ao noticiar a primeira loja física.
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 600 anúncios" apontando para insiderstore.com.br, anunciante verificado (consulta em 25/11/2026).
+- **PISTA forte (número declarado pela empresa e publicado pela imprensa)** — Mais de R$ 500 milhões de faturamento em 2025 e estimativa de R$ 800 milhões em 2026 (Bloomberg Línea, 09/10/2026, indicada pelo revisor). Antes: R$ 400 milhões em 2024, com plano de R$ 600 milhões para 2025 (Valor Econômico, 16/10/2025; Exame). A meta de 2025 não foi atingida, mas a receita cresceu.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 600 anúncios" apontando para insiderstore.com.br, anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — Na página: "4,9 de 5 estrelas, baseado em 26.152 avaliações, 99% de recomendação", com compradores verificados e datas recentes (23/11/2026). Também "a mais vendida do Brasil" (afirmação da marca).
 - **Observação** — A distribuição de notas mostrada tem 89% de 5 estrelas, 11% de 4, uma avaliação de 3 e nenhuma de 1 ou 2 estrelas em mais de 26 mil. É raro; pode refletir moderação da plataforma de avaliações. Não dá para concluir nada além disso.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente).
 
 ## Anatomia da página (na ordem em que aparece)
 
@@ -28,7 +27,7 @@
 5. **Descrição, Diferenciais, Características e Composição** em acordeão. Descrição começa com "Sem achismo. Tech T-Shirt® é INSIDER. A original desde 2019, a mais vendida do Brasil e a única com garantia contra desbotamento."
 6. **Faixa de campanha** "BLACK FRIDAY · até 60% OFF na Insider".
 7. **Avaliações:** nota, distribuição, palavras mais mencionadas, "como ficou o tamanho" (escala de Muito pequeno a Muito grande), experiência de compra e cartões de avaliação com "Comprador verificado", data e etiquetas.
-8. **Blocos de estilo de vida** (vistos na captura do celular; na captura do desktop não carregaram) (fotos de uso com títulos como "Camiseta tech urban lifestyle", "Tecido modal com conforto", "Insider in real life") e FAQ do produto antes do rodapé.
+8. **Blocos de estilo de vida** (vistos na captura do celular, porque na do desktop não carregaram), com fotos de uso e títulos como "Camiseta tech urban lifestyle", "Tecido modal com conforto", "Insider in real life") e FAQ do produto antes do rodapé.
 
 ## O que o design faz bem
 

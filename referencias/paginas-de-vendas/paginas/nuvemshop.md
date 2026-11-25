@@ -11,18 +11,17 @@
 
 É a referência de SaaS da lista: fotografia de marca forte, o produto mostrado em uso por lojas reais (prints de lojas de clientes), uma única cor de marca (azul) e uma tabela de planos que começa no gratuito. Serve para qualquer produto de software ou serviço com planos.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO (dado da empresa publicado pela imprensa)** — "a Nuvemshop, plataforma de e-commerce que reúne 180 mil marcas em toda a América Latina, estima alcançar um volume de vendas (GMV) de R$ 20 bilhões" (Mercado & Consumo, 22/06/2026).
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 600 anúncios" apontando para nuvemshop.com.br, anunciante verificado (consulta em 25/11/2026).
+- **PISTA forte (número declarado pela empresa e publicado pela imprensa)** — "a Nuvemshop, plataforma de e-commerce que reúne 180 mil marcas em toda a América Latina, estima alcançar um volume de vendas (GMV) de R$ 20 bilhões" (Mercado & Consumo, 22/06/2026). GMV é o total vendido pelas lojas na plataforma, não a receita da Nuvemshop, e o número é estimativa.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 600 anúncios" apontando para nuvemshop.com.br, anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — Na página: "+180 mil marcas crescendo com a Nuvemshop", "+720 apps disponíveis", "+2.000 Especialistas" e "Eleita 3x a Melhor plataforma de e-commerce pela ABCOMM".
 - **PISTA** — A empresa publica todo mês o "Radar do E-commerce D2C" com dados das lojas (pedidos e faturamento): conteúdo próprio que alimenta imprensa e busca.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente).
 
 ## Anatomia da página (na ordem em que aparece)
 
 1. **Cabeçalho** (Soluções, Plataforma, Preços, Next), "Login" e botão branco "Criar loja grátis" sobre fundo azul.
-2. **Dobra azul:** logo grande, headline "Mais do que loja online. A base para sua marca expandir" (a última palavra em serifa itálica, com efeito de digitação), botões "Criar loja grátis" e "Falar com Vendas". Abaixo, vídeo largo de evento/estande da marca.
+2. **Dobra azul:** logo grande, headline "Mais do que loja online. A base para sua marca...", com a parte final trocando por efeito de digitação e escrita em serifa itálica (na captura do desktop, "expandir"; na do celular, "expandir canais"; segundo o revisor, o título da página é "A base para sua marca vender mais"), botões "Criar loja grátis" e "Falar com Vendas". Abaixo, vídeo largo de evento/estande da marca.
 3. **Prova de escala:** "+180 mil marcas crescendo com a Nuvemshop", cercada de logos e fotos de produtos de marcas clientes (Dux, Dudah!, Desgosto, Capeto...).
 4. **"Venda onde seu cliente está, com tudo conectado"** — quatro cartões com fotografia (loja online, PDV, redes sociais, WhatsApp), cada um com o produto aparecendo dentro da foto.
 5. **Editor da loja com IA:** "Eleve o nível de personalização da sua loja", com uma loja de exemplo montada na página e lista de recursos.

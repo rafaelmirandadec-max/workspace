@@ -1,12 +1,14 @@
 # Biblioteca de páginas de vendas brasileiras
 
-Coletada em 25/11/2026 (leituras entre 15h40 e 16h10, horário de Brasília) · 14 páginas · Responsável: @researcher
+Coletada em 25/11/2026 (leituras entre 15h40 e 16h10, horário de Brasília) · 14 páginas · Responsável: @researcher · Revisada em 25/11/2026 (parecer em [revisao.md](revisao.md), correções aplicadas)
+
+**Leia antes:** os sinais desta biblioteca mostram que as **empresas** por trás das páginas faturam e compram mídia (lista de maiores faturamentos da Hotmart, resultados publicados, contagem de anúncios no Google). **Nenhum sinal mostra a conversão medida de cada página**, porque nenhuma delas publica esse número. Uma empresa que vende muito pode ter uma página fraca. A biblioteca reúne páginas bem desenhadas de empresas que vendem muito, não páginas com conversão comprovada.
 
 ## Para que serve
 
-Referência de estrutura, copy e design para as próximas páginas do squad. Cada página tem uma ficha com a anatomia seção por seção (com headline e subheadline literais), o que o design faz bem, o que dá para modelar sem copiar, os pontos fracos e os sinais de que a página vende. As capturas em desktop (1440 px) e celular (390 px) estão em `capturas/`.
+Referência de estrutura, copy e design para as próximas páginas do squad. Cada página tem uma ficha com a anatomia seção por seção (com headline e subheadline literais), o que o design faz bem, o que dá para modelar sem copiar, os pontos fracos e os sinais de que a empresa vende. As fichas de saúde, finanças e renda têm uma seção "Cuidado de conformidade" que deve ser lida antes de modelar. As capturas em desktop (1440 px) e celular (390 px) estão em `capturas/`.
 
-O resumo do que se repete nas melhores e um checklist para usar nas próximas páginas estão em [padroes.md](padroes.md).
+O resumo do que se repete nessas páginas e um checklist para usar nas próximas páginas estão em [padroes.md](padroes.md).
 
 ## Como usar
 
@@ -19,12 +21,15 @@ O resumo do que se repete nas melhores e um checklist para usar nas próximas p�
 
 1. Página brasileira, em português, no ar na data da leitura (status 200, lida pelo navegador do ambiente).
 2. Design profissional, julgado nas capturas: hierarquia clara, tipografia e espaçamento cuidados, boa versão no celular, seções bem resolvidas.
-3. Pelo menos um sinal público de que a operação vende. Como taxa de conversão quase nunca é pública, os sinais são indiretos e vêm marcados:
-   - **FATO**: dado com fonte verificável (lista Hotmart Galaxy 2026 dos 25 maiores faturamentos da Hotmart, resultados de empresa listada em bolsa, faturamento publicado pela imprensa, contagem de anúncios na Central de Transparência de Anúncios do Google).
-   - **PISTA**: o que a empresa diz de si (número de alunos, nota, "a maior do Brasil") ou fonte única não conferida.
+3. Pelo menos um sinal público de que a empresa vende. Como taxa de conversão quase nunca é pública, os sinais são indiretos e vêm marcados assim:
+   - **FATO (dado oficial de companhia aberta)**: número de release de resultados de empresa listada em bolsa (só a Smart Fit).
+   - **FATO (lista oficial da Hotmart)** e **FATO (dado oficial da Hotmart)**: ranking Hotmart Galaxy 2026 dos 25 maiores faturamentos da plataforma e marcos de faturamento anunciados pela Hotmart. A Hotmart processa as vendas, então é a fonte oficial desses dados; mas não é auditoria independente, e a lista prova a posição no ranking, não um valor.
+   - **FATO (contagem nesta pesquisa)**: número de anúncios na Central de Transparência de Anúncios do Google, consultado por nós em 25/11/2026.
+   - **PISTA forte (número declarado pela empresa e publicado pela imprensa)**: faturamento, membros ou alunos que a empresa contou a um jornal. É declaração da empresa, sem auditoria, mesmo quando sai em veículo grande.
+   - **PISTA**: o que a empresa diz de si na própria página (número de alunos, nota, "a maior do Brasil") ou fonte única não conferida.
    - **SUPOSIÇÃO**: leitura do pesquisador, com o apoio indicado.
    - **Nenhuma ficha traz taxa de conversão.** Nenhuma das páginas publica esse número, e ele não foi estimado.
-4. Variedade de tipos de oferta. A quantidade foi decidida pela qualidade (14), não por cota.
+4. Variedade de tipos de oferta (inclusive produto físico de marca que vende direto ao consumidor, chamado de DTC, e software por assinatura, chamado de SaaS). A quantidade foi decidida pela qualidade (14), não por cota.
 
 **Sobre a contagem de anúncios do Google:** a Central de Transparência mostra quantos anúncios já apontaram para o domínio (filtro "qualquer horário"). Mostra que há investimento em mídia, não que a página converte, e conta o domínio inteiro, não só a página.
 
@@ -38,19 +43,19 @@ A coleta foi feita na semana da Black Friday. Sete das 14 páginas estavam com f
 
 **Venda Todo Santo Dia (VTSD) — Leandro Ladeira**
 Curso perpétuo com vídeo de vendas · https://www.vendatodosantodia.com.br/pv0622
-Página longa e limpa: história do autor em capítulos, prova em volume e um "kit de CTA" repetido. Um dos 25 maiores faturamentos da Hotmart.
+Página longa e limpa: história do autor em capítulos, prova em volume e um "kit de CTA" repetido. Um dos 25 maiores faturamentos da Hotmart. Nicho de renda: ver "Cuidado de conformidade" na ficha antes de modelar headline e depoimentos.
 [Ficha](paginas/vtsd-leandro-ladeira.md)
 
 **Excel Impressionador — Hashtag Treinamentos**
 Curso de carreira com vídeo curto · https://www.hashtagtreinamentos.com/curso-de-excel-online
-Tema escuro bem executado, prova de carreira (vaga, promoção) e segunda metade escrita para o Google. Cerca de 20 mil anúncios no Google; faturamento acima de R$ 75 milhões.
+Tema escuro bem executado, prova de carreira (vaga, promoção) e segunda metade escrita para o Google. Cerca de 20 mil anúncios no Google; faturamento anual acima de R$ 75 milhões, segundo a empresa (PEGN, 03/2026).
 [Ficha](paginas/hashtag-excel-impressionador.md)
 
 ### Assinatura de conteúdo
 
 **Reservatório de Dopamina — Eslen Delanogare**
 Assinatura de saúde mental e hábitos · https://www.reservatoriodedopamina.com.br/
-A página mais "de marca" dos infoprodutos: curta, preço exposto, entrada pelo problema do leitor e posicionamento contra promessa fácil. Tem cuidado de conformidade (saúde).
+A página mais "de marca" dos infoprodutos: curta, preço exposto, identidade visual própria e organização por temas. Saúde mental: para cliente de saúde, não modelar a pergunta ao leitor, o enquadramento de medo nem a promessa de resultado (ver "Cuidado de conformidade" na ficha).
 [Ficha](paginas/reservatorio-de-dopamina.md)
 
 **O Novo Mercado — Ícaro de Carvalho**
@@ -60,19 +65,19 @@ Vende a assinatura mostrando a plataforma por dentro, com visual de serviço de 
 
 **Black Friday 2026 — Finclass**
 Assinatura de educação financeira, lista de espera de Black Friday · https://www.finclass.com/
-Melhor exemplo de pilha de valor em cartões numerados com preço riscado. Nicho regulado: o bloco de rentabilidade não deve ser modelado sem conformidade.
+Melhor exemplo visual de pilha de valor em cartões numerados. Modelar o formato, não os números: os preços "de" são valores de referência da própria empresa (a soma chega a R$ 12.632,80, e há item "Não disponível para compra" com preço), e preço de referência que nunca foi cobrado pode ser publicidade enganosa (CDC, art. 37, § 1º). Nicho regulado: o bloco de rentabilidade passada também não deve ser modelado sem a skill `conformidade`.
 [Ficha](paginas/finclass-black-friday.md)
 
 ### Captura e lista de espera
 
 **Comunidade Subido de Tráfego (lista de espera) — Pedro Sobral**
 Captura de lançamento com página de vendas completa embaixo · https://go.pedrosobral.com.br/comunidade-subido-de-trafego/lista-de-espera
-Ilustrações próprias, entregáveis agrupados por intenção e os melhores avisos de responsabilidade da lista.
+Ilustrações próprias, entregáveis agrupados por intenção e os melhores avisos de responsabilidade da lista. Nicho de renda: não modelar a promessa da dobra ("R$10.000 no bolso todo mês"); ver "Cuidado de conformidade" na ficha.
 [Ficha](paginas/comunidade-subido-lista-de-espera.md)
 
 **Curso de Inglês (captura da Black Fluency) — Fluency Academy**
 Captura de pré-venda com direção de arte de campanha · https://fluency.io/br/cursos/ingles/
-Tipografia condensada, roxo e amarelo, garantia dupla. Empresa com meio bilhão de reais faturados na Hotmart.
+Tipografia condensada, roxo e amarelo, garantia dupla. A Fluency passou de meio bilhão de reais de faturamento líquido acumulado na Hotmart (anúncio da Hotmart em 28/08/2025).
 [Ficha](paginas/fluency-ingles-black.md)
 
 **Laboratório de Tráfego — Pedro Sobral**
@@ -84,42 +89,42 @@ Captura curta que mostra exemplos reais do que a pessoa vai receber antes de ped
 
 **G4 Gestão e Estratégia — G4 Educação**
 Imersão presencial de 4 dias para empresários, venda consultiva · https://g4business.com/g4-gestao-e-estrategia
-Visual de escola executiva (azul-petróleo, dourado, serifa), preço fora da página e qualificação do público no texto. Empresa com R$ 500 milhões de faturamento em 2025 (Veja).
+Visual de escola executiva (azul-petróleo, dourado, serifa), preço fora da página e qualificação do público no texto. Faturamento de cerca de R$ 500 milhões em 2025, segundo a empresa (Veja publicou como previsão de fechamento em 12/2025).
 [Ficha](paginas/g4-gestao-e-estrategia.md)
 
 ### Evento
 
 **FIRE '27 — Hotmart**
 Ingresso de festival presencial em lotes · https://fire.hotmart.app/
-Identidade de festival, o crachá como imagem principal, comparação de ingressos com o que não está incluído riscado. Evento com 42 mil participantes em 11 edições.
+Identidade de festival, o crachá como imagem principal, comparação de ingressos com o que não está incluído riscado. Evento com 42 mil participantes em 11 edições, segundo a Hotmart.
 [Ficha](paginas/fire-festival-2027.md)
 
 ### Serviço local por assinatura
 
 **Planos e preços — Smart Fit**
 Página de planos de academia · https://www.smartfit.com.br/planos
-A página de planos mais limpa da lista: três cartões, um destacado por cor, comparação e FAQ de cancelamento. Empresa listada, 5,7 milhões de alunos.
+A página de planos mais limpa da lista: três cartões, um destacado por cor, comparação e FAQ de cancelamento. Empresa listada em bolsa, 5,7 milhões de alunos diretos no 3º trimestre de 2026.
 [Ficha](paginas/smart-fit-planos.md)
 
 ### Saúde (nicho regulado)
 
 **Plano de Saúde PME — Alice**
 Plano de saúde empresarial para pequenas empresas · https://alice.com.br/plano-de-saude-pme
-Página de saúde com tabela de preço por idade, comparação de reajuste com concorrentes e responsável técnico no rodapé. 100 mil membros e ARR de R$ 1,1 bilhão (Valor, 09/2026).
+Página de saúde com tabela de preço por idade, comparação de reajuste com concorrentes e responsável técnico no rodapé. 100 mil membros e receita recorrente anual (ARR, o faturamento de assinaturas projetado para 12 meses) de R$ 1,1 bilhão, segundo a empresa (PEGN, 09/2026). Modelo de organização do rodapé, mas o CRM aparece sem UF.
 [Ficha](paginas/alice-plano-pme.md)
 
 ### Produto físico / DTC
 
 **Tech T-Shirt® — Insider**
-Página de produto de marca DTC · https://www.insiderstore.com.br/products/tech-t-shirt
-Caixa de compra com kits e preço por unidade, redução de risco colada ao botão e avaliações estruturadas (26 mil). Faturamento de R$ 400 milhões em 2024 (Valor).
+Página de produto de marca que vende direto ao consumidor (DTC) · https://www.insiderstore.com.br/products/tech-t-shirt
+Caixa de compra com kits e preço por unidade, redução de risco colada ao botão e avaliações estruturadas (26 mil). Faturamento de mais de R$ 500 milhões em 2025 e estimativa de R$ 800 milhões em 2026, segundo a empresa (Bloomberg Línea, 09/10/2026).
 [Ficha](paginas/insider-tech-tshirt.md)
 
 ### SaaS / plataforma
 
 **Nuvemshop**
 Plataforma de loja virtual, página principal com planos · https://www.nuvemshop.com.br/
-Fotografia de marca forte, produto mostrado em uso e tabela de planos com plano gratuito e teste de 7 dias. 180 mil marcas na plataforma.
+Fotografia de marca forte, produto mostrado em uso e tabela de planos com plano gratuito e teste de 7 dias. 180 mil marcas na plataforma, segundo a empresa.
 [Ficha](paginas/nuvemshop.md)
 
 ## Avaliadas e deixadas de fora
@@ -132,7 +137,7 @@ Fotografia de marca forte, produto mostrado em uso e tabela de planos com plano 
 
 ## Bloqueios e limites desta coleta
 
-- **Biblioteca de Anúncios do Meta:** devolveu erro 403 e nenhum resultado para qualquer busca, inclusive "nubank", em 25/11/2026. Por isso nenhuma ficha traz tempo de veiculação de anúncio no Meta, que era o sinal preferido. Vale repetir a verificação com login de um computador do Brasil.
+- **Biblioteca de Anúncios do Meta:** devolveu erro 403 e nenhum resultado para qualquer busca, inclusive "nubank", em 25/11/2026. Por isso nenhuma ficha traz tempo de veiculação de anúncio no Meta, que era o sinal preferido. Vale repetir a verificação com login de um computador do Brasil. Para não repetir, as fichas não mencionam esse bloqueio uma a uma.
 - **Wayback Machine (histórico das páginas):** a conexão com web.archive.org caiu no proxy do ambiente. Não deu para medir há quanto tempo cada página está no ar.
 - **Região:** o ambiente acessa a internet por fora do Brasil. Alguns sites mostram aviso de região (Insider) e alguns conteúdos podem variar por país.
 - **Seções animadas:** páginas que mostram conteúdo só durante a rolagem foram capturadas no modo "costura". Mesmo assim, uma seção do O Novo Mercado e o carrossel de vídeos da Fluency não aparecem nas imagens.

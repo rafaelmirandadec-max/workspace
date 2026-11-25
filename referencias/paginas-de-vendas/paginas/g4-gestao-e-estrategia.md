@@ -11,13 +11,12 @@
 
 É a referência da lista para venda de alto valor a empresário: visual sóbrio de escola de negócios (azul-petróleo, dourado, serifa), texto que fala de margem, governança e sucessão, e um caminho de compra por formulário. Nada de contagem regressiva ou depoimento de faturamento.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO (dado da empresa publicado pela imprensa)** — "G4 Educação cresce 60% e fatura R$ 500 milhões em 2025" (Veja, coluna Radar Econômico, fim de 2025). Mesma informação replicada em vários portais.
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 400 anúncios" apontando para g4business.com, anunciante verificado (consulta em 25/11/2026).
+- **PISTA forte (número declarado pela empresa e publicado pela imprensa)** — Cerca de R$ 500 milhões de faturamento em 2025. A Veja (coluna Radar Econômico, 12/2025) publicou como previsão de fechamento ("deve encerrar 2025 com um faturamento de 500 milhões de reais"); coluna posterior do InfoMoney fala em cerca de R$ 505 milhões (indicação do revisor).
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 400 anúncios" apontando para g4business.com, anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — A home do G4 mostra o programa irmão G4 Gestão de Pessoas com nota "9.4 · ALUNOS RECOMENDAM" (dado da empresa).
 - **PISTA** — O G4 Gestão e Estratégia é o programa em destaque na home ("Sua empresa parou de crescer... Em 4 dias, você sai com um plano"), o que indica ser o carro-chefe presencial.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente).
 
 ## Anatomia da página (na ordem em que aparece)
 

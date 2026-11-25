@@ -11,13 +11,14 @@
 
 É a página com a direção de arte mais forte da lista: tipografia condensada em caixa alta, roxo e amarelo, foto de rosto com expressão e campanha com nome próprio ("Black Fluency"). Mostra captura de pré-venda feita com o mesmo cuidado de uma página de vendas.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — A Fluency Academy atingiu meio bilhão de reais em faturamento líquido na Hotmart, primeira edtech a chegar a esse patamar na plataforma (press.hotmart.com, "Gigante do ensino de idiomas online, Fluency Academy atinge meio bilhão de reais de faturamento líquido na Hotmart"). Também está na lista Hotmart Galaxy 2026 (Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026), com "mais de 450 mil alunos em mais de 70 países".
-- **FATO** — Central de Transparência de Anúncios do Google: "cerca de 4 mil anúncios" apontando para fluency.io, anunciante verificado (consulta em 25/11/2026).
+- **FATO (dado oficial da Hotmart)** — A Fluency Academy atingiu meio bilhão de reais em faturamento líquido acumulado na Hotmart (soma de todos os anos, não faturamento anual), primeira edtech a chegar a esse patamar na plataforma. Anunciado em 28/08/2025, no FIRE (press.hotmart.com, "Gigante do ensino de idiomas online, Fluency Academy atinge meio bilhão de reais de faturamento líquido na Hotmart"; data indicada pelo revisor).
+- **FATO (lista oficial da Hotmart)** — Está na lista Hotmart Galaxy 2026 (Forbes Brasil, conteúdo patrocinado da Hotmart, 29/04/2026). Prova a posição no ranking da plataforma, não um valor de faturamento. A mesma matéria cita "mais de 450 mil alunos em mais de 70 países" (número da empresa).
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: "cerca de 4 mil anúncios" apontando para fluency.io, anunciante verificado (consulta em 25/11/2026).
 - **PISTA** — Na página: "+ 450 MIL ALUNOS", "52% dos alunos se sentem confiantes para falar em apenas 6 meses", "8 em 10 sentem que perderam o medo de falar", "4,85 é a nota média das nossas aulas". Sem fonte ou metodologia na página.
 - **PISTA** — O link de entrada traz `utm_campaign=ESPERA26|...|2CAP|PORTAL`: a captura de lista de espera é uma campanha organizada, com nomenclatura de rastreamento.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente). Reclamações de cobrança aparecem no Reclame Aqui (busca de 25/11/2026), o que vale como alerta de operação, não de página.
+- **Observação** — Reclamações de cobrança aparecem no Reclame Aqui (busca de 25/11/2026), o que vale como alerta de operação, não de página.
 
 ## Anatomia da página (na ordem em que aparece)
 
@@ -46,7 +47,7 @@
 ## O que dá para modelar sem copiar
 
 - Dar nome à campanha ("Black + marca") e construir a dobra em volta dela.
-- Garantia dupla: satisfação (prazo legal) + garantia condicionada ao esforço do aluno, com compensação.
+- Garantia dupla: satisfação (os 7 dias são o direito de arrependimento do CDC, art. 49, não um diferencial) + garantia condicionada ao esforço do aluno, com compensação. Duas ressalvas: em saúde, garantia de resultado é proibida (skill `conformidade`); em qualquer nicho, a condição precisa estar escrita na página, porque a oferta divulgada obriga quem anuncia (CDC, art. 30, conferido pelo revisor).
 - Prova em números de resultado do aluno (confiança, medo de falar) em vez de número de vendas.
 - Captura de pré-venda com página de vendas completa: o lead chega à abertura sabendo o que é o produto.
 

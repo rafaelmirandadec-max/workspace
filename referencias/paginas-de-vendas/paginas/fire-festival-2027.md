@@ -11,13 +11,12 @@
 
 É a referência de página de evento da lista: identidade visual de festival (preto, laranja, crachá como objeto da dobra), números do evento logo no topo, trilhas de conteúdo, comparação de ingressos clara e bônus para quem compra agora, a nove meses do evento.
 
-## Sinais de conversão
+## Sinais de que a empresa vende (não medem a conversão da página)
 
-- **FATO** — Ao longo de 11 edições, o FIRE recebeu mais de 42 mil participantes presenciais; a edição de 2026 reuniu cerca de 10 mil participantes de mais de 30 países, 71% tomadores de decisão (press.hotmart.com, "Hotmart FIRE 2026 celebra a consolidação da IA..."; Estado de Minas, 09/2026). Dados da organizadora, publicados pela imprensa.
+- **PISTA forte (número declarado pela organizadora e publicado pela imprensa)** — Ao longo de 11 edições, o FIRE recebeu mais de 42 mil participantes presenciais; a edição de 2026 reuniu cerca de 10 mil participantes de mais de 30 países, 71% tomadores de decisão (press.hotmart.com, "Hotmart FIRE 2026 celebra a consolidação da IA..."; Estado de Minas, 09/2026).
 - **PISTA** — Site de notícias do setor informou que a edição de 2026 chegou com "mais de 95% dos ingressos vendidos" (melhoresplataformas.com.br, 2026). Fonte única, não conferida.
-- **FATO** — Central de Transparência de Anúncios do Google: 25 anúncios apontando para hotmart.app (consulta em 25/11/2026). Volume baixo, coerente com evento que vende muito pela base própria da Hotmart (suposição).
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: 25 anúncios apontando para hotmart.app (consulta em 25/11/2026). Volume baixo, coerente com evento que vende muito pela base própria da Hotmart (suposição).
 - **PISTA** — Evento recorrente há mais de dez anos, com venda de ingresso aberta logo após a edição anterior: sinal de que o modelo de pré-venda funciona para eles.
-- **Não verificado** — Biblioteca de Anúncios do Meta (bloqueada neste ambiente).
 
 ## Anatomia da página (na ordem em que aparece)
 
