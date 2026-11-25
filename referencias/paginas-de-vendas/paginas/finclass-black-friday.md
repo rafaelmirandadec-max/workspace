@@ -47,7 +47,6 @@
 
 - Os valores "de" de vários itens (R$ 3.000 por uma carteira, R$ 1.997 por um curso) são preços de referência da própria empresa; a soma de R$ 12.632,80 é âncora, não preço praticado. Ao modelar, só usar valor avulso que de fato é cobrado.
 - Muitos itens de bônus sem relação com o produto principal (curso de vendas de Jordan Belfort, financiamento de casa), o que dilui a promessa.
-- Aviso de cookies grande sobre o formulário na captura.
 
 ## Cuidado de conformidade
 
