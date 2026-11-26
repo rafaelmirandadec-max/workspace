@@ -6,6 +6,8 @@
 **Ticket visível:** "por apenas 12x de R$ 39,90 ou à vista de R$ 478,80" (plano anual), "De R$ 79,90" por mês; pilha de valor somando "Total: R$ 12.632,80"
 **Lida em:** 25/11/2026, 15h47 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/finclass-black-friday-desktop.jpg) · [celular](../capturas/finclass-black-friday-mobile.jpg)
+**Autoridade prévia:** alta — empresa do Grupo Primo, de Thiago Nigro, apresentado na página como "maior influenciador de finanças do mundo".
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** a maior parte. A página é de pré-cadastro para um dia de vendas e conta com a audiência do Thiago Nigro. Apoio: formato de lista de espera e professores famosos como argumento central.
 
 ## Por que está aqui
 

@@ -6,6 +6,8 @@
 **Ticket visível:** "Assinatura Anual. Você entra hoje por: R$139/mês em pagamento único de 12x no cartão de crédito"; faixa do topo anuncia "o primeiro acesso vitalício da história d'O Novo Mercado — POR TEMPO LIMITADO" (oferta de Black Friday)
 **Lida em:** 25/11/2026, 15h45 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/o-novo-mercado-desktop.jpg) · [celular](../capturas/o-novo-mercado-mobile.jpg) — feitas no modo "costura". Uma seção com animação presa à rolagem ("túnel do tempo") aparece como um bloco preto longo; é limitação da captura, não da página.
+**Autoridade prévia:** alta — um dos 25 maiores faturamentos da Hotmart; escola de Ícaro de Carvalho, com mais de 10 anos de mercado.
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** a maior parte. Nenhum anúncio no Google para o domínio, então a venda vem da base e do conteúdo próprio. Apoio: contagem zerada na Central de Transparência e a oferta de "acesso vitalício" típica de venda para base.
 
 ## Por que está aqui
 

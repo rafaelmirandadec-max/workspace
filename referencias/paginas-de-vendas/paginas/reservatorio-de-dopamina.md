@@ -6,6 +6,8 @@
 **Ticket visível:** "R$ 497 à vista ou 12 x R$ 44,90"
 **Lida em:** 25/11/2026, 15h44 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/reservatorio-de-dopamina-desktop.jpg) · [celular](../capturas/reservatorio-de-dopamina-mobile.jpg)
+**Autoridade prévia:** alta — um dos 25 maiores faturamentos da Hotmart; o fundador é figura conhecida em conteúdo de saúde mental (audiência não medida nesta pesquisa).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** a maior parte. A página é curta, sem vídeo e com pouca argumentação: funciona para quem já chega convencido pelo conteúdo do Eslen. Apoio: estrutura da página e posição no ranking da Hotmart.
 
 ## Por que está aqui
 

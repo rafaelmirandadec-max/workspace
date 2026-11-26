@@ -6,6 +6,8 @@
 **Ticket:** não aparece (a FAQ tem a pergunta "Quanto custa o curso de inglês da Fluency?", fechada no acordeão; não foi aberta)
 **Lida em:** 25/11/2026, 15h45 (horário de Brasília), status 200 — em versão de Black Friday ("Últimos dias!")
 **Capturas:** [desktop](../capturas/fluency-ingles-black-desktop.jpg) · [celular](../capturas/fluency-ingles-black-mobile.jpg) — capturadas no modo "costura" porque várias seções só aparecem com a rolagem
+**Autoridade prévia:** alta — faturamento líquido acumulado de meio bilhão de reais na Hotmart; professores com grande audiência própria (Rhavi Carneiro, Gêmeas do Inglês).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. A captura é para "turma limitada de Black Friday", campanha para base já aquecida. Apoio: formato de pré-venda e professores-celebridade no menu da página.
 
 ## Por que está aqui
 

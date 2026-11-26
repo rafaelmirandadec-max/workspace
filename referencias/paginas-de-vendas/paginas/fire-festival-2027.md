@@ -6,6 +6,8 @@
 **Ticket visível:** VIP "12x de R$ 226 / R$ 2.707 à vista"; BIZ "12x de R$ 101 / R$ 1.207 à vista" (condições de Black November)
 **Lida em:** 25/11/2026, 15h46 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/fire-festival-2027-desktop.jpg) · [celular](../capturas/fire-festival-2027-mobile.jpg)
+**Autoridade prévia:** alta — evento da Hotmart, com 11 edições e cerca de 10 mil participantes por ano (declarado).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** a maior parte. Evento recorrente da maior plataforma do setor vende para a própria base de produtores. Apoio: poucos anúncios no Google (25) e venda aberta logo após a edição anterior.
 
 ## Por que está aqui
 

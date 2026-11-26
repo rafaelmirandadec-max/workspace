@@ -6,6 +6,8 @@
 **Ticket:** não aparece na página. O cartão de oferta lista o que vem no acesso, mas o preço só aparece no checkout (não aberto nesta pesquisa).
 **Lida em:** 25/11/2026, 15h43 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/vtsd-leandro-ladeira-desktop.jpg) · [celular](../capturas/vtsd-leandro-ladeira-mobile.jpg) (no celular a página tem cerca de 41 mil px de altura)
+**Autoridade prévia:** alta — um dos 25 maiores faturamentos da Hotmart (lista Galaxy 2026); a própria página declara mais de 2 milhões de seguidores no Instagram e mais de 1 milhão de inscritos no YouTube (PISTA, números da empresa).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. Quem chega à página costuma já conhecer o Ladeira pelo conteúdo, e a página usa a própria trajetória dele como argumento principal. Apoio: audiência declarada, poucos anúncios no Google (17 no total) e a história do autor ocupando um terço da página.
 
 ## Por que está aqui
 

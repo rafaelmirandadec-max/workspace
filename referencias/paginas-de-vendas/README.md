@@ -1,43 +1,112 @@
 # Biblioteca de páginas de vendas brasileiras
 
-Coletada em 25/11/2026 (leituras entre 15h40 e 16h10, horário de Brasília) · 14 páginas · Responsável: @researcher · Revisada em 25/11/2026 (parecer em [revisao.md](revisao.md), correções aplicadas)
+Primeira leva coletada em 25/11/2026 (14 páginas de marcas fortes) e revisada no mesmo dia ([revisao.md](revisao.md)). Segunda leva coletada em 26/11/2026, entre 09h45 e 10h00, horário de Brasília (9 páginas sem marca forte). Responsável: @researcher.
 
-**Leia antes:** os sinais desta biblioteca mostram que as **empresas** por trás das páginas faturam e compram mídia (lista de maiores faturamentos da Hotmart, resultados publicados, contagem de anúncios no Google). **Nenhum sinal mostra a conversão medida de cada página**, porque nenhuma delas publica esse número. Uma empresa que vende muito pode ter uma página fraca. A biblioteca reúne páginas bem desenhadas de empresas que vendem muito, não páginas com conversão comprovada.
+## Leia antes
+
+O Rafael corrigiu o critério: **"quem tem autoridade não precisa de uma página bonita e bem feita para vender."** Por isso a biblioteca agora tem dois grupos.
+
+- **Páginas que vendem sem marca forte (seção principal).** Empresas ou especialistas com autoridade prévia baixa ou média (sem reconhecimento nacional, público próprio pequeno ou médio), que compram mídia para a página e mesmo assim se mantêm. Aqui a página faz mais trabalho de venda, então ela serve de referência de **conversão** e de design.
+- **Marcas fortes: referência de design, não de conversão.** As 14 páginas da primeira leva. A venda delas vem em boa parte da marca, então servem para acabamento e organização, não como prova de que a página converte sozinha.
+
+O que os sinais provam, nos dois grupos: **nenhuma página tem taxa de conversão publicada, e nenhuma foi estimada.** O melhor sinal disponível para o grupo sem marca forte é **anúncio pago contínuo** para o domínio na Central de Transparência de Anúncios do Google, verificado em três janelas (novembro de 2025, maio de 2026 e os últimos 30 dias). Quem não tem marca vive de tráfego pago, e anúncio mantido por um ano costuma ser o que se paga; mas isso continua sendo indício, não medida. A Biblioteca de Anúncios do Meta, que mostraria o mesmo para Facebook e Instagram, segue bloqueada neste ambiente (ver "Bloqueios").
+
+Cada ficha traz o campo **"Autoridade prévia"** (alta, média ou baixa, com a fonte do tamanho da audiência) e **"Quanto da conversão vem da marca"** (SUPOSIÇÃO, com o apoio indicado).
 
 ## Para que serve
 
-Referência de estrutura, copy e design para as próximas páginas do squad. Cada página tem uma ficha com a anatomia seção por seção (com headline e subheadline literais), o que o design faz bem, o que dá para modelar sem copiar, os pontos fracos e os sinais de que a empresa vende. As fichas de saúde, finanças e renda têm uma seção "Cuidado de conformidade" que deve ser lida antes de modelar. As capturas em desktop (1440 px) e celular (390 px) estão em `capturas/`.
+Referência de estrutura, copy e design para as próximas páginas do squad. Cada página tem uma ficha com a anatomia seção por seção (com headline e subheadline literais), o que o design faz bem, o que dá para modelar sem copiar, os pontos fracos e os sinais de venda. As fichas de saúde, finanças e renda têm uma seção "Cuidado de conformidade" que deve ser lida antes de modelar. As capturas em desktop (1440 px) e celular (390 px) estão em `capturas/`.
 
-O resumo do que se repete nessas páginas e um checklist para usar nas próximas páginas estão em [padroes.md](padroes.md).
+O que se repete nos dois grupos, o que as páginas sem marca forte fazem a mais e um checklist estão em [padroes.md](padroes.md).
 
 ## Como usar
 
 - **Copywriter:** antes de escrever, abra as fichas do mesmo tipo de oferta (cartões abaixo) e leia a "Anatomia". A ordem das seções e as headlines literais são o material mais útil. Não copie frases; use a estrutura.
 - **Quem desenha a página:** abra as capturas lado a lado (desktop e celular) e leia "O que o design faz bem". As capturas são longas; abra no navegador e use zoom.
 - **Revisor:** as seções "Pontos fracos" e "Cuidado de conformidade" listam o que não deve ser modelado.
-- **Para capturar uma página nova:** `node referencias/paginas-de-vendas/capturar.mjs <slug> <url>`. Opções no topo do arquivo `capturar.mjs` (modo "costura" para páginas com animação, `--clicar` e `--esconder` para pop-ups). Nesta coleta, O Novo Mercado, Fluency e Nuvemshop foram capturadas com `--modo=costura`; a Insider, com `--esconder='[class*="cozy-crd"], .needsclick, .cc-window'` e, no celular, também com `--modo=costura`. As demais, com o comando simples.
+- **Para capturar uma página nova:** `node referencias/paginas-de-vendas/capturar.mjs <slug> <url>`. Opções no topo do arquivo `capturar.mjs` (modo "costura" para páginas com animação, `--clicar` e `--esconder` para pop-ups). Na primeira leva, O Novo Mercado, Fluency e Nuvemshop foram capturadas com `--modo=costura`; a Insider, com `--esconder='[class*="cozy-crd"], .needsclick, .cc-window'` e, no celular, também com `--modo=costura`. Na segunda leva, todas foram capturadas com `--modo=costura` (a Macchi, no desktop, com o comando simples).
 
 ## Critérios de seleção
 
 1. Página brasileira, em português, no ar na data da leitura (status 200, lida pelo navegador do ambiente).
 2. Design profissional, julgado nas capturas: hierarquia clara, tipografia e espaçamento cuidados, boa versão no celular, seções bem resolvidas.
-3. Pelo menos um sinal público de que a empresa vende. Como taxa de conversão quase nunca é pública, os sinais são indiretos e vêm marcados assim:
+3. Pelo menos um sinal público de venda. Como taxa de conversão quase nunca é pública, os sinais são indiretos e vêm marcados assim:
    - **FATO (dado oficial de companhia aberta)**: número de release de resultados de empresa listada em bolsa (só a Smart Fit).
    - **FATO (lista oficial da Hotmart)** e **FATO (dado oficial da Hotmart)**: ranking Hotmart Galaxy 2026 dos 25 maiores faturamentos da plataforma e marcos de faturamento anunciados pela Hotmart. A Hotmart processa as vendas, então é a fonte oficial desses dados; mas não é auditoria independente, e a lista prova a posição no ranking, não um valor.
-   - **FATO (contagem nesta pesquisa)**: número de anúncios na Central de Transparência de Anúncios do Google, consultado por nós em 25/11/2026.
+   - **FATO (contagem nesta pesquisa)**: número de anúncios na Central de Transparência de Anúncios do Google, consultado por nós em 25/11/2026 (primeira leva) e 26/11/2026 (segunda leva, com as três janelas de data).
    - **PISTA forte (número declarado pela empresa e publicado pela imprensa)**: faturamento, membros ou alunos que a empresa contou a um jornal. É declaração da empresa, sem auditoria, mesmo quando sai em veículo grande.
    - **PISTA**: o que a empresa diz de si na própria página (número de alunos, nota, "a maior do Brasil") ou fonte única não conferida.
    - **SUPOSIÇÃO**: leitura do pesquisador, com o apoio indicado.
    - **Nenhuma ficha traz taxa de conversão.** Nenhuma das páginas publica esse número, e ele não foi estimado.
-4. Variedade de tipos de oferta (inclusive produto físico de marca que vende direto ao consumidor, chamado de DTC, e software por assinatura, chamado de SaaS). A quantidade foi decidida pela qualidade (14), não por cota.
+4. Variedade de tipos de oferta (inclusive produto físico de marca que vende direto ao consumidor, chamado de DTC, e software por assinatura, chamado de SaaS). A quantidade foi decidida pela qualidade, não por cota.
+5. **Segunda leva:** autoridade prévia baixa ou média e, de preferência, anúncio pago contínuo para a página. Prioridade para saúde e clínicas.
 
-**Sobre a contagem de anúncios do Google:** a Central de Transparência mostra quantos anúncios já apontaram para o domínio (filtro "qualquer horário"). Mostra que há investimento em mídia, não que a página converte, e conta o domínio inteiro, não só a página.
+**Sobre a contagem de anúncios do Google:** a Central de Transparência mostra quantos anúncios já apontaram para o domínio (filtro "qualquer horário") e permite filtrar por período. Na segunda leva, contamos três janelas: 01 a 30/11/2025, 01 a 31/05/2026 e 26/10 a 25/11/2026. Anúncio nas três janelas é chamado de "contínuo" nas fichas. Isso mostra investimento em mídia ao longo do ano, não que a página converte, e conta o domínio inteiro, não só a página. A Central só cobre anúncios do Google (busca, YouTube, Shopping, display); quem anuncia só no Meta aparece com zero.
 
 ## Contexto da coleta (importante)
 
-A coleta foi feita na semana da Black Friday. Sete das 14 páginas estavam com faixa, preço ou campanha de Black Friday (Hashtag, O Novo Mercado, Fluency, G4, FIRE, Insider e Finclass). As fichas indicam isso. A estrutura das páginas é a de sempre, mas preços, contagens regressivas e bônus podem mudar depois de novembro.
+As duas levas foram feitas na semana da Black Friday. Na primeira, sete das 14 páginas estavam com faixa, preço ou campanha de Black Friday (Hashtag, O Novo Mercado, Fluency, G4, FIRE, Insider e Finclass). Na segunda, duas das 9 (Marcenaria 4.0 e a home da Macchi, com roleta de desconto). As fichas indicam isso. A estrutura das páginas é a de sempre, mas preços, contagens regressivas e bônus podem mudar depois de novembro.
 
-## As páginas
+## Páginas que vendem sem marca forte
+
+Segunda leva (26/11/2026). Autoridade prévia baixa ou média e, na maioria, anúncio pago contínuo para a página. Prioridade para saúde, porque o Rafael atende clínicas: 6 das 9 são de saúde ou estética e têm a seção "Cuidado de conformidade".
+
+### Saúde e clínicas
+
+**Harmony Transplante Capilar**
+Rede regional de 8 unidades, captação de avaliação com formulário na dobra · https://harmonytransplante.com/
+Autoridade baixa (Instagram com cerca de 4,8 mil seguidores). Anúncios no Google nas três janelas (25 no total). Preto e dourado, antes e depois com controle deslizante, unidades com foto da fachada, responsáveis técnicos com CRM e UF.
+[Ficha](paginas/harmony-transplante-capilar.md)
+
+**Cirurgia refrativa — Centro Brasileiro de Laser**
+Clínica de unidade única em São Paulo, preço na headline · https://centrobrasileirolaser.com.br/
+Autoridade baixa (cerca de 3,2 mil seguidores). Anúncios no Google nas três janelas (12 no total, mais concentrados em maio). Vende por clareza: "a partir de R$ 3.500", consulta de R$ 150, etapas e para quem é. Cuidado com preço e imagens ilustrativas de "antes e depois".
+[Ficha](paginas/centro-brasileiro-de-laser.md)
+
+**Lentes de porcelana — Dr. Lucas Firmino**
+Clínica de odontologia estética em Belo Horizonte · https://drlucasfirmino.com.br/
+Autoridade média (aparece em matérias de TV e revista, citadas na página). Anúncios no Google nas três janelas (17 no total). Fundo preto, grade de sorrisos e processo em três consultas. Cuidado: "satisfação garantida" e superlativos.
+[Ficha](paginas/lentes-dr-lucas-firmino.md)
+
+**Harmonização facial — Clínica Harmê**
+Profissional local em Santa Maria (RS) · https://harmeclinica.com.br/
+Autoridade baixa (cerca de 3,5 mil seguidores). Anúncios no Google em novembro de 2025 e nos últimos 30 dias (20 no total). Página simples e curta que se mantém com mídia; serve mais de estrutura mínima e de lista do que não copiar em conformidade.
+[Ficha](paginas/harme-clinica-harmonizacao.md)
+
+**Acompanhamento para emagrecimento — Instituto Balance**
+Clínica médica em São Paulo, captação por WhatsApp · https://balanceinstitute.com.br/acompanhamento
+Autoridade baixa (cerca de 6,9 mil seguidores). Sinal de mídia fraco no Google (12 anúncios, só em maio de 2026). Design mais refinado da leva, tom contra a promessa fácil, calculadora com aviso, diretor técnico com CRM e UF.
+[Ficha](paginas/instituto-balance-emagrecimento.md)
+
+**Sou Coluna**
+Rede de 13 clínicas de tratamento de coluna, agendamento de consulta · https://soucoluna.com/
+Autoridade média (cerca de 118 mil seguidores no perfil nacional). Sem anúncios no Google; sinal de mídia não verificado (provavelmente Meta). Melhor experiência de leitura da coleta: mapa interativo da coluna, história de paciente em capítulos, primeira consulta passo a passo.
+[Ficha](paginas/sou-coluna.md)
+
+### Infoproduto de nicho
+
+**Marcenaria 4.0**
+Curso de marcenaria para iniciantes com ferramenta incluída · https://cursodemarcenaria.com/
+Autoridade baixa a média (canal de nicho no YouTube). Anúncios no Google nas três janelas (33 no total), e o rodapé cita anúncios no Facebook. A melhor página da biblioteca para infoproduto vendido a quem não conhece o autor: curta, preço na dobra, caso com números ("A marcenaria orçou R$ 9.000. O aluno fez por R$ 3.500.").
+[Ficha](paginas/marcenaria-4-0.md)
+
+### Evento e high ticket
+
+**Imersão Imperium — Eduardo Arruda**
+Imersão presencial de 2 dias, 7ª edição, porta de entrada para mentoria high ticket · https://imersaoimperium.com.br/
+Autoridade baixa (cerca de 6,3 mil seguidores). Sem anúncios no Google; o sinal é a 7ª edição (PISTA). Preto e dourado, fotos reais de edições anteriores, programação por dia e dois ingressos com preço. Cuidado com a promessa de renda na headline.
+[Ficha](paginas/imersao-imperium.md)
+
+### Produto físico de marca pequena (DTC)
+
+**Par de alianças — Macchi**
+Página de produto personalizado de joalheria online · https://www.macchi.com.br/produtos/flash-par-de-aliancas-joy-ouro-18k/
+Autoridade média (cerca de 88 mil seguidores). O sinal de mídia mais forte da leva: anúncios no Google nas três janelas, crescendo (52, 61 e 72 anúncios). Design limpo mas simples; vale pela caixa de compra de produto personalizado. Categoria mais fraca da leva.
+[Ficha](paginas/macchi-aliancas.md)
+
+## Marcas fortes: referência de design, não de conversão
+
+Primeira leva (25/11/2026). São páginas de empresas com autoridade prévia alta (13 de 14; a Alice é média). Nelas, boa parte da venda provavelmente vem da marca, da audiência ou da base própria, e não da página (cada ficha diz quanto, como SUPOSIÇÃO). Use-as como referência de **design, organização e acabamento**, não como prova de que a página converte sozinha.
 
 ### Infoproduto / curso
 
@@ -129,6 +198,19 @@ Fotografia de marca forte, produto mostrado em uso e tabela de planos com plano 
 
 ## Avaliadas e deixadas de fora
 
+**Segunda leva:**
+- **Imersão SST (Joelma Kalil)** — evento de nicho para empresários de saúde e segurança do trabalho, bem desenhado, mas a anfitriã tem cerca de 420 mil seguidores (resumo de busca): autoridade alta no nicho, fora do critério. Foi capturada e depois retirada.
+- **IMR 2026 (Enjoy Business, ES)** — evento já realizado (23 e 24/09/2026), mas a página ainda anunciava "lote 1 aberto" em 26/11/2026.
+- **Mais Cabello** — rede de mais de 30 unidades com celebridades na página: autoridade alta.
+- **ITC Vertebral** — muitos anúncios no Google (cerca de 700), mas é rede nacional conhecida; não foi analisada a fundo.
+- **Vegpet (ração Bicho Green)** — anúncios contínuos no Google (21) e case da Nuvemshop, mas página de produto de loja padrão, abaixo do critério de design.
+- **Afinemed, Aidoo, Clínica PACE, Sou Menos Peso, Medli (emagrecimento)** — bom design, mas sem anúncios no Google e sem outro sinal verificável. Aidoo cita nomes de medicamentos na página, o que a skill `conformidade` veta.
+- **Do Zero ao Barbeiro, Patrícia Brüske (confeitaria), Danielle Morelli e Dentista Marketeiro (mentorias para dentistas), Imersão Mestre, Varejo Raiz** — sem anúncios no Google ou só em uma janela; sinal insuficiente.
+- **Ocular Laser Brasil** — 20 anúncios contínuos no Google, mas a página entrou em loop de redirecionamento no navegador do ambiente e não foi lida.
+- **Hair Fue, FUE Capilar, Capilclinic, Refrativa Clinic, Clínica Lorandi, Dra. Juliana Galan, Executive Checkup, Clínica Coluna SP, Dr. Haruo Nishimura** — sem anúncios (ou só um) no Google.
+
+**Primeira leva:**
+
 - **Fórmula de Lançamento (lista de espera), Érico Rocha** — no ar e de player relevante (Hotmart Galaxy 2026), mas o design é mais genérico que o da lista de espera do Subido, que cumpre o mesmo papel.
 - **Brasil Paralelo (página de planos de assinatura)** — oferta simples e direta, mas a captura no celular saiu com seções em branco e o design não acrescenta ao que Smart Fit e Finclass já mostram.
 - **Zissou (página de produto de colchão)** — página de produto padrão de loja, com pouco a modelar além do que a Insider mostra.
@@ -137,8 +219,10 @@ Fotografia de marca forte, produto mostrado em uso e tabela de planos com plano 
 
 ## Bloqueios e limites desta coleta
 
-- **Biblioteca de Anúncios do Meta:** devolveu erro 403 e nenhum resultado para qualquer busca, inclusive "nubank", em 25/11/2026. Por isso nenhuma ficha traz tempo de veiculação de anúncio no Meta, que era o sinal preferido. Vale repetir a verificação com login de um computador do Brasil. Para não repetir, as fichas não mencionam esse bloqueio uma a uma.
+- **Biblioteca de Anúncios do Meta:** devolveu erro 403 e nenhum resultado para qualquer busca, inclusive "nubank", em 25/11/2026. Em 26/11/2026 tentei de novo por outros caminhos (versão m.facebook.com com navegador de celular, pt-br.facebook.com e busca em inglês com país "ALL"): a página carrega, mas a consulta interna não devolve anúncios sem login. Por isso nenhuma ficha traz tempo de veiculação de anúncio no Meta, que era o sinal preferido. Vale repetir a verificação com login de um computador do Brasil. Para não repetir, as fichas não mencionam esse bloqueio uma a uma.
 - **Wayback Machine (histórico das páginas):** a conexão com web.archive.org caiu no proxy do ambiente. Não deu para medir há quanto tempo cada página está no ar.
 - **Região:** o ambiente acessa a internet por fora do Brasil. Alguns sites mostram aviso de região (Insider) e alguns conteúdos podem variar por país.
 - **Seções animadas:** páginas que mostram conteúdo só durante a rolagem foram capturadas no modo "costura". Mesmo assim, uma seção do O Novo Mercado e o carrossel de vídeos da Fluency não aparecem nas imagens.
+- **Lacunas da segunda leva:** 9 páginas, abaixo da faixa de 10 a 15 pedida (teto, não cota). Faltaram uma página de captura de isca de marca pequena com sinal verificável, uma mentoria high ticket com página própria e sinal, e uma DTC pequena com design forte (a Macchi é simples). A principal causa é o bloqueio do Meta: muitos pequenos anunciam só no Facebook e no Instagram e aparecem com zero no Google. Estudos de caso de agências com taxa de conversão publicada não citavam o cliente ou a URL, então não serviram.
+- **Audiência:** os números de seguidores vêm do resumo da busca (Instagram bloqueia sem login), sem data; são PISTA.
 - **Checkout não aberto:** preços que só aparecem no checkout (VTSD, por exemplo) ficaram como "não aparece na página".

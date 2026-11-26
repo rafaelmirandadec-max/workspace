@@ -6,6 +6,8 @@
 **Ticket:** não aparece (carrinho fechado)
 **Lida em:** 25/11/2026, 15h45 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/comunidade-subido-lista-de-espera-desktop.jpg) · [celular](../capturas/comunidade-subido-lista-de-espera-mobile.jpg)
+**Autoridade prévia:** alta — Pedro Sobral está entre os 25 maiores faturamentos da Hotmart; a página declara 50 mil membros ativos.
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. É lista de espera de lançamento, e lançamento vende para a audiência aquecida pelo autor. Apoio: formato de carrinho fechado e prova centrada na comunidade.
 
 ## Por que está aqui
 
