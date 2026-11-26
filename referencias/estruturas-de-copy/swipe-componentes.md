@@ -14,19 +14,19 @@ Faz: em três frases, dá o mercado, a dor de quem já atua e um risco novo. Fal
 **V01 · formacao.biofao.org.br**
 > "Todo médico conhece o paciente que volta com o mesmo quadro, depois de tudo bem conduzido."
 
-Faz: uma cena que o leitor já viveu, sem culpá-lo ("depois de tudo bem conduzido"). É a abertura mais segura da coleta para público de saúde.
+Faz: uma cena que o leitor já viveu, sem culpá-lo ("depois de tudo bem conduzido"). Saúde: modelo de abertura para público médico; a página tem ressalvas de conformidade (ver `saude.md`).
 
-**E01 · drjosenasser.substack.com (convite por newsletter, 14/11/2026)**
+**E01 · drjosenasser.substack.com (convite por newsletter, 14/11/2026)** · saúde: modelo de abertura, não da peça nem do autor
 > "Sabia que, em alguns casos, um câncer de pulmão muda de tipo durante o tratamento? Ele começa como um adenocarcinoma e, meses depois, uma nova biópsia mostra um câncer de pequenas células. Só que a mutação de origem continua a mesma.
 > É como se o tumor trocasse de identidade para sobreviver. E esse fenômeno ajuda a explicar uma das perguntas mais difíceis da oncologia: por que alguns tumores param de responder a um tratamento que antes funcionava?"
 
-Faz: curiosidade científica em terceira pessoa, imagem simples e a pergunta que a live vai responder. Não diagnostica nem assusta quem lê.
+Faz: curiosidade científica em terceira pessoa, imagem simples e a pergunta que a live vai responder, sem diagnosticar nem assustar quem lê. O resto da peça não se modela: termina com "No final, apresentarei o meu novo projeto sobre câncer." (oferta paga no fim de uma aula sobre câncer para leigos), e o autor assina "MD PHD", sem CRM nem a palavra MÉDICO.
 
-**C05 · saudemsp.com.br/voce-melhor-na-menopausa_lp1**
+**C05 · saudemsp.com.br/voce-melhor-na-menopausa_lp1** · saúde: com cuidado
 > "Por anos, te disseram que a menopausa é assim mesmo. Que não dormir é normal, que a barriga que cresceu não tem solução, que a memória falha porque é da idade, que o cansaço, a irritação, a falta de libido, tem que aceitar.
 > Mentira. A verdade é que esses sintomas NÃO aparecem porque a menopausa é assim. Eles aparecem porque os hormônios caem e o corpo muda e quando você entende isso, você pode fazer algo a respeito."
 
-Faz: lista do que a leitora já ouviu, virada e explicação. Forte em identificação. Em saúde, "você pode fazer algo a respeito" e, mais abaixo na página, "tem solução" insinuam resultado.
+Faz: lista do que a leitora já ouviu, virada e explicação. Forte em identificação. Em saúde, o texto em segunda pessoa afirma os sintomas da leitora, e "você pode fazer algo a respeito" e, mais abaixo, "tem solução" insinuam resultado. A estrutura se aproveita em terceira pessoa.
 
 **C11 · aicodingexperience.com.br**
 > "Jogar arquivos num chat e perguntar é RAG: a IA redescobre tudo do zero a cada pergunta e nada se acumula. No second brain, ela compila o conhecimento uma vez — resume, cruza referências, marca contradições — e mantém a wiki atualizada a cada fonte nova. Manter uma wiki sempre foi trabalho braçal. Agora quem faz é o agente."
@@ -39,7 +39,7 @@ Faz: o que você faz hoje → o limite → o novo jeito → por que agora.
 > Tome decisões importantes sozinho e só descubra o erro depois que ele custa tempo e dinheiro;
 > Delegue para gestores, vendedores e agências sem saber exatamente o que cobrar ou acompanhar; [...]"
 
-Faz: "Talvez hoje você" suaviza a identificação. Cada item é uma cena de gestão, não um rótulo.
+Faz: "Talvez hoje você" suaviza a identificação. Cada item descreve uma cena de gestão.
 
 **C03 · semana.voceportugues.com.br**
 > "Cidadania é decisão política, e governos mudam. A regra que vale para o seu processo é a do dia em que você protocola. A Semana existe para você entender o seu direito como ele é hoje, antes que mude de novo."
@@ -66,6 +66,7 @@ Faz: tira a culpa e troca a causa. A segunda e a terceira frase são informaçã
 **C01 · calculojuridico.com.br, aula 1**
 > "Por que o RPPS reúne mais demanda e menos concorrência do que qualquer outro nicho do previdenciário."
 > "As diferenças entre RPPS e RGPS que mudam a estratégia do caso desde a primeira reunião com o cliente."
+> [...]
 > "Os 3 erros que fazem o advogado perder o cliente servidor público para o INSS."
 > "Como identificar, na sua própria cidade, quais servidores já têm direito à aposentadoria."
 
@@ -74,6 +75,7 @@ Faz: tira a culpa e troca a causa. A segunda e a terceira frase são informaçã
 > "Quais documentos pedir ao servidor e como pedir sem travar o atendimento."
 > "Cálculo ao vivo, dentro do Cálculo Jurídico, com um caso do escritório da Bruna."
 > "Quanto cobrar por esse serviço e como apresentar o valor ao cliente."
+> [...]
 
 Faz: cada item tem um gancho (por que, os 3 erros, na sua cidade, quanto cobrar) e um momento real do trabalho ("desde a primeira reunião", "sem travar o atendimento"). O produto de quem organiza a aula aparece no item ("dentro do Cálculo Jurídico") sem virar anúncio.
 
@@ -84,7 +86,7 @@ Faz: cada item tem um gancho (por que, os 3 erros, na sua cidade, quanto cobrar)
 > "Rastros de IA em peças periciais"
 > "O que o juízo efetivamente rejeita"
 
-Faz: fascinação por bastidor ("o que o juízo efetivamente rejeita") e por limite ("o que nunca delegar"). Promete critério, não atalho.
+Faz: fascinação por bastidor ("o que o juízo efetivamente rejeita") e por limite ("o que nunca delegar"). O que se promete é critério.
 
 **C03**
 > "Descubra se o seu perfil tem direito: filho, neto, bisneto ou cônjuge"
@@ -152,7 +154,7 @@ Faz: a última frase, de três palavras, cria identificação com o leitor (ela 
 
 Faz: a rotina de trabalho como prova ("12 horas por dia, de segunda a sábado").
 
-**C07 · psiquiatriadaobesidade.com.br**
+**C07 · psiquiatriadaobesidade.com.br** · saúde: modelo, com a ressalva da UF
 > "CRM 22.445 | RQE 16.557 / Dra. Izabela Saraiva / [...] Mãe do Matheus"
 
 Faz: registro em cima do nome e um detalhe pessoal no fim da lista. O CRM está sem UF.
@@ -163,7 +165,7 @@ Faz: registro em cima do nome e um detalhe pessoal no fim da lista. O CRM está 
 
 Faz: abre a apresentação respondendo a um preconceito do leitor e entra na história com números pequenos e concretos.
 
-**V01**
+**V01** · saúde: com cuidado (ver `saude.md`)
 > "“O médico tem que saber operar lá, no final da linha. Mas a gente também tem que saber operar onde começam as questões.”
 > Dra. Míria de Amorim"
 
@@ -212,7 +214,7 @@ Faz: tom pessoal. O problema não é o tom, é a página em volta (resultados em
 **Escassez com motivo**
 - C02: "Vagas limitadas pelo tamanho do grupo de WhatsApp / Para preservar a qualidade da transmissão e do atendimento durante o workshop, o número de participantes é controlado."
 
-Faz: a escassez vem com o motivo operacional. Compare com "As vagas são limitadas" sem motivo (C13) ou com o contador zerado (C06, C10, C12, C13).
+Faz: a escassez vem com o motivo operacional. Compare com "As vagas são limitadas" sem motivo (C13) ou com o contador zerado (C06, C10, C12, C13). Escassez que não é verdadeira é publicidade enganosa (CDC, art. 37).
 
 ---
 
@@ -227,10 +229,12 @@ Faz: a escassez vem com o motivo operacional. Compare com "As vagas são limitad
 > "Se você se identificou, não significa que precisa abandonar a medicina para virar administrador.
 > Mas precisa desenvolver raciocínio empresarial para validar estratégias, interpretar números, direcionar sua equipe e tomar as decisões que sustentam o crescimento."
 
-**Credibilidade em frases curtas (V01)**
+**Credibilidade em frases curtas (V01)** · saúde: modelar a forma, não a prova
 > "É sério. E dá pra colocar o seu CRM por trás." [...] "Não substitui a sua conduta / A metodologia se soma ao tratamento convencional. Você não abandona a sua especialidade nem suspende o que já está em curso."
 
-**Admitir a dificuldade (V01)**
+Entre as duas frases, a página põe a prova: "O Archeus é industrializado, com registro MS 1.5711.0001.001-2 (indicação registrada: ansiedade crônica), comprado com receita em farmácias parceiras." Medicamento do próprio instituto, comprado em "farmácias parceiras": o briefing da AndroClinic proíbe esse padrão (ver `saude.md`).
+
+**Admitir a dificuldade (V01)** · saúde: modelo de forma
 > "Não é simples. Mas você não estuda sozinho. / A formação pede dedicação de 3 a 4 horas por semana. Por isso, tudo foi pensado pra caber na rotina de quem tem consultório."
 
 **Para quem não é (C02)**
@@ -251,10 +255,10 @@ Faz: o último item é logístico e honesto. Exclui quem não vai aparecer.
 **Aviso que reduz a desconfiança (C08, rodapé)**
 > "Os resultados e cases apresentados nesta página são referentes a situações específicas e não constituem promessa ou garantia de resultado. Cada clínica tem sua própria realidade de mercado, equipe e investimento, e os resultados podem variar."
 
-**Prova sob pedido (V01)**
+**Prova sob pedido (V01)** · saúde: com cuidado
 > "As lâminas reúnem relatos de caso documentados por médicos BioFAO, com autor, tempo de acompanhamento e desfecho, feitos em paralelo ao tratamento convencional. Por serem material clínico, vão direto pro seu WhatsApp, só para médicos."
 
-Faz: a prova clínica não fica exposta na página; vai só para o público que pode recebê-la.
+Faz: a prova clínica não fica exposta na página e vai só para o público que pode recebê-la. Os depoimentos de colegas na mesma página ("É um caminho realmente extraordinário", "uma terapêutica onde a gente pode trabalhar sem intoxicar") não se modelam (art. 14, II, "g").
 
 ---
 
@@ -272,12 +276,12 @@ Faz: a prova clínica não fica exposta na página; vai só para o público que 
 **Garantia com a régua do CDC dita na página (V01)**
 > "Garantia de 15 dias / O dobro do prazo do Código de Defesa do Consumidor. Se nos primeiros 15 dias não fizer sentido pra você, devolvemos 100%."
 
-Faz: diz qual é o mínimo legal e quanto vai além dele. É o jeito honesto de destacar garantia (os 7 dias do CDC, art. 49, não são diferencial).
+Faz: diz qual é o mínimo legal e quanto vai além dele. Bom jeito de destacar garantia, porque os 7 dias do CDC (art. 49) são obrigação. A conta da página está imprecisa: 15 dias contra 7 é mais que o dobro.
 
 **Garantia de acompanhamento (V01)**
 > "12 meses de acompanhamento / Terminou o curso e ainda não se sente seguro pra prescrever? As lives de terça seguem abertas pra você até completar 12 meses da aula inaugural."
 
-Faz: garante processo (apoio), não resultado. É o modelo mais próximo do que a saúde permite.
+Faz: garante processo (apoio). É o modelo mais próximo do que a saúde permite.
 
 **Urgência por preço crescente (V01)**
 > "Cada turma nova abre com um valor maior que a anterior: a de julho custa mais que a de abril, a de outubro mais que a de julho e a de janeiro mais que a de outubro. Esperar sai mais caro."
@@ -296,7 +300,7 @@ Faz: urgência verificável, se a escada de preço for real.
 **Preço "de/por" (V05)**
 > "De 4.997,90 / Por: 12x de / R$:351,11 / ou R$: 3.497 à vista"
 
-Cuidado: preço "de" só se foi cobrado de fato (CDC, art. 37, § 1º; regra da biblioteca irmã).
+Cuidado: preço "de" só se foi cobrado de fato (leitura do CDC, art. 37, § 1º, que veda informação capaz de induzir em erro sobre o preço; regra da biblioteca irmã).
 
 **Transparência de preço em serviço (V06)**
 > "Nossos preços são 100% transparentes e não vamos cobrar nada além do combinado na etapa do fechamento."
@@ -331,7 +335,7 @@ Faz: grupo, aulas liberadas na hora, pesquisa e indicação, cada uma com o pró
 **O04 · saudemsp.com.br/obrigado**
 > "INSCRIÇÃO / 50% CONCLUÍDA / Falta só mais um passo! / Responda as perguntas abaixo para confirmar sua inscrição e ter acesso às aulas / É SUPER IMPORTANTE RESPONDER E DURA MENOS DE 1 MINUTO"
 
-Faz: condiciona a inscrição à pesquisa. Em saúde, pesquisa sobre sintomas é dado sensível (ver `saude.md`).
+Faz: condiciona a inscrição a uma pesquisa (as perguntas não apareceram no texto lido). Em saúde, qualquer pergunta sobre o caso é dado sensível (ver `saude.md`).
 
 **O05 · karinnaforlenza.com.br/masterclass-obrigado**
 > "PROGRESSO DA INSCRIÇÃO / 80% / Quase lá! Um último passo para garantir sua vaga. [...] Todas as informações da Masterclass serão enviadas somente lá. Sua participação nesse grupo é essencial — informaremos o dia, horário e link de acesso para o evento, além de conteúdos exclusivos."
@@ -364,3 +368,98 @@ Faz: custo da inação + o que se leva da aula. Em saúde, o custo da inação n
 > "“Não rompemos com a medicina.” Somamos a ela."
 
 Faz: escada de passos menores para quem ainda não vai comprar, e uma frase final que resume a posição.
+
+---
+
+## 9. Prova e depoimento
+
+**Números de trabalho feito, logo abaixo da dobra (C02)**
+> "+13 / ANOS ATUANDO EM PERÍCIA / +200 / LAUDOS PERICIAIS ASSINADOS / +2.000 / ALUNOS FORMADOS / +R$20mi / EM DANOS CALCULADOS"
+
+Faz: quatro números do ofício, todos do próprio perito. São PISTA (declarados pela página).
+
+**Dado oficial com fonte e período (C02)**
+> "Fonte dos números de processos: SireneJud, painel interativo nacional ambiental e interinstitucional do Conselho Nacional de Justiça, em sirenejud.cnj.jus.br. Estoque e casos novos conforme consulta ao painel."
+
+Faz: a fonte vem escrita embaixo do número, com o endereço.
+
+**Depoimento que conta o uso, não o resultado financeiro (C03)**
+> "Só com o que aprendi na aula, consegui achar e emitir a certidão de nascimento do europeu para dar entrada no meu processo." / "Sonia Colangero / Participante das aulas da Você Português"
+
+Faz: o depoimento prova que a aula ensina o passo prometido.
+
+**Prova de estrutura em página de saúde (K01)** · saúde: modelo
+> "Atualizado em 28 de agosto de 2026 | Revisado por Dr. Bruno Vedovato, CRM-SP 135284 | RQE 53514"
+> "Fontes e referências / Lei nº 14.510/2022 — Telessaúde / CFM — Resolução nº 2.314/2022 (Telemedicina)"
+
+Faz: data de revisão, médico responsável e normas citadas. É a prova que a régua de saúde permite.
+
+**Prova em números da página de serviço (V06)** · não modelar sem prova
+> "5.000+ / Sonhos Realizados / 100% / Processos Deferidos / 4.9/5 / Avaliações no Google"
+
+Faz: "100% Processos Deferidos" é afirmação forte sem fonte na página.
+
+**Depoimento com resultado em saúde (K03)** · saúde: não
+> "Minha experiência foi maravilhosa. 2 anos me sentindo doente... fadiga, falta de ar, taquicardia, indisposta para tudo. E no primeiro mês de tratamento com a Dra. Aline, me transformei em outra pessoa. e em 2 meses emagreci 15kg sem muito esforço e sofrimento."
+
+Regra: art. 14, II, "g", e art. 11, XII (ver `saude.md`).
+
+**Captura e venda na mesma página (V05)**
+> "Cronograma da mentoria / 25 de Fevereiro / Aula ao vivo / 25 de Fevereiro / Abertura do carrinho (Pós-aula) / 17 de Março / Carrinho fechado / 28 de Março / Inicio das aulas / 08 de Junho / Última aula / 14 de Junho / Encontro presencial"
+
+Faz: o cronograma inteiro do lançamento fica à vista na captura, com a data de abertura e de fechamento do carrinho.
+
+**Segmentação por caso na página de serviço (V06)**
+> "Qual é o seu caso? / Simplificamos todo o processo para você se tornar um cidadão português. [...] / Filho de português / Neto de Português / Bisneto de português / Nascido em Portugal / Casamento ou união estável / Tempo de residência / Visto Português / Outros"
+
+Faz: o leitor se encontra numa lista antes de ler o argumento.
+
+---
+
+## 10. Página de consulta médica
+
+Trechos das três páginas de consulta lidas. K01 e K02 são modelo de conformidade; K03, de estrutura apenas.
+
+**Resposta direta na primeira tela, com o limite (K01)** · saúde: modelo
+> "A consulta online com urologista e andrologista é um atendimento por telemedicina, feito por vídeo, para pacientes de qualquer cidade do Brasil. É indicada para uma primeira avaliação de queixas de saúde masculina, segunda opinião, discussão de exames já realizados, acompanhamento de tratamentos hormonais e sexuais e orientação sobre próximos passos. Tem limitações claras: exame físico e procedimentos como Doppler peniano, vasectomia e preenchimento peniano exigem presença."
+
+**Para quem é indicada (K01)**
+> "Primeira avaliação de queixas como disfunção erétil, ejaculação precoce, baixa libido, fadiga e sintomas urinários, para direcionar a investigação."
+> "Segunda opinião sobre um diagnóstico ou uma indicação de tratamento ou cirurgia."
+> "Discussão de exames já realizados, como perfil hormonal, PSA, espermograma e ultrassonografias."
+> [...]
+
+Faz: lista situações de atendimento, em terceira pessoa, sem afirmar a condição de quem lê.
+
+**Processo em etapas (K01)**
+> "Antes da consulta / O paciente envia, quando possível, exames e laudos anteriores. Isso permite que o tempo da consulta seja aproveitado na análise e no plano, e não apenas na coleta de informações básicas."
+> "Depois da consulta / O paciente recebe as orientações por escrito, os pedidos de exame e as prescrições em formato digital. Se houver indicação de exame físico ou de procedimento, o atendimento presencial em Mogi Guaçu é agendado."
+
+**Processo em etapas (K02)** · saúde: modelo
+> "Do agendamento à consulta, em 4 passos. / Agende pelo WhatsApp / Escolha a especialidade e o melhor horário com a nossa equipe. / Receba o acesso / Enviamos o link e as orientações para a videochamada. / Converse com o médico / No horário marcado, por vídeo, com privacidade e sem pressa. / Receba seus documentos / Documentos médicos digitais, quando houver indicação médica."
+
+**Limites e urgência (K01)**
+> "A consulta online não é indicada para quadros de urgência, como dor intensa e súbita no testículo, incapacidade de urinar com a bexiga cheia, ou febre alta com dor lombar e sintomas urinários, situações em que o paciente deve procurar atendimento de emergência."
+> "A conduta segue a medicina baseada em evidências, com os mesmos critérios do atendimento presencial: não se indica reposição de testosterona sem diagnóstico, não se prescreve tratamento sem investigar a causa e as limitações de cada opção são explicadas antes de decidir."
+
+Faz: o limite e o critério de conduta funcionam como prova de seriedade.
+
+**Tratamento só depois da avaliação (K02)**
+> "Qualquer tratamento só é definido após avaliação médica, de forma individualizada."
+> "A tecnologia aproxima. Quem cuida de você continua sendo uma pessoa."
+
+**Chamada (K01)**
+> "Mora em outra cidade e quer uma avaliação especializada em saúde masculina? Agende sua consulta online."
+
+Faz: a pergunta é sobre onde a pessoa mora, e por isso não toca na condição dela. "especializada" só vale porque a página mostra o RQE.
+
+**Rodapé educativo (K01)**
+> "As informações desta página têm finalidade educativa e não substituem consulta médica, diagnóstico individualizado ou atendimento de urgência e emergência. Procure um médico urologista para avaliar o seu caso antes de iniciar, interromper ou trocar qualquer tratamento."
+
+**Estrutura de identificação e qualificação (K03)** · saúde: estrutura sim, frases não
+> "É para você se: / Já tentou de tudo e não quer mais voltar ao início / Se sente travado(a) no efeito sanfona, mesmo sabendo o que “deveria fazer” / [...]"
+> "Ainda não é para você se: / Busca resultado milagroso, sem esforço ou mudança real / [...]"
+
+Faz: "é para você / ainda não é" funciona como filtro. As frases afirmam a condição de quem lê e, mais abaixo, a página usa culpa e medo ("E o tempo não espera."). Ver `saude.md`.
+
+**Ressalva de K01:** modelar o corpo do texto. O menu de serviços da mesma página traz "Programa Performance Sexual", "Programa Otimização Hormonal" e "Recuperação Hormonal Pós Ciclo", e a régua da AndroClinic veda foco em desempenho. Não conferi se andrologia tem RQE próprio.

@@ -2,7 +2,7 @@
 
 Tudo entre aspas é literal, copiado do texto da página como estava em 26/11/2026 (data da leitura de todas as peças), com maiúsculas e erros originais. Os códigos (C01, V01...) estão no [README](README.md), com URL completa e sinal de cada peça. Abaixo de cada frase, uma linha sobre o mecanismo, que é o que se modela. A frase não se copia.
 
-**Marcas:** "saúde: não" quer dizer que a frase infringe a régua de saúde e não serve para médico ou clínica (ver `saude.md`). "não modelar" quer dizer que a frase promete renda ou resultado, ou usa número sem prova, em qualquer nicho.
+**Marcas:** toda frase vinda de página de saúde leva "saúde: modelo", "saúde: com cuidado" ou "saúde: não" (ver `saude.md`). "não modelar" quer dizer que a frase promete renda ou resultado, ou usa número sem prova, em qualquer nicho.
 
 **O que mais se repete nas melhores:** a headline diz o que acontece na aula com detalhe de ofício, e a subheadline diz quem faz e como. As fracas dizem só o resultado ("ganhe", "elimine", "perca").
 
@@ -41,14 +41,14 @@ C02, título de seção
 Mecanismo: demanda de um lado, despreparo do outro. O leitor se coloca no lado que vai saber.
 
 **"O passivo ambiental no Judiciário não cabe no número de peritos disponíveis."**
-C02, título de seção (seguido dos números do painel SireneJud, do CNJ)
-Mecanismo: afirmação de mercado com dado oficial logo abaixo.
+C02, título de seção (seguido dos números do painel SireneJud, do CNJ, com período)
+Mecanismo: afirmação de mercado em terceira pessoa com dado oficial e período logo abaixo. É o modelo de "número com fonte" que passa para saúde.
 
 ## 3. Identificação: fala com quem é
 
 **"Para o médico que, em alguns casos, sente que está só gerenciando sintomas."**
 V01 · formacao.biofao.org.br
-Mecanismo: "Para o [perfil] que [sente X]". O "em alguns casos" baixa a defesa: não acusa o leitor de ser mau médico.
+Mecanismo: "Para o [perfil] que [sente X]". O "em alguns casos" baixa a defesa: o leitor não se sente acusado de ser mau médico. Saúde: modelo de estrutura, para público médico; ver as ressalvas da BioFAO em `saude.md`.
 
 **"Médico, o sucesso do seu 2027 começa agora."**
 C08 · vdbrasil.me, subheadline
@@ -65,16 +65,16 @@ Mecanismo: vocativo da profissão. O vocativo funciona; a promessa de valor, nã
 ## 4. Contraste: a crença derrubada ou a alternativa conhecida
 
 **"Por anos, te disseram que a menopausa é assim mesmo. Que não dormir é normal, que a barriga que cresceu não tem solução, que a memória falha porque é da idade [...]" / "Mentira."**
-C05 · saudemsp.com.br/voce-melhor-na-menopausa_lp1 · saúde: com cuidado
-Mecanismo: lista do que o leitor já ouviu + virada seca. Em saúde, a virada não pode prometer solução (ver `saude.md`).
+C05 · saúde: com cuidado
+Mecanismo: lista do que o leitor já ouviu + virada seca. A C05 escreve em segunda pessoa e afirma os sintomas da leitora; em saúde, reescrever em terceira pessoa e trocar a virada por processo (ver `saude.md`).
 
 **"O sintoma é o fim da linha. A metodologia trabalha onde as questões começam."**
 V01, título de seção
-Mecanismo: metáfora simples que reposiciona o problema. Não diz que o leitor erra; diz onde o método olha.
+Mecanismo: metáfora simples que reposiciona o problema e diz onde o método olha, sem dizer que o leitor erra. Saúde: com cuidado (ver as ressalvas da BioFAO em `saude.md`).
 
 **"Emagrecer é possível. Sustentar é o nosso trabalho."**
-Instituto Balance (ficha da biblioteca irmã, lida em 26/11/2026)
-Mecanismo: concede o óbvio na primeira frase, toma posição na segunda.
+Instituto Balance (ficha da biblioteca irmã, lida em 26/11/2026) · saúde: com cuidado
+Mecanismo: concede o óbvio na primeira frase, toma posição na segunda. A segunda frase promete a manutenção do resultado, e a ficha irmã marca vermelho para a avaliação sem custo da Balance e aponta que a origem da "média de 20%" não bate.
 
 **"Você não precisa trabalhar mais horas" / "Você precisa usar o que já sabe da forma certa."**
 C10, título de seção
@@ -94,13 +94,13 @@ Mecanismo: "não é mais um [categoria que ele já viu]". O mecanismo vale; o pr
 
 ## 5. Número ou especificidade
 
-**"VOCÊ VAI VIVER MAIS DE 30 ANOS NA MENOPAUSA."**
-C05, headline
-Mecanismo: fato com conta simples (a página explica: expectativa de vida do IBGE menos a idade média da menopausa). Torna o tema grande sem medo. Atenção: a fonte não traz ano.
+**"VOCÊ VAI VIVER MAIS DE 30 ANOS NA MENOPAUSA. DESCUBRA COMO VIVER ESSES ANOS COM ENERGIA, LEVEZA E QUALIDADE DE VIDA."**
+C05 · saudemsp.com.br/voce-melhor-na-menopausa_lp1, headline · saúde: não
+Mecanismo: fato com conta simples (a página explica com a expectativa de vida do IBGE, sem ano, e uma idade de menopausa sem fonte). Fora de saúde, o número grande serve. Em saúde, a primeira frase afirma a condição de quem lê, em segunda pessoa, e a segunda insinua resultado (art. 11, XII). Para número com fonte em terceira pessoa, use o padrão de C02 abaixo.
 
 **"De 1 cirurgia para 3 clínicas rodando."**
 C08, headline
-Mecanismo: antes e depois em números pequenos e concretos. É caso dos apresentadores, não promessa ao leitor.
+Mecanismo: antes e depois em números pequenos e concretos. O caso é dos apresentadores; ao leitor, a frase não promete nada.
 
 **"Três horas, três blocos, um caminho completo até a primeira nomeação."**
 C02, título do programa
@@ -108,17 +108,17 @@ Mecanismo: o formato vira argumento. A repetição de "três" dá ritmo.
 
 **"130 horas, 14 módulos, 5 blocos."**
 V01, título do programa
-Mecanismo: tamanho da formação em três números. Mostra esforço, não resultado.
+Mecanismo: tamanho da formação em três números. Mostra o esforço envolvido. Saúde: modelo de forma (público médico).
 
 **"Mais de 50% dos pacientes com obesidade têm transtornos psiquiátricos"**
 C07 · psiquiatriadaobesidade.com.br · não modelar sem fonte
-Mecanismo: dado de prevalência na headline. Funciona para público médico, mas a página não cita a fonte.
+Mecanismo: dado de prevalência na headline. Saúde: só para médicos; com leigo, não. Mesmo para médicos, a página não cita a fonte.
 
 ## 6. Pergunta
 
 **"Em 2027, a sua clínica vai crescer ou só completar mais um ano aberta?"**
 C08, título de seção
-Mecanismo: pergunta de duas saídas, em que a segunda incomoda. Fala do negócio, não da pessoa.
+Mecanismo: pergunta de duas saídas, em que a segunda incomoda. A pergunta é sobre o negócio, e por isso não constrange a pessoa.
 
 **"Você se sente preso em um ciclo onde trabalha cada vez mais, mas ainda não conquistou o sucesso e a paz que deseja?"**
 C12, abertura
@@ -145,20 +145,20 @@ Mecanismo: prazo de turma no sobretítulo. Só vale se for verdade; a mesma pág
 ## 8. Curiosidade de mecanismo: explicar como algo funciona
 
 **"Sabia que, em alguns casos, um câncer de pulmão muda de tipo durante o tratamento?"** / **"É como se o tumor trocasse de identidade para sobreviver."**
-E01 · drjosenasser.substack.com/p/live-black · saúde: modelo
+E01 · drjosenasser.substack.com/p/live-black · saúde: modelo de abertura, não da peça nem do autor
 Mecanismo: fato científico surpreendente, em terceira pessoa, com "em alguns casos" + imagem simples. Cria curiosidade sem tocar na condição de quem lê.
 
 **"Live Black: Como o Câncer Muda de Identidade"**
 E01, nome da live
-Mecanismo: "Como [fenômeno] acontece". Promete explicação, não cura.
+Mecanismo: "Como [fenômeno] acontece". Promete uma explicação. Saúde: modelo de forma; a peça termina em oferta paga e o autor não traz CRM (ver `saude.md`).
 
 **"Como o sistema nervoso em modo de alerta bloqueia o emagrecimento independente da dieta"**
-C04 · breathconnection.com.br/aula-de-emagrecimento, item de "O que você vai aprender"
-Mecanismo: nomeia um mecanismo escondido por trás do problema. Em saúde, cuidado com "bloqueia" se não houver base.
+C04 · breathconnection.com.br/aula-de-emagrecimento, item de "O que você vai aprender" · saúde: com cuidado
+Mecanismo: nomeia um mecanismo escondido por trás do problema. Cuidado com "bloqueia" se não houver base.
 
 **"Porque seus pacientes não emagrecem mesmo usando GLP1"**
-C07, item de "O que você vai aprender" (assim, com "Porque")
-Mecanismo: "por que [o esperado] não acontece mesmo com [solução conhecida]". Para público médico.
+C07, item de "O que você vai aprender" (assim, com "Porque") · saúde: só para médicos; com leigo, não
+Mecanismo: "por que [o esperado] não acontece mesmo com [solução conhecida]". Levado a leigos, vira frase sobre a condição de quem lê e cita classe de remédio.
 
 **"Descubra o Código TESE: O Segredo para Equilibrar Carreira, Vida Pessoal e Espiritualidade"**
 C12, headline · saúde: não (segredo condicionado à inscrição)
@@ -176,17 +176,17 @@ Mecanismo: imagem concreta do resultado do trabalho, com o modelo 3D logo abaixo
 
 **"Conteúdo prático conduzido por quem assina laudo para juiz toda semana."**
 C02, título de "Quem conduz"
-Mecanismo: autoridade pela rotina ("toda semana"), não por título.
+Mecanismo: a autoridade vem da rotina ("toda semana").
 
 ## 10. Franqueza: admitir a dificuldade ou o limite
 
 **"Não é simples. Mas você não estuda sozinho."**
 V01, título de seção
-Mecanismo: concede a objeção antes do leitor e responde com apoio, não com facilidade.
+Mecanismo: concede a objeção antes do leitor e responde com apoio. Saúde: modelo de forma (ver as ressalvas da BioFAO em `saude.md`).
 
 **"É sério. E dá pra colocar o seu CRM por trás."**
-V01, título de seção (seguido de registro na Anvisa, estudos e "Não substitui a sua conduta")
-Mecanismo: responde em cinco palavras à desconfiança do público.
+V01, título de seção · saúde: modelar a forma, não a prova
+Mecanismo: responde em cinco palavras à desconfiança do público. A prova que vem logo abaixo é o medicamento do próprio instituto "comprado com receita em farmácias parceiras", que não se modela (ver `saude.md`).
 
 **"A consulta online é uma etapa poderosa da investigação, mas não substitui o exame físico."**
 K01 · drbrunovedovato.com/seo/consulta-online-urologista · saúde: modelo
@@ -199,11 +199,11 @@ Mecanismo: excluir dá valor a quem fica.
 ## 11. Processo e acesso (o caminho de saúde)
 
 **"Consulta Online com Urologista e Andrologista: Como Funciona e Para Quem Serve"**
-K01, headline · saúde: modelo, fraca em tensão
+K01, headline · saúde: modelo (o corpo do texto; o menu da página tem "Programa Performance Sexual", que não se modela)
 Mecanismo: serviço + as duas perguntas do leitor. Clara, mas sem motivo para continuar.
 
 **"Sua consulta médica online, sem sair de casa."** / **"Do agendamento à consulta, em 4 passos."**
-K02 · drmeumedico.com.br/telemedicina · saúde: modelo
+K02 · drmeumedico.com.br/telemedicina · saúde: modelo de headline (a página não mostra, no texto lido, a identificação dos arts. 4º e 5º)
 Mecanismo: acesso + facilidade de processo. Sem promessa clínica.
 
 ## 12. Promessa de resultado ou renda (não modelar)
@@ -268,15 +268,15 @@ Mecanismo: começo e fim + o que fazer + prazo da jornada (não de resultado).
 
 **"Participe da live gratuita Você Melhor na Menopausa, onde a Dra. Daniela (nutróloga) e o Dr. Luiz (endocrinologista), com mais de 18 anos de prática clínica, vão te mostrar o que está acontecendo dentro do seu corpo e o caminho médico para viver essa fase com energia, leveza e qualidade de vida de verdade."**
 C05 · saúde: com cuidado
-Mecanismo: quem + o que a live explica. Em saúde, "qualidade de vida de verdade" insinua resultado, e especialidade só com RQE.
+Mecanismo: quem + o que a live explica. "te mostrar o que está acontecendo dentro do seu corpo" afirma a condição de quem lê; "qualidade de vida de verdade" insinua resultado; especialidade só com RQE.
 
 **"usando o seu próprio conhecimento — sem depender apenas do plantão." / "Mesmo que você nunca tenha empreendido. / Mesmo que hoje sua única renda venha do hospital. / E mesmo que você não tenha CNPJ ou experiência com vendas."**
 C10
 Mecanismo: o bloco "mesmo que" responde três objeções antes do botão.
 
 **"Na primeira consulta, você é avaliado com tecnologia, entende de onde vem a sua dor, recebe um plano feito para você e já faz a primeira sessão, sem cirurgia e sem remédio."**
-Sou Coluna (ficha da biblioteca irmã)
-Mecanismo: a subheadline conta a primeira consulta em quatro verbos. Processo como promessa. ("sem cirurgia e sem remédio" pede cuidado.)
+Sou Coluna (ficha da biblioteca irmã) · saúde: com cuidado
+Mecanismo: a subheadline conta a primeira consulta em quatro verbos. O processo faz o papel da promessa. "sem cirurgia e sem remédio" pode insinuar resultado.
 
 **"A consulta online com urologista e andrologista é um atendimento por telemedicina, feito por vídeo, para pacientes de qualquer cidade do Brasil. [...] Tem limitações claras: exame físico e procedimentos como Doppler peniano, vasectomia e preenchimento peniano exigem presença."**
 K01 · saúde: modelo

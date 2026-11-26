@@ -1,14 +1,14 @@
 # Esqueletos que se repetem
 
-Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os códigos (C01, O02, V01...) estão lá, com URL e sinal. Cada esqueleto separa o **observado** (quantas peças fazem e quais) da **opinião** (leitura do pesquisador). Contagem sobre 17, 8 ou 6 peças não é estatística de mercado; serve para mostrar o que é comum e o que é exceção.
+Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os códigos (C01, O02, V01...) estão lá, com URL e sinal. Cada esqueleto separa o **observado** (quantas peças fazem e quais) da **opinião** (leitura do pesquisador). Contagem sobre 17, 8 ou 6 peças não é estatística de mercado; serve para mostrar o que é comum e o que é exceção. Nenhuma peça tem prova de que vende: quando o texto diz "melhor" ou "mais bem escrita", é opinião do pesquisador sobre a escrita.
 
 **Conclusão em cinco linhas**
 
-1. A captura de live boa diz **o que acontece na aula, com detalhe de ofício**, e não "o segredo de". As três melhores (C01, C02, C03) descrevem a entrega como quem descreve um serviço: blocos, horários, o que vai ser feito na tela.
-2. Quase toda captura tem headline, "o que você vai aprender" e quem apresenta (13 a 14 de 17). O que separa as boas é o que vem depois: **problema descrito com a linguagem do ofício, para quem não é, como funciona depois da inscrição e um FAQ que admite a oferta paga**. Poucas fazem isso (de 1 a 4 de 17).
+1. Na leitura do pesquisador, a captura de live boa diz **o que acontece na aula, com detalhe de ofício**. As três que considero mais bem escritas (C01, C02, C03) descrevem a entrega como quem descreve um serviço: blocos, horários, o que vai ser feito na tela.
+2. Quase toda captura tem headline (16 de 17; falta só em C04, onde ela não está no texto), quem apresenta (14 de 17) e uma lista de "o que você vai aprender" (13 de 17). O que separa as boas, na minha leitura, é o que vem depois, e cada item aparece em poucas: o problema descrito com termos do próprio ofício (2 de 17: C02 e C09; problema ou situação em qualquer forma aparece em 9 de 17), para quem não é (1: C02), os passos depois da inscrição (2: C02 e C07) e um FAQ que admite a oferta paga (1: C02).
 3. A página de obrigado tem um esqueleto quase fixo: confirmação, "falta um passo", motivo para entrar no grupo e o que fazer até o dia. 7 de 8 seguem esse esqueleto.
-4. As páginas de vendas de nicho profissional (V01, V02) **vendem a competência, não a renda**. As de renda (V03, V04) fazem o contrário e são as que mais exigem cuidado.
-5. Em página de consulta, a que mais cumpre a régua (K01) é a que menos cria tensão. A que mais cria tensão (K03) é a que mais infringe. Não há, na coleta, uma página que faça as duas coisas. Esse é o trabalho da AndroClinic.
+4. As páginas de vendas de nicho profissional (V01, V02) **vendem a competência**; a renda não aparece como promessa. As de renda (V03, V04) fazem o contrário e são as que mais exigem cuidado.
+5. Em página de consulta, a que mais cumpre a régua (K01) é a que menos cria tensão. A que mais cria tensão (K03) é a que mais infringe. Não há, na coleta, uma página que faça as duas coisas, e é isso que a página da AndroClinic precisa fazer.
 
 ---
 
@@ -38,7 +38,7 @@ Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os código
 1. **Dobra: sobretítulo com formato e data + headline + subheadline que diz quem apresenta e o que se faz na aula + botão ou formulário + microtexto.** C01: "AULAS GRATUITAS E AO VIVO" / headline / "8 e 9 de setembro | 10h | Ao vivo" / sub com o nome da Bruna e o que ela constrói ao vivo / botão. C02 e C11 seguem a mesma ordem. Função: a pessoa decide ali se continua.
 2. **Demonstração ou prova rápida.** Mostra a entrega antes de pedir o dado. C02 põe um laudo real navegável em 3D ("Gire, ligue as camadas e volte no tempo agora mesmo"); C11 mostra a estrutura de pastas que será construída; C03 mostra um depoimento e um trecho de aula; C08 lista médicos que expandiram com o time. 4 de 11.
 3. **Problema ou situação.** Descrito com a linguagem do ofício (C02: "Você depende de indicação", "Um laudo consome semanas", "Usa IA sem controle técnico"; C09: "3 problemas que se repetem em toda clínica") ou com crença derrubada (C05: "Por anos, te disseram que a menopausa é assim mesmo [...] Mentira."). Aparece em C02, C05, C06, C08, C09, C12, C13 e C16: 8 de 11 (somando as curtas, C15 também: 9 de 17).
-4. **Contexto que dá urgência real.** C03 ("A lei da nacionalidade portuguesa mudou em maio de 2026.") e C02 (números do painel SireneJud, do CNJ, com período). 2 de 11. Função: a urgência vem de fora, não de contador.
+4. **Contexto que dá urgência real.** C03 ("A lei da nacionalidade portuguesa mudou em maio de 2026.") e C02 (números do painel SireneJud, do CNJ, com período). 2 de 11. Função: a urgência vem de um fato externo, sem contador.
 5. **"O que você vai aprender", dividido por aula, dia ou bloco, com horário.** C01 (aula 1 e aula 2, cada uma com 5 ou 6 itens), C02 (três blocos com horário e duração), C03 (três aulas), C06 (quatro dias), C11 (cinco etapas da construção), C12 (nove lives), C16 (quatro aulas). 7 de 11.
 6. **Para quem é.** C01, C02, C08, C09, C11, C16: 6 de 11 (C07 também, entre as curtas: 7 de 17). **Para quem não é:** só C02.
 7. **Quem conduz, com credencial verificável.** 11 de 11. Com número de registro profissional: C02 ("CREA-SC 120756-0/D"). As de saúde com médico para leigos (C05, C06) não mostram CRM.
@@ -57,9 +57,10 @@ Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os código
 - **Escassez:** "sem replay" ou "não fica gravada" em C11, C12, C15 e E01; "vagas limitadas" com motivo dito em C02 ("pelo tamanho do grupo de WhatsApp") e C07 ("pela plataforma"); sem motivo em C01, C10, C13 e C14.
 
 **Opinião**
-- A diferença entre C02 e uma captura comum não é o tamanho. É que C02 trata o leitor como colega de profissão: diz o artigo do CPC que será mostrado, a ferramenta, o tempo de cada bloco e o que **não** é para ele. Isso cria confiança sem prometer resultado, e é transportável para saúde.
+- O que distingue C02 de uma captura comum é tratar o leitor como colega de profissão: diz o artigo do CPC que será mostrado, a ferramenta, o tempo de cada bloco e o que **não** é para ele. Isso cria confiança sem prometer resultado, e é transportável para saúde.
 - Anunciar a oferta paga antes da aula (C02, C03) parece contraintuitivo, mas filtra quem vai e evita a sensação de emboscada. O FAQ de C02 ("No final haverá oferta de curso pago?") é o melhor exemplo.
-- Contador zerado e data vencida aparecem tanto que viraram ruído. Melhor tirar a página do ar, ou trocar por lista de espera da próxima edição (como fez a Confeitei, avaliada e deixada de fora).
+- Contador zerado e data vencida aparecem em muitas páginas. Além de parecer abandono, escassez que não é verdadeira é publicidade enganosa (CDC, art. 37). Melhor tirar a página do ar, ou trocar por lista de espera da próxima edição (como fez a Confeitei, avaliada e deixada de fora).
+- Em saúde, a oferta anunciada no fim da live tem regras próprias (desconto sem venda casada, conflito de interesse declarado): ver `saude.md`, seção 7.
 
 ---
 
@@ -74,7 +75,7 @@ Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os código
 3. **Botão para o grupo de WhatsApp com o motivo para entrar.** 7 de 8. O motivo mais comum é o link da transmissão "só no grupo" (O02: "Quem não estiver no grupo não recebe o acesso"; O05: "Todas as informações da Masterclass serão enviadas somente lá"). O01 soma o certificado e os lembretes; O03, a lista de documentos por perfil; O07, "todos os detalhes da condição especial".
 4. **Promessa de grupo sem barulho.** O03 ("Você recebe os avisos sem ruído."), O06 ("enviaremos apenas os avisos importantes [...] sem spams"). 2 de 8.
 5. **O que fazer até o dia.** Conferir o e-mail, Promoções e Spam (O01, O02, O03, O06, O08: 5 de 8); salvar na agenda (O01 com botão do Google Agenda para cada aula; O08 "Coloca um lembrete no celular": 2); cronograma do que vai chegar (O02: e-mail de confirmação, conteúdo preparatório, link às 17h30 do dia).
-6. **Uma segunda ação que aumenta o vínculo.** Pesquisa sobre o caso (O03, O04), compartilhar com quem divide o interesse (O03: "Esse direito é da família inteira."), biblioteca de materiais (O01), aulas liberadas na hora (O03), canal do YouTube (O08). 5 de 8.
+6. **Uma segunda ação que aumenta o vínculo.** Pesquisa sobre o caso (O03, O04), compartilhar com quem divide o interesse (O03: "Esse direito é da família inteira."), biblioteca de materiais (O01), aulas liberadas na hora (O03), canal do YouTube (O08). 4 de 8 (O01, O03, O04, O08).
 7. **Oferta citada.** O02 ("ofertas exclusivas do lançamento"), O07 ("condição especial"), O08 ("descontos exclusivos da live"). 3 de 8.
 8. **Botão do grupo repetido no fim.** O02.
 
@@ -104,9 +105,9 @@ Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os código
 - **FAQ:** 3 de 3.
 
 **Opinião**
-- V01 é o melhor modelo para profissional de saúde porque vende **competência e convivência** (casos de colegas, lives, tutoria) em vez de resultado. As frases que admitem a dificuldade ("Não é simples.") fazem mais pela confiança do que qualquer número.
+- V01 é o melhor modelo **de estrutura e de franqueza** para página que fala com profissional de saúde: vende competência e convivência (casos de colegas, lives, tutoria), e as frases que admitem a dificuldade ("Não é simples.") fazem mais pela confiança do que qualquer número. **Não modelar a prova nem os depoimentos:** a formação é ligada ao medicamento do próprio instituto, "comprado com receita em farmácias parceiras", os depoimentos dizem "um caminho realmente extraordinário" (art. 14, II, "g") e não há confirmação de que o CFM reconheça o método. Detalhes em `saude.md`.
 - A escada de saída de V01 ("AINDA PENSANDO?": aula gravada, casos, aulão, conversa de 20 minutos) é o que falta à maioria das páginas: dá um próximo passo menor para quem ainda não vai comprar.
-- Em V03 e V04, a ancoragem de bônus usa valores que a página não comprova como preço cobrado. Pela regra da biblioteca irmã, preço "de" só se foi cobrado de fato (CDC, art. 37, § 1º).
+- Em V03 e V04, a ancoragem de bônus usa valores que a página não comprova como preço cobrado. Pela regra da biblioteca irmã, preço "de" só se foi cobrado de fato (leitura do CDC, art. 37, § 1º).
 
 ---
 
@@ -146,5 +147,5 @@ Base: as peças listadas no [README](README.md), lidas em 26/11/2026. Os código
 10. **Rodapé com endereço e aviso educativo.** K01 ("As informações desta página têm finalidade educativa e não substituem consulta médica [...]").
 
 **Opinião**
-- K01 é o melhor ponto de partida para a AndroClinic em conformidade: mesmo serviço, mesma regra de telemedicina, limites ditos com clareza. O que falta nela é exatamente o que falta na página da AndroClinic: tensão na dobra. A tensão pode vir das técnicas das capturas de nicho (mercado escondido, contraste com o que ele já viu, franqueza sobre o limite), descritas em `saude.md`.
-- K03 mostra o esqueleto que vende no emagrecimento (identificação forte, "a culpa não é sua", checklist de "quantos sim") e, ao mesmo tempo, quase tudo o que a CFM 2.336/2023 veda. O esqueleto pode ser aproveitado; as frases, não.
+- K01 é o melhor ponto de partida para a AndroClinic em conformidade: mesmo serviço, mesma regra de telemedicina, limites ditos com clareza. O que falta nela é exatamente o que falta na página da AndroClinic: tensão na dobra. A tensão pode vir das técnicas das capturas de nicho (mercado escondido, contraste com o que ele já viu, franqueza sobre o limite), descritas em `saude.md`. Ressalva: modelar o corpo do texto de K01; o menu de serviços da mesma página ("Programa Performance Sexual", "Programa Otimização Hormonal") tem o foco em desempenho que a régua da AndroClinic veda. K02 é sóbria, mas não mostra no texto lido a identificação dos arts. 4º e 5º (médico com CRM, diretor técnico).
+- K03 mostra o esqueleto que vende no emagrecimento (identificação forte, "a culpa não é sua", checklist de "quantos sim") e, ao mesmo tempo, quase tudo o que a CFM 2.336/2023 veda. O esqueleto pode ser aproveitado; as frases ficam de fora.

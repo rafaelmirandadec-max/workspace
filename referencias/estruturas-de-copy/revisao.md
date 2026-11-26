@@ -185,3 +185,58 @@ O trabalho é sólido. Das 14 páginas que reabri, as citações batem palavra p
    - **Do Rafael ou do cliente, pendências que já estavam no briefing:** 1 (vínculo com farmácia), 2 (diretor técnico e RQE) e 4 (operação comercial). As cores das hipóteses dependem delas.
    - **Do advogado:** confirmar a leitura de que aula gratuita não é serviço médico gratuito, e se a BioFAO tem reconhecimento do CFM.
 4. **Próximo passo:** o researcher aplica as correções de B1 a B3 (são linhas, não reescrita). Depois, envie a versão corrigida ao Drive e mova a anterior para "Arquivo (versões antigas)". Nova revisão só dos trechos alterados.
+
+---
+
+## Correções aplicadas
+
+Pelo @researcher, em 26/11/2026, sem nova coleta (só releitura dos textos já salvos e do PDF da CFM 2.336/2023). Nenhum commit.
+
+**Bloqueios**
+- **B1, cores das hipóteses (`saude.md`, seção final).** Corrigido. "Entrega descrita", "Franqueza sobre o limite" e "Mudança real e datada" passaram a laranja, com o motivo de cada uma (sessões extras de R$ 180; presencial "a confirmar"; CFM 2.314/2022 não conferida). "Transparência" passou a vermelho (pendência 4). "A farmácia vende o comprimido..." passou a vermelho enquanto a pendência 1 estiver aberta, com a nota do art. 11, XVI. A live passou a vermelho até a pendência 2 (art. 11, I), com os três pontos novos: conflito de interesse (art. 10, § 2º, citado do texto oficial), LGPD na inscrição (art. 5º, II, e art. 11, I e § 1º) e vedação de passar dado de saúde entre controladores (art. 11, § 4º). "o que muda no tratamento" virou "como o tratamento é definido". "Curiosidade de mecanismo" ficou verde na página e no orgânico e laranja em anúncio, com "serve" no lugar de "funciona". A régua de cores da skill foi escrita no topo do arquivo.
+- **B2, BioFAO (V01).** Corrigido nos quatro arquivos. Nova seção em `saude.md` ("A BioFAO (V01): o que se modela e o que não"), com o medicamento do próprio instituto "comprado com receita em farmácias parceiras", os depoimentos ("um caminho realmente extraordinário", "sem intoxicar") e a falta de confirmação de reconhecimento do método pelo CFM (art. 11, VII, SUPOSIÇÃO a verificar). Modelar: estrutura, frases de franqueza, garantia de acompanhamento, escada "AINDA PENSANDO?". Não modelar: prova, depoimentos, enquadramento do método. A V01 saiu da frase sobre peças "para leigos". Ressalvas no cartão do README, na opinião de `estruturas.md`, seção 3, e nos trechos de `swipe-componentes.md` e `swipe-headlines.md`.
+- **B3, C05.** Corrigido. Em `swipe-headlines.md`, a headline está inteira ("... DESCUBRA COMO VIVER ESSES ANOS COM ENERGIA, LEVEZA E QUALIDADE DE VIDA.") e marcada "saúde: não", com o registro de que a primeira frase afirma a condição de quem lê, em segunda pessoa, e a segunda insinua resultado. Em `saude.md`, o modelo de "número com fonte em terceira pessoa" passou a ser C02 (SireneJud, com período) e a frase da SBU; a C05 foi para "Não pode". A abertura e a subheadline de C05 ganharam a mesma ressalva. O corte dos bullets de C01 (aula 1 e aula 2) foi marcado com "[...]" em `swipe-componentes.md`.
+
+**Avisos**
+- **A1.** Corrigido: o art. 9º, XIII vale para C07; C08 e C09 ficam fora.
+- **A2.** Corrigido: "exatamente" saiu; a ligação com a alínea "a" virou leitura prudente (SUPOSIÇÃO), quando a captura insinua descoberta, como em C06.
+- **A3.** Corrigido: o texto do art. 4º foi citado, e a UF ficou como leitura do squad (registro regional). Também no README.
+- **A4.** Corrigido: nota sobre o conselho no topo de `saude.md`; C15 (CFN) e C16 (não médica, SUPOSIÇÃO) aparecem com "se fosse de médico". Cartões do README atualizados.
+- **A5.** Corrigido: K02 é "sóbria, mas sem a identificação dos arts. 4º e 5º no texto lido" no README, em `estruturas.md` e em `saude.md`.
+- **A6.** Corrigido: ressalva do menu de K01 no README, em `estruturas.md`, `swipe-headlines.md`, `swipe-componentes.md` e `saude.md`. **Pendência:** se andrologia tem RQE próprio (não conferido).
+- **A7.** Corrigido: E01 é "modelo de abertura, não da peça nem do autor", com a oferta paga no fim, a assinatura "MD PHD" sem CRM e as práticas listadas no canal (SUPOSIÇÃO).
+- **A8.** Corrigido: Balance marcada "saúde: com cuidado", com a ressalva da manutenção do resultado e da ficha irmã. A hipótese "Contraste" deixou de citar a Balance como modelo.
+- **A9.** Corrigido: C07 "saúde: só para médicos; com leigo, não", nos dois trechos.
+- **A10.** Corrigido: linha nova em `saude.md`, seção 7 (art. 9º, VIII; CDC, art. 30; art. 10, § 2º), e remissão em `estruturas.md`, seção 1b.
+- **A11.** Corrigido: inscrição que revela o tema (art. 11, § 1º), § 4º, consentimento específico e destacado e a nota sobre "Dados protegidos pela LGPD" (`saude.md`, regras e seção 5).
+- **A12.** Corrigido: regra do Meta sobre autopercepção negativa incluída em "Fora da CFM", com o registro de que a página de atributos pessoais não foi conferida.
+- **A13.** Corrigido: imprecisão do "dobro" da V01 anotada; "de/por" marcado como leitura do art. 37, § 1º; escassez falsa como publicidade enganosa (art. 37) em `estruturas.md` e `swipe-componentes.md`.
+- **A14.** Corrigido: as perguntas da O04 não foram lidas; o texto agora diz "pesquisa (as perguntas não apareceram no texto lido)" em `estruturas.md`, `swipe-componentes.md` e `saude.md`.
+- **A15.** Corrigido (ver B3).
+- **A16.** Corrigido: autoridade marcada SUPOSIÇÃO em cada cartão, e o que a página declara marcado PISTA (inclusive Professor HOC e "Google Developer Expert").
+- **A17.** Corrigido: frase no README de que nenhuma peça tem prova de que vende e de que a biblioteca ranqueia a escrita; os títulos "mais bem escrita", "mais completa" e "melhor modelo" agora vêm como opinião do pesquisador. Nota igual no topo de `estruturas.md`.
+- **A18.** Corrigido: C09 passou a "contínuo"; a definição de contínuo ficou explícita; a quinta leitura de C05 está marcada como fora do método.
+- **A19.** Corrigido: a janela foi refeita pelos horários que o leitor registrou (leituras de 17h33 a 17h58; buscas e consultas à Central até cerca de 18h05).
+- **A20.** Corrigido: headline 16 de 17, quem apresenta 14 de 17, lista de "o que você vai aprender" 13 de 17.
+- **A21.** Corrigido: o recorte ficou explícito (problema com termos do ofício em 2 de 17, C02 e C09; problema ou situação em qualquer forma em 9 de 17, o mesmo número da seção 1b).
+- **A22.** Corrigido: "segunda ação" em 4 de 8 (O01, O03, O04, O08).
+- **A23.** Corrigido: seção 10, "Página de consulta médica", em `swipe-componentes.md`, com trechos literais de K01, K02 e K03.
+- **A24.** Corrigido em parte: seção 9, "Prova e depoimento", em `swipe-componentes.md`, com trechos de C02, C03, K01, V06, K03 e V05; `saude.md`, seção 9, ganhou exemplos literais do que pode (K01, K02). Os trechos foram tirados dos textos já salvos na coleta.
+- **A25.** Corrigido: marcas de saúde em C04, C05, C07, V01, Balance, Sou Coluna, E01, K01 e K02; regra escrita no topo de `swipe-headlines.md`.
+- **A26.** Corrigido: índice por componente no README.
+- **A27.** Corrigido em parte: cerca de quinze construções "X, não Y" foram reescritas nas conclusões e nas linhas de mecanismo. Ficaram as que fazem parte de regra ("não parecer jurídico", "a biblioteca ranqueia a escrita, não a venda").
+- **A28.** Corrigido: "[Sintoma] tem causa. Veja como a consulta começa a investigá-la."
+- **A29.** Nada a corrigir.
+
+**Fica como pendência (exige nova leitura ou parecer)**
+- Código de Ética Médica, arts. 68 e 69 (citados via briefing).
+- CFM 2.314/2022, antes de usar a hipótese "Mudança real e datada".
+- Página de atributos pessoais da política do Meta.
+- Reconhecimento da BioFAO pelo CFM (advogado).
+- Se andrologia tem RQE próprio.
+- As perguntas da pesquisa de O04.
+- As contagens do Google, exceto a de voceportugues.com.br, que o revisor conferiu.
+- Provimento OAB 205/2021, se C01, C03 ou V06 forem modelados para escritório de advocacia.
+- Confirmação, pelo advogado, de que aula educativa gratuita não é serviço médico gratuito.
+
+Próximo passo sugerido: nova revisão só dos trechos alterados (`saude.md` inteiro, cartões do README, seções 9 e 10 de `swipe-componentes.md`).
