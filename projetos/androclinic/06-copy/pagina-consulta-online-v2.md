@@ -53,11 +53,11 @@ Layout: barra fina, fundo claro, sem menu. Logo à esquerda; à direita, link de
 
 Layout: fundo claro (creme ou off-white), texto à esquerda, foto do Dr. Cristiano de jaleco à direita, com luz natural. Embaixo do texto vêm o botão, os três selos em linha e o link do WhatsApp. No celular, a ordem é sobretítulo, headline, subtítulo, botão e selos, com a foto depois. O botão tem de aparecer na primeira tela. A palavra "causa" fica destacada em serifa itálica, o único critério de destaque da página.
 
-**Sobretítulo:** Saúde sexual masculina · ereção, ejaculação e desejo
+**Sobretítulo:** Consulta médica online · ereção, ejaculação e desejo
 
-**Headline (H1):** Consulta médica online para entender a *causa* antes de qualquer tratamento.
+**Headline (H1):** "Já tentei de tudo." Faltou descobrir *por quê*. (par 12 de headlines-v2.md, escolhido em 26/11/2026)
 
-**Subtítulo:** Por vídeo, com o Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471. Cerca de 30 minutos, retorno incluído e R$ 197, preço único.
+**Subtítulo:** Na consulta por vídeo, o Dr. Cristiano Estivalet, MÉDICO, CRM-DF 15471, começa pelo que já foi tentado e pelo que aconteceu. R$ 197, retorno incluído.
 
 **Botão:** Agendar consulta · R$ 197
 
