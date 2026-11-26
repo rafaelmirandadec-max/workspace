@@ -11,12 +11,13 @@
 
 ## Por que está aqui
 
-É a referência da nova leva para evento de especialista sem marca forte: tema escuro com dourado, fotos reais de palco e plateia das edições anteriores, programação dia a dia em lista, dois ingressos claros com preço e o "você sai com" bem concreto. A 7ª edição é o principal sinal de que o formato se paga.
+É a referência da nova leva para evento de especialista sem marca forte: tema escuro com dourado, fotos reais de palco e plateia das edições anteriores, programação dia a dia em lista, dois ingressos claros com preço e o "você sai com" bem concreto. As edições anteriores (achadas na Sympla, ver sinais) são o principal sinal de que o formato se paga. Está na seção "Sinal fraco ou não verificado" do README: não há anúncio no Google e o Meta não pôde ser verificado.
 
 ## Sinais de venda (não medem a taxa de conversão)
 
 - **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: nenhum anúncio para imersaoimperium.com.br (consulta em 26/11/2026). Se há mídia paga, é no Meta (não verificável aqui). **O sinal de tráfego pago desta página não foi verificado.**
-- **PISTA** — 7ª edição do evento (página): um formato que chega à sétima edição costuma estar se pagando.
+- **PISTA** — 7ª edição do evento (página). A busca de 26/11/2026 achou outras edições e eventos do mesmo ecossistema na Sympla: "Imersão Imperium em Florianópolis" (dia 30/10, evento 3579965), "Imperium Premium", descrito como "um evento pré Imersão Imperium" (evento 2520965), e "Imperium Master em São Paulo" (04/10); o site do mentor diz "Já realizamos diversas edições da Imersão Imperium" (eduardoarrudaoficial.com.br/imersao-imperium). Só os resumos da busca foram lidos, sem abrir as páginas; o ano dessas edições não foi conferido. As edições anteriores se confirmam como PISTA; a contagem de sete, não.
+- **SUPOSIÇÃO** — Um formato que se repete há várias edições costuma estar se pagando. Apoio: as edições achadas na busca.
 - **PISTA** — "+R$ 30 mi faturados pelos mentorados", "+1.000 alunos", "18 estados", "+50 mil pessoas impactadas presencialmente" (página, sem fonte).
 
 ## Anatomia da página (na ordem em que aparece)
@@ -37,7 +38,7 @@
 - **Fotos reais de edições anteriores** (palco, plateia, premiações) em grade: a melhor prova para quem não conhece o mentor.
 - **Programação em lista por dia**, com botão ao fim de cada bloco.
 - **Ingressos em dois cartões** com diferença clara de benefícios.
-- **Celular:** dobra com data, local e botão na primeira tela.
+- **Celular:** a foto do casal, o logo e a headline ocupam a primeira tela; o botão vem depois.
 
 ## O que dá para modelar sem copiar
 

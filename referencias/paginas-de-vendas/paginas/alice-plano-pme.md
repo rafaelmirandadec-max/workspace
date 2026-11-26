@@ -6,7 +6,7 @@
 **Ticket visível:** tabela "a partir de" por faixa de idade: 0 a 18 anos R$ 280,27; 19 a 28 R$ 332,12; 29 a 43 R$ 429,73; 44 a 53 R$ 622,66; 54 a 59+ R$ 839,40
 **Lida em:** 25/11/2026, 15h49 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/alice-plano-pme-desktop.jpg) · [celular](../capturas/alice-plano-pme-mobile.jpg)
-**Autoridade prévia:** média — marca conhecida no mercado de saúde corporativa e de startups, mas sem a lembrança de consumo das grandes operadoras; 100 mil membros (declarado).
+**Autoridade prévia:** média a alta — marca conhecida no mercado de saúde corporativa e de startups, mas sem a lembrança de consumo das grandes operadoras; 100 mil membros (declarado).
 **Quanto da conversão vem da marca (SUPOSIÇÃO):** parte. O comprador (RH ou dono de pequena empresa) muitas vezes chega pela busca e compara operadoras; a página precisa provar rede, preço e reajuste. Apoio: página por segmento, preço por idade e comparativo de reajuste.
 
 ## Por que está aqui

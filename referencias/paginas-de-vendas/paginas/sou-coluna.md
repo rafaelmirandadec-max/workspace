@@ -11,18 +11,19 @@
 
 ## Por que está aqui
 
-É a página de saúde com a melhor experiência de leitura da coleta: mapa da coluna interativo ("toque na região que mais incomoda"), a história de uma paciente de 89 anos contada em etapas, a primeira consulta explicada passo a passo com tempo ("Cerca de 1h30") e tipografia editorial (serifa itálica em parte dos títulos). Mostra como transformar um tratamento pouco conhecido em algo concreto.
+É a página de saúde com a melhor experiência de leitura da coleta: mapa da coluna interativo ("toque na região que mais incomoda"), a história de uma paciente de 89 anos contada em etapas, a primeira consulta explicada passo a passo com tempo ("Cerca de 1h30") e tipografia editorial (serifa itálica em parte dos títulos). Mostra como transformar um tratamento pouco conhecido em algo concreto. Está na seção "Sinal fraco ou não verificado" do README: o sinal de mídia paga não foi verificado e a autoridade é média.
 
 ## Sinais de venda (não medem a taxa de conversão)
 
 - **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google: nenhum anúncio para soucoluna.com (consulta em 26/11/2026). A captação parece vir do Meta e do Instagram, que não puderam ser verificados (Biblioteca de Anúncios bloqueada). **O sinal de tráfego pago desta página não foi verificado.**
 - **PISTA** — "13 unidades em 10 estados", "+175.000 atendimentos realizados", "4,8 no Google, com mais de 1.500 avaliações" (página; o número de avaliações não foi conferido no Google).
-- **PISTA** — Rede aberta em 2020 que chegou a 13 unidades e vende franquia no menu ("A FRANQUIA"): expansão rápida costuma depender de captação de pacientes que funciona.
+- **PISTA** — Rede aberta em 2020 que chegou a 13 unidades e vende franquia no menu ("A FRANQUIA").
+- **SUPOSIÇÃO** — Expansão rápida costuma depender de captação de pacientes que funciona. Apoio: número de unidades em seis anos; nenhum dado de captação foi verificado.
 
 ## Anatomia da página (na ordem em que aparece)
 
 1. **Cabeçalho** com menu completo (tratamentos, método, quem somos, unidades, a franquia, trabalhe conosco, blog) e botão "AGENDE SUA CONSULTA".
-2. **Dobra:** headline "Menos dor na coluna, mais vida no seu dia." (a segunda parte em itálico); apoio "Na primeira consulta, você é avaliado com tecnologia, entende de onde vem a sua dor, recebe um plano feito para você e já faz a primeira sessão, sem cirurgia."; botões "Agende sua consulta" e "Como é a primeira consulta"; números (2020, 13 unidades em 10 estados, +175.000 atendimentos, 4,8 no Google).
+2. **Dobra:** headline "Menos dor na coluna, mais vida no seu dia." (a segunda parte em itálico); apoio "Na primeira consulta, você é avaliado com tecnologia, entende de onde vem a sua dor, recebe um plano feito para você e já faz a primeira sessão, sem cirurgia e sem remédio."; botões "Agende sua consulta" e "Como é a primeira consulta"; números (2020, 13 unidades em 10 estados, +175.000 atendimentos, 4,8 no Google).
 3. **"Quando a coluna dói, o dia inteiro sente."**: situações do dia a dia em lista e o dado "36% da população convive com algum tipo de dor crônica" ("Dado do Ministério da Saúde").
 4. **Mapa interativo da coluna:** "E se a origem da sua dor não estiver exatamente onde você sente?", com regiões clicáveis (cervical, torácica, lombar, sacral), sintomas e condições ligadas, e a ressalva "Quem explica a sua dor é a avaliação, na primeira consulta."
 5. **"A história da Dona Erna, 89 anos"**, em seis capítulos (a dor, o problema, o alívio, a evolução, a autonomia, viver), com vídeo.
@@ -41,7 +42,7 @@
 
 ## O que dá para modelar sem copiar
 
-- Ferramenta interativa simples que ajuda o leitor a localizar o próprio problema, com a ressalva de que quem diagnostica é a consulta.
+- Mapa educativo de como a coluna funciona (regiões, partes, condições), com a ressalva de que quem explica a dor é a avaliação. Não usar como ferramenta para o leitor localizar o próprio problema.
 - Descrever a primeira consulta passo a passo, com tempo total e o que o paciente leva para casa (plano, número de sessões, investimento).
 - História de um paciente em capítulos curtos.
 
@@ -56,6 +57,11 @@
 Tratamento de dor feito por "especialistas" sem identificação de profissão no texto lido. Antes de modelar, saber qual conselho regula quem atende (fisioterapia, COFFITO; medicina, CFM) e ler o código de publicidade dele. Pela skill `conformidade`:
 - **"97% de eficácia"** é promessa de resultado com número sem fonte: fora.
 - **"Sem cirurgia e sem remédio"** e "Vou precisar de cirurgia?" pedem cuidado para não desqualificar outros tratamentos.
-- **O mapa da coluna** convida o leitor a apontar a própria dor; a página faz a ressalva certa ("Quem explica a sua dor é a avaliação"). Ao modelar, manter a ressalva e não afirmar diagnóstico.
+- **O mapa da coluna** convida o leitor a apontar a própria dor; a página faz a ressalva certa ("Quem explica a sua dor é a avaliação"). Ao modelar, transformar em mapa educativo, manter a ressalva e não afirmar diagnóstico.
+- **Condição de quem lê:** "Se você já tomou remédio, ficou em repouso ou fez exercícios e a dor voltou" afirma a condição do leitor (skill `conformidade`, seções 2 e 7).
+- **Desqualificação de outros tratamentos:** "a culpa não é sua: a maioria dos tratamentos cuida da dor sem descobrir de onde ela vem".
+- **Dado de 36%** atribuído ao Ministério da Saúde sem link.
+- **Avaliações do Google na página** falam de melhora ("Minha coluna vem melhorando"): em saúde, avaliação de paciente funciona como depoimento; só usar as que falam do atendimento.
+- **Profissão de quem atende:** não identificada no texto lido; o "adjustor" sugere quiropraxia. O código do COFFITO não foi lido.
 - **Depoimento de paciente idosa com melhora:** depende do código do conselho.
 - **Risco ao modelar:** vermelho para o número de eficácia; laranja para depoimento e identificação.

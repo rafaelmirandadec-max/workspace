@@ -1,13 +1,14 @@
 # Biblioteca de páginas de vendas brasileiras
 
-Primeira leva coletada em 25/11/2026 (14 páginas de marcas fortes) e revisada no mesmo dia ([revisao.md](revisao.md)). Segunda leva coletada em 26/11/2026, entre 09h45 e 10h00, horário de Brasília (9 páginas sem marca forte). Responsável: @researcher.
+Primeira leva coletada em 25/11/2026 (14 páginas de marcas fortes) e revisada no mesmo dia ([revisao.md](revisao.md)). Segunda leva coletada em 26/11/2026, entre 09h45 e 10h00, horário de Brasília (9 páginas), revisada no mesmo dia: 5 ficaram em "Páginas que vendem sem marca forte", 3 em "Sinal fraco ou não verificado" e 1 (Dr. Lucas Firmino) foi para "Marcas fortes" depois de conferida a audiência. Responsável: @researcher.
 
 ## Leia antes
 
-O Rafael corrigiu o critério: **"quem tem autoridade não precisa de uma página bonita e bem feita para vender."** Por isso a biblioteca agora tem dois grupos.
+O Rafael corrigiu o critério: **"quem tem autoridade não precisa de uma página bonita e bem feita para vender."** Por isso a biblioteca agora tem três grupos.
 
 - **Páginas que vendem sem marca forte (seção principal).** Empresas ou especialistas com autoridade prévia baixa ou média (sem reconhecimento nacional, público próprio pequeno ou médio), que compram mídia para a página e mesmo assim se mantêm. Aqui a página faz mais trabalho de venda, então ela serve de referência de **conversão** e de design.
-- **Marcas fortes: referência de design, não de conversão.** As 14 páginas da primeira leva. A venda delas vem em boa parte da marca, então servem para acabamento e organização, não como prova de que a página converte sozinha.
+- **Sinal fraco ou não verificado.** Páginas sem marca forte cujo sinal de tráfego pago é fraco ou não pôde ser verificado. Ficam pelo design e pelo argumento.
+- **Marcas fortes: referência de design, não de conversão.** As 14 páginas da primeira leva e o Dr. Lucas Firmino. A venda delas vem em boa parte da marca, então servem para acabamento e organização, não como prova de que a página converte sozinha.
 
 O que os sinais provam, nos dois grupos: **nenhuma página tem taxa de conversão publicada, e nenhuma foi estimada.** O melhor sinal disponível para o grupo sem marca forte é **anúncio pago contínuo** para o domínio na Central de Transparência de Anúncios do Google, verificado em três janelas (novembro de 2025, maio de 2026 e os últimos 30 dias). Quem não tem marca vive de tráfego pago, e anúncio mantido por um ano costuma ser o que se paga; mas isso continua sendo indício, não medida. A Biblioteca de Anúncios do Meta, que mostraria o mesmo para Facebook e Instagram, segue bloqueada neste ambiente (ver "Bloqueios").
 
@@ -49,64 +50,63 @@ As duas levas foram feitas na semana da Black Friday. Na primeira, sete das 14 p
 
 ## Páginas que vendem sem marca forte
 
-Segunda leva (26/11/2026). Autoridade prévia baixa ou média e, na maioria, anúncio pago contínuo para a página. Prioridade para saúde, porque o Rafael atende clínicas: 6 das 9 são de saúde ou estética e têm a seção "Cuidado de conformidade".
+Segunda leva (26/11/2026), já revisada. Autoridade prévia baixa ou média e anúncio pago para o domínio nas três janelas de um ano. São 5 páginas: 3 de saúde ou estética (com "Cuidado de conformidade") e 2 fora de saúde.
+
+**Antes de modelar qualquer página de saúde:** avaliação ou consulta gratuita é vedada a médico (CFM 2.336/2023, art. 11, § 4º, "c") e a dentista (Código de Ética Odontológica, art. 20, IX, e art. 44, I). Em medicina, pode-se mostrar o valor da consulta e as formas de pagamento (art. 9º, VI), mas não o preço de procedimento que depende de avaliação; em odontologia, nem preço nem forma de pagamento (art. 44, I). Textos lidos pelo revisor: [CFM 2.336/2023](https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf), [Código de Ética Odontológica (versão do CRO-MG)](https://cromg.org.br/wp-content/uploads/2023/12/codigodeetica2023.pdf), [CFO-196/2019](https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf).
 
 ### Saúde e clínicas
 
 **Harmony Transplante Capilar**
-Rede regional de 8 unidades, captação de avaliação com formulário na dobra · https://harmonytransplante.com/
-Autoridade baixa (Instagram com cerca de 4,8 mil seguidores). Anúncios no Google nas três janelas (25 no total). Preto e dourado, antes e depois com controle deslizante, unidades com foto da fachada, responsáveis técnicos com CRM e UF.
+Rede regional de 8 unidades, captação com formulário na dobra · https://harmonytransplante.com/
+Autoridade baixa (Instagram com cerca de 4,8 mil seguidores). Anúncios no Google nas três janelas (25 no total). Referência de design e de organização (preto e dourado, antes e depois com controle deslizante, unidades com foto da fachada). **Não modelar a "avaliação gratuita", que é a chamada principal, nem os títulos que insinuam resultado.**
 [Ficha](paginas/harmony-transplante-capilar.md)
 
 **Cirurgia refrativa — Centro Brasileiro de Laser**
-Clínica de unidade única em São Paulo, preço na headline · https://centrobrasileirolaser.com.br/
-Autoridade baixa (cerca de 3,2 mil seguidores). Anúncios no Google nas três janelas (12 no total, mais concentrados em maio). Vende por clareza: "a partir de R$ 3.500", consulta de R$ 150, etapas e para quem é. Cuidado com preço e imagens ilustrativas de "antes e depois".
+Clínica de unidade única em São Paulo · https://centrobrasileirolaser.com.br/
+Autoridade baixa (cerca de 3,2 mil seguidores). Anúncios no Google nas três janelas, mas com presença fina fora de maio (1, 9 e 1 anúncios; 12 no total). Vende por clareza: consulta de R$ 150, etapas e para quem é. **O preço do procedimento na headline ("a partir de R$ 3.500") não se modela em medicina;** o valor da consulta, sim.
 [Ficha](paginas/centro-brasileiro-de-laser.md)
-
-**Lentes de porcelana — Dr. Lucas Firmino**
-Clínica de odontologia estética em Belo Horizonte · https://drlucasfirmino.com.br/
-Autoridade média (aparece em matérias de TV e revista, citadas na página). Anúncios no Google nas três janelas (17 no total). Fundo preto, grade de sorrisos e processo em três consultas. Cuidado: "satisfação garantida" e superlativos.
-[Ficha](paginas/lentes-dr-lucas-firmino.md)
 
 **Harmonização facial — Clínica Harmê**
 Profissional local em Santa Maria (RS) · https://harmeclinica.com.br/
-Autoridade baixa (cerca de 3,5 mil seguidores). Anúncios no Google em novembro de 2025 e nos últimos 30 dias (20 no total). Página simples e curta que se mantém com mídia; serve mais de estrutura mínima e de lista do que não copiar em conformidade.
+Autoridade baixa (cerca de 3,5 mil seguidores). Anúncios no Google nas três janelas (8, 10 e 8; 20 no total). Página simples e curta que se mantém com mídia; serve de estrutura mínima e de lista do que não copiar em conformidade (parcelamento, promessas, antes e depois).
 [Ficha](paginas/harme-clinica-harmonizacao.md)
-
-**Acompanhamento para emagrecimento — Instituto Balance**
-Clínica médica em São Paulo, captação por WhatsApp · https://balanceinstitute.com.br/acompanhamento
-Autoridade baixa (cerca de 6,9 mil seguidores). Sinal de mídia fraco no Google (12 anúncios, só em maio de 2026). Design mais refinado da leva, tom contra a promessa fácil, calculadora com aviso, diretor técnico com CRM e UF.
-[Ficha](paginas/instituto-balance-emagrecimento.md)
-
-**Sou Coluna**
-Rede de 13 clínicas de tratamento de coluna, agendamento de consulta · https://soucoluna.com/
-Autoridade média (cerca de 118 mil seguidores no perfil nacional). Sem anúncios no Google; sinal de mídia não verificado (provavelmente Meta). Melhor experiência de leitura da coleta: mapa interativo da coluna, história de paciente em capítulos, primeira consulta passo a passo.
-[Ficha](paginas/sou-coluna.md)
 
 ### Infoproduto de nicho
 
 **Marcenaria 4.0**
 Curso de marcenaria para iniciantes com ferramenta incluída · https://cursodemarcenaria.com/
-Autoridade baixa a média (canal de nicho no YouTube). Anúncios no Google nas três janelas (33 no total), e o rodapé cita anúncios no Facebook. A melhor página da biblioteca para infoproduto vendido a quem não conhece o autor: curta, preço na dobra, caso com números ("A marcenaria orçou R$ 9.000. O aluno fez por R$ 3.500.").
+Autoridade baixa a média (canal de nicho no YouTube). Anúncios no Google nas três janelas (33 no total, de ao menos duas contas anunciantes), e o rodapé cita anúncios no Facebook. A melhor página da biblioteca para infoproduto vendido a quem não conhece o autor: curta, preço na dobra, caso com números ("A marcenaria orçou R$ 9.000. O aluno fez por R$ 3.500.").
 [Ficha](paginas/marcenaria-4-0.md)
-
-### Evento e high ticket
-
-**Imersão Imperium — Eduardo Arruda**
-Imersão presencial de 2 dias, 7ª edição, porta de entrada para mentoria high ticket · https://imersaoimperium.com.br/
-Autoridade baixa (cerca de 6,3 mil seguidores). Sem anúncios no Google; o sinal é a 7ª edição (PISTA). Preto e dourado, fotos reais de edições anteriores, programação por dia e dois ingressos com preço. Cuidado com a promessa de renda na headline.
-[Ficha](paginas/imersao-imperium.md)
 
 ### Produto físico de marca pequena (DTC)
 
 **Par de alianças — Macchi**
 Página de produto personalizado de joalheria online · https://www.macchi.com.br/produtos/flash-par-de-aliancas-joy-ouro-18k/
-Autoridade média (cerca de 88 mil seguidores). O sinal de mídia mais forte da leva: anúncios no Google nas três janelas, crescendo (52, 61 e 72 anúncios). Design limpo mas simples; vale pela caixa de compra de produto personalizado. Categoria mais fraca da leva.
+Autoridade média (cerca de 88 mil seguidores). O sinal de mídia mais forte da leva: anúncios no Google nas três janelas, crescendo (52, 61 e 72 anúncios). Design limpo mas simples; vale pela caixa de compra de produto personalizado.
 [Ficha](paginas/macchi-aliancas.md)
+
+## Sinal fraco ou não verificado
+
+Também da segunda leva. Ficam pelo design e pela forma de argumentar, mas o sinal de que a página vende com tráfego pago é fraco ou não pôde ser verificado (o Meta segue bloqueado). Não usar como prova de conversão.
+
+**Acompanhamento para emagrecimento — Instituto Balance**
+Clínica médica em São Paulo, captação por WhatsApp · https://balanceinstitute.com.br/acompanhamento
+Autoridade baixa (cerca de 6,9 mil seguidores). 12 anúncios no Google no total, 5 deles em maio de 2026; nenhum em novembro de 2025 nem nos últimos 30 dias. Design mais refinado da leva, tom contra a promessa fácil, diretor técnico com CRM e UF. **Não modelar a avaliação sem custo nem o "parecer clínico" por WhatsApp.**
+[Ficha](paginas/instituto-balance-emagrecimento.md)
+
+**Sou Coluna**
+Rede de 13 clínicas de tratamento de coluna · https://soucoluna.com/
+Autoridade média (cerca de 118 mil seguidores no perfil nacional). Nenhum anúncio no Google; sinal de mídia não verificado. Melhor experiência de leitura da coleta: mapa da coluna, história de paciente em capítulos, primeira consulta passo a passo. Cuidado com "97% de eficácia" e com frases que afirmam a condição do leitor.
+[Ficha](paginas/sou-coluna.md)
+
+**Imersão Imperium — Eduardo Arruda**
+Imersão presencial de 2 dias, porta de entrada para mentoria high ticket · https://imersaoimperium.com.br/
+Autoridade baixa (cerca de 6,3 mil seguidores). Nenhum anúncio no Google. A página diz "7ª edição"; a busca achou edições e eventos anteriores do mesmo ecossistema na Sympla (PISTA; a contagem de sete não foi confirmada). Preto e dourado, fotos reais de edições anteriores, programação por dia e dois ingressos. Cuidado com a promessa de renda na headline.
+[Ficha](paginas/imersao-imperium.md)
 
 ## Marcas fortes: referência de design, não de conversão
 
-Primeira leva (25/11/2026). São páginas de empresas com autoridade prévia alta (13 de 14; a Alice é média). Nelas, boa parte da venda provavelmente vem da marca, da audiência ou da base própria, e não da página (cada ficha diz quanto, como SUPOSIÇÃO). Use-as como referência de **design, organização e acabamento**, não como prova de que a página converte sozinha.
+Primeira leva (25/11/2026) e o Dr. Lucas Firmino (segunda leva, reclassificado). São páginas de empresas com autoridade prévia alta (14 de 15; a Alice é média a alta). Nelas, boa parte da venda provavelmente vem da marca, da audiência ou da base própria, e não da página (cada ficha diz quanto, como SUPOSIÇÃO). Use-as como referência de **design, organização e acabamento**, não como prova de que a página converte sozinha.
 
 ### Infoproduto / curso
 
@@ -177,6 +177,11 @@ A página de planos mais limpa da lista: três cartões, um destacado por cor, c
 
 ### Saúde (nicho regulado)
 
+**Lentes de porcelana — Dr. Lucas Firmino** (segunda leva, reclassificado)
+Clínica de odontologia estética em Belo Horizonte · https://drlucasfirmino.com.br/
+Autoridade alta: o perfil do dentista aparece com cerca de 609 mil seguidores no resumo da busca de 26/11/2026 (a IstoÉ citava 243 mil). Anúncios no Google nas três janelas (17 no total). Fundo preto, grade de sorrisos e processo em três consultas. Cuidado: "satisfação garantida", crítica a outras técnicas, superlativos e a grade de "transformações" (CFO-196/2019).
+[Ficha](paginas/lentes-dr-lucas-firmino.md)
+
 **Plano de Saúde PME — Alice**
 Plano de saúde empresarial para pequenas empresas · https://alice.com.br/plano-de-saude-pme
 Página de saúde com tabela de preço por idade, comparação de reajuste com concorrentes e responsável técnico no rodapé. 100 mil membros e receita recorrente anual (ARR, o faturamento de assinaturas projetado para 12 meses) de R$ 1,1 bilhão, segundo a empresa (PEGN, 09/2026). Modelo de organização do rodapé, mas o CRM aparece sem UF.
@@ -223,6 +228,6 @@ Fotografia de marca forte, produto mostrado em uso e tabela de planos com plano 
 - **Wayback Machine (histórico das páginas):** a conexão com web.archive.org caiu no proxy do ambiente. Não deu para medir há quanto tempo cada página está no ar.
 - **Região:** o ambiente acessa a internet por fora do Brasil. Alguns sites mostram aviso de região (Insider) e alguns conteúdos podem variar por país.
 - **Seções animadas:** páginas que mostram conteúdo só durante a rolagem foram capturadas no modo "costura". Mesmo assim, uma seção do O Novo Mercado e o carrossel de vídeos da Fluency não aparecem nas imagens.
-- **Lacunas da segunda leva:** 9 páginas, abaixo da faixa de 10 a 15 pedida (teto, não cota). Faltaram uma página de captura de isca de marca pequena com sinal verificável, uma mentoria high ticket com página própria e sinal, e uma DTC pequena com design forte (a Macchi é simples). A principal causa é o bloqueio do Meta: muitos pequenos anunciam só no Facebook e no Instagram e aparecem com zero no Google. Estudos de caso de agências com taxa de conversão publicada não citavam o cliente ou a URL, então não serviram.
+- **Lacunas da segunda leva:** depois da revisão, só 5 páginas atendem ao critério completo (sem marca forte e com anúncio contínuo verificado), mais 3 com sinal fraco; a faixa pedida era de 10 a 15 (teto, não cota). Faltaram uma página de captura de isca de marca pequena com sinal verificável, uma mentoria high ticket com página própria e sinal, e uma DTC pequena com design forte (a Macchi é simples). A principal causa é o bloqueio do Meta: muitos pequenos anunciam só no Facebook e no Instagram e aparecem com zero no Google. Estudos de caso de agências com taxa de conversão publicada não citavam o cliente ou a URL, então não serviram.
 - **Audiência:** os números de seguidores vêm do resumo da busca (Instagram bloqueia sem login), sem data; são PISTA.
 - **Checkout não aberto:** preços que só aparecem no checkout (VTSD, por exemplo) ficaram como "não aparece na página".

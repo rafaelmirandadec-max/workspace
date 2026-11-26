@@ -641,3 +641,81 @@ Além dos dois bloqueios:
    - Biblioteca do Meta.
    - Sem os bloqueios corrigidos, o risco é o copywriter modelar avaliação gratuita ou preço de procedimento num cliente de clínica.
 4. **Fase seguinte:** devolver ao @researcher com este parecer. Depois, uma conferência rápida só dos dois bloqueios e do novo agrupamento do README, e então o envio ao Drive, com a versão anterior movida para "Arquivo (versões antigas)".
+
+---
+
+## Correções aplicadas (segunda leva)
+
+Pelo @researcher, em 26/11/2026. Não houve nova coleta, só as duas buscas pedidas (edições da Imperium e seguidores do Firmino). Cito as normas como o revisor as leu, com os links dele: [CFM 2.336/2023](https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf), [CFO-196/2019](https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf) e o [Código de Ética Odontológica na versão do CRO-MG](https://cromg.org.br/wp-content/uploads/2023/12/codigodeetica2023.pdf).
+
+### Bloqueios
+
+1. **Avaliação gratuita**
+   - **Harmony:** o "Por que está aqui" não diz mais "referência para qualquer clínica"; agora diz "referência de design e de organização", com a ressalva de que a avaliação gratuita não pode ser modelada. Em "modelar", entrou um "não modelar". A conformidade ganhou o item com o art. 11, § 4º, "c", e com os arts. 20, IX, e 44, I, do Código de Ética Odontológica.
+   - **Balance:** a anatomia registra "Sem compromisso e sem custo para avaliar" e o "parecer clínico em até 24 horas". A conformidade ganhou a avaliação sem custo (art. 11, § 4º, "c") e o parecer por WhatsApp (art. 11, XI).
+   - **README:** a seção principal abre com um aviso sobre avaliação gratuita e preço em saúde, com os três links. Os cartões da Harmony e da Balance também avisam.
+   - **Checklist:** entrou o item "Em saúde, nada de consulta, avaliação ou diagnóstico gratuito ou 'sem compromisso', nem parecer clínico antes da consulta".
+2. **Preço em saúde**
+   - **Checklist:** o item de preço ganhou a exceção de saúde (medicina: só consulta e formas de pagamento, art. 9º, VI; odontologia: nem preço nem forma de pagamento, art. 44, I).
+   - **`padroes.md`:** a opinião sobre preço na dobra passou a valer só fora de saúde.
+   - **Centro Brasileiro de Laser:** "modelar" agora diz "valor da consulta, sim; preço do procedimento que depende de avaliação, não". A conformidade cita os arts. 9º, VI, VII e VIII e a exposição de motivos. O cartão do README avisa.
+   - **Firmino e Harmê:** "sem preço" saiu dos pontos fracos. Na Harmê, o parcelamento entrou na conformidade como infração (art. 44, I).
+
+### Avisos
+
+1. **Agrupamento**
+   - O README agora tem três seções.
+   - **"Páginas que vendem sem marca forte":** Harmony, Centro Brasileiro de Laser (com "presença fina fora de maio", 1, 9 e 1 anúncios), Harmê, Marcenaria e Macchi.
+   - **"Sinal fraco ou não verificado":** Balance, Sou Coluna e Imperium.
+   - **Harmê:** passou a contínua, com 10 anúncios em maio (contagem do revisor), na ficha e no README.
+   - **Imperium:** a busca achou na Sympla a "Imersão Imperium em Florianópolis" (30/10), o "Imperium Premium", descrito como "um evento pré Imersão Imperium", e o "Imperium Master" (04/10). O site do mentor diz "Já realizamos diversas edições". Li só os resumos da busca, sem o ano das edições. As edições anteriores ficaram como PISTA, mas a contagem de sete não se confirmou. Por isso a Imperium ficou em "sinal fraco", e não saiu da biblioteca.
+   - **Firmino:** a busca mostrou cerca de 609 mil seguidores em @drlucasfirmino (resumo da busca de 26/11/2026, PISTA; a IstoÉ citava 243 mil). A autoridade passou a alta e a ficha foi para "Marcas fortes". A ficha registra o tom de conteúdo pago da matéria e a diferença entre "10 mil" e "100.000" lentes.
+2. **Rótulos**
+   - **Marcenaria:** saiu "sem parar". A ficha registra as duas contas anunciantes (uma empresa com nome diferente da razão social e uma pessoa física) e que a Central conta o domínio. A inferência virou SUPOSIÇÃO à parte.
+   - **Harmony, Imperium e Sou Coluna:** as inferências que estavam dentro de PISTA viraram linhas de SUPOSIÇÃO.
+   - **Balance:** o crédito à agência ficou como PISTA e a inferência como SUPOSIÇÃO. O cartão do README agora diz "12 anúncios no Google no total, 5 deles em maio de 2026".
+3. **Fichas contra capturas e texto**
+   - **Centro Brasileiro de Laser e Imperium:** o item do celular agora diz que o botão não aparece na primeira tela.
+   - **Sou Coluna:** a citação do apoio foi completada com "sem cirurgia e sem remédio."
+   - **Harmony:** o título da seção ficou "Transplantes surpreendentes", com o sobretítulo "RESULTADO QUE VOCÊ CONFIA" e a frase do controle deslizante. O menu ficou com oito itens.
+   - **Citações cortadas:** marcadas com "[...]" no Centro Brasileiro de Laser (com a continuação) e completada na Balance.
+4. **Conformidade das fichas de saúde**
+   - **Harmony e Balance:** o "na dúvida, fora" do antes e depois foi trocado pelas condições do art. 14, II. A Harmony ganhou as frases que insinuam resultado (art. 11, XII e § 2º, "f"). A lista de responsáveis técnicos deixou de ser "bom modelo" na ficha, no checklist e no `padroes.md`, com a falta do registro da clínica e a biomédica.
+   - **Balance:**
+     - entrou a falta de RQE (arts. 4º, II, e 5º, I, "b");
+     - "modelar" foi alinhado com a conformidade (simulador de etapas, não de quilos);
+     - as duas origens conflitantes dos 20% foram registradas;
+     - soroterapia, reposição hormonal e medicina integrativa entraram como "a conferir" (art. 11, VII).
+   - **Centro Brasileiro de Laser:** entraram o depoimento "minha vida mudou" (art. 14, II, "g"), a origem das imagens de banco (art. 14, II, "h") e a identificação que falta (art. 5º).
+   - **Sou Coluna:** entraram a afirmação da condição do leitor, a desqualificação de outros tratamentos, o dado de 36% sem link e as avaliações do Google com melhora. O mapa em "modelar" virou "mapa educativo". A ficha registra que a profissão de quem atende não foi identificada e que o código do COFFITO não foi lido.
+   - **Firmino:** entraram a CFO-196/2019 (arts. 2º, 3º e 4º), o art. 44, XII, a crítica a outras técnicas (art. 44, IV), o "especialista em lentes" (art. 44, II), a ressalva de autopromoção na prova de mídia (art. 2º, § 1º) e a identificação (art. 43).
+   - **Harmê:** entraram o nome e o CRO em cada imagem (CFO-196/2019, art. 4º) e o art. 43.
+5. **Contagens do `padroes.md`**
+   - **Base:** grupo A com 8 páginas (5 do grupo principal, entre parênteses, mais 3 de sinal fraco) e grupo B com 15 (as 14 antigas e o Firmino).
+   - **Recontagens:**
+     - processo em etapas: 6 de 8 (3 de 5); sem a Macchi e sem o Firmino, que foi para o grupo B;
+     - casos: 5 de 8 (3 de 5), com o mesmo critério nos dois grupos (caso individual com resultado mostrado por imagem, número ou título do depoimento), o que dá 5 de 15 no grupo B;
+     - localização: 6 de 8;
+     - WhatsApp confirmado: 5 de 8, com Centro Brasileiro de Laser e Macchi como prováveis;
+     - cabeçalho mínimo: 5 de 8 (6 de 9 antes de o Firmino sair, como o revisor contou);
+     - botão no celular: 5 de 8;
+     - mediana da altura no desktop: cerca de 8.300 px no grupo A e cerca de 11.500 px no grupo B.
+   - **Harmony:** saiu da "exceção". Promessa ou número sem fonte em saúde ficou em 5 de 5.
+6. **Checklist**
+   - avaliações do Google em saúde só sobre atendimento;
+   - rodapé com registro da clínica no CRM, diretor técnico com RQE, a palavra MÉDICO e, em odontologia, o art. 43;
+   - promessa da dobra em saúde vira processo e acesso;
+   - antes e depois com o art. 14 da CFM e a CFO-196/2019;
+   - links das três normas.
+7. **Menores**
+   - **Marcenaria:** ganhou uma seção curta de conformidade (preço "de", renda, garantia de 7 dias).
+   - **Alice:** autoridade "média a alta".
+   - **FIRE:** "cerca de 10 mil na edição de 2026" e "42 mil no total".
+
+### Não corrigido ou não verificável
+- **Edições anteriores da Imperium:** só pelos resumos da busca, sem abrir as páginas da Sympla nem confirmar o ano.
+- **Seguidores do Firmino:** só pelo resumo da busca; o Instagram bloqueia sem login.
+- **Código do COFFITO e status de soroterapia e medicina integrativa no CFM:** não lidos.
+- **Nome e CRO em cada imagem da Harmê:** não conferidos nas capturas.
+- **Faixa vazia no fim da captura desktop da Alice:** continua.
+- **Biblioteca de Anúncios do Meta:** continua bloqueada.

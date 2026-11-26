@@ -15,7 +15,7 @@
 
 ## Sinais de venda com tráfego pago (não medem a taxa de conversão)
 
-- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google, domínio harmeclinica.com.br: 20 anúncios no total; 8 exibidos em novembro de 2025 e 8 entre 26/10 e 25/11/2026 (consulta em 26/11/2026; a janela de maio de 2026 não carregou). Anúncios presentes há pelo menos um ano.
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google, domínio harmeclinica.com.br: 20 anúncios no total; 8 exibidos em novembro de 2025, 10 em maio de 2026 e 8 entre 26/10 e 25/11/2026 (contagem desta pesquisa em 26/11/2026; a janela de maio não carregou na primeira consulta e foi conferida pelo revisor às 10h20). Anúncios nas três janelas (contínuos).
 - **SUPOSIÇÃO** — Uma profissional com público pequeno que mantém anúncio por um ano para a mesma página provavelmente recupera o investimento. Apoio: continuidade dos anúncios; o retorno não é público.
 
 ## Anatomia da página (na ordem em que aparece)
@@ -46,14 +46,15 @@
 ## Pontos fracos
 
 - Texto genérico e cheio de promessa emocional ("empoderada", "melhor versão", "aumento significativo em seu bem-estar").
-- Sem preço, sem número de casos, sem avaliações de pacientes com fonte.
+- Sem número de casos nem avaliações de pacientes com fonte. (A falta de preço não é defeito: em odontologia, preço na publicidade é vedado; ver conformidade.)
 - Visual de modelo pronto em algumas seções; o rodapé ainda diz 2023.
 
 ## Cuidado de conformidade
 
-Harmonização feita por cirurgiã-dentista: vale o Código de Ética Odontológica e as resoluções do CFO sobre publicidade e sobre harmonização orofacial. Não li o código nesta pesquisa; conferir o texto oficial antes de citar artigo. Pela skill `conformidade`, não modelar:
+Harmonização feita por cirurgiã-dentista: valem o Código de Ética Odontológica (versão publicada pelo CRO-MG, PDF de 12/2023, lida pelo revisor: https://cromg.org.br/wp-content/uploads/2023/12/codigodeetica2023.pdf; redação vigente não confirmada no site do CFO) e a Resolução CFO-196/2019 (texto oficial lido pelo revisor: https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf). Pela skill `conformidade` e por essas normas, não modelar:
+- **Parcelamento:** "Oferecemos opção de parcelamento no cartão" é infração em odontologia, que veda publicidade "com preços, serviços gratuitos, modalidades de pagamento" (Código de Ética, art. 44, I).
 - **Promessa de resultado:** "trazemos de volta a juventude e vitalidade ao seu rosto", "você sentirá um aumento significativo em seu bem-estar emocional e físico" e "garantindo recuperação suave e resultados" prometem efeito.
-- **Antes e depois ("transformações"):** depende das regras do conselho; na dúvida, fora.
+- **Antes e depois ("transformações"):** a CFO-196/2019 exige termo de consentimento (art. 2º) e nome e número de inscrição da profissional em cada imagem (art. 4º); conferir nas capturas antes de modelar. O Código de Ética ainda lista o antes e depois usado para "granjear clientela" como infração (art. 44, XII). Na dúvida, fora.
 - **Agitação de autoimagem** ("corrigir pequenas imperfeições faciais", "marca do tempo") perto de insegurança como motor.
-- **O que está bom:** identificação com CRO e UF e endereço no rodapé.
-- **Risco ao modelar:** vermelho para as promessas; laranja para antes e depois.
+- **O que está bom:** identificação com CRO e UF e endereço no rodapé (o Código de Ética pede nome e número de inscrição da pessoa física ou jurídica e do responsável técnico, art. 43).
+- **Risco ao modelar:** vermelho para parcelamento e promessas; laranja para antes e depois.

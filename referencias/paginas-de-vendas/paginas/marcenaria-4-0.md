@@ -7,7 +7,7 @@
 **Lida em:** 26/11/2026, 09h50 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/marcenaria-4-0-desktop.jpg) · [celular](../capturas/marcenaria-4-0-mobile.jpg) (modo costura)
 **Autoridade prévia:** baixa a média — canal de nicho: o site do produtor fala em "mais de 90.000 inscritos" no YouTube (PISTA, marcenariadehoje.com.br/curso, lido pela busca em 26/11/2026) e o Instagram do curso aparece com 3.532 seguidores no resumo da busca (PISTA, sem data). Sem presença em mídia nacional.
-**Quanto da conversão vem da marca (SUPOSIÇÃO):** pouca. Quem chega por anúncio provavelmente não conhece o canal, e a página faz o trabalho todo: método, ferramenta, caso com números e preço. Apoio: anúncios contínuos no Google há pelo menos um ano e o rodapé que menciona anúncios no Facebook.
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** pouca. Quem chega por anúncio provavelmente não conhece o canal, e a página faz o trabalho todo: método, ferramenta, caso com números e preço. Apoio: anúncios no Google nas três janelas de um ano e o rodapé que menciona anúncios no Facebook.
 
 ## Por que está aqui
 
@@ -15,7 +15,8 @@
 
 ## Sinais de venda com tráfego pago (não medem a taxa de conversão)
 
-- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google, domínio cursodemarcenaria.com: 33 anúncios no total; 15 exibidos em novembro de 2025, 15 em maio de 2026 e 16 entre 26/10 e 25/11/2026 (consulta em 26/11/2026). O anunciante roda anúncios para a página há pelo menos um ano sem parar, o que costuma indicar que a mídia se paga (o retorno em si não é público).
+- **FATO (contagem nesta pesquisa)** — Central de Transparência de Anúncios do Google, domínio cursodemarcenaria.com: 33 anúncios no total; 15 exibidos em novembro de 2025, 15 em maio de 2026 e 16 entre 26/10 e 25/11/2026 (consulta em 26/11/2026). Há anúncios para o domínio nas três janelas de um ano. A Central mostra ao menos **duas contas anunciantes** para o domínio: uma empresa cujo nome não coincide com a razão social do rodapé (Marcenaria de Hoje Ltda.) e uma pessoa física (conferido pelo revisor); pode ser afiliado ou gestor de tráfego. A Central conta o domínio, não esta página.
+- **SUPOSIÇÃO** — Mídia mantida em três janelas de um ano costuma indicar que se paga. Apoio: a contagem; o retorno não é público.
 - **PISTA** — O rodapé diz: "Este site pode conter anúncios veiculados no Facebook, mas não possui vínculo com a empresa Meta". Indica que também há mídia no Meta, que não pôde ser verificada (Biblioteca de Anúncios bloqueada neste ambiente).
 - **PISTA** — "Mais de 4.000 alunos inscritos" (página). Em páginas antigas do mesmo produtor, o número era 1.600 e depois 2.000 alunos (resumos de busca de marcenariadehoje.com.br): crescimento de base declarado pela própria empresa.
 - **SUPOSIÇÃO** — Preço baixo (R$ 147), ferramenta incluída e garantia de 7 dias formam uma oferta de baixo risco, adequada a tráfego frio. Apoio: estrutura da oferta.
@@ -56,3 +57,10 @@
 - A âncora "De R$ 397" precisa ser preço realmente cobrado antes; a página não mostra isso.
 - Depoimento "Hoje tem renda com móveis" toca em promessa de renda; o aviso ajuda, mas o tema pede cuidado ao modelar.
 - Pouca informação sobre quem ensina (não há seção de autor).
+
+## Cuidado de conformidade
+
+Não é nicho regulado, mas há dois pontos de consumidor (skill `conformidade`, seções 3 e 5):
+- **Preço "de":** "De R$ 397 por R$ 147" só vale se R$ 397 foi preço realmente cobrado; preço de referência nunca praticado pode ser publicidade enganosa (CDC, art. 37, § 1º).
+- **Renda:** o depoimento "Hoje tem renda com móveis" toca em promessa de renda. A página traz o aviso "Resultados individuais variam", que ajuda, mas ao modelar não pôr valor de ganho na headline.
+- **Garantia de 7 dias:** é o direito de arrependimento do CDC em compra online (art. 49), não diferencial.
