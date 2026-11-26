@@ -6,6 +6,8 @@
 **Ticket:** gratuito
 **Lida em:** 25/11/2026, 15h49 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/laboratorio-de-trafego-desktop.jpg) · [celular](../capturas/laboratorio-de-trafego-mobile.jpg)
+**Autoridade prévia:** alta — mesma marca do Subido (Pedro Sobral, Grupo Permaneo); a página declara 220 mil inscritos na newsletter.
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. Uma isca gratuita de autor conhecido converte mais pela confiança no nome do que pela página. Apoio: autoridade como argumento principal ("alguém que investe R$ 2 milhões por mês").
 
 ## Por que está aqui
 

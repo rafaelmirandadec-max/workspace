@@ -6,6 +6,8 @@
 **Ticket:** não aparece na página ("Preencha seus dados para conhecer as próximas turmas e condições disponíveis")
 **Lida em:** 25/11/2026, 15h46 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/g4-gestao-e-estrategia-desktop.jpg) · [celular](../capturas/g4-gestao-e-estrategia-mobile.jpg)
+**Autoridade prévia:** alta — faturamento de cerca de R$ 500 milhões em 2025 (declarado), sócios com grande audiência e evento próprio de grande porte (G4 Valley).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. Em venda consultiva de alto valor, a página só qualifica o contato; quem fecha é o consultor, com a marca pesando na decisão. Apoio: preço fora da página e botão para formulário.
 
 ## Por que está aqui
 

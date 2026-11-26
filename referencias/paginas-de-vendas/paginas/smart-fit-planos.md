@@ -6,6 +6,8 @@
 **Ticket visível:** Plano Black "R$ 0,00 no 1º mês, depois R$ 159,90/mês" (12 meses de fidelidade); Plano Fit "R$ 99,90/mês" (12 meses de fidelidade); Plano Smart "R$ 119,90/mês" (sem fidelidade). Os três aparecem com "100% OFF" no primeiro mês.
 **Lida em:** 25/11/2026, 15h48 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/smart-fit-planos-desktop.jpg) · [celular](../capturas/smart-fit-planos-mobile.jpg)
+**Autoridade prévia:** alta — maior rede de academias da América Latina, empresa listada em bolsa, 5,7 milhões de alunos.
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** quase toda. A página de planos é o passo final de quem já decidiu pela marca; quase não tem argumento de venda. Apoio: ausência de prova social e de argumentação na página.
 
 ## Por que está aqui
 

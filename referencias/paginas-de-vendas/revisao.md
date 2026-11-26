@@ -320,3 +320,402 @@ Pelo @researcher, em 25/11/2026, sem nova coleta. A única leitura feita foi uma
 - O código de publicidade do CFP, as normas da CVM e da ANS e o texto da Resolução CFM 2.336/2023 não foram lidos no texto oficial. As fichas citam esses órgãos sem número de artigo.
 - A Biblioteca de Anúncios do Meta continua sem verificação (mesmo bloqueio).
 - O número de R$ 53 milhões em 2022 do O Novo Mercado segue como PISTA forte, com a nota de que o revisor não o achou.
+
+---
+
+# Revisão da segunda leva (26/11/2026)
+
+Revisor: @revisor, 26/11/2026, das 10h05 às 10h40 (horário de Brasília). Escopo: as 9 fichas novas, o campo "Autoridade prévia" das 14 antigas, o `README.md` e o `padroes.md`. As fichas antigas não foram revisadas de novo.
+
+## Veredito: bloqueado para uso em cliente de saúde; liberado com avisos para o resto
+
+A leva atende ao critério do Rafael em cinco páginas e chega perto em uma. Três entraram com sinal fraco ou sem sinal e devem ir para uma seção própria. Todas as contagens de anúncios conferidas bateram, com uma exceção a favor da ficha (Harmê).
+
+O problema está na conformidade. Li o texto oficial da Resolução CFM 2.336/2023 e o Código de Ética Odontológica, que as fichas não tinham lido. Dois pontos mudam o uso da biblioteca em clínica, que é o cliente principal do Rafael:
+- a avaliação gratuita, que é o botão principal de duas páginas apresentadas como modelo;
+- o preço em saúde, que o checklist manda mostrar sem exceção.
+
+Corrigidos os dois bloqueios, a biblioteca pode ir ao Drive e ao copywriter. Infoproduto e produto físico (Marcenaria e Macchi) já podem ser usados.
+
+## Bloqueios (antes de usar como modelo em cliente de saúde)
+
+### 1. Avaliação ou consulta gratuita: vedada para médico e dentista, e nenhuma ficha avisa
+
+**Onde:**
+- `paginas/harmony-transplante-capilar.md`. A anatomia registra "AVALIAÇÃO GRÁTIS" e "Quero minha avaliação gratuita" como chamada principal, e o "Por que está aqui" diz que a página "serve de referência para qualquer clínica com várias unidades que capta por anúncio".
+- `paginas/instituto-balance-emagrecimento.md`, item 11 da anatomia: "avaliação inicial sem custo por WhatsApp". Na página lida às 10h08, o texto é "Sem compromisso e sem custo para avaliar", com "parecer clínico em até 24 horas".
+- `README.md`, cartão da Harmony ("captação de avaliação com formulário na dobra"). No `padroes.md`, o formulário da Harmony aparece como padrão observado, sem ressalva.
+
+**Por quê:**
+- Resolução CFM 2.336/2023, art. 11, § 4º, alínea "c" (conferido no texto oficial): é concorrência desleal "anunciar a prestação de serviços médicos gratuitos em seu consultório privado", e a regra vale também para empresa que contrata médico.
+- No caso da Balance, o "parecer clínico" por WhatsApp antes da consulta também esbarra no art. 11, XI: é vedado "oferecer consultoria a pacientes e familiares como substituição da consulta médica presencial", ressalvada a telemedicina regulamentada.
+- Em odontologia, o Código de Ética Odontológica considera infração "divulgar ou oferecer consultas e diagnósticos gratuitos ou sem compromisso" (art. 20, IX) e fazer publicidade "com preços, serviços gratuitos, modalidades de pagamento" (art. 44, I). Conferido na versão publicada pelo CRO-MG (PDF de 12/2023).
+
+O copywriter que modelar a Harmony vai copiar o elemento central da página, e é justamente o que não pode.
+
+**Correção sugerida:**
+- Na seção "Cuidado de conformidade" da Harmony e da Balance, acrescentar: "Avaliação gratuita: não modelar (CFM 2.336/2023, art. 11, § 4º, c). Em odontologia, também vedada (Código de Ética Odontológica, arts. 20, IX, e 44, I)."
+- No checklist do `padroes.md`, no bloco "Confiança e conformidade", acrescentar: "Em saúde, nada de consulta, avaliação ou diagnóstico gratuito ou 'sem compromisso', nem parecer clínico antes da consulta."
+
+### 2. Preço em saúde: o checklist manda mostrar, e as fichas de odontologia tratam a falta de preço como defeito
+
+**Onde:**
+- `padroes.md`, checklist, bloco "Estrutura": "Oferta com preço claro: **parcela e total à vista lado a lado**". O item não tem exceção para saúde.
+- `padroes.md`, seção 1, "Opinião": "Preço na dobra [...] funciona como filtro".
+- `paginas/lentes-dr-lucas-firmino.md`, em "Pontos fracos": "Sem preço nem faixa de investimento".
+- `paginas/harme-clinica-harmonizacao.md`, em "Pontos fracos": "Sem preço, sem número de casos". A ficha também registra "opção de parcelamento no cartão" sem apontar risco.
+- `paginas/centro-brasileiro-de-laser.md`, em "O que dá para modelar": "Preço 'a partir de' e valor da consulta de avaliação visíveis, quando o regulamento permite".
+
+**Por quê (textos conferidos):**
+- **Medicina.** A Resolução CFM 2.336/2023 permite informar o valor da consulta, os meios e as formas de pagamento (art. 9º, VI) e anunciar descontos sem venda casada (art. 9º, VIII). Para procedimento particular, permite informar que o valor "poderá ser acordado entre as partes previamente" (art. 9º, VII). A exposição de motivos limita o anúncio de preço de procedimentos e exames aos que "não dependam de diagnóstico e avaliação prévia".
+  - A cirurgia refrativa depende de avaliação, e a própria página diz isso. Os R$ 150 da consulta podem ser modelados. O "a partir de R$ 3.500" na headline, não.
+- **Odontologia.** O Código de Ética Odontológica, art. 44, I, considera infração a publicidade "com preços, serviços gratuitos, modalidades de pagamento". A falta de preço nas páginas do Firmino e da Harmê é cumprimento da regra, não defeito. O parcelamento da Harmê é infração, não detalhe.
+
+**Correção sugerida:**
+- Firmino e Harmê: tirar "sem preço" dos pontos fracos. Na Harmê, pôr o parcelamento em "Cuidado de conformidade" (art. 44, I).
+- Centro Brasileiro de Laser, em "modelar": "valor da consulta, sim (CFM 2.336/2023, art. 9º, VI); preço do procedimento que depende de avaliação, não".
+- `padroes.md`:
+  - no item de preço do checklist, acrescentar: "Exceto em saúde: em medicina, só o valor da consulta e as formas de pagamento; em odontologia, nem preço nem forma de pagamento".
+  - ajustar a "Opinião" sobre preço na dobra da mesma forma.
+
+## Avisos
+
+### 1. Critério: três páginas com sinal fraco e uma com autoridade provavelmente alta
+
+O critério do Rafael é marca pouco conhecida que vende pela página, com sinal de conversão. Minha recomendação, página por página:
+
+**Manter no grupo principal**
+- **Harmony:** 25 anúncios, presente nas três janelas.
+- **Marcenaria 4.0:** 33 anúncios, 15, 15 e 16 nas três janelas.
+- **Macchi:** 91 anúncios, 52, 61 e 72 nas janelas. A autoridade média é aceitável: 88 mil seguidores e uma joalheria de 1939.
+- **Clínica Harmê:** subir para "contínuo". Hoje, às 10h20, a janela de maio de 2026 carregou e mostrou **10 anúncios**. A ficha diz que "a janela de maio de 2026 não carregou", e o README diz "novembro de 2025 e nos últimos 30 dias".
+- **Centro Brasileiro de Laser:** manter, mas dizer no cartão do README que a presença é fina fora de maio (1, 9 e 1 anúncios).
+
+**Rever a autoridade**
+- **Dr. Lucas Firmino.** A ficha diz que "o número de seguidores não foi achado". A matéria da IstoÉ citada na própria página diz que o perfil "conta com mais de 243 mil seguidores" (istoe.com.br, lida às 10h11, sem data visível).
+  - A matéria e a página o chamam de "figura pública", "dentista dos famosos" e "referência mundial".
+  - Pelo mesmo critério que tirou a Imersão SST (cerca de 420 mil seguidores, "autoridade alta no nicho"), o Firmino fica entre média-alta e alta.
+  - Recomendo conferir o número atual. Se passar de 200 mil, mover a página para "Marcas fortes" ou para a seção de sinal fraco.
+  - Dois pontos para a ficha:
+    - o tom da matéria é de conteúdo pago (PISTA, não prova de imprensa);
+    - a mesma matéria fala em "mais de 10 mil lentes", e a página em "mais de 100.000".
+
+**Rebaixar para uma seção "Sinal fraco ou não verificado"**, abaixo do grupo principal e acima das marcas fortes:
+- **Instituto Balance.** Tem 12 anúncios, mas só 5 caem nas três janelas, todos em maio. Os outros dois períodos estão zerados (conferi maio e os últimos 30 dias). Fica pelo design e pelo tom.
+- **Sou Coluna.** Zero anúncio no Google (conferido). O sinal no Meta não foi verificado, e a autoridade é média (118 mil seguidores, rede de franquia). Fica pela experiência de leitura.
+- **Imersão Imperium.** Zero anúncio no Google (conferido). O único sinal é "7ª edição", declarado pela própria página.
+  - Antes de decidir, procurar as edições anteriores na Sympla ou em outra fonte. Se aparecerem, rebaixar. Se não aparecerem, tirar da biblioteca.
+  - Também pesa contra: promessa de renda na headline e item vencido na oferta.
+
+Com isso, o grupo principal fica com 5 páginas (6, se o Firmino continuar). O `padroes.md` tem de dizer sobre que base conta. A opção mais simples é manter as 9 e marcar quais estão na seção de sinal fraco.
+
+### 2. Rótulos: suposição escrita dentro de FATO e de PISTA
+
+As contagens estão certas (ver "Conferido"). Mas algumas linhas misturam leitura do pesquisador com o dado:
+- **Marcenaria**, linha FATO: "O anunciante roda anúncios para a página há pelo menos um ano sem parar". Três janelas não provam "sem parar", e a Central conta o domínio, não a página.
+  - A Central mostra ao menos **duas contas anunciantes**: uma empresa cujo nome não coincide com a razão social do rodapé (Marcenaria de Hoje Ltda.) e uma pessoa física.
+  - Pode ser afiliado ou gestor. O sinal continua valendo, mas a ficha deve registrar as contas e não falar em "o anunciante".
+- **Harmony**, linha PISTA: "o que indica expansão financiada pela captação". É SUPOSIÇÃO.
+- **Imperium**, linha PISTA: "um formato que chega à sétima edição costuma estar se pagando". É SUPOSIÇÃO.
+- **Sou Coluna**, linha PISTA: "expansão rápida costuma depender de captação de pacientes que funciona". É SUPOSIÇÃO.
+- **`README.md`, cartão da Balance:** "12 anúncios, só em maio de 2026" está errado. São 12 no total, 5 deles em maio. Os outros 7 caíram fora das três janelas.
+
+### 3. Fichas que contradizem as capturas ou o texto da página
+
+- **Centro Brasileiro de Laser**, em "O que o design faz bem": "Celular: headline com preço e botão na primeira tela". Na captura do celular, os primeiros 844 px mostram logo, headline, texto e checks, sem botão. O `padroes.md` está certo, e a ficha está errada.
+- **Imperium**, mesmo item: "Celular: dobra com data, local e botão na primeira tela". Na captura, a foto do casal, o logo e a headline ocupam a tela, e o botão vem depois. A ficha está errada.
+- **Sou Coluna:** a citação "literal" do apoio termina em "sem cirurgia.". Na página e na captura do celular, o texto é "sem cirurgia e sem remédio." O trecho cortado é justamente o que tem risco de conformidade. Corrigir a citação.
+- **Harmony:**
+  - O título da seção é "Transplantes surpreendentes", com o sobretítulo "RESULTADO QUE VOCÊ CONFIA" e a frase "Arraste o controle de cada caso pra comparar a transformação real" (captura desktop). A ficha escreve "Resultados surpreendentes".
+  - O menu tem oito itens (galeria, tratamentos, chat, unidades, avaliações, dúvidas, blog, trabalhe conosco), e não o "menu curto" de cinco que a ficha descreve.
+- **Citações cortadas sem marca:**
+  - Centro Brasileiro de Laser: o apoio continua com "Conte com especialistas, tecnologia avançada e a experiência de mais de 20 mil cirurgias realizadas em São Paulo".
+  - Balance: o texto completo é "Ela queria dormir melhor e parar de acordar durante a noite".
+  - Quando a citação for cortada, usar "[...]".
+
+### 4. Conformidade: o que as fichas de saúde deixaram passar
+
+Itens conferidos no texto oficial, quando cito artigo. Nenhum deles faz a ficha recomendar modelar algo vedado (os dois casos que fazem estão nos bloqueios), mas cada um falta na seção "Cuidado de conformidade".
+
+**Antes e depois em medicina.** A CFM 2.336/2023 permite antes e depois com condições (art. 14, II):
+- texto educativo com indicações, fatores que influenciam o resultado e complicações;
+- um conjunto que mostre também evoluções "insatisfatórias e complicações";
+- anonimato do paciente, mesmo com autorização (art. 14, II, "i", 3);
+- depoimento sóbrio, "sem adjetivos que denotem superioridade ou induzam a promessa de resultado" (art. 14, II, "g").
+
+Harmony e Balance só mostram casos bons. No primeiro caso da Harmony, o rosto aparece de perfil sem tarja (o terceiro tem tarja). Na Balance, os rostos estão pixelados.
+
+Trocar o "conferir; na dúvida, fora" dessas duas fichas pelas condições do art. 14. Isso é mais útil ao copywriter.
+
+**Harmony**
+- "Transplantes surpreendentes", "Resultado que você confia" e "transformação real" insinuam resultado (art. 11, XII e § 2º, "f").
+- O `padroes.md`, seção 2, diz que a Harmony é "a exceção" sem promessa nem superlativo. Ficam 6 de 6.
+- Os responsáveis técnicos estão listados com CRM e UF, mas falta o registro da clínica no CRM (art. 5º, I, "a"), e uma unidade tem biomédica (CRBM) como responsável.
+  - A própria ficha aponta isso nos pontos fracos, mas em "modelar" e em "Cuidado de conformidade" chama a lista de "bom modelo".
+  - O checklist repete o elogio ("bons modelos: Harmony"). Ajustar os três lugares.
+
+**Balance**
+- A seção de vídeos e o cartão do diretor técnico dizem "Nutrologia e medicina esportiva · CRM 169493 SP", sem RQE no texto lido. A CFM 2.336/2023 pede RQE junto da especialidade (art. 4º, II, e art. 5º, I, "b"). A ficha elogia "nome, especialidade e CRM com UF"; acrescentar que falta o RQE.
+- A seção "modelar" sugere "Calculadora ou simulador com aviso explícito de que não é promessa". A seção de conformidade diz para preferir "simulador de etapas do acompanhamento, não de quilos". As duas se contradizem. A versão da conformidade é a certa (art. 11, XII: "insinuar bons resultados").
+- A calculadora diz que os 20% vêm da "média de estudos de acompanhamento clínico". O bloco de evidência diz "média observada em pacientes". As duas origens não batem, e vale registrar isso.
+- A página cita "Soroterapia", "Reposição hormonal" e "Medicina integrativa". Conferir antes de modelar (art. 11, VII: vedado divulgar método não reconhecido pelo CFM). Não verifiquei o status de cada um.
+
+**Centro Brasileiro de Laser**
+- A página tem um depoimento de resultado ("Após a cirurgia, minha vida mudou! [...] Foi a melhor decisão que já tomei!"), e a ficha não o cita na conformidade (art. 14, II, "g").
+- Imagem de banco de imagens precisa citar a origem (art. 14, II, "h"). Reforça o "não modelar" que a ficha já tem.
+
+**Sou Coluna**
+- Faltam dois trechos na conformidade:
+  - "Se você já tomou remédio, ficou em repouso ou fez exercícios e a dor voltou" afirma a condição de quem lê (skill `conformidade`, seções 2 e 7);
+  - "a culpa não é sua: a maioria dos tratamentos cuida da dor sem descobrir de onde ela vem" desqualifica outros tratamentos.
+- O dado de 36% ("Dado do Ministério da Saúde") não tem link.
+- Em "modelar", a "ferramenta interativa simples que ajuda o leitor a localizar o próprio problema" convida o leitor a apontar a própria condição. Sugiro trocar por "mapa educativo de como a coluna funciona, com a ressalva de que quem explica a dor é a avaliação".
+- Não li o código do COFFITO. A profissão de quem atende segue não identificada; o "adjustor" sugere quiropraxia.
+
+**Firmino (Código de Ética Odontológica e Resolução CFO-196/2019, conferidos)**
+- A CFO-196/2019 autoriza imagens de diagnóstico e de conclusão do tratamento feito pelo próprio dentista, com termo de consentimento (art. 2º) e com o nome e o número de inscrição em toda imagem (art. 4º). Proíbe vídeo ou imagem "do transcurso e/ou à realização dos procedimentos" (art. 3º).
+- O Código de Ética continua listando como infração o antes, durante e depois usado para "granjear clientela" (art. 44, XII). As duas normas convivem mal. Não modelar a grade de "transformações" sem parecer do CRO.
+- "sem aquele desgaste que você vê pela internet" critica a técnica de outros profissionais (art. 44, IV).
+- "especialista em lentes", sob a foto do celular: lentes não é especialidade do CFO. Conferir (art. 44, II).
+- O item "Prova de mídia em cartões com o logo do veículo", em "modelar", precisa da ressalva de autopromoção (CFO-196/2019, art. 2º, § 1º). As matérias parecem conteúdo pago.
+
+**Harmê**
+- Pela CFO-196/2019, art. 4º, cada imagem de caso precisa trazer o nome e o CRO da profissional. Conferir nas capturas antes de modelar.
+
+### 5. Contagens do `padroes.md`
+
+Conferi todas as do grupo A contra as fichas, as capturas e as páginas lidas.
+
+| Item | `padroes.md` | Recontagem | Motivo |
+|---|---|---|---|
+| Processo em etapas | 8 de 9 | 7 de 9 | O prazo de produção da Macchi não é processo em etapas |
+| Casos visuais ou numéricos | 8 de 9 | 6 de 9 | Centro Brasileiro de Laser usa imagens de banco, que a própria ficha diz não serem casos; as fotos de plateia da Imperium não mostram resultado de caso |
+| Onde e com quem | 7 de 9 | 7 de 9 | Confere |
+| WhatsApp | 8 de 9 | 7 ou 8 de 9 | Confirmado em 6 páginas lidas ou capturas (Harmony, Firmino, Balance, Sou Coluna, Marcenaria, Harmê). No Centro Brasileiro de Laser, só há um número de celular, sem a palavra WhatsApp; a Macchi só tem um ícone na captura. As fichas não registram o WhatsApp de 4 páginas |
+| Ressalvas | 5 de 9 | 5 de 9 | Confere; a da Harmony é fraca (só a variação de folículos) |
+| Cabeçalho mínimo | 7 de 9 | 6 de 9 | A Harmony tem menu de oito itens |
+| Botão na primeira tela do celular | 6 de 9 | 6 de 9 | Confere pelas capturas; as fichas do Centro Brasileiro de Laser e da Imperium é que erram |
+| Mediana da altura no desktop | ~7.800 / ~12.500 px | 7.781 / 12.540 px | Confere pelas dimensões das capturas |
+
+- A conclusão 2 ("8 de 9, contra 4 de 14") compara critérios diferentes. No grupo A, o critério é caso visual ou numérico. No grupo B, é o resultado no título do depoimento. Recontar com o mesmo critério ou tirar a comparação.
+- A conclusão 1 passa a 7 de 9.
+
+### 6. Checklist do `padroes.md` e a skill `conformidade`
+
+Além dos dois bloqueios:
+- **"Avaliações do Google na página [...] vale testar".** Em saúde, avaliação de paciente é depoimento.
+  - As da Sou Coluna falam de melhora ("Minha coluna vem melhorando").
+  - O item contradiz a regra, no mesmo checklist, de não usar depoimento de resultado clínico.
+  - Acrescentar: "em saúde, só avaliações sobre atendimento, sem resultado clínico".
+- **Item do rodapé.** Pede "responsável técnico com CRM e UF". O texto oficial pede mais:
+  - em medicina: nome do estabelecimento com registro no CRM; diretor técnico com CRM e RQE quando houver especialidade (CFM 2.336/2023, art. 5º); e, na peça do médico, a palavra MÉDICO (art. 4º);
+  - em odontologia: nome e número de inscrição da pessoa física ou jurídica e do responsável técnico (Código de Ética Odontológica, art. 43).
+- **Dobra: "Uma promessa, uma frase de apoio".** Falta a ressalva da skill para saúde: a promessa vira processo e acesso.
+- **Antes e depois.** O item "só se o conselho permitir no caso" pode remeter ao art. 14 da CFM 2.336/2023 e à CFO-196/2019, agora conferidos.
+
+### 7. Menores
+
+- **Marcenaria:** é a única ficha nova sem "Cuidado de conformidade". Não é nicho regulado, mas tem preço "de" de Black Friday e o depoimento "Hoje tem renda com móveis". Os pontos fracos já tratam dos dois; vale uma seção curta, como na Macchi.
+- **Alice:** a primeira leva a marca com autoridade "média" e o README a põe em "Marcas fortes" (100 mil membros, ARR de R$ 1,1 bilhão). É coerente com o uso que se faz dela, mas o rótulo "média" confunde com o grupo A. Sugiro "média a alta".
+- **FIRE:** "cerca de 10 mil participantes por ano" (campo de autoridade) vem da edição de 2026; a média das 11 edições é bem menor (42 mil no total). Escrever "cerca de 10 mil na edição de 2026".
+- **Português:**
+  - "pra", "Dr" sem ponto e "Para quem é indicado a Harmonização Facial?" estão nas citações literais das páginas e devem ficar.
+  - Não achei erro de acentuação, crase ou concordância no texto do pesquisador.
+  - Marcas de texto de IA: nenhuma relevante. A frase "Ao contrário da hipótese inicial", na conclusão 4 do `padroes.md`, é boa: diz o que não se confirmou.
+
+## Conferido
+
+**Contagens na Central de Transparência de Anúncios do Google**, em 26/11/2026, entre 10h09 e 10h20. Todas bateram, menos a janela de maio da Harmê.
+- **Marcenaria:** 33 no total; 15 em novembro de 2025, 15 em maio de 2026 e 16 nos últimos 30 dias.
+- **Balance:** 12 no total; 5 em maio de 2026 e 0 nos últimos 30 dias.
+- **Harmony:** 25 no total.
+- **Macchi:** 91 no total e 72 nos últimos 30 dias.
+- **Centro Brasileiro de Laser:** 1 nos últimos 30 dias.
+- **Firmino:** 17 no total. O anunciante é D' Leon Empreendimentos, o que confirma a "Clínica D'Leon" do título da ficha.
+- **Harmê:** 20 no total. A janela de maio, que a ficha diz não ter carregado, mostrou 10.
+- **Sou Coluna e Imperium:** 0.
+
+**Páginas lidas** com `ler-pagina.mjs`, entre 10h07 e 10h09: Harmony, Centro Brasileiro de Laser, Instituto Balance, Sou Coluna e Dr. Lucas Firmino. As cinco estavam no ar (status 200).
+- As headlines conferem. O apoio confere com cortes (Sou Coluna, ver aviso 3).
+- Conferem também: os números citados como PISTA ("+5.000 pacientes", "+20mil cirurgias", "+12 mil", "4,8/5", "20%", "13 unidades", "+175.000", "97%", "+40 estudos", "100.000 lentes", "A maior clínica da América Latina"); "Assim sua satisfação é garantida"; a urgência "ainda este mês"; o texto de rodapé "tratamentos estéticos avançados"; os responsáveis técnicos da Harmony, com a biomédica; o CRM do diretor técnico da Balance; e a ausência de CRM e de CRO no Centro Brasileiro de Laser e no Firmino.
+
+**Capturas.** A primeira tela do celular das 9 páginas novas (aviso 3), a seção de casos da Harmony e a da Balance (desktop) e as alturas de todas as 46 capturas (mediana).
+
+**Links.** Todos os links do `README.md`, do `padroes.md` e das fichas para `capturas/` e `paginas/` apontam para arquivos que existem. O README lista as mesmas 23 páginas que estão em `paginas/`.
+
+**Normas lidas no texto oficial:**
+- Resolução CFM 2.336/2023, PDF do CFM: arts. 4º, 5º, 9º, 11 e 14 e a exposição de motivos.
+- Resolução CFO-196/2019, PDF do CFO.
+- Código de Ética Odontológica, versão publicada pelo CRO-MG (PDF de 12/2023): arts. 20, 43 e 44. Não confirmei no site do CFO se esta é a redação vigente.
+
+**Não conferido:**
+- As páginas da Harmê, da Marcenaria, da Imperium e da Macchi (fora da amostra).
+- Os números de seguidores (Instagram bloqueado).
+- A Biblioteca de Anúncios do Meta (mesmo bloqueio).
+- As edições anteriores da Imperium.
+- O código do COFFITO.
+- O status de soroterapia e medicina integrativa no CFM.
+- O número atual de seguidores do Firmino.
+
+## O que corrigir, por arquivo
+
+- **`paginas/harmony-transplante-capilar.md`**
+  - Avaliação gratuita na conformidade (bloqueio 1).
+  - Condições do art. 14 no lugar de "na dúvida, fora".
+  - "Transplantes surpreendentes" com o sobretítulo.
+  - Menu de oito itens.
+  - Responsável técnico: tirar o "bom modelo" ou ressalvar a biomédica e a falta do registro da clínica.
+  - Inferência da PISTA virar SUPOSIÇÃO.
+- **`paginas/instituto-balance-emagrecimento.md`**
+  - Avaliação sem custo e parecer por WhatsApp (bloqueio 1).
+  - Alinhar a calculadora em "modelar" com a conformidade.
+  - Falta de RQE.
+  - Origem dos 20% em conflito.
+  - Soroterapia, reposição hormonal e medicina integrativa a conferir.
+  - Condições do art. 14.
+- **`paginas/centro-brasileiro-de-laser.md`**
+  - Preço do procedimento versus valor da consulta (bloqueio 2).
+  - Corrigir o item do celular.
+  - Depoimento e banco de imagens na conformidade.
+  - Marcar a citação cortada.
+- **`paginas/lentes-dr-lucas-firmino.md`**
+  - Tirar "sem preço" dos pontos fracos (bloqueio 2).
+  - Autoridade: 243 mil seguidores pela IstoÉ e o tom de conteúdo pago.
+  - "10 mil" contra "100.000" lentes.
+  - CFO-196/2019 e Código de Ética (vídeos de transformação, crítica a outras técnicas, "especialista em lentes", prova de mídia).
+- **`paginas/harme-clinica-harmonizacao.md`**
+  - Tirar "sem preço" dos pontos fracos e pôr o parcelamento na conformidade (bloqueio 2).
+  - Janela de maio com 10 anúncios.
+  - Nome e CRO em cada imagem.
+- **`paginas/sou-coluna.md`**
+  - Citação do apoio completa.
+  - Afirmação da condição do leitor e desqualificação de outros tratamentos.
+  - Reescrever o item do mapa em "modelar".
+  - Inferência da PISTA virar SUPOSIÇÃO.
+- **`paginas/imersao-imperium.md`**
+  - Corrigir o item do celular.
+  - Inferência da PISTA virar SUPOSIÇÃO.
+  - Confirmar as edições anteriores.
+- **`paginas/marcenaria-4-0.md`**
+  - Tirar "sem parar" e registrar as duas contas anunciantes.
+  - Seção curta de conformidade.
+- **`README.md`**
+  - Criar a seção "Sinal fraco ou não verificado" com Balance, Sou Coluna e Imperium.
+  - Decidir o lugar do Firmino.
+  - Cartão da Balance (12 no total, 5 em maio).
+  - Cartão da Harmê (três janelas).
+  - Cartão do Centro Brasileiro de Laser (preço do procedimento não se modela).
+- **`padroes.md`**
+  - Checklist: avaliação gratuita (bloqueio 1); preço em saúde (bloqueio 2); avaliações do Google em saúde; rodapé com registro da clínica, RQE e CRO; dobra em saúde.
+  - Recontagens do aviso 5 e conclusões 1 e 2.
+  - Harmony fora da "exceção" de promessa.
+  - Dizer sobre que base se conta depois do rebaixamento.
+- **Fichas antigas (só o campo de autoridade)**
+  - Alice: "média a alta".
+  - FIRE: "10 mil na edição de 2026".
+
+## Fontes consultadas nesta revisão
+
+- Resolução CFM 2.336/2023, texto oficial: https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf
+- Resolução CFO-196/2019, texto oficial: https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf
+- Código de Ética Odontológica, versão do CRO-MG: https://cromg.org.br/wp-content/uploads/2023/12/codigodeetica2023.pdf
+- IstoÉ, "Referência em lentes de contato dental, Dr. Lucas Firmino faz sucesso também nas redes sociais": https://istoe.com.br/referencia-em-lentes-de-contato-dental-dr-lucas-firmino-faz-sucesso-tambem-nas-redes-sociais/
+- Central de Transparência de Anúncios do Google, por domínio (região BR): cursodemarcenaria.com, balanceinstitute.com.br, harmonytransplante.com, macchi.com.br, centrobrasileirolaser.com.br, drlucasfirmino.com.br, harmeclinica.com.br, soucoluna.com, imersaoimperium.com.br
+- Páginas lidas no ar: harmonytransplante.com, centrobrasileirolaser.com.br, balanceinstitute.com.br/acompanhamento, soucoluna.com, drlucasfirmino.com.br
+
+## Resumo para a coordenação
+
+1. **Entregue:** o parecer da segunda leva, no fim de `referencias/paginas-de-vendas/revisao.md`. Os arquivos da biblioteca não foram alterados.
+2. **Decisões principais:**
+   - **Veredito:** bloqueado para uso em cliente de saúde até duas correções; liberado com avisos para o resto.
+   - **Bloqueio 1:** a avaliação gratuita, chamada principal da Harmony e da Balance, é vedada pela CFM 2.336/2023 (art. 11, § 4º, c), e nenhuma ficha avisa.
+   - **Bloqueio 2:** o checklist manda mostrar preço sem exceção para saúde. As fichas de odontologia tratam a falta de preço como defeito, e o Código de Ética Odontológica veda preço e forma de pagamento (art. 44, I). Em medicina, só o valor da consulta é seguro.
+   - **Critério:** manter Harmony, Marcenaria, Macchi, Harmê (agora contínua) e Centro Brasileiro de Laser. Rebaixar Balance, Sou Coluna e Imperium para "sinal fraco". Rever o Firmino, que tinha mais de 243 mil seguidores segundo a IstoÉ.
+   - Todas as contagens de anúncios conferidas bateram.
+   - Duas fichas erram o botão no celular, uma citação "literal" cortou "e sem remédio", e duas contagens do `padroes.md` estão infladas (casos, 8 para 6 de 9; processo, 8 para 7 de 9).
+3. **Pendências:**
+   - Correções do @researcher (sem nova coleta, exceto Firmino e Imperium).
+   - Número atual de seguidores do Firmino.
+   - Edições anteriores da Imperium.
+   - Código do COFFITO para a Sou Coluna.
+   - Biblioteca do Meta.
+   - Sem os bloqueios corrigidos, o risco é o copywriter modelar avaliação gratuita ou preço de procedimento num cliente de clínica.
+4. **Fase seguinte:** devolver ao @researcher com este parecer. Depois, uma conferência rápida só dos dois bloqueios e do novo agrupamento do README, e então o envio ao Drive, com a versão anterior movida para "Arquivo (versões antigas)".
+
+---
+
+## Correções aplicadas (segunda leva)
+
+Pelo @researcher, em 26/11/2026. Não houve nova coleta, só as duas buscas pedidas (edições da Imperium e seguidores do Firmino). Cito as normas como o revisor as leu, com os links dele: [CFM 2.336/2023](https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf), [CFO-196/2019](https://website.cfo.org.br/wp-content/uploads/2019/01/Resolu%c3%a7%c3%a3o-CFO-196-2019.pdf) e o [Código de Ética Odontológica na versão do CRO-MG](https://cromg.org.br/wp-content/uploads/2023/12/codigodeetica2023.pdf).
+
+### Bloqueios
+
+1. **Avaliação gratuita**
+   - **Harmony:** o "Por que está aqui" não diz mais "referência para qualquer clínica"; agora diz "referência de design e de organização", com a ressalva de que a avaliação gratuita não pode ser modelada. Em "modelar", entrou um "não modelar". A conformidade ganhou o item com o art. 11, § 4º, "c", e com os arts. 20, IX, e 44, I, do Código de Ética Odontológica.
+   - **Balance:** a anatomia registra "Sem compromisso e sem custo para avaliar" e o "parecer clínico em até 24 horas". A conformidade ganhou a avaliação sem custo (art. 11, § 4º, "c") e o parecer por WhatsApp (art. 11, XI).
+   - **README:** a seção principal abre com um aviso sobre avaliação gratuita e preço em saúde, com os três links. Os cartões da Harmony e da Balance também avisam.
+   - **Checklist:** entrou o item "Em saúde, nada de consulta, avaliação ou diagnóstico gratuito ou 'sem compromisso', nem parecer clínico antes da consulta".
+2. **Preço em saúde**
+   - **Checklist:** o item de preço ganhou a exceção de saúde (medicina: só consulta e formas de pagamento, art. 9º, VI; odontologia: nem preço nem forma de pagamento, art. 44, I).
+   - **`padroes.md`:** a opinião sobre preço na dobra passou a valer só fora de saúde.
+   - **Centro Brasileiro de Laser:** "modelar" agora diz "valor da consulta, sim; preço do procedimento que depende de avaliação, não". A conformidade cita os arts. 9º, VI, VII e VIII e a exposição de motivos. O cartão do README avisa.
+   - **Firmino e Harmê:** "sem preço" saiu dos pontos fracos. Na Harmê, o parcelamento entrou na conformidade como infração (art. 44, I).
+
+### Avisos
+
+1. **Agrupamento**
+   - O README agora tem três seções.
+   - **"Páginas que vendem sem marca forte":** Harmony, Centro Brasileiro de Laser (com "presença fina fora de maio", 1, 9 e 1 anúncios), Harmê, Marcenaria e Macchi.
+   - **"Sinal fraco ou não verificado":** Balance, Sou Coluna e Imperium.
+   - **Harmê:** passou a contínua, com 10 anúncios em maio (contagem do revisor), na ficha e no README.
+   - **Imperium:** a busca achou na Sympla a "Imersão Imperium em Florianópolis" (30/10), o "Imperium Premium", descrito como "um evento pré Imersão Imperium", e o "Imperium Master" (04/10). O site do mentor diz "Já realizamos diversas edições". Li só os resumos da busca, sem o ano das edições. As edições anteriores ficaram como PISTA, mas a contagem de sete não se confirmou. Por isso a Imperium ficou em "sinal fraco", e não saiu da biblioteca.
+   - **Firmino:** a busca mostrou cerca de 609 mil seguidores em @drlucasfirmino (resumo da busca de 26/11/2026, PISTA; a IstoÉ citava 243 mil). A autoridade passou a alta e a ficha foi para "Marcas fortes". A ficha registra o tom de conteúdo pago da matéria e a diferença entre "10 mil" e "100.000" lentes.
+2. **Rótulos**
+   - **Marcenaria:** saiu "sem parar". A ficha registra as duas contas anunciantes (uma empresa com nome diferente da razão social e uma pessoa física) e que a Central conta o domínio. A inferência virou SUPOSIÇÃO à parte.
+   - **Harmony, Imperium e Sou Coluna:** as inferências que estavam dentro de PISTA viraram linhas de SUPOSIÇÃO.
+   - **Balance:** o crédito à agência ficou como PISTA e a inferência como SUPOSIÇÃO. O cartão do README agora diz "12 anúncios no Google no total, 5 deles em maio de 2026".
+3. **Fichas contra capturas e texto**
+   - **Centro Brasileiro de Laser e Imperium:** o item do celular agora diz que o botão não aparece na primeira tela.
+   - **Sou Coluna:** a citação do apoio foi completada com "sem cirurgia e sem remédio."
+   - **Harmony:** o título da seção ficou "Transplantes surpreendentes", com o sobretítulo "RESULTADO QUE VOCÊ CONFIA" e a frase do controle deslizante. O menu ficou com oito itens.
+   - **Citações cortadas:** marcadas com "[...]" no Centro Brasileiro de Laser (com a continuação) e completada na Balance.
+4. **Conformidade das fichas de saúde**
+   - **Harmony e Balance:** o "na dúvida, fora" do antes e depois foi trocado pelas condições do art. 14, II. A Harmony ganhou as frases que insinuam resultado (art. 11, XII e § 2º, "f"). A lista de responsáveis técnicos deixou de ser "bom modelo" na ficha, no checklist e no `padroes.md`, com a falta do registro da clínica e a biomédica.
+   - **Balance:**
+     - entrou a falta de RQE (arts. 4º, II, e 5º, I, "b");
+     - "modelar" foi alinhado com a conformidade (simulador de etapas, não de quilos);
+     - as duas origens conflitantes dos 20% foram registradas;
+     - soroterapia, reposição hormonal e medicina integrativa entraram como "a conferir" (art. 11, VII).
+   - **Centro Brasileiro de Laser:** entraram o depoimento "minha vida mudou" (art. 14, II, "g"), a origem das imagens de banco (art. 14, II, "h") e a identificação que falta (art. 5º).
+   - **Sou Coluna:** entraram a afirmação da condição do leitor, a desqualificação de outros tratamentos, o dado de 36% sem link e as avaliações do Google com melhora. O mapa em "modelar" virou "mapa educativo". A ficha registra que a profissão de quem atende não foi identificada e que o código do COFFITO não foi lido.
+   - **Firmino:** entraram a CFO-196/2019 (arts. 2º, 3º e 4º), o art. 44, XII, a crítica a outras técnicas (art. 44, IV), o "especialista em lentes" (art. 44, II), a ressalva de autopromoção na prova de mídia (art. 2º, § 1º) e a identificação (art. 43).
+   - **Harmê:** entraram o nome e o CRO em cada imagem (CFO-196/2019, art. 4º) e o art. 43.
+5. **Contagens do `padroes.md`**
+   - **Base:** grupo A com 8 páginas (5 do grupo principal, entre parênteses, mais 3 de sinal fraco) e grupo B com 15 (as 14 antigas e o Firmino).
+   - **Recontagens:**
+     - processo em etapas: 6 de 8 (3 de 5); sem a Macchi e sem o Firmino, que foi para o grupo B;
+     - casos: 5 de 8 (3 de 5), com o mesmo critério nos dois grupos (caso individual com resultado mostrado por imagem, número ou título do depoimento), o que dá 5 de 15 no grupo B;
+     - localização: 6 de 8;
+     - WhatsApp confirmado: 5 de 8, com Centro Brasileiro de Laser e Macchi como prováveis;
+     - cabeçalho mínimo: 5 de 8 (6 de 9 antes de o Firmino sair, como o revisor contou);
+     - botão no celular: 5 de 8;
+     - mediana da altura no desktop: cerca de 8.300 px no grupo A e cerca de 11.500 px no grupo B.
+   - **Harmony:** saiu da "exceção". Promessa ou número sem fonte em saúde ficou em 5 de 5.
+6. **Checklist**
+   - avaliações do Google em saúde só sobre atendimento;
+   - rodapé com registro da clínica no CRM, diretor técnico com RQE, a palavra MÉDICO e, em odontologia, o art. 43;
+   - promessa da dobra em saúde vira processo e acesso;
+   - antes e depois com o art. 14 da CFM e a CFO-196/2019;
+   - links das três normas.
+7. **Menores**
+   - **Marcenaria:** ganhou uma seção curta de conformidade (preço "de", renda, garantia de 7 dias).
+   - **Alice:** autoridade "média a alta".
+   - **FIRE:** "cerca de 10 mil na edição de 2026" e "42 mil no total".
+
+### Não corrigido ou não verificável
+- **Edições anteriores da Imperium:** só pelos resumos da busca, sem abrir as páginas da Sympla nem confirmar o ano.
+- **Seguidores do Firmino:** só pelo resumo da busca; o Instagram bloqueia sem login.
+- **Código do COFFITO e status de soroterapia e medicina integrativa no CFM:** não lidos.
+- **Nome e CRO em cada imagem da Harmê:** não conferidos nas capturas.
+- **Faixa vazia no fim da captura desktop da Alice:** continua.
+- **Biblioteca de Anúncios do Meta:** continua bloqueada.

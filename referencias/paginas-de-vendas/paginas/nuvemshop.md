@@ -6,6 +6,8 @@
 **Ticket visível:** planos no pagamento anual (-15%): Começo "Gratuito"; Essencial "R$58,65/mês, R$703,80 por ano" (marcado "Mais popular"); Impulso "R$139,40/mês"; Escala "R$381,65/mês"; Next "Sob consulta"
 **Lida em:** 25/11/2026, 15h47 (horário de Brasília), status 200
 **Capturas:** [desktop](../capturas/nuvemshop-desktop.jpg) · [celular](../capturas/nuvemshop-mobile.jpg) — o desktop foi capturado no modo "costura" por causa das animações; alguns cartões aparecem sobrepostos ou em movimento e há trechos vazios onde a animação não terminou.
+**Autoridade prévia:** alta — líder do setor de lojas virtuais na América Latina, 180 mil marcas (declarado).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. Quem chega à página principal já pesquisou plataformas; a marca pesa na escolha. Apoio: página institucional ampla, sem uma promessa única.
 
 ## Por que está aqui
 

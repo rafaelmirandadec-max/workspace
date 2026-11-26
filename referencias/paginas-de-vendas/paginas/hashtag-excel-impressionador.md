@@ -6,6 +6,8 @@
 **Ticket visível:** "De R$ 1.497 53% OFF por 12x R$ 69" (condição de Black Friday, "Último lote"), 12 meses de acesso, com a Comunidade Impressionadora (outros cursos) incluída
 **Lida em:** 25/11/2026, 15h44 (horário de Brasília), status 200 — com faixa de Black Friday ativa
 **Capturas:** [desktop](../capturas/hashtag-excel-impressionador-desktop.jpg) · [celular](../capturas/hashtag-excel-impressionador-mobile.jpg)
+**Autoridade prévia:** alta — um dos 25 maiores faturamentos da Hotmart; a página declara 3,4 milhões de inscritos nos canais do YouTube e 223 mil alunos (PISTA).
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** menos do que nas outras páginas de infoproduto desta seção. Com cerca de 20 mil anúncios no Google, muito tráfego deve vir de quem busca "curso de Excel" sem conhecer a marca, e a página faz mais trabalho (ementa, prova de carreira, conteúdo para busca). Apoio: volume de anúncios e a segunda metade da página escrita para o Google.
 
 ## Por que está aqui
 

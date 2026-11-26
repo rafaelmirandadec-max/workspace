@@ -6,6 +6,8 @@
 **Ticket visível:** "R$169 R$129 com cupom BLACK2026"; kits com preço por unidade: 1 un. R$ 129, Kit 3 R$ 119/un, Kit 5 R$ 99/un, Kit 10 R$ 89/un
 **Lida em:** 25/11/2026, 15h52 (horário de Brasília), status 200 — com campanha de Black Friday ativa
 **Capturas:** [desktop](../capturas/insider-tech-tshirt-desktop.jpg) · [celular](../capturas/insider-tech-tshirt-mobile.jpg) (o celular foi capturado no modo "costura"; dois pop-ups, de desconto e de aviso de região, foram escondidos para a captura)
+**Autoridade prévia:** alta — marca DTC com faturamento de mais de R$ 500 milhões em 2025 (declarado) e 26 mil avaliações do produto.
+**Quanto da conversão vem da marca (SUPOSIÇÃO):** boa parte. A página de produto é o passo final de quem chega por anúncio ou recompra; as avaliações e a recompra são efeito da marca. Apoio: formato de página de produto padrão e volume de avaliações.
 
 ## Por que está aqui
 
