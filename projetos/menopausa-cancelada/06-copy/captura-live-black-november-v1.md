@@ -145,7 +145,7 @@ Seu primeiro nome
 WhatsApp com DDD
 E-mail (opcional, para receber o lembrete também por e-mail)
 
-[ ] Quero receber o link da live de 30/11 e os avisos da condição de Black November por WhatsApp e, se eu informar, por e-mail. Sei que a minha inscrição mostra à Menopausa Cancelada que me interesso por colágeno e por cuidados depois dos 40, e autorizo o uso dos meus dados só para esses avisos. Posso sair quando quiser, respondendo SAIR. (obrigatório)
+[ ] Quero receber o link da live de 30/11 e os avisos da condição de Black November por WhatsApp e, se eu informar, por e-mail. Sei que a minha inscrição mostra à Menopausa Cancelada que me interesso por colágeno e por cuidados depois dos 40, e autorizo o uso dos meus dados só para esses avisos. Posso sair quando quiser: é só sair do grupo ou mandar SAIR para o número oficial. (obrigatório)
 
 [ ] Quero receber também outros conteúdos e ofertas da Menopausa Cancelada. (opcional)
 
