@@ -59,9 +59,11 @@ Data: 27/11/2026 · Agente: copywriter (Arsenal) · Substitui a v1 no tom (a v1 
 
 LIVE DE BLACK NOVEMBER · SEGUNDA, 30/11 · 19H30 · NO YOUTUBE
 
-# "É da idade"? Aqui a gente cancelou essa frase.
+# Dizem que pele ressecada, unhas quebradiças e queda de cabelo “são da idade”? Por aqui, essa ideia já foi cancelada!
 
-Segunda, às 19h30, a nutricionista Giovanna Agostini entra ao vivo pra falar do que muda na pele, no cabelo e nas unhas depois da menopausa, e do que dá pra fazer no dia a dia pra se cuidar com gosto. No meio da conversa, o colágeno da Menopausa Cancelada sai pela metade do preço. Só ao vivo.
+(Headline e subheadline escritas pelo Rafael em 27/11/2026, substituindo as do copywriter.)
+
+Nesta segunda, às 19h30, teremos um bate-papo exclusivo sobre cuidados com pele, cabelo e unhas pós-menopausa. Aproveite: durante a live, o colágeno da Menopausa Cancelada estará com 50% de desconto!
 
 **Guarda o seu lugar**
 
