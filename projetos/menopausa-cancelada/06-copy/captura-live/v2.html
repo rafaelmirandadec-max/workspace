@@ -75,7 +75,7 @@ p{margin:0 0 1em}
 .form-card .btn{margin-top:8px}
 .fine{font-size:13.5px;color:var(--ink-3);margin:10px 0 0;text-align:center}
 .host-mini{display:flex;gap:12px;align-items:center;margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}
-.avatar{flex:none;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--plum),#b0479f);color:#fff;display:grid;place-items:center;font:700 16px/1 var(--serif)}
+.avatar{flex:none;width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--plum-line)}
 
 /* o que você vai levar */
 .take{background:var(--card);border-block:1px solid var(--line)}
@@ -95,7 +95,7 @@ p{margin:0 0 1em}
 .gio{display:grid;gap:28px;align-items:center}
 @media(min-width:900px){.gio{grid-template-columns:.75fr 1.25fr;gap:60px}}
 .gio-photo{position:relative;aspect-ratio:4/5;border-radius:26px;background:linear-gradient(160deg,#8a1a8f,#3d0044);color:#fff;display:grid;place-items:center;max-width:380px;width:100%}
-.gio-photo span{font:700 84px/1 var(--serif)}
+.gio-photo img{width:100%;height:100%;object-fit:cover;border-radius:26px}
 .gio-photo i{position:absolute;right:-12px;bottom:28px;background:#fff;color:var(--plum);font:800 13px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:10px 14px;border-radius:999px;box-shadow:var(--shadow);font-style:normal}
 .gio .letter{font-size:18px;color:var(--ink-2)}
 .gio .letter p:first-of-type{color:var(--ink)}
@@ -187,7 +187,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px}
         <button class="btn" type="submit">Quero o meu lugar na live <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
       </form>
       <p class="fine">É de graça e leva meio minuto. O link chega no grupo do WhatsApp.</p>
-      <div class="host-mini"><span class="avatar" aria-hidden="true">GA</span><span>Com Giovanna Agostini, nutricionista e sócia da Menopausa Cancelada.</span></div>
+      <div class="host-mini"><img class="avatar" src="img/giovanna-rosto.webp" width="160" height="160" alt=""><span>Com Giovanna Agostini, nutricionista e sócia da Menopausa Cancelada.</span></div>
     </div>
   </div>
 </section>
@@ -210,7 +210,7 @@ footer .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px}
 <!-- [C3] Giovanna -->
 <section class="section" aria-labelledby="gio-t">
   <div class="wrap gio">
-    <div class="gio-photo" aria-hidden="true"><span>GA</span><i>Ao vivo segunda</i></div>
+    <div class="gio-photo"><img src="img/giovanna.webp" width="448" height="560" alt="Giovanna Agostini, nutricionista, sorrindo, de camisa branca" loading="lazy"><i>Ao vivo segunda</i></div>
     <div>
       <span class="eyebrow">Quem é a Giovanna</span>
       <h2 id="gio-t" style="margin-bottom:20px">Quem vai estar do outro lado da tela</h2>
