@@ -57,9 +57,9 @@ Data: 27/11/2026 · Agente: copywriter (Arsenal) · Substitui a v1 no tom (a v1 
 
 [Layout: fundo claro e quente (creme ou rosado suave), sem menu, sem contador. No celular, tudo na primeira tela: sobretítulo, headline, subheadline, formulário e botão. No computador: texto à esquerda, formulário à direita, foto real da Giovanna rindo, com o copo de morango na mão. Nada de close de pele, espelho ou antes e depois. A palavra "cancelou" pode levar o carimbo "CANCELADO" do vídeo do fósforo como elemento gráfico. Caixas de autorização desmarcadas; só a primeira é obrigatória. Pixel com evento genérico de cadastro, sem a palavra "menopausa" nos parâmetros.]
 
-LIVE DE BLACK NOVEMBER · SEGUNDA, 30/11 · 19H30 · NO YOUTUBE
+LIVE DE BLACK NOVEMBER · SEGUNDA, 30/11 · 19H30 · NO INSTAGRAM
 
-# Dizem que pele ressecada, unhas quebradiças e queda de cabelo “são da idade”? Por aqui, essa ideia já foi cancelada!
+# Pele ressecada, unhas quebradiças e queda de cabelo “são da idade”? Por aqui, essa ideia já foi cancelada!
 
 (Headline e subheadline escritas pelo Rafael em 27/11/2026, substituindo as do copywriter.)
 
@@ -150,7 +150,7 @@ Todo novembro tem presente pra filho, pra mãe, pra amiga secreta do trabalho. E
 Não. A conversa é aberta pra todo mundo. O colágeno pela metade do preço é pra quem quiser, e só durante a live.
 
 **E se eu não puder assistir ao vivo?**
-[A PREENCHER: "A gravação fica no YouTube até [data]" ou "A live não fica gravada."] A metade do preço vale só durante a live, até as 21h30. Quem assistir depois não tem a condição.
+[A PREENCHER: "A gravação fica no Instagram até [data]" ou "A live não fica gravada."] A metade do preço vale só durante a live, até as 21h30. Quem assistir depois não tem a condição.
 
 **Posso perguntar sobre o meu caso?**
 Pode mandar a sua dúvida no chat. O que for orientação só pra você, com a sua dieta ou os remédios que você toma, a Giovanna vai pedir pra ver em consulta, com calma.
@@ -208,7 +208,7 @@ O link da live chega no grupo na segunda, às 19h. E é por lá também que sai 
 **Hoje:** você entra no grupo e recebe as boas-vindas.
 **Fim de semana:** um aquecimento e um lembrete.
 **Segunda, 19h:** o link da live chega no grupo.
-**Segunda, 19h30:** a gente entra ao vivo no YouTube. A metade do preço vale até as 21h30.
+**Segunda, 19h30:** a gente entra ao vivo no Instagram, no @menopausa.cancelada. A metade do preço vale até as 21h30.
 
 ## [O4] Pra não esquecer
 

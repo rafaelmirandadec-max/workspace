@@ -42,7 +42,7 @@ Data: 27/11/2026 · Agente: copywriter (Arsenal) · Substitui a v1 no tom (a v1 
 >
 > Este é o grupo da *Live de Black November* da Menopausa Cancelada.
 >
-> *Segunda, 30/11, às 19h30*, no YouTube, a Giovanna Agostini (nutricionista e sócia da Menopausa Cancelada) entra ao vivo pra falar de pele, cabelo e unhas depois da menopausa. Sem sermão e sem "é da idade".
+> *Segunda, 30/11, às 19h30*, no Instagram (@menopausa.cancelada), a Giovanna Agostini (nutricionista e sócia da Menopausa Cancelada) entra ao vivo pra falar de pele, cabelo e unhas depois da menopausa. Sem sermão e sem "é da idade".
 >
 > E só durante a live, o nosso colágeno sai pela *metade do preço*.
 >
@@ -116,14 +116,14 @@ Data: 27/11/2026 · Agente: copywriter (Arsenal) · Substitui a v1 no tom (a v1 
 ## [M6] O link da live
 
 **Envio:** segunda, 30/11, às 19h.
-**Mídia:** nenhuma (a prévia do YouTube aparece sozinha).
+**Mídia:** nenhuma (a prévia do perfil no Instagram aparece sozinha). [LINK_LIVE] = link do perfil @menopausa.cancelada ou da live agendada.
 
-> 📲 *O link da live tá aqui:*
+> 📲 *A live é no nosso Instagram:*
 > [LINK_LIVE]
 >
-> Começa às 19h30. Entra agora e toca em *Notifique-me* pra não perder o começo.
+> Começa às 19h30. Entra no perfil agora e toca em *Lembrar-me* na live agendada pra não perder o começo.
 
-**Versão curta (lista de transmissão):** Live às 19h30, o link já tá aqui: [LINK_LIVE]
+**Versão curta (lista de transmissão):** Live às 19h30 no nosso Instagram, o link já tá aqui: [LINK_LIVE]
 
 ## [M7] Começou
 
@@ -191,7 +191,7 @@ Data: 27/11/2026 · Agente: copywriter (Arsenal) · Substitui a v1 no tom (a v1 
 >
 > Quem garantiu o seu recebe as informações do pedido por aqui no WhatsApp. Dúvida? Chama no [NUMERO_OFICIAL].
 >
-> [Com gravação: "Perdeu um pedaço? A gravação fica no YouTube até [data]. A condição era só ao vivo."]
+> [Com gravação: "Perdeu um pedaço? A gravação fica no perfil do Instagram até [data]. A condição era só ao vivo."]
 > [A PREENCHER: o que acontece com o grupo depois, por exemplo "Este grupo fecha na quinta, 03/12."]
 
 (Sem link. Se a cliente quiser prorrogar, isso precisa ser decidido antes da live e escrito na página e na M8. Esta mensagem não anuncia prorrogação.)
