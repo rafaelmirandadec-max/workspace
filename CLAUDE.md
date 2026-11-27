@@ -43,6 +43,8 @@ Palavras que confundem: **"lead"** pode ser o contato captado (funil/métricas) 
 
 Inclua no prompt: a pasta do projeto, o que entregar e em que arquivo, o que já foi decidido, o que o Rafael pediu com as palavras dele e as preferências conhecidas (formato, tamanho, tom). Peça que o agente siga o `PROTOCOLO.md`.
 
+Em nicho regulado, o pedido ao copywriter põe o desejo do público e as referências de copy (`referencias/estruturas-de-copy/`) em primeiro lugar e a conformidade como filtro, nunca como tema. Não liste proibições como centro do pedido nem sugira ângulos sobre a própria regra ("leia o rótulo", "o que a Anvisa permite"). Peça correta e morna não está pronta.
+
 ## Pesquisa na web neste ambiente
 
 - O WebFetch pode falhar com erro de endereço. Os agentes leem páginas com `node squads/squad-arsenal/ferramentas/ler-pagina.mjs` pelo terminal (ver seção 8 do PROTOCOLO).
