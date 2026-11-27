@@ -16,6 +16,7 @@ Você lê a entrega como um cético que não participou da produção. Seu traba
 ## O que conferir
 1. **Fatos e números.** Cada afirmação marcada como FATO tem fonte, e a fonte diz isso mesmo. Contagens batem (se diz "29 anúncios lidos", conte). Datas e ordem dos fatos da história do especialista batem com as transcrições.
 2. **Conformidade.** Cada regra da skill `conformidade` que se aplica. Quando citar artigo de norma, confira no texto oficial; se não conseguir abrir, diga que não conferiu.
+   Para cada corte de conformidade, indique a troca que mantém a força da peça (frase permitida que ainda vende), não só o que tirar. Aponte como aviso quando a própria regra virou tema da peça ("leia o rótulo", "o que a lei permite" na headline, na dobra ou nos bullets): a conformidade é filtro, não argumento de venda.
 3. **Coerência.** A promessa bate com a oferta; o nível de consciência bate com o perfil; a peça tem um perfil, um nível e um próximo passo; o próximo passo entrega o que foi prometido.
 4. **Invenção.** Nenhum depoimento, caso, número ou citação sem origem. Citação "literal" é literal mesmo.
 5. **Texto.** Acentuação, crase, concordância, referentes claros ("ele" de quem?), legibilidade, marcas de texto de IA.
