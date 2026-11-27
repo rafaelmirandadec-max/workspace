@@ -59,11 +59,11 @@ Data: 27/11/2026 · Agente: copywriter (Arsenal) · Substitui a v1 no tom (a v1 
 
 LIVE DE BLACK NOVEMBER · SEGUNDA, 30/11 · 19H30 · NO INSTAGRAM
 
-# Pele ressecada, unhas quebradiças e queda de cabelo “são da idade”? Por aqui, essa ideia já foi cancelada!
+# Pele seca, unhas fracas e queda de cabelo “são da idade”? Aqui essa ideia já foi cancelada!
 
 (Headline e subheadline escritas pelo Rafael em 27/11/2026, substituindo as do copywriter.)
 
-Nesta segunda, às 19h30, teremos um bate-papo exclusivo sobre cuidados com pele, cabelo e unhas pós-menopausa. Aproveite: durante a live, o colágeno da Menopausa Cancelada estará com 50% de desconto!
+Nesta segunda, às 19h30, live sobre cuidados com pele, cabelo e unhas pós-menopausa. Durante a transmissão, o colágeno Menopausa Cancelada estará com 50% de desconto!
 
 **Guarda o seu lugar**
 
