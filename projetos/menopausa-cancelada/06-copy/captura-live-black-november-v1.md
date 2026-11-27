@@ -200,7 +200,7 @@ Fala de alimentação e suplementação depois dos 40 no @menopausa.cancelada, c
 
 **Declaração de conflito de interesses:** Giovanna é [A PREENCHER: sócia / responsável técnica] da Menopausa Cancelada, a empresa que vende o colágeno desta live. Por isso a live mostra o rótulo e a regra, em vez de pedir que você acredite na palavra dela.
 
-## [C4] A condição de 50%: as regras
+## [C4] A condição de 50%: as regras (REMOVIDO da página em 27/11/2026, a pedido do Rafael; as regras passam a ser ditas na live e na mensagem M8 do grupo)
 
 [Layout: um cartão com borda, fundo neutro, cada regra numa linha com o rótulo em negrito. Sem preço riscado, sem "de/por", sem "% OFF" em selo, sem contador, sem faixa de estoque, sem "últimas unidades". Se houver limite real de unidades, escrever o número exato numa linha "Quantidade:"; se não houver, nada sobre estoque. As linhas com [A PREENCHER] não sobem sem resposta. A linha da garantia só entra se a cliente confirmar.]
 
