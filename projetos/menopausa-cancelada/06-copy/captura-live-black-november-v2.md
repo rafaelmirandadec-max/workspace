@@ -65,7 +65,7 @@ LIVE DE BLACK NOVEMBER · SEGUNDA, 30/11 · 19H30 · NO INSTAGRAM
 
 Nesta segunda, às 19h30, live sobre cuidados com pele, cabelo e unhas pós-menopausa. Durante a transmissão, o colágeno Menopausa Cancelada estará com 50% de desconto!
 
-**Guarda o seu lugar**
+**Inscreva-se gratuitamente**
 
 Seu primeiro nome
 Seu WhatsApp com DDD
